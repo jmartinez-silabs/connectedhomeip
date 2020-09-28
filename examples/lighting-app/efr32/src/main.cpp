@@ -85,6 +85,8 @@ extern "C" void vApplicationIdleHook(void)
     Internal::EFR32Config::RepackNvm3Flash();
 }
 
+#include "FreeRTOSConfig.h"
+
 // ================================================================================
 // Main Code
 // ================================================================================
@@ -94,6 +96,10 @@ int main(void)
 
 #if CHIP_ENABLE_OPENTHREAD
     initOtSysEFR();
+    for (IRQn_Type i = (IRQn_Type)0; i < EXT_IRQ_COUNT; i = (IRQn_Type)((int)i + 1))
+    {
+        NVIC_SetPriority(i, configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY);
+    }
 #else
     initMcu();
     initBoard();

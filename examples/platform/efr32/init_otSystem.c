@@ -88,7 +88,7 @@ void initOtSysEFR(void)
     CMU_ClockEnable(cmuClock_CORELE, true);
 #elif defined(EFR32MG21)
     CMU_OscillatorEnable(cmuOsc_LFRCO, true, true);	
-#endif
+#endif /* EFR32 PLATFORM */
     CMU_ClockEnable(cmuClock_RTCC, true);
 
     status = sl_sleeptimer_init();
@@ -107,6 +107,8 @@ void initOtSysEFR(void)
     efr32RadioInit();
     efr32AlarmInit();
     efr32MiscInit();
-    // efr32RandomInit();
+#if defined(EFR32MG12P)
+    efr32RandomInit();
+#endif /* EFR32 PLATFORM */
     otHeapSetCAllocFree(calloc, free);
 }
