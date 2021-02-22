@@ -29,6 +29,10 @@
 #include <platform/ConfigurationManager.h>
 #include <platform/EFR32/EFR32Config.h>
 
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
+#include "sl_wfx_host_events.h"
+#endif
+
 namespace chip {
 namespace DeviceLayer {
 
@@ -127,9 +131,24 @@ void ConfigurationManagerImpl::DoFactoryReset(intptr_t arg)
 
 #endif // CHIP_DEVICE_CONFIG_ENABLE_THREAD
 
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
+    ChipLogProgress(DeviceLayer, "Clearing WiFi provision");
+    wfx_clear_wifi_provision();
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
+
     // Restart the system.
     ChipLogProgress(DeviceLayer, "System restarting");
     NVIC_SystemReset();
+}
+
+CHIP_ERROR ConfigurationManagerImpl::_GetPrimaryWiFiMACAddress(uint8_t * buf)
+{
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
+    sl_wfx_mac_address_t wfxMADAddr;
+    wfxMADAddr = wfx_get_wifi_mac_addr(SL_WFX_STA_INTERFACE);
+    memcpy(buf, &wfxMADAddr.octet[0], sizeof(wfxMADAddr.octet));
+#endif
+    return CHIP_ERROR_NOT_IMPLEMENTED;
 }
 
 } // namespace DeviceLayer

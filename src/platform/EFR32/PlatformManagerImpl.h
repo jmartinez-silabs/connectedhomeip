@@ -47,7 +47,9 @@ class PlatformManagerImpl final : public PlatformManager, public Internal::Gener
 public:
     // ===== Platform-specific members that may be accessed directly by the application.
 
-    /* none so far */
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
+    void HandleWFXSystemEvent(wfx_event_base_t eventBase, sl_wfx_generic_message_t * eventData);
+#endif
 
 private:
     // ===== Methods that implement the PlatformManager abstract interface.

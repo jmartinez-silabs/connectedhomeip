@@ -12,16 +12,25 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# add this gni as import in your build args to use pigweed in the example
-# 'import("//with_pw_rpc.gni")'
-
 import("//build_overrides/chip.gni")
-import("${chip_root}/config/efr32/lib/pw_rpc/pw_rpc.gni")
-import("${chip_root}/src/platform/EFR32/args.gni")
+import("//build_overrides/efr32_sdk.gni")
 
-efr32_sdk_target = get_label_info(":sdk", "label_no_toolchain")
+import("${chip_root}/examples/platform/efr32/args.gni")
 
-chip_enable_pw_rpc = true
-chip_enable_openthread = true
+# ARM architecture flags will be set based on efr32_family.
+arm_platform_config = "${efr32_sdk_build_root}/efr32_arm.gni"
 
-cpp_standard = "gnu++17"
+mbedtls_target = "${efr32_sdk_build_root}:efr32_sdk"
+
+lwip_platform = "efr32"
+lwip_ipv6 = true
+lwip_ipv4 = true
+lwip_api = true
+lwip_ethernet = true
+
+chip_device_platform = "efr32"
+chip_enable_openthread = false
+chip_inet_config_enable_ipv4 = true
+chip_inet_config_enable_dns_resolver = false
+
+chip_build_tests = false

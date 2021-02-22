@@ -34,8 +34,6 @@
 #define INET_CONFIG_ERROR_MIN 1000000
 #define INET_CONFIG_ERROR_MAX 1000999
 
-#define INET_CONFIG_ENABLE_IPV4 0
-
 // ========== Platform-specific Configuration Overrides =========
 
 #ifndef INET_CONFIG_NUM_TCP_ENDPOINTS

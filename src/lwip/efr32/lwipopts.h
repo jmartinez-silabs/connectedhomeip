@@ -72,13 +72,19 @@
 
 #define MEMP_NUM_NETCONN (0)
 
+#ifndef LWIP_IPV4
 #define LWIP_IPV4 0
+#endif
 #define LWIP_IPV6 1
+#ifndef LWIP_ARP
 #define LWIP_ARP (0)
+#endif
 #define LWIP_DNS (0)
 #define LWIP_ICMP (0)
 #define LWIP_IGMP (0)
+#ifndef LWIP_DHCP
 #define LWIP_DHCP (0)
+#endif
 #define LWIP_IPV6_REASS (0)
 #define LWIP_IPV6_DHCP6 0
 #define LWIP_IPV6_AUTOCONFIG (0)
@@ -132,7 +138,9 @@
 
 #define LWIP_IPV6_NUM_ADDRESSES 5
 
+#ifndef LWIP_IPV6_ND
 #define LWIP_IPV6_ND 0
+#endif
 #define LWIP_ND6_QUEUEING 0
 
 #define LWIP_MULTICAST_PING 0

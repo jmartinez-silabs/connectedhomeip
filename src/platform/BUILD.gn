@@ -426,6 +426,15 @@ if (chip_device_platform != "none" && chip_device_platform != "external") {
           "OpenThread/OpenThreadUtils.cpp",
         ]
       }
+      else {
+        sources += [
+          "EFR32/WFXUtils.cpp",
+          "EFR32/WFXUtils.h",
+          "EFR32/NetworkProvisioningServerImpl.h",
+          "EFR32/ServiceProvisioning.cpp",
+          "EFR32/ServiceProvisioning.h",
+        ]
+      }
     } else if (chip_device_platform == "esp32") {
       sources += [
         "ESP32/BLEManagerImpl.h",

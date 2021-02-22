@@ -37,6 +37,13 @@ template("efr32_sdk") {
   }
 
   assert(efr32_sdk_root != "", "efr32_sdk_root must be specified")
+  
+  use_wfx_board = false
+  if (defined(invoker.wfx_extension_board) ) {
+      if (invoker.wfx_extension_board) {
+        use_wfx_board = true
+      }
+  }
 
   sdk_target_name = target_name
 
@@ -203,6 +210,16 @@ template("efr32_sdk") {
       defines += [
         "EFR32MG21",
         "EFR32_SERIES2_CONFIG1_MICRO",
+      ]
+    }
+
+    if (use_wfx_board) {
+      _include_dirs += [
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver",
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/bus",
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/firmware",
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/pds/brd8022a",
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/secure_link",
       ]
     }
 
@@ -382,6 +399,15 @@ template("efr32_sdk") {
           "${efr32_sdk_root}/util/silicon_labs/silabs_core/graphics/graphics.c",
         ]
       }
+    }
+
+    if (use_wfx_board) {
+      sources += [
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/sl_wfx.c",
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/bus/sl_wfx_bus.c",
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/bus/sl_wfx_bus_spi.c",
+        "${efr32_sdk_root}/platform/radio/wifi/wfx_fmac_driver/secure_link/sl_wfx_secure_link.c",
+      ]
     }
 
     if (efr32_family == "efr32mg12") {
