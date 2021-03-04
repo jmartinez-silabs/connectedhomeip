@@ -107,8 +107,7 @@ efr32_executable("wf200_lock_app") {
   ]
 
   sources = [
-    "${examples_plat_dir}/${efr32_family}/${efr32_board}/init_board.c",
-    "${examples_plat_dir}/${efr32_family}/${efr32_board}/init_mcu.c",
+    "${examples_plat_dir}/init_efrPlatform.cpp",
     "${examples_plat_dir}/LEDWidget.cpp",
     "${examples_plat_dir}/lwip_host/ethernetif.cpp",
     "${examples_plat_dir}/lwip_host/apps/dhcp_client.cpp",

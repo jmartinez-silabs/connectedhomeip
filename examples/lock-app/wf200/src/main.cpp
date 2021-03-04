@@ -37,8 +37,7 @@
 #include "AppConfig.h"
 #include "DataModelHandler.h"
 #include "Server.h"
-#include "init_board.h"
-#include "init_mcu.h"
+#include "init_efrPlatform.h"
 
 #include "demo_config.h"
 #include "sl_wfx_host.h"
@@ -85,15 +84,7 @@ int main(void)
 {
     int ret = CHIP_ERROR_MAX;
 
-    initMcu();
-    initBoard();
-    // efr32RandomInit();
-#if DISPLAY_ENABLED
-    initLCD();
-#endif
-#if EFR32_LOG_ENABLED
-    efr32LogInit();
-#endif
+    init_efrPlatform();
 
     mbedtls_platform_set_calloc_free(CHIPPlatformMemoryCalloc, CHIPPlatformMemoryFree);
 
@@ -131,7 +122,6 @@ int main(void)
 #ifdef SL_WFX_USE_SECURE_LINK
     wfx_securelink_task_start(); // start securelink key renegotiation task
 #endif                           // SL_WFX_USE_SECURE_LINK
-
 
     EFR32_LOG("Starting App Task");
     ret = GetAppTask().StartAppTask();
