@@ -641,8 +641,8 @@ sl_status_t lwip_set_sta_link_down(void)
  ******************************************************************************/
 sl_status_t wfx_wifi_start(void)
 {
-    /* Create tcp_ip stack thread */
-    // tcpip_init(NULL, NULL);
+    EFR32_LOG("STARTING WF200");
+    sl_wfx_host_gpio_init();
 
     sl_status_t status = wfx_init();
     if (status == SL_STATUS_OK)

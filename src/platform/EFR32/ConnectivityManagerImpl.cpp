@@ -248,7 +248,7 @@ void ConnectivityManagerImpl::DriveStationState()
         err = Internal::WFXUtils::StartWiFiLayer();
         SuccessOrExit(err);
 
-        // Ensure that station mode is enabled in the ESP WiFi layer.
+        // Ensure that station mode is enabled in the WFX WiFi layer.
         err = Internal::WFXUtils::EnableStationMode();
         SuccessOrExit(err);
     }
