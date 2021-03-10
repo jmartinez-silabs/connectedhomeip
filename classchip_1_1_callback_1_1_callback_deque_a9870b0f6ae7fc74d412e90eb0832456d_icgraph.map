@@ -1,0 +1,6 @@
+<map id="chip::Callback::CallbackDeque::First" name="chip::Callback::CallbackDeque::First">
+<area shape="rect" id="node1" title="returns first item unless list is empty, otherwise returns NULL" alt="" coords="365,39,543,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a9f8401330ab67d20a0b7f962550f8b02" title="Prepare the sets of file descriptors for select() to work with." alt="" coords="167,5,317,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_layer.html#acdfa234a097e97625e67894292fa648a" title="This method starts a one&#45;shot timer." alt="" coords="167,71,317,112"/>
+<area shape="rect" id="node3" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2d24b8806b75aeb1b49b95919f4ea747" title=" " alt="" coords="5,13,119,39"/>
+</map>

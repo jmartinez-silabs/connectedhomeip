@@ -1,0 +1,8 @@
+<map id="chip::Inet::IPEndPointBasis::HandleDataReceived" name="chip::Inet::IPEndPointBasis::HandleDataReceived">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,200,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#aa78d7d6a5b4cf87ad58569df772a7a8b" title="Get LwIP IP layer source and destination addressing information." alt="" coords="248,71,443,112"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html#ac2e32db66d6fc0d6386f80aef77b60bd" title="Ensure the buffer has at least the specified amount of reserved space." alt="" coords="491,37,685,79"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="491,103,685,144"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="733,5,928,47"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer.html#abbe23fb3ab616eb2a0d656371a2d18f1" title="Get the number of bytes within the current buffer between the start of the buffer and the current dat..." alt="" coords="733,71,928,112"/>
+</map>

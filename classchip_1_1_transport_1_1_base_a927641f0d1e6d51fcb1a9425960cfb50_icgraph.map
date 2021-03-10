@@ -1,0 +1,4 @@
+<map id="chip::Transport::Base::SendMessage" name="chip::Transport::Base::SendMessage">
+<area shape="rect" id="node1" title="Send a message to the specified target." alt="" coords="228,5,385,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_mgr_base.html#a4d8cd391a939ca0cf409f0f283933afb" title=" " alt="" coords="5,5,180,47"/>
+</map>

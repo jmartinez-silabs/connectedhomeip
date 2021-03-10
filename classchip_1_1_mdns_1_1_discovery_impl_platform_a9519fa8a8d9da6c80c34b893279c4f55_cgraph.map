@@ -1,0 +1,4 @@
+<map id="chip::Mdns::DiscoveryImplPlatform::StopPublishDevice" name="chip::Mdns::DiscoveryImplPlatform::StopPublishDevice">
+<area shape="rect" id="node1" title="This function stops publishing the device on mDNS." alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="260,5,453,47"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="chip::Inet::RawEndPoint::BindIPv6LinkLocal" name="chip::Inet::RawEndPoint::BindIPv6LinkLocal">
+<area shape="rect" id="node1" title="Bind the raw endpoint to an IPv6 link&#45;local scope address at the specified interface index." alt="" coords="5,115,180,156"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#ae4fcb4c5b36e14b3b3e97f748dd7b74d" title="Test whether address is IPv6 link&#45;local address (LL)." alt="" coords="257,5,411,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system.html#a2475d04e0f6c3f34aa6bab671ecb8eca" title="This implements a mapping function for CHIP System Layer errors that allows mapping underlying LwIP n..." alt="" coords="233,71,435,98"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="228,122,440,149"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="257,173,411,215"/>
+<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a" title="Extract the type of the IP address." alt="" coords="257,239,411,280"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a5b9c196fdd524001f536e328b47e04fa" title=" " alt="" coords="488,71,571,98"/>
+<area shape="rect" id="node7" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="490,181,569,207"/>
+</map>

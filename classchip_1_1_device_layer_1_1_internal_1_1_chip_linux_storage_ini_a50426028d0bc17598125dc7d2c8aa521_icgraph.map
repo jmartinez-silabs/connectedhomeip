@@ -1,0 +1,7 @@
+<map id="chip::DeviceLayer::Internal::ChipLinuxStorageIni::RemoveAll" name="chip::DeviceLayer::Internal::ChipLinuxStorageIni::RemoveAll">
+<area shape="rect" id="node1" title=" " alt="" coords="767,45,961,101"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#aa0876da19673838743fae1e7cc48b791" title=" " alt="" coords="524,5,719,61"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini.html#a6252849098dce7ac4f94372e49f929c2" title=" " alt="" coords="524,85,719,141"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#a0d1dc2efbfb470a0b16982431d0c57ed" title=" " alt="" coords="253,93,476,134"/>
+<area shape="rect" id="node5" href="$classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html#aa5d542981f5558fc8629efd1dfa05fd6" title="Initalize the KVS, must be called before using." alt="" coords="5,85,205,141"/>
+</map>

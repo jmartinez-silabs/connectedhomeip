@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::Internal::GenericThreadStackManagerImpl_FreeRTOS::SignalThreadActivityPending" name="chip::DeviceLayer::Internal::GenericThreadStackManagerImpl_FreeRTOS::SignalThreadActivityPending">
+<area shape="rect" id="node1" title=" " alt="" coords="233,5,504,76"/>
+<area shape="rect" id="node2" href="$cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html#a98d12345d246d5e55b6c8d749e771ac3" title="Glue function called directly by the OpenThread stack when tasklet processing work is pending." alt="" coords="5,27,185,54"/>
+</map>

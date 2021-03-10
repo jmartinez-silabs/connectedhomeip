@@ -1,0 +1,6 @@
+<map id="chip::System::FormatLwIPError" name="chip::System::FormatLwIPError">
+<area shape="rect" id="node1" title="Given an LwIP error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="5,56,227,83"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system.html#a446bcb9ad448efae4ba29d31fd826ef8" title="This implements a function to return an NULL&#45;terminated LwIP&#45;specific descriptive C string,..." alt="" coords="275,5,507,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system.html#a16b6ca60b95e36e451fe73a71c0d4171" title="This implements an introspection function for CHIP System Layer errors that allows the caller to dete..." alt="" coords="555,31,741,57"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="323,107,458,133"/>
+</map>

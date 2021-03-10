@@ -1,0 +1,17 @@
+<map id="chip::System::Layer::HandleSelectResult" name="chip::System::Layer::HandleSelectResult">
+<area shape="rect" id="node1" title="Handle I/O from a select call." alt="" coords="5,347,163,389"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_system_wake_event.html#afb467335d6c60aa671f93327c94a51dc" title="Clear the event." alt="" coords="211,61,409,102"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_layer.html#aa6cb2f68eb14a510eb6a2197a53b6042" title="Run any timers that are due based on input current time." alt="" coords="216,187,404,229"/>
+<area shape="rect" id="node10" href="$classchip_1_1_system_1_1_timer.html#a4254d91b87cd634367712dc282f4f371" title="Compares two Timer::Epoch values and returns true if the first value is earlier than the second value..." alt="" coords="738,271,890,313"/>
+<area shape="rect" id="node11" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="257,355,363,381"/>
+<area shape="rect" id="node13" href="$classchip_1_1_system_1_1_timer.html#a2188f59a55006505705544b570a543e7" title="This method returns the current epoch, corrected by system sleep with the system timescale,..." alt="" coords="234,406,386,447"/>
+<area shape="rect" id="node14" href="$classchip_1_1_system_1_1_system_wake_event.html#a9c5b8eef0c84b981f3c21d36320f1415" title=" " alt="" coords="211,471,409,513"/>
+<area shape="rect" id="node15" href="$classchip_1_1_system_1_1_layer.html#ae53b05f9b8d35810313f1657cfca1ebe" title="This returns the current state of the layer object." alt="" coords="235,537,385,578"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="457,5,669,32"/>
+<area shape="rect" id="node5" href="$classchip_1_1_callback_1_1_callback.html#a30a6f6aeb0456fbc6a9d1c66c4d91e6f" title="Cancel, i.e." alt="" coords="475,57,652,98"/>
+<area shape="rect" id="node7" href="$classchip_1_1_callback_1_1_callback_deque.html#a5fc8e8f9b93574368f91e5db215e8a98" title="dequeue, but don&#39;t cancel, all cas that match the by()" alt="" coords="475,122,652,163"/>
+<area shape="rect" id="node8" href="$classchip_1_1_callback_1_1_callback.html#a03687c20130a5f9a3066c33a95d66eb1" title="TODO: type&#45;safety? It&#39;d be nice if Cancelables that aren&#39;t Callbacks returned null here." alt="" coords="475,187,652,229"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_system.html#a25d3a94ef8ce5e9934f0bdbd8c7324c8" title=" " alt="" coords="467,253,660,280"/>
+<area shape="rect" id="node6" href="$classchip_1_1_callback_1_1_cancelable.html#a741ee7f3ebb708de9a3b8c973ace2cb2" title="run whatever function the callee/registrar has specified in order to clean up any resource allocation..." alt="" coords="717,57,911,98"/>
+<area shape="rect" id="node12" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="496,355,631,381"/>
+</map>

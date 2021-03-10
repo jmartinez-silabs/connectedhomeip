@@ -1,0 +1,6 @@
+<map id="chip::PacketHeader::Encode" name="chip::PacketHeader::Encode">
+<area shape="rect" id="node1" title="Encodes a header into the given buffer." alt="" coords="235,71,381,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_packet_header.html#af4e2746179d7236c91c10e95c3044773" title="A version of Encode that uses the type system to determine available space." alt="" coords="23,5,169,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_packet_header.html#a639ef8a0eaf77b802111b813798dd18e" title="A version of Encode that encodes into a PacketBuffer at the start of the current data space." alt="" coords="23,71,169,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="5,136,187,177"/>
+</map>

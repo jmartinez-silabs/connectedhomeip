@@ -1,0 +1,6 @@
+<map id="mdns::Minimal::Internal::QueryResponderInfo" name="mdns::Minimal::Internal::QueryResponderInfo">
+<area shape="rect" id="node1" title="Internal information for query responder records." alt="" coords="214,199,391,240"/>
+<area shape="rect" id="node2" href="$structmdns_1_1_minimal_1_1_query_responder_record.html" title="Represents available data (replies) for mDNS queries." alt="" coords="5,95,240,136"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_responder.html" title="Adds ability to respond with specific types of data." alt="" coords="25,5,221,32"/>
+<area shape="rect" id="node4" href="$structmdns_1_1_minimal_1_1_full_q_name.html" title="A list of QNames that is simple to pass around." alt="" coords="263,102,462,129"/>
+</map>

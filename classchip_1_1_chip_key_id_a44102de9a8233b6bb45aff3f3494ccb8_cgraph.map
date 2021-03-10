@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::IsGeneralKey" name="chip::ChipKeyId::IsGeneralKey">
+<area shape="rect" id="node1" title="Determine whether the specified key ID is of a general type." alt="" coords="5,5,221,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#abca0f855eb71f6539e7312ac33b586db" title="Get CHIP key type of the specified key ID." alt="" coords="269,5,452,32"/>
+</map>

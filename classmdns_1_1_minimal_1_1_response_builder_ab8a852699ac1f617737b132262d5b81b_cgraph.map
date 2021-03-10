@@ -1,0 +1,21 @@
+<map id="mdns::Minimal::ResponseBuilder::AddQuery" name="mdns::Minimal::ResponseBuilder::AddQuery">
+<area shape="rect" id="node1" title=" " alt="" coords="5,492,241,533"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_data.html#a62a20b78456ca1451dc5c2098fb30cb6" title="Write out this query data back into an output buffer." alt="" coords="289,235,487,276"/>
+<area shape="rect" id="node14" href="$classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="291,492,485,533"/>
+<area shape="rect" id="node15" href="$classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="543,463,737,504"/>
+<area shape="rect" id="node18" href="$classchip_1_1_system_1_1_packet_buffer.html#a66dbb9c3b0110f2304d5e521c4d40570" title="Set the length, in bytes, of data in a packet buffer, adjusting total length accordingly." alt="" coords="291,557,485,599"/>
+<area shape="rect" id="node19" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="291,623,485,664"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#a87596ef551ae124dbde4514929745c9b" title=" " alt="" coords="535,5,745,47"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#aae2672de215e8833440adc79ddf69ff0" title=" " alt="" coords="535,71,745,112"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#ae867bf99df60e2a6ce48f59f5b55a4b0" title=" " alt="" coords="535,136,745,177"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_query_data.html#a888706838d8abeb4a126aff88068c591" title=" " alt="" coords="541,201,739,243"/>
+<area shape="rect" id="node9" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#aeefa710ae205ad39df5eaa7824d1d0bb" title=" " alt="" coords="535,267,745,308"/>
+<area shape="rect" id="node10" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#ae41cd0b78c19aa587666b64ba2350b9b" title=" " alt="" coords="545,332,735,373"/>
+<area shape="rect" id="node13" href="$classmdns_1_1_minimal_1_1_header_ref.html#a60d42531dc51f731b5f8d3dcc8adc78d" title=" " alt="" coords="542,397,738,439"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#addf62d8d8e0f5250678c6194132de4b6" title=" " alt="" coords="793,104,1004,145"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a243b499fbaf3008052cb5546547fffc3" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 16&#45;bit value from the sp..." alt="" coords="1052,104,1241,145"/>
+<area shape="rect" id="node11" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a6bf07bdf57579d2bb36362da941ab679" title="Advances to the next element in the sequence Returns true if new data was available." alt="" coords="803,300,994,341"/>
+<area shape="rect" id="node12" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#ab75bb7446a0d88fc3205cc233fe732f8" title="Valid IFF Next() returned true." alt="" coords="803,365,994,407"/>
+<area shape="rect" id="node16" href="$classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="543,528,737,569"/>
+<area shape="rect" id="node17" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="801,528,996,569"/>
+</map>

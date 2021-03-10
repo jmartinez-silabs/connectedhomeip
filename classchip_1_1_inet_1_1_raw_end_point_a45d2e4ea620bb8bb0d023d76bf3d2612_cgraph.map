@@ -1,0 +1,6 @@
+<map id="chip::Inet::RawEndPoint::SendTo" name="chip::Inet::RawEndPoint::SendTo">
+<area shape="rect" id="node1" title="Send an ICMP message to the specified destination address." alt="" coords="5,39,180,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_packet_info.html#a5da6a2b764caea96e71cbdf282305e9b" title="Reset the members of the IPPacketInfo object." alt="" coords="231,5,400,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_raw_end_point.html#aac4f5cf512c976842613f1391931ab0b" title="Send an ICMP message to the specified destination." alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a" title="Extract the type of the IP address." alt="" coords="451,71,604,112"/>
+</map>

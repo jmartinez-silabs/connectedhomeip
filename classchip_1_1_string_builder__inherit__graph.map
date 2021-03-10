@@ -1,0 +1,4 @@
+<map id="chip::StringBuilder&lt; kSize &gt;" name="chip::StringBuilder&lt; kSize &gt;">
+<area shape="rect" id="node1" title="a preallocated sized string builder" alt="" coords="21,80,163,121"/>
+<area shape="rect" id="node2" href="$classchip_1_1_string_builder_base.html" title="Build a c&#45;style string out of distinct parts." alt="" coords="5,5,179,32"/>
+</map>

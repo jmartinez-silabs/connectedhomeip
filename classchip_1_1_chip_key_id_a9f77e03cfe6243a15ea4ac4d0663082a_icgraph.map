@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::MakeAppStaticKeyId" name="chip::ChipKeyId::MakeAppStaticKeyId">
+<area shape="rect" id="node1" title="Construct application static key ID given constituent key IDs." alt="" coords="235,5,425,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#ac67ab3eb51a2a7b00fe0ca2b63462f36" title="Convert application key ID to application static key ID." alt="" coords="5,5,187,47"/>
+</map>

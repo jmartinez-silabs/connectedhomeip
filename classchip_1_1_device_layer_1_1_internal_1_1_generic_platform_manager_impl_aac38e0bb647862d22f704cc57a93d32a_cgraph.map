@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_RemoveEventHandler" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_RemoveEventHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,248,61"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="296,20,499,47"/>
+</map>

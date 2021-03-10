@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::ConfigurationManager" name="chip::DeviceLayer::ConfigurationManager">
+<area shape="rect" id="node1" title="Provides access to runtime and build&#45;time configuration information for a chip device." alt="" coords="19,5,186,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_configuration_manager_impl.html" title="Concrete implementation of the ConfigurationManager singleton object for the CC13X2_26X2 platform." alt="" coords="5,95,200,136"/>
+</map>

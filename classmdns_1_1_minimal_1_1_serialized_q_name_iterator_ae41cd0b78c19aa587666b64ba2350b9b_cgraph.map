@@ -1,0 +1,5 @@
+<map id="mdns::Minimal::SerializedQNameIterator::Put" name="mdns::Minimal::SerializedQNameIterator::Put">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,196,80"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a6bf07bdf57579d2bb36362da941ab679" title="Advances to the next element in the sequence Returns true if new data was available." alt="" coords="244,5,435,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#ab75bb7446a0d88fc3205cc233fe732f8" title="Valid IFF Next() returned true." alt="" coords="244,71,435,112"/>
+</map>

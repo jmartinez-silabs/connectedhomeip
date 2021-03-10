@@ -1,0 +1,4 @@
+<map id="chip::Transport::PeerConnectionState::GetLastActivityTimeMs" name="chip::Transport::PeerConnectionState::GetLastActivityTimeMs">
+<area shape="rect" id="node1" title=" " alt="" coords="349,13,576,54"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_connections.html#af3fb7eaf4212a92f4e7f0fb01bf75496" title="Iterates through all active connections and expires any connection with an idle time larger than the ..." alt="" coords="5,5,301,61"/>
+</map>

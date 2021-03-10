@@ -1,0 +1,4 @@
+<map id="chip::Inet::RawEndPoint::Close" name="chip::Inet::RawEndPoint::Close">
+<area shape="rect" id="node1" title="Close the endpoint." alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6d70b1376048c6cfacc6dde91f5cdfde" title="Close the endpoint and recycle its memory." alt="" coords="5,5,180,47"/>
+</map>

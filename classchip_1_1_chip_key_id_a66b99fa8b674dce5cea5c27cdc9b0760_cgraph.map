@@ -1,0 +1,6 @@
+<map id="chip::ChipKeyId::IsSameKeyOrGroup" name="chip::ChipKeyId::IsSameKeyOrGroup">
+<area shape="rect" id="node1" title="Determines whether two key IDs identify the same key, or in the case of rotating keys,..." alt="" coords="5,35,208,76"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#af5cb79ed780e9057ab8b9dacaeeae6b4" title="Determine whether the specified application group key ID incorporates epoch key." alt="" coords="265,5,476,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_key_id.html#a9cdc6b5ae460a60f693f350b19a33273" title="Determine whether the specified key ID is of an application epoch key type." alt="" coords="256,71,485,98"/>
+<area shape="rect" id="node4" href="$classchip_1_1_chip_key_id.html#abca0f855eb71f6539e7312ac33b586db" title="Get CHIP key type of the specified key ID." alt="" coords="533,71,716,98"/>
+</map>

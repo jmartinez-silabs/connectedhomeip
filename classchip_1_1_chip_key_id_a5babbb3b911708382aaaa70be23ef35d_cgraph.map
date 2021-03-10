@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::DescribeKey" name="chip::ChipKeyId::DescribeKey">
+<area shape="rect" id="node1" title="Decode a CHIP key identifier with a descriptive string." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#abca0f855eb71f6539e7312ac33b586db" title="Get CHIP key type of the specified key ID." alt="" coords="264,5,447,32"/>
+</map>

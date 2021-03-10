@@ -1,0 +1,5 @@
+<map id="chip::Transport::PeerConnectionState::GetLocalKeyID" name="chip::Transport::PeerConnectionState::GetLocalKeyID">
+<area shape="rect" id="node1" title=" " alt="" coords="356,57,583,98"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_connections.html#ad8701fbf1b597956c16ec2d8e79bbec2" title="Get a peer connection state given the local Encryption Key Id." alt="" coords="13,5,300,61"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_peer_connections.html#a0188b8748e6625edbc1f9983fc9f3278" title="Get a peer connection state given a Node Id and Peer&#39;s Encryption Key Id." alt="" coords="5,86,308,157"/>
+</map>

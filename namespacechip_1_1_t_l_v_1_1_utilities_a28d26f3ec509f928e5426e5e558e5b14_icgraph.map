@@ -1,0 +1,4 @@
+<map id="chip::TLV::Utilities::CountHandler" name="chip::TLV::Utilities::CountHandler">
+<area shape="rect" id="node1" title="Increment the counter when iterating through the TLV data." alt="" coords="192,5,331,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_t_l_v_1_1_utilities.html#a36fc6718838eca310c5b61d7d5ee056d" title="Count the number of TLV elements within the specified TLV reader, optionally descending into arrays o..." alt="" coords="5,5,144,47"/>
+</map>

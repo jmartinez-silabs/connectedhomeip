@@ -1,0 +1,6 @@
+<map id="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC::PointLoad" name="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC::PointLoad">
+<area shape="rect" id="node1" title="Load a point from 0x04 || X || Y format." alt="" coords="5,31,216,87"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_uint8.html#a70fbcc4088bad20ebc9e3f409455f19d" title="Safely typecast a pointer to const uint8_t to const unsigned char." alt="" coords="267,5,422,47"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_crypto.html#aa16982cce50e50de8fe51d2e87f6e2ab" title=" " alt="" coords="264,71,425,112"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_crypto.html#a7839660c978cd3df1db89b8f720daf35" title=" " alt="" coords="473,5,637,47"/>
+</map>

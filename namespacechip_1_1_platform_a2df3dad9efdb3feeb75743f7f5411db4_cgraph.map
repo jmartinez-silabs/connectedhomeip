@@ -1,0 +1,4 @@
+<map id="chip::Platform::CopyString" name="chip::Platform::CopyString">
+<area shape="rect" id="node1" title="Convenience method for CopyString to auto&#45;detect destination size." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a3e0f7bf473695f636ba4bfd38fbe88d6" title="Copies a C&#45;style string." alt="" coords="245,5,437,32"/>
+</map>

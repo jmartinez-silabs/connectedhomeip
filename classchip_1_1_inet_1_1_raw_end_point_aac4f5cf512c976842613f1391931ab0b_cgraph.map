@@ -1,0 +1,4 @@
+<map id="chip::Inet::RawEndPoint::SendMsg" name="chip::Inet::RawEndPoint::SendMsg">
+<area shape="rect" id="node1" title="Send an ICMP message to the specified destination." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a" title="Extract the type of the IP address." alt="" coords="228,5,381,47"/>
+</map>

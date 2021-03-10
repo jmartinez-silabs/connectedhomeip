@@ -1,0 +1,10 @@
+<map id="chip::Controller::Device::OpenPairingWindow" name="chip::Controller::Device::OpenPairingWindow">
+<area shape="rect" id="node1" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="5,100,180,141"/>
+<area shape="rect" id="node2" href="$classchip_1_1_p_a_s_e_session.html#afa7710525b8826dcd3aec459d158293a" title="Generate a new PASE verifier." alt="" coords="245,5,405,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="228,71,423,112"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_t_l_v.html#a2ff8c38ca00d9008a378cac4f153921c" title="Generates the API representation of a profile&#45;specific TLV tag from a profile id and tag number." alt="" coords="250,137,401,163"/>
+<area shape="rect" id="node8" href="$classchip_1_1_payload_header.html#a2f822479e8efe76d5341c6349aff0294" title="Set the message type for this header." alt="" coords="248,188,403,229"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_crypto.html#a55a2d8a47210c5b3160797828217a7a4" title="A cryptographically secure random number generator based on NIST SP800&#45;90A." alt="" coords="501,5,647,47"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="471,75,677,102"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a14279153678fbc4c48e95ba4b8e96856" title="Construct an empty PacketBufferHandle." alt="" coords="473,127,675,168"/>
+</map>

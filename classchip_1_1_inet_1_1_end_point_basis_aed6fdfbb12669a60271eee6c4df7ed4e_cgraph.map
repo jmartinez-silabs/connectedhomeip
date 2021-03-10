@@ -1,0 +1,5 @@
+<map id="chip::Inet::EndPointBasis::IsOpenEndPoint" name="chip::Inet::EndPointBasis::IsOpenEndPoint">
+<area shape="rect" id="node1" title="Test whether endpoint has a valid descriptor." alt="" coords="5,39,188,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_end_point_basis.html#aa3949ad49ca62272bf2063ddd868ef7c" title="Test whether endpoint is a LwIP protocol control buffer." alt="" coords="236,5,419,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_end_point_basis.html#a62e92ac8712d3c1aeec18a824ca7f649" title="Test whether endpoint is a POSIX socket." alt="" coords="236,71,419,112"/>
+</map>

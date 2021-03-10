@@ -1,0 +1,4 @@
+<map id="mdns::Minimal::ResponseSender" name="mdns::Minimal::ResponseSender">
+<area shape="rect" id="node1" title="Sends responses to mDNS queries." alt="" coords="5,95,240,121"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_responder_delegate.html" title=" " alt="" coords="25,5,221,47"/>
+</map>

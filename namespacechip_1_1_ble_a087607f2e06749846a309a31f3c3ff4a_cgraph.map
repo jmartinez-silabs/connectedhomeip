@@ -1,0 +1,5 @@
+<map id="chip::Ble::PrintBufDebug" name="chip::Ble::PrintBufDebug">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,185,73"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="233,5,428,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="233,71,428,112"/>
+</map>

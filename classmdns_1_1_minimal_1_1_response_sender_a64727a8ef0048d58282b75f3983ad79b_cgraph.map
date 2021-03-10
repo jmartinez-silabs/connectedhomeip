@@ -1,0 +1,20 @@
+<map id="mdns::Minimal::ResponseSender::Respond" name="mdns::Minimal::ResponseSender::Respond">
+<area shape="rect" id="node1" title="Send back the response to a particular query." alt="" coords="5,441,240,483"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#aa063e9bb9efae4f3b19bd234a76969ba" title=" " alt="" coords="607,5,841,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#aac5b7b6780a368411d6e54bf451638f0" title=" " alt="" coords="607,71,841,112"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a2685a1be7eb20ad425c4be2571582ae9" title="Platform&#45;specific function for getting monotonic system time in milliseconds." alt="" coords="307,251,535,292"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_internal_1_1_response_sending_state.html#ae8b23cd8662bd0a501d5d8b1d7778333" title=" " alt="" coords="332,317,511,373"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#a2e98d71fd4c73c0262a5dbf7fae8dedb" title="Flag any additional responses required for the given iterator." alt="" coords="304,133,539,175"/>
+<area shape="rect" id="node9" href="$classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a12a00aee9cf3822bfe9eedca5bcd97fa" title="Set if to include only items marked as &#39;additional reply&#39; or everything." alt="" coords="603,267,845,323"/>
+<area shape="rect" id="node10" href="$classmdns_1_1_minimal_1_1_internal_1_1_response_sending_state.html#a01b94c98beb9fe2c5679f85f3a1480ef" title=" " alt="" coords="332,397,511,453"/>
+<area shape="rect" id="node11" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#a7c36d767714c55660b733e3a91905651" title="Clear any items marked as &#39;additional&#39;." alt="" coords="304,477,539,519"/>
+<area shape="rect" id="node12" href="$classmdns_1_1_minimal_1_1_internal_1_1_response_sending_state.html#afbddf154464243d878ec27a583c00f2b" title="Check if the reply should be sent as a unicast reply." alt="" coords="332,543,511,599"/>
+<area shape="rect" id="node14" href="$classmdns_1_1_minimal_1_1_query_reply_filter.html#a7968ee476808abc53ce87daf21214698" title="Ignore qname matches during Accept calls (if set to true, only qtype and qclass are matched)." alt="" coords="319,624,523,665"/>
+<area shape="rect" id="node15" href="$classmdns_1_1_minimal_1_1_query_responder_record_filter.html#af76ca383def630698bfc40949a8c2c88" title="Filter out anything that was multicast past ms." alt="" coords="288,690,555,746"/>
+<area shape="rect" id="node16" href="$classmdns_1_1_minimal_1_1_query_responder_record_filter.html#aedf25cfa6abd5a3317b309f8906aa59d" title="Filter out anything rejected by the given reply filter." alt="" coords="304,771,539,812"/>
+<area shape="rect" id="node17" href="$classmdns_1_1_minimal_1_1_internal_1_1_response_sending_state.html#a085bf8640a175e6968c6f98a8dd12000" title=" " alt="" coords="332,837,511,893"/>
+<area shape="rect" id="node18" href="$classmdns_1_1_minimal_1_1_query_reply_filter.html#ae0a7b334d05a4de9d13b7d7bf7e88289" title=" " alt="" coords="302,917,541,959"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_query_responder_iterator.html#ab8541e895658118ed14a03b93eae19cf" title=" " alt="" coords="607,136,841,177"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#a968a1288c0dd8f029a0d079c0429e9d4" title="Marks queries matching this qname as &#39;to be additionally reported&#39;." alt="" coords="607,201,841,243"/>
+<area shape="rect" id="node13" href="$classmdns_1_1_minimal_1_1_query_data.html#a51fc4830c06e16af819a48b5cf2176c8" title=" " alt="" coords="625,551,823,592"/>
+</map>

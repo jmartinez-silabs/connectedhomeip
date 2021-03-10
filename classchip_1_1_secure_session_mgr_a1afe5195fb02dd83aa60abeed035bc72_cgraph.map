@@ -1,0 +1,6 @@
+<map id="chip::SecureSessionMgr::GetTransportType" name="chip::SecureSessionMgr::GetTransportType">
+<area shape="rect" id="node1" title="Return the transport type of current connection to the node with id peerNodeId." alt="" coords="5,71,181,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_connections.html#ab818c2293f611703a51e34ddecbbfc13" title="Get a peer connection state given a Peer address." alt="" coords="229,5,464,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a34d477138e340e25bef7d0e628ea1178" title=" " alt="" coords="233,71,460,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_peer_address.html#aa204619aea73e80e2e42d87e97dc9eaf" title=" " alt="" coords="243,136,450,177"/>
+</map>

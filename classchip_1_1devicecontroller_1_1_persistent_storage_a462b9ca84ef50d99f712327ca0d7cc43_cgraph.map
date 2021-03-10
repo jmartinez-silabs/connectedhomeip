@@ -1,0 +1,10 @@
+<map id="chip.devicecontroller.PersistentStorage.deleteKeyValue" name="chip.devicecontroller.PersistentStorage.deleteKeyValue">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,232,87"/>
+<area shape="rect" id="node2" href="$interfacechip_1_1devicecontroller_1_1_android_persistent_storage_delegate.html#ad3890a5f40cb215ccd81e65df69b917e" title="Delete the value associated with the input key." alt="" coords="280,5,521,61"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_logging.html#a8453332a700f03454f4ab20f41d033a6" title="Log, to the platform&#45;specified mechanism, the specified log message, msg, for the specified module,..." alt="" coords="331,85,470,112"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_logging.html#a4862fe143704aa82e0cb16b07a323329" title=" " alt="" coords="569,85,717,112"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_logging.html#a265141bc18fb097c8b04bdb86f47052b" title=" " alt="" coords="765,27,992,53"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_logging.html#a574c22b780a24267d60ebb8b4fa8aa0d" title=" " alt="" coords="785,78,972,119"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_logging_1_1_platform.html#a7259a872f0b5cb8b70d74f29e23f7367" title="CHIP log output functions." alt="" coords="793,143,965,185"/>
+<area shape="rect" id="node8" href="$cc13x2__26x2_2_logging_8cpp.html#a1797402591ac65982bddc2bbc912163d" title=" " alt="" coords="1040,151,1179,177"/>
+</map>

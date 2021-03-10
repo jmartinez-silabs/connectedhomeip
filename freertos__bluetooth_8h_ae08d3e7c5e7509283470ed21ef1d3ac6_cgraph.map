@@ -1,0 +1,9 @@
+<map id="bluetooth_start" name="bluetooth_start">
+<area shape="rect" id="node1" title="Start Bluetooth tasks." alt="" coords="5,126,127,153"/>
+<area shape="rect" id="node2" href="$freertos__bluetooth_8c.html#a15d05af483395c0ec2cdb9219c5deb70" title=" " alt="" coords="175,101,289,127"/>
+<area shape="rect" id="node7" href="$freertos__bluetooth_8c.html#adba4333931931f365fa12221a045d29e" title=" " alt="" coords="177,151,287,178"/>
+<area shape="rect" id="node3" href="$freertos__bluetooth_8c.html#a41af01a6f8328e3c709b3f206eb46d0e" title=" " alt="" coords="337,5,508,47"/>
+<area shape="rect" id="node4" href="$freertos__bluetooth_8c.html#a7e6d73fe9733bf13f79a55c5be02bd9a" title=" " alt="" coords="339,71,506,98"/>
+<area shape="rect" id="node5" href="$freertos__bluetooth_8c.html#a498ebade47fe569443874e6f4c7292a2" title=" " alt="" coords="349,123,497,164"/>
+<area shape="rect" id="node6" href="$freertos__bluetooth_8c.html#ae84bf03a2acc9d3c7e7cbcd32f22bd79" title=" " alt="" coords="556,159,796,186"/>
+</map>

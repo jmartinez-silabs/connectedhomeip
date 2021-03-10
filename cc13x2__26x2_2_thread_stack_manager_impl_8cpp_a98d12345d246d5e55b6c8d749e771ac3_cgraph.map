@@ -1,0 +1,5 @@
+<map id="otTaskletsSignalPending" name="otTaskletsSignalPending">
+<area shape="rect" id="node1" title="Glue function called directly by the OpenThread stack when tasklet processing work is pending." alt="" coords="5,67,185,94"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___free_r_t_o_s.html#a2f9481eaf2d89014d23fafb1249a4aa6" title=" " alt="" coords="233,5,504,76"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3" title="Returns the platform&#45;specific implementation of the ThreadStackManager singleton object." alt="" coords="290,100,447,141"/>
+</map>

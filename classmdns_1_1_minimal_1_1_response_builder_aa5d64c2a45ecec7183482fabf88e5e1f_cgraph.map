@@ -1,0 +1,25 @@
+<map id="mdns::Minimal::ResponseBuilder::AddRecord" name="mdns::Minimal::ResponseBuilder::AddRecord">
+<area shape="rect" id="node1" title="Attempts to add a record to the currentsystem packet buffer." alt="" coords="5,884,241,925"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_resource_record.html#ad103d9412b0822dccdf395127e4561b6" title="Append the given record to the underlying output." alt="" coords="289,431,521,472"/>
+<area shape="rect" id="node18" href="$classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="308,884,503,925"/>
+<area shape="rect" id="node19" href="$classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="588,855,783,896"/>
+<area shape="rect" id="node22" href="$classchip_1_1_system_1_1_packet_buffer.html#a66dbb9c3b0110f2304d5e521c4d40570" title="Set the length, in bytes, of data in a packet buffer, adjusting total length accordingly." alt="" coords="308,949,503,991"/>
+<area shape="rect" id="node23" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="308,1015,503,1056"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#a87596ef551ae124dbde4514929745c9b" title=" " alt="" coords="580,5,791,47"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#aae2672de215e8833440adc79ddf69ff0" title=" " alt="" coords="580,71,791,112"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#ae867bf99df60e2a6ce48f59f5b55a4b0" title=" " alt="" coords="580,136,791,177"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_resource_record.html#a0b5ee422cfcce60724c3bfb719a85d05" title=" " alt="" coords="569,201,801,243"/>
+<area shape="rect" id="node9" href="$classmdns_1_1_minimal_1_1_resource_record.html#a3a1de9e26d38381fdd51df770aceb982" title=" " alt="" coords="569,267,801,308"/>
+<area shape="rect" id="node10" href="$classmdns_1_1_minimal_1_1_resource_record.html#afa3d4b577bfa70a92ed96a76a6d56990" title=" " alt="" coords="569,332,801,373"/>
+<area shape="rect" id="node11" href="$classchip_1_1_encoding_1_1_buffer_writer.html#a340ee97ab78fd97eddfaba5efb9416aa" title="Number of bytes required to satisfy all calls to Put() so far." alt="" coords="584,397,787,439"/>
+<area shape="rect" id="node12" href="$structmdns_1_1_minimal_1_1_full_q_name.html#a1e51f27d4cc3fa4312ce9db3b1cf2629" title=" " alt="" coords="586,463,785,504"/>
+<area shape="rect" id="node13" href="$classchip_1_1_encoding_1_1_endian_buffer_writer_base.html#aee0e5105d2e646857377367ccf406310" title=" " alt="" coords="582,528,789,569"/>
+<area shape="rect" id="node14" href="$classmdns_1_1_minimal_1_1_header_ref.html#a8fd7eadf1b509987dae7ba97167ea93c" title=" " alt="" coords="587,593,783,635"/>
+<area shape="rect" id="node15" href="$classmdns_1_1_minimal_1_1_header_ref.html#a14cf638da4b959c89c91a28bbdba1795" title=" " alt="" coords="587,659,783,700"/>
+<area shape="rect" id="node16" href="$classmdns_1_1_minimal_1_1_header_ref.html#adffdc818af100dcbe1e52019af96e84c" title=" " alt="" coords="587,724,783,765"/>
+<area shape="rect" id="node17" href="$classmdns_1_1_minimal_1_1_resource_record.html#a72cdc70bd79cb28cf64a4ba76360a4d7" title="Output the data portion of the resource record." alt="" coords="569,789,801,831"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#addf62d8d8e0f5250678c6194132de4b6" title=" " alt="" coords="849,71,1060,112"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a243b499fbaf3008052cb5546547fffc3" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 16&#45;bit value from the sp..." alt="" coords="1108,71,1297,112"/>
+<area shape="rect" id="node20" href="$classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="588,920,783,961"/>
+<area shape="rect" id="node21" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="857,920,1052,961"/>
+</map>

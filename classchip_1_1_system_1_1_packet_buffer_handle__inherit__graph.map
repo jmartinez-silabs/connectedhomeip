@@ -1,0 +1,5 @@
+<map id="chip::System::PacketBufferHandle" name="chip::System::PacketBufferHandle">
+<area shape="rect" id="node1" title="Tracks ownership of a PacketBuffer." alt="" coords="119,5,313,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_encrypted_packet_buffer_handle.html" title="Tracks ownership of a encrypted packet buffer." alt="" coords="5,95,208,136"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_lw_i_p_packet_buffer_view.html" title="Provide low&#45;level access to a raw pbuf *, limited to specific classes that interface with LwIP." alt="" coords="232,95,419,136"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::System::PacketBufferHandle::Advance" name="chip::System::PacketBufferHandle::Advance">
+<area shape="rect" id="node1" title="Advance this PacketBufferHandle to the next buffer in a chain." alt="" coords="272,39,467,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#af9bf2b48d8e7c27e5f78a077fb845c81" title="A function that can be used to retrieve additional TLV data to be parsed." alt="" coords="5,71,224,112"/>
+</map>

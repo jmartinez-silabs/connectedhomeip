@@ -1,0 +1,4 @@
+<map id="chip::Inet::SocketsSetMulticastLoopback" name="chip::Inet::SocketsSetMulticastLoopback">
+<area shape="rect" id="node1" title=" " alt="" coords="248,5,469,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#a6fc5c6c1b9ae04c5694d04a03480140f" title="Set whether IP multicast traffic should be looped back." alt="" coords="5,5,200,47"/>
+</map>

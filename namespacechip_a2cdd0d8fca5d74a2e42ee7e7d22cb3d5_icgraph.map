@@ -1,0 +1,19 @@
+<map id="chip::RegisterErrorFormatter" name="chip::RegisterErrorFormatter">
+<area shape="rect" id="node1" title="Add a new error formatter function to the global list of error formatters." alt="" coords="911,260,1117,287"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a742bd0319b9d21abf37e45db9fc5322b" title="Register a text error formatter for CHIP core errors." alt="" coords="632,23,841,65"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_device_layer.html#aca4a3d12def7582fa2aef397c742e9a3" title="Register a text error formatter for Device Layer errors." alt="" coords="611,89,863,130"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_inet.html#a3b8ba37f2b52bc3e871c2d8b3330ce69" title="Register a text error formatter for Inet Layer errors." alt="" coords="647,154,827,195"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_ble.html#aaac237988c24ccec8a95911bfe66eb65" title="Register a text error formatter for BLE Layer errors." alt="" coords="649,219,825,261"/>
+<area shape="rect" id="node11" href="$namespacechip_1_1_system.html#aeb50ae084078c7ba622b2a5903ad088f" title="Register a text error formatter for System Layer errors." alt="" coords="635,285,839,326"/>
+<area shape="rect" id="node13" href="$namespacechip_1_1_system.html#a6479777583f84d1cb9eb8924d126fd3b" title="Register a text error formatter for LwIP errors." alt="" coords="643,350,830,391"/>
+<area shape="rect" id="node14" href="$namespacechip_1_1_device_layer_1_1_internal.html#aab0045a3fbe6e63dfcbca3f458232feb" title="Register a text error formatter for OpenThread errors." alt="" coords="630,481,843,537"/>
+<area shape="rect" id="node17" href="$namespacechip_1_1_system.html#ad09791615a6e2342b45b484a0cf5f4a4" title="Register a text error formatter for POSIX errors." alt="" coords="617,415,856,457"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#ab177ef1d3327fadae8d9a337633d94da" title=" " alt="" coords="320,45,563,101"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html#a880aace793df4a1bd6d980cb42cc6163" title=" " alt="" coords="17,5,260,61"/>
+<area shape="rect" id="node5" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html#a39e89886ccdf0f71cd961397eb90cfce" title=" " alt="" coords="17,85,260,141"/>
+<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_inet_layer.html#acc1d89f20b002ae86d9bdc1ba241da11" title="This is the InetLayer explicit initializer." alt="" coords="366,154,517,195"/>
+<area shape="rect" id="node10" href="$classchip_1_1_ble_1_1_ble_layer.html#a48aff31e0d0c499dd1f1636afbbbab4d" title=" " alt="" coords="370,219,513,261"/>
+<area shape="rect" id="node12" href="$classchip_1_1_system_1_1_layer.html#a677ed2d7a1f388d44b247663f8dd364a" title=" " alt="" coords="366,350,517,391"/>
+<area shape="rect" id="node15" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#aba980811e721981b20312e330ac839d8" title=" " alt="" coords="321,481,562,537"/>
+<area shape="rect" id="node16" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#af80d1cab59f0a81e7a00540c58da7b5d" title=" " alt="" coords="5,474,272,545"/>
+</map>

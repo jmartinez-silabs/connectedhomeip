@@ -1,0 +1,6 @@
+<map id="mdns::Minimal::ServerBase::DirectSend" name="mdns::Minimal::ServerBase::DirectSend">
+<area shape="rect" id="node1" title="Send the specified packet to a destination IP address over the specified address." alt="" coords="5,71,207,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a8203c9d747dcb69e4aff3e0af63dd929" title="Get the bound interface on this endpoint." alt="" coords="255,5,429,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a96ec2e1f0418ccb178e6d05d783a07b3" title="A synonym for SendTo(addr, port, INET_NULL_INTERFACEID, msg, sendFlags)." alt="" coords="255,71,429,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a" title="Extract the type of the IP address." alt="" coords="265,136,419,177"/>
+</map>

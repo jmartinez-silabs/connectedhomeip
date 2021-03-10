@@ -1,0 +1,10 @@
+<map id="chip.devicecontroller.ChipDeviceController.onCloseBleComplete" name="chip.devicecontroller.ChipDeviceController.onCloseBleComplete">
+<area shape="rect" id="node1" title=" " alt="" coords="5,90,276,131"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_logging.html#a8453332a700f03454f4ab20f41d033a6" title="Log, to the platform&#45;specified mechanism, the specified log message, msg, for the specified module,..." alt="" coords="395,64,533,91"/>
+<area shape="rect" id="node8" href="$interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#a561849c86c19f596df091b77bd3ab955" title="Notifies the completion of the &quot;close BLE connection&quot; command." alt="" coords="324,115,604,171"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_logging.html#a4862fe143704aa82e0cb16b07a323329" title=" " alt="" coords="652,64,800,91"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_logging.html#a265141bc18fb097c8b04bdb86f47052b" title=" " alt="" coords="848,5,1075,32"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_logging.html#a574c22b780a24267d60ebb8b4fa8aa0d" title=" " alt="" coords="868,57,1055,98"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_logging_1_1_platform.html#a7259a872f0b5cb8b70d74f29e23f7367" title="CHIP log output functions." alt="" coords="875,122,1047,163"/>
+<area shape="rect" id="node7" href="$cc13x2__26x2_2_logging_8cpp.html#a1797402591ac65982bddc2bbc912163d" title=" " alt="" coords="1123,129,1261,156"/>
+</map>

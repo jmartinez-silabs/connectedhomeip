@@ -1,0 +1,11 @@
+<map id="chip::DeviceLayer::Internal::LogOpenThreadStateChange" name="chip::DeviceLayer::Internal::LogOpenThreadStateChange">
+<area shape="rect" id="node1" title="Log information related to a state change in the OpenThread stack." alt="" coords="5,75,221,131"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="739,247,817,273"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer_1_1_internal.html#a8e174060fc28a73fac04d942e30ad13f" title=" " alt="" coords="269,82,489,123"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760" title="Emit the IP address in conventional text presentation format." alt="" coords="303,169,456,210"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1" title="Test whether address is IPv4 compatible." alt="" coords="537,71,691,113"/>
+<area shape="rect" id="node6" href="$namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562" title=" " alt="" coords="571,137,657,164"/>
+<area shape="rect" id="node7" href="$namespacechip.html#a5b9c196fdd524001f536e328b47e04fa" title=" " alt="" coords="573,188,655,215"/>
+<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d" title="Extract the IPv4 address as a platform data structure." alt="" coords="537,239,691,281"/>
+<area shape="rect" id="node9" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="537,305,691,346"/>
+</map>

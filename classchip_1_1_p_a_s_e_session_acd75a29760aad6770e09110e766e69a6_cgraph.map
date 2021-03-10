@@ -1,0 +1,4 @@
+<map id="chip::PASESession::Clear" name="chip::PASESession::Clear">
+<area shape="rect" id="node1" title="This function zeroes out and resets the memory used by the object." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="200,13,403,39"/>
+</map>

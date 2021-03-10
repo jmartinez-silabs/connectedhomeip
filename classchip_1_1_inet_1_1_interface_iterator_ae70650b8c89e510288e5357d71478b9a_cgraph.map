@@ -1,0 +1,4 @@
+<map id="chip::Inet::InterfaceIterator::GetInterface" name="chip::Inet::InterfaceIterator::GetInterface">
+<area shape="rect" id="node1" title="Deprecated alias for GetInterfaceId(void)" alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_interface_iterator.html#a4f7dcf4227a43c3dcfe7cf4420a5b690" title="Returns the network interface id at the current iterator position." alt="" coords="249,5,445,47"/>
+</map>

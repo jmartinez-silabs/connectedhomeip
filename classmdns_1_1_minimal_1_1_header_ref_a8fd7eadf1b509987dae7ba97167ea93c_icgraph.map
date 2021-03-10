@@ -1,0 +1,6 @@
+<map id="mdns::Minimal::HeaderRef::SetAdditionalCount" name="mdns::Minimal::HeaderRef::SetAdditionalCount">
+<area shape="rect" id="node1" title=" " alt="" coords="852,5,1048,47"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_resource_record.html#ad103d9412b0822dccdf395127e4561b6" title="Append the given record to the underlying output." alt="" coords="572,5,804,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_response_builder.html#aa5d64c2a45ecec7183482fabf88e5e1f" title="Attempts to add a record to the currentsystem packet buffer." alt="" coords="288,5,524,47"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="5,5,240,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::PacketHeader::Encode" name="chip::PacketHeader::Encode">
+<area shape="rect" id="node1" title="A version of Encode that uses the type system to determine available space." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_packet_header.html#a4da79f7f8c09e2e74d0ef33e9c6d3352" title="Encodes a header into the given buffer." alt="" coords="200,5,347,47"/>
+</map>

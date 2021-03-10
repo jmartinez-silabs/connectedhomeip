@@ -1,0 +1,9 @@
+<map id="pychip_native_init" name="pychip_native_init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,93,147,120"/>
+<area shape="rect" id="node2" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="256,5,363,32"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_platform_manager.html#a4c1372af7e3d001e2857e6f14c9a1554" title=" " alt="" coords="195,57,424,98"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#a93cd137a84802c233858f319af2551a7" title="This function is called by CHIP layer to initialize memory and resources required for proper function..." alt="" coords="211,123,407,149"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="236,174,383,215"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="532,5,667,32"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_platform.html#aa95ce41639f01a45b9f1fa33029cbf03" title=" " alt="" coords="472,123,727,149"/>
+</map>

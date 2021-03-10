@@ -1,0 +1,4 @@
+<map id="chip::System::Timer" name="chip::System::Timer">
+<area shape="rect" id="node1" title="This is an internal class to CHIP System Layer, used to represent an in&#45;progress one&#45;shot timer...." alt="" coords="7,80,159,107"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_object.html" title="This represents a reference&#45;counted object allocated from space contained in an ObjectPool&lt;T,..." alt="" coords="5,5,161,32"/>
+</map>

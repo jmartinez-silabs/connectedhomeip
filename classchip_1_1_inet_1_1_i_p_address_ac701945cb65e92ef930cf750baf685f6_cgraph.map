@@ -1,0 +1,4 @@
+<map id="chip::Inet::IPAddress::MakeIPv6Multicast" name="chip::Inet::IPAddress::MakeIPv6Multicast">
+<area shape="rect" id="node1" title="Construct an IPv6 multicast address from its parts." alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#af86c332e12596db51af53ff59da71211" title="Construct an IPv6 multicast address from its parts." alt="" coords="207,5,360,47"/>
+</map>

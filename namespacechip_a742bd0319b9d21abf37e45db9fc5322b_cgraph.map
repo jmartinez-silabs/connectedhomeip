@@ -1,0 +1,6 @@
+<map id="chip::RegisterCHIPLayerErrorFormatter" name="chip::RegisterCHIPLayerErrorFormatter">
+<area shape="rect" id="node1" title="Register a text error formatter for CHIP core errors." alt="" coords="5,23,215,65"/>
+<area shape="rect" id="node2" href="$namespacechip.html#af25ca1394fb3a66e33c3e747bf7f18da" title="Given a CHIP error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="283,5,449,32"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="263,56,469,83"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="517,5,652,32"/>
+</map>

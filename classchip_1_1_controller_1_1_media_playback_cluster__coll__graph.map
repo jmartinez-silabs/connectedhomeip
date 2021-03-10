@@ -1,0 +1,5 @@
+<map id="chip::Controller::MediaPlaybackCluster" name="chip::Controller::MediaPlaybackCluster">
+<area shape="rect" id="node1" title=" " alt="" coords="5,171,233,212"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_cluster_base.html" title=" " alt="" coords="16,95,223,121"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_device.html" title=" " alt="" coords="32,5,207,32"/>
+</map>

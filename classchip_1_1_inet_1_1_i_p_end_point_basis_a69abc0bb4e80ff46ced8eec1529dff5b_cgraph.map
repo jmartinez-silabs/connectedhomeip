@@ -1,0 +1,5 @@
+<map id="chip::Inet::IPEndPointBasis::JoinMulticastGroup" name="chip::Inet::IPEndPointBasis::JoinMulticastGroup">
+<area shape="rect" id="node1" title="Join an IP multicast group." alt="" coords="5,39,200,80"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_inet.html#a7734c5bec6fc868f85763171a4379d79" title=" " alt="" coords="248,5,439,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a" title="Extract the type of the IP address." alt="" coords="267,71,420,112"/>
+</map>

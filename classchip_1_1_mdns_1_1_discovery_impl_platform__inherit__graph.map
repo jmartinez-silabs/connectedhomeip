@@ -1,0 +1,5 @@
+<map id="chip::Mdns::DiscoveryImplPlatform" name="chip::Mdns::DiscoveryImplPlatform">
+<area shape="rect" id="node1" title=" " alt="" coords="121,80,315,121"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_service_advertiser.html" title="Handles advertising of CHIP nodes." alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_resolver.html" title="Interface for resolving CHIP services." alt="" coords="245,5,402,32"/>
+</map>

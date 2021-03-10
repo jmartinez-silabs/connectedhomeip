@@ -1,0 +1,7 @@
+<map id="chip::System::PacketBufferHandle::NewWithData" name="chip::System::PacketBufferHandle::NewWithData">
+<area shape="rect" id="node1" title="Allocates a packet buffer with initial contents." alt="" coords="5,57,200,98"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="306,5,385,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="248,57,443,98"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a14279153678fbc4c48e95ba4b8e96856" title="Construct an empty PacketBufferHandle." alt="" coords="493,115,695,157"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="491,64,697,91"/>
+</map>

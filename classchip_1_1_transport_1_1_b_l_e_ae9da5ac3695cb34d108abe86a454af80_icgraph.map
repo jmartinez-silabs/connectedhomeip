@@ -1,0 +1,4 @@
+<map id="chip::Transport::BLE::Init" name="chip::Transport::BLE::Init">
+<area shape="rect" id="node1" title="Initialize a BLE transport to a given peripheral or a given device name." alt="" coords="240,5,389,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_rendezvous_session.html#a3d1cb1363802b624255d50b53ecf0530" title="Initialize the underlying transport using the RendezvousParameters passed in the constructor." alt="" coords="5,5,192,47"/>
+</map>

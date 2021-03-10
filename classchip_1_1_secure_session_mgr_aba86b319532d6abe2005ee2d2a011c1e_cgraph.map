@@ -1,0 +1,20 @@
+<map id="chip::SecureSessionMgr::NewPairing" name="chip::SecureSessionMgr::NewPairing">
+<area shape="rect" id="node1" title="Establish a new pairing with a peer node." alt="" coords="5,528,181,569"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_connections.html#a928d085424f4f59e5360e6582af6f9b7" title="Allocates a new peer connection state state object out of the internal resource pool." alt="" coords="229,5,468,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_p_a_s_e_session.html#a2f95884abd007265f23114a31f6e1637" title="Derive a secure session from the paired session." alt="" coords="269,71,428,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_peer_connections.html#ab818c2293f611703a51e34ddecbbfc13" title="Get a peer connection state given a Peer address." alt="" coords="231,136,466,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_transport_1_1_peer_connection_state.html#abaacd443f6358f1f39d4d9e3b60c9fe6" title=" " alt="" coords="235,201,462,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_p_a_s_e_session.html#afc781550e81b1804a51b84dc87e7799d" title="Return the associated local key id." alt="" coords="275,267,422,308"/>
+<area shape="rect" id="node7" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a478b7e8f583c23f65be9a0ff9c01b3f5" title=" " alt="" coords="235,332,462,373"/>
+<area shape="rect" id="node8" href="$classchip_1_1_p_a_s_e_session.html#af90ac586425132c07a2088e655689ece" title="Return the associated peer key id." alt="" coords="275,397,422,439"/>
+<area shape="rect" id="node9" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a9c823a60ddb4b2b4d81b297aaecec6fd" title=" " alt="" coords="235,463,462,504"/>
+<area shape="rect" id="node10" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a7377c56b80df261492455d67c0d5af2b" title=" " alt="" coords="229,528,468,569"/>
+<area shape="rect" id="node11" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a86303267279cf1a946c120d5a2cb8f8d" title=" " alt="" coords="235,593,462,635"/>
+<area shape="rect" id="node12" href="$classchip_1_1_optional.html#ab34dda6cd80632dc994056dd12d08116" title="Checks if the optional contains a value or not." alt="" coords="258,659,439,686"/>
+<area shape="rect" id="node13" href="$classchip_1_1_transport_1_1_peer_connections.html#a42ab561803ff6cc0dfa16f09b0a6c5af" title="Convenience method to expired a peer connection state and fired the related callback." alt="" coords="231,711,466,752"/>
+<area shape="rect" id="node14" href="$classchip_1_1_secure_session_mgr_delegate.html#a442943959a155aa466e8acbee3378474" title="Called when a new pairing is being established." alt="" coords="231,776,466,817"/>
+<area shape="rect" id="node15" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a8940f480d6a8d57483ee4430a51fa0d4" title=" " alt="" coords="235,841,462,883"/>
+<area shape="rect" id="node16" href="$classchip_1_1_transport_1_1_peer_connection_state.html#aba4255f6fc43caf60cd18f88ae7c4a19" title=" " alt="" coords="235,907,462,948"/>
+<area shape="rect" id="node17" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a7f6e6aa587452b5663ffb9e677d0e171" title=" " alt="" coords="235,972,462,1013"/>
+<area shape="rect" id="node18" href="$classchip_1_1_optional.html#a541522fc0e3741b59b6796dedbaa13b3" title="Gets the current value of the optional." alt="" coords="271,1038,427,1065"/>
+</map>

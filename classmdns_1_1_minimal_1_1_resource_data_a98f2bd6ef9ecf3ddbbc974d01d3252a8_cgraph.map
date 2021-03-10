@@ -1,0 +1,9 @@
+<map id="mdns::Minimal::ResourceData::Parse" name="mdns::Minimal::ResourceData::Parse">
+<area shape="rect" id="node1" title="Parses a resource data structure." alt="" coords="5,103,224,144"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_bytes_range.html#a3e5dfd8be245f27477cc35e3559477c1" title=" " alt="" coords="529,5,735,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a7474ddeea0c38d06e36e76f3b529fa23" title="Get the end of the sequence without following any backwards pointers." alt="" coords="272,69,481,111"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a43f39a556041dd2a2214fc08dcaecdce" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 16&#45;bit value from the sp..." alt="" coords="282,135,471,176"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a26c0f5214779ed48b88f94e5a30f0928" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 32&#45;bit value from the sp..." alt="" coords="282,200,471,241"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#abbc006cad9248016fa6967340ad2ac7c" title="Find out if the data parsing is ok." alt="" coords="537,71,727,112"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a6bf07bdf57579d2bb36362da941ab679" title="Advances to the next element in the sequence Returns true if new data was available." alt="" coords="537,136,727,177"/>
+</map>

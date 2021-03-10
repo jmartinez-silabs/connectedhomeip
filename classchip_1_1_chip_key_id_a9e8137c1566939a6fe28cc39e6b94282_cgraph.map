@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::UsesCurrentEpochKey" name="chip::ChipKeyId::UsesCurrentEpochKey">
+<area shape="rect" id="node1" title="Determine whether the specified application group key ID uses &quot;current&quot; epoch key." alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#af5cb79ed780e9057ab8b9dacaeeae6b4" title="Determine whether the specified application group key ID incorporates epoch key." alt="" coords="264,5,475,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip.devicecontroller.ChipDeviceController.onNetworkCredentialsRequested" name="chip.devicecontroller.ChipDeviceController.onNetworkCredentialsRequested">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,284,61"/>
+<area shape="rect" id="node2" href="$interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#a9b364b04fe292a539fd4a2bfb39f607a" title="Notifies that the device is ready to receive Wi&#45;Fi network credentials." alt="" coords="332,5,612,61"/>
+</map>

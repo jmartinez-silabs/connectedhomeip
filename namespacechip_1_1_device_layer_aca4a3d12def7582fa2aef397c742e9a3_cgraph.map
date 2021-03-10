@@ -1,0 +1,6 @@
+<map id="chip::DeviceLayer::RegisterDeviceLayerErrorFormatter" name="chip::DeviceLayer::RegisterDeviceLayerErrorFormatter">
+<area shape="rect" id="node1" title="Register a text error formatter for Device Layer errors." alt="" coords="5,35,257,76"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#ad53c46d83d54acc6791bfdec0d28fd7c" title="Given Device Layer error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="319,5,499,47"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="305,71,512,98"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="560,13,695,39"/>
+</map>

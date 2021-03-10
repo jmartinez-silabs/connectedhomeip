@@ -1,0 +1,7 @@
+<map id="chip.ChipStack.ChipStack.ErrorToException" name="chip.ChipStack.ChipStack.ErrorToException">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,196,69"/>
+<area shape="rect" id="node2" href="$_chip_device_controller-_script_binding_8cpp.html#a5f82e308e27c05546c2be041de47b61c" title=" " alt="" coords="244,5,443,32"/>
+<area shape="rect" id="node5" href="$_chip_device_controller-_script_binding_8cpp.html#aa5c438bc645ad01df5da48ee03db8853" title=" " alt="" coords="244,57,443,98"/>
+<area shape="rect" id="node3" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="491,5,597,32"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="645,5,780,32"/>
+</map>

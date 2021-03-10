@@ -1,0 +1,13 @@
+<map id="chip::Inet::InetLayer::MatchLocalIPv6Subnet" name="chip::Inet::InetLayer::MatchLocalIPv6Subnet">
+<area shape="rect" id="node1" title="Check if there is a prefix match between the specified IPv6 address and any of the locally configured..." alt="" coords="5,201,183,243"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#ad3c8d14a0b52c845467beda6113761ab" title="Get the current interface address." alt="" coords="236,5,436,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a84c3d3ba0308d1ba2c1e91ca1f3446a2" title="Deprecated alias for GetPrefixLength(void)" alt="" coords="231,71,441,112"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a0abbabab4244a15191a0f7396af38b56" title=" " alt="" coords="236,136,436,177"/>
+<area shape="rect" id="node7" href="$classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1" title="Test whether address is IPv4 compatible." alt="" coords="259,201,413,243"/>
+<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_i_p_address.html#ae4fcb4c5b36e14b3b3e97f748dd7b74d" title="Test whether address is IPv6 link&#45;local address (LL)." alt="" coords="259,267,413,308"/>
+<area shape="rect" id="node9" href="$classchip_1_1_inet_1_1_i_p_prefix.html#aa1666bd136646e698c13f3e3284e866f" title="Test if an address matches the prefix." alt="" coords="267,332,405,373"/>
+<area shape="rect" id="node11" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a56d5c639eb655249e62aae3fe43887a6" title="Advance the iterator to the next interface address." alt="" coords="236,397,436,439"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a7aaeb92c5fdae4aa35ef1767da16c280" title="Gets the network prefix associated with the current interface address." alt="" coords="489,71,689,112"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_inet.html#a246dc37b8f3828875b165a9e838ae224" title="Compute a prefix length from a variable&#45;length netmask." alt="" coords="737,71,937,112"/>
+<area shape="rect" id="node10" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a1aa640b75414c224d74f1e2c9b4f3a71" title="This conditionally performs, as necessary for the target system, a byte order swap by value of the sp..." alt="" coords="495,332,684,373"/>
+</map>

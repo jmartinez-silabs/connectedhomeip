@@ -1,0 +1,4 @@
+<map id="chip::Platform::New" name="chip::Platform::New">
+<area shape="rect" id="node1" title="This function wraps the operator new with placement&#45;new using MemoryAlloc()." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="204,5,411,32"/>
+</map>

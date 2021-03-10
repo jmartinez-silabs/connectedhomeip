@@ -1,0 +1,4 @@
+<map id="chip::Ble::BleLayer::HandleIndicationConfirmation" name="chip::Ble::BleLayer::HandleIndicationConfirmation">
+<area shape="rect" id="node1" title="Call when an oustanding GATT indication receives a positive receipt confirmation." alt="" coords="5,5,229,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_ble.html#a92d0c5b1b534923b35b73e0c6756f4ac" title=" " alt="" coords="277,13,444,39"/>
+</map>

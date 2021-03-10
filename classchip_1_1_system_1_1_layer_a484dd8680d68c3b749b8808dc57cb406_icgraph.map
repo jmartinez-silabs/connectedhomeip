@@ -1,0 +1,4 @@
+<map id="chip::System::Layer::CancelTimer" name="chip::System::Layer::CancelTimer">
+<area shape="rect" id="node1" title="This method cancels a one&#45;shot timer, started earlier through StartTimer()." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a4c05ea0fbe3353e42a0d38e220c5716e" title="This method starts a one&#45;shot timer." alt="" coords="5,5,156,47"/>
+</map>

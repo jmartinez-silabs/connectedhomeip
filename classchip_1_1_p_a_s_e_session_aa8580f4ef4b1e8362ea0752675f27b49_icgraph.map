@@ -1,0 +1,4 @@
+<map id="chip::PASESession::ToSerializable" name="chip::PASESession::ToSerializable">
+<area shape="rect" id="node1" title="Serialize the PASESession to the given serializable data structure for secure pairing." alt="" coords="267,5,413,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_storable_peer_connection.html#aa2ed2cf0c59b3962db6e561de0fc8234" title=" " alt="" coords="5,5,219,47"/>
+</map>

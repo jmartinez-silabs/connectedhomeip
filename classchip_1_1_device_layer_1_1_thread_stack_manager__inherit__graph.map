@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::ThreadStackManager" name="chip::DeviceLayer::ThreadStackManager">
+<area shape="rect" id="node1" title="Provides features for initializing and interacting with the Thread stack on a chip&#45;enabled device." alt="" coords="20,5,180,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html" title="Concrete implementation of the ThreadStackManager singleton object for CC1352." alt="" coords="5,95,195,136"/>
+</map>

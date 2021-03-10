@@ -1,0 +1,5 @@
+<map id="chip::SecureSessionMgr::SendMessage" name="chip::SecureSessionMgr::SendMessage">
+<area shape="rect" id="node1" title="Send a message to a currently connected peer." alt="" coords="239,39,415,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_secure_session_mgr.html#a174d96c2c6c606695c69cbbd75ce72b1" title=" " alt="" coords="5,5,191,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_secure_session_mgr.html#aaa8334e4d7720edccd1375cf01d5dcf2" title=" " alt="" coords="10,71,186,112"/>
+</map>

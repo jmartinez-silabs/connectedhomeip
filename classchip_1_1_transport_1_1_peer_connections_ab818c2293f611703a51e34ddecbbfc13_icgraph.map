@@ -1,0 +1,7 @@
+<map id="chip::Transport::PeerConnections::FindPeerConnectionState" name="chip::Transport::PeerConnections::FindPeerConnectionState">
+<area shape="rect" id="node1" title="Get a peer connection state given a Peer address." alt="" coords="243,104,477,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_secure_session_mgr.html#af692e736011b076d82659336c35ac714" title=" " alt="" coords="5,5,195,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_secure_session_mgr.html#a1afe5195fb02dd83aa60abeed035bc72" title="Return the transport type of current connection to the node with id peerNodeId." alt="" coords="12,71,188,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_secure_session_mgr.html#aba86b319532d6abe2005ee2d2a011c1e" title="Establish a new pairing with a peer node." alt="" coords="12,136,188,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_secure_session_mgr.html#ad41d663b56c6e825422b9801df41f3dc" title="Handle received secure message." alt="" coords="12,201,188,243"/>
+</map>

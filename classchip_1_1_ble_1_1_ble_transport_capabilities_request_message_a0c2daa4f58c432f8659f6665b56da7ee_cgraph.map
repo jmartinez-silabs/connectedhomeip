@@ -1,0 +1,4 @@
+<map id="chip::Ble::BleTransportCapabilitiesRequestMessage::Encode" name="chip::Ble::BleTransportCapabilitiesRequestMessage::Encode">
+<area shape="rect" id="node1" title="Must be able to reserve 20 byte data length in msgBuf." alt="" coords="5,5,249,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="297,5,492,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="chip::Ble::BleLayer::Init" name="chip::Ble::BleLayer::Init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,148,65"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_ble.html#aaac237988c24ccec8a95911bfe66eb65" title="Register a text error formatter for BLE Layer errors." alt="" coords="196,23,372,65"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_ble.html#af87a417341ad6a564ed87f3f543f7448" title=" " alt="" coords="424,5,623,32"/>
+<area shape="rect" id="node5" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="420,56,627,83"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="675,5,809,32"/>
+</map>

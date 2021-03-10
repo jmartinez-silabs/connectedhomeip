@@ -1,0 +1,6 @@
+<map id="chip::RendezvousSession::OnRendezvousMessageReceived" name="chip::RendezvousSession::OnRendezvousMessageReceived">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,251,105"/>
+<area shape="rect" id="node2" href="$classchip_1_1_packet_header.html#a0ca271a719dd1dfba3fa50253dbf845f" title="Gets the destination node id in the current message." alt="" coords="302,5,477,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_optional.html#ab34dda6cd80632dc994056dd12d08116" title="Checks if the optional contains a value or not." alt="" coords="299,71,480,98"/>
+<area shape="rect" id="node4" href="$classchip_1_1_optional.html#a541522fc0e3741b59b6796dedbaa13b3" title="Gets the current value of the optional." alt="" coords="311,122,467,149"/>
+</map>

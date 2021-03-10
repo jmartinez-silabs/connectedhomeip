@@ -1,0 +1,4 @@
+<map id="chip::Mdns::Resolver" name="chip::Mdns::Resolver">
+<area shape="rect" id="node1" title="Interface for resolving CHIP services." alt="" coords="24,5,181,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html" title=" " alt="" coords="5,80,200,121"/>
+</map>

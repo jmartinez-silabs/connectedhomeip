@@ -1,0 +1,4 @@
+<map id="chip::Inet::GetInterfaceName" name="chip::Inet::GetInterfaceName">
+<area shape="rect" id="node1" title="Get the name of a network interface." alt="" coords="5,5,216,32"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="264,5,476,32"/>
+</map>

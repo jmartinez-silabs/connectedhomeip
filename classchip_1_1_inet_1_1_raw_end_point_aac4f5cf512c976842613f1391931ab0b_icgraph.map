@@ -1,0 +1,4 @@
+<map id="chip::Inet::RawEndPoint::SendMsg" name="chip::Inet::RawEndPoint::SendMsg">
+<area shape="rect" id="node1" title="Send an ICMP message to the specified destination." alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_raw_end_point.html#a45d2e4ea620bb8bb0d023d76bf3d2612" title="Send an ICMP message to the specified destination address." alt="" coords="5,5,180,47"/>
+</map>

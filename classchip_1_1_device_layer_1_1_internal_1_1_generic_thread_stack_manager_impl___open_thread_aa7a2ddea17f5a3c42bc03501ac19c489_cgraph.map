@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::Internal::GenericThreadStackManagerImpl_OpenThread::OnOpenThreadStateChange" name="chip::DeviceLayer::Internal::GenericThreadStackManagerImpl_OpenThread::OnOpenThreadStateChange">
+<area shape="rect" id="node1" title="Called by OpenThread to alert the ThreadStackManager of a change in the state of the Thread stack." alt="" coords="5,5,304,76"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="352,20,499,61"/>
+</map>

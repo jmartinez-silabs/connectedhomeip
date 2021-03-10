@@ -1,0 +1,4 @@
+<map id="chip::Encoding::LittleEndian::Reader::Remaining" name="chip::Encoding::LittleEndian::Reader::Remaining">
+<area shape="rect" id="node1" title="Number of octets we have remaining to read." alt="" coords="255,5,456,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_encoding_1_1_little_endian_1_1_reader.html#a5f5b59ec64114f04393dca2865b724f4" title="Test whether we have at least the given number of octets left to read." alt="" coords="5,5,207,47"/>
+</map>

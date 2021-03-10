@@ -1,0 +1,4 @@
+<map id="chip::Platform::MemoryRealloc" name="chip::Platform::MemoryRealloc">
+<area shape="rect" id="node1" title="This function is called by the Chip layer to change the size of the memory block pointed to by p." alt="" coords="264,5,487,32"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_platform_memory_8h.html#ae452291d5f37dc2be6af2eaf0afdc9cb" title=" " alt="" coords="5,5,216,32"/>
+</map>

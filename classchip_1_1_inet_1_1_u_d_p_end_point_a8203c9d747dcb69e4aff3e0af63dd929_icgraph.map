@@ -1,0 +1,5 @@
+<map id="chip::Inet::UDPEndPoint::GetBoundInterface" name="chip::Inet::UDPEndPoint::GetBoundInterface">
+<area shape="rect" id="node1" title="Get the bound interface on this endpoint." alt="" coords="255,39,429,80"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#af6b4f7d2958dc0c884ed414361ddd0c4" title="Send the specified packet to a destination IP address over the specified address." alt="" coords="5,71,207,112"/>
+</map>

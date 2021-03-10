@@ -1,0 +1,4 @@
+<map id="chip::Encoding::LittleEndian::Reader::Read32" name="chip::Encoding::LittleEndian::Reader::Read32">
+<area shape="rect" id="node1" title="Read a single 32&#45;bit unsigned integer." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_encoding_1_1_little_endian_1_1_reader.html#a8ef19c42c2d576cdfe8ef570ae6651d3" title="Helper for our various APIs so we don&#39;t have to write out various logic multiple times." alt="" coords="255,5,456,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="chip::Inet::IPAddress::MakeIPv6Multicast" name="chip::Inet::IPAddress::MakeIPv6Multicast">
+<area shape="rect" id="node1" title="Construct an IPv6 multicast address from its parts." alt="" coords="517,71,671,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#ac701945cb65e92ef930cf750baf685f6" title="Construct an IPv6 multicast address from its parts." alt="" coords="280,5,433,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#af93d52e38ad9a9f30f731f331be1711b" title="Construct a transient IPv6 multicast address from its parts." alt="" coords="251,71,463,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_i_p_address.html#a59beb523c451e410951ff1dc47e23417" title="Construct a well&#45;known IPv6 multicast address from its parts." alt="" coords="244,136,469,177"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#acdc35bb04877b7d73976409083b9c854" title="Construct a transient, prefix IPv6 multicast address from its parts." alt="" coords="5,71,196,112"/>
+</map>

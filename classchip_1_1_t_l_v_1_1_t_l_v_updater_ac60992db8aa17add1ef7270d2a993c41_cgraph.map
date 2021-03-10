@@ -1,0 +1,6 @@
+<map id="chip::TLV::TLVUpdater::Init" name="chip::TLV::TLVUpdater::Init">
+<area shape="rect" id="node1" title="Initialize a TLVUpdater object using a TLVReader." alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a2770226003a341b6ea1cb1f9bc87cf71" title="Returns the total number of bytes read since the reader was initialized." alt="" coords="221,5,377,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ac62281b457a10b4385d933b1f372fc02" title="Gets the point in the underlying input buffer that corresponds to the reader&#39;s current position." alt="" coords="221,71,377,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a9b87f3063b7ceb1fc956ca2840cec91d" title="Returns the total number of bytes that can be read until the max read length is reached." alt="" coords="216,136,383,177"/>
+</map>

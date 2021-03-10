@@ -1,0 +1,5 @@
+<map id="chip::Controller::DeviceCommissioner::PairDevice" name="chip::Controller::DeviceCommissioner::PairDevice">
+<area shape="rect" id="node1" title="Pair a CHIP device with the provided Rendezvous connection parameters." alt="" coords="5,5,199,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_address.html#a29887d5a38a4e7cf65d48925fc8404ec" title=" " alt="" coords="247,13,489,39"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_peer_address.html#ac8fcd6c441f24d1594d2a589178dd1d8" title=" " alt="" coords="537,5,744,47"/>
+</map>

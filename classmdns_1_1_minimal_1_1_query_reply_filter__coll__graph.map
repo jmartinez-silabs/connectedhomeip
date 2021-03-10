@@ -1,0 +1,4 @@
+<map id="mdns::Minimal::QueryReplyFilter" name="mdns::Minimal::QueryReplyFilter">
+<area shape="rect" id="node1" title="A reply filter implementation based on a received/parsed query." alt="" coords="5,80,208,121"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_reply_filter.html" title="Filter used to determine what kind of a reply is acceptable or not." alt="" coords="8,5,205,32"/>
+</map>

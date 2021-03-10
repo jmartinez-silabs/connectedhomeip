@@ -1,0 +1,5 @@
+<map id="chip::Inet::IPAddress::IsIPv6" name="chip::Inet::IPAddress::IsIPv6">
+<area shape="rect" id="node1" title="Test whether address is IPv6 compatible." alt="" coords="277,39,431,80"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_i_pv6_responder.html#a471f0f86603b9b10f08925868f0b9b4e" title="Report all reponses maintained by this responder." alt="" coords="5,5,229,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_i_p_resource_record.html#afc94f2e84518ed81d363c70ee8455139" title="Output the data portion of the resource record." alt="" coords="18,71,217,112"/>
+</map>

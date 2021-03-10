@@ -1,0 +1,26 @@
+<map id="chip::DeviceLayer::PlatformMgr" name="chip::DeviceLayer::PlatformMgr">
+<area shape="rect" id="node1" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="1001,512,1148,553"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a9d9145a88fc82f1c1208bed5c467f9d1" title=" " alt="" coords="656,5,952,76"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#a20f3b235a585045b9bcdeb12ee2a00d7" title=" " alt="" coords="709,101,899,157"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#a582453e2f178856e8c505d9a94eb7b4d" title=" " alt="" coords="699,181,909,252"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1python.html#ad0a611fcb3207b79e97437e6899a356b" title="Schedules a task to be run on the CHIP main thread and waits for that task to be complete." alt="" coords="696,276,912,317"/>
+<area shape="rect" id="node15" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a4c9807a4310ea54fa90945d80fac13aa" title=" " alt="" coords="719,341,889,383"/>
+<area shape="rect" id="node16" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a2bee848624d7ca2b509fa2f85c01b623" title="This is a platform&#45;specific event / message dispatch hook." alt="" coords="717,407,891,448"/>
+<area shape="rect" id="node17" href="$classchip_1_1_network_provisioning.html#af40d6e5ea64f2638fbab95cb3a8b4b1b" title=" " alt="" coords="708,472,900,513"/>
+<area shape="rect" id="node18" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#aa7a2ddea17f5a3c42bc03501ac19c489" title="Called by OpenThread to alert the ThreadStackManager of a change in the state of the Thread stack." alt="" coords="655,537,953,608"/>
+<area shape="rect" id="node19" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a4c3282f11fe6bf42888f1dedaf3fecc9" title="This is a platform&#45;specific event / message post hook." alt="" coords="719,632,889,673"/>
+<area shape="rect" id="node20" href="$_stack_init_8cpp.html#a640216abd93030e70ab97b7107f2a733" title=" " alt="" coords="733,698,875,725"/>
+<area shape="rect" id="node21" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a54207a20651108b4b6018b5c7db3ee39" title="This is a platform&#45;specific event / message dispatch hook." alt="" coords="719,749,889,791"/>
+<area shape="rect" id="node22" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___thread.html#aa5c662bb30b49f171e229d44f37d6932" title=" " alt="" coords="673,815,935,885"/>
+<area shape="rect" id="node23" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#a4d3fb9ed100bdd543a01e4a239a29662" title=" " alt="" coords="689,910,919,995"/>
+<area shape="rect" id="node24" href="$classchip_1_1_network_provisioning.html#a2aef2cc80cfdd60237e1a4b288d3c099" title=" " alt="" coords="708,1020,900,1061"/>
+<area shape="rect" id="node6" href="$_commissioner_impl_8cpp.html#a6b726feb0ebd3bc747626b598bed2f2d" title=" " alt="" coords="366,159,589,200"/>
+<area shape="rect" id="node8" href="$_commissioner_impl_8cpp.html#ae6d2577f8fac9540210ead1a1567d41f" title=" " alt="" coords="348,225,607,251"/>
+<area shape="rect" id="node9" href="$_commissioner_impl_8cpp.html#a986fcff079df73336cfff2ccfee7d2a7" title="Returns CHIP_ERROR corresponding to an UnpairDevice call." alt="" coords="366,276,589,317"/>
+<area shape="rect" id="node11" href="$_commissioner_impl_8cpp.html#aac1170bc609276f14f910a7d678e2c88" title=" " alt="" coords="361,341,593,383"/>
+<area shape="rect" id="node13" href="$_commissioner_impl_8cpp.html#afacc0596ce8847e9d775cfbc42043227" title=" " alt="" coords="361,407,593,448"/>
+<area shape="rect" id="node7" href="$classchip_1_1internal_1_1commissioner_1_1_commissioner.html#a0bda32ec210dcb28710e716204652977" title=" " alt="" coords="51,159,254,200"/>
+<area shape="rect" id="node10" href="$classchip_1_1internal_1_1commissioner_1_1_commissioner.html#a189005e0a776637148714650f30290ad" title=" " alt="" coords="51,276,254,317"/>
+<area shape="rect" id="node12" href="$classchip_1_1internal_1_1commissioner_1_1_commissioner.html#ac6df983a88c55ce18c9bd5b5f33099f0" title=" " alt="" coords="5,341,300,383"/>
+<area shape="rect" id="node14" href="$classchip_1_1internal_1_1commissioner_1_1_commissioner.html#a11daa5748ab8a7c1a5207a97f291f629" title=" " alt="" coords="15,407,290,448"/>
+</map>

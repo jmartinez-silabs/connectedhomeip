@@ -1,0 +1,4 @@
+<map id="chip::Controller::DeviceCommissioner::Init" name="chip::Controller::DeviceCommissioner::Init">
+<area shape="rect" id="node1" title="Init function to be used when there exists a device layer that takes care of initializing System::Lay..." alt="" coords="289,5,464,47"/>
+<area shape="rect" id="node2" href="$class_android_device_controller_wrapper.html#a15b87eaa6f3f6679a4d0fd3affe135f6" title=" " alt="" coords="5,5,241,47"/>
+</map>

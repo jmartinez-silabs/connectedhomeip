@@ -1,0 +1,4 @@
+<map id="chip::TLV::CHIPCircularTLVBuffer::DataLength" name="chip::TLV::CHIPCircularTLVBuffer::DataLength">
+<area shape="rect" id="node1" title=" " alt="" coords="260,5,491,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_circular_t_l_v_reader.html#a6aa77fe51971416e83e0d1339e675d4e" title="Initializes a TLVReader object to read from a single CHIPCircularTLVBuffer." alt="" coords="5,5,212,47"/>
+</map>

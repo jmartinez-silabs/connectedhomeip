@@ -1,0 +1,8 @@
+<map id="pychip_internal_PairingDelegate_SetThreadCredentials" name="pychip_internal_PairingDelegate_SetThreadCredentials">
+<area shape="rect" id="node1" title=" " alt="" coords="5,96,237,137"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1python.html#ad0a611fcb3207b79e97437e6899a356b" title="Schedules a task to be run on the CHIP main thread and waits for that task to be complete." alt="" coords="285,37,501,79"/>
+<area shape="rect" id="node5" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4" title=" " alt="" coords="350,103,437,130"/>
+<area shape="rect" id="node6" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="354,154,433,181"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="593,5,740,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_platform_manager.html#a3e1f10d1c3df11960880431f644e1a62" title=" " alt="" coords="549,71,784,112"/>
+</map>

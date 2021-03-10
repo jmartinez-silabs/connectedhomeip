@@ -1,0 +1,10 @@
+<map id="mdns::Minimal::FullQName::Output" name="mdns::Minimal::FullQName::Output">
+<area shape="rect" id="node1" title=" " alt="" coords="852,104,1051,145"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_resource_record.html#ad103d9412b0822dccdf395127e4561b6" title="Append the given record to the underlying output." alt="" coords="572,5,804,47"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_query.html#a8b829995dce2239321842dcc1882a11b" title="Append the query to the specified buffer." alt="" coords="605,71,771,112"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_ptr_resource_record.html#a54a7e0aac107af7c0809799c52929aa1" title="Output the data portion of the resource record." alt="" coords="585,136,791,177"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_srv_resource_record.html#aa29216eccbf60c83ce372cfdcb54055c" title="Output the data portion of the resource record." alt="" coords="584,201,792,243"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_response_builder.html#aa5d64c2a45ecec7183482fabf88e5e1f" title="Attempts to add a record to the currentsystem packet buffer." alt="" coords="288,5,524,47"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_query_builder.html#ab47fea6c4dfffb6b7cb000e2460ae0f1" title=" " alt="" coords="300,71,512,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="chip::System::RegisterPOSIXErrorFormatter" name="chip::System::RegisterPOSIXErrorFormatter">
+<area shape="rect" id="node1" title="Register a text error formatter for POSIX errors." alt="" coords="5,89,244,131"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system.html#a3adbf6ce90e99b6c83480f4a53bf11ca" title="Given a POSIX error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="292,71,523,98"/>
+<area shape="rect" id="node6" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="304,122,511,149"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system.html#a9d0dcb319c29f91ca98be093e7dfef44" title="This implements a function to return an NULL&#45;terminated OS&#45;specific descriptive C string,..." alt="" coords="571,5,773,47"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="605,71,739,98"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_system.html#afd75f141e556bde917bbe779e135b8e9" title="This implements an introspection function for CHIP System Layer errors that allows the caller to dete..." alt="" coords="575,122,769,149"/>
+</map>

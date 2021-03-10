@@ -1,0 +1,4 @@
+<map id="chip::Inet::IPAddress::IsIPv4Broadcast" name="chip::Inet::IPAddress::IsIPv4Broadcast">
+<area shape="rect" id="node1" title="Test whether address is IPv4 broadcast." alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1" title="Test whether address is IPv4 compatible." alt="" coords="207,5,360,47"/>
+</map>

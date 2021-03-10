@@ -1,0 +1,4 @@
+<map id="chip::Inet::IPAddress::Subnet" name="chip::Inet::IPAddress::Subnet">
+<area shape="rect" id="node1" title="Extract the 16&#45;bit subnet identifier of an IPv6 ULA address." alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#a74dded2b5e93cb25d7631759dd0b444e" title="Test whether address is IPv6 unique&#45;local address (ULA)." alt="" coords="207,5,360,47"/>
+</map>

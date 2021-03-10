@@ -1,0 +1,4 @@
+<map id="chip::Encoding::BigEndian::Get32" name="chip::Encoding::BigEndian::Get32">
+<area shape="rect" id="node1" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 32&#45;bit value from the sp..." alt="" coords="269,5,459,47"/>
+<area shape="rect" id="node2" href="$namespacemdns_1_1_minimal.html#ad7cbea1bc2f9dc8b2373685359977403" title="Parses an IPV4 (A) record data https://tools.ietf.org/html/rfc1035 (included in base RFC)" alt="" coords="5,13,221,39"/>
+</map>

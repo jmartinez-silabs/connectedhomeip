@@ -1,0 +1,7 @@
+<map id="chip::DeviceLayer::Internal::GenericThreadStackManagerImpl_OpenThread::DoInit" name="chip::DeviceLayer::Internal::GenericThreadStackManagerImpl_OpenThread::DoInit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,247,95"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer_1_1_internal.html#aab0045a3fbe6e63dfcbca3f458232feb" title="Register a text error formatter for OpenThread errors." alt="" coords="295,39,508,95"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer_1_1_internal.html#aba023ca474453363fdf1c09f73faf94a" title="Given an OpenChip error value that represents an OpenThread error, returns a human&#45;readable NULL&#45;term..." alt="" coords="557,5,762,61"/>
+<area shape="rect" id="node5" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="556,85,763,112"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="811,20,945,47"/>
+</map>

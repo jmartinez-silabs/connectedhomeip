@@ -1,0 +1,5 @@
+<map id="chip::RendezvousSession::OnSessionEstablished" name="chip::RendezvousSession::OnSessionEstablished">
+<area shape="rect" id="node1" title="Called when the new secure session has been established." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="240,13,347,39"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="395,13,529,39"/>
+</map>

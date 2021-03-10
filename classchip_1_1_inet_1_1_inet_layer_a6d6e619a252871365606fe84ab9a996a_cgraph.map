@@ -1,0 +1,4 @@
+<map id="chip::Inet::InetLayer::Shutdown" name="chip::Inet::InetLayer::Shutdown">
+<area shape="rect" id="node1" title="This is the InetLayer explicit deinitializer and should be called prior to disposing of an instantiat..." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_inet_1_1_platform_1_1_inet_layer.html#a0eff0c32ff2f932fbbb85073f0b0a60f" title="This is a platform&#45;specific InetLayer pre&#45;shutdown hook." alt="" coords="204,5,392,47"/>
+</map>

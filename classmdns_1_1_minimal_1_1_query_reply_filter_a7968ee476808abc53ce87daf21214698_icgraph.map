@@ -1,0 +1,4 @@
+<map id="mdns::Minimal::QueryReplyFilter::SetIgnoreNameMatch" name="mdns::Minimal::QueryReplyFilter::SetIgnoreNameMatch">
+<area shape="rect" id="node1" title="Ignore qname matches during Accept calls (if set to true, only qtype and qclass are matched)." alt="" coords="288,5,492,47"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_response_sender.html#a64727a8ef0048d58282b75f3983ad79b" title="Send back the response to a particular query." alt="" coords="5,5,240,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::StringBuilderBase::Add" name="chip::StringBuilderBase::Add">
+<area shape="rect" id="node1" title="Append an integer value." alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_string_builder_base.html#afa9080f1b6ad9df7e5ed87182a8c475e" title="Append a null terminated string." alt="" coords="260,5,467,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_encoding_1_1_buffer_writer.html#ae4029c4436ca9d459577b1eb1740de57" title="Append a null terminated string, exclude the null terminator." alt="" coords="515,5,747,32"/>
+</map>

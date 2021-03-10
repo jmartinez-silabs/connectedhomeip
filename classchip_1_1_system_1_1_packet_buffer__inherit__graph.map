@@ -1,0 +1,4 @@
+<map id="chip::System::PacketBuffer" name="chip::System::PacketBuffer">
+<area shape="rect" id="node1" title="The packet buffer class is the core structure used for manipulating packets of octet&#45;serialized data,..." alt="" coords="5,80,200,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="77,5,128,32"/>
+</map>

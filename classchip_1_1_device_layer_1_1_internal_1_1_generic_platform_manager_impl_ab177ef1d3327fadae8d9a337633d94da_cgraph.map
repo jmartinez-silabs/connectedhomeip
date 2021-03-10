@@ -1,0 +1,11 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_InitChipStack" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_InitChipStack">
+<area shape="rect" id="node1" title=" " alt="" coords="5,86,248,142"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#aa339b4bbbc137aab908ac19ebd3460e3" title="Returns a reference to the public interface of the ConfigurationManager singleton object." alt="" coords="349,5,495,47"/>
+<area shape="rect" id="node3" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="646,71,753,98"/>
+<area shape="rect" id="node5" href="$namespacechip.html#a742bd0319b9d21abf37e45db9fc5322b" title="Register a text error formatter for CHIP core errors." alt="" coords="317,123,527,164"/>
+<area shape="rect" id="node8" href="$namespacechip_1_1_device_layer.html#aca4a3d12def7582fa2aef397c742e9a3" title="Register a text error formatter for Device Layer errors." alt="" coords="296,188,548,229"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="851,122,985,149"/>
+<area shape="rect" id="node6" href="$namespacechip.html#af25ca1394fb3a66e33c3e747bf7f18da" title="Given a CHIP error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="617,122,782,149"/>
+<area shape="rect" id="node7" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="596,173,803,199"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_device_layer.html#ad53c46d83d54acc6791bfdec0d28fd7c" title="Given Device Layer error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="609,224,789,265"/>
+</map>

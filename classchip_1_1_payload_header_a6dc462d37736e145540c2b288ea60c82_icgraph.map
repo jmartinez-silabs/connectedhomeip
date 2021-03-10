@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::DecodeAndConsume" name="chip::PayloadHeader::DecodeAndConsume">
+<area shape="rect" id="node1" title="A version of Decode that decodes from the start of a PacketBuffer and consumes the bytes we decoded f..." alt="" coords="252,5,417,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="5,5,204,47"/>
+</map>

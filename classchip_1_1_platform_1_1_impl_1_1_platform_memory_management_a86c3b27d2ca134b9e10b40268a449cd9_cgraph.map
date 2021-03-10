@@ -1,0 +1,4 @@
+<map id="chip::Platform::Impl::PlatformMemoryManagement::MemoryAlloc" name="chip::Platform::Impl::PlatformMemoryManagement::MemoryAlloc">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,232,61"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="280,20,487,47"/>
+</map>

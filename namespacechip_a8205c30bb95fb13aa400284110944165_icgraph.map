@@ -1,0 +1,4 @@
+<map id="chip::CastToSigned" name="chip::CastToSigned">
+<area shape="rect" id="node1" title="A function to reverse the effects of a signed&#45;to&#45;unsigned integer cast." alt="" coords="240,5,384,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ab8909151c95aacd84cd543e484f66527" title="Get the value of the current element as an 8&#45;bit signed integer." alt="" coords="5,5,192,32"/>
+</map>

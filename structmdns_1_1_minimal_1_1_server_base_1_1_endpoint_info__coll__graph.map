@@ -1,0 +1,11 @@
+<map id="mdns::Minimal::ServerBase::EndpointInfo" name="mdns::Minimal::ServerBase::EndpointInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="10,441,211,483"/>
+<area shape="rect" id="node2" title=" " alt="" coords="65,171,124,197"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html" title="Objects of this class represent non&#45;instantiable IP protocol endpoints." alt="" coords="137,261,332,288"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html" title="Objects of this class represent UDP transport endpoints." alt="" coords="137,352,311,379"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_end_point_basis.html" title="Basis of internet transport endpoint classes." alt="" coords="151,171,334,197"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_inet_layer_basis.html" title="This is the basis class of reference&#45;counted objects managed by an InetLayer object." alt="" coords="5,81,192,108"/>
+<area shape="rect" id="node7" href="$classchip_1_1_system_1_1_object.html" title="This represents a reference&#45;counted object allocated from space contained in an ObjectPool&lt;T,..." alt="" coords="21,5,177,32"/>
+<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_socket_events.html" title="Represent a set of I/O events requested/pending on a socket." alt="" coords="217,81,394,108"/>
+<area shape="rect" id="node9" title=" " alt="" coords="359,171,417,197"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="chip::Platform::MemoryFree" name="chip::Platform::MemoryFree">
+<area shape="rect" id="node1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="628,299,831,325"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#aac38e0bb647862d22f704cc57a93d32a" title=" " alt="" coords="323,5,566,61"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed" title=" " alt="" coords="359,86,530,127"/>
+<area shape="rect" id="node4" href="$_c_h_i_p_platform_memory_8h.html#a3e189c0fda39310573ba360343ef850e" title=" " alt="" coords="349,152,540,179"/>
+<area shape="rect" id="node6" href="$classchip_1_1_p_a_s_e_session.html#acd75a29760aad6770e09110e766e69a6" title="This function zeroes out and resets the memory used by the object." alt="" coords="371,203,518,245"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="363,269,527,296"/>
+<area shape="rect" id="node11" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a8b9badffc559b45eea707be9ab7604da" title="Allocates and returns a buffer containing the value of the current byte or UTF8 string." alt="" coords="367,321,523,362"/>
+<area shape="rect" id="node12" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad3a24b6ba80a5567206c10a087899820" title="Allocates and returns a buffer containing the null&#45;terminated value of the current byte or UTF8 strin..." alt="" coords="367,386,523,427"/>
+<area shape="rect" id="node13" href="$classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#aa1c42896cfe0a909016134a4b3909b0a" title="Release memory used." alt="" coords="309,451,580,522"/>
+<area shape="rect" id="node14" href="$classchip_1_1_platform_1_1_impl_1_1_platform_memory_management.html#ad82e73770d66e4d00168f80a773be4ae" title=" " alt="" coords="331,547,558,603"/>
+<area shape="rect" id="node15" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70" title=" " alt="" coords="359,627,530,669"/>
+<area shape="rect" id="node5" href="$_e_f_r32_2_thread_stack_manager_impl_8cpp.html#a64920a791a87465bf49fa751c7677825" title=" " alt="" coords="89,148,177,175"/>
+<area shape="rect" id="node8" href="$classchip_1_1_delete_deletor.html#aff5fbb01ab89465d6aa2b8b0e4ce0a17" title=" " alt="" coords="59,199,207,241"/>
+<area shape="rect" id="node9" href="$classchip_1_1_controller_1_1_device_commissioner.html#a0c88792b87a2ffb391e50bd202b45380" title=" " alt="" coords="5,265,261,306"/>
+<area shape="rect" id="node10" href="$classchip_1_1_rendezvous_session.html#a920c095cefa2c91a298ec1d62fb93322" title=" " alt="" coords="40,330,227,371"/>
+</map>

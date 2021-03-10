@@ -1,0 +1,4 @@
+<map id="chip::QRCodeSetupPayloadGenerator::payloadBase41Representation" name="chip::QRCodeSetupPayloadGenerator::payloadBase41Representation">
+<area shape="rect" id="node1" title="This function is called to encode the binary data of a payload to a base41 string using CHIP TLV enco..." alt="" coords="253,5,548,47"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a1f3c3c579d5a92eb34f9434eb203628c" title=" " alt="" coords="5,5,205,47"/>
+</map>

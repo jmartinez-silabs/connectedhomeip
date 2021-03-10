@@ -1,0 +1,6 @@
+<map id="chip::Platform::MemoryAllocatorShutdown" name="chip::Platform::MemoryAllocatorShutdown">
+<area shape="rect" id="node1" title=" " alt="" coords="567,23,800,65"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a0d666c72a16291f4bb65678cef399707" title="This function is called by the CHIP layer to releases all resources that were allocated by MemoryInit..." alt="" coords="280,31,519,57"/>
+<area shape="rect" id="node3" href="$_c_h_i_p_platform_memory_8h.html#affde314d05758ca99d26796e79d2e689" title=" " alt="" coords="5,5,232,32"/>
+<area shape="rect" id="node4" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8370c1f335b25ac9cdfc9a9225d2d131" title=" " alt="" coords="63,56,174,83"/>
+</map>

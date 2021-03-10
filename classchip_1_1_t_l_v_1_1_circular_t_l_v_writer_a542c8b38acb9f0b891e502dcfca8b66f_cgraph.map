@@ -1,0 +1,4 @@
+<map id="chip::TLV::CircularTLVWriter::Init" name="chip::TLV::CircularTLVWriter::Init">
+<area shape="rect" id="node1" title="Initializes a TLVWriter object to write from a single CHIPCircularTLVBuffer." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_writer.html#ae2d49ada6ae2a01e2f63e93d9cda2be7" title="Initializes a TLVWriter object to write into a single output buffer." alt="" coords="253,5,404,47"/>
+</map>

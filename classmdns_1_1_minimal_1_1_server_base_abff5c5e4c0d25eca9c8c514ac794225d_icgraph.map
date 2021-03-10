@@ -1,0 +1,5 @@
+<map id="mdns::Minimal::ServerBase::Shutdown" name="mdns::Minimal::ServerBase::Shutdown">
+<area shape="rect" id="node1" title="Closes all currently open endpoints." alt="" coords="255,39,456,80"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#add1fab322a0eedb5bdc881cb80d5b6b7" title=" " alt="" coords="5,71,207,112"/>
+</map>

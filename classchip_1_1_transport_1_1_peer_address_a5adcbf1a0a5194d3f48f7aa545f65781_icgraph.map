@@ -1,0 +1,4 @@
+<map id="chip::Transport::PeerAddress::TCP" name="chip::Transport::PeerAddress::TCP">
+<area shape="rect" id="node1" title=" " alt="" coords="235,13,473,39"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="5,5,187,47"/>
+</map>

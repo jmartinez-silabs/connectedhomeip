@@ -1,0 +1,6 @@
+<map id="chip::System::Platform::Layer::WillShutdown" name="chip::System::Platform::Layer::WillShutdown">
+<area shape="rect" id="node1" title="This is a platform&#45;specific CHIP System Layer pre&#45;shutdown hook." alt="" coords="495,46,665,87"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a67a7b9588a31572d5026edcd2f83ae8c" title=" " alt="" coords="296,46,447,87"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#a8467591ef3becb15488029ded56085db" title=" " alt="" coords="5,5,248,61"/>
+<area shape="rect" id="node4" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8370c1f335b25ac9cdfc9a9225d2d131" title=" " alt="" coords="71,85,182,112"/>
+</map>

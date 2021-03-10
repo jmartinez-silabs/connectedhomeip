@@ -1,0 +1,8 @@
+<map id="mdns::Minimal::BytesRange::Contains" name="mdns::Minimal::BytesRange::Contains">
+<area shape="rect" id="node1" title=" " alt="" coords="800,67,1005,108"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a7474ddeea0c38d06e36e76f3b529fa23" title="Get the end of the sequence without following any backwards pointers." alt="" coords="533,37,743,79"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_query_data.html#a106e1e3201e9f4b58d0a38115198973e" title="Parses a query structure." alt="" coords="268,5,465,47"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_resource_data.html#a98f2bd6ef9ecf3ddbbc974d01d3252a8" title="Parses a resource data structure." alt="" coords="257,71,476,112"/>
+<area shape="rect" id="node6" href="$namespacemdns_1_1_minimal.html#ae400e1275a2cb89e6c420f753c58da31" title="Parses TXT record data https://tools.ietf.org/html/rfc1035 (included in base RFC)" alt="" coords="524,154,752,181"/>
+<area shape="rect" id="node4" href="$namespacemdns_1_1_minimal.html#aa2ec27a27a315460f9520cf8433055d3" title="Parses a mMDNS packet." alt="" coords="5,46,209,73"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="chip::GetRandU64" name="chip::GetRandU64">
+<area shape="rect" id="node1" title="This function generates 64&#45;bit unsigned random number." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a7c3359cbbbaa4ce3da16765b3df6d3fa" title="This function generates 32&#45;bit unsigned random number." alt="" coords="192,5,331,32"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a31d378cdfe6daa5f388b226870a7847c" title="This function generates 16&#45;bit unsigned random number." alt="" coords="379,5,517,32"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a00ac9359c3b2f6660bbbf484c48ba7b1" title="This function generates 8&#45;bit unsigned random number." alt="" coords="565,5,696,32"/>
+</map>

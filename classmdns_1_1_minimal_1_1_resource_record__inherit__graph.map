@@ -1,0 +1,7 @@
+<map id="mdns::Minimal::ResourceRecord" name="mdns::Minimal::ResourceRecord">
+<area shape="rect" id="node1" title="A generic Reply record that supports data serialization." alt="" coords="5,111,237,138"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_i_p_resource_record.html" title=" " alt="" coords="290,5,489,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_ptr_resource_record.html" title=" " alt="" coords="287,71,492,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_srv_resource_record.html" title=" " alt="" coords="285,136,493,177"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_txt_resource_record.html" title=" " alt="" coords="285,201,493,243"/>
+</map>

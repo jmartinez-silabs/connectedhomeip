@@ -1,0 +1,4 @@
+<map id="chip::System::PacketBufferHandle::GetLwIPpbuf" name="chip::System::PacketBufferHandle::GetLwIPpbuf">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a01bd9ad36fd45a4dd1a0edc707348b9d" title="Perform an implementation&#45;defined check on the validity of a PacketBuffer pointer." alt="" coords="248,5,443,47"/>
+</map>

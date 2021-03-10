@@ -1,0 +1,4 @@
+<map id="chip.devicecontroller.ChipDeviceController.onPairingDeleted" name="chip.devicecontroller.ChipDeviceController.onPairingDeleted">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,251,54"/>
+<area shape="rect" id="node2" href="$interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#a0b95da3f44cc19ae8a9725c3c30cd9b3" title="Notifies the deletion of pairing session." alt="" coords="299,5,579,61"/>
+</map>

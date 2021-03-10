@@ -1,0 +1,7 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_Shutdown" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_Shutdown">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,248,87"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a67a7b9588a31572d5026edcd2f83ae8c" title=" " alt="" coords="296,5,447,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_inet_layer.html#a6d6e619a252871365606fe84ab9a996a" title="This is the InetLayer explicit deinitializer and should be called prior to disposing of an instantiat..." alt="" coords="296,71,447,112"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a503171917a1c25ce848a94a839fc6961" title="This is a platform&#45;specific CHIP System Layer pre&#45;shutdown hook." alt="" coords="503,5,674,47"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_inet_1_1_platform_1_1_inet_layer.html#a0eff0c32ff2f932fbbb85073f0b0a60f" title="This is a platform&#45;specific InetLayer pre&#45;shutdown hook." alt="" coords="495,71,683,112"/>
+</map>

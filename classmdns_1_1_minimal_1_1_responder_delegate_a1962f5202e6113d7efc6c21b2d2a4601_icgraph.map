@@ -1,0 +1,9 @@
+<map id="mdns::Minimal::ResponderDelegate::AddResponse" name="mdns::Minimal::ResponderDelegate::AddResponse">
+<area shape="rect" id="node1" title="Add the specified resource record to the response." alt="" coords="288,169,484,211"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_i_pv4_responder.html#ab07b0537c64211fcbe40194708994d81" title="Report all reponses maintained by this responder." alt="" coords="11,5,235,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_srv_responder.html#a55a9895ca39da1d822e375222f7b79ac" title="Report all reponses maintained by this responder." alt="" coords="14,71,231,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_txt_responder.html#a13e3e55632cd49b5c18b01ca3fd592b4" title="Report all reponses maintained by this responder." alt="" coords="14,136,231,177"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_ptr_responder.html#ad3b5d43d2680f5f038b485e37a0c58d4" title="Report all reponses maintained by this responder." alt="" coords="15,201,230,243"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_i_pv6_responder.html#a471f0f86603b9b10f08925868f0b9b4e" title="Report all reponses maintained by this responder." alt="" coords="11,267,235,308"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#a1f5c1f5117f6f4fad49896dbfc1690e6" title="Implementation of the responder delegate." alt="" coords="5,332,240,373"/>
+</map>

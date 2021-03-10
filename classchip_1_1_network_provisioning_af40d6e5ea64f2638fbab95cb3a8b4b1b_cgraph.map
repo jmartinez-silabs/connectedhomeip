@@ -1,0 +1,5 @@
+<map id="chip::NetworkProvisioning::Init" name="chip::NetworkProvisioning::Init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,197,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_platform_manager.html#a40b9e3aa86bd17703ed7c1566505da3e" title=" " alt="" coords="245,5,501,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="300,71,447,112"/>
+</map>

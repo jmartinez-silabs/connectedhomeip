@@ -1,0 +1,4 @@
+<map id="chip::SetupPayload::getAllOptionalVendorData" name="chip::SetupPayload::getAllOptionalVendorData">
+<area shape="rect" id="node1" title="A function to retrieve the vector of OptionalQRCodeInfo infos." alt="" coords="228,5,427,47"/>
+<area shape="rect" id="node2" href="$_setup_payload_parser-_j_n_i_8cpp.html#ad2eef2ab63421c097affedac58dda166" title=" " alt="" coords="5,13,180,39"/>
+</map>

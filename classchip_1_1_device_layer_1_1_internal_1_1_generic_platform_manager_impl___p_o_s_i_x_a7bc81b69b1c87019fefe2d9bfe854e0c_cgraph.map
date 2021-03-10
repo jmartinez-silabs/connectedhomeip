@@ -1,0 +1,9 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl_POSIX::_Shutdown" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl_POSIX::_Shutdown">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,248,105"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a5c9d5217af674bac407bcd6b47bd1239" title="Wake up the I/O thread that monitors the file descriptors using select() by writing a single byte to ..." alt="" coords="296,57,447,98"/>
+<area shape="rect" id="node3" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="541,5,647,32"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_system_wake_event.html#a3ed2071c5081b56347c7cd51b206de8f" title="Set the event." alt="" coords="495,57,693,98"/>
+<area shape="rect" id="node7" href="$classchip_1_1_system_1_1_layer.html#ae53b05f9b8d35810313f1657cfca1ebe" title="This returns the current state of the layer object." alt="" coords="519,122,669,163"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="780,5,915,32"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="741,64,953,91"/>
+</map>

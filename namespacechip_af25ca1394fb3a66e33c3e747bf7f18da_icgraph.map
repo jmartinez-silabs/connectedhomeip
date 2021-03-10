@@ -1,0 +1,8 @@
+<map id="chip::FormatCHIPError" name="chip::FormatCHIPError">
+<area shape="rect" id="node1" title="Given a CHIP error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="844,93,1009,120"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a742bd0319b9d21abf37e45db9fc5322b" title="Register a text error formatter for CHIP core errors." alt="" coords="587,53,796,94"/>
+<area shape="rect" id="node6" href="$classchip_1_1_shell_1_1_shell.html#aa8d01ac5af17c57720dabe3ddcd8c68a" title="Main loop for shell." alt="" coords="627,118,756,159"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#ab177ef1d3327fadae8d9a337633d94da" title=" " alt="" coords="296,45,539,101"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html#a880aace793df4a1bd6d980cb42cc6163" title=" " alt="" coords="5,5,248,61"/>
+<area shape="rect" id="node5" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html#a39e89886ccdf0f71cd961397eb90cfce" title=" " alt="" coords="5,85,248,141"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_Thread::UpdateServiceConnectivity" name="chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_Thread::UpdateServiceConnectivity">
+<area shape="rect" id="node1" title=" " alt="" coords="5,24,268,95"/>
+<area shape="rect" id="node2" href="$structchip_1_1_device_layer_1_1_chip_device_event.html#a4694c5b6a10be5de42562b0bea1c7f5c" title=" " alt="" coords="316,5,491,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="330,71,477,112"/>
+</map>

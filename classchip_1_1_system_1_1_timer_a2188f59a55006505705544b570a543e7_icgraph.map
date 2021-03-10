@@ -1,0 +1,7 @@
+<map id="chip::System::Timer::GetCurrentEpoch" name="chip::System::Timer::GetCurrentEpoch">
+<area shape="rect" id="node1" title="This method returns the current epoch, corrected by system sleep with the system timescale,..." alt="" coords="372,71,524,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a051e191795a9fab9b311957659733076" title="Handle I/O from a select call." alt="" coords="167,5,324,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_layer.html#a9f8401330ab67d20a0b7f962550f8b02" title="Prepare the sets of file descriptors for select() to work with." alt="" coords="170,71,321,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_layer.html#acdfa234a097e97625e67894292fa648a" title="This method starts a one&#45;shot timer." alt="" coords="170,136,321,177"/>
+<area shape="rect" id="node3" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2d24b8806b75aeb1b49b95919f4ea747" title=" " alt="" coords="5,46,119,73"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::Inet::TCPEndPoint::GetPeerInfo" name="chip::Inet::TCPEndPoint::GetPeerInfo">
+<area shape="rect" id="node1" title="Extract IP address and TCP port of remote endpoint." alt="" coords="235,5,405,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="5,5,187,47"/>
+</map>

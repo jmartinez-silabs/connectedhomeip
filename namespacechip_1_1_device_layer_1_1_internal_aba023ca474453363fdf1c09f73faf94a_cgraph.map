@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::Internal::FormatOpenThreadError" name="chip::DeviceLayer::Internal::FormatOpenThreadError">
+<area shape="rect" id="node1" title="Given an OpenChip error value that represents an OpenThread error, returns a human&#45;readable NULL&#45;term..." alt="" coords="5,5,211,61"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="259,20,393,47"/>
+</map>

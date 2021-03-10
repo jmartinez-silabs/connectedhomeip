@@ -1,0 +1,5 @@
+<map id="mdns::Minimal::QueryResponder::QueryResponder" name="mdns::Minimal::QueryResponder::QueryResponder">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#ac5bfdbb560d60256cb3e5067e33db177" title="Setup initial settings (clears all infos and sets up dns&#45;sd query replies)" alt="" coords="288,5,523,47"/>
+<area shape="rect" id="node3" href="$structmdns_1_1_minimal_1_1_internal_1_1_query_responder_info.html#a07187785d2fec992e6c8e0a8353bd52e" title=" " alt="" coords="571,5,776,47"/>
+</map>

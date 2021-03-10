@@ -1,0 +1,4 @@
+<map id="chip::Transport::PeerConnectionState::SetLocalKeyID" name="chip::Transport::PeerConnectionState::SetLocalKeyID">
+<area shape="rect" id="node1" title=" " alt="" coords="384,13,611,54"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_connections.html#a825e445808a3003a2ed5072469e92360" title="Allocates a new peer connection state state object out of the internal resource pool." alt="" coords="5,5,336,61"/>
+</map>

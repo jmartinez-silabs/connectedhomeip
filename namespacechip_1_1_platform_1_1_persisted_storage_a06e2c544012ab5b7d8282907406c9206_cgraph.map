@@ -1,0 +1,4 @@
+<map id="chip::Platform::PersistedStorage::Write" name="chip::Platform::PersistedStorage::Write">
+<area shape="rect" id="node1" title="Write the integer value of a key to persistent storage." alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#aa339b4bbbc137aab908ac19ebd3460e3" title="Returns a reference to the public interface of the ConfigurationManager singleton object." alt="" coords="235,5,381,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::Controller::Device::GetAddress" name="chip::Controller::Device::GetAddress">
+<area shape="rect" id="node1" title="Get the IP address and port assigned to the device." alt="" coords="543,5,717,47"/>
+<area shape="rect" id="node2" href="$_chip_device_controller-_script_binding_8cpp.html#a2cb12c5a805beef9e9d0eddca0192e61" title=" " alt="" coords="313,5,495,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html#aafde73d016fb6c398e37eabd6e8b7725" title=" " alt="" coords="5,5,265,47"/>
+</map>

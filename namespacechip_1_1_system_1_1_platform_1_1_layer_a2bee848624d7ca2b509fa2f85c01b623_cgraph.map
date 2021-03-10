@@ -1,0 +1,5 @@
+<map id="chip::System::Platform::Layer::DispatchEvents" name="chip::System::Platform::Layer::DispatchEvents">
+<area shape="rect" id="node1" title="This is a platform&#45;specific event / message dispatch hook." alt="" coords="5,39,180,80"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="273,5,419,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_platform_manager.html#a4cff33452d1f380bfd46c984e45df31c" title=" " alt="" coords="228,71,464,112"/>
+</map>

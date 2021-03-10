@@ -1,0 +1,4 @@
+<map id="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC::Mac" name="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC::Mac">
+<area shape="rect" id="node1" title="Generate a message authentication code." alt="" coords="5,5,251,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_crypto.html#aa16982cce50e50de8fe51d2e87f6e2ab" title=" " alt="" coords="299,5,460,47"/>
+</map>

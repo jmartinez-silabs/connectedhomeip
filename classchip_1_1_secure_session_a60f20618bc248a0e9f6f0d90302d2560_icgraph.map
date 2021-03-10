@@ -1,0 +1,4 @@
+<map id="chip::SecureSession::Reset" name="chip::SecureSession::Reset">
+<area shape="rect" id="node1" title="Clears the internal state of secure session back to the state of a new object." alt="" coords="280,5,431,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a1142a48b3fe9ee84cc3ec596da469fd2" title="Reset the connection state to a completely uninitialized status." alt="" coords="5,5,232,47"/>
+</map>

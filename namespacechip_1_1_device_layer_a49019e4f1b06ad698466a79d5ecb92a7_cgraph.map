@@ -1,0 +1,6 @@
+<map id="chip::DeviceLayer::CharacterizeIPv6Address" name="chip::DeviceLayer::CharacterizeIPv6Address">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,189,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#a4523d2bf5b27518bf5c00272ed13f750" title="Test whether address is IPv6 global unicast address." alt="" coords="237,5,397,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#ae4fcb4c5b36e14b3b3e97f748dd7b74d" title="Test whether address is IPv6 link&#45;local address (LL)." alt="" coords="241,71,394,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#a74dded2b5e93cb25d7631759dd0b444e" title="Test whether address is IPv6 unique&#45;local address (ULA)." alt="" coords="241,136,394,177"/>
+</map>

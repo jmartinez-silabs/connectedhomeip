@@ -1,0 +1,17 @@
+<map id="chip::ChipKeyId::GetType" name="chip::ChipKeyId::GetType">
+<area shape="rect" id="node1" title="Get CHIP key type of the specified key ID." alt="" coords="576,331,759,357"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#a5babbb3b911708382aaaa70be23ef35d" title="Decode a CHIP key identifier with a descriptive string." alt="" coords="300,5,511,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_key_id.html#a7af81d9b8e98c9cc2ef4d4f8c37e6bf3" title="Determine whether the specified application group key ID incorporates group master key." alt="" coords="300,57,511,98"/>
+<area shape="rect" id="node4" href="$classchip_1_1_chip_key_id.html#a8a60e3fb9e8b42bdd883491921d8a018" title="Determine whether the specified application group key ID incorporates root key." alt="" coords="300,122,511,163"/>
+<area shape="rect" id="node5" href="$classchip_1_1_chip_key_id.html#a9cdc6b5ae460a60f693f350b19a33273" title="Determine whether the specified key ID is of an application epoch key type." alt="" coords="291,188,520,215"/>
+<area shape="rect" id="node7" href="$classchip_1_1_chip_key_id.html#a32908bf2607b5e58b9f6ff66a6f00147" title="Determine whether the specified key ID is of an application group master key type." alt="" coords="303,239,508,281"/>
+<area shape="rect" id="node8" href="$classchip_1_1_chip_key_id.html#aa3ce48a2a76b147ede6c26553e0830f6" title="Determine whether the specified key ID is of an application root key type." alt="" coords="295,305,515,332"/>
+<area shape="rect" id="node9" href="$classchip_1_1_chip_key_id.html#af0454fcc4bbe746f757c383e7b46ed9a" title="Determine whether the specified key ID is of an application rotating type." alt="" coords="283,356,528,383"/>
+<area shape="rect" id="node11" href="$classchip_1_1_chip_key_id.html#a7f9128a94cd6a2526098342d525f3f73" title="Determine whether the specified key ID is of an application static type." alt="" coords="292,407,519,433"/>
+<area shape="rect" id="node12" href="$classchip_1_1_chip_key_id.html#a44102de9a8233b6bb45aff3f3494ccb8" title="Determine whether the specified key ID is of a general type." alt="" coords="297,457,513,484"/>
+<area shape="rect" id="node13" href="$classchip_1_1_chip_key_id.html#ab562413474e61b435a43cbaa9f89d784" title="Determine whether a given key ID identifies a key that is suitable for CHIP message encryption." alt="" coords="306,509,505,550"/>
+<area shape="rect" id="node14" href="$classchip_1_1_chip_key_id.html#abef21cf78178b62b6a8e588642b5f7ac" title="Determine whether the specified key ID is of a session type." alt="" coords="298,575,513,601"/>
+<area shape="rect" id="node15" href="$classchip_1_1_chip_key_id.html#a2d5169dec2563342eabffde6bbfec588" title="Determine whether key identifier has valid (legal) value." alt="" coords="319,626,492,667"/>
+<area shape="rect" id="node6" href="$classchip_1_1_chip_key_id.html#a66b99fa8b674dce5cea5c27cdc9b0760" title="Determines whether two key IDs identify the same key, or in the case of rotating keys,..." alt="" coords="19,181,221,222"/>
+<area shape="rect" id="node10" href="$classchip_1_1_chip_key_id.html#a4c6b777c2f76a791a41036ccb11c5e26" title="Determine whether the specified key ID belongs to one of the application group key types (static or r..." alt="" coords="5,381,235,408"/>
+</map>

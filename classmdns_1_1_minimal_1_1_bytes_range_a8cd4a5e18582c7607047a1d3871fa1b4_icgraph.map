@@ -1,0 +1,9 @@
+<map id="mdns::Minimal::BytesRange::Start" name="mdns::Minimal::BytesRange::Start">
+<area shape="rect" id="node1" title=" " alt="" coords="296,140,501,181"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_srv_record.html#a0da6828c6f1c1f4d71534a81ed0174c2" title="Parses a SRV record within [data]." alt="" coords="30,5,223,47"/>
+<area shape="rect" id="node3" href="$namespacemdns_1_1_minimal.html#a40ded0289bd6bc55f15cc40b9b61721c" title="Parses an IPV6 (AAAA) record data https://tools.ietf.org/html/rfc3596." alt="" coords="5,71,248,98"/>
+<area shape="rect" id="node4" href="$namespacemdns_1_1_minimal.html#ad7cbea1bc2f9dc8b2373685359977403" title="Parses an IPV4 (A) record data https://tools.ietf.org/html/rfc1035 (included in base RFC)" alt="" coords="19,122,235,149"/>
+<area shape="rect" id="node5" href="$namespacemdns_1_1_minimal.html#aa2ec27a27a315460f9520cf8433055d3" title="Parses a mMDNS packet." alt="" coords="25,173,229,199"/>
+<area shape="rect" id="node6" href="$namespacemdns_1_1_minimal.html#a8dfdadec68358895206b805a586fec1b" title="Parses a PTR record data https://tools.ietf.org/html/rfc1035 (included in base RFC)" alt="" coords="14,223,239,250"/>
+<area shape="rect" id="node7" href="$namespacemdns_1_1_minimal.html#ae400e1275a2cb89e6c420f753c58da31" title="Parses TXT record data https://tools.ietf.org/html/rfc1035 (included in base RFC)" alt="" coords="13,274,241,301"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::PASESession::GetLocalKeyId" name="chip::PASESession::GetLocalKeyId">
+<area shape="rect" id="node1" title="Return the associated local key id." alt="" coords="267,39,413,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_secure_session_mgr.html#aba86b319532d6abe2005ee2d2a011c1e" title="Establish a new pairing with a peer node." alt="" coords="24,5,200,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_storable_peer_connection.html#aa2ed2cf0c59b3962db6e561de0fc8234" title=" " alt="" coords="5,71,219,112"/>
+</map>

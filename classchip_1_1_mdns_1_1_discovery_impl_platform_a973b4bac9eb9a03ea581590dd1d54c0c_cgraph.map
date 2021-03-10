@@ -1,0 +1,7 @@
+<map id="chip::Mdns::DiscoveryImplPlatform::Start" name="chip::Mdns::DiscoveryImplPlatform::Start">
+<area shape="rect" id="node1" title="Starts the advertiser." alt="" coords="5,57,200,98"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#ac0b5927f16f9acfc238f7698f78b7f82" title="This function intializes the mdns module." alt="" coords="252,5,437,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="248,57,441,98"/>
+<area shape="rect" id="node4" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="291,123,398,149"/>
+<area shape="rect" id="node5" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="489,123,624,149"/>
+</map>

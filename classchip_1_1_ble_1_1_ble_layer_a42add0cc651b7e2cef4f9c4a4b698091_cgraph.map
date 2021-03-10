@@ -1,0 +1,4 @@
+<map id="chip::Ble::BleLayer::HandleWriteReceived" name="chip::Ble::BleLayer::HandleWriteReceived">
+<area shape="rect" id="node1" title="Call when a GATT write request is received." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_ble.html#a92d0c5b1b534923b35b73e0c6756f4ac" title=" " alt="" coords="224,13,391,39"/>
+</map>

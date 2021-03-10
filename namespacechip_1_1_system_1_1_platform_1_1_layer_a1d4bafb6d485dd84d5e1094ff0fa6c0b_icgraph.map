@@ -1,0 +1,4 @@
+<map id="chip::System::Platform::Layer::GetClock_RealTime" name="chip::System::Platform::Layer::GetClock_RealTime">
+<area shape="rect" id="node1" title="Platform&#45;specific function for getting the current real (civil) time in microsecond Unix time format." alt="" coords="212,5,415,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a5aacd2ebdd526dcccbc75c48bc13fe98" title="Returns the current real (civil) time in microsecond Unix time format." alt="" coords="5,5,164,47"/>
+</map>

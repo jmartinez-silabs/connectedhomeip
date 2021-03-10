@@ -1,0 +1,5 @@
+<map id="chip::System::FormatPOSIXError" name="chip::System::FormatPOSIXError">
+<area shape="rect" id="node1" title="Given a POSIX error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="491,13,721,39"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system.html#ad09791615a6e2342b45b484a0cf5f4a4" title="Register a text error formatter for POSIX errors." alt="" coords="204,5,443,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_layer.html#a677ed2d7a1f388d44b247663f8dd364a" title=" " alt="" coords="5,5,156,47"/>
+</map>

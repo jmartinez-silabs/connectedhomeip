@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::PersistedStorage::KeyValueStoreManager::Get" name="chip::DeviceLayer::PersistedStorage::KeyValueStoreManager::Get">
+<area shape="rect" id="node1" title="This overload of Get accepts a pointer to a trivially copyable object." alt="" coords="5,5,205,61"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#a4b1e419d49f9b4dc6f2baa15a8790fe3" title="Reads the value of an entry in the KVS." alt="" coords="253,5,453,61"/>
+</map>

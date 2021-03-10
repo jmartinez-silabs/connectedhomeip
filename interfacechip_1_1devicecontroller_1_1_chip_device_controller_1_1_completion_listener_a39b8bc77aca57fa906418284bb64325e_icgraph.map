@@ -1,0 +1,5 @@
+<map id="chip.devicecontroller.ChipDeviceController.CompletionListener.onNotifyChipConnectionClosed" name="chip.devicecontroller.ChipDeviceController.CompletionListener.onNotifyChipConnectionClosed">
+<area shape="rect" id="node1" title="Notifies that the Chip connection has been closed." alt="" coords="640,5,920,61"/>
+<area shape="rect" id="node2" href="$classchip_1_1devicecontroller_1_1_chip_device_controller.html#a5915d9ac5c7240f2c75d968f5f158da9" title=" " alt="" coords="301,5,592,61"/>
+<area shape="rect" id="node3" href="$classchip_1_1devicecontroller_1_1_android_chip_stack.html#a010e608805e33165ac0c0a37abbb7380" title=" " alt="" coords="5,5,253,61"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="chip.devicecontroller.ChipDeviceController.onNotifyChipConnectionClosed" name="chip.devicecontroller.ChipDeviceController.onNotifyChipConnectionClosed">
+<area shape="rect" id="node1" title=" " alt="" coords="5,90,296,146"/>
+<area shape="rect" id="node2" href="$classchip_1_1devicecontroller_1_1_android_chip_stack.html#a549f0d37eb6d9e0c793aec8f0d55fcbf" title=" " alt="" coords="379,5,589,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_logging.html#a8453332a700f03454f4ab20f41d033a6" title="Log, to the platform&#45;specified mechanism, the specified log message, msg, for the specified module,..." alt="" coords="672,141,811,167"/>
+<area shape="rect" id="node9" href="$interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#a39b8bc77aca57fa906418284bb64325e" title="Notifies that the Chip connection has been closed." alt="" coords="344,122,624,178"/>
+<area shape="rect" id="node10" href="$classchip_1_1devicecontroller_1_1_android_chip_stack.html#ae011eaae3f9a2bc9c854281846b8caac" title=" " alt="" coords="377,203,591,244"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_logging.html#a4862fe143704aa82e0cb16b07a323329" title=" " alt="" coords="859,141,1007,167"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_logging.html#a265141bc18fb097c8b04bdb86f47052b" title=" " alt="" coords="1055,82,1281,109"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_logging.html#a574c22b780a24267d60ebb8b4fa8aa0d" title=" " alt="" coords="1075,133,1261,175"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_logging_1_1_platform.html#a7259a872f0b5cb8b70d74f29e23f7367" title="CHIP log output functions." alt="" coords="1082,199,1254,240"/>
+<area shape="rect" id="node8" href="$cc13x2__26x2_2_logging_8cpp.html#a1797402591ac65982bddc2bbc912163d" title=" " alt="" coords="1329,206,1468,233"/>
+</map>

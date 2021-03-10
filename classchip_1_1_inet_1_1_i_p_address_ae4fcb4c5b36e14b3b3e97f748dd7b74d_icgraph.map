@@ -1,0 +1,8 @@
+<map id="chip::Inet::IPAddress::IsIPv6LinkLocal" name="chip::Inet::IPAddress::IsIPv6LinkLocal">
+<area shape="rect" id="node1" title="Test whether address is IPv6 link&#45;local address (LL)." alt="" coords="516,129,669,171"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6e1c6ec9a6359d56a2ee865f4f8c3572" title="Bind the raw endpoint to an IPv6 link&#45;local scope address at the specified interface index." alt="" coords="289,5,463,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#a49019e4f1b06ad698466a79d5ecb92a7" title=" " alt="" coords="284,71,468,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#a4d3fb9ed100bdd543a01e4a239a29662" title=" " alt="" coords="5,78,236,163"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0020508efa72ed087366ad3620fcf9c1" title="Initiate a TCP connection." alt="" coords="291,188,461,229"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_inet_layer.html#a8db5ddc6886ac4a31c989e6e64956497" title="Check if there is a prefix match between the specified IPv6 address and any of the locally configured..." alt="" coords="287,253,465,295"/>
+</map>

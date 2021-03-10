@@ -1,0 +1,4 @@
+<map id="chip::Platform::ScopedMemoryBuffer&lt; T, MemoryManagement &gt;" name="chip::Platform::ScopedMemoryBuffer&lt; T, MemoryManagement &gt;">
+<area shape="rect" id="node1" title="Represents a memory buffer allocated using chip::Platform::Memory*Alloc methods." alt="" coords="25,109,271,151"/>
+<area shape="rect" id="node2" href="$classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html" title=" " alt="" coords="5,5,291,61"/>
+</map>

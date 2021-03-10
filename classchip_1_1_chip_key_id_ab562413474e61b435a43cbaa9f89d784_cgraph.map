@@ -1,0 +1,6 @@
+<map id="chip::ChipKeyId::IsMessageEncryptionKeyId" name="chip::ChipKeyId::IsMessageEncryptionKeyId">
+<area shape="rect" id="node1" title="Determine whether a given key ID identifies a key that is suitable for CHIP message encryption." alt="" coords="5,27,204,69"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#abca0f855eb71f6539e7312ac33b586db" title="Get CHIP key type of the specified key ID." alt="" coords="266,5,449,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_key_id.html#a9e8137c1566939a6fe28cc39e6b94282" title="Determine whether the specified application group key ID uses &quot;current&quot; epoch key." alt="" coords="252,57,463,98"/>
+<area shape="rect" id="node4" href="$classchip_1_1_chip_key_id.html#af5cb79ed780e9057ab8b9dacaeeae6b4" title="Determine whether the specified application group key ID incorporates epoch key." alt="" coords="511,57,721,98"/>
+</map>

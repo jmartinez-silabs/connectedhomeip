@@ -1,0 +1,4 @@
+<map id="chip.devicecontroller.ChipDeviceController.onConnectDeviceComplete" name="chip.devicecontroller.ChipDeviceController.onConnectDeviceComplete">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,253,61"/>
+<area shape="rect" id="node2" href="$interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#a764ef8b7a2077b50d73e55041598ffc8" title="Notifies the completion of &quot;ConnectDevice&quot; command." alt="" coords="301,5,581,61"/>
+</map>

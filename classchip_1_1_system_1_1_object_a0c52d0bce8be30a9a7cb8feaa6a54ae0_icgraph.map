@@ -1,0 +1,18 @@
+<map id="chip::System::Object::SystemLayer" name="chip::System::Object::SystemLayer">
+<area shape="rect" id="node1" title="Returns a reference to the CHIP System Layer object provided when the object was initially retained f..." alt="" coords="949,267,1105,308"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a553628b0f98910119fd75aa20d5f0c95" title="Close the endpoint." alt="" coords="727,71,901,112"/>
+<area shape="rect" id="node10" href="$classchip_1_1_inet_1_1_raw_end_point.html#aac36f05102a9c5fb2098c554483dbd53" title="Close the endpoint." alt="" coords="727,136,901,177"/>
+<area shape="rect" id="node12" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0020508efa72ed087366ad3620fcf9c1" title="Initiate a TCP connection." alt="" coords="729,201,899,243"/>
+<area shape="rect" id="node13" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#aeb85d97d8ca24852fac34dc363c604ee" title="Enable reception." alt="" coords="729,267,899,308"/>
+<area shape="rect" id="node14" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a83f40c25b5cbcff96420431ea58e592d" title="Prepare the endpoint to receive UDP messages." alt="" coords="504,263,679,304"/>
+<area shape="rect" id="node15" href="$classchip_1_1_inet_1_1_raw_end_point.html#a30143b6ea090350c712ac9178fa351e5" title="Prepare the endpoint to receive ICMP messages." alt="" coords="727,384,901,425"/>
+<area shape="rect" id="node16" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a8f5e6ccb980f98143fa5d780155fa753" title="Prepare the endpoint to receive TCP messages." alt="" coords="729,449,899,491"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_u_d_p.html#acbf6fbfa6f61a49b78dac13529725534" title="Close the open endpoint without destroying the object." alt="" coords="279,71,432,112"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#aadd0a9003880abd117787f7fbf54a603" title="Close the endpoint and recycle its memory." alt="" coords="504,100,679,141"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_u_d_p.html#a29ef44bfcf73b0a6acb882f2e6b9e438" title="Initialize a UDP transport on a given port." alt="" coords="29,5,183,47"/>
+<area shape="rect" id="node5" href="$classchip_1_1_transport_1_1_u_d_p.html#a0d8f7b89a726c8cc7bbd3819cc811876" title=" " alt="" coords="29,71,183,112"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_server_base.html#abff5c5e4c0d25eca9c8c514ac794225d" title="Closes all currently open endpoints." alt="" coords="255,136,456,177"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="5,201,207,243"/>
+<area shape="rect" id="node9" href="$classmdns_1_1_minimal_1_1_server_base.html#add1fab322a0eedb5bdc881cb80d5b6b7" title=" " alt="" coords="5,136,207,177"/>
+<area shape="rect" id="node11" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6d70b1376048c6cfacc6dde91f5cdfde" title="Close the endpoint and recycle its memory." alt="" coords="504,165,679,207"/>
+</map>

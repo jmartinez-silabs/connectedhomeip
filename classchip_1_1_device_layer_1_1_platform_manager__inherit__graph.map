@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::PlatformManager" name="chip::DeviceLayer::PlatformManager">
+<area shape="rect" id="node1" title="Provides features for initializing and interacting with the chip network stack on a chip&#45;enabled devi..." alt="" coords="14,5,161,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_platform_manager_impl.html" title="Concrete implementation of the PlatformManager singleton object for the CC13X2_26X2 platform." alt="" coords="5,95,169,136"/>
+</map>

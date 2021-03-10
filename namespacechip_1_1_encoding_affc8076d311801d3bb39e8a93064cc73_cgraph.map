@@ -1,0 +1,4 @@
+<map id="chip::Encoding::BytesToHex" name="chip::Encoding::BytesToHex">
+<area shape="rect" id="node1" title="Encode a buffer of bytes into hexadecimal, with or without null&#45;termination and using either lowercas..." alt="" coords="5,5,207,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b" title="Check whether flag(s) are set." alt="" coords="255,5,397,32"/>
+</map>

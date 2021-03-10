@@ -1,0 +1,4 @@
+<map id="chip::TLV::TLVReader::GetDataPtr" name="chip::TLV::TLVReader::GetDataPtr">
+<area shape="rect" id="node1" title="Get a pointer to the initial encoded byte of a TLV byte or UTF8 string element." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_t_l_v.html#a122b2b4bc311900dfa62fd9bb916c876" title="Returns true if the specified TLV type is a UTF8 or byte string." alt="" coords="209,13,399,39"/>
+</map>

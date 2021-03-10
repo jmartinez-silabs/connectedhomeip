@@ -1,0 +1,19 @@
+<map id="chip::Inet::IPAddress::IsIPv4" name="chip::Inet::IPAddress::IsIPv4">
+<area shape="rect" id="node1" title="Test whether address is IPv4 compatible." alt="" coords="1093,201,1247,243"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_i_pv4_responder.html#ab07b0537c64211fcbe40194708994d81" title="Report all reponses maintained by this responder." alt="" coords="821,5,1045,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#acd8a68ba31e03c02fcab53314ad6cfe0" title="Test whether address is IPv4 broadcast." alt="" coords="857,71,1010,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#aa8445c2654297783d999e287fe5e1bcb" title="Test whether address is IPv4 multicast." alt="" coords="857,136,1010,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_i_p_address.html#ab44c05f8c38176d20f15ec056c0eeb1e" title="Test whether address is IPv6 compatible." alt="" coords="857,201,1010,243"/>
+<area shape="rect" id="node9" href="$classchip_1_1_inet_1_1_inet_layer.html#a8db5ddc6886ac4a31c989e6e64956497" title="Check if there is a prefix match between the specified IPv6 address and any of the locally configured..." alt="" coords="845,267,1022,308"/>
+<area shape="rect" id="node10" href="$namespacechip_1_1_inet.html#a4652dca754204ecd3679ce212b9f54bb" title=" " alt="" coords="837,332,1029,373"/>
+<area shape="rect" id="node11" href="$classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760" title="Emit the IP address in conventional text presentation format." alt="" coords="857,401,1010,443"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_i_p_address.html#ab6a67ca011acd35b80876a45993ca930" title="Test whether address is IPv4 or IPv6 multicast." alt="" coords="581,132,735,173"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_i_pv6_responder.html#a471f0f86603b9b10f08925868f0b9b4e" title="Report all reponses maintained by this responder." alt="" coords="546,197,770,239"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_i_p_resource_record.html#afc94f2e84518ed81d363c70ee8455139" title="Output the data portion of the resource record." alt="" coords="559,263,757,304"/>
+<area shape="rect" id="node12" href="$namespacechip_1_1_device_layer_1_1_internal.html#abe2e4fe3d95c4b243c964c09f46ccd30" title=" " alt="" coords="546,328,770,369"/>
+<area shape="rect" id="node13" href="$namespacechip_1_1_device_layer_1_1_internal.html#ad7a9636d2100061afbd79471fbdf7d89" title="Log information related to a state change in the OpenThread stack." alt="" coords="550,394,766,450"/>
+<area shape="rect" id="node16" href="$classchip_1_1_transport_1_1_peer_address.html#a915e1f32a1bc1d399c259506cf56c6c3" title=" " alt="" coords="555,475,761,516"/>
+<area shape="rect" id="node17" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#a4d3fb9ed100bdd543a01e4a239a29662" title=" " alt="" coords="543,541,773,626"/>
+<area shape="rect" id="node14" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#ab30e6c389c12687d751882a83442feed" title=" " alt="" coords="284,387,495,457"/>
+<area shape="rect" id="node15" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#af13088d0df3274b4ed128237646e1556" title=" " alt="" coords="5,379,236,465"/>
+</map>

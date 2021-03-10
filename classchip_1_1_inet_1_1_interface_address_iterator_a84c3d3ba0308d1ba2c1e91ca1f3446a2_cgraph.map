@@ -1,0 +1,5 @@
+<map id="chip::Inet::InterfaceAddressIterator::GetIPv6PrefixLength" name="chip::Inet::InterfaceAddressIterator::GetIPv6PrefixLength">
+<area shape="rect" id="node1" title="Deprecated alias for GetPrefixLength(void)" alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a7aaeb92c5fdae4aa35ef1767da16c280" title="Gets the network prefix associated with the current interface address." alt="" coords="264,5,464,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_inet.html#a246dc37b8f3828875b165a9e838ae224" title="Compute a prefix length from a variable&#45;length netmask." alt="" coords="512,5,712,47"/>
+</map>

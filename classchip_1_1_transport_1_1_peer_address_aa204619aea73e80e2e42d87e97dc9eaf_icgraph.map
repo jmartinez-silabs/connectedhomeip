@@ -1,0 +1,7 @@
+<map id="chip::Transport::PeerAddress::GetTransportType" name="chip::Transport::PeerAddress::GetTransportType">
+<area shape="rect" id="node1" title=" " alt="" coords="316,104,523,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_secure_session_mgr.html#a1afe5195fb02dd83aa60abeed035bc72" title="Return the transport type of current connection to the node with id peerNodeId." alt="" coords="49,5,225,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="60,71,213,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="46,136,227,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_rendezvous_session.html#a641291a307943037229a6ba1e90adfcd" title="Called when the session establishment process generates a new message that should be sent to peer." alt="" coords="5,201,268,243"/>
+</map>

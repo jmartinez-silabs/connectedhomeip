@@ -1,0 +1,4 @@
+<map id="chip::Inet::InterfaceAddressIterator::GetIPv6PrefixLength" name="chip::Inet::InterfaceAddressIterator::GetIPv6PrefixLength">
+<area shape="rect" id="node1" title="Deprecated alias for GetPrefixLength(void)" alt="" coords="231,5,441,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_inet_layer.html#a8db5ddc6886ac4a31c989e6e64956497" title="Check if there is a prefix match between the specified IPv6 address and any of the locally configured..." alt="" coords="5,5,183,47"/>
+</map>

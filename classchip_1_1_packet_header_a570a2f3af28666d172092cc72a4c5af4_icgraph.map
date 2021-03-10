@@ -1,0 +1,4 @@
+<map id="chip::PacketHeader::DecodeAndConsume" name="chip::PacketHeader::DecodeAndConsume">
+<area shape="rect" id="node1" title="A version of Decode that decodes from the start of a PacketBuffer and consumes the bytes we decoded f..." alt="" coords="239,5,404,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_secure_session_mgr.html#a174d96c2c6c606695c69cbbd75ce72b1" title=" " alt="" coords="5,5,191,47"/>
+</map>

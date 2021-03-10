@@ -1,0 +1,6 @@
+<map id="pychip_Resolver_ResolveNode" name="pychip_Resolver_ResolveNode">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,228,73"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_resolver.html#aa88b0363ef10176ec51a0d3e62eab88f" title="Provides the system&#45;wide implementation of the service resolver." alt="" coords="276,5,433,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_resolver.html#a83fd921a62ceac9db7a996d04cd45293" title="Requests resolution of a node ID to its address." alt="" coords="276,71,433,112"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a19d5a9174437b347f9bc0ef9af58bc67" title=" " alt="" coords="481,5,676,47"/>
+</map>

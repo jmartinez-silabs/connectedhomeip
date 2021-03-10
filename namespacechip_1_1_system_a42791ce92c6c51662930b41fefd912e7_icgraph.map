@@ -1,0 +1,51 @@
+<map id="chip::System::MapErrorPOSIX" name="chip::System::MapErrorPOSIX">
+<area shape="rect" id="node1" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="1547,776,1759,802"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a856f915e764592b461f04ca166ba4911" title="Bind the endpoint to an interface IP address." alt="" coords="1037,78,1208,119"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0020508efa72ed087366ad3620fcf9c1" title="Initiate a TCP connection." alt="" coords="763,70,933,111"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ade6367f6d3a12bf1e002fa9b69b48ee2" title=" " alt="" coords="1290,311,1485,352"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#a922287047464637bb29095cdbc515493" title=" " alt="" coords="1290,376,1485,418"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6e1c6ec9a6359d56a2ee865f4f8c3572" title="Bind the raw endpoint to an IPv6 link&#45;local scope address at the specified interface index." alt="" coords="1300,442,1475,483"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_server_base.html#a3dbaa245dcbed18dde7058a065aa0db4" title="Send a specific packet broadcast to all interfaces." alt="" coords="1287,507,1488,548"/>
+<area shape="rect" id="node8" href="$classchip_1_1_system_1_1_system_wake_event.html#a09fd1031a455abe48ee46fc9ec3c5feb" title="Close both ends of the pipeline." alt="" coords="1288,572,1487,614"/>
+<area shape="rect" id="node9" href="$classchip_1_1_system_1_1_system_wake_event.html#afb467335d6c60aa671f93327c94a51dc" title="Clear the event." alt="" coords="1288,638,1487,679"/>
+<area shape="rect" id="node12" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ab829d2d2ed4e9d0afe57736de87b6225" title="Disable the TCP &quot;keep&#45;alive&quot; option." alt="" coords="1302,703,1473,744"/>
+<area shape="rect" id="node13" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a2d91810135f0b4390dd657617c421133" title="Enable TCP keepalive probes on the associated TCP connection." alt="" coords="1302,768,1473,810"/>
+<area shape="rect" id="node14" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a838f07f3378c806d7f5a5136045515e9" title="EnableNoDelay." alt="" coords="1302,834,1473,875"/>
+<area shape="rect" id="node15" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a1d4bafb6d485dd84d5e1094ff0fa6c0b" title="Platform&#45;specific function for getting the current real (civil) time in microsecond Unix time format." alt="" coords="1286,899,1489,940"/>
+<area shape="rect" id="node17" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a16f2a1b2fc0d717028452a2115d40619" title="Platform&#45;specific function for getting the current real (civil) time in millisecond Unix time format." alt="" coords="1276,964,1499,1006"/>
+<area shape="rect" id="node19" href="$namespacechip_1_1_inet.html#abfa05c909a84ba6b0195f30fe6381013" title="Get the name of a network interface." alt="" coords="1017,144,1228,170"/>
+<area shape="rect" id="node21" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#abb26c26b7274d379884b9682edb23e21" title="Extract IP address and TCP port of local endpoint." alt="" coords="1302,1030,1473,1071"/>
+<area shape="rect" id="node22" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ad72fbce3a9ca8661546c3dc876511fef" title="Extract IP address and TCP port of remote endpoint." alt="" coords="1302,1095,1473,1136"/>
+<area shape="rect" id="node24" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ad614a1884ff36d03bd145c58d67737ea" title=" " alt="" coords="1290,1160,1485,1202"/>
+<area shape="rect" id="node25" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="1290,1226,1485,1267"/>
+<area shape="rect" id="node26" href="$namespacechip_1_1_inet.html#af56d66a51130f1bfdffff55b54a6105e" title="Search the list of network interfaces for the indicated name." alt="" coords="1281,1292,1494,1318"/>
+<area shape="rect" id="node27" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a8f5e6ccb980f98143fa5d780155fa753" title="Prepare the endpoint to receive TCP messages." alt="" coords="763,187,933,228"/>
+<area shape="rect" id="node28" href="$namespacechip_1_1_system.html#af479bd2df1214d036bafd2ebacdd8f98" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="1278,1342,1497,1369"/>
+<area shape="rect" id="node29" href="$classchip_1_1_system_1_1_system_wake_event.html#a3ed2071c5081b56347c7cd51b206de8f" title="Set the event." alt="" coords="1288,246,1487,287"/>
+<area shape="rect" id="node46" href="$classchip_1_1_system_1_1_system_wake_event.html#a28876d95380ab5a8d1a8dd7f2d590621" title="Initialize the pipeline." alt="" coords="1288,1394,1487,1435"/>
+<area shape="rect" id="node47" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#aa46848ca7d4fdc8ad8ce933ea8ebedf3" title="Platform&#45;specific function for setting the current real (civil) time." alt="" coords="1287,1459,1487,1500"/>
+<area shape="rect" id="node49" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a4c7c22eac77f08d091e9c658aa785093" title="Set the TCP TCP_USER_TIMEOUT socket option." alt="" coords="1302,1524,1473,1566"/>
+<area shape="rect" id="node10" href="$classchip_1_1_system_1_1_layer.html#a051e191795a9fab9b311957659733076" title="Handle I/O from a select call." alt="" coords="1044,704,1201,746"/>
+<area shape="rect" id="node11" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2d24b8806b75aeb1b49b95919f4ea747" title=" " alt="" coords="791,778,905,805"/>
+<area shape="rect" id="node16" href="$classchip_1_1_system_1_1_layer.html#a5aacd2ebdd526dcccbc75c48bc13fe98" title="Returns the current real (civil) time in microsecond Unix time format." alt="" coords="1043,899,1202,940"/>
+<area shape="rect" id="node18" href="$classchip_1_1_system_1_1_layer.html#a2ac38607d7e12c251f1e33719c718f16" title="Returns the current real (civil) time in millisecond Unix time format." alt="" coords="1033,964,1212,1006"/>
+<area shape="rect" id="node20" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="5,451,207,492"/>
+<area shape="rect" id="node23" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="1032,1095,1213,1136"/>
+<area shape="rect" id="node30" href="$classchip_1_1_system_1_1_layer.html#a5c9d5217af674bac407bcd6b47bd1239" title="Wake up the I/O thread that monitors the file descriptors using select() by writing a single byte to ..." alt="" coords="1047,376,1198,418"/>
+<area shape="rect" id="node31" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html#a950983f1ed835eb02d8de70f932c6db0" title=" " alt="" coords="727,618,969,674"/>
+<area shape="rect" id="node32" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html#a7bc81b69b1c87019fefe2d9bfe854e0c" title=" " alt="" coords="727,698,969,754"/>
+<area shape="rect" id="node33" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a553628b0f98910119fd75aa20d5f0c95" title="Close the endpoint." alt="" coords="761,552,935,594"/>
+<area shape="rect" id="node40" href="$classchip_1_1_inet_1_1_raw_end_point.html#aac36f05102a9c5fb2098c554483dbd53" title="Close the endpoint." alt="" coords="761,252,935,294"/>
+<area shape="rect" id="node42" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#aeb85d97d8ca24852fac34dc363c604ee" title="Enable reception." alt="" coords="763,318,933,359"/>
+<area shape="rect" id="node43" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8370c1f335b25ac9cdfc9a9225d2d131" title=" " alt="" coords="793,384,903,410"/>
+<area shape="rect" id="node44" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a83f40c25b5cbcff96420431ea58e592d" title="Prepare the endpoint to receive UDP messages." alt="" coords="504,455,679,496"/>
+<area shape="rect" id="node45" href="$classchip_1_1_inet_1_1_raw_end_point.html#a30143b6ea090350c712ac9178fa351e5" title="Prepare the endpoint to receive ICMP messages." alt="" coords="761,435,935,476"/>
+<area shape="rect" id="node34" href="$classchip_1_1_transport_1_1_u_d_p.html#acbf6fbfa6f61a49b78dac13529725534" title="Close the open endpoint without destroying the object." alt="" coords="279,582,432,623"/>
+<area shape="rect" id="node37" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#aadd0a9003880abd117787f7fbf54a603" title="Close the endpoint and recycle its memory." alt="" coords="504,523,679,564"/>
+<area shape="rect" id="node35" href="$classchip_1_1_transport_1_1_u_d_p.html#a29ef44bfcf73b0a6acb882f2e6b9e438" title="Initialize a UDP transport on a given port." alt="" coords="29,582,183,623"/>
+<area shape="rect" id="node36" href="$classchip_1_1_transport_1_1_u_d_p.html#a0d8f7b89a726c8cc7bbd3819cc811876" title=" " alt="" coords="29,647,183,688"/>
+<area shape="rect" id="node38" href="$classmdns_1_1_minimal_1_1_server_base.html#abff5c5e4c0d25eca9c8c514ac794225d" title="Closes all currently open endpoints." alt="" coords="255,516,456,558"/>
+<area shape="rect" id="node39" href="$classmdns_1_1_minimal_1_1_server_base.html#add1fab322a0eedb5bdc881cb80d5b6b7" title=" " alt="" coords="5,516,207,558"/>
+<area shape="rect" id="node41" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6d70b1376048c6cfacc6dde91f5cdfde" title="Close the endpoint and recycle its memory." alt="" coords="504,252,679,294"/>
+<area shape="rect" id="node48" href="$classchip_1_1_system_1_1_layer.html#a3d037a56e901fdf68e5007470710ec34" title="Sets the platform&#39;s notion of current real (civil) time." alt="" coords="1045,1459,1201,1500"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::Platform::MemoryShutdown" name="chip::Platform::MemoryShutdown">
+<area shape="rect" id="node1" title="This function is called by the CHIP layer to releases all resources that were allocated by MemoryInit..." alt="" coords="5,13,244,39"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a4cf597957c81be2d3a4a6f944f90fb40" title=" " alt="" coords="292,5,525,47"/>
+</map>

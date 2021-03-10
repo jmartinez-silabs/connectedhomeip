@@ -1,0 +1,4 @@
+<map id="chip::Encoding::LittleEndian::Read16" name="chip::Encoding::LittleEndian::Read16">
+<area shape="rect" id="node1" title="Perform a, potentially unaligned, memory read of the little endian byte ordered 16&#45;bit value from the..." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_encoding_1_1_little_endian.html#a3e38e5cb39ab0fa8b8158001c8e20ffd" title="Perform a, potentially unaligned, memory read of the little endian byte ordered 16&#45;bit value from the..." alt="" coords="255,5,456,47"/>
+</map>

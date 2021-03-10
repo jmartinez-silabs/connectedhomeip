@@ -1,0 +1,12 @@
+<map id="chip::Controller::ClusterBase::RequestAttributeReporting" name="chip::Controller::ClusterBase::RequestAttributeReporting">
+<area shape="rect" id="node1" title="Request attribute reports from the device." alt="" coords="345,267,580,308"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_color_control_cluster.html#a2d136d7ba7bfd5e4bbcd79d07c9016d9" title=" " alt="" coords="5,5,297,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_color_control_cluster.html#a9c7992357235bdf500d54633166f9ce1" title=" " alt="" coords="26,71,277,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_level_control_cluster.html#a79d9feb217e93d865cf037ec5f54f672" title=" " alt="" coords="22,136,281,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_controller_1_1_color_control_cluster.html#ab81262d0a15d88d1a392f0908f8f84b7" title=" " alt="" coords="6,201,297,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_controller_1_1_color_control_cluster.html#a7e9d12b754b1be6f6617dedb6309ff53" title=" " alt="" coords="35,267,268,308"/>
+<area shape="rect" id="node7" href="$classchip_1_1_controller_1_1_color_control_cluster.html#a326d57f9964a53a95980f77c70135cbc" title=" " alt="" coords="35,332,267,373"/>
+<area shape="rect" id="node8" href="$classchip_1_1_controller_1_1_door_lock_cluster.html#acff4fc53498545b1daca68bacc9fb4b0" title=" " alt="" coords="31,397,271,439"/>
+<area shape="rect" id="node9" href="$classchip_1_1_controller_1_1_temperature_measurement_cluster.html#a55b88a705ebf53a8728e83866fd9ff2f" title=" " alt="" coords="18,463,285,519"/>
+<area shape="rect" id="node10" href="$classchip_1_1_controller_1_1_on_off_cluster.html#ad9a2b58ee73e38ba7ccc05eb156162b2" title=" " alt="" coords="45,544,257,585"/>
+</map>

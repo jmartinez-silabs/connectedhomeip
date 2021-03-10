@@ -1,0 +1,4 @@
+<map id="chip::System::PacketBuffer::MaxDataLength" name="chip::System::PacketBuffer::MaxDataLength">
+<area shape="rect" id="node1" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="248,5,443,47"/>
+</map>

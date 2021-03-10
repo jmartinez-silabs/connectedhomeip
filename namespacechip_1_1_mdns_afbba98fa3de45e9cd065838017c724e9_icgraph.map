@@ -1,0 +1,4 @@
+<map id="chip::Mdns::ChipMdnsPublishService" name="chip::Mdns::ChipMdnsPublishService">
+<area shape="rect" id="node1" title="This function publishes an service via mDNS." alt="" coords="248,5,459,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded" title="Advertises the CHIP node as a commisioning/commissionable node." alt="" coords="5,5,200,47"/>
+</map>

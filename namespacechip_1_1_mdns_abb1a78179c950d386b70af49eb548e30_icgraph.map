@@ -1,0 +1,5 @@
+<map id="chip::Mdns::ChipMdnsStopPublish" name="chip::Mdns::ChipMdnsStopPublish">
+<area shape="rect" id="node1" title="This function stops publishing service via mDNS." alt="" coords="260,39,453,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c" title="Starts the advertiser." alt="" coords="11,5,206,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9519fa8a8d9da6c80c34b893279c4f55" title="This function stops publishing the device on mDNS." alt="" coords="5,71,212,112"/>
+</map>

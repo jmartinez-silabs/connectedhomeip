@@ -1,0 +1,4 @@
+<map id="mdns::Minimal::QueryResponderBase::MarkAdditionalRepliesFor" name="mdns::Minimal::QueryResponderBase::MarkAdditionalRepliesFor">
+<area shape="rect" id="node1" title="Flag any additional responses required for the given iterator." alt="" coords="288,5,523,47"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_response_sender.html#a64727a8ef0048d58282b75f3983ad79b" title="Send back the response to a particular query." alt="" coords="5,5,240,47"/>
+</map>

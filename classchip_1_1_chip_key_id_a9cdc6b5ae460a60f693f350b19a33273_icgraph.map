@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::IsAppEpochKey" name="chip::ChipKeyId::IsAppEpochKey">
+<area shape="rect" id="node1" title="Determine whether the specified key ID is of an application epoch key type." alt="" coords="256,13,485,39"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#a66b99fa8b674dce5cea5c27cdc9b0760" title="Determines whether two key IDs identify the same key, or in the case of rotating keys,..." alt="" coords="5,5,208,47"/>
+</map>

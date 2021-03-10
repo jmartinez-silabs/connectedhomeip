@@ -1,0 +1,6 @@
+<map id="chip::MessageAuthenticationCode::SetTag" name="chip::MessageAuthenticationCode::SetTag">
+<area shape="rect" id="node1" title="Set the message auth tag for this header." alt="" coords="5,57,216,98"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="338,5,417,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_packet_header.html#a3fb5d8668826efa761e4bbedec437e6c" title=" " alt="" coords="302,57,453,98"/>
+<area shape="rect" id="node4" href="$classchip_1_1_message_authentication_code.html#a17321e4a87d5a247ae12c31ce5b18b24" title=" " alt="" coords="264,122,491,163"/>
+</map>

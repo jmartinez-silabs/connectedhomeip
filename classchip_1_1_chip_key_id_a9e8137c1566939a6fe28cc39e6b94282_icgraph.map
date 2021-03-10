@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::UsesCurrentEpochKey" name="chip::ChipKeyId::UsesCurrentEpochKey">
+<area shape="rect" id="node1" title="Determine whether the specified application group key ID uses &quot;current&quot; epoch key." alt="" coords="252,5,463,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#ab562413474e61b435a43cbaa9f89d784" title="Determine whether a given key ID identifies a key that is suitable for CHIP message encryption." alt="" coords="5,5,204,47"/>
+</map>

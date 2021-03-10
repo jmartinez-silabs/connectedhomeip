@@ -1,0 +1,4 @@
+<map id="chip::GetRandU16" name="chip::GetRandU16">
+<area shape="rect" id="node1" title="This function generates 16&#45;bit unsigned random number." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a00ac9359c3b2f6660bbbf484c48ba7b1" title="This function generates 8&#45;bit unsigned random number." alt="" coords="192,5,323,32"/>
+</map>

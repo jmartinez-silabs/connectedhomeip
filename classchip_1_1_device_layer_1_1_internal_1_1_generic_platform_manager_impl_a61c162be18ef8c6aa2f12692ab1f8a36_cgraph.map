@@ -1,0 +1,5 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::DispatchEventToDeviceLayer" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::DispatchEventToDeviceLayer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,253,87"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#ae3364f4ad1379eb7fb38490e701307e6" title="Returns a reference to the public interface of the ConnectivityManager singleton object." alt="" coords="301,5,448,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0" title="Returns the public interface of the ThreadStackManager singleton object." alt="" coords="301,71,448,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::MaxStringLength" name="chip::MaxStringLength">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,172,57"/>
+<area shape="rect" id="node2" href="$namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562" title=" " alt="" coords="260,5,347,32"/>
+<area shape="rect" id="node3" href="$namespacechip.html#af36990374232c7616a69bc49311a0c5f" title="A function that determines, at compile time, the maximal length (not counting the null terminator) of..." alt="" coords="220,56,387,83"/>
+</map>

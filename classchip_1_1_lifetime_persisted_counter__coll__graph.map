@@ -1,0 +1,5 @@
+<map id="chip::LifetimePersistedCounter" name="chip::LifetimePersistedCounter">
+<area shape="rect" id="node1" title="A class for managing a counter as an integer value intended to persist across reboots." alt="" coords="5,169,228,196"/>
+<area shape="rect" id="node2" href="$classchip_1_1_monotonically_increasing_counter.html" title="A class for managing a monotonically&#45;increasing counter as an integer value." alt="" coords="9,80,225,121"/>
+<area shape="rect" id="node3" href="$classchip_1_1_counter.html" title="An interface for managing a counter as an integer value." alt="" coords="63,5,171,32"/>
+</map>

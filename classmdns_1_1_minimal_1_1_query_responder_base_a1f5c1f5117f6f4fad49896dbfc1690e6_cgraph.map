@@ -1,0 +1,5 @@
+<map id="mdns::Minimal::QueryResponderBase::AddAllResponses" name="mdns::Minimal::QueryResponderBase::AddAllResponses">
+<area shape="rect" id="node1" title="Implementation of the responder delegate." alt="" coords="5,39,240,80"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_responder_delegate.html#a1962f5202e6113d7efc6c21b2d2a4601" title="Add the specified resource record to the response." alt="" coords="288,5,484,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_responder.html#a9308cc40a2864490b8e33c75943059d4" title="Full name as: &quot;Instance&quot;." alt="" coords="288,71,484,112"/>
+</map>

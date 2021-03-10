@@ -1,0 +1,10 @@
+<map id="chip::System::Layer::StartTimer" name="chip::System::Layer::StartTimer">
+<area shape="rect" id="node1" title="This method starts a one&#45;shot timer." alt="" coords="5,105,156,146"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_callback.html#a30a6f6aeb0456fbc6a9d1c66c4d91e6f" title="Cancel, i.e." alt="" coords="463,13,640,54"/>
+<area shape="rect" id="node4" href="$classchip_1_1_callback_1_1_callback_deque.html#a9870b0f6ae7fc74d412e90eb0832456d" title="returns first item unless list is empty, otherwise returns NULL" alt="" coords="221,40,398,81"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_timer.html#a2188f59a55006505705544b570a543e7" title="This method returns the current epoch, corrected by system sleep with the system timescale,..." alt="" coords="233,105,385,146"/>
+<area shape="rect" id="node6" href="$classchip_1_1_callback_1_1_callback_deque.html#a741a7818252ccb5ffd7da9a936f6e13f" title="insert the node in a queue in order, sorted by &quot;sortby(a, b)&quot; sortby(a, b) should return 1 if a &gt; b,..." alt="" coords="221,170,398,212"/>
+<area shape="rect" id="node8" href="$namespacechip_1_1_system.html#a6d1ab34ee8cd592076e874ff59bd94ab" title=" " alt="" coords="204,236,415,263"/>
+<area shape="rect" id="node3" href="$classchip_1_1_callback_1_1_cancelable.html#a741ee7f3ebb708de9a3b8c973ace2cb2" title="run whatever function the callee/registrar has specified in order to clean up any resource allocation..." alt="" coords="688,77,881,118"/>
+<area shape="rect" id="node7" href="$classchip_1_1_callback_1_1_callback_deque.html#ad13108d88dce7d0d8f240d0698a96dae" title="insert the node in a the list at a specific point" alt="" coords="463,109,640,150"/>
+</map>

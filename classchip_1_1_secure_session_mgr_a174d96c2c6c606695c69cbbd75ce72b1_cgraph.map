@@ -1,0 +1,5 @@
+<map id="chip::SecureSessionMgr::SendEncryptedMessage" name="chip::SecureSessionMgr::SendEncryptedMessage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,191,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_packet_header.html#a570a2f3af28666d172092cc72a4c5af4" title="A version of Decode that decodes from the start of a PacketBuffer and consumes the bytes we decoded f..." alt="" coords="244,5,409,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_secure_session_mgr.html#a142baabc460632900345e0145554969d" title="Send a message to a currently connected peer." alt="" coords="239,71,415,112"/>
+</map>

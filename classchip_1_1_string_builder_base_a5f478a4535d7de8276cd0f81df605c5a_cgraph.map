@@ -1,0 +1,4 @@
+<map id="chip::StringBuilderBase::Fit" name="chip::StringBuilderBase::Fit">
+<area shape="rect" id="node1" title="did all the values fit?" alt="" coords="5,5,203,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_encoding_1_1_buffer_writer.html#a7dc4b4504a900213549b6f2ee45b7bc9" title="Whether the input fit in the buffer." alt="" coords="251,5,477,32"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="chip::Inet::InetLayer::PrepareSelect" name="chip::Inet::InetLayer::PrepareSelect">
+<area shape="rect" id="node1" title="Prepare the sets of file descriptors for select() to work with." alt="" coords="5,72,156,113"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_inet_layer_basis.html#a719e285cee31a04a08d795def0e3eb17" title="Returns true if the basis object was obtained by the specified INET layer instance." alt="" coords="204,39,391,80"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_socket_events.html#ade2d057a58383c75b0152cc9a30eaf75" title="Sets the bit for the specified file descriptor in the given sets of file descriptors." alt="" coords="209,104,386,145"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_socket_events.html#ad414de5e3cbe2df1f7b9f0511fe93dd3" title="Check if the bit flags indicate that the socket has an error." alt="" coords="439,5,616,47"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_socket_events.html#a9f543b32488131218598d6384c5b3f1b" title="Check if the bit flags indicate that the socket is readable." alt="" coords="439,71,616,112"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_socket_events.html#a99e7ddc8857eaadfd7174be39b5e219a" title="Check if any of the bit flags for the socket events are set." alt="" coords="439,136,616,177"/>
+<area shape="rect" id="node7" href="$classchip_1_1_inet_1_1_socket_events.html#a68f998fc56eadf2a6e68516e284239d3" title="Check if the bit flags indicate that the socket is writable." alt="" coords="439,201,616,243"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::IsAckMsg" name="chip::PayloadHeader::IsAckMsg">
+<area shape="rect" id="node1" title="Determine whether the current message is an acknowledgment for a previously received message." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b" title="Check whether flag(s) are set." alt="" coords="208,13,351,39"/>
+</map>

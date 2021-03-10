@@ -1,0 +1,6 @@
+<map id="chip::Inet::RegisterLayerErrorFormatter" name="chip::Inet::RegisterLayerErrorFormatter">
+<area shape="rect" id="node1" title="Register a text error formatter for Inet Layer errors." alt="" coords="5,23,185,65"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_inet.html#a53819f8e99161e11696e3801bdb8a40c" title="Given an Inet Layer error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="235,5,438,32"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="233,56,440,83"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="488,5,623,32"/>
+</map>

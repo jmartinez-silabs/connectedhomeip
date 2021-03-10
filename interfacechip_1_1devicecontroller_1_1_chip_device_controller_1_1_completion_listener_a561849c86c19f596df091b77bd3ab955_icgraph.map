@@ -1,0 +1,5 @@
+<map id="chip.devicecontroller.ChipDeviceController.CompletionListener.onCloseBleComplete" name="chip.devicecontroller.ChipDeviceController.CompletionListener.onCloseBleComplete">
+<area shape="rect" id="node1" title="Notifies the completion of the &quot;close BLE connection&quot; command." alt="" coords="588,5,868,61"/>
+<area shape="rect" id="node2" href="$classchip_1_1devicecontroller_1_1_chip_device_controller.html#ae5b2c9ed854a8c15ac335c7a70658826" title=" " alt="" coords="269,13,540,54"/>
+<area shape="rect" id="node3" href="$classchip_1_1devicecontroller_1_1_android_chip_stack.html#a4a87259287679e48fa72841207f16130" title=" " alt="" coords="5,13,221,54"/>
+</map>

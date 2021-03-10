@@ -1,0 +1,4 @@
+<map id="chip::PASESession::GeneratePASEVerifier" name="chip::PASESession::GeneratePASEVerifier">
+<area shape="rect" id="node1" title="Generate a new PASE verifier." alt="" coords="228,5,388,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="5,5,180,47"/>
+</map>

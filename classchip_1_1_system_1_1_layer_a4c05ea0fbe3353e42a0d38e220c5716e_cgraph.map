@@ -1,0 +1,7 @@
+<map id="chip::System::Layer::StartTimer" name="chip::System::Layer::StartTimer">
+<area shape="rect" id="node1" title="This method starts a one&#45;shot timer." alt="" coords="5,39,156,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a484dd8680d68c3b749b8808dc57cb406" title="This method cancels a one&#45;shot timer, started earlier through StartTimer()." alt="" coords="204,5,355,47"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_layer.html#a8ca94e95e31cf2e80fd444966dd05c29" title=" " alt="" coords="204,71,355,112"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_timer.html#a67639490dea4ea2df61dc9435d01984e" title="This method de&#45;initializes the timer object, and prevents this timer from firing if it hasn&#39;t done so..." alt="" coords="403,5,555,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_layer.html#ae53b05f9b8d35810313f1657cfca1ebe" title="This returns the current state of the layer object." alt="" coords="403,71,554,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::Inet::InterfaceAddressIterator::GetPrefixLength" name="chip::Inet::InterfaceAddressIterator::GetPrefixLength">
+<area shape="rect" id="node1" title="Gets the network prefix associated with the current interface address." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_inet.html#a246dc37b8f3828875b165a9e838ae224" title="Compute a prefix length from a variable&#45;length netmask." alt="" coords="253,5,453,47"/>
+</map>

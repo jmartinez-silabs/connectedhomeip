@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::PersistedStorage::KeyValueStoreManager::Put" name="chip::DeviceLayer::PersistedStorage::KeyValueStoreManager::Put">
+<area shape="rect" id="node1" title="Adds a key&#45;value entry to the KVS." alt="" coords="253,5,453,61"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html#ad7a5662785859f49a1d5f2e5c8dc61af" title="This overload of Put accepts a reference to a trivially copyable object." alt="" coords="5,5,205,61"/>
+</map>

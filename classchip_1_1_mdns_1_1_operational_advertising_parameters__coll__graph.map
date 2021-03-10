@@ -1,0 +1,4 @@
+<map id="chip::Mdns::OperationalAdvertisingParameters" name="chip::Mdns::OperationalAdvertisingParameters">
+<area shape="rect" id="node1" title="Defines parameters required for advertising a CHIP node over mDNS as an &#39;operationally ready&#39; node." alt="" coords="42,95,293,136"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_base_advertising_params.html" title=" " alt="" coords="5,5,329,47"/>
+</map>

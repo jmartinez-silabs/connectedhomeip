@@ -1,0 +1,4 @@
+<map id="chip::System::PacketBufferHandle::RightSize" name="chip::System::PacketBufferHandle::RightSize">
+<area shape="rect" id="node1" title="Copy the given buffer to a right&#45;sized buffer if applicable." alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="5,5,200,47"/>
+</map>

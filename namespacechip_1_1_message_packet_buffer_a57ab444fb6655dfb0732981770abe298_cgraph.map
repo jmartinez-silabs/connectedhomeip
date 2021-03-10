@@ -1,0 +1,7 @@
+<map id="chip::MessagePacketBuffer::HasFooterSpace" name="chip::MessagePacketBuffer::HasFooterSpace">
+<area shape="rect" id="node1" title="Check whether a packet buffer has enough space for a message footer." alt="" coords="5,39,201,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="249,39,444,80"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="492,5,687,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="492,71,687,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="735,71,929,112"/>
+</map>

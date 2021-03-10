@@ -1,0 +1,4 @@
+<map id="chip::Encoding::Read8" name="chip::Encoding::Read8">
+<area shape="rect" id="node1" title="Perform a, potentially unaligned, memory read of the 8&#45;bit value from the specified pointer address a..." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_encoding.html#a73d29984220de1ccd2080484bde1f63c" title="Perform a, potentially unaligned, memory read of the 8&#45;bit value from the specified pointer address a..." alt="" coords="219,5,384,32"/>
+</map>

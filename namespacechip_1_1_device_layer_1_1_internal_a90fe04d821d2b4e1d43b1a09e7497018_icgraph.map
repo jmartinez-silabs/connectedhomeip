@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::Internal::GetEntropy_EFR32" name="chip::DeviceLayer::Internal::GetEntropy_EFR32">
+<area shape="rect" id="node1" title="Retrieve entropy from the underlying RNG source." alt="" coords="204,5,405,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer_1_1_internal.html#acc57abe20d72e04587e826eb95708fac" title=" " alt="" coords="5,5,156,47"/>
+</map>

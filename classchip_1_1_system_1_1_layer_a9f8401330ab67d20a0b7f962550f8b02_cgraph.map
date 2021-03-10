@@ -1,0 +1,8 @@
+<map id="chip::System::Layer::PrepareSelect" name="chip::System::Layer::PrepareSelect">
+<area shape="rect" id="node1" title="Prepare the sets of file descriptors for select() to work with." alt="" coords="5,136,156,177"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_callback_deque.html#a9870b0f6ae7fc74d412e90eb0832456d" title="returns first item unless list is empty, otherwise returns NULL" alt="" coords="215,5,392,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_timer.html#a2188f59a55006505705544b570a543e7" title="This method returns the current epoch, corrected by system sleep with the system timescale,..." alt="" coords="227,71,379,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_system_wake_event.html#a9c5b8eef0c84b981f3c21d36320f1415" title=" " alt="" coords="204,136,403,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_timer.html#a4254d91b87cd634367712dc282f4f371" title="Compares two Timer::Epoch values and returns true if the first value is earlier than the second value..." alt="" coords="227,201,379,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_layer.html#ae53b05f9b8d35810313f1657cfca1ebe" title="This returns the current state of the layer object." alt="" coords="228,267,379,308"/>
+</map>

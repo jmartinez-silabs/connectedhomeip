@@ -1,0 +1,5 @@
+<map id="chip::Platform::MemoryAllocString" name="chip::Platform::MemoryAllocString">
+<area shape="rect" id="node1" title="This function copies a C&#45;style string to memory newly allocated by Platform::MemoryAlloc()." alt="" coords="5,23,212,65"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a3e0f7bf473695f636ba4bfd38fbe88d6" title="Copies a C&#45;style string." alt="" coords="267,5,459,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="260,56,467,83"/>
+</map>

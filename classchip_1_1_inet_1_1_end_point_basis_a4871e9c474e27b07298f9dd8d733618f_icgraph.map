@@ -1,0 +1,11 @@
+<map id="chip::Inet::EndPointBasis::DeferredFree" name="chip::Inet::EndPointBasis::DeferredFree">
+<area shape="rect" id="node1" title=" " alt="" coords="727,136,909,177"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#aadd0a9003880abd117787f7fbf54a603" title="Close the endpoint and recycle its memory." alt="" coords="504,103,679,144"/>
+<area shape="rect" id="node9" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6d70b1376048c6cfacc6dde91f5cdfde" title="Close the endpoint and recycle its memory." alt="" coords="504,168,679,209"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_u_d_p.html#acbf6fbfa6f61a49b78dac13529725534" title="Close the open endpoint without destroying the object." alt="" coords="279,71,432,112"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_server_base.html#abff5c5e4c0d25eca9c8c514ac794225d" title="Closes all currently open endpoints." alt="" coords="255,136,456,177"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_u_d_p.html#a29ef44bfcf73b0a6acb882f2e6b9e438" title="Initialize a UDP transport on a given port." alt="" coords="29,5,183,47"/>
+<area shape="rect" id="node5" href="$classchip_1_1_transport_1_1_u_d_p.html#a0d8f7b89a726c8cc7bbd3819cc811876" title=" " alt="" coords="29,71,183,112"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="5,136,207,177"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_server_base.html#add1fab322a0eedb5bdc881cb80d5b6b7" title=" " alt="" coords="5,201,207,243"/>
+</map>

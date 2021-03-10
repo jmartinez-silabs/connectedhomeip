@@ -1,0 +1,5 @@
+<map id="chip::Mdns::MdnsAvahi::Browse" name="chip::Mdns::MdnsAvahi::Browse">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,176,65"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="224,5,431,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="226,56,429,83"/>
+</map>

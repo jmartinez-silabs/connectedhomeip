@@ -1,0 +1,5 @@
+<map id="chip::Transport::AdminPairingTable::ReleaseAdminId" name="chip::Transport::AdminPairingTable::ReleaseAdminId">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,216,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_admin_pairing_table.html#ac6f0ac52d1cc64372c42250f5c6efdc9" title=" " alt="" coords="264,5,475,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_admin_pairing_info.html#aa07258e0a18e98b7986b1aa2e28fb0a9" title="Reset the state to a completely uninitialized status." alt="" coords="264,71,475,112"/>
+</map>

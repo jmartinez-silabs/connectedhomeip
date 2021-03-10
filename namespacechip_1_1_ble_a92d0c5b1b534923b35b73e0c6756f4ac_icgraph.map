@@ -1,0 +1,11 @@
+<map id="chip::Ble::UUIDsMatch" name="chip::Ble::UUIDsMatch">
+<area shape="rect" id="node1" title=" " alt="" coords="277,242,444,269"/>
+<area shape="rect" id="node2" href="$classchip_1_1_ble_1_1_ble_layer.html#a7d7dbad55270d78c52c8dc4a22e3e75d" title="Call when an oustanding GATT indication receives a positive receipt confirmation." alt="" coords="5,5,229,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="17,71,217,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_ble_1_1_ble_layer.html#ad9d81e4d015fcbd56d8308397b047eba" title="Call when a GATT subscribe request succeeds." alt="" coords="16,136,219,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_ble_1_1_ble_layer.html#abe8b0a98cf1b3e053a621e88e1a44ff0" title=" " alt="" coords="18,201,217,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_ble_1_1_ble_layer.html#acf4f4cf7770f7ef152a2e887d6a74e9b" title="Call when a GATT unsubscribe request succeeds." alt="" coords="8,267,227,308"/>
+<area shape="rect" id="node7" href="$classchip_1_1_ble_1_1_ble_layer.html#a94b78acc6bc39256567ff0548360f8ac" title=" " alt="" coords="9,332,225,373"/>
+<area shape="rect" id="node8" href="$classchip_1_1_ble_1_1_ble_layer.html#aecf9304d485185c6439ac92328627bfe" title="Call when an outstanding GATT write request receives a positive receipt confirmation." alt="" coords="20,397,215,439"/>
+<area shape="rect" id="node9" href="$classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091" title="Call when a GATT write request is received." alt="" coords="32,463,203,504"/>
+</map>

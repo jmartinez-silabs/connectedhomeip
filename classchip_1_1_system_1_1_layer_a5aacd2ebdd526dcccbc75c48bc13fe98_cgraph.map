@@ -1,0 +1,5 @@
+<map id="chip::System::Layer::GetClock_RealTime" name="chip::System::Layer::GetClock_RealTime">
+<area shape="rect" id="node1" title="Returns the current real (civil) time in microsecond Unix time format." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a1d4bafb6d485dd84d5e1094ff0fa6c0b" title="Platform&#45;specific function for getting the current real (civil) time in microsecond Unix time format." alt="" coords="212,5,415,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="463,13,675,39"/>
+</map>

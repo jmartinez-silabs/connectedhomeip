@@ -1,0 +1,7 @@
+<map id="chip::Callback::CallbackDeque::InsertBefore" name="chip::Callback::CallbackDeque::InsertBefore">
+<area shape="rect" id="node1" title="insert the node in a the list at a specific point" alt="" coords="456,39,633,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_callback_deque.html#aa91372338d876dcaad98a7b64f4109b0" title="appends with overridden cancel function, in case the list change requires some other state update." alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_callback_1_1_callback_deque.html#a741a7818252ccb5ffd7da9a936f6e13f" title="insert the node in a queue in order, sorted by &quot;sortby(a, b)&quot; sortby(a, b) should return 1 if a &gt; b,..." alt="" coords="231,71,408,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_callback_1_1_callback_deque.html#a9b88769313808ee4ea115220d8630d73" title=" " alt="" coords="5,37,183,79"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_layer.html#acdfa234a097e97625e67894292fa648a" title="This method starts a one&#45;shot timer." alt="" coords="19,103,169,144"/>
+</map>

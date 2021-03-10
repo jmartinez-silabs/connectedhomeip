@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classchip_1_1_counter.html" title="An interface for managing a counter as an integer value." alt="" coords="5,31,113,57"/>
+<area shape="rect" id="node2" href="$classchip_1_1_monotonically_increasing_counter.html" title="A class for managing a monotonically&#45;increasing counter as an integer value." alt="" coords="161,23,377,65"/>
+<area shape="rect" id="node3" href="$classchip_1_1_lifetime_persisted_counter.html" title="A class for managing a counter as an integer value intended to persist across reboots." alt="" coords="425,5,648,32"/>
+<area shape="rect" id="node4" href="$classchip_1_1_persisted_counter.html" title="A class for managing a counter as an integer value intended to persist across reboots." alt="" coords="453,56,621,83"/>
+</map>

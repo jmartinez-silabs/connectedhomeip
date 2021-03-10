@@ -1,0 +1,7 @@
+<map id="chip::NetworkProvisioning::SendThreadCredentials" name="chip::NetworkProvisioning::SendThreadCredentials">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,197,69"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="245,35,479,61"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="527,27,721,69"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="769,5,976,32"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a14279153678fbc4c48e95ba4b8e96856" title="Construct an empty PacketBufferHandle." alt="" coords="771,57,974,98"/>
+</map>

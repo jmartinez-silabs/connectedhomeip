@@ -1,0 +1,5 @@
+<map id="chip::System::PacketBuffer::HasChainedBuffer" name="chip::System::PacketBuffer::HasChainedBuffer">
+<area shape="rect" id="node1" title="Determine whether there are any additional buffers chained to the current buffer." alt="" coords="252,39,447,80"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html#aec4ca18105abaf840bbeea134d454926" title="Return the last buffer in a buffer chain." alt="" coords="7,71,202,112"/>
+</map>

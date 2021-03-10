@@ -1,0 +1,7 @@
+<map id="chip::TLV::TLVReader::GetTag" name="chip::TLV::TLVReader::GetTag">
+<area shape="rect" id="node1" title="Returns the tag associated with current TLV element." alt="" coords="552,35,708,76"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_writer.html#afecdac2015bb760eda3a7901568d606c" title="Copies a TLV container element from TLVReader object." alt="" coords="315,5,466,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_t_l_v_1_1_debug.html#ac01b5394e6a49312cbab9f8c8ca48a49" title="Dump the TLV element referenced by aReader in human&#45;readable form using aWriter." alt="" coords="277,71,504,98"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1da320233f2ebdb91557578f79475299" title="Dump the TLV data within the specified reader in human&#45;readable form with the specified writer." alt="" coords="29,46,205,73"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1c8aeab9832f6283a8f5f22a1946d7a0" title="Log the TLV data within the specified reader in human&#45;readable form to the specified writer." alt="" coords="5,97,229,123"/>
+</map>

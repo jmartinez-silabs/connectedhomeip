@@ -1,0 +1,5 @@
+<map id="chip::Platform::ScopedMemoryString" name="chip::Platform::ScopedMemoryString">
+<area shape="rect" id="node1" title="Represents a C string in a ScopedMemoryBuffer." alt="" coords="37,199,259,240"/>
+<area shape="rect" id="node2" href="$classchip_1_1_platform_1_1_scoped_memory_buffer.html" title=" " alt="" coords="37,109,259,151"/>
+<area shape="rect" id="node3" href="$classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html" title=" " alt="" coords="5,5,291,61"/>
+</map>

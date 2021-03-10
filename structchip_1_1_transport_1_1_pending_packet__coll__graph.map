@@ -1,0 +1,5 @@
+<map id="chip::Transport::PendingPacket" name="chip::Transport::PendingPacket">
+<area shape="rect" id="node1" title="Packets scheduled for sending once a connection has been established." alt="" coords="132,109,309,151"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_address.html" title="Describes how a peer on a CHIP network can be addressed." alt="" coords="5,13,212,39"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer_handle.html" title="Tracks ownership of a PacketBuffer." alt="" coords="237,5,431,47"/>
+</map>

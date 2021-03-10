@@ -1,0 +1,6 @@
+<map id="chip::System::PacketBuffer::Check" name="chip::System::PacketBuffer::Check">
+<area shape="rect" id="node1" title="Perform an implementation&#45;defined check on the validity of a PacketBuffer pointer." alt="" coords="248,71,443,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a12396d2a22f79e43ffc279991cdddb99" title="Perform an implementation&#45;defined check on the validity of a PacketBufferHandle." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a969b989269644ed8222cf725c8cde641" title=" " alt="" coords="5,71,200,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#aa019194ba9d03e8c897e045b2d341d0a" title="Export a raw PacketBuffer pointer." alt="" coords="5,136,200,177"/>
+</map>

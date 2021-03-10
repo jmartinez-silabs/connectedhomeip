@@ -1,0 +1,4 @@
+<map id="chip::Controller::OnOffCluster::ReportAttributeOnOff" name="chip::Controller::OnOffCluster::ReportAttributeOnOff">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,217,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_cluster_base.html#af8951402d310215e124c92cd1d2e0bdb" title="Request attribute reports from the device." alt="" coords="265,5,500,47"/>
+</map>

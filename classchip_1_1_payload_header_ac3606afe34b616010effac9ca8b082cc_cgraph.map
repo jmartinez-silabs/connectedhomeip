@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::HasMessageType" name="chip::PayloadHeader::HasMessageType">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_payload_header.html#a7d8b70dc53fc606fcd16abdbaf1f3dea" title="Check whether the header has a given secure message type." alt="" coords="208,5,363,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="chip::Inet::InterfaceAddressIterator::HasCurrent" name="chip::Inet::InterfaceAddressIterator::HasCurrent">
+<area shape="rect" id="node1" title=" " alt="" coords="277,136,477,177"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_i_pv4_responder.html#ab07b0537c64211fcbe40194708994d81" title="Report all reponses maintained by this responder." alt="" coords="5,5,229,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_i_pv6_responder.html#a471f0f86603b9b10f08925868f0b9b4e" title="Report all reponses maintained by this responder." alt="" coords="5,71,229,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_inet_layer.html#af43de490f2250d5f3800731ee21ffde6" title="Get the interface identifier for the specified IP address." alt="" coords="30,136,205,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_inet_layer.html#a8db5ddc6886ac4a31c989e6e64956497" title="Check if there is a prefix match between the specified IPv6 address and any of the locally configured..." alt="" coords="29,201,206,243"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_inet.html#a4652dca754204ecd3679ce212b9f54bb" title=" " alt="" coords="21,267,213,308"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="chip::SecureSession::Init" name="chip::SecureSession::Init">
+<area shape="rect" id="node1" title="Derive a shared key." alt="" coords="5,136,156,177"/>
+<area shape="rect" id="node2" href="$classchip_1_1_crypto_1_1_p256_keypair.html#a6972c885afcbd406dd4ee1409bda3d46" title="A function to derive a shared secret using ECDH." alt="" coords="204,75,393,116"/>
+<area shape="rect" id="node4" href="$classchip_1_1_crypto_1_1_capacity_bound_buffer.html#a5c1583d8136495b0d3429edc243e426f" title="Returns current length of the buffer that&#39;s being used." alt="" coords="441,136,648,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_secure_session.html#ae60102673be317357da3c826e44897a3" title="Derive a shared key." alt="" coords="223,197,374,239"/>
+<area shape="rect" id="node3" href="$classchip_1_1_crypto_1_1_capacity_bound_buffer.html#ae6181a9eeb6f50aee379bc6eed183e99" title="Returns max capacity of the buffer." alt="" coords="441,5,648,47"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_crypto.html#ae55e45f3b1f26ee586b740a95ee7522e" title=" " alt="" coords="463,71,626,112"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_crypto.html#a312c90d8dc3230e723ddbbe427307a21" title="A function that implements SHA&#45;256 based HKDF." alt="" coords="472,201,617,243"/>
+</map>

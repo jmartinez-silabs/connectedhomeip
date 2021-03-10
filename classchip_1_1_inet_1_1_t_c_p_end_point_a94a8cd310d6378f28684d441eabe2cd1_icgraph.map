@@ -1,0 +1,6 @@
+<map id="chip::Inet::TCPEndPoint::Free" name="chip::Inet::TCPEndPoint::Free">
+<area shape="rect" id="node1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="469,64,640,105"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a3e7b41beb660172c19191ff6a74b968a" title="Close all active connections." alt="" coords="235,5,421,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="5,35,187,76"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="237,123,419,164"/>
+</map>

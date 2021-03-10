@@ -1,0 +1,12 @@
+<map id="chip::Optional::SetValue" name="chip::Optional::SetValue">
+<area shape="rect" id="node1" title="Make the optional contain a specific value." alt="" coords="575,209,752,235"/>
+<area shape="rect" id="node2" href="$classchip_1_1_optional.html#add5593c97f3c898d5e53b7ca71410cbd" title="Assignment operator implementation." alt="" coords="335,5,508,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_payload_header.html#a1e3f1141f766be6adad2727dab195ada" title=" " alt="" coords="344,71,499,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_packet_header.html#af8e16e0b05b6c0a4dcf2faded41b5c70" title=" " alt="" coords="335,201,507,243"/>
+<area shape="rect" id="node7" href="$classchip_1_1_rendezvous_parameters.html#aaf052c016acefa78ba2d9a8115c5136d" title=" " alt="" coords="316,267,527,308"/>
+<area shape="rect" id="node8" href="$classchip_1_1_rendezvous_parameters.html#a4e69b4f545394dd8c8f8e00c6f36b658" title=" " alt="" coords="316,332,527,373"/>
+<area shape="rect" id="node9" href="$classchip_1_1_packet_header.html#addf981648d1ac90f854939b76b1ad7d4" title=" " alt="" coords="348,136,495,177"/>
+<area shape="rect" id="node10" href="$classchip_1_1_payload_header.html#a2719ba96478400b35428f6d7acd432a5" title="Set the vendor id for this header." alt="" coords="344,397,499,439"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="37,136,236,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_rendezvous_session.html#a641291a307943037229a6ba1e90adfcd" title="Called when the session establishment process generates a new message that should be sent to peer." alt="" coords="5,201,268,243"/>
+</map>

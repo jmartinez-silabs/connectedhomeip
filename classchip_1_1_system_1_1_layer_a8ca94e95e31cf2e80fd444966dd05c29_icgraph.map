@@ -1,0 +1,5 @@
+<map id="chip::System::Layer::NewTimer" name="chip::System::Layer::NewTimer">
+<area shape="rect" id="node1" title=" " alt="" coords="204,39,355,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#aa17964bfe0d1d55306e88b6aaa535305" title="Schedules a function with a signature identical to TimerCompleteFunct to be run as soon as possible o..." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_layer.html#a4c05ea0fbe3353e42a0d38e220c5716e" title="This method starts a one&#45;shot timer." alt="" coords="5,71,156,112"/>
+</map>

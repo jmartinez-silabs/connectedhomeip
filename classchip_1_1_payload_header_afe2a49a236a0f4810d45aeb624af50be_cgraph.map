@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::SetInitiator" name="chip::PayloadHeader::SetInitiator">
+<area shape="rect" id="node1" title="Set the Initiator flag bit." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_bit_flags.html#a1f4fbdd1486e303c0c85c33e7f1606e0" title="Set flag(s)." alt="" coords="208,13,347,39"/>
+</map>

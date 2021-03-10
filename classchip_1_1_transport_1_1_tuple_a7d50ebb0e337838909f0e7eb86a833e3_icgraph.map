@@ -1,0 +1,5 @@
+<map id="chip::Transport::Tuple::Init" name="chip::Transport::Tuple::Init">
+<area shape="rect" id="node1" title="Initialization method that forwards arguments for initialization to each of the underlying transports..." alt="" coords="196,39,355,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_mgr.html#a463977773e58d86267247596c945e1d2" title=" " alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_mgr.html#aa4709de42037fea62bc10509c038eb29" title=" " alt="" coords="5,71,148,112"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="chip::System::PacketBufferHandle::Retain" name="chip::System::PacketBufferHandle::Retain">
+<area shape="rect" id="node1" title="Get a new handle to an existing buffer." alt="" coords="627,104,821,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_ble_1_1_btp_engine.html#a657eb1629f25087f16f268f6a9dfc4b4" title=" " alt="" coords="393,5,545,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_btp_engine.html#a394dfc23ad47687c43c9ec21b3f69242" title=" " alt="" coords="393,71,545,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="360,136,579,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a6cf4d6d2ba0f4ed1a42eec40fff0d585" title="Take ownership of a backing packet buffer." alt="" coords="360,201,579,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a76656bcd8212e18a13066fe525f76c85" title=" " alt="" coords="49,168,268,209"/>
+<area shape="rect" id="node7" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1d619a33fd95dba5ad99f4c3f7f9e58b" title=" " alt="" coords="5,233,312,275"/>
+</map>

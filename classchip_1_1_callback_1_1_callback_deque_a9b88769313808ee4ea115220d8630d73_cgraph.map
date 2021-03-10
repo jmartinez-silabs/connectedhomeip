@@ -1,0 +1,7 @@
+<map id="chip::Callback::CallbackDeque::InsertBy" name="chip::Callback::CallbackDeque::InsertBy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,183,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_callback_deque.html#a234003f496a469bdb67fd75d2bad8605" title="dequeue but don&#39;t cancel, useful if immediately putting on another list" alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_callback_1_1_callback_deque.html#a741a7818252ccb5ffd7da9a936f6e13f" title="insert the node in a queue in order, sorted by &quot;sortby(a, b)&quot; sortby(a, b) should return 1 if a &gt; b,..." alt="" coords="231,71,408,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_callback_1_1_callback_deque.html#ad13108d88dce7d0d8f240d0698a96dae" title="insert the node in a the list at a specific point" alt="" coords="456,71,633,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_callback_1_1_cancelable.html#a741ee7f3ebb708de9a3b8c973ace2cb2" title="run whatever function the callee/registrar has specified in order to clean up any resource allocation..." alt="" coords="681,71,875,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::python::ChipMainThreadScheduleAndWait" name="chip::python::ChipMainThreadScheduleAndWait">
+<area shape="rect" id="node1" title="Schedules a task to be run on the CHIP main thread and waits for that task to be complete." alt="" coords="5,39,221,80"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="313,5,460,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_platform_manager.html#a3e1f10d1c3df11960880431f644e1a62" title=" " alt="" coords="269,71,504,112"/>
+</map>

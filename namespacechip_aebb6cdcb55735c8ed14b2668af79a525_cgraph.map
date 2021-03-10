@@ -1,0 +1,8 @@
+<map id="chip::ChipEpochToCalendarTime" name="chip::ChipEpochToCalendarTime">
+<area shape="rect" id="node1" title="Convert the number of seconds since CHIP Epoch (2020&#45;01&#45;01 00:00:00 UTC) to a calendar date and time." alt="" coords="5,107,236,134"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a092e44f1ace03042701e2d54ec238ec4" title="Convert the number of seconds since 1970&#45;01&#45;01 00:00:00 UTC to a calendar date and time." alt="" coords="284,100,483,141"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a15a4cf36fc87a7c69af5f0e3ac76b622" title=" " alt="" coords="531,81,797,107"/>
+<area shape="rect" id="node6" href="$namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562" title=" " alt="" coords="911,137,998,163"/>
+<area shape="rect" id="node4" href="$namespacechip.html#ac64dc76d077901bc2ea4b9fb0adf7229" title=" " alt="" coords="852,5,1057,47"/>
+<area shape="rect" id="node5" href="$namespacechip.html#ad7141c66fd1e2b3f562588d02a865085" title=" " alt="" coords="845,71,1064,112"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="mdns::Minimal::QueryResponderBase::MarkAdditionalRepliesFor" name="mdns::Minimal::QueryResponderBase::MarkAdditionalRepliesFor">
+<area shape="rect" id="node1" title="Flag any additional responses required for the given iterator." alt="" coords="5,136,240,177"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#aa063e9bb9efae4f3b19bd234a76969ba" title=" " alt="" coords="292,5,527,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#aac5b7b6780a368411d6e54bf451638f0" title=" " alt="" coords="292,71,527,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_query_responder_iterator.html#ab8541e895658118ed14a03b93eae19cf" title=" " alt="" coords="292,136,527,177"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#a968a1288c0dd8f029a0d079c0429e9d4" title="Marks queries matching this qname as &#39;to be additionally reported&#39;." alt="" coords="292,201,527,243"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a12a00aee9cf3822bfe9eedca5bcd97fa" title="Set if to include only items marked as &#39;additional reply&#39; or everything." alt="" coords="288,267,531,323"/>
+</map>

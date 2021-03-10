@@ -1,0 +1,5 @@
+<map id="chip::CanCastTo" name="chip::CanCastTo">
+<area shape="rect" id="node1" title="A template function that determines whether it&#39;s safe to cast the given value of type U to the given ..." alt="" coords="5,31,131,57"/>
+<area shape="rect" id="node2" href="$namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562" title=" " alt="" coords="179,5,265,32"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a5b9c196fdd524001f536e328b47e04fa" title=" " alt="" coords="181,56,263,83"/>
+</map>

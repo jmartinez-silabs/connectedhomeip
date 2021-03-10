@@ -1,0 +1,4 @@
+<map id="chip::TLV::CommonTag" name="chip::TLV::CommonTag">
+<area shape="rect" id="node1" title="Generates the API representation of a common profile TLV tag." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_t_l_v.html#a2ff8c38ca00d9008a378cac4f153921c" title="Generates the API representation of a profile&#45;specific TLV tag from a profile id and tag number." alt="" coords="221,5,372,32"/>
+</map>

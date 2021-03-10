@@ -1,0 +1,6 @@
+<map id="chip::Inet::IPAddress::IsMulticast" name="chip::Inet::IPAddress::IsMulticast">
+<area shape="rect" id="node1" title="Test whether address is IPv4 or IPv6 multicast." alt="" coords="5,39,159,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#aa8445c2654297783d999e287fe5e1bcb" title="Test whether address is IPv4 multicast." alt="" coords="207,5,360,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#aadad121900f90d056554c35d02cee512" title="Test whether address is IPv6 multicast." alt="" coords="207,71,360,112"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1" title="Test whether address is IPv4 compatible." alt="" coords="408,5,561,47"/>
+</map>

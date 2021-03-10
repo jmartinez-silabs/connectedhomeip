@@ -1,0 +1,7 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_DispatchEvent" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_DispatchEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,248,87"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a9cebbdc7224923aa0f1962697363d0d9" title="Returns a (potentially) high&#45;resolution monotonic system time in units of microseconds." alt="" coords="296,5,499,47"/>
+<area shape="rect" id="node4" href="$structchip_1_1_device_layer_1_1_chip_device_event.html#a38ac50c63693d8d3a1bee50f95ff1657" title=" " alt="" coords="296,71,499,112"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a3951b627d3825489d276ee7aef5a95d6" title="Platform&#45;specific function for getting high&#45;resolution monotonic system time in microseconds." alt="" coords="547,5,793,47"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_device_layer_1_1_device_event_type.html#a4ff7472e7c3a7dfca140e7b18798cd2b" title=" " alt="" coords="569,71,771,112"/>
+</map>

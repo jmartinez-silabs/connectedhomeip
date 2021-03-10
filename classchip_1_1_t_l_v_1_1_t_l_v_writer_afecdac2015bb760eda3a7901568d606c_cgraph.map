@@ -1,0 +1,4 @@
+<map id="chip::TLV::TLVWriter::CopyContainer" name="chip::TLV::TLVWriter::CopyContainer">
+<area shape="rect" id="node1" title="Copies a TLV container element from TLVReader object." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a38ad315153db4ed51c30230914516a69" title="Returns the tag associated with current TLV element." alt="" coords="204,5,360,47"/>
+</map>

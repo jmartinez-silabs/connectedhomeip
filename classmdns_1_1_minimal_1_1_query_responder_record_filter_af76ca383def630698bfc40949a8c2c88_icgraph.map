@@ -1,0 +1,4 @@
+<map id="mdns::Minimal::QueryResponderRecordFilter::SetIncludeOnlyMulticastBeforeMS" name="mdns::Minimal::QueryResponderRecordFilter::SetIncludeOnlyMulticastBeforeMS">
+<area shape="rect" id="node1" title="Filter out anything that was multicast past ms." alt="" coords="288,5,555,61"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_response_sender.html#a64727a8ef0048d58282b75f3983ad79b" title="Send back the response to a particular query." alt="" coords="5,13,240,54"/>
+</map>

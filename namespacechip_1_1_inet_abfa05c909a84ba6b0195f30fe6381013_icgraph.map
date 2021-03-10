@@ -1,0 +1,5 @@
+<map id="chip::Inet::GetInterfaceName" name="chip::Inet::GetInterfaceName">
+<area shape="rect" id="node1" title="Get the name of a network interface." alt="" coords="255,46,465,73"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0020508efa72ed087366ad3620fcf9c1" title="Initiate a TCP connection." alt="" coords="21,5,191,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="5,71,207,112"/>
+</map>

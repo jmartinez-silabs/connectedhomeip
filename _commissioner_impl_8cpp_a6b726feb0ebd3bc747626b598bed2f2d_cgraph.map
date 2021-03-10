@@ -1,0 +1,11 @@
+<map id="pychip_internal_Commissioner_BleConnectForPairing" name="pychip_internal_Commissioner_BleConnectForPairing">
+<area shape="rect" id="node1" title=" " alt="" coords="5,90,228,131"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_address.html#ab2ce983632dfd2485743279f3fce4d1d" title=" " alt="" coords="542,5,781,32"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1python.html#ad0a611fcb3207b79e97437e6899a356b" title="Schedules a task to be run on the CHIP main thread and waits for that task to be complete." alt="" coords="276,57,492,98"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_device_layer.html#ae3364f4ad1379eb7fb38490e701307e6" title="Returns a reference to the public interface of the ConnectivityManager singleton object." alt="" coords="311,122,457,163"/>
+<area shape="rect" id="node8" href="$classchip_1_1_controller_1_1_device_commissioner.html#aa92108d488c7f055b407bddb9abde494" title="Pair a CHIP device with the provided Rendezvous connection parameters." alt="" coords="287,187,481,229"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_peer_address.html#ac8fcd6c441f24d1594d2a589178dd1d8" title=" " alt="" coords="831,93,1037,134"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="588,57,735,98"/>
+<area shape="rect" id="node6" href="$classchip_1_1_device_layer_1_1_platform_manager.html#a3e1f10d1c3df11960880431f644e1a62" title=" " alt="" coords="544,122,779,163"/>
+<area shape="rect" id="node9" href="$classchip_1_1_transport_1_1_peer_address.html#a29887d5a38a4e7cf65d48925fc8404ec" title=" " alt="" coords="540,191,783,217"/>
+</map>

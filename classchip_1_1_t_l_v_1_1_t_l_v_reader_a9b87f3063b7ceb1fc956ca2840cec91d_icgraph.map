@@ -1,0 +1,4 @@
+<map id="chip::TLV::TLVReader::GetRemainingLength" name="chip::TLV::TLVReader::GetRemainingLength">
+<area shape="rect" id="node1" title="Returns the total number of bytes that can be read until the max read length is reached." alt="" coords="216,5,383,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_updater.html#ac60992db8aa17add1ef7270d2a993c41" title="Initialize a TLVUpdater object using a TLVReader." alt="" coords="5,5,168,47"/>
+</map>

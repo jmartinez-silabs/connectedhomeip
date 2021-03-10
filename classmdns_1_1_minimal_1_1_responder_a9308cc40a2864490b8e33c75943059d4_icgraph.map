@@ -1,0 +1,8 @@
+<map id="mdns::Minimal::Responder::GetQName" name="mdns::Minimal::Responder::GetQName">
+<area shape="rect" id="node1" title="Full name as: &quot;Instance&quot;." alt="" coords="288,136,484,177"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_responder_record_filter.html#a2eb06895c5985a910fbb26dbc969024f" title=" " alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_i_pv4_responder.html#ab07b0537c64211fcbe40194708994d81" title="Report all reponses maintained by this responder." alt="" coords="11,71,235,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_ptr_responder.html#ad3b5d43d2680f5f038b485e37a0c58d4" title="Report all reponses maintained by this responder." alt="" coords="15,136,230,177"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_i_pv6_responder.html#a471f0f86603b9b10f08925868f0b9b4e" title="Report all reponses maintained by this responder." alt="" coords="11,201,235,243"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#a1f5c1f5117f6f4fad49896dbfc1690e6" title="Implementation of the responder delegate." alt="" coords="5,267,240,308"/>
+</map>

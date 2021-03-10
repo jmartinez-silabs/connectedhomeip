@@ -1,0 +1,4 @@
+<map id="chip::System::Layer::GetClock_MonotonicMS" name="chip::System::Layer::GetClock_MonotonicMS">
+<area shape="rect" id="node1" title="Returns a monotonic system time in units of milliseconds." alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a2685a1be7eb20ad425c4be2571582ae9" title="Platform&#45;specific function for getting monotonic system time in milliseconds." alt="" coords="237,5,465,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::Callback::Callback::Cancel" name="chip::Callback::Callback::Cancel">
+<area shape="rect" id="node1" title="Cancel, i.e." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_cancelable.html#a741ee7f3ebb708de9a3b8c973ace2cb2" title="run whatever function the callee/registrar has specified in order to clean up any resource allocation..." alt="" coords="231,5,424,47"/>
+</map>

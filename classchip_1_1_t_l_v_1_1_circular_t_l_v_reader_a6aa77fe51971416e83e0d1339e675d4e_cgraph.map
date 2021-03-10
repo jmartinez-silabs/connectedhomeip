@@ -1,0 +1,6 @@
+<map id="chip::TLV::CircularTLVReader::Init" name="chip::TLV::CircularTLVReader::Init">
+<area shape="rect" id="node1" title="Initializes a TLVReader object to read from a single CHIPCircularTLVBuffer." alt="" coords="5,39,212,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_c_h_i_p_circular_t_l_v_buffer.html#af75e6b5b3c580f0bb5f7574c24020664" title=" " alt="" coords="260,5,491,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ac4ca38473826050ff407f9c2e3fe223d" title="Initializes a TLVReader object from another TLVReader object." alt="" coords="297,71,453,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a97d834ba01a100bf76fb1ba3c8ab26ab" title=" " alt="" coords="539,71,695,112"/>
+</map>

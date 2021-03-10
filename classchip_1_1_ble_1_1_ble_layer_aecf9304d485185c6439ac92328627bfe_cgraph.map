@@ -1,0 +1,4 @@
+<map id="chip::Ble::BleLayer::HandleWriteConfirmation" name="chip::Ble::BleLayer::HandleWriteConfirmation">
+<area shape="rect" id="node1" title="Call when an outstanding GATT write request receives a positive receipt confirmation." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_ble.html#a92d0c5b1b534923b35b73e0c6756f4ac" title=" " alt="" coords="248,13,415,39"/>
+</map>

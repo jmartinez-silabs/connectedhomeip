@@ -1,0 +1,9 @@
+<map id="chip::Transport::PeerConnectionState::EncryptBeforeSend" name="chip::Transport::PeerConnectionState::EncryptBeforeSend">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,232,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_secure_session.html#afb207fa7f5e920013d811e91edbf0a91" title="Encrypt the input data using keys established in the secure channel." alt="" coords="280,71,431,112"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_crypto.html#a0985c44e5ae5ee8d8a865e8aa7d41df7" title="A function that implements AES&#45;CCM encryption." alt="" coords="499,5,669,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_message_authentication_code.html#aaaaba6a570fa9ad3e8501f9e223134df" title="Set the message auth tag for this header." alt="" coords="479,71,689,112"/>
+<area shape="rect" id="node7" href="$classchip_1_1_message_authentication_code.html#a17321e4a87d5a247ae12c31ce5b18b24" title=" " alt="" coords="737,133,964,175"/>
+<area shape="rect" id="node5" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="811,17,890,43"/>
+<area shape="rect" id="node6" href="$classchip_1_1_packet_header.html#a3fb5d8668826efa761e4bbedec437e6c" title=" " alt="" coords="775,68,926,109"/>
+</map>

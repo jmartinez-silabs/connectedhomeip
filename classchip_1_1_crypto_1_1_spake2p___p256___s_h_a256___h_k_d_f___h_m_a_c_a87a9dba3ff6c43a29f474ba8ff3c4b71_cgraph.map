@@ -1,0 +1,4 @@
+<map id="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC::PointAddMul" name="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC::PointAddMul">
+<area shape="rect" id="node1" title="Scalar multiplication with addition, R = fe1 * P1 + fe2 * P2." alt="" coords="5,5,216,61"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_crypto.html#aa16982cce50e50de8fe51d2e87f6e2ab" title=" " alt="" coords="264,13,425,54"/>
+</map>

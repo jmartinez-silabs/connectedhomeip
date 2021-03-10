@@ -1,0 +1,8 @@
+<map id="chip::Inet::InetLayer::GetInterfaceFromAddr" name="chip::Inet::InetLayer::GetInterfaceFromAddr">
+<area shape="rect" id="node1" title="Get the interface identifier for the specified IP address." alt="" coords="5,104,180,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#ad3c8d14a0b52c845467beda6113761ab" title="Get the current interface address." alt="" coords="228,5,428,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a65731c4d03c320cfbbe8c7493e72f9e1" title="Deprecated alias for GetInterfaceId(void)" alt="" coords="228,71,428,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a0abbabab4244a15191a0f7396af38b56" title=" " alt="" coords="228,136,428,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a56d5c639eb655249e62aae3fe43887a6" title="Advance the iterator to the next interface address." alt="" coords="228,201,428,243"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#ad8a1f8a18becec984e4a6f0776297c27" title="Returns the network interface id associated with the current interface address." alt="" coords="476,71,676,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::System::Platform::Layer::StartTimer" name="chip::System::Platform::Layer::StartTimer">
+<area shape="rect" id="node1" title="This is a platform&#45;specific event / message dispatch hook." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#a9b90588e3accea89d79094c29fc07261" title="Returns the public interface of the PlatformManager singleton object." alt="" coords="224,5,371,47"/>
+</map>

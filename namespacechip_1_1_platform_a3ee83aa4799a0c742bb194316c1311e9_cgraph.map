@@ -1,0 +1,4 @@
+<map id="chip::Platform::MemoryDebugCheckPointer" name="chip::Platform::MemoryDebugCheckPointer">
+<area shape="rect" id="node1" title="In debug builds, test the validity of a pointer obtained from a chip::Platform memory allocation." alt="" coords="5,5,223,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#ab189a3e937e0a14d4085ab5fa7afd9cc" title=" " alt="" coords="271,5,496,47"/>
+</map>

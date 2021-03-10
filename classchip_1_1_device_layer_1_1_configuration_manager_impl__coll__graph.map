@@ -1,0 +1,8 @@
+<map id="chip::DeviceLayer::ConfigurationManagerImpl" name="chip::DeviceLayer::ConfigurationManagerImpl">
+<area shape="rect" id="node1" title="Concrete implementation of the ConfigurationManager singleton object for the CC13X2_26X2 platform." alt="" coords="887,79,1081,120"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_configuration_manager.html" title="Provides access to runtime and build&#45;time configuration information for a chip device." alt="" coords="599,5,765,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html" title=" " alt="" coords="527,71,837,127"/>
+<area shape="rect" id="node4" href="$classchip_1_1_bit_flags.html" title=" " alt="" coords="40,53,215,79"/>
+<area shape="rect" id="node5" href="$classchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config.html" title=" " alt="" coords="576,185,788,227"/>
+<area shape="rect" id="node6" href="$structchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config_1_1_key.html" title=" " alt="" coords="5,252,249,293"/>
+</map>

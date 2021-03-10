@@ -1,0 +1,4 @@
+<map id="chip::System::Layer::Shutdown" name="chip::System::Layer::Shutdown">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a503171917a1c25ce848a94a839fc6961" title="This is a platform&#45;specific CHIP System Layer pre&#45;shutdown hook." alt="" coords="204,5,375,47"/>
+</map>

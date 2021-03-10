@@ -1,0 +1,4 @@
+<map id="chip::Time::TimeSource&lt; Source::kSystem &gt;::GetCurrentMonotonicTimeMs" name="chip::Time::TimeSource&lt; Source::kSystem &gt;::GetCurrentMonotonicTimeMs">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,245,61"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a2685a1be7eb20ad425c4be2571582ae9" title="Platform&#45;specific function for getting monotonic system time in milliseconds." alt="" coords="293,13,521,54"/>
+</map>

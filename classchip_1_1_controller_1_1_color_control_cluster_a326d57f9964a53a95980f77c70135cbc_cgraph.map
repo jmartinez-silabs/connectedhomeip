@@ -1,0 +1,4 @@
+<map id="chip::Controller::ColorControlCluster::ReportAttributeCurrentY" name="chip::Controller::ColorControlCluster::ReportAttributeCurrentY">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,237,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_cluster_base.html#af8951402d310215e124c92cd1d2e0bdb" title="Request attribute reports from the device." alt="" coords="285,5,520,47"/>
+</map>

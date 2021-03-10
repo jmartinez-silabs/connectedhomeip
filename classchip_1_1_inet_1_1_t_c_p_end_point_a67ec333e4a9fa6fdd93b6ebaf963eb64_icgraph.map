@@ -1,0 +1,13 @@
+<map id="chip::Inet::TCPEndPoint::IsConnected" name="chip::Inet::TCPEndPoint::IsConnected">
+<area shape="rect" id="node1" title="Extract whether TCP connection is established." alt="" coords="457,267,628,308"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6" title="Acknowledge receipt of message text." alt="" coords="237,5,407,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ab829d2d2ed4e9d0afe57736de87b6225" title="Disable the TCP &quot;keep&#45;alive&quot; option." alt="" coords="237,71,407,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a2d91810135f0b4390dd657617c421133" title="Enable TCP keepalive probes on the associated TCP connection." alt="" coords="237,136,407,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a838f07f3378c806d7f5a5136045515e9" title="EnableNoDelay." alt="" coords="237,201,407,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#abb26c26b7274d379884b9682edb23e21" title="Extract IP address and TCP port of local endpoint." alt="" coords="237,267,407,308"/>
+<area shape="rect" id="node7" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ad72fbce3a9ca8661546c3dc876511fef" title="Extract IP address and TCP port of remote endpoint." alt="" coords="237,332,407,373"/>
+<area shape="rect" id="node9" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#aa65833011f737fb64de3b266187bf5fc" title="Push message text back to the head of the receive queue." alt="" coords="235,397,409,439"/>
+<area shape="rect" id="node10" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a4c7c22eac77f08d091e9c658aa785093" title="Set the TCP TCP_USER_TIMEOUT socket option." alt="" coords="237,463,407,504"/>
+<area shape="rect" id="node11" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#adc4459949de121d8955e91c5b679d9a3" title="Initiate TCP half close, in other words, finished with sending." alt="" coords="237,528,407,569"/>
+<area shape="rect" id="node8" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="5,332,187,373"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::Shell::Shell::RegisterCommands" name="chip::Shell::Shell::RegisterCommands">
+<area shape="rect" id="node1" title="Registers a command set, or array of commands with the shell." alt="" coords="260,5,419,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_shell_1_1_shell.html#a463aae7c00b42008e0185b7d3e6dbb15" title="Registers a set of defaults commands (help) for all Shell and sub&#45;Shell instances." alt="" coords="5,5,212,47"/>
+</map>

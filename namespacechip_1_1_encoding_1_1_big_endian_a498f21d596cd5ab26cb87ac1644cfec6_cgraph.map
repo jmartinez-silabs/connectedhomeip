@@ -1,0 +1,4 @@
+<map id="chip::Encoding::BigEndian::Read32" name="chip::Encoding::BigEndian::Read32">
+<area shape="rect" id="node1" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 32&#45;bit value from the sp..." alt="" coords="5,5,195,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a26c0f5214779ed48b88f94e5a30f0928" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 32&#45;bit value from the sp..." alt="" coords="243,5,432,47"/>
+</map>

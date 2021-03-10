@@ -1,0 +1,6 @@
+<map id="chip::PacketHeader::GetEncryptionType" name="chip::PacketHeader::GetEncryptionType">
+<area shape="rect" id="node1" title=" " alt="" coords="725,5,877,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_secure_session.html#a0a430196b2e7b8f5706a6f06e45b660e" title="Decrypt the input data using keys established in the secure channel." alt="" coords="527,35,677,76"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a0c0f143f5fcbd492287662a7462b04e1" title=" " alt="" coords="252,35,479,76"/>
+</map>

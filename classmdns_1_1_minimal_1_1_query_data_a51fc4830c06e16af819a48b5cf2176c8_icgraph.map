@@ -1,0 +1,5 @@
+<map id="mdns::Minimal::QueryData::RequestedUnicastAnswer" name="mdns::Minimal::QueryData::RequestedUnicastAnswer">
+<area shape="rect" id="node1" title=" " alt="" coords="515,13,712,54"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_internal_1_1_response_sending_state.html#afbddf154464243d878ec27a583c00f2b" title="Check if the reply should be sent as a unicast reply." alt="" coords="288,5,467,61"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_response_sender.html#a64727a8ef0048d58282b75f3983ad79b" title="Send back the response to a particular query." alt="" coords="5,13,240,54"/>
+</map>

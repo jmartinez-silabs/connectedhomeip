@@ -1,0 +1,4 @@
+<map id="chip::Inet::FormatLayerError" name="chip::Inet::FormatLayerError">
+<area shape="rect" id="node1" title="Given an Inet Layer error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="256,5,391,32"/>
+</map>

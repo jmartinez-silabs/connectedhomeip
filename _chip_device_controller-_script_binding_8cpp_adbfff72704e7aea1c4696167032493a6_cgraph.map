@@ -1,0 +1,13 @@
+<map id="pychip_DeviceController_ConnectIP" name="pychip_DeviceController_ConnectIP">
+<area shape="rect" id="node1" title=" " alt="" coords="5,197,187,239"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#a525ecca3300dfad9c1aeab37dc26711d" title="Scan the IP address from its conventional presentation text." alt="" coords="263,67,417,108"/>
+<area shape="rect" id="node6" href="$classchip_1_1_controller_1_1_device_commissioner.html#aa92108d488c7f055b407bddb9abde494" title="Pair a CHIP device with the provided Rendezvous connection parameters." alt="" coords="243,132,437,173"/>
+<area shape="rect" id="node9" href="$classchip_1_1_rendezvous_parameters.html#a53e3c3f17425edd4c700788405e35ad1" title=" " alt="" coords="235,197,445,239"/>
+<area shape="rect" id="node10" href="$classchip_1_1_rendezvous_parameters.html#aadebca26d378f9973c7a4bcb2b76b294" title=" " alt="" coords="235,263,445,304"/>
+<area shape="rect" id="node11" href="$classchip_1_1_rendezvous_parameters.html#a365fa186e5e05298fa5641dad366f87b" title=" " alt="" coords="235,328,445,369"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#abb6180cf8ced926a6be9189b53f1d932" title=" " alt="" coords="538,5,691,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#a51a2c95a399e28425713cfc0e38b850d" title=" " alt="" coords="538,71,691,112"/>
+<area shape="rect" id="node5" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="848,78,927,105"/>
+<area shape="rect" id="node7" href="$classchip_1_1_transport_1_1_peer_address.html#a29887d5a38a4e7cf65d48925fc8404ec" title=" " alt="" coords="493,139,736,166"/>
+<area shape="rect" id="node8" href="$classchip_1_1_transport_1_1_peer_address.html#ac8fcd6c441f24d1594d2a589178dd1d8" title=" " alt="" coords="784,132,991,173"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::MessageAuthenticationCode::Decode" name="chip::MessageAuthenticationCode::Decode">
+<area shape="rect" id="node1" title="Decodes the Message Authentication Tag from the given buffer." alt="" coords="252,5,463,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="5,5,204,47"/>
+</map>

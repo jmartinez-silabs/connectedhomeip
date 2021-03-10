@@ -1,0 +1,4 @@
+<map id="chip::System::DescribeErrorLwIP" name="chip::System::DescribeErrorLwIP">
+<area shape="rect" id="node1" title="This implements a function to return an NULL&#45;terminated LwIP&#45;specific descriptive C string,..." alt="" coords="5,5,237,32"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system.html#a16b6ca60b95e36e451fe73a71c0d4171" title="This implements an introspection function for CHIP System Layer errors that allows the caller to dete..." alt="" coords="285,5,472,32"/>
+</map>

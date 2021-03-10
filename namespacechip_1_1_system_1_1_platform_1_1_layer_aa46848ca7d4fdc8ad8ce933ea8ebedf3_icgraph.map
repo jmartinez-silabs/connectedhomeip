@@ -1,0 +1,4 @@
+<map id="chip::System::Platform::Layer::SetClock_RealTime" name="chip::System::Platform::Layer::SetClock_RealTime">
+<area shape="rect" id="node1" title="Platform&#45;specific function for setting the current real (civil) time." alt="" coords="209,5,409,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_layer.html#a3d037a56e901fdf68e5007470710ec34" title="Sets the platform&#39;s notion of current real (civil) time." alt="" coords="5,5,161,47"/>
+</map>

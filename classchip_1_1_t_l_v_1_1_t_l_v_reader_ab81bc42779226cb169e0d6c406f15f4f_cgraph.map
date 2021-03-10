@@ -1,0 +1,4 @@
+<map id="chip::TLV::TLVReader::GetBytes" name="chip::TLV::TLVReader::GetBytes">
+<area shape="rect" id="node1" title="Get the value of the current byte or UTF8 string element." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_t_l_v.html#a122b2b4bc311900dfa62fd9bb916c876" title="Returns true if the specified TLV type is a UTF8 or byte string." alt="" coords="209,13,399,39"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_Thread::_GetThreadPollingConfig" name="chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_Thread::_GetThreadPollingConfig">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,292,76"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3" title="Returns the platform&#45;specific implementation of the ThreadStackManager singleton object." alt="" coords="340,20,497,61"/>
+</map>

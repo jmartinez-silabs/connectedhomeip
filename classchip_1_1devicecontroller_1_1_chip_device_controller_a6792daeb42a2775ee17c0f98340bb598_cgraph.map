@@ -1,0 +1,4 @@
+<map id="chip.devicecontroller.ChipDeviceController.onPairingComplete" name="chip.devicecontroller.ChipDeviceController.onPairingComplete">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,263,54"/>
+<area shape="rect" id="node2" href="$interfacechip_1_1devicecontroller_1_1_chip_device_controller_1_1_completion_listener.html#ada0b072d87e4a6ec5d9ce06c8adcb9da" title="Notifies the completion of pairing." alt="" coords="311,5,591,61"/>
+</map>

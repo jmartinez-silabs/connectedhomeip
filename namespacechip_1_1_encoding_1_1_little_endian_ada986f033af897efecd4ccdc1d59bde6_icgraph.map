@@ -1,0 +1,6 @@
+<map id="chip::Encoding::LittleEndian::Get16" name="chip::Encoding::LittleEndian::Get16">
+<area shape="rect" id="node1" title="Perform a, potentially unaligned, memory read of the little endian byte ordered 16&#45;bit value from the..." alt="" coords="277,86,479,127"/>
+<area shape="rect" id="node2" href="$structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a5403b14baeeb4c096dd2fea41269f061" title=" " alt="" coords="13,5,221,61"/>
+<area shape="rect" id="node3" href="$structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a8fafd30eab72a567cb78604e1b261ec3" title=" " alt="" coords="5,86,229,127"/>
+<area shape="rect" id="node4" href="$structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#abb50b51b3e05157b55ba66abcf6e6a5c" title=" " alt="" coords="7,151,227,193"/>
+</map>

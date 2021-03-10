@@ -1,0 +1,4 @@
+<map id="chip::Controller::DeviceCommissionerRendezvousAdvertisementDelegate" name="chip::Controller::DeviceCommissionerRendezvousAdvertisementDelegate">
+<area shape="rect" id="node1" title="The commissioner applications doesn&#39;t advertise itself as an available device for rendezvous process." alt="" coords="5,95,296,151"/>
+<area shape="rect" id="node2" href="$classchip_1_1_rendezvous_advertisement_delegate.html" title=" " alt="" coords="35,5,267,47"/>
+</map>

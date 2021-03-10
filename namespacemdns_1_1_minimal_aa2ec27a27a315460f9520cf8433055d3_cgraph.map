@@ -1,0 +1,24 @@
+<map id="mdns::Minimal::ParsePacket" name="mdns::Minimal::ParsePacket">
+<area shape="rect" id="node1" title="Parses a mMDNS packet." alt="" coords="5,405,209,431"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#a87596ef551ae124dbde4514929745c9b" title=" " alt="" coords="265,267,476,308"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#aae2672de215e8833440adc79ddf69ff0" title=" " alt="" coords="265,5,476,47"/>
+<area shape="rect" id="node6" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#ae867bf99df60e2a6ce48f59f5b55a4b0" title=" " alt="" coords="265,71,476,112"/>
+<area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#af8398863bc8137fc89d09c7fe2134867" title=" " alt="" coords="265,136,476,177"/>
+<area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#aeefa710ae205ad39df5eaa7824d1d0bb" title=" " alt="" coords="265,201,476,243"/>
+<area shape="rect" id="node9" href="$classmdns_1_1_minimal_1_1_bit_packed_flags.html#a7e5c303ff57964e8c8eed598ddc34075" title="Validates that the message does not need to be ignored according to RFC 6762." alt="" coords="275,332,466,373"/>
+<area shape="rect" id="node10" href="$classmdns_1_1_minimal_1_1_parser_delegate.html#a93999c75c7c3a1b5f288b3d5b79bca0f" title=" " alt="" coords="257,397,484,439"/>
+<area shape="rect" id="node11" href="$classmdns_1_1_minimal_1_1_parser_delegate.html#a9105b47a08f04bab2f2e86e02f2d49f4" title=" " alt="" coords="257,463,484,504"/>
+<area shape="rect" id="node12" href="$classmdns_1_1_minimal_1_1_parser_delegate.html#a9b5a2377a73d11a4b5da88ba2cba1f10" title=" " alt="" coords="257,528,484,569"/>
+<area shape="rect" id="node13" href="$classmdns_1_1_minimal_1_1_query_data.html#a106e1e3201e9f4b58d0a38115198973e" title="Parses a query structure." alt="" coords="272,593,469,635"/>
+<area shape="rect" id="node19" href="$classmdns_1_1_minimal_1_1_resource_data.html#a98f2bd6ef9ecf3ddbbc974d01d3252a8" title="Parses a resource data structure." alt="" coords="261,659,480,700"/>
+<area shape="rect" id="node21" href="$classmdns_1_1_minimal_1_1_bytes_range.html#ae8930c59f812c431b25ab13f89d80b07" title=" " alt="" coords="268,724,473,765"/>
+<area shape="rect" id="node22" href="$classmdns_1_1_minimal_1_1_bytes_range.html#a8cd4a5e18582c7607047a1d3871fa1b4" title=" " alt="" coords="268,789,473,831"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_const_header_ref.html#addf62d8d8e0f5250678c6194132de4b6" title=" " alt="" coords="532,136,743,177"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a243b499fbaf3008052cb5546547fffc3" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 16&#45;bit value from the sp..." alt="" coords="799,136,988,177"/>
+<area shape="rect" id="node14" href="$classmdns_1_1_minimal_1_1_bytes_range.html#a3e5dfd8be245f27477cc35e3559477c1" title=" " alt="" coords="791,600,996,641"/>
+<area shape="rect" id="node15" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a7474ddeea0c38d06e36e76f3b529fa23" title="Get the end of the sequence without following any backwards pointers." alt="" coords="533,535,742,576"/>
+<area shape="rect" id="node18" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a43f39a556041dd2a2214fc08dcaecdce" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 16&#45;bit value from the sp..." alt="" coords="543,652,732,693"/>
+<area shape="rect" id="node16" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#abbc006cad9248016fa6967340ad2ac7c" title="Find out if the data parsing is ok." alt="" coords="798,469,989,511"/>
+<area shape="rect" id="node17" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a6bf07bdf57579d2bb36362da941ab679" title="Advances to the next element in the sequence Returns true if new data was available." alt="" coords="798,535,989,576"/>
+<area shape="rect" id="node20" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a26c0f5214779ed48b88f94e5a30f0928" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 32&#45;bit value from the sp..." alt="" coords="543,717,732,759"/>
+</map>

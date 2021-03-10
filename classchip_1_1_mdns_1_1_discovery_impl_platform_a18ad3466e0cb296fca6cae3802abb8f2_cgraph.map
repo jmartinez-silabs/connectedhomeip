@@ -1,0 +1,4 @@
+<map id="chip::Mdns::DiscoveryImplPlatform::ResolveNodeId" name="chip::Mdns::DiscoveryImplPlatform::ResolveNodeId">
+<area shape="rect" id="node1" title="Requests resolution of a node ID to its address." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#a92918bc47fadde76f386ab039d196c7c" title="This function resolves the services published by mdns." alt="" coords="248,13,464,39"/>
+</map>

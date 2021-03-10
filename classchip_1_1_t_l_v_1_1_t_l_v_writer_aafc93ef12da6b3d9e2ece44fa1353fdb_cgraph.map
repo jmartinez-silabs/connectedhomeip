@@ -1,0 +1,8 @@
+<map id="chip::TLV::TLVWriter::CopyContainer" name="chip::TLV::TLVWriter::CopyContainer">
+<area shape="rect" id="node1" title="Encodes a TLV container element from a pre&#45;encoded set of member elements." alt="" coords="5,104,156,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a82103249ea3eaafbfbb844afb05ad696" title="Prepares a TLVReader object for reading the members of TLV container element." alt="" coords="204,5,360,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a63d7deaa2f83379c23e8e1538b64741b" title="Completes the reading of a TLV container and prepares a TLVReader object to read elements after the c..." alt="" coords="204,71,360,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ac62281b457a10b4385d933b1f372fc02" title="Gets the point in the underlying input buffer that corresponds to the reader&#39;s current position." alt="" coords="204,136,360,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a27832dee42353ee540b9972c79d00547" title="Returns the type of the current TLV element." alt="" coords="204,201,360,243"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_t_l_v.html#a6af76a60c5957e64c0cbc1a1644337fb" title="Returns true if the specified TLV type is a container." alt="" coords="408,13,623,39"/>
+</map>

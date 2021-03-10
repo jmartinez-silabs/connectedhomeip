@@ -1,0 +1,9 @@
+<map id="chip::DeviceLayer::PersistedStorage::KeyValueStoreManagerImpl::Init" name="chip::DeviceLayer::PersistedStorage::KeyValueStoreManagerImpl::Init">
+<area shape="rect" id="node1" title="Initalize the KVS, must be called before using." alt="" coords="5,85,205,141"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#a0d1dc2efbfb470a0b16982431d0c57ed" title=" " alt="" coords="253,93,476,134"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini.html#a8ad5777d9a01d525d415388283dbd93b" title=" " alt="" coords="524,5,719,61"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage.html#a8f75adfaeb67faaf1f50a82e88f67475" title=" " alt="" coords="524,85,719,141"/>
+<area shape="rect" id="node6" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini.html#a6252849098dce7ac4f94372e49f929c2" title=" " alt="" coords="524,165,719,221"/>
+<area shape="rect" id="node5" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini.html#a672be4ed5f7c62c0a8e9732c98dc9bc6" title=" " alt="" coords="767,85,961,141"/>
+<area shape="rect" id="node7" href="$classchip_1_1_device_layer_1_1_internal_1_1_chip_linux_storage_ini.html#a50426028d0bc17598125dc7d2c8aa521" title=" " alt="" coords="767,165,961,221"/>
+</map>

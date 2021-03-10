@@ -1,0 +1,4 @@
+<map id="chip::System::TLVPacketBufferBackingStore::Init" name="chip::System::TLVPacketBufferBackingStore::Init">
+<area shape="rect" id="node1" title="Take ownership of a backing packet buffer." alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#af660c0bd3d2154b16f0eb73da5daa235" title="Get a new handle to an existing buffer." alt="" coords="272,5,467,47"/>
+</map>

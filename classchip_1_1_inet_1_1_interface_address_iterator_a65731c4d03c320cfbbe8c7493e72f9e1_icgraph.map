@@ -1,0 +1,4 @@
+<map id="chip::Inet::InterfaceAddressIterator::GetInterface" name="chip::Inet::InterfaceAddressIterator::GetInterface">
+<area shape="rect" id="node1" title="Deprecated alias for GetInterfaceId(void)" alt="" coords="228,5,428,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_inet_layer.html#af43de490f2250d5f3800731ee21ffde6" title="Get the interface identifier for the specified IP address." alt="" coords="5,5,180,47"/>
+</map>

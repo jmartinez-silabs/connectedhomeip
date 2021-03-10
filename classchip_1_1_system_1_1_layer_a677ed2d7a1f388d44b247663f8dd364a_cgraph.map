@@ -1,0 +1,16 @@
+<map id="chip::System::Layer::Init" name="chip::System::Layer::Init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,162,156,203"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system.html#aeb50ae084078c7ba622b2a5903ad088f" title="Register a text error formatter for System Layer errors." alt="" coords="221,129,425,170"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_system.html#a6479777583f84d1cb9eb8924d126fd3b" title="Register a text error formatter for LwIP errors." alt="" coords="230,63,417,105"/>
+<area shape="rect" id="node10" href="$namespacechip_1_1_system.html#ad09791615a6e2342b45b484a0cf5f4a4" title="Register a text error formatter for POSIX errors." alt="" coords="204,194,443,235"/>
+<area shape="rect" id="node14" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#ac5d9a3dfe8b75b54e9cce0da6025d6a3" title="This is a platform&#45;specific CHIP System Layer pre&#45;initialization hook." alt="" coords="238,259,409,301"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system.html#a368a425996c226a9cf003fe49d5e4820" title="Given a System Layer error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="508,103,704,145"/>
+<area shape="rect" id="node5" href="$namespacechip.html#a2cdd0d8fca5d74a2e42ee7e7d22cb3d5" title="Add a new error formatter function to the global list of error formatters." alt="" coords="503,169,709,196"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="818,111,953,137"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_system.html#aa3429a44fc2fba2f72c7db9c8dfa0ee6" title="Given an LwIP error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="495,52,717,79"/>
+<area shape="rect" id="node8" href="$namespacechip_1_1_system.html#a446bcb9ad448efae4ba29d31fd826ef8" title="This implements a function to return an NULL&#45;terminated LwIP&#45;specific descriptive C string,..." alt="" coords="769,5,1001,32"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_system.html#a16b6ca60b95e36e451fe73a71c0d4171" title="This implements an introspection function for CHIP System Layer errors that allows the caller to dete..." alt="" coords="1049,31,1236,57"/>
+<area shape="rect" id="node11" href="$namespacechip_1_1_system.html#a3adbf6ce90e99b6c83480f4a53bf11ca" title="Given a POSIX error, returns a human&#45;readable NULL&#45;terminated C string describing the error." alt="" coords="491,220,721,247"/>
+<area shape="rect" id="node12" href="$namespacechip_1_1_system.html#a9d0dcb319c29f91ca98be093e7dfef44" title="This implements a function to return an NULL&#45;terminated OS&#45;specific descriptive C string,..." alt="" coords="784,242,987,283"/>
+<area shape="rect" id="node13" href="$namespacechip_1_1_system.html#afd75f141e556bde917bbe779e135b8e9" title="This implements an introspection function for CHIP System Layer errors that allows the caller to dete..." alt="" coords="788,191,983,217"/>
+</map>

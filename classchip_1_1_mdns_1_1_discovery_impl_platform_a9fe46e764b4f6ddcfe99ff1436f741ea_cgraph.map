@@ -1,0 +1,4 @@
+<map id="chip::Mdns::DiscoveryImplPlatform::Advertise" name="chip::Mdns::DiscoveryImplPlatform::Advertise">
+<area shape="rect" id="node1" title="Advertises the CHIP node as an operational node." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#afbba98fa3de45e9cd065838017c724e9" title="This function publishes an service via mDNS." alt="" coords="248,5,459,47"/>
+</map>

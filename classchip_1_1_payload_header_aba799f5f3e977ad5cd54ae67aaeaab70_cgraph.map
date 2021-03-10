@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::Decode" name="chip::PayloadHeader::Decode">
+<area shape="rect" id="node1" title="A version of Decode that uses the type system to determine available space." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_payload_header.html#aa5f798ce52327936877ac0c414fea586" title="Decodes the encrypted header fields from the given buffer." alt="" coords="208,5,363,47"/>
+</map>

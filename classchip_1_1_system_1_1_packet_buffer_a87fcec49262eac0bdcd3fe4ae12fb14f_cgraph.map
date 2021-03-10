@@ -1,0 +1,6 @@
+<map id="chip::System::PacketBuffer::AvailableDataLength" name="chip::System::PacketBuffer::AvailableDataLength">
+<area shape="rect" id="node1" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="5,39,200,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="248,71,443,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="491,71,685,112"/>
+</map>

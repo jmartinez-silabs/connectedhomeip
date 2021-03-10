@@ -1,0 +1,5 @@
+<map id="chip::Inet::SocketEvents::SetError" name="chip::Inet::SocketEvents::SetError">
+<area shape="rect" id="node1" title="Set the error bit flag for the socket." alt="" coords="436,5,613,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_socket_events.html#a2752bd74f6fcab04d0355d16c3469067" title="Set the read, write or exception bit flags for the specified socket based on its status in the corres..." alt="" coords="211,5,388,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_inet_layer.html#aa7f2b9e2bcee431a217641b656a39b4f" title="Handle I/O from a select call." alt="" coords="5,5,163,47"/>
+</map>

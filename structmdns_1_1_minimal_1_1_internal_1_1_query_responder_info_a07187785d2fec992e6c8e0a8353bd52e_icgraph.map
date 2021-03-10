@@ -1,0 +1,6 @@
+<map id="mdns::Minimal::Internal::QueryResponderInfo::Clear" name="mdns::Minimal::Internal::QueryResponderInfo::Clear">
+<area shape="rect" id="node1" title=" " alt="" coords="571,39,776,80"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#a7818ecb29f16eb3b81341bc3b4ffc1ed" title="Add a new responder to be processed." alt="" coords="288,5,523,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_query_responder_base.html#ac5bfdbb560d60256cb3e5067e33db177" title="Setup initial settings (clears all infos and sets up dns&#45;sd query replies)" alt="" coords="288,71,523,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_query_responder.html#a9161115bdbb80e470d25f74ee78af1f8" title=" " alt="" coords="5,71,240,112"/>
+</map>

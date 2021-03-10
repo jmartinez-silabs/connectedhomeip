@@ -1,0 +1,4 @@
+<map id="chip::PASESession::GeneratePASEVerifier" name="chip::PASESession::GeneratePASEVerifier">
+<area shape="rect" id="node1" title="Generate a new PASE verifier." alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_crypto.html#a55a2d8a47210c5b3160797828217a7a4" title="A cryptographically secure random number generator based on NIST SP800&#45;90A." alt="" coords="213,5,360,47"/>
+</map>

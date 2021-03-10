@@ -1,0 +1,6 @@
+<map id="chip::Inet::SocketEvents::FromFDs" name="chip::Inet::SocketEvents::FromFDs">
+<area shape="rect" id="node1" title="Set the read, write or exception bit flags for the specified socket based on its status in the corres..." alt="" coords="5,71,183,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_socket_events.html#abe2085b3e66f28075d22460b7b6a8195" title="Set the error bit flag for the socket." alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_socket_events.html#aed844470e3d9a520b6bd47fb43e5dd13" title="Set the read bit flag for the socket." alt="" coords="231,71,408,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_socket_events.html#a0e757d5ea490416fdb47ea988c6fb11a" title="Set the write bit flag for the socket." alt="" coords="231,136,408,177"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl&lt; ImplClass &gt;::AppEventHandler" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl&lt; ImplClass &gt;::AppEventHandler">
+<area shape="rect" id="node1" title=" " alt="" coords="1412,559,1679,615"/>
+<area shape="rect" id="node2" href="$structchip_1_1_device_layer_1_1_chip_device_event.html" title="Represents a chip Device Layer event." alt="" coords="1161,566,1308,607"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html" title="The packet buffer class is the core structure used for manipulating packets of octet&#45;serialized data,..." alt="" coords="105,413,300,440"/>
+<area shape="rect" id="node7" href="$structchip_1_1_device_layer_1_1_chip_device_platform_event.html" title="Represents platform&#45;specific event information." alt="" coords="863,471,1052,513"/>
+<area shape="rect" id="node9" href="$structchip_1_1_device_layer_1_1_ble_c1_write_event_type.html" title=" " alt="" coords="393,406,556,447"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,413,56,440"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_object.html" title="This represents a reference&#45;counted object allocated from space contained in an ObjectPool&lt;T,..." alt="" coords="879,719,1035,745"/>
+<area shape="rect" id="node6" title=" " alt="" coords="445,199,504,225"/>
+<area shape="rect" id="node8" href="$structchip_1_1_device_layer_1_1_ble_c_c_c_write_event_type.html" title=" " alt="" coords="389,471,561,513"/>
+<area shape="rect" id="node10" href="$structchip_1_1_device_layer_1_1_ble_c2_ind_done_event_type.html" title=" " alt="" coords="384,537,565,578"/>
+<area shape="rect" id="node11" href="$structchip_1_1_device_layer_1_1_ble_conn_event_type.html" title=" " alt="" coords="401,602,548,643"/>
+</map>

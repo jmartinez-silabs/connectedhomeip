@@ -1,0 +1,5 @@
+<map id="otPlatFree" name="otPlatFree">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_platform_memory_8cpp.html#a3e189c0fda39310573ba360343ef850e" title=" " alt="" coords="141,5,332,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="380,5,583,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::ConnectivityManager" name="chip::DeviceLayer::ConnectivityManager">
+<area shape="rect" id="node1" title="Provides control of network connectivity for a chip device." alt="" coords="20,5,181,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_connectivity_manager_impl.html" title="Concrete implementation of the ConnectivityManager singleton object for the CC13X2_26X2 platforms." alt="" coords="5,95,196,136"/>
+</map>

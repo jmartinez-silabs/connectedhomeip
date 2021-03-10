@@ -1,0 +1,4 @@
+<map id="chip::EncryptedPacketBufferHandle::operator=" name="chip::EncryptedPacketBufferHandle::operator=">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a2b14d1e8d0711292e9b44378c0528ee7" title="Take ownership of a PacketBuffer from another PacketBufferHandle, freeing any existing owned buffer." alt="" coords="256,5,451,47"/>
+</map>

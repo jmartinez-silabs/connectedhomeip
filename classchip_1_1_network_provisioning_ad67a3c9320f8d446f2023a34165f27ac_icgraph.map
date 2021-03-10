@@ -1,0 +1,4 @@
+<map id="chip::NetworkProvisioning::GetIPAddress" name="chip::NetworkProvisioning::GetIPAddress">
+<area shape="rect" id="node1" title="Get the IP address assigned to the device during network provisioning process." alt="" coords="240,5,432,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_rendezvous_session.html#a2d285744e54f959b30f235db4a7dd32a" title="Get the IP address assigned to the device during network provisioning process." alt="" coords="5,5,192,47"/>
+</map>

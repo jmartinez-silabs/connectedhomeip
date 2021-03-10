@@ -1,0 +1,5 @@
+<map id="chip::Transport::PeerConnectionState::SetLastActivityTimeMs" name="chip::Transport::PeerConnectionState::SetLastActivityTimeMs">
+<area shape="rect" id="node1" title=" " alt="" coords="384,53,611,94"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_peer_connections.html#a928d085424f4f59e5360e6582af6f9b7" title="Allocates a new peer connection state state object out of the internal resource pool." alt="" coords="5,5,336,61"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_peer_connections.html#aafee387c874ba13aa52856115620554a" title="Convenience method to mark a peer connection state as active." alt="" coords="35,85,306,141"/>
+</map>

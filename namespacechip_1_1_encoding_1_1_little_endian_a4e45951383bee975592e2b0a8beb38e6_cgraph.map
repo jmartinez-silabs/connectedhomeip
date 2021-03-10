@@ -1,0 +1,4 @@
+<map id="chip::Encoding::LittleEndian::Write16" name="chip::Encoding::LittleEndian::Write16">
+<area shape="rect" id="node1" title="Perform a, potentially unaligned, memory write of the target system byte ordered 16&#45;bit value to the ..." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_encoding_1_1_little_endian.html#a48dfe448d79c9e0f966af13b2fb90baf" title="Perform a, potentially unaligned, memory write of the target system byte ordered 16&#45;bit value to the ..." alt="" coords="255,5,456,47"/>
+</map>

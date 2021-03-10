@@ -1,0 +1,4 @@
+<map id="chip::Ble::ChipBLEDeviceIdentificationInfo::GetDeviceDiscriminator" name="chip::Ble::ChipBLEDeviceIdentificationInfo::GetDeviceDiscriminator">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,213,61"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_encoding_1_1_little_endian.html#ada986f033af897efecd4ccdc1d59bde6" title="Perform a, potentially unaligned, memory read of the little endian byte ordered 16&#45;bit value from the..." alt="" coords="261,13,463,54"/>
+</map>

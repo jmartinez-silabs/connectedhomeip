@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::ClearVendorId" name="chip::PayloadHeader::ClearVendorId">
+<area shape="rect" id="node1" title="Clear the vendor id for this header." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_optional.html#a26385b6e79d36f84fb7d79a75e84a9b4" title="Invalidate the value inside the optional." alt="" coords="208,13,399,39"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="JNI_OnUnload" name="JNI_OnUnload">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,116,133"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#aed04f513d0e82ec1aca911805f386a47" title=" " alt="" coords="218,5,349,32"/>
+<area shape="rect" id="node3" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab8f8308364dcee5c665187bfc50a1cc4" title=" " alt="" coords="240,56,327,83"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_platform.html#a0d666c72a16291f4bb65678cef399707" title="This function is called by the CHIP layer to releases all resources that were allocated by MemoryInit..." alt="" coords="164,107,403,133"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_layer.html#a67a7b9588a31572d5026edcd2f83ae8c" title=" " alt="" coords="208,158,359,199"/>
+<area shape="rect" id="node8" href="$classchip_1_1_system_1_1_layer.html#a5c9d5217af674bac407bcd6b47bd1239" title="Wake up the I/O thread that monitors the file descriptors using select() by writing a single byte to ..." alt="" coords="208,249,359,290"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#a4cf597957c81be2d3a4a6f944f90fb40" title=" " alt="" coords="451,93,684,134"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a503171917a1c25ce848a94a839fc6961" title="This is a platform&#45;specific CHIP System Layer pre&#45;shutdown hook." alt="" coords="482,158,653,199"/>
+<area shape="rect" id="node9" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="514,224,621,251"/>
+<area shape="rect" id="node11" href="$classchip_1_1_system_1_1_system_wake_event.html#a3ed2071c5081b56347c7cd51b206de8f" title="Set the event." alt="" coords="468,275,667,317"/>
+<area shape="rect" id="node13" href="$classchip_1_1_system_1_1_layer.html#ae53b05f9b8d35810313f1657cfca1ebe" title="This returns the current state of the layer object." alt="" coords="492,341,643,382"/>
+<area shape="rect" id="node10" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="771,224,905,251"/>
+<area shape="rect" id="node12" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="732,283,944,309"/>
+</map>

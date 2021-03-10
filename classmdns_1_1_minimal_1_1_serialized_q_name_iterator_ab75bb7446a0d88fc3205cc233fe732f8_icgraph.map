@@ -1,0 +1,7 @@
+<map id="mdns::Minimal::SerializedQNameIterator::Value" name="mdns::Minimal::SerializedQNameIterator::Value">
+<area shape="rect" id="node1" title="Valid IFF Next() returned true." alt="" coords="787,39,977,80"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#aa1deeb460c6aebc4d6268aab34d7585d" title=" " alt="" coords="535,5,739,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#ae41cd0b78c19aa587666b64ba2350b9b" title=" " alt="" coords="541,71,732,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_query_data.html#a62a20b78456ca1451dc5c2098fb30cb6" title="Write out this query data back into an output buffer." alt="" coords="289,71,487,112"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_response_builder.html#ab8a852699ac1f617737b132262d5b81b" title=" " alt="" coords="5,71,241,112"/>
+</map>

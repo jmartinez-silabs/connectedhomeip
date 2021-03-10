@@ -1,0 +1,4 @@
+<map id="chip.setuppayload.SetupPayload" name="chip.setuppayload.SetupPayload">
+<area shape="rect" id="node1" title="Class to hold the data from the scanned QR code or manual entry code." alt="" coords="10,109,243,136"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,248,47"/>
+</map>

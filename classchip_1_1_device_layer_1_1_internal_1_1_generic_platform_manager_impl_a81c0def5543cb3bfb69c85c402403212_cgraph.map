@@ -1,0 +1,5 @@
+<map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::HandleMessageLayerActivityChanged" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::HandleMessageLayerActivityChanged">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,312,87"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#a0f116f09a0e109f6a32f9d894bf01d42" title="Returns the platform&#45;specific implementation of the PlatformManager singleton object." alt="" coords="360,5,507,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#ab2eda1307ad1a049e1cf1250e77c32b0" title="Returns the public interface of the ThreadStackManager singleton object." alt="" coords="360,71,507,112"/>
+</map>

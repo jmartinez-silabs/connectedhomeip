@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::IsAppStaticKey" name="chip::ChipKeyId::IsAppStaticKey">
+<area shape="rect" id="node1" title="Determine whether the specified key ID is of an application static type." alt="" coords="283,5,509,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#a4c6b777c2f76a791a41036ccb11c5e26" title="Determine whether the specified key ID belongs to one of the application group key types (static or r..." alt="" coords="5,5,235,32"/>
+</map>

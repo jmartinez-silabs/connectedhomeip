@@ -1,0 +1,23 @@
+<map id="chip::System::PacketBufferHandle::IsNull" name="chip::System::PacketBufferHandle::IsNull">
+<area shape="rect" id="node1" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="572,495,767,536"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207" title="Creates a copy of the data in this packet." alt="" coords="309,37,503,79"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="307,103,505,144"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="307,168,505,209"/>
+<area shape="rect" id="node7" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="297,233,515,275"/>
+<area shape="rect" id="node8" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#af9bf2b48d8e7c27e5f78a077fb845c81" title="A function that can be used to retrieve additional TLV data to be parsed." alt="" coords="297,299,515,340"/>
+<area shape="rect" id="node9" href="$classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="307,364,505,405"/>
+<area shape="rect" id="node10" href="$classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="306,429,506,471"/>
+<area shape="rect" id="node11" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="309,495,503,536"/>
+<area shape="rect" id="node12" href="$classmdns_1_1_minimal_1_1_response_builder.html#a0782a62e34b5f6e8b95b9a9b23886e7d" title=" " alt="" coords="288,560,524,601"/>
+<area shape="rect" id="node14" href="$classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#a841a45805e9e5cb3448bb4b05b5f65c8" title="Test whether this PacketBufferWriter is null, or conversely owns a PacketBuffer." alt="" coords="303,625,509,667"/>
+<area shape="rect" id="node15" href="$classchip_1_1_ble_1_1_btp_engine.html#aa04d8fe64bc816fe0f5d7ea87bfd1941" title=" " alt="" coords="330,691,482,732"/>
+<area shape="rect" id="node17" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a2dcd357c2c6f986f4f8d30fa53b4360c" title="Extract the length of the unacknowledged receive data." alt="" coords="317,756,495,797"/>
+<area shape="rect" id="node18" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77" title="Extract the length of the data awaiting first transmit." alt="" coords="321,821,491,863"/>
+<area shape="rect" id="node19" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e" title="Send message text on TCP connection." alt="" coords="321,887,491,928"/>
+<area shape="rect" id="node21" href="$classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="298,953,514,1009"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="22,5,223,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="21,71,224,112"/>
+<area shape="rect" id="node13" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="5,560,240,601"/>
+<area shape="rect" id="node16" href="$classchip_1_1_ble_1_1_btp_engine.html#aa07b884deec572542047c062a42885bd" title=" " alt="" coords="47,691,199,732"/>
+<area shape="rect" id="node20" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="32,887,213,928"/>
+</map>

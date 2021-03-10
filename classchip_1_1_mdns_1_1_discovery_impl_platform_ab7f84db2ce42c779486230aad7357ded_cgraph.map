@@ -1,0 +1,6 @@
+<map id="chip::Mdns::DiscoveryImplPlatform::Advertise" name="chip::Mdns::DiscoveryImplPlatform::Advertise">
+<area shape="rect" id="node1" title="Advertises the CHIP node as a commisioning/commissionable node." alt="" coords="5,35,200,76"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#afbba98fa3de45e9cd065838017c724e9" title="This function publishes an service via mDNS." alt="" coords="248,5,459,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_uint8.html#afd5211f2ae3df141d68369e9de152dfd" title="Safely typecast a pointer to const char to const uint8_t." alt="" coords="249,71,457,98"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_crypto.html#a7839660c978cd3df1db89b8f720daf35" title=" " alt="" coords="507,64,671,105"/>
+</map>

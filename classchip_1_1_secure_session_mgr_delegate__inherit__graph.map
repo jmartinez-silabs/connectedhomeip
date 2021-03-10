@@ -1,0 +1,5 @@
+<map id="chip::SecureSessionMgrDelegate" name="chip::SecureSessionMgrDelegate">
+<area shape="rect" id="node1" title="This class provides a skeleton for the callback functions." alt="" coords="5,5,240,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_device_controller.html" title="Controller applications can use this class to communicate with already paired CHIP devices." alt="" coords="35,80,210,121"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_device_commissioner.html" title="The commissioner applications can use this class to pair new/unpaired CHIP devices." alt="" coords="35,169,210,211"/>
+</map>

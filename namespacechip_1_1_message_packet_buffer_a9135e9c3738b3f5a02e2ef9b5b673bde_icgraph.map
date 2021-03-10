@@ -1,0 +1,4 @@
+<map id="chip::MessagePacketBuffer::New" name="chip::MessagePacketBuffer::New">
+<area shape="rect" id="node1" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="245,13,479,39"/>
+<area shape="rect" id="node2" href="$classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="5,5,197,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="chip::TLV::TLVTypeIsString" name="chip::TLV::TLVTypeIsString">
+<area shape="rect" id="node1" title="Returns true if the specified TLV type is a UTF8 or byte string." alt="" coords="209,143,399,170"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a8b9badffc559b45eea707be9ab7604da" title="Allocates and returns a buffer containing the value of the current byte or UTF8 string." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad3a24b6ba80a5567206c10a087899820" title="Allocates and returns a buffer containing the null&#45;terminated value of the current byte or UTF8 strin..." alt="" coords="5,71,161,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ab81bc42779226cb169e0d6c406f15f4f" title="Get the value of the current byte or UTF8 string element." alt="" coords="5,136,161,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a4ba1e856897185dd71e82d12e8f79a12" title="Get a pointer to the initial encoded byte of a TLV byte or UTF8 string element." alt="" coords="5,201,161,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a0f49c6bd598079498c06545666c85dca" title="Get the value of the current byte or UTF8 string element as a null terminated string." alt="" coords="5,267,161,308"/>
+</map>

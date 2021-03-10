@@ -1,0 +1,5 @@
+<map id="chip::Callback::CallbackDeque::Enqueue" name="chip::Callback::CallbackDeque::Enqueue">
+<area shape="rect" id="node1" title="appends with overridden cancel function, in case the list change requires some other state update." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_callback_deque.html#ad13108d88dce7d0d8f240d0698a96dae" title="insert the node in a the list at a specific point" alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_callback_1_1_cancelable.html#a741ee7f3ebb708de9a3b8c973ace2cb2" title="run whatever function the callee/registrar has specified in order to clean up any resource allocation..." alt="" coords="456,5,649,47"/>
+</map>

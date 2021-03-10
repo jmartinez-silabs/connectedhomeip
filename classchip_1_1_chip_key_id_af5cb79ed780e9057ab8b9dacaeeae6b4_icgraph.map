@@ -1,0 +1,6 @@
+<map id="chip::ChipKeyId::IncorporatesEpochKey" name="chip::ChipKeyId::IncorporatesEpochKey">
+<area shape="rect" id="node1" title="Determine whether the specified application group key ID incorporates epoch key." alt="" coords="511,39,721,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#a66b99fa8b674dce5cea5c27cdc9b0760" title="Determines whether two key IDs identify the same key, or in the case of rotating keys,..." alt="" coords="256,5,459,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_key_id.html#a9e8137c1566939a6fe28cc39e6b94282" title="Determine whether the specified application group key ID uses &quot;current&quot; epoch key." alt="" coords="252,71,463,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_chip_key_id.html#ab562413474e61b435a43cbaa9f89d784" title="Determine whether a given key ID identifies a key that is suitable for CHIP message encryption." alt="" coords="5,71,204,112"/>
+</map>

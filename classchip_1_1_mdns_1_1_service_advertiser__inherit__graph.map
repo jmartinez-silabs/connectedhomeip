@@ -1,0 +1,4 @@
+<map id="chip::Mdns::ServiceAdvertiser" name="chip::Mdns::ServiceAdvertiser">
+<area shape="rect" id="node1" title="Handles advertising of CHIP nodes." alt="" coords="5,5,220,32"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html" title=" " alt="" coords="15,80,210,121"/>
+</map>

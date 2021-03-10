@@ -1,0 +1,36 @@
+<map id="lib/mdns/minimal" name="lib/mdns/minimal">
+<area shape="rect" id="node2" href="dir_bc53cbda823a28b2733afd1692097551.html" title="core" alt="" coords="109,351,181,399"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000035_000036.html" title="16" alt="" coords="157,328,175,342"/>
+<area shape="rect" id="node3" href="dir_37c0660e3b481c023fd0eeef1b618ad8.html" title="records" alt="" coords="48,255,120,303"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000035_000039.html" title="7" alt="" coords="64,227,74,242"/>
+<area shape="rect" id="node4" href="dir_6c631cca1c96b70bd3064359c7880218.html" title="responders" alt="" coords="69,159,163,207"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000035_000040.html" title="2" alt="" coords="135,137,144,152"/>
+<area shape="rect" id="node5" href="dir_f6b9a4655267a7addfa391e62c58cac5.html" title="inet" alt="" coords="235,351,307,399"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000035_000031.html" title="10" alt="" coords="254,323,272,338"/>
+<area shape="rect" id="node6" href="dir_d501334aeb1b78ad67cd3c72c37b1e87.html" title="system" alt="" coords="320,447,392,495"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000035_000068.html" title="4" alt="" coords="349,420,358,434"/>
+<area shape="rect" id="node7" href="dir_07debba6119e8fae289f5c0650c95439.html" title="support" alt="" coords="197,639,269,687"/>
+<area shape="rect" id="edge21-headlabel" href="dir_000036_000037.html" title="1" alt="" coords="224,611,234,626"/>
+<area shape="rect" id="node8" href="dir_92dd4b281d099a132d4a425cb79ee964.html" title="core" alt="" coords="235,543,307,591"/>
+<area shape="rect" id="edge22-headlabel" href="dir_000036_000033.html" title="2" alt="" coords="248,515,257,530"/>
+<area shape="rect" id="edge20-headlabel" href="dir_000039_000036.html" title="2" alt="" coords="123,323,132,338"/>
+<area shape="rect" id="edge18-headlabel" href="dir_000039_000031.html" title="1" alt="" coords="217,332,227,347"/>
+<area shape="rect" id="edge19-headlabel" href="dir_000039_000037.html" title="1" alt="" coords="207,611,217,626"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000040_000036.html" title="3" alt="" coords="146,324,155,339"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000040_000039.html" title="6" alt="" coords="101,233,110,247"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000040_000031.html" title="2" alt="" coords="242,324,252,338"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000040_000037.html" title="1" alt="" coords="178,629,188,643"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000031_000068.html" title="15" alt="" coords="312,420,329,435"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000031_000037.html" title="25" alt="" coords="226,612,243,627"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000031_000033.html" title="3" alt="" coords="267,516,276,531"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000068_000031.html" title="1" alt="" coords="302,411,311,425"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000068_000037.html" title="25" alt="" coords="269,626,287,641"/>
+<area shape="rect" id="edge15-headlabel" href="dir_000068_000033.html" title="4" alt="" coords="297,527,306,541"/>
+<area shape="rect" id="edge16-headlabel" href="dir_000037_000068.html" title="1" alt="" coords="347,505,356,520"/>
+<area shape="rect" id="edge17-headlabel" href="dir_000037_000033.html" title="20" alt="" coords="247,598,264,613"/>
+<area shape="rect" id="edge23-headlabel" href="dir_000033_000031.html" title="1" alt="" coords="265,410,275,425"/>
+<area shape="rect" id="edge24-headlabel" href="dir_000033_000068.html" title="2" alt="" coords="320,496,329,511"/>
+<area shape="rect" id="edge25-headlabel" href="dir_000033_000037.html" title="19" alt="" coords="240,617,257,631"/>
+<area shape="rect" id="clust2" href="dir_9218cfc7b104cb41a6aa9cf00c400bad.html" alt="" coords="31,52,201,409"/>
+<area shape="rect" id="clust1" href="dir_6120b5b067bc81dd9b9ded47874ed490.html" title="mdns" alt="" coords="20,16,212,420"/>
+</map>

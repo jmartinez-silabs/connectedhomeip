@@ -1,0 +1,7 @@
+<map id="chip::ChipKeyId::ConvertToStaticAppKeyId" name="chip::ChipKeyId::ConvertToStaticAppKeyId">
+<area shape="rect" id="node1" title="Convert application key ID to application static key ID." alt="" coords="5,71,187,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#a244655bc15d1c41590ba1cefada01a5a" title="Get application group master key ID that was used to derive specified application key." alt="" coords="235,5,452,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_key_id.html#ac8f7304c6afbc5f209a58db04c2956a3" title="Get application group root key ID that was used to derive specified application key." alt="" coords="252,71,435,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_chip_key_id.html#a9f77e03cfe6243a15ea4ac4d0663082a" title="Construct application static key ID given constituent key IDs." alt="" coords="248,136,439,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_chip_key_id.html#a345d556646b6a40c8cd837baf1bf795e" title="Construct application group key ID given constituent key IDs and other information." alt="" coords="500,136,691,177"/>
+</map>

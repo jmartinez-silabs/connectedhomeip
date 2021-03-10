@@ -1,0 +1,11 @@
+<map id="chip.ChipCluster.ChipCluster.ClusterBarrierControl_CommandBarrierControlGoToPercent" name="chip.ChipCluster.ChipCluster.ClusterBarrierControl_CommandBarrierControlGoToPercent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,79,283,135"/>
+<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#ade8ec72db151f0e9dd45feeaac0c565b" title=" " alt="" coords="331,79,549,135"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_cluster_base.html#a8394ee44c584199389891a9b66a04d1c" title=" " alt="" coords="617,49,792,90"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_barrier_control_cluster.html#acb901c3d743ffc5cef502929548dba4c" title=" " alt="" coords="597,115,812,171"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_t_l_v.html#a1cce8b65c58e738964d3dc935e94af37" title="Generates the API representation for of context&#45;specific TLV tag." alt="" coords="879,5,1039,32"/>
+<area shape="rect" id="node6" href="$classchip_1_1_controller_1_1_device.html#acd5827eb0d9b94083b9002c18fb2088f" title=" " alt="" coords="872,57,1047,98"/>
+<area shape="rect" id="node7" href="$classchip_1_1_controller_1_1_device.html#a5bb0f9c5991f2c0367685c7f15ac6603" title=" " alt="" coords="860,122,1059,163"/>
+<area shape="rect" id="node8" href="$classchip_1_1_controller_1_1_cluster_base.html#a12319adc56ada2f3a0f9b5c877b20cb6" title="Send the command, contained into the associate buffer, to the device." alt="" coords="872,187,1047,229"/>
+<area shape="rect" id="node9" href="$classchip_1_1_controller_1_1_device.html#a831fd9089dfb26d9e92d7bae6e632311" title="Send the command in internal command sender." alt="" coords="872,253,1047,294"/>
+</map>

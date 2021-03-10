@@ -1,0 +1,5 @@
+<map id="chip::generateQRCodeFromFilePath" name="chip::generateQRCodeFromFilePath">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,205,69"/>
+<area shape="rect" id="node2" href="$namespacechip.html#a1b1bdd9e039b9aab5ebcfcc053880074" title=" " alt="" coords="305,5,497,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_q_r_code_setup_payload_generator.html#ae4273ace72fdff5988258c8fd82537af" title="This function is called to encode the binary data of a payload to a base41 string using CHIP TLV enco..." alt="" coords="253,57,548,98"/>
+</map>

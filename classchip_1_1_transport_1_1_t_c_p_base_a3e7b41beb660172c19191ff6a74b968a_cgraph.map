@@ -1,0 +1,7 @@
+<map id="chip::Transport::TCPBase::CloseActiveConnections" name="chip::Transport::TCPBase::CloseActiveConnections">
+<area shape="rect" id="node1" title="Close all active connections." alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="240,71,411,112"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a466f759d4ce1e8f138251e601ace2db9" title="Abortively close the endpoint, in other words, send RST packets." alt="" coords="459,5,629,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#aee8c2f99ac6edd912e5d31692311277a" title="Initiate TCP full close, in other words, finished with both send and receive." alt="" coords="459,71,629,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_object.html#a5bca5532b82608d71356ffe6dfd7da54" title="Decrements the reference count for the CHIP System Layer object." alt="" coords="466,136,622,177"/>
+</map>

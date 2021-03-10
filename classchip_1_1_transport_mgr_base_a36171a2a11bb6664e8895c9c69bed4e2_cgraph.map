@@ -1,0 +1,4 @@
+<map id="chip::TransportMgrBase::Disconnect" name="chip::TransportMgrBase::Disconnect">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_transport_1_1_base.html#a62ff44130d1f5838aa23bfae3a4ab6eb" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="228,5,385,47"/>
+</map>

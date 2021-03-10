@@ -1,0 +1,8 @@
+<map id="chip::Crypto::CapacityBoundBuffer::Capacity" name="chip::Crypto::CapacityBoundBuffer::Capacity">
+<area shape="rect" id="node1" title="Returns max capacity of the buffer." alt="" coords="441,104,648,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_crypto_1_1_p256_keypair.html#a6972c885afcbd406dd4ee1409bda3d46" title="A function to derive a shared secret using ECDH." alt="" coords="204,5,393,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_crypto_1_1_p256_keypair.html#a44aa7cfb4c3cfc231e1644b5721f05c0" title="A function to sign a hash using ECDSA." alt="" coords="204,71,393,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_crypto_1_1_p256_keypair.html#a3ea268871e847ad18c011154e2883a87" title="A function to sign a msg using ECDSA." alt="" coords="204,136,393,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_crypto_1_1_p256_keypair.html#a02cdb4116fff4fc097ad0f5a6ee89e47" title="Serialize the keypair." alt="" coords="204,201,393,243"/>
+<area shape="rect" id="node3" href="$classchip_1_1_secure_session.html#a6031c3231a64f433daebe905279aab5e" title="Derive a shared key." alt="" coords="5,5,156,47"/>
+</map>

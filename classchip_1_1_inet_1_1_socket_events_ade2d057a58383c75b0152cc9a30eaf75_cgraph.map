@@ -1,0 +1,7 @@
+<map id="chip::Inet::SocketEvents::SetFDs" name="chip::Inet::SocketEvents::SetFDs">
+<area shape="rect" id="node1" title="Sets the bit for the specified file descriptor in the given sets of file descriptors." alt="" coords="5,104,183,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_socket_events.html#ad414de5e3cbe2df1f7b9f0511fe93dd3" title="Check if the bit flags indicate that the socket has an error." alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_socket_events.html#a9f543b32488131218598d6384c5b3f1b" title="Check if the bit flags indicate that the socket is readable." alt="" coords="231,71,408,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_socket_events.html#a99e7ddc8857eaadfd7174be39b5e219a" title="Check if any of the bit flags for the socket events are set." alt="" coords="231,136,408,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_socket_events.html#a68f998fc56eadf2a6e68516e284239d3" title="Check if the bit flags indicate that the socket is writable." alt="" coords="231,201,408,243"/>
+</map>

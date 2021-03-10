@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::IsValidKeyId" name="chip::ChipKeyId::IsValidKeyId">
+<area shape="rect" id="node1" title="Determine whether key identifier has valid (legal) value." alt="" coords="5,5,179,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#abca0f855eb71f6539e7312ac33b586db" title="Get CHIP key type of the specified key ID." alt="" coords="227,13,409,39"/>
+</map>

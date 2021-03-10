@@ -1,0 +1,6 @@
+<map id="mdns::Minimal::SerializedQNameIterator::FindDataEnd" name="mdns::Minimal::SerializedQNameIterator::FindDataEnd">
+<area shape="rect" id="node1" title="Get the end of the sequence without following any backwards pointers." alt="" coords="5,71,215,112"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_bytes_range.html#a3e5dfd8be245f27477cc35e3559477c1" title=" " alt="" coords="263,5,468,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#abbc006cad9248016fa6967340ad2ac7c" title="Find out if the data parsing is ok." alt="" coords="270,71,461,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_serialized_q_name_iterator.html#a6bf07bdf57579d2bb36362da941ab679" title="Advances to the next element in the sequence Returns true if new data was available." alt="" coords="270,136,461,177"/>
+</map>

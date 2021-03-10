@@ -1,0 +1,4 @@
+<map id="chip::SecureSession::InitFromSecret" name="chip::SecureSession::InitFromSecret">
+<area shape="rect" id="node1" title="Derive a shared key." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_crypto.html#a312c90d8dc3230e723ddbbe427307a21" title="A function that implements SHA&#45;256 based HKDF." alt="" coords="204,5,349,47"/>
+</map>

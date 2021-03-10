@@ -1,0 +1,4 @@
+<map id="chip::EncryptedPacketBufferHandle" name="chip::EncryptedPacketBufferHandle">
+<area shape="rect" id="node1" title="Tracks ownership of a encrypted packet buffer." alt="" coords="5,95,208,136"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html" title="Tracks ownership of a PacketBuffer." alt="" coords="9,5,204,47"/>
+</map>

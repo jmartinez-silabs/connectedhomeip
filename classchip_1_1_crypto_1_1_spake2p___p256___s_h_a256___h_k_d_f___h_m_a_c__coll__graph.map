@@ -1,0 +1,4 @@
+<map id="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC" name="chip::Crypto::Spake2p_P256_SHA256_HKDF_HMAC">
+<area shape="rect" id="node1" title=" " alt="" coords="5,80,216,121"/>
+<area shape="rect" id="node2" href="$classchip_1_1_crypto_1_1_spake2p.html" title="The below class implements the draft 01 version of the Spake2+ protocol as defined in https://www...." alt="" coords="29,5,192,32"/>
+</map>

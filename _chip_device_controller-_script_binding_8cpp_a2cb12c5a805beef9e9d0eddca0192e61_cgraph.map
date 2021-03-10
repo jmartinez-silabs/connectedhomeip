@@ -1,0 +1,9 @@
+<map id="pychip_DeviceController_GetAddressAndPort" name="pychip_DeviceController_GetAddressAndPort">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,187,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_device.html#a082fcc4b306c12a7d730b4b4df914531" title="Get the IP address and port assigned to the device." alt="" coords="235,5,409,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_device_controller.html#a54e09ebc0cc8759b93202eee858d087a" title="This function deserializes the provided deviceInfo object, and initializes and outputs the correspond..." alt="" coords="235,71,409,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_device.html#a25dc99776841306d50148fa4211bdaa4" title="Deserialize the Pairing Session from the string." alt="" coords="457,37,632,79"/>
+<area shape="rect" id="node7" href="$classchip_1_1_controller_1_1_device.html#a8967296bfe8d2b308065bffcc3cc388b" title="Initialize the device object with secure session manager and inet layer object references." alt="" coords="457,103,632,144"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_uint8.html#a0e64ddea2c68a00048588fb1082a032a" title="Safely typecast a pointer to const uint8_t to char." alt="" coords="680,45,871,71"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_crypto.html#a7839660c978cd3df1db89b8f720daf35" title=" " alt="" coords="919,37,1083,79"/>
+</map>

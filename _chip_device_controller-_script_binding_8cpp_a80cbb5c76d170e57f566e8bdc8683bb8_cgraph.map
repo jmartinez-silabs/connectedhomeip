@@ -1,0 +1,6 @@
+<map id="pychip_DeviceAddressUpdater_Delete" name="pychip_DeviceAddressUpdater_Delete">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,227,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_resolver.html#aa88b0363ef10176ec51a0d3e62eab88f" title="Provides the system&#45;wide implementation of the service resolver." alt="" coords="279,5,437,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_resolver.html#a7dcc15c51aaa58858f20020dba104acd" title="Registers a resolver delegate if none has been registered before." alt="" coords="275,71,441,112"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a19d5a9174437b347f9bc0ef9af58bc67" title=" " alt="" coords="489,5,684,47"/>
+</map>

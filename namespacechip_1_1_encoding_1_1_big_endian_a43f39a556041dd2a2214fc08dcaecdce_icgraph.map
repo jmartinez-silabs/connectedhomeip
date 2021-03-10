@@ -1,0 +1,8 @@
+<map id="chip::Encoding::BigEndian::Read16" name="chip::Encoding::BigEndian::Read16">
+<area shape="rect" id="node1" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 16&#45;bit value from the sp..." alt="" coords="524,104,713,145"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_data.html#a106e1e3201e9f4b58d0a38115198973e" title="Parses a query structure." alt="" coords="268,5,465,47"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_srv_record.html#a0da6828c6f1c1f4d71534a81ed0174c2" title="Parses a SRV record within [data]." alt="" coords="270,71,463,112"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_resource_data.html#a98f2bd6ef9ecf3ddbbc974d01d3252a8" title="Parses a resource data structure." alt="" coords="257,136,476,177"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_encoding_1_1_big_endian.html#a8b9376a9b8fbf71e986702021e2a2d30" title="Perform a, potentially unaligned, memory read of the big endian byte ordered 16&#45;bit value from the sp..." alt="" coords="272,201,461,243"/>
+<area shape="rect" id="node3" href="$namespacemdns_1_1_minimal.html#aa2ec27a27a315460f9520cf8433055d3" title="Parses a mMDNS packet." alt="" coords="5,78,209,105"/>
+</map>

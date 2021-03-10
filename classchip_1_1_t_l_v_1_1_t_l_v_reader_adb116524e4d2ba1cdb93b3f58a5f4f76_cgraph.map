@@ -1,0 +1,4 @@
+<map id="chip::TLV::TLVReader::SkipData" name="chip::TLV::TLVReader::SkipData">
+<area shape="rect" id="node1" title="Skip any data contained in the current TLV by reading over it without a destination buffer." alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_t_l_v.html#a9a85019b17584b4323b8b7d3500674ec" title="Returns true if the specified TLV type implies the presence of an associated length field." alt="" coords="209,13,419,39"/>
+</map>

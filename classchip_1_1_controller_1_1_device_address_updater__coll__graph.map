@@ -1,0 +1,4 @@
+<map id="chip::Controller::DeviceAddressUpdater" name="chip::Controller::DeviceAddressUpdater">
+<area shape="rect" id="node1" title="Class for updating CHIP devices&#39; addresses based on responses from mDNS Resolver." alt="" coords="26,80,201,121"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_resolver_delegate.html" title="Groups callbacks for CHIP service resolution requests." alt="" coords="5,5,221,32"/>
+</map>

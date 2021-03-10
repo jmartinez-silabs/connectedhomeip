@@ -1,0 +1,6 @@
+<map id="platformUartSignal" name="platformUartSignal">
+<area shape="rect" id="node1" title="Glue function called by UART processing layer to notify OpenThread the driver needs processing." alt="" coords="5,65,152,91"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#a70ad007cae07b411ea15d5352527bac4" title=" " alt="" coords="200,13,389,69"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_device_layer.html#a7ab1b3e5bc95785294e398fa15b0d0d3" title="Returns the platform&#45;specific implementation of the ThreadStackManager singleton object." alt="" coords="216,93,373,135"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___free_r_t_o_s.html#ade41c528a7a765557648771ffeff6db9" title=" " alt="" coords="437,5,809,76"/>
+</map>

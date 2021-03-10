@@ -1,0 +1,4 @@
+<map id="mdns::Minimal::QueryResponderRecord" name="mdns::Minimal::QueryResponderRecord">
+<area shape="rect" id="node1" title="Represents available data (replies) for mDNS queries." alt="" coords="5,5,240,47"/>
+<area shape="rect" id="node2" href="$structmdns_1_1_minimal_1_1_internal_1_1_query_responder_info.html" title="Internal information for query responder records." alt="" coords="34,95,211,136"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="chip::System::TLVPacketBufferBackingStore::GetNewBuffer" name="chip::System::TLVPacketBufferBackingStore::GetNewBuffer">
+<area shape="rect" id="node1" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="5,201,224,243"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#ac11c699a8ec904363af2af0d4cd46014" title="Add the given packet buffer to the end of the buffer chain, adjusting the total length of each buffer..." alt="" coords="272,5,467,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a0f6cc43082a435111fbeef7405387074" title="Advance this PacketBufferHandle to the next buffer in a chain." alt="" coords="272,71,467,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a63e13c201b8c13dc611111e3ec3612da" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="272,136,467,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="272,201,467,243"/>
+<area shape="rect" id="node7" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="272,267,467,308"/>
+<area shape="rect" id="node10" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#af660c0bd3d2154b16f0eb73da5daa235" title="Get a new handle to an existing buffer." alt="" coords="272,332,467,373"/>
+<area shape="rect" id="node11" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="272,397,467,439"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="521,201,715,243"/>
+<area shape="rect" id="node8" href="$namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="515,271,721,298"/>
+<area shape="rect" id="node9" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a14279153678fbc4c48e95ba4b8e96856" title="Construct an empty PacketBufferHandle." alt="" coords="517,323,719,364"/>
+</map>

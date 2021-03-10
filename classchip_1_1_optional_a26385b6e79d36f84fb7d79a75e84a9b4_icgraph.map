@@ -1,0 +1,7 @@
+<map id="chip::Optional::ClearValue" name="chip::Optional::ClearValue">
+<area shape="rect" id="node1" title="Invalidate the value inside the optional." alt="" coords="239,111,429,138"/>
+<area shape="rect" id="node2" href="$classchip_1_1_packet_header.html#af75ed2fd8424e3c528b3b8eb10d0cd30" title=" " alt="" coords="5,5,191,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_packet_header.html#acb45655f6439e69470c19a5d319228fd" title=" " alt="" coords="21,71,175,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_payload_header.html#ad2b9b11f293531578cde4a11d61f2e3d" title="Clear the vendor id for this header." alt="" coords="21,136,175,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_optional.html#add5593c97f3c898d5e53b7ca71410cbd" title="Assignment operator implementation." alt="" coords="11,201,185,243"/>
+</map>

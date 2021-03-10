@@ -1,0 +1,6 @@
+<map id="pychip_DeviceController_ConnectBLE" name="pychip_DeviceController_ConnectBLE">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_device_commissioner.html#aa92108d488c7f055b407bddb9abde494" title="Pair a CHIP device with the provided Rendezvous connection parameters." alt="" coords="235,5,428,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_peer_address.html#a29887d5a38a4e7cf65d48925fc8404ec" title=" " alt="" coords="476,13,719,39"/>
+<area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_peer_address.html#ac8fcd6c441f24d1594d2a589178dd1d8" title=" " alt="" coords="767,5,973,47"/>
+</map>

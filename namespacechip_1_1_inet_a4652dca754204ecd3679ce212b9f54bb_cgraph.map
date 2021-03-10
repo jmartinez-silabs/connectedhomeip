@@ -1,0 +1,5 @@
+<map id="chip::Inet::SocketsIPv4JoinLeaveMulticastGroup" name="chip::Inet::SocketsIPv4JoinLeaveMulticastGroup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,197,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_interface_address_iterator.html#a0abbabab4244a15191a0f7396af38b56" title=" " alt="" coords="245,5,445,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1" title="Test whether address is IPv4 compatible." alt="" coords="269,71,422,112"/>
+</map>

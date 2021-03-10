@@ -1,0 +1,13 @@
+<map id="chip::Callback::Cancelable::Cancel" name="chip::Callback::Cancelable::Cancel">
+<area shape="rect" id="node1" title="run whatever function the callee/registrar has specified in order to clean up any resource allocation..." alt="" coords="869,127,1063,168"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_callback.html#a30a6f6aeb0456fbc6a9d1c66c4d91e6f" title="Cancel, i.e." alt="" coords="636,61,813,103"/>
+<area shape="rect" id="node7" href="$classchip_1_1_callback_1_1_callback_deque.html#ad13108d88dce7d0d8f240d0698a96dae" title="insert the node in a the list at a specific point" alt="" coords="636,127,813,168"/>
+<area shape="rect" id="node11" href="$classchip_1_1_callback_1_1_cancelable.html#a9eee546027ce2d20a907b36e88193c38" title=" " alt="" coords="628,192,821,233"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_layer.html#aa6cb2f68eb14a510eb6a2197a53b6042" title="Run any timers that are due based on input current time." alt="" coords="392,5,580,47"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_layer.html#acdfa234a097e97625e67894292fa648a" title="This method starts a one&#45;shot timer." alt="" coords="180,96,331,137"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_layer.html#a051e191795a9fab9b311957659733076" title="Handle I/O from a select call." alt="" coords="177,5,334,47"/>
+<area shape="rect" id="node5" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2d24b8806b75aeb1b49b95919f4ea747" title=" " alt="" coords="5,13,119,39"/>
+<area shape="rect" id="node8" href="$classchip_1_1_callback_1_1_callback_deque.html#aa91372338d876dcaad98a7b64f4109b0" title="appends with overridden cancel function, in case the list change requires some other state update." alt="" coords="397,123,575,164"/>
+<area shape="rect" id="node9" href="$classchip_1_1_callback_1_1_callback_deque.html#a741a7818252ccb5ffd7da9a936f6e13f" title="insert the node in a queue in order, sorted by &quot;sortby(a, b)&quot; sortby(a, b) should return 1 if a &gt; b,..." alt="" coords="397,188,575,229"/>
+<area shape="rect" id="node10" href="$classchip_1_1_callback_1_1_callback_deque.html#a9b88769313808ee4ea115220d8630d73" title=" " alt="" coords="167,188,344,229"/>
+</map>

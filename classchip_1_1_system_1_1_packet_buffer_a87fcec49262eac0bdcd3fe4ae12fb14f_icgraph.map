@@ -1,0 +1,16 @@
+<map id="chip::System::PacketBuffer::AvailableDataLength" name="chip::System::PacketBuffer::AvailableDataLength">
+<area shape="rect" id="node1" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="573,300,768,341"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_builder.html#ab47fea6c4dfffb6b7cb000e2460ae0f1" title=" " alt="" coords="301,5,513,47"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_response_builder.html#ab8a852699ac1f617737b132262d5b81b" title=" " alt="" coords="289,71,525,112"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_response_builder.html#aa5d64c2a45ecec7183482fabf88e5e1f" title="Attempts to add a record to the currentsystem packet buffer." alt="" coords="289,136,525,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_packet_buffer.html#a8e0d719e7c335c310a720b79750fc6f3" title="Move data from subsequent buffers in the chain into the current buffer until it is full." alt="" coords="310,201,505,243"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="308,267,507,308"/>
+<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="310,332,505,373"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_message_packet_buffer.html#a57ab444fb6655dfb0732981770abe298" title="Check whether a packet buffer has enough space for a message footer." alt="" coords="309,397,505,439"/>
+<area shape="rect" id="node10" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#ac5e10c9865512ce7baecc61498eb38dc" title="A function to provide a backing store&#39;s initial start position and data length to a writer." alt="" coords="298,463,517,504"/>
+<area shape="rect" id="node11" href="$classmdns_1_1_minimal_1_1_query_builder.html#a2d26a9ac925bf0d6130217d53b0fe275" title=" " alt="" coords="301,528,513,569"/>
+<area shape="rect" id="node13" href="$classmdns_1_1_minimal_1_1_response_builder.html#acbdd1349115c49d41796f46aa3cfd291" title=" " alt="" coords="289,593,525,635"/>
+<area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="6,136,241,177"/>
+<area shape="rect" id="node12" href="$classmdns_1_1_minimal_1_1_query_builder.html#a3468696909738676782107711e5f56db" title=" " alt="" coords="17,528,229,569"/>
+<area shape="rect" id="node14" href="$classmdns_1_1_minimal_1_1_response_builder.html#a489ba85fc7cb69c05be75a807df29f63" title=" " alt="" coords="5,593,241,635"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::DeviceLayer::PlatformManager::RunEventLoop" name="chip::DeviceLayer::PlatformManager::RunEventLoop">
+<area shape="rect" id="node1" title=" " alt="" coords="228,5,464,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_system_1_1_platform_1_1_layer.html#a2bee848624d7ca2b509fa2f85c01b623" title="This is a platform&#45;specific event / message dispatch hook." alt="" coords="5,5,180,47"/>
+</map>

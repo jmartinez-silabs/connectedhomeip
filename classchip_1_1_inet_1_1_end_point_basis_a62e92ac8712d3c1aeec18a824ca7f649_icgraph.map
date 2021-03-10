@@ -1,0 +1,4 @@
+<map id="chip::Inet::EndPointBasis::IsSocketsEndPoint" name="chip::Inet::EndPointBasis::IsSocketsEndPoint">
+<area shape="rect" id="node1" title="Test whether endpoint is a POSIX socket." alt="" coords="236,5,419,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_end_point_basis.html#aed6fdfbb12669a60271eee6c4df7ed4e" title="Test whether endpoint has a valid descriptor." alt="" coords="5,5,188,47"/>
+</map>
