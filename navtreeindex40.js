@@ -1,11 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae17bcd28deaac5e0978f6a5dd79bcb63":[11,0,7,10,4,1,16],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae515e7e56bf33c0e250ba89fe6c26c69":[11,0,7,10,4,1,5],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae92013c68d6cb1f0bc0304ba142b83d0":[11,0,7,10,4,1,15],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aee1cf5c6fa9e2b577999480ad6bddeb5":[11,0,7,10,4,1,10],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aef856bfbd7c3beee7c1406ceb0e0da2c":[11,0,7,10,4,1,6],
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59afa8e12b1883216e4c8d7a98b5dbb3706":[11,0,7,10,4,1,2],
 "qpg6100_2_c_h_i_p_device_platform_event_8h_source.html":[11,0,7,10,4],
 "qpg6100_2_c_h_i_p_platform_config_8h.html":[11,0,7,10,5],
 "qpg6100_2_c_h_i_p_platform_config_8h.html#a044568a3a1869d82f844bb3ae592908d":[11,0,7,10,5,44],
@@ -249,5 +243,11 @@ var NAVTREEINDEX40 =
 "structchip_1_1_ble_1_1_chip_ble_u_u_i_d.html#a3a0b89b6b6bdee0cc0cb21681a35af97":[10,0,1,1,11,0],
 "structchip_1_1_controller_1_1_serializable_device.html":[10,0,1,11,29],
 "structchip_1_1_controller_1_1_serializable_device.html#a1d9533653cb124beef076e2495339381":[10,0,1,11,29,2],
-"structchip_1_1_controller_1_1_serializable_device.html#a2d10cd6bcf8a01984722f13eb252948b":[10,0,1,11,29,0]
+"structchip_1_1_controller_1_1_serializable_device.html#a2d10cd6bcf8a01984722f13eb252948b":[10,0,1,11,29,0],
+"structchip_1_1_controller_1_1_serializable_device.html#a3790c7b4bbe200c6c65d9b7e7a52a201":[10,0,1,11,29,5],
+"structchip_1_1_controller_1_1_serializable_device.html#a8c2c81b34827d51ad38863eef74a688a":[10,0,1,11,29,3],
+"structchip_1_1_controller_1_1_serializable_device.html#abb7496b0b806fc2064fc142458922114":[10,0,1,11,29,1],
+"structchip_1_1_controller_1_1_serializable_device.html#ae96e9850edf75935fca19ba703f37f87":[10,0,1,11,29,4],
+"structchip_1_1_controller_1_1_serialized_device.html":[10,0,1,11,30],
+"structchip_1_1_controller_1_1_serialized_device.html#ae39a74a571db639ffbf4bbdb8ae0caec":[10,0,1,11,30,0]
 };

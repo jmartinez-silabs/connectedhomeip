@@ -1,7 +1,6 @@
 var classchip_1_1_device_layer_1_1_connectivity_manager =
 [
     [ "ThreadPollingConfig", "structchip_1_1_device_layer_1_1_connectivity_manager_1_1_thread_polling_config.html", "structchip_1_1_device_layer_1_1_connectivity_manager_1_1_thread_polling_config" ],
-    [ "BleConnectionReceivedFunct", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a13156c62c3e4ed47123e2bd5f857fe0e", null ],
     [ "CHIPoBLEServiceMode", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af", [
       [ "kCHIPoBLEServiceMode_NotSupported", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268afa97351cce261cc9bb9ed68804d32316a8", null ],
       [ "kCHIPoBLEServiceMode_Enabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268afabf2e0bb19c1c97914ae7a14bfda8994d", null ],
@@ -52,7 +51,6 @@ var classchip_1_1_device_layer_1_1_connectivity_manager =
     [ "~ConnectivityManager", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a6d6d2cd50fc790669993cb13ba725e03", null ],
     [ "ConnectivityManager", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a3ff78d454af0be515aadc42115957239", null ],
     [ "ConnectivityManager", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a687eeabb790ba7fbcf87c10ed2fd7011", null ],
-    [ "AddCHIPoBLEConnectionHandler", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a1a9566404b8c08fa35ba27fe80d87e84", null ],
     [ "CHIPoBLEServiceModeToStr", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a1b29d4f3c8962c58f7b5b673dfe2f697", null ],
     [ "ClearWiFiStationProvision", "classchip_1_1_device_layer_1_1_connectivity_manager.html#acc47309711b79a797c02933209b8da2b", null ],
     [ "DemandStartWiFiAP", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a14e7fed53e726d148cd8c370c68770b6", null ],
@@ -90,7 +88,6 @@ var classchip_1_1_device_layer_1_1_connectivity_manager =
     [ "MaintainOnDemandWiFiAP", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a7503a58bb2eda03df9cc13191dfa8b7d", null ],
     [ "NumBLEConnections", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a6b36dc7d6421afc6743020a20f76df2d", null ],
     [ "operator=", "classchip_1_1_device_layer_1_1_connectivity_manager.html#acb3dc6a9c003032b080e63a97efd3487", null ],
-    [ "RemoveCHIPoBLEConnectionHandler", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a771047e787bd0f3f2dc870446e94b124", null ],
     [ "SetBLEAdvertisingEnabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a2f50ad9f26bbf4353f1c62a04cb1377a", null ],
     [ "SetBLEDeviceName", "classchip_1_1_device_layer_1_1_connectivity_manager.html#abeb325cda71eda3f4e514fcbb28290f6", null ],
     [ "SetBLEFastAdvertisingEnabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a0b53dcd58909adb59c6f1d441b96b15e", null ],

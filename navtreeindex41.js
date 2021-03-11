@@ -1,11 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"structchip_1_1_controller_1_1_serializable_device.html#a3790c7b4bbe200c6c65d9b7e7a52a201":[10,0,1,11,29,5],
-"structchip_1_1_controller_1_1_serializable_device.html#a8c2c81b34827d51ad38863eef74a688a":[10,0,1,11,29,3],
-"structchip_1_1_controller_1_1_serializable_device.html#abb7496b0b806fc2064fc142458922114":[10,0,1,11,29,1],
-"structchip_1_1_controller_1_1_serializable_device.html#ae96e9850edf75935fca19ba703f37f87":[10,0,1,11,29,4],
-"structchip_1_1_controller_1_1_serialized_device.html":[10,0,1,11,30],
-"structchip_1_1_controller_1_1_serialized_device.html#ae39a74a571db639ffbf4bbdb8ae0caec":[10,0,1,11,30,0],
 "structchip_1_1_crypto_1_1_entropy_context.html":[10,0,1,12,3],
 "structchip_1_1_crypto_1_1_entropy_context.html#a6c45107c6d9d823f02d91c9583abc97a":[10,0,1,12,3,2],
 "structchip_1_1_crypto_1_1_entropy_context.html#aafe492e18fec07a3aa81c27efaa00c99":[10,0,1,12,3,0],
@@ -249,5 +243,11 @@ var NAVTREEINDEX41 =
 "structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html":[10,0,1,32,1,1],
 "structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#a6d2ecea0571177846ed277801b558e5e":[10,0,1,32,1,1,2],
 "structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#aa8c4c890bc4fcaa1b350c418ebd4b73f":[10,0,1,32,1,1,0],
-"structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#acbfe7c7fe16cd686fdaff675dee8f805":[10,0,1,32,1,1,1]
+"structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#acbfe7c7fe16cd686fdaff675dee8f805":[10,0,1,32,1,1,1],
+"structchip_1_1_t_l_v_1_1_utilities_1_1_find_predicate_context.html#adbc4f4108ccad3e10b8ee82bc04581c2":[10,0,1,32,1,1,3],
+"structchip_1_1_transport_1_1_access_control_list.html":[10,0,1,34,0],
+"structchip_1_1_transport_1_1_access_control_list.html#a641b33b2659dbd8e3484de0f113e07c6":[10,0,1,34,0,0],
+"structchip_1_1_transport_1_1_operational_credentials.html":[10,0,1,34,6],
+"structchip_1_1_transport_1_1_operational_credentials.html#a0bce98b10be6c3feaa093db263834ccc":[10,0,1,34,6,0],
+"structchip_1_1_transport_1_1_pending_packet.html":[10,0,1,34,10]
 };

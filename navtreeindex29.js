@@ -1,12 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classchip_1_1_inet_1_1_i_p_address.html#ae368f6be5b32ae885a0fedbd1016d77d":[10,0,1,18,7,41],
-"classchip_1_1_inet_1_1_i_p_address.html#ae4fcb4c5b36e14b3b3e97f748dd7b74d":[10,0,1,18,7,16],
-"classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1":[10,0,1,18,7,11],
-"classchip_1_1_inet_1_1_i_p_address.html#af22653b0ee7cbece8ddbae2a68237d99":[10,0,1,18,7,3],
-"classchip_1_1_inet_1_1_i_p_address.html#af5d9a5b0c768886aeade1b0f5895cac9":[10,0,1,18,7,42],
-"classchip_1_1_inet_1_1_i_p_address.html#af86c332e12596db51af53ff59da71211":[10,0,1,18,7,21],
-"classchip_1_1_inet_1_1_i_p_address.html#af9217e8c82fe6c07195b9ab51d3409bf":[10,0,1,18,7,8],
 "classchip_1_1_inet_1_1_i_p_address.html#af93d52e38ad9a9f30f731f331be1711b":[10,0,1,18,7,24],
 "classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a":[10,0,1,18,7,39],
 "classchip_1_1_inet_1_1_i_p_end_point_basis.html":[10,0,1,18,8],
@@ -249,5 +242,12 @@ var NAVTREEINDEX29 =
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9519fa8a8d9da6c80c34b893279c4f55":[10,0,1,22,2,6],
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c":[10,0,1,22,2,5],
 "classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9fe46e764b4f6ddcfe99ff1436f741ea":[10,0,1,22,2,1],
-"classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded":[10,0,1,22,2,0]
+"classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded":[10,0,1,22,2,0],
+"classchip_1_1_mdns_1_1_discovery_impl_platform.html#acd1bdeb67c3955f0a4fd771ac9d9daf8":[10,0,1,22,2,4],
+"classchip_1_1_mdns_1_1_mdns_avahi.html":[10,0,1,22,3],
+"classchip_1_1_mdns_1_1_mdns_avahi.html#a0804f2c4a879accea023c290bc5ed6d1":[10,0,1,22,3,4],
+"classchip_1_1_mdns_1_1_mdns_avahi.html#a31e54633962a40be616ec257fd531357":[10,0,1,22,3,6],
+"classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70":[10,0,1,22,3,8],
+"classchip_1_1_mdns_1_1_mdns_avahi.html#a6006f00568ade08350d65d7bf8a8a72a":[10,0,1,22,3,7],
+"classchip_1_1_mdns_1_1_mdns_avahi.html#a68647bb2a96a93c4b8f9025dae586488":[10,0,1,22,3,3]
 };

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">73f3d5b</span>
+   &#160;<span id="projectnumber">01c7acb</span>
    </div>
   </td>
  </tr>
@@ -101,10 +101,6 @@ $(document).ready(function(){initNavTree('classchip_1_1_device_layer_1_1_interna
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a26be1cd5425fc23b0834d8ef32e0deb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_ble_1_1_ble_layer.html">Ble::BleLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a26be1cd5425fc23b0834d8ef32e0deb0">_GetBleLayer</a> ()</td></tr>
 <tr class="separator:a26be1cd5425fc23b0834d8ef32e0deb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29c9ad0af65a3dc8f93e813e544a8628"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a29c9ad0af65a3dc8f93e813e544a8628">_AddCHIPoBLEConnectionHandler</a> (<a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a13156c62c3e4ed47123e2bd5f857fe0e">ConnectivityManager::BleConnectionReceivedFunct</a> handler)</td></tr>
-<tr class="separator:a29c9ad0af65a3dc8f93e813e544a8628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefc79dddc0edecb3a0b3b606a24290ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#aefc79dddc0edecb3a0b3b606a24290ca">_RemoveCHIPoBLEConnectionHandler</a> ()</td></tr>
-<tr class="separator:aefc79dddc0edecb3a0b3b606a24290ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f784d9b1c72fa7b074e41fcaea5ceb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af">ConnectivityManager::CHIPoBLEServiceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a3f784d9b1c72fa7b074e41fcaea5ceb5">_GetCHIPoBLEServiceMode</a> ()</td></tr>
 <tr class="separator:a3f784d9b1c72fa7b074e41fcaea5ceb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ba69bab79558efdae2543a741be01c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a4ba69bab79558efdae2543a741be01c6">_SetCHIPoBLEServiceMode</a> (<a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af">ConnectivityManager::CHIPoBLEServiceMode</a> val)</td></tr>
@@ -139,34 +135,6 @@ class chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_BLE&lt; ImplCl
 <p>This class is intended to be inherited (directly or indirectly) by the <a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager_impl.html" title="Concrete implementation of the ConnectivityManager singleton object for the CC13X2_26X2 platforms.">ConnectivityManagerImpl</a> class, which also appears as the template's ImplClass parameter.</p>
 <p>The majority of methods on this class simply forward calls to similarly-named methods on the BLEManager class. This arrangement, where the <a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html" title="Provides control of network connectivity for a chip device.">ConnectivityManager</a> implementation delegates BLE support to the BLEManager class, is standard on platforms that support BLE, and helps to limit the complexity of the <a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager_impl.html" title="Concrete implementation of the ConnectivityManager singleton object for the CC13X2_26X2 platforms.">ConnectivityManagerImpl</a> class. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a29c9ad0af65a3dc8f93e813e544a8628"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29c9ad0af65a3dc8f93e813e544a8628">&#9670;&nbsp;</a></span>_AddCHIPoBLEConnectionHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImplClass &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html">chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_BLE</a>&lt; ImplClass &gt;::_AddCHIPoBLEConnectionHandler </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a13156c62c3e4ed47123e2bd5f857fe0e">ConnectivityManager::BleConnectionReceivedFunct</a>&#160;</td>
-          <td class="paramname"><em>handler</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8328c0712460a5e3584c155cf38c5209"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8328c0712460a5e3584c155cf38c5209">&#9670;&nbsp;</a></span>_CHIPoBLEServiceModeToStr()</h2>
 
@@ -377,30 +345,6 @@ template&lt;class ImplClass &gt; </div>
 
 </div>
 </div>
-<a id="aefc79dddc0edecb3a0b3b606a24290ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefc79dddc0edecb3a0b3b606a24290ca">&#9670;&nbsp;</a></span>_RemoveCHIPoBLEConnectionHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ImplClass &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html">chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_BLE</a>&lt; ImplClass &gt;::_RemoveCHIPoBLEConnectionHandler</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a44ad956a5ca71fc3b4b8c159965b6521"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a44ad956a5ca71fc3b4b8c159965b6521">&#9670;&nbsp;</a></span>_SetBLEAdvertisingEnabled()</h2>
 
@@ -523,7 +467,7 @@ template&lt;class ImplClass &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_device_layer.html">DeviceLayer</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_device_layer_1_1_internal.html">Internal</a></li><li class="navelem"><a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html">GenericConnectivityManagerImpl_BLE</a></li>
-    <li class="footer">Generated on Wed Mar 10 2021 21:28:18 for Connected Home over IP by
+    <li class="footer">Generated on Thu Mar 11 2021 17:19:44 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

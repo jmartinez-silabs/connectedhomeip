@@ -16,5 +16,6 @@ var classchip_1_1_secure_session_mgr =
     [ "SendMessage", "classchip_1_1_secure_session_mgr.html#a142baabc460632900345e0145554969d", null ],
     [ "SetDelegate", "classchip_1_1_secure_session_mgr.html#ae1b26a2de201281656ba45865c3c673b", null ],
     [ "SetLocalNodeID", "classchip_1_1_secure_session_mgr.html#a7544779bcf904b33eacb7422d82cf65b", null ],
+    [ "Shutdown", "classchip_1_1_secure_session_mgr.html#a16abea7ead26e8ec7e9991585b1dce66", null ],
     [ "SystemLayer", "classchip_1_1_secure_session_mgr.html#a2dc3435f19124a4ff95d1ec5f30f78c7", null ]
 ];

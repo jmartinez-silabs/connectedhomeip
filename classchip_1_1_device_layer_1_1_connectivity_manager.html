@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">73f3d5b</span>
+   &#160;<span id="projectnumber">01c7acb</span>
    </div>
   </td>
  </tr>
@@ -203,8 +203,6 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ab3d1f32b512ccabb86bf40a30b769821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13156c62c3e4ed47123e2bd5f857fe0e"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a13156c62c3e4ed47123e2bd5f857fe0e">BleConnectionReceivedFunct</a>) (<a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">Ble::BLEEndPoint</a> *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a7d397493728da2bca8d55b2d61c4ec5d">endpoint</a>)</td></tr>
-<tr class="separator:a13156c62c3e4ed47123e2bd5f857fe0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -278,10 +276,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a06d522e80ca2ea1107cf4a19d0c0d0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a810834e8f952859c906a4a2732105171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_ble_1_1_ble_layer.html">Ble::BleLayer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a810834e8f952859c906a4a2732105171">GetBleLayer</a> ()</td></tr>
 <tr class="separator:a810834e8f952859c906a4a2732105171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a9566404b8c08fa35ba27fe80d87e84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a1a9566404b8c08fa35ba27fe80d87e84">AddCHIPoBLEConnectionHandler</a> (<a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a13156c62c3e4ed47123e2bd5f857fe0e">BleConnectionReceivedFunct</a> handler)</td></tr>
-<tr class="separator:a1a9566404b8c08fa35ba27fe80d87e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a771047e787bd0f3f2dc870446e94b124"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a771047e787bd0f3f2dc870446e94b124">RemoveCHIPoBLEConnectionHandler</a> ()</td></tr>
-<tr class="separator:a771047e787bd0f3f2dc870446e94b124"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fcbef84be893be4f850a8b675fcfbad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af">CHIPoBLEServiceMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a8fcbef84be893be4f850a8b675fcfbad">GetCHIPoBLEServiceMode</a> ()</td></tr>
 <tr class="separator:a8fcbef84be893be4f850a8b675fcfbad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac311bff412be0d8c765200d68a133f97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#ac311bff412be0d8c765200d68a133f97">SetCHIPoBLEServiceMode</a> (<a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af">CHIPoBLEServiceMode</a> val)</td></tr>
@@ -358,22 +352,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Provides control of network connectivity for a chip device. </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a13156c62c3e4ed47123e2bd5f857fe0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13156c62c3e4ed47123e2bd5f857fe0e">&#9670;&nbsp;</a></span>BleConnectionReceivedFunct</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(* chip::DeviceLayer::ConnectivityManager::BleConnectionReceivedFunct) (<a class="el" href="classchip_1_1_ble_1_1_b_l_e_end_point.html">Ble::BLEEndPoint</a> *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a7d397493728da2bca8d55b2d61c4ec5d">endpoint</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a918876d0395f5c4ff1a7ef802ff268af"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a918876d0395f5c4ff1a7ef802ff268af">&#9670;&nbsp;</a></span>CHIPoBLEServiceMode</h2>
 
@@ -622,32 +601,6 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1a9566404b8c08fa35ba27fe80d87e84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a9566404b8c08fa35ba27fe80d87e84">&#9670;&nbsp;</a></span>AddCHIPoBLEConnectionHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void chip::DeviceLayer::ConnectivityManager::AddCHIPoBLEConnectionHandler </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a13156c62c3e4ed47123e2bd5f857fe0e">BleConnectionReceivedFunct</a>&#160;</td>
-          <td class="paramname"><em>handler</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a1b29d4f3c8962c58f7b5b673dfe2f697"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b29d4f3c8962c58f7b5b673dfe2f697">&#9670;&nbsp;</a></span>CHIPoBLEServiceModeToStr()</h2>
 
@@ -1614,31 +1567,6 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a771047e787bd0f3f2dc870446e94b124"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a771047e787bd0f3f2dc870446e94b124">&#9670;&nbsp;</a></span>RemoveCHIPoBLEConnectionHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void chip::DeviceLayer::ConnectivityManager::RemoveCHIPoBLEConnectionHandler </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2f50ad9f26bbf4353f1c62a04cb1377a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f50ad9f26bbf4353f1c62a04cb1377a">&#9670;&nbsp;</a></span>SetBLEAdvertisingEnabled()</h2>
 
@@ -2301,7 +2229,7 @@ template&lt;class &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_device_layer.html">DeviceLayer</a></li><li class="navelem"><a class="el" href="classchip_1_1_device_layer_1_1_connectivity_manager.html">ConnectivityManager</a></li>
-    <li class="footer">Generated on Wed Mar 10 2021 21:28:18 for Connected Home over IP by
+    <li class="footer">Generated on Thu Mar 11 2021 17:19:44 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

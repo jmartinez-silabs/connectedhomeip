@@ -1,12 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"classchip_1_1_mdns_1_1_discovery_impl_platform.html#acd1bdeb67c3955f0a4fd771ac9d9daf8":[10,0,1,22,2,4],
-"classchip_1_1_mdns_1_1_mdns_avahi.html":[10,0,1,22,3],
-"classchip_1_1_mdns_1_1_mdns_avahi.html#a0804f2c4a879accea023c290bc5ed6d1":[10,0,1,22,3,4],
-"classchip_1_1_mdns_1_1_mdns_avahi.html#a31e54633962a40be616ec257fd531357":[10,0,1,22,3,6],
-"classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70":[10,0,1,22,3,8],
-"classchip_1_1_mdns_1_1_mdns_avahi.html#a6006f00568ade08350d65d7bf8a8a72a":[10,0,1,22,3,7],
-"classchip_1_1_mdns_1_1_mdns_avahi.html#a68647bb2a96a93c4b8f9025dae586488":[10,0,1,22,3,3],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#a71001854bdfa1163035ea9961d516227":[10,0,1,22,3,9],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#a85b9e42f73f151c4e703b751a1942658":[10,0,1,22,3,0],
 "classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed":[10,0,1,22,3,2],
@@ -249,5 +242,12 @@ var NAVTREEINDEX30 =
 "classchip_1_1_rendezvous_parameters.html#a06085fcac518496f1e0ca8d82de604fc":[10,0,1,68,25],
 "classchip_1_1_rendezvous_parameters.html#a08d24617f0531d6fa777217c1062ed2e":[10,0,1,68,11],
 "classchip_1_1_rendezvous_parameters.html#a1edaed6797aba9e6f9d006777572a441":[10,0,1,68,9],
-"classchip_1_1_rendezvous_parameters.html#a365fa186e5e05298fa5641dad366f87b":[10,0,1,68,28]
+"classchip_1_1_rendezvous_parameters.html#a365fa186e5e05298fa5641dad366f87b":[10,0,1,68,28],
+"classchip_1_1_rendezvous_parameters.html#a3c0f9ba893435755403dd87d249a5a59":[10,0,1,68,3],
+"classchip_1_1_rendezvous_parameters.html#a43e849d85b4ab69aad52269898de1013":[10,0,1,68,10],
+"classchip_1_1_rendezvous_parameters.html#a4e69b4f545394dd8c8f8e00c6f36b658":[10,0,1,68,27],
+"classchip_1_1_rendezvous_parameters.html#a4e8d0a93b68661877f091d3a49125ade":[10,0,1,68,4],
+"classchip_1_1_rendezvous_parameters.html#a53e3c3f17425edd4c700788405e35ad1":[10,0,1,68,23],
+"classchip_1_1_rendezvous_parameters.html#a5a87c96100c441b6d7cc07cf20eb8cb3":[10,0,1,68,18],
+"classchip_1_1_rendezvous_parameters.html#a5b747c69e22511d7599b725c9f002cae":[10,0,1,68,20]
 };
