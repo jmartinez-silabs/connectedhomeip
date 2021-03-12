@@ -18,18 +18,18 @@ var classchip_1_1_controller_1_1_door_lock_cluster =
     [ "GetUserType", "classchip_1_1_controller_1_1_door_lock_cluster.html#ab3010985e85e5cd9175ebaf4a9c4a8ad", null ],
     [ "GetWeekdaySchedule", "classchip_1_1_controller_1_1_door_lock_cluster.html#ad0ecdb6efc1e95b14fbae63795acce3c", null ],
     [ "GetYeardaySchedule", "classchip_1_1_controller_1_1_door_lock_cluster.html#af0c2ab06bb352b26dc0444625d1649cf", null ],
-    [ "LockDoor", "classchip_1_1_controller_1_1_door_lock_cluster.html#a6ee631eaf4a7c24388ca9b15efab10a6", null ],
+    [ "LockDoor", "classchip_1_1_controller_1_1_door_lock_cluster.html#a9745359ec218ba1cb90c5425238b77a7", null ],
     [ "ReadAttributeActuatorEnabled", "classchip_1_1_controller_1_1_door_lock_cluster.html#aa218eb94f20a348075a353bc07db3bdd", null ],
     [ "ReadAttributeClusterRevision", "classchip_1_1_controller_1_1_door_lock_cluster.html#a4db021e676a5fea328265c16a200a068", null ],
     [ "ReadAttributeLockState", "classchip_1_1_controller_1_1_door_lock_cluster.html#ad39839fd7b6f5e95d56147fae4a497ef", null ],
     [ "ReadAttributeLockType", "classchip_1_1_controller_1_1_door_lock_cluster.html#ae9cd6995a1246ad3ced13e33a121a738", null ],
     [ "ReportAttributeLockState", "classchip_1_1_controller_1_1_door_lock_cluster.html#acff4fc53498545b1daca68bacc9fb4b0", null ],
     [ "SetHolidaySchedule", "classchip_1_1_controller_1_1_door_lock_cluster.html#ab59b02ab57d92a93c698c6d5e5f01776", null ],
-    [ "SetPin", "classchip_1_1_controller_1_1_door_lock_cluster.html#a45b1bbdd8c5e8daa905d1a801ad24717", null ],
-    [ "SetRfid", "classchip_1_1_controller_1_1_door_lock_cluster.html#aeb0e17395ebd1be27623814322de7112", null ],
+    [ "SetPin", "classchip_1_1_controller_1_1_door_lock_cluster.html#ac2e1e3434689ff01f3021f61d1f83edf", null ],
+    [ "SetRfid", "classchip_1_1_controller_1_1_door_lock_cluster.html#a4a38d5d37d78a4fa28a3dddb118c496a", null ],
     [ "SetUserType", "classchip_1_1_controller_1_1_door_lock_cluster.html#a06c96a8acd65ee170249cf9bee784f45", null ],
     [ "SetWeekdaySchedule", "classchip_1_1_controller_1_1_door_lock_cluster.html#addcb81fbbd024311cbe622fb9be2c2a3", null ],
     [ "SetYeardaySchedule", "classchip_1_1_controller_1_1_door_lock_cluster.html#adcac8d1d87cc53a35f60ebc92b18c0d5", null ],
-    [ "UnlockDoor", "classchip_1_1_controller_1_1_door_lock_cluster.html#a0e0c6d569dccfd4f36d0cbc2aa1d0b7d", null ],
-    [ "UnlockWithTimeout", "classchip_1_1_controller_1_1_door_lock_cluster.html#aa7178e59c0f64f06a5365e60c37f99d1", null ]
+    [ "UnlockDoor", "classchip_1_1_controller_1_1_door_lock_cluster.html#ab0e944c5f273f59fe524fee73255b5e3", null ],
+    [ "UnlockWithTimeout", "classchip_1_1_controller_1_1_door_lock_cluster.html#a6a44e33fb2fb2ffc25f3ccef56e2a046", null ]
 ];

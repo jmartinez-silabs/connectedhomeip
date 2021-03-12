@@ -2,7 +2,7 @@ var classchip_1_1_controller_1_1_scenes_cluster =
 [
     [ "ScenesCluster", "classchip_1_1_controller_1_1_scenes_cluster.html#ad3985a07cbb9e61639c04dd41726b12f", null ],
     [ "~ScenesCluster", "classchip_1_1_controller_1_1_scenes_cluster.html#aa4bdfe852a03e92f5be9c8bce5cf669f", null ],
-    [ "AddScene", "classchip_1_1_controller_1_1_scenes_cluster.html#ac9fe4998f2fb5965ed26d838b4ab8bcb", null ],
+    [ "AddScene", "classchip_1_1_controller_1_1_scenes_cluster.html#af986cbc9df8492be1417aadaf14d879a", null ],
     [ "DiscoverAttributes", "classchip_1_1_controller_1_1_scenes_cluster.html#a16af35be83e14a570758dc4e46965720", null ],
     [ "GetSceneMembership", "classchip_1_1_controller_1_1_scenes_cluster.html#ab1bfa8a9eabe6b0a52181996f7f069d7", null ],
     [ "ReadAttributeClusterRevision", "classchip_1_1_controller_1_1_scenes_cluster.html#a1c1cf653ac1e210d357b8b97430c108e", null ],

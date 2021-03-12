@@ -1,0 +1,8 @@
+<map id="chip::Mdns::DiscoveryImplPlatform::Init" name="chip::Mdns::DiscoveryImplPlatform::Init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,200,65"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#ac0b5927f16f9acfc238f7698f78b7f82" title="This function intializes the mdns module." alt="" coords="248,5,433,32"/>
+<area shape="rect" id="node3" href="$namespacechip.html#a8b92912f1eb7c984dbf4c7d32aca858a" title="This function generates 64&#45;bit unsigned random number." alt="" coords="271,56,410,83"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a7c3359cbbbaa4ce3da16765b3df6d3fa" title="This function generates 32&#45;bit unsigned random number." alt="" coords="481,56,620,83"/>
+<area shape="rect" id="node5" href="$namespacechip.html#a31d378cdfe6daa5f388b226870a7847c" title="This function generates 16&#45;bit unsigned random number." alt="" coords="668,56,807,83"/>
+<area shape="rect" id="node6" href="$namespacechip.html#a00ac9359c3b2f6660bbbf484c48ba7b1" title="This function generates 8&#45;bit unsigned random number." alt="" coords="855,56,985,83"/>
+</map>

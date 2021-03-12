@@ -1,0 +1,5 @@
+<map id="chip::Mdns::DiscoveryImplPlatform::Init" name="chip::Mdns::DiscoveryImplPlatform::Init">
+<area shape="rect" id="node1" title=" " alt="" coords="248,39,443,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a18ad3466e0cb296fca6cae3802abb8f2" title="Requests resolution of a node ID to its address." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c" title="Starts the advertiser." alt="" coords="5,71,200,112"/>
+</map>

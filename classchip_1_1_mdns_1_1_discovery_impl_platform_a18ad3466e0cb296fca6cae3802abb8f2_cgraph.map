@@ -1,4 +1,10 @@
 <map id="chip::Mdns::DiscoveryImplPlatform::ResolveNodeId" name="chip::Mdns::DiscoveryImplPlatform::ResolveNodeId">
-<area shape="rect" id="node1" title="Requests resolution of a node ID to its address." alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#a92918bc47fadde76f386ab039d196c7c" title="This function resolves the services published by mdns." alt="" coords="248,13,464,39"/>
+<area shape="rect" id="node1" title="Requests resolution of a node ID to its address." alt="" coords="5,27,200,69"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#a92918bc47fadde76f386ab039d196c7c" title="This function resolves the services published by mdns." alt="" coords="248,5,464,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a89a1e367aeb6713ab3c038438853bc36" title=" " alt="" coords="259,57,453,98"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_mdns.html#ac0b5927f16f9acfc238f7698f78b7f82" title="This function intializes the mdns module." alt="" coords="512,39,697,65"/>
+<area shape="rect" id="node5" href="$namespacechip.html#a8b92912f1eb7c984dbf4c7d32aca858a" title="This function generates 64&#45;bit unsigned random number." alt="" coords="535,89,674,116"/>
+<area shape="rect" id="node6" href="$namespacechip.html#a7c3359cbbbaa4ce3da16765b3df6d3fa" title="This function generates 32&#45;bit unsigned random number." alt="" coords="745,89,884,116"/>
+<area shape="rect" id="node7" href="$namespacechip.html#a31d378cdfe6daa5f388b226870a7847c" title="This function generates 16&#45;bit unsigned random number." alt="" coords="932,89,1071,116"/>
+<area shape="rect" id="node8" href="$namespacechip.html#a00ac9359c3b2f6660bbbf484c48ba7b1" title="This function generates 8&#45;bit unsigned random number." alt="" coords="1119,89,1249,116"/>
 </map>

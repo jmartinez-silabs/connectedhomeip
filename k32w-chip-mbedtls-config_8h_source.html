@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">01c7acb</span>
+   &#160;<span id="projectnumber">4401402</span>
    </div>
   </td>
  </tr>
@@ -306,24 +306,20 @@ $(document).ready(function(){initNavTree('k32w-chip-mbedtls-config_8h_source.htm
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="preprocessor">#if USE_RTOS &amp;&amp; defined(FSL_RTOS_FREE_RTOS)</span></div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="preprocessor">#include &quot;FreeRTOS.h&quot;</span></div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> * pvPortCallocRtos(<span class="keywordtype">size_t</span> num, <span class="keywordtype">size_t</span> size); <span class="comment">/*Calloc for HEAP3.*/</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="preprocessor">#define MBEDTLS_PLATFORM_MEMORY</span></div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="preprocessor">#define MBEDTLS_PLATFORM_MEMORY</span></div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="preprocessor">#define MBEDTLS_PLATFORM_STD_CALLOC pvPortCallocRtos</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="preprocessor">#define MBEDTLS_PLATFORM_STD_FREE vPortFree</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* USE_RTOS*/</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment">/**************************** KSDK end ****************************************/</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MBEDTLS_AES_ALT || MBEDTLS_SHA256_ALT */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* USE_RTOS*/</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment">/**************************** KSDK end ****************************************/</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MBEDTLS_AES_ALT || MBEDTLS_SHA256_ALT */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor">#endif // K32W061_MBEDTLS_CONFIG_H</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="preprocessor">#endif // K32W061_MBEDTLS_CONFIG_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_8ea9fa1ba554352f2068a9636e0a3470.html">K32W</a></li><li class="navelem"><a class="el" href="k32w-chip-mbedtls-config_8h.html">k32w-chip-mbedtls-config.h</a></li>
-    <li class="footer">Generated on Thu Mar 11 2021 17:19:42 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 12 2021 21:12:57 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -7,6 +7,7 @@ var classchip_1_1_device_layer_1_1_thread_stack_manager_impl =
     [ "_GetAndLogThreadTopologyFull", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ab442b9c917cb82e41b9a540ecbd113e5", null ],
     [ "_GetAndLogThreadTopologyMinimal", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#a74d7bbea5ddb4a5236b44a02110bdb0a", null ],
     [ "_GetExternalIPv6Address", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#a03f94528680b5349793f9f3a44524b28", null ],
+    [ "_GetFactoryAssignedEUI64", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ad90c2abca2e46bf1c776f5f11b4cc202", null ],
     [ "_GetPrimary802154MACAddress", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#ab5d36542a6cbac6626703f0f514d4ae3", null ],
     [ "_GetThreadDeviceType", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#a50f75ca60fdff4cf7c5ee9341ac6cac0", null ],
     [ "_GetThreadPollingConfig", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html#a1babfd93223a725a02490a750d1f9aab", null ],

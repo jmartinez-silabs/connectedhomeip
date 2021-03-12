@@ -1,19 +1,40 @@
 <map id="platform/Zephyr/ThreadStackManagerImpl.h" name="platform/Zephyr/ThreadStackManagerImpl.h">
-<area shape="rect" id="node1" title=" " alt="" coords="474,5,687,47"/>
-<area shape="rect" id="node2" href="$_generic_thread_stack_manager_impl___open_thread_8h.html" title=" " alt="" coords="76,95,291,151"/>
-<area shape="rect" id="node5" title=" " alt="" coords="315,109,449,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="473,109,550,136"/>
-<area shape="rect" id="node7" title=" " alt="" coords="574,109,729,136"/>
-<area shape="rect" id="node8" href="$_zephyr_2_b_l_e_manager_impl_8h.html" title=" " alt="" coords="753,102,966,143"/>
-<area shape="rect" id="node9" href="$_c_h_i_p_logging_8h.html" title=" " alt="" coords="990,109,1211,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,199,172,225"/>
-<area shape="rect" id="node4" title=" " alt="" coords="197,199,359,225"/>
-<area shape="rect" id="node10" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="758,199,897,225"/>
-<area shape="rect" id="node13" title=" " alt="" coords="889,423,960,449"/>
-<area shape="rect" id="node15" href="$_log_v_8h.html" title=" " alt="" coords="1013,199,1189,225"/>
-<area shape="rect" id="node16" title=" " alt="" coords="1157,273,1231,300"/>
-<area shape="rect" id="node17" href="$support_2logging_2_constants_8h.html" title=" " alt="" coords="1264,199,1468,225"/>
-<area shape="rect" id="node11" href="$_ble_config_8h.html" title=" " alt="" coords="767,273,887,300"/>
-<area shape="rect" id="node12" href="$_system_config_8h.html" title=" " alt="" coords="661,348,837,375"/>
-<area shape="rect" id="node14" title=" " alt="" coords="705,423,792,449"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1573,5,1787,47"/>
+<area shape="rect" id="node2" href="$_generic_thread_stack_manager_impl___open_thread_8h.html" title=" " alt="" coords="1155,95,1370,151"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1415,109,1548,136"/>
+<area shape="rect" id="node32" title=" " alt="" coords="1572,109,1649,136"/>
+<area shape="rect" id="node33" title=" " alt="" coords="1673,109,1828,136"/>
+<area shape="rect" id="node34" href="$_zephyr_2_b_l_e_manager_impl_8h.html" title=" " alt="" coords="1852,102,2065,143"/>
+<area shape="rect" id="node35" href="$_c_h_i_p_logging_8h.html" title=" " alt="" coords="2048,273,2269,300"/>
+<area shape="rect" id="node3" title=" " alt="" coords="950,199,1117,225"/>
+<area shape="rect" id="node4" title=" " alt="" coords="1141,199,1304,225"/>
+<area shape="rect" id="node5" href="$_mdns_8h.html" title=" " alt="" coords="1328,199,1517,225"/>
+<area shape="rect" id="node6" title=" " alt="" coords="1874,572,1945,599"/>
+<area shape="rect" id="node7" href="$_c_h_i_p_error_8h.html" title=" " alt="" coords="1675,273,1802,300"/>
+<area shape="rect" id="node12" href="$_i_p_address_8h.html" title=" " alt="" coords="895,348,1022,375"/>
+<area shape="rect" id="node24" href="$_inet_interface_8h.html" title=" " alt="" coords="1344,273,1491,300"/>
+<area shape="rect" id="node29" href="$_optional_8h.html" title=" " alt="" coords="804,273,945,300"/>
+<area shape="rect" id="node8" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="1789,348,1928,375"/>
+<area shape="rect" id="node9" href="$_ble_config_8h.html" title=" " alt="" coords="1789,423,1909,449"/>
+<area shape="rect" id="node10" href="$_system_config_8h.html" title=" " alt="" coords="1539,497,1715,524"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1583,572,1670,599"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1245,423,1320,449"/>
+<area shape="rect" id="node14" href="$_d_l_l_util_8h.html" title=" " alt="" coords="1086,423,1221,449"/>
+<area shape="rect" id="node15" href="$_inet_config_8h.html" title=" " alt="" coords="1345,423,1474,449"/>
+<area shape="rect" id="node16" href="$_i_a_n_a_constants_8h.html" title=" " alt="" coords="5,423,165,449"/>
+<area shape="rect" id="node17" title=" " alt="" coords="190,423,277,449"/>
+<area shape="rect" id="node18" title=" " alt="" coords="301,423,413,449"/>
+<area shape="rect" id="node19" title=" " alt="" coords="437,423,557,449"/>
+<area shape="rect" id="node20" title=" " alt="" coords="581,423,672,449"/>
+<area shape="rect" id="node21" title=" " alt="" coords="696,423,763,449"/>
+<area shape="rect" id="node22" title=" " alt="" coords="787,423,883,449"/>
+<area shape="rect" id="node23" title=" " alt="" coords="907,423,1010,449"/>
+<area shape="rect" id="node25" href="$_inet_error_8h.html" title=" " alt="" coords="1495,348,1614,375"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1325,348,1419,375"/>
+<area shape="rect" id="node26" href="$_system_error_8h.html" title=" " alt="" coords="1499,423,1664,449"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1432,497,1515,524"/>
+<area shape="rect" id="node30" title=" " alt="" coords="796,348,871,375"/>
+<area shape="rect" id="node36" href="$_log_v_8h.html" title=" " alt="" coords="2085,348,2261,375"/>
+<area shape="rect" id="node37" title=" " alt="" coords="2217,423,2292,449"/>
+<area shape="rect" id="node38" href="$support_2logging_2_constants_8h.html" title=" " alt="" coords="2337,348,2541,375"/>
 </map>

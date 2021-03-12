@@ -1,6 +1,6 @@
 <map id="include/platform/CHIPDeviceError.h" name="include/platform/CHIPDeviceError.h">
-<area shape="rect" id="node1" title=" " alt="" coords="10183,5,10392,47"/>
-<area shape="rect" id="node2" href="$_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="10183,95,10392,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="10281,5,10491,47"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="10281,95,10491,136"/>
 <area shape="rect" id="node3" href="$_linux_impl_8cpp.html" title=" " alt="" coords="296,281,460,322"/>
 <area shape="rect" id="node4" href="$_chip_thread_work_8cpp.html" title=" " alt="" coords="9407,184,9621,225"/>
 <area shape="rect" id="node5" href="$_commissioner_impl_8cpp.html" title=" " alt="" coords="9645,184,9876,225"/>
@@ -11,8 +11,9 @@
 <area shape="rect" id="node137" href="$_service_provisioning_8cpp.html" title=" " alt="" coords="10725,191,11007,218"/>
 <area shape="rect" id="node138" href="$_helper_8cpp.html" title=" " alt="" coords="11031,184,11187,225"/>
 <area shape="rect" id="node139" href="$_main_loop_8h.html" title=" " alt="" coords="484,184,640,225"/>
-<area shape="rect" id="node141" href="$_test_identity_8cpp.html" title=" " alt="" coords="11211,191,11393,218"/>
-<area shape="rect" id="node142" href="$_secure_session_mgr_8cpp.html" title=" " alt="" coords="11417,191,11648,218"/>
+<area shape="rect" id="node141" href="$_open_thread_2_mdns_impl_8cpp.html" title=" " alt="" coords="11211,184,11372,225"/>
+<area shape="rect" id="node142" href="$_test_identity_8cpp.html" title=" " alt="" coords="11396,191,11579,218"/>
+<area shape="rect" id="node143" href="$_secure_session_mgr_8cpp.html" title=" " alt="" coords="11603,191,11833,218"/>
 <area shape="rect" id="node8" href="$_device_description_server_8h.html" title=" " alt="" coords="20444,281,20643,322"/>
 <area shape="rect" id="node9" href="$_generic_configuration_manager_impl_8cpp.html" title=" " alt="" coords="3220,281,3496,322"/>
 <area shape="rect" id="node10" href="$cc13x2__26x2_2_configuration_manager_impl_8cpp.html" title=" " alt="" coords="2230,385,2457,426"/>
@@ -81,7 +82,7 @@
 <area shape="rect" id="node92" href="$_k32_w_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="15079,281,15285,322"/>
 <area shape="rect" id="node93" href="$_k32_w_config_8h.html" title=" " alt="" coords="4513,288,4728,315"/>
 <area shape="rect" id="node95" href="$_k32_w_2_group_key_store_impl_8h.html" title=" " alt="" coords="4510,385,4731,426"/>
-<area shape="rect" id="node96" href="$_k32_w_2_group_key_store_impl_8cpp.html" title=" " alt="" coords="4318,489,4539,530"/>
+<area shape="rect" id="node96" href="$_k32_w_2_group_key_store_impl_8cpp.html" title=" " alt="" coords="4319,489,4541,530"/>
 <area shape="rect" id="node97" href="$_k32_w_config_8cpp.html" title=" " alt="" coords="4756,392,4987,419"/>
 <area shape="rect" id="node98" href="$_k32_w_2_connectivity_manager_impl_8cpp.html" title=" " alt="" coords="15309,281,15516,322"/>
 <area shape="rect" id="node99" href="$_k32_w_2_entropy_8cpp.html" title=" " alt="" coords="15540,288,15739,315"/>
@@ -115,7 +116,7 @@
 <area shape="rect" id="node129" href="$_zephyr_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="19967,281,20181,322"/>
 <area shape="rect" id="node130" href="$_zephyr_2_system_time_support_8cpp.html" title=" " alt="" coords="20205,281,20420,322"/>
 <area shape="rect" id="node131" href="$_zephyr_config_8cpp.html" title=" " alt="" coords="7219,392,7465,419"/>
-<area shape="rect" id="node132" href="$_zephyr_config_8h.html" title=" " alt="" coords="7140,288,7371,315"/>
+<area shape="rect" id="node132" href="$_zephyr_config_8h.html" title=" " alt="" coords="7097,288,7328,315"/>
 <area shape="rect" id="node22" href="$cc13x2__26x2_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="8235,377,8500,433"/>
 <area shape="rect" id="node24" href="$_darwin_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="8525,385,8757,426"/>
 <area shape="rect" id="node25" href="$_e_f_r32_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="8781,385,9007,426"/>

@@ -1,5 +1,5 @@
 <map id="include/platform/CHIPDeviceLayer.h" name="include/platform/CHIPDeviceLayer.h">
-<area shape="rect" id="node1" title=" " alt="" coords="10183,5,10392,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="10281,5,10491,47"/>
 <area shape="rect" id="node2" href="$_linux_impl_8cpp.html" title=" " alt="" coords="296,191,460,233"/>
 <area shape="rect" id="node3" href="$_chip_thread_work_8cpp.html" title=" " alt="" coords="9407,95,9621,136"/>
 <area shape="rect" id="node4" href="$_commissioner_impl_8cpp.html" title=" " alt="" coords="9645,95,9876,136"/>
@@ -10,8 +10,9 @@
 <area shape="rect" id="node136" href="$_service_provisioning_8cpp.html" title=" " alt="" coords="10725,102,11007,129"/>
 <area shape="rect" id="node137" href="$_helper_8cpp.html" title=" " alt="" coords="11031,95,11187,136"/>
 <area shape="rect" id="node138" href="$_main_loop_8h.html" title=" " alt="" coords="484,95,640,136"/>
-<area shape="rect" id="node140" href="$_test_identity_8cpp.html" title=" " alt="" coords="11211,102,11393,129"/>
-<area shape="rect" id="node141" href="$_secure_session_mgr_8cpp.html" title=" " alt="" coords="11417,102,11648,129"/>
+<area shape="rect" id="node140" href="$_open_thread_2_mdns_impl_8cpp.html" title=" " alt="" coords="11211,95,11372,136"/>
+<area shape="rect" id="node141" href="$_test_identity_8cpp.html" title=" " alt="" coords="11396,102,11579,129"/>
+<area shape="rect" id="node142" href="$_secure_session_mgr_8cpp.html" title=" " alt="" coords="11603,102,11833,129"/>
 <area shape="rect" id="node7" href="$_device_description_server_8h.html" title=" " alt="" coords="20444,191,20643,233"/>
 <area shape="rect" id="node8" href="$_generic_configuration_manager_impl_8cpp.html" title=" " alt="" coords="3220,191,3496,233"/>
 <area shape="rect" id="node9" href="$cc13x2__26x2_2_configuration_manager_impl_8cpp.html" title=" " alt="" coords="2230,295,2457,337"/>
@@ -80,7 +81,7 @@
 <area shape="rect" id="node91" href="$_k32_w_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="15079,191,15285,233"/>
 <area shape="rect" id="node92" href="$_k32_w_config_8h.html" title=" " alt="" coords="4513,199,4728,225"/>
 <area shape="rect" id="node94" href="$_k32_w_2_group_key_store_impl_8h.html" title=" " alt="" coords="4510,295,4731,337"/>
-<area shape="rect" id="node95" href="$_k32_w_2_group_key_store_impl_8cpp.html" title=" " alt="" coords="4318,399,4539,441"/>
+<area shape="rect" id="node95" href="$_k32_w_2_group_key_store_impl_8cpp.html" title=" " alt="" coords="4319,399,4541,441"/>
 <area shape="rect" id="node96" href="$_k32_w_config_8cpp.html" title=" " alt="" coords="4756,303,4987,329"/>
 <area shape="rect" id="node97" href="$_k32_w_2_connectivity_manager_impl_8cpp.html" title=" " alt="" coords="15309,191,15516,233"/>
 <area shape="rect" id="node98" href="$_k32_w_2_entropy_8cpp.html" title=" " alt="" coords="15540,199,15739,225"/>
@@ -114,7 +115,7 @@
 <area shape="rect" id="node128" href="$_zephyr_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="19967,191,20181,233"/>
 <area shape="rect" id="node129" href="$_zephyr_2_system_time_support_8cpp.html" title=" " alt="" coords="20205,191,20420,233"/>
 <area shape="rect" id="node130" href="$_zephyr_config_8cpp.html" title=" " alt="" coords="7219,303,7465,329"/>
-<area shape="rect" id="node131" href="$_zephyr_config_8h.html" title=" " alt="" coords="7140,199,7371,225"/>
+<area shape="rect" id="node131" href="$_zephyr_config_8h.html" title=" " alt="" coords="7097,199,7328,225"/>
 <area shape="rect" id="node21" href="$cc13x2__26x2_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="8235,288,8500,344"/>
 <area shape="rect" id="node23" href="$_darwin_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="8525,295,8757,337"/>
 <area shape="rect" id="node24" href="$_e_f_r32_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="8781,295,9007,337"/>

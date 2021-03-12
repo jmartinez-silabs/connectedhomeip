@@ -17,6 +17,7 @@ var _mdns_8h =
     [ "ChipMdnsSetHostname", "_mdns_8h.html#a49bd665343abea118d41b69f96604e37", null ],
     [ "ChipMdnsStopPublish", "_mdns_8h.html#abb1a78179c950d386b70af49eb548e30", null ],
     [ "kMdnsNameMaxSize", "_mdns_8h.html#af067a54e6e14cce4fd6d1cc10c37e4ea", null ],
+    [ "kMdnsProtocolTextMaxSize", "_mdns_8h.html#afd0acff8d5ae9bbbb24180c02f476577", null ],
     [ "kMdnsTextMaxSize", "_mdns_8h.html#afe18388df82e4bf78e2b1763c5b0dfe8", null ],
     [ "kMdnsTypeMaxSize", "_mdns_8h.html#a5ad2794d474d946a6bb144a0775d4535", null ]
 ];

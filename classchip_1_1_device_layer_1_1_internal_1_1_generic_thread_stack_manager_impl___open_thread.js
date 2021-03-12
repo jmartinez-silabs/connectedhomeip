@@ -5,6 +5,7 @@ var classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_imp
     [ "_GetAndLogThreadTopologyFull", "classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#af048c1cf0e6b50a75f48d62f15529ca0", null ],
     [ "_GetAndLogThreadTopologyMinimal", "classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#ac408784af2718a7169cff0ecc7a46cf4", null ],
     [ "_GetExternalIPv6Address", "classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#a46829a4dafb3ee2d72ff6c214aa3a832", null ],
+    [ "_GetFactoryAssignedEUI64", "classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#aca9ffba1ba7484d50f5cfd30f31845a8", null ],
     [ "_GetPrimary802154MACAddress", "classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#ac85216fbfeffe4c5b9854bbc3429ba4e", null ],
     [ "_GetThreadDeviceType", "classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#a2c40bd8f4268e4f1b63e80b6ab7471d4", null ],
     [ "_GetThreadPollingConfig", "classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#ad3a8ec3babee08a229f1f0adf43492bd", null ],

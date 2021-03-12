@@ -17,6 +17,7 @@ var classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_im
     [ "_GetDeviceIntermediateCACerts", "classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a26646f67d24533779d48d2f4cfb8c8ea", null ],
     [ "_GetDevicePrivateKey", "classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a4d421c237da125178da201bf2ed6fd3c", null ],
     [ "_GetFabricId", "classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a8f6a215cb2eaa8f65f8c66a0214ec36e", null ],
+    [ "_GetFactoryAssignedEUI64", "classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a007d4f8387065669d0b97d30d1c313ea", null ],
     [ "_GetFailSafeArmed", "classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a11864ea753adb84a155bfe8e39281fdb", null ],
     [ "_GetFirmwareBuildTime", "classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#ad5c802a23826e79f4367c578d868066a", null ],
     [ "_GetFirmwareRevision", "classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a997610bf842078d0d8c071b89c9386ee", null ],
