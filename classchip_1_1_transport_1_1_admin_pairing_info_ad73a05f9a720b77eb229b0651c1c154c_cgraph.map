@@ -2,5 +2,5 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,71,216,112"/>
 <area shape="rect" id="node2" href="$namespacechip_1_1_encoding_1_1_little_endian.html#a2d72145b506ff674ee188d2ce048126f" title="This conditionally performs, as necessary for the target system, a byte order swap by value of the sp..." alt="" coords="279,5,480,47"/>
 <area shape="rect" id="node3" href="$namespacechip_1_1_encoding_1_1_little_endian.html#aefc7ea2318459a8c6385fafea9c63fb3" title="This conditionally performs, as necessary for the target system, a byte order swap by value of the sp..." alt="" coords="279,71,480,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_persistent_storage_delegate.html#a9e49911be05cc405625143a91b8b2e44" title="Set the value for the key to a null terminated string." alt="" coords="264,136,495,177"/>
+<area shape="rect" id="node4" href="$classchip_1_1_persistent_storage_delegate.html#a99289ae840bddd187ae492ba2c9f3bb1" title="Set the value for the key to a byte buffer." alt="" coords="264,136,495,177"/>
 </map>

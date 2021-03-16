@@ -1,6 +1,0 @@
-<map id="chip::DeviceLayer::Internal::GenericNetworkProvisioningServerImpl::IsPairedToAccount" name="chip::DeviceLayer::Internal::GenericNetworkProvisioningServerImpl::IsPairedToAccount">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,271,127"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#aa339b4bbbc137aab908ac19ebd3460e3" title="Returns a reference to the public interface of the ConfigurationManager singleton object." alt="" coords="329,5,475,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_configuration_manager.html#aa3deee4893d5c10790e09b0bb76fcaf0" title=" " alt="" coords="319,71,485,127"/>
-<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_configuration_manager.html#aab79656eb9d6a9272c97ab014d73bc21" title=" " alt="" coords="319,151,485,207"/>
-</map>

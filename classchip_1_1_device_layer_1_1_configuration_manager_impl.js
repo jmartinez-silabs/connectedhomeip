@@ -17,6 +17,5 @@ var classchip_1_1_device_layer_1_1_configuration_manager_impl =
     [ "ConfigurationMgrImpl", "classchip_1_1_device_layer_1_1_configuration_manager_impl.html#abdeae3c41d64bf83d5ce334538b78d49", null ],
     [ "ConfigurationMgrImpl", "classchip_1_1_device_layer_1_1_configuration_manager_impl.html#abdeae3c41d64bf83d5ce334538b78d49", null ],
     [ "ConfigurationMgrImpl", "classchip_1_1_device_layer_1_1_configuration_manager_impl.html#abdeae3c41d64bf83d5ce334538b78d49", null ],
-    [ "Internal::GenericConfigurationManagerImpl< ConfigurationManagerImpl >", "classchip_1_1_device_layer_1_1_configuration_manager_impl.html#ab15351e3ba472d6bcf05ab171f223798", null ],
-    [ "Internal::NetworkProvisioningServerImpl", "classchip_1_1_device_layer_1_1_configuration_manager_impl.html#a86e7a56d7f5a77cb83b832c9ae0882a6", null ]
+    [ "Internal::GenericConfigurationManagerImpl< ConfigurationManagerImpl >", "classchip_1_1_device_layer_1_1_configuration_manager_impl.html#ab15351e3ba472d6bcf05ab171f223798", null ]
 ];

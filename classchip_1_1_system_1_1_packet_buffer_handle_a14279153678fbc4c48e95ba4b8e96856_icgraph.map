@@ -1,17 +1,20 @@
 <map id="chip::System::PacketBufferHandle::PacketBufferHandle" name="chip::System::PacketBufferHandle::PacketBufferHandle">
-<area shape="rect" id="node1" title="Construct an empty PacketBufferHandle." alt="" coords="1041,165,1244,207"/>
-<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207" title="Creates a copy of the data in this packet." alt="" coords="257,37,451,79"/>
-<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="799,235,993,276"/>
-<area shape="rect" id="node12" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="528,96,723,137"/>
-<area shape="rect" id="node15" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a76cd3c9ecdc6914acf7da9dad5dd97cf" title="Detach and return the head of a buffer chain while updating this handle to point to the remaining buf..." alt="" coords="799,300,993,341"/>
-<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="6,5,207,47"/>
-<area shape="rect" id="node4" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="5,71,208,112"/>
-<area shape="rect" id="node6" href="$namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="526,161,725,203"/>
-<area shape="rect" id="node7" href="$classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="500,227,751,283"/>
-<area shape="rect" id="node8" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="516,308,735,349"/>
-<area shape="rect" id="node9" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="528,373,723,415"/>
-<area shape="rect" id="node10" href="$namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="509,439,742,466"/>
-<area shape="rect" id="node14" href="$classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="538,491,713,532"/>
-<area shape="rect" id="node11" href="$classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="258,432,450,473"/>
-<area shape="rect" id="node13" href="$namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="256,103,452,144"/>
+<area shape="rect" id="node1" title="Construct an empty PacketBufferHandle." alt="" coords="1020,345,1223,387"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="507,71,701,112"/>
+<area shape="rect" id="node8" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="777,316,972,357"/>
+<area shape="rect" id="node15" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="507,531,701,572"/>
+<area shape="rect" id="node18" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a76cd3c9ecdc6914acf7da9dad5dd97cf" title="Detach and return the head of a buffer chain while updating this handle to point to the remaining buf..." alt="" coords="777,433,972,475"/>
+<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,5,430,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,71,431,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,136,417,177"/>
+<area shape="rect" id="node6" href="$classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,104,169,145"/>
+<area shape="rect" id="node7" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,169,180,211"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="505,136,703,177"/>
+<area shape="rect" id="node10" href="$classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="479,202,729,258"/>
+<area shape="rect" id="node11" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="495,283,713,324"/>
+<area shape="rect" id="node12" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="507,348,701,389"/>
+<area shape="rect" id="node13" href="$namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="487,414,721,441"/>
+<area shape="rect" id="node17" href="$classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="517,465,691,507"/>
+<area shape="rect" id="node14" href="$classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="233,407,425,448"/>
+<area shape="rect" id="node16" href="$namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="231,531,427,572"/>
 </map>

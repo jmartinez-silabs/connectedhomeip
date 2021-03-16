@@ -5,7 +5,6 @@ var _message_header_8h =
     [ "MessageAuthenticationCode", "classchip_1_1_message_authentication_code.html", "classchip_1_1_message_authentication_code" ],
     [ "ExFlags", "_message_header_8h.html#ad67568c9278152f00a7d18f60464e4f0", null ],
     [ "Flags", "_message_header_8h.html#aebdda57d47e49eaf4cc8aef0d8b0474e", null ],
-    [ "InternalFlags", "_message_header_8h.html#ae513076d8ef35495525067199af49c00", null ],
     [ "NodeId", "_message_header_8h.html#a911a83fdf89daee3f71f39da9e743e01", null ],
     [ "PacketHeaderFlags", "_message_header_8h.html#a2b7627dbf2df1bffced6ef27d9096d77", null ],
     [ "EncryptionType", "_message_header_8h.html#a19d9b7d115cbe8612608982730ea19d1", [
@@ -24,9 +23,6 @@ var _message_header_8h =
       [ "kSourceNodeIdPresent", "_message_header_8h.html#a8480539d9757ec7148d562f0d2e06ac4a7d123076e849b84580e652b061b9e0b1", null ],
       [ "kSecureSessionControlMessage", "_message_header_8h.html#a8480539d9757ec7148d562f0d2e06ac4a0ea8589af3fb7586523cc84230f69155", null ],
       [ "kSecure", "_message_header_8h.html#a8480539d9757ec7148d562f0d2e06ac4a6d03afc0f5ffb8405df6c26af263ee52", null ]
-    ] ],
-    [ "InternalFlagValues", "_message_header_8h.html#aa36b3d9dcb0e42e7380276a507ec4ba3", [
-      [ "kPeerGroupMsgIdNotSynchronized", "_message_header_8h.html#aa36b3d9dcb0e42e7380276a507ec4ba3aa7c82060992c97bf64cff6844d912ef2", null ]
     ] ],
     [ "kAnyNodeId", "_message_header_8h.html#a0e6f577ca63e0aa586a39c9aa8798a26", null ],
     [ "kFlagsMask", "_message_header_8h.html#aa8c9a1ddef0fee4cd2b90ae547fe08af", null ],

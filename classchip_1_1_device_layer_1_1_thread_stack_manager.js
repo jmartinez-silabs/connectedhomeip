@@ -26,7 +26,6 @@ var classchip_1_1_device_layer_1_1_thread_stack_manager =
     [ "Internal::DeviceControlServer", "classchip_1_1_device_layer_1_1_thread_stack_manager.html#a9789c1bb086f0ac85540999bd162102d", null ],
     [ "Internal::GenericConfigurationManagerImpl", "classchip_1_1_device_layer_1_1_thread_stack_manager.html#ad41c9fd8237d290bd991f809e3ec00b2", null ],
     [ "Internal::GenericConnectivityManagerImpl_Thread", "classchip_1_1_device_layer_1_1_thread_stack_manager.html#aed2f7e801702f32466bd8c5c5fbf063f", null ],
-    [ "Internal::GenericNetworkProvisioningServerImpl", "classchip_1_1_device_layer_1_1_thread_stack_manager.html#a63781c925ec355c4c11a425791eaf00a", null ],
     [ "Internal::GenericPlatformManagerImpl", "classchip_1_1_device_layer_1_1_thread_stack_manager.html#a929b8c50e573b52988f41760a0377430", null ],
     [ "Internal::GenericPlatformManagerImpl_FreeRTOS", "classchip_1_1_device_layer_1_1_thread_stack_manager.html#aab4efedc666ea89b201be84c10faee9d", null ],
     [ "Internal::GenericThreadStackManagerImpl_FreeRTOS", "classchip_1_1_device_layer_1_1_thread_stack_manager.html#acdcdc4473df98ec5e48702abc78b2e29", null ],

@@ -1,7 +1,4 @@
 <map id="chip::System::PacketBufferHandle::NewWithData" name="chip::System::PacketBufferHandle::NewWithData">
-<area shape="rect" id="node1" title="Allocates a packet buffer with initial contents." alt="" coords="500,71,695,112"/>
-<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207" title="Creates a copy of the data in this packet." alt="" coords="257,37,451,79"/>
-<area shape="rect" id="node5" href="$namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="256,103,452,144"/>
-<area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="6,5,207,47"/>
-<area shape="rect" id="node4" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="5,71,208,112"/>
+<area shape="rect" id="node1" title="Allocates a packet buffer with initial contents." alt="" coords="249,5,444,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="5,5,201,47"/>
 </map>

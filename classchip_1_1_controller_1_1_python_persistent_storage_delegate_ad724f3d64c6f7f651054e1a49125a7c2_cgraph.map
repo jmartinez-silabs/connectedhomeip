@@ -1,0 +1,4 @@
+<map id="chip::Controller::PythonPersistentStorageDelegate::AsyncDeleteKeyValue" name="chip::Controller::PythonPersistentStorageDelegate::AsyncDeleteKeyValue">
+<area shape="rect" id="node1" title="Deletes the value for the key." alt="" coords="5,5,201,61"/>
+<area shape="rect" id="node2" href="$classchip_1_1_persistent_storage_result_delegate.html#ae3797b6f8292354aa57b35707d32a4c2" title="Called on completion of an operation in PersistentStorageDelegate API." alt="" coords="249,13,512,54"/>
+</map>

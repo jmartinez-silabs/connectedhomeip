@@ -1,0 +1,4 @@
+<map id="chip::Controller::PythonPersistentStorageDelegate::SyncGetKeyValue" name="chip::Controller::PythonPersistentStorageDelegate::SyncGetKeyValue">
+<area shape="rect" id="node1" title="This is a synchronous Get API, where the value is returned via the output buffer." alt="" coords="5,5,201,61"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="249,20,328,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::PersistentStorageDelegate::AsyncDeleteKeyValue" name="chip::PersistentStorageDelegate::AsyncDeleteKeyValue">
+<area shape="rect" id="node1" title="Deletes the value for the key." alt="" coords="267,39,497,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_storable_peer_connection.html#af1d2351515982dd6b01f53758b320f8f" title=" " alt="" coords="5,5,219,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_admin_pairing_info.html#a0e8eccae8e41e9ca85946179fa2e2dba" title=" " alt="" coords="7,71,217,112"/>
+</map>

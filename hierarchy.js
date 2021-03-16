@@ -41,7 +41,6 @@ var hierarchy =
     [ "chip::BitFlags< ExFlagValues >", "classchip_1_1_bit_flags.html", null ],
     [ "chip::BitFlags< Flags >", "classchip_1_1_bit_flags.html", null ],
     [ "chip::BitFlags< FlagValues >", "classchip_1_1_bit_flags.html", null ],
-    [ "chip::BitFlags< InternalFlagValues >", "classchip_1_1_bit_flags.html", null ],
     [ "chip::BitFlags< TimerStateFlag >", "classchip_1_1_bit_flags.html", null ],
     [ "mdns::Minimal::BitPackedFlags", "classmdns_1_1_minimal_1_1_bit_packed_flags.html", null ],
     [ "chip::Ble::BleApplicationDelegate", "classchip_1_1_ble_1_1_ble_application_delegate.html", [
@@ -190,8 +189,7 @@ var hierarchy =
       [ "chip::Controller::ScriptDevicePairingDelegate", "classchip_1_1_controller_1_1_script_device_pairing_delegate.html", null ]
     ] ],
     [ "chip::Controller::DeviceStatusDelegate", "classchip_1_1_controller_1_1_device_status_delegate.html", [
-      [ "AndroidDeviceControllerWrapper", "class_android_device_controller_wrapper.html", null ],
-      [ "chip::DeviceController::ChipDeviceController", "classchip_1_1_device_controller_1_1_chip_device_controller.html", null ]
+      [ "AndroidDeviceControllerWrapper", "class_android_device_controller_wrapper.html", null ]
     ] ],
     [ "chip::TLV::Debug::DumpContext", "structchip_1_1_t_l_v_1_1_debug_1_1_dump_context.html", null ],
     [ "chip::Crypto::ECPKey< Sig >", "classchip_1_1_crypto_1_1_e_c_p_key.html", null ],
@@ -254,7 +252,6 @@ var hierarchy =
     ] ],
     [ "chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_Thread< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___thread.html", null ],
     [ "chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_WiFi< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html", null ],
-    [ "chip::DeviceLayer::Internal::GenericNetworkProvisioningServerImpl< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_network_provisioning_server_impl.html", null ],
     [ "chip::DeviceLayer::Internal::GenericPlatformManagerImpl< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html", [
       [ "chip::DeviceLayer::Internal::GenericPlatformManagerImpl_Zephyr< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html", null ]
     ] ],
@@ -290,9 +287,9 @@ var hierarchy =
     [ "chip::Inet::IPPacketInfo", "classchip_1_1_inet_1_1_i_p_packet_info.html", null ],
     [ "chip::Inet::IPPrefix", "classchip_1_1_inet_1_1_i_p_prefix.html", null ],
     [ "chip::DeviceLayer::Internal::K32WConfig", "classchip_1_1_device_layer_1_1_internal_1_1_k32_w_config.html", null ],
-    [ "chip::DeviceLayer::Internal::ESP32Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::CC13X2_26X2Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::Internal::PosixConfig::Key", "structchip_1_1_device_layer_1_1_internal_1_1_posix_config_1_1_key.html", null ],
+    [ "chip::DeviceLayer::Internal::ESP32Config::Key", "structchip_1_1_device_layer_1_1_internal_1_1_e_s_p32_config_1_1_key.html", null ],
     [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManager", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager.html", [
       [ "chip::DeviceLayer::PersistedStorage::KeyValueStoreManagerImpl", "classchip_1_1_device_layer_1_1_persisted_storage_1_1_key_value_store_manager_impl.html", null ]
     ] ],
@@ -364,10 +361,10 @@ var hierarchy =
     [ "chip::Optional< uint16_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint32_t >", "classchip_1_1_optional.html", null ],
     [ "chip::Optional< uint8_t >", "classchip_1_1_optional.html", null ],
+    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip::OptionalQRCodeInfo", "structchip_1_1_optional_q_r_code_info.html", [
       [ "chip::OptionalQRCodeInfoExtension", "structchip_1_1_optional_q_r_code_info_extension.html", null ]
     ] ],
-    [ "chip.setuppayload.OptionalQRCodeInfo", "classchip_1_1setuppayload_1_1_optional_q_r_code_info.html", null ],
     [ "chip.setuppayload.OptionalQRCodeInfo.OptionalQRCodeInfoType", "enumchip_1_1setuppayload_1_1_optional_q_r_code_info_1_1_optional_q_r_code_info_type.html", null ],
     [ "chip::Crypto::P256KeypairContext", "structchip_1_1_crypto_1_1_p256_keypair_context.html", null ],
     [ "chip::System::PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html", [

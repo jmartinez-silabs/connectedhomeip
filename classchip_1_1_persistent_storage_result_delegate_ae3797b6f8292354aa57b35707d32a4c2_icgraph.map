@@ -1,0 +1,6 @@
+<map id="chip::PersistentStorageResultDelegate::OnPersistentStorageStatus" name="chip::PersistentStorageResultDelegate::OnPersistentStorageStatus">
+<area shape="rect" id="node1" title="Called on completion of an operation in PersistentStorageDelegate API." alt="" coords="249,93,512,134"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#ad724f3d64c6f7f651054e1a49125a7c2" title="Deletes the value for the key." alt="" coords="5,5,201,61"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#affe3331d2b90f6cac9cefcac5a6de7bd" title="Lookup the key and call delegate object with it&#39;s stringified value." alt="" coords="5,85,201,141"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#adc49fbbf3d94008e446073334067795f" title="Set the value for the key to a null terminated string." alt="" coords="5,165,201,221"/>
+</map>

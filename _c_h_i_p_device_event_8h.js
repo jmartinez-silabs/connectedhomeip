@@ -2,11 +2,11 @@ var _c_h_i_p_device_event_8h =
 [
     [ "ChipDeviceEvent", "structchip_1_1_device_layer_1_1_chip_device_event.html", "structchip_1_1_device_layer_1_1_chip_device_event" ],
     [ "AsyncWorkFunct", "_c_h_i_p_device_event_8h.html#a4536f0203bb21f8661c3fa8aacbf20e4", null ],
-    [ "kFlag_IsPublic", "_c_h_i_p_device_event_8h.html#a1a32174e7fc9791c6e03f5a4e01c4630a0d6f101f628b52e513438d64dae67726", null ],
-    [ "kFlag_IsPlatformSpecific", "_c_h_i_p_device_event_8h.html#a1a32174e7fc9791c6e03f5a4e01c4630a3d9b9def9831c11ae8ffc4bd962a7f30", null ],
-    [ "kFlag_Reserved1", "_c_h_i_p_device_event_8h.html#a1a32174e7fc9791c6e03f5a4e01c4630aa38cc6117be2b65b037780ca3541b851", null ],
-    [ "kFlag_Reserved2", "_c_h_i_p_device_event_8h.html#a1a32174e7fc9791c6e03f5a4e01c4630aee0047812c9eeaca1ac439249a5eca93", null ],
-    [ "kMaxEventNum", "_c_h_i_p_device_event_8h.html#a1a32174e7fc9791c6e03f5a4e01c4630ab397dc800fada0421fffe9af2aa34879", null ],
+    [ "kFlag_IsPublic", "_c_h_i_p_device_event_8h.html#ad67b2f4c108436ebdf3b33c59820ac36a0d6f101f628b52e513438d64dae67726", null ],
+    [ "kFlag_IsPlatformSpecific", "_c_h_i_p_device_event_8h.html#ad67b2f4c108436ebdf3b33c59820ac36a3d9b9def9831c11ae8ffc4bd962a7f30", null ],
+    [ "kFlag_Reserved1", "_c_h_i_p_device_event_8h.html#ad67b2f4c108436ebdf3b33c59820ac36aa38cc6117be2b65b037780ca3541b851", null ],
+    [ "kFlag_Reserved2", "_c_h_i_p_device_event_8h.html#ad67b2f4c108436ebdf3b33c59820ac36aee0047812c9eeaca1ac439249a5eca93", null ],
+    [ "kMaxEventNum", "_c_h_i_p_device_event_8h.html#ad67b2f4c108436ebdf3b33c59820ac36ab397dc800fada0421fffe9af2aa34879", null ],
     [ "ActivityChange", "_c_h_i_p_device_event_8h.html#aef1c7e674b01ee668caab41f66047360", [
       [ "kActivity_NoChange", "_c_h_i_p_device_event_8h.html#aef1c7e674b01ee668caab41f66047360aba647c810b46df0c200cfd759477d641", null ],
       [ "kActivity_Started", "_c_h_i_p_device_event_8h.html#aef1c7e674b01ee668caab41f66047360ae5aafdda0e581c55d63114c56a52c6d2", null ],

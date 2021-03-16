@@ -1,0 +1,6 @@
+<map id="chip::System::PacketBufferHandle::HasSoleOwnership" name="chip::System::PacketBufferHandle::HasSoleOwnership">
+<area shape="rect" id="node1" title="Test whether the PacketBuffer owned by this PacketBufferHandle has unique ownership." alt="" coords="451,39,649,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="228,39,403,80"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,5,169,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,71,180,112"/>
+</map>

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">cf7aa2d</span>
+   &#160;<span id="projectnumber">01ac216</span>
    </div>
   </td>
  </tr>
@@ -94,17 +94,23 @@ $(document).ready(function(){initNavTree('efr32-chip-mbedtls-config_8h.html','')
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &quot;em_device.h&quot;</code><br />
 <code>#include &quot;em_se.h&quot;</code><br />
+<code>#include &quot;sl_malloc.h&quot;</code><br />
+<code>#include &quot;config-device-acceleration.h&quot;</code><br />
+<code>#include &quot;mbedtls/check_config.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for efr32-chip-mbedtls-config.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="efr32-chip-mbedtls-config_8h__incl.png" border="0" usemap="#platform_2_e_f_r32_2efr32-chip-mbedtls-config_8h" alt=""/></div>
 <map name="platform_2_e_f_r32_2efr32-chip-mbedtls-config_8h" id="platform_2_e_f_r32_2efr32-chip-mbedtls-config_8h">
-<area shape="rect" title=" " alt="" coords="143,5,311,47"/>
+<area shape="rect" title=" " alt="" coords="313,5,481,47"/>
 <area shape="rect" title=" " alt="" coords="5,95,76,121"/>
 <area shape="rect" title=" " alt="" coords="101,95,167,121"/>
 <area shape="rect" title=" " alt="" coords="192,95,263,121"/>
 <area shape="rect" title=" " alt="" coords="287,95,392,121"/>
 <area shape="rect" title=" " alt="" coords="415,95,493,121"/>
+<area shape="rect" title=" " alt="" coords="517,95,613,121"/>
+<area shape="rect" title=" " alt="" coords="637,95,844,121"/>
+<area shape="rect" title=" " alt="" coords="868,95,1043,121"/>
 </map>
 </div>
 </div>
@@ -136,8 +142,6 @@ Macros</h2></td></tr>
 <tr class="separator:a5bc21fd94f62fae79688ad096ef5c2d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3559847374ce3d83352e832154e26fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ac3559847374ce3d83352e832154e26fe">MBEDTLS_TRNG_C</a></td></tr>
 <tr class="separator:ac3559847374ce3d83352e832154e26fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa26fe7f0ff88b6531a7bd48825ad9356"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#aa26fe7f0ff88b6531a7bd48825ad9356">MBEDTLS_AES_ALT</a></td></tr>
-<tr class="separator:aa26fe7f0ff88b6531a7bd48825ad9356"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94cdd3a9ed91c6a2cc936916bab43806"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a94cdd3a9ed91c6a2cc936916bab43806">MBEDTLS_PLATFORM_SNPRINTF_MACRO</a>&#160;&#160;&#160;snprintf</td></tr>
 <tr class="separator:a94cdd3a9ed91c6a2cc936916bab43806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0aaa3f0466b5ae15ff9bf176f632a3d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#aa0aaa3f0466b5ae15ff9bf176f632a3d">MBEDTLS_AES_ROM_TABLES</a></td></tr>
@@ -146,78 +150,122 @@ Macros</h2></td></tr>
 <tr class="separator:ab6d2cedeb9ad2d5f11e008708c922a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79098f46901a7da949424ca81fcb4be2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a79098f46901a7da949424ca81fcb4be2">MBEDTLS_ASN1_WRITE_C</a></td></tr>
 <tr class="separator:a79098f46901a7da949424ca81fcb4be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95e58aa3f6b5391f9fc423b3809cf9a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4">MBEDTLS_BASE64_C</a></td></tr>
+<tr class="separator:a95e58aa3f6b5391f9fc423b3809cf9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cceb2b05fcbf777d24948d63a1aa74c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a1cceb2b05fcbf777d24948d63a1aa74c">MBEDTLS_BIGNUM_C</a></td></tr>
 <tr class="separator:a1cceb2b05fcbf777d24948d63a1aa74c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1b8731adc061cf1cc1826035e32e941"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#af1b8731adc061cf1cc1826035e32e941">MBEDTLS_CCM_C</a></td></tr>
 <tr class="separator:af1b8731adc061cf1cc1826035e32e941"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a186eda38ce80f484524f3f12de2923"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a4a186eda38ce80f484524f3f12de2923">MBEDTLS_CIPHER_C</a></td></tr>
 <tr class="separator:a4a186eda38ce80f484524f3f12de2923"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0290beb1dc98ac21d930144d34ae2d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ae0290beb1dc98ac21d930144d34ae2d0">MBEDTLS_CIPHER_MODE_CBC</a></td></tr>
+<tr class="separator:ae0290beb1dc98ac21d930144d34ae2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bd3991e40ebd9db3b29ba327f4e6d54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a0bd3991e40ebd9db3b29ba327f4e6d54">MBEDTLS_CIPHER_MODE_CFB</a></td></tr>
+<tr class="separator:a0bd3991e40ebd9db3b29ba327f4e6d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44adbf6ab596bdbcff486313978eee04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a44adbf6ab596bdbcff486313978eee04">MBEDTLS_CMAC_C</a></td></tr>
 <tr class="separator:a44adbf6ab596bdbcff486313978eee04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a493cf54dbd2c093c8541b1ad106436e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a493cf54dbd2c093c8541b1ad106436e9">MBEDTLS_CTR_DRBG_C</a></td></tr>
 <tr class="separator:a493cf54dbd2c093c8541b1ad106436e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34142af6045ce51995f621c5f7648f31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a34142af6045ce51995f621c5f7648f31">MBEDTLS_ECDH_LEGACY_CONTEXT</a></td></tr>
+<tr class="separator:a34142af6045ce51995f621c5f7648f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5796bd242fe0f33d66f9e2cc3c2b490"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ac5796bd242fe0f33d66f9e2cc3c2b490">MBEDTLS_ECDSA_C</a></td></tr>
+<tr class="separator:ac5796bd242fe0f33d66f9e2cc3c2b490"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4c97c30b6084ceb60392781b93c9f58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#af4c97c30b6084ceb60392781b93c9f58">MBEDTLS_ECJPAKE_C</a></td></tr>
 <tr class="separator:af4c97c30b6084ceb60392781b93c9f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7661e25bab8f0e87060ee05f1216fe4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#aa7661e25bab8f0e87060ee05f1216fe4">MBEDTLS_ECP_DP_SECP256R1_ENABLED</a></td></tr>
 <tr class="separator:aa7661e25bab8f0e87060ee05f1216fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c2a0ec24ee2e843114131f1087653cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a6c2a0ec24ee2e843114131f1087653cf">MBEDTLS_ECP_NIST_OPTIM</a></td></tr>
 <tr class="separator:a6c2a0ec24ee2e843114131f1087653cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0afc8d757b975eaa78d7a2052348f084"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a0afc8d757b975eaa78d7a2052348f084">MBEDTLS_ENTROPY_FORCE_SHA256</a></td></tr>
+<tr class="separator:a0afc8d757b975eaa78d7a2052348f084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a0f22be83a0b34bd8e8251b77a680a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a1a0f22be83a0b34bd8e8251b77a680a0">MBEDTLS_ENTROPY_HARDWARE_ALT</a></td></tr>
 <tr class="separator:a1a0f22be83a0b34bd8e8251b77a680a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6382cfe1b528f3382248b1d746418865"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a6382cfe1b528f3382248b1d746418865">MBEDTLS_ERROR_STRERROR_DUMMY</a></td></tr>
+<tr class="separator:a6382cfe1b528f3382248b1d746418865"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eb06bd9262371cafc5e51e40285d4bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a6eb06bd9262371cafc5e51e40285d4bb">MBEDTLS_HAVE_ASM</a></td></tr>
 <tr class="separator:a6eb06bd9262371cafc5e51e40285d4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa046c86ba7c3101e5128ccac09128a71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#aa046c86ba7c3101e5128ccac09128a71">MBEDTLS_HKDF_C</a></td></tr>
+<tr class="separator:aa046c86ba7c3101e5128ccac09128a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ddaec887496f6a2b18975d52afc87d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a3ddaec887496f6a2b18975d52afc87d5">MBEDTLS_HMAC_DRBG_C</a></td></tr>
 <tr class="separator:a3ddaec887496f6a2b18975d52afc87d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ad52b9c597d50d6bab1557e96dd2e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a17ad52b9c597d50d6bab1557e96dd2e2">MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED</a></td></tr>
+<tr class="separator:a17ad52b9c597d50d6bab1557e96dd2e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9580ac865324c142232c3e0bc654e14"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ac9580ac865324c142232c3e0bc654e14">MBEDTLS_KEY_EXCHANGE_ECJPAKE_ENABLED</a></td></tr>
 <tr class="separator:ac9580ac865324c142232c3e0bc654e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad40b43f5e34794970572576ef3984bae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ad40b43f5e34794970572576ef3984bae">MBEDTLS_KEY_EXCHANGE_PSK_ENABLED</a></td></tr>
+<tr class="separator:ad40b43f5e34794970572576ef3984bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17195cf7384dbcab5bae3f1d2971fb03"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a17195cf7384dbcab5bae3f1d2971fb03">MBEDTLS_MD_C</a></td></tr>
 <tr class="separator:a17195cf7384dbcab5bae3f1d2971fb03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50fe70e2e5da2dda496e0432261136a5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a50fe70e2e5da2dda496e0432261136a5">MBEDTLS_NO_PLATFORM_ENTROPY</a></td></tr>
 <tr class="separator:a50fe70e2e5da2dda496e0432261136a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0960129d0cf6e043a1cbc7c41d7c2297"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a0960129d0cf6e043a1cbc7c41d7c2297">MBEDTLS_OID_C</a></td></tr>
+<tr class="separator:a0960129d0cf6e043a1cbc7c41d7c2297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac90a92552ac2f87c701b24857fd6d4c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ac90a92552ac2f87c701b24857fd6d4c1">MBEDTLS_PEM_PARSE_C</a></td></tr>
+<tr class="separator:ac90a92552ac2f87c701b24857fd6d4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f285fd8cf87b2169373154d219011a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a6f285fd8cf87b2169373154d219011a6">MBEDTLS_PEM_WRITE_C</a></td></tr>
+<tr class="separator:a6f285fd8cf87b2169373154d219011a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dcc79b4e757e34d2a625470fb016e18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a0dcc79b4e757e34d2a625470fb016e18">MBEDTLS_PK_C</a></td></tr>
 <tr class="separator:a0dcc79b4e757e34d2a625470fb016e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09eefef8f4562ba86a9c7a47c114ddaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a09eefef8f4562ba86a9c7a47c114ddaa">MBEDTLS_PK_PARSE_C</a></td></tr>
 <tr class="separator:a09eefef8f4562ba86a9c7a47c114ddaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ec5fb843794dcbfa6e27e5b62bd1c29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a6ec5fb843794dcbfa6e27e5b62bd1c29">MBEDTLS_PK_WRITE_C</a></td></tr>
 <tr class="separator:a6ec5fb843794dcbfa6e27e5b62bd1c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9853334811c4e2220fb5c6266e908e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a2d9853334811c4e2220fb5c6266e908e">MBEDTLS_PKCS5_C</a></td></tr>
+<tr class="separator:a2d9853334811c4e2220fb5c6266e908e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a756fb086e76be2a76954beb682195a49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a756fb086e76be2a76954beb682195a49">MBEDTLS_PLATFORM_C</a></td></tr>
 <tr class="separator:a756fb086e76be2a76954beb682195a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae58dba1b4a4c30f8c4d2f0e6080351af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ae58dba1b4a4c30f8c4d2f0e6080351af">MBEDTLS_PLATFORM_MEMORY</a></td></tr>
 <tr class="separator:ae58dba1b4a4c30f8c4d2f0e6080351af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a177299909ee6cd36ec008af9c0e617ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a177299909ee6cd36ec008af9c0e617ff">MBEDTLS_PLATFORM_NO_STD_FUNCTIONS</a></td></tr>
 <tr class="separator:a177299909ee6cd36ec008af9c0e617ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7035fab808a098a76627fb4d466e3b21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a7035fab808a098a76627fb4d466e3b21">MBEDTLS_PSA_CRYPTO_C</a></td></tr>
+<tr class="separator:a7035fab808a098a76627fb4d466e3b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aca5ddcffb586acad82f9aef26db056"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a5aca5ddcffb586acad82f9aef26db056">MBEDTLS_PSA_CRYPTO_CONFIG</a></td></tr>
+<tr class="separator:a5aca5ddcffb586acad82f9aef26db056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f6d6369059fe812bf4f55714d09e1d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a8f6d6369059fe812bf4f55714d09e1d8">MBEDTLS_PSA_CRYPTO_DRIVERS</a></td></tr>
+<tr class="separator:a8f6d6369059fe812bf4f55714d09e1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bd8bee51fb122e552a4cbc1bbdb0b96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a1bd8bee51fb122e552a4cbc1bbdb0b96">MBEDTLS_PSA_CRYPTO_BUILTIN_KEYS</a></td></tr>
+<tr class="separator:a1bd8bee51fb122e552a4cbc1bbdb0b96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6762bbebb75d81d4a3dc663bf948b75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ac6762bbebb75d81d4a3dc663bf948b75">MBEDTLS_PSA_CRYPTO_STORAGE_C</a></td></tr>
+<tr class="separator:ac6762bbebb75d81d4a3dc663bf948b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37056e26ff582813ab505fa8e59287b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a37056e26ff582813ab505fa8e59287b6">MBEDTLS_SHA256_SMALLER</a></td></tr>
 <tr class="separator:a37056e26ff582813ab505fa8e59287b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb76d28ffd9734d3643df457857a4424"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#adb76d28ffd9734d3643df457857a4424">MBEDTLS_SHA512_C</a></td></tr>
+<tr class="separator:adb76d28ffd9734d3643df457857a4424"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38112435a93c8cf0e9c9e9c15cb3f516"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a38112435a93c8cf0e9c9e9c15cb3f516">MBEDTLS_SSL_CLI_C</a></td></tr>
 <tr class="separator:a38112435a93c8cf0e9c9e9c15cb3f516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c1e2c54608878fd46c1d72880eed9d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a5c1e2c54608878fd46c1d72880eed9d9">MBEDTLS_SSL_COOKIE_C</a></td></tr>
+<tr class="separator:a5c1e2c54608878fd46c1d72880eed9d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a74b34386b00896b50e2809d2b5bbfc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a3a74b34386b00896b50e2809d2b5bbfc">MBEDTLS_SSL_DTLS_ANTI_REPLAY</a></td></tr>
 <tr class="separator:a3a74b34386b00896b50e2809d2b5bbfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad60d011e349df1b96ef40ee48619699d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ad60d011e349df1b96ef40ee48619699d">MBEDTLS_SSL_DTLS_HELLO_VERIFY</a></td></tr>
 <tr class="separator:ad60d011e349df1b96ef40ee48619699d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19bd05cfdb812a81e4727a679e5d5472"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a19bd05cfdb812a81e4727a679e5d5472">MBEDTLS_SSL_EXPORT_KEYS</a></td></tr>
 <tr class="separator:a19bd05cfdb812a81e4727a679e5d5472"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46bbbec93735b6d601991c5ff22b767"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ae46bbbec93735b6d601991c5ff22b767">MBEDTLS_SSL_KEEP_PEER_CERTIFICATE</a></td></tr>
+<tr class="separator:ae46bbbec93735b6d601991c5ff22b767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82777395be62d667a657dc1372d6b975"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a82777395be62d667a657dc1372d6b975">MBEDTLS_SSL_MAX_FRAGMENT_LENGTH</a></td></tr>
 <tr class="separator:a82777395be62d667a657dc1372d6b975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a7aca10569198cf8e8dbff1c40677c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a8a7aca10569198cf8e8dbff1c40677c6">MBEDTLS_SSL_PROTO_TLS1_2</a></td></tr>
 <tr class="separator:a8a7aca10569198cf8e8dbff1c40677c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7a9f2592e4e3475274a18b561e086ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ad7a9f2592e4e3475274a18b561e086ce">MBEDTLS_SSL_PROTO_DTLS</a></td></tr>
 <tr class="separator:ad7a9f2592e4e3475274a18b561e086ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a311e2a994e4e5f25b550e170ca9605e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a311e2a994e4e5f25b550e170ca9605e0">MBEDTLS_SSL_SRV_C</a></td></tr>
+<tr class="separator:a311e2a994e4e5f25b550e170ca9605e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85f2821433dbf22916e865a49f2652df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a85f2821433dbf22916e865a49f2652df">MBEDTLS_SSL_TLS_C</a></td></tr>
 <tr class="separator:a85f2821433dbf22916e865a49f2652df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6382cfe1b528f3382248b1d746418865"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a6382cfe1b528f3382248b1d746418865">MBEDTLS_ERROR_STRERROR_DUMMY</a></td></tr>
-<tr class="separator:a6382cfe1b528f3382248b1d746418865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa046c86ba7c3101e5128ccac09128a71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#aa046c86ba7c3101e5128ccac09128a71">MBEDTLS_HKDF_C</a></td></tr>
-<tr class="separator:aa046c86ba7c3101e5128ccac09128a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada343519ead4d60568eeda89b8b2e38d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ada343519ead4d60568eeda89b8b2e38d">MBEDTLS_X509_CREATE_C</a></td></tr>
 <tr class="separator:ada343519ead4d60568eeda89b8b2e38d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2aabd723030209c1eba787c33143f05a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a2aabd723030209c1eba787c33143f05a">MBEDTLS_X509_CSR_WRITE_C</a></td></tr>
 <tr class="separator:a2aabd723030209c1eba787c33143f05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95e58aa3f6b5391f9fc423b3809cf9a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a95e58aa3f6b5391f9fc423b3809cf9a4">MBEDTLS_BASE64_C</a></td></tr>
-<tr class="separator:a95e58aa3f6b5391f9fc423b3809cf9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f285fd8cf87b2169373154d219011a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a6f285fd8cf87b2169373154d219011a6">MBEDTLS_PEM_WRITE_C</a></td></tr>
-<tr class="separator:a6f285fd8cf87b2169373154d219011a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d9853334811c4e2220fb5c6266e908e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a2d9853334811c4e2220fb5c6266e908e">MBEDTLS_PKCS5_C</a></td></tr>
-<tr class="separator:a2d9853334811c4e2220fb5c6266e908e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5a3f68b02887cc6df09d6eb1730b697"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ad5a3f68b02887cc6df09d6eb1730b697">MBEDTLS_X509_CRL_PARSE_C</a></td></tr>
+<tr class="separator:ad5a3f68b02887cc6df09d6eb1730b697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a813d4cf0b3fc03db0f9dbec52ba04b40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a813d4cf0b3fc03db0f9dbec52ba04b40">MBEDTLS_X509_CRT_PARSE_C</a></td></tr>
+<tr class="separator:a813d4cf0b3fc03db0f9dbec52ba04b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c71c72a85d3974200c96795c991d14e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a9c71c72a85d3974200c96795c991d14e">MBEDTLS_X509_CSR_PARSE_C</a></td></tr>
+<tr class="separator:a9c71c72a85d3974200c96795c991d14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad377c385a02385defbd866a5b190bba8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ad377c385a02385defbd866a5b190bba8">MBEDTLS_X509_USE_C</a></td></tr>
+<tr class="separator:ad377c385a02385defbd866a5b190bba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cec1de79c434f1053488b1d3b9454c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a7cec1de79c434f1053488b1d3b9454c4">MBEDTLS_MPI_WINDOW_SIZE</a>&#160;&#160;&#160;1</td></tr>
 <tr class="memdesc:a7cec1de79c434f1053488b1d3b9454c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum windows size used.  <a href="efr32-chip-mbedtls-config_8h.html#a7cec1de79c434f1053488b1d3b9454c4">More...</a><br /></td></tr>
 <tr class="separator:a7cec1de79c434f1053488b1d3b9454c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,13 +281,13 @@ Macros</h2></td></tr>
 <tr class="memitem:ab5f2493612bbc9538cb749e85c5e46af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#ab5f2493612bbc9538cb749e85c5e46af">MBEDTLS_ECP_FIXED_POINT_OPTIM</a>&#160;&#160;&#160;0</td></tr>
 <tr class="memdesc:ab5f2493612bbc9538cb749e85c5e46af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable fixed-point speed-up.  <a href="efr32-chip-mbedtls-config_8h.html#ab5f2493612bbc9538cb749e85c5e46af">More...</a><br /></td></tr>
 <tr class="separator:ab5f2493612bbc9538cb749e85c5e46af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819aa4f3046aa257738f0dafe481ca1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a819aa4f3046aa257738f0dafe481ca1f">MBEDTLS_ENTROPY_MAX_SOURCES</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memitem:a819aa4f3046aa257738f0dafe481ca1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a819aa4f3046aa257738f0dafe481ca1f">MBEDTLS_ENTROPY_MAX_SOURCES</a>&#160;&#160;&#160;2</td></tr>
 <tr class="memdesc:a819aa4f3046aa257738f0dafe481ca1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of sources supported.  <a href="efr32-chip-mbedtls-config_8h.html#a819aa4f3046aa257738f0dafe481ca1f">More...</a><br /></td></tr>
 <tr class="separator:a819aa4f3046aa257738f0dafe481ca1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e7b93e4a92624d51bc7cbdc04723a05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a9e7b93e4a92624d51bc7cbdc04723a05">MBEDTLS_PLATFORM_STD_CALLOC</a>&#160;&#160;&#160;calloc</td></tr>
+<tr class="memitem:a9e7b93e4a92624d51bc7cbdc04723a05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a9e7b93e4a92624d51bc7cbdc04723a05">MBEDTLS_PLATFORM_STD_CALLOC</a>&#160;&#160;&#160;sl_calloc</td></tr>
 <tr class="memdesc:a9e7b93e4a92624d51bc7cbdc04723a05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default allocator to use, can be undefined.  <a href="efr32-chip-mbedtls-config_8h.html#a9e7b93e4a92624d51bc7cbdc04723a05">More...</a><br /></td></tr>
 <tr class="separator:a9e7b93e4a92624d51bc7cbdc04723a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2abc88498566e351dc97660f5aecf46c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a2abc88498566e351dc97660f5aecf46c">MBEDTLS_PLATFORM_STD_FREE</a>&#160;&#160;&#160;free</td></tr>
+<tr class="memitem:a2abc88498566e351dc97660f5aecf46c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a2abc88498566e351dc97660f5aecf46c">MBEDTLS_PLATFORM_STD_FREE</a>&#160;&#160;&#160;sl_free</td></tr>
 <tr class="memdesc:a2abc88498566e351dc97660f5aecf46c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default free to use, can be undefined.  <a href="efr32-chip-mbedtls-config_8h.html#a2abc88498566e351dc97660f5aecf46c">More...</a><br /></td></tr>
 <tr class="separator:a2abc88498566e351dc97660f5aecf46c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a5b73bae4d762a05684812ad6c6b1b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="efr32-chip-mbedtls-config_8h.html#a4a5b73bae4d762a05684812ad6c6b1b2">MBEDTLS_SSL_MAX_CONTENT_LEN</a>&#160;&#160;&#160;768</td></tr>
@@ -249,23 +297,6 @@ Macros</h2></td></tr>
 <tr class="separator:a3ab9b922c4f1ba4511d7c4f5ef2b2e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa26fe7f0ff88b6531a7bd48825ad9356"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa26fe7f0ff88b6531a7bd48825ad9356">&#9670;&nbsp;</a></span>MBEDTLS_AES_ALT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MBEDTLS_AES_ALT</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Enable hardware acceleration for the AES block cipher</p>
-<p>Module: sl_crypto/src/crypto_aes.c for devices with CRYPTO sl_crypto/src/aes_aes.c for devices with AES</p>
-<p>See MBEDTLS_AES_C for more information. </p>
-
-</div>
-</div>
 <a id="a54a11655ee76cbd7b4d8b159e377adef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a54a11655ee76cbd7b4d8b159e377adef">&#9670;&nbsp;</a></span>MBEDTLS_AES_C</h2>
 
@@ -380,6 +411,34 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="ae0290beb1dc98ac21d930144d34ae2d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0290beb1dc98ac21d930144d34ae2d0">&#9670;&nbsp;</a></span>MBEDTLS_CIPHER_MODE_CBC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_CIPHER_MODE_CBC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bd3991e40ebd9db3b29ba327f4e6d54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd3991e40ebd9db3b29ba327f4e6d54">&#9670;&nbsp;</a></span>MBEDTLS_CIPHER_MODE_CFB</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_CIPHER_MODE_CFB</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5bc21fd94f62fae79688ad096ef5c2d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5bc21fd94f62fae79688ad096ef5c2d8">&#9670;&nbsp;</a></span>MBEDTLS_CIPHER_MODE_CTR</h2>
 
@@ -430,6 +489,34 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MBEDTLS_ECDH_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34142af6045ce51995f621c5f7648f31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34142af6045ce51995f621c5f7648f31">&#9670;&nbsp;</a></span>MBEDTLS_ECDH_LEGACY_CONTEXT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_ECDH_LEGACY_CONTEXT</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac5796bd242fe0f33d66f9e2cc3c2b490"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5796bd242fe0f33d66f9e2cc3c2b490">&#9670;&nbsp;</a></span>MBEDTLS_ECDSA_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_ECDSA_C</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -554,6 +641,20 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a0afc8d757b975eaa78d7a2052348f084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0afc8d757b975eaa78d7a2052348f084">&#9670;&nbsp;</a></span>MBEDTLS_ENTROPY_FORCE_SHA256</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_ENTROPY_FORCE_SHA256</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1a0f22be83a0b34bd8e8251b77a680a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a0f22be83a0b34bd8e8251b77a680a0">&#9670;&nbsp;</a></span>MBEDTLS_ENTROPY_HARDWARE_ALT</h2>
 
@@ -575,7 +676,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MBEDTLS_ENTROPY_MAX_SOURCES&#160;&#160;&#160;1</td>
+          <td class="memname">#define MBEDTLS_ENTROPY_MAX_SOURCES&#160;&#160;&#160;2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -656,6 +757,20 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a17ad52b9c597d50d6bab1557e96dd2e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ad52b9c597d50d6bab1557e96dd2e2">&#9670;&nbsp;</a></span>MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac9580ac865324c142232c3e0bc654e14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9580ac865324c142232c3e0bc654e14">&#9670;&nbsp;</a></span>MBEDTLS_KEY_EXCHANGE_ECJPAKE_ENABLED</h2>
 
@@ -664,6 +779,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MBEDTLS_KEY_EXCHANGE_ECJPAKE_ENABLED</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad40b43f5e34794970572576ef3984bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad40b43f5e34794970572576ef3984bae">&#9670;&nbsp;</a></span>MBEDTLS_KEY_EXCHANGE_PSK_ENABLED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_KEY_EXCHANGE_PSK_ENABLED</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -724,6 +853,34 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MBEDTLS_NO_PLATFORM_ENTROPY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0960129d0cf6e043a1cbc7c41d7c2297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0960129d0cf6e043a1cbc7c41d7c2297">&#9670;&nbsp;</a></span>MBEDTLS_OID_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_OID_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac90a92552ac2f87c701b24857fd6d4c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac90a92552ac2f87c701b24857fd6d4c1">&#9670;&nbsp;</a></span>MBEDTLS_PEM_PARSE_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_PEM_PARSE_C</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -863,7 +1020,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MBEDTLS_PLATFORM_STD_CALLOC&#160;&#160;&#160;calloc</td>
+          <td class="memname">#define MBEDTLS_PLATFORM_STD_CALLOC&#160;&#160;&#160;sl_calloc</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -879,12 +1036,82 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MBEDTLS_PLATFORM_STD_FREE&#160;&#160;&#160;free</td>
+          <td class="memname">#define MBEDTLS_PLATFORM_STD_FREE&#160;&#160;&#160;sl_free</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Default free to use, can be undefined. </p>
+
+</div>
+</div>
+<a id="a1bd8bee51fb122e552a4cbc1bbdb0b96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bd8bee51fb122e552a4cbc1bbdb0b96">&#9670;&nbsp;</a></span>MBEDTLS_PSA_CRYPTO_BUILTIN_KEYS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_PSA_CRYPTO_BUILTIN_KEYS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7035fab808a098a76627fb4d466e3b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7035fab808a098a76627fb4d466e3b21">&#9670;&nbsp;</a></span>MBEDTLS_PSA_CRYPTO_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_PSA_CRYPTO_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5aca5ddcffb586acad82f9aef26db056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aca5ddcffb586acad82f9aef26db056">&#9670;&nbsp;</a></span>MBEDTLS_PSA_CRYPTO_CONFIG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_PSA_CRYPTO_CONFIG</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8f6d6369059fe812bf4f55714d09e1d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6d6369059fe812bf4f55714d09e1d8">&#9670;&nbsp;</a></span>MBEDTLS_PSA_CRYPTO_DRIVERS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_PSA_CRYPTO_DRIVERS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6762bbebb75d81d4a3dc663bf948b75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6762bbebb75d81d4a3dc663bf948b75">&#9670;&nbsp;</a></span>MBEDTLS_PSA_CRYPTO_STORAGE_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_PSA_CRYPTO_STORAGE_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -916,6 +1143,20 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="adb76d28ffd9734d3643df457857a4424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb76d28ffd9734d3643df457857a4424">&#9670;&nbsp;</a></span>MBEDTLS_SHA512_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_SHA512_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3ab9b922c4f1ba4511d7c4f5ef2b2e69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3ab9b922c4f1ba4511d7c4f5ef2b2e69">&#9670;&nbsp;</a></span>MBEDTLS_SSL_CIPHERSUITES</h2>
 
@@ -938,6 +1179,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MBEDTLS_SSL_CLI_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c1e2c54608878fd46c1d72880eed9d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c1e2c54608878fd46c1d72880eed9d9">&#9670;&nbsp;</a></span>MBEDTLS_SSL_COOKIE_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_SSL_COOKIE_C</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -980,6 +1235,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MBEDTLS_SSL_EXPORT_KEYS</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae46bbbec93735b6d601991c5ff22b767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46bbbec93735b6d601991c5ff22b767">&#9670;&nbsp;</a></span>MBEDTLS_SSL_KEEP_PEER_CERTIFICATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_SSL_KEEP_PEER_CERTIFICATE</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1038,6 +1307,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MBEDTLS_SSL_PROTO_TLS1_2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a311e2a994e4e5f25b550e170ca9605e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a311e2a994e4e5f25b550e170ca9605e0">&#9670;&nbsp;</a></span>MBEDTLS_SSL_SRV_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_SSL_SRV_C</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1114,6 +1397,48 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="ad5a3f68b02887cc6df09d6eb1730b697"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5a3f68b02887cc6df09d6eb1730b697">&#9670;&nbsp;</a></span>MBEDTLS_X509_CRL_PARSE_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_X509_CRL_PARSE_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a813d4cf0b3fc03db0f9dbec52ba04b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a813d4cf0b3fc03db0f9dbec52ba04b40">&#9670;&nbsp;</a></span>MBEDTLS_X509_CRT_PARSE_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_X509_CRT_PARSE_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9c71c72a85d3974200c96795c991d14e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c71c72a85d3974200c96795c991d14e">&#9670;&nbsp;</a></span>MBEDTLS_X509_CSR_PARSE_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_X509_CSR_PARSE_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2aabd723030209c1eba787c33143f05a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2aabd723030209c1eba787c33143f05a">&#9670;&nbsp;</a></span>MBEDTLS_X509_CSR_WRITE_C</h2>
 
@@ -1122,6 +1447,20 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MBEDTLS_X509_CSR_WRITE_C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad377c385a02385defbd866a5b190bba8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad377c385a02385defbd866a5b190bba8">&#9670;&nbsp;</a></span>MBEDTLS_X509_USE_C</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MBEDTLS_X509_USE_C</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1148,7 +1487,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_e35fa8df61d0eca1a5c0776eb4996f5b.html">EFR32</a></li><li class="navelem"><a class="el" href="efr32-chip-mbedtls-config_8h.html">efr32-chip-mbedtls-config.h</a></li>
-    <li class="footer">Generated on Mon Mar 15 2021 18:21:55 for Connected Home over IP by
+    <li class="footer">Generated on Tue Mar 16 2021 17:59:23 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

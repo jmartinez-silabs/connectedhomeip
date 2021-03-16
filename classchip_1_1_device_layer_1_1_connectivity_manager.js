@@ -106,10 +106,8 @@ var classchip_1_1_device_layer_1_1_connectivity_manager =
     [ "WiFiAPStateToStr", "classchip_1_1_device_layer_1_1_connectivity_manager.html#aa92fb01b1af877583963babff28e31da", null ],
     [ "WiFiStationModeToStr", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a57d8be43566dd6d1f900edc96223cd8e", null ],
     [ "WiFiStationStateToStr", "classchip_1_1_device_layer_1_1_connectivity_manager.html#acac39af5bfc96a4f2d200b39559ed9fa", null ],
-    [ "Internal::GenericNetworkProvisioningServerImpl", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a63781c925ec355c4c11a425791eaf00a", null ],
     [ "Internal::GenericPlatformManagerImpl", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a929b8c50e573b52988f41760a0377430", null ],
     [ "Internal::GenericPlatformManagerImpl_FreeRTOS", "classchip_1_1_device_layer_1_1_connectivity_manager.html#aab4efedc666ea89b201be84c10faee9d", null ],
     [ "Internal::GenericPlatformManagerImpl_POSIX", "classchip_1_1_device_layer_1_1_connectivity_manager.html#ae442cfbf06ded6604c83e41b66654d80", null ],
-    [ "Internal::NetworkProvisioningServerImpl", "classchip_1_1_device_layer_1_1_connectivity_manager.html#aa398f5dda0995fa82b534d46240a90cf", null ],
     [ "PlatformManagerImpl", "classchip_1_1_device_layer_1_1_connectivity_manager.html#ac31a0df4105578f7404846c15568b820", null ]
 ];

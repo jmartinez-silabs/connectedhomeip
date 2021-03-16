@@ -1,6 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___free_r_t_o_s.html" title=" " alt="" coords="5,5,279,76"/>
-<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html" title="Concrete implementation of the ThreadStackManager singleton object for CC1352." alt="" coords="327,115,516,156"/>
-<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html" title=" " alt="" coords="27,100,257,171"/>
-<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_thread_stack_manager.html" title="Provides features for initializing and interacting with the Thread stack on a chip&#45;enabled device." alt="" coords="62,195,222,236"/>
+<area shape="rect" id="node1" href="$classchip_1_1_encoding_1_1_buffer_writer.html" title=" " alt="" coords="5,46,208,73"/>
+<area shape="rect" id="node2" href="$classchip_1_1_encoding_1_1_endian_buffer_writer_base.html" title=" " alt="" coords="256,5,463,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_encoding_1_1_endian_buffer_writer_base.html" title=" " alt="" coords="256,71,463,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_encoding_1_1_big_endian_1_1_buffer_writer.html" title=" " alt="" coords="517,37,706,79"/>
+<area shape="rect" id="node5" href="$classchip_1_1_encoding_1_1_little_endian_1_1_buffer_writer.html" title=" " alt="" coords="511,103,712,144"/>
 </map>

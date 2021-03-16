@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structchip_1_1_ble_1_1_chip_ble_u_u_i_d.html" title=" " alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node1" href="$classchip_1_1_callback_1_1_cancelable.html" title=" " alt="" coords="5,35,199,61"/>
+<area shape="rect" id="node2" href="$classchip_1_1_callback_1_1_callback.html" title=" " alt="" coords="247,5,461,32"/>
+<area shape="rect" id="node3" href="$classchip_1_1_callback_1_1_callback_deque.html" title="core of a simple doubly&#45;linked list Callback keeper&#45;tracker&#45;of" alt="" coords="265,57,443,98"/>
 </map>

@@ -1,6 +1,5 @@
 var _connectivity_manager_8h =
 [
-    [ "GenericNetworkProvisioningServerImpl", "classchip_1_1_device_layer_1_1_internal_1_1_generic_network_provisioning_server_impl.html", "classchip_1_1_device_layer_1_1_internal_1_1_generic_network_provisioning_server_impl" ],
     [ "GenericPlatformManagerImpl", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl" ],
     [ "GenericPlatformManagerImpl_FreeRTOS", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___free_r_t_o_s.html", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___free_r_t_o_s" ],
     [ "GenericPlatformManagerImpl_POSIX", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x" ],

@@ -1,5 +1,4 @@
 <map id="chip::Controller::DeviceStatusDelegate" name="chip::Controller::DeviceStatusDelegate">
-<area shape="rect" id="node1" title="This class defines an interface for an object that the user of Device can register as a delegate." alt="" coords="149,5,324,47"/>
-<area shape="rect" id="node2" href="$class_android_device_controller_wrapper.html" title="This class contains all relevant information for the JNI view of CHIPDeviceController to handle all c..." alt="" coords="5,102,241,129"/>
-<area shape="rect" id="node3" href="$classchip_1_1_device_controller_1_1_chip_device_controller.html" title=" " alt="" coords="266,95,434,136"/>
+<area shape="rect" id="node1" title="This class defines an interface for an object that the user of Device can register as a delegate." alt="" coords="36,5,211,47"/>
+<area shape="rect" id="node2" href="$class_android_device_controller_wrapper.html" title="This class contains all relevant information for the JNI view of CHIPDeviceController to handle all c..." alt="" coords="5,95,241,121"/>
 </map>

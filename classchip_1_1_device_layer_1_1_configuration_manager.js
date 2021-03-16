@@ -1,8 +1,8 @@
 var classchip_1_1_device_layer_1_1_configuration_manager =
 [
-    [ "kMaxPairingCodeLength", "classchip_1_1_device_layer_1_1_configuration_manager.html#a6830ac9fa04c0d1933f2a9b10ebdbaf8afd20c9719e911bfaafa01b594d3f1588", null ],
-    [ "kMaxSerialNumberLength", "classchip_1_1_device_layer_1_1_configuration_manager.html#a6830ac9fa04c0d1933f2a9b10ebdbaf8a7c2a670b831e94eae3ac49a1cc24a39d", null ],
-    [ "kMaxFirmwareRevisionLength", "classchip_1_1_device_layer_1_1_configuration_manager.html#a6830ac9fa04c0d1933f2a9b10ebdbaf8a1959794187cfbaf76d49fd04e5fc202f", null ],
+    [ "kMaxPairingCodeLength", "classchip_1_1_device_layer_1_1_configuration_manager.html#acbec5e0e0f625efcf301978b0eef2a40afd20c9719e911bfaafa01b594d3f1588", null ],
+    [ "kMaxSerialNumberLength", "classchip_1_1_device_layer_1_1_configuration_manager.html#acbec5e0e0f625efcf301978b0eef2a40a7c2a670b831e94eae3ac49a1cc24a39d", null ],
+    [ "kMaxFirmwareRevisionLength", "classchip_1_1_device_layer_1_1_configuration_manager.html#acbec5e0e0f625efcf301978b0eef2a40a1959794187cfbaf76d49fd04e5fc202f", null ],
     [ "ConfigurationManager", "classchip_1_1_device_layer_1_1_configuration_manager.html#a730fc6b99fee6133a7747135025035fd", null ],
     [ "~ConfigurationManager", "classchip_1_1_device_layer_1_1_configuration_manager.html#add141340c02d6a2d37345cdd0ba12a2d", null ],
     [ "ConfigurationManager", "classchip_1_1_device_layer_1_1_configuration_manager.html#a27b362e570c25886b468851cfb9d0f23", null ],

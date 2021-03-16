@@ -1,0 +1,5 @@
+<map id="chip::PersistentStorageDelegate::SyncSetKeyValue" name="chip::PersistentStorageDelegate::SyncSetKeyValue">
+<area shape="rect" id="node1" title="Set the value for the key to a byte buffer." alt="" coords="267,39,497,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_storable_peer_connection.html#a5c36a7a96c73a5cc6ff1f1e6118bcebd" title=" " alt="" coords="5,5,219,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_admin_pairing_info.html#ad73a05f9a720b77eb229b0651c1c154c" title=" " alt="" coords="7,71,217,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="chip::PersistentStorageDelegate::SyncGetKeyValue" name="chip::PersistentStorageDelegate::SyncGetKeyValue">
+<area shape="rect" id="node1" title="This is a synchronous Get API, where the value is returned via the output buffer." alt="" coords="267,39,497,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_storable_peer_connection.html#a5597ce6b7321338ea84b3d94317cef9b" title=" " alt="" coords="5,5,219,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_transport_1_1_admin_pairing_info.html#a485827702a0542b831a8095ed857423f" title=" " alt="" coords="7,71,217,112"/>
+</map>

@@ -1,4 +1,0 @@
-<map id="chip::PacketHeader::IsPeerGroupMsgIdNotSynchronized" name="chip::PacketHeader::IsPeerGroupMsgIdNotSynchronized">
-<area shape="rect" id="node1" title="Check if the peer&#39;s group key message counter is not synchronized." alt="" coords="5,5,264,47"/>
-<area shape="rect" id="node2" href="$classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b" title="Check whether flag(s) are set." alt="" coords="312,13,455,39"/>
-</map>

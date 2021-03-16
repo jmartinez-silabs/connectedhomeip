@@ -40,10 +40,6 @@ var dir_89a0d6c449a45a363c89f68812a91559 =
     [ "GenericDeviceNetworkProvisioningDelegateImpl.h", "_generic_device_network_provisioning_delegate_impl_8h.html", [
       [ "GenericDeviceNetworkProvisioningDelegateImpl", "classchip_1_1_device_layer_1_1_internal_1_1_generic_device_network_provisioning_delegate_impl.html", "classchip_1_1_device_layer_1_1_internal_1_1_generic_device_network_provisioning_delegate_impl" ]
     ] ],
-    [ "GenericNetworkProvisioningServerImpl.cpp", "_generic_network_provisioning_server_impl_8cpp.html", "_generic_network_provisioning_server_impl_8cpp" ],
-    [ "GenericNetworkProvisioningServerImpl.h", "_generic_network_provisioning_server_impl_8h.html", [
-      [ "GenericNetworkProvisioningServerImpl", "classchip_1_1_device_layer_1_1_internal_1_1_generic_network_provisioning_server_impl.html", "classchip_1_1_device_layer_1_1_internal_1_1_generic_network_provisioning_server_impl" ]
-    ] ],
     [ "GenericPlatformManagerImpl.cpp", "_generic_platform_manager_impl_8cpp.html", "_generic_platform_manager_impl_8cpp" ],
     [ "GenericPlatformManagerImpl.h", "_generic_platform_manager_impl_8h.html", [
       [ "GenericPlatformManagerImpl", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl" ],

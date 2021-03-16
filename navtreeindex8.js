@@ -1,15 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,2,3,11],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831":[11,0,7,2,3,10],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a2ffddbe0e4b002ac490b39f72c4e9f2f":[11,0,7,2,3,3],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2":[11,0,7,2,3,8],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a585c06db49008fb0b8c0d4707932fdfa":[11,0,7,2,3,22],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8":[11,0,7,2,3,5],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae":[11,0,7,2,3,20],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a763b6eb45987150fac7f061b5c86b440":[11,0,7,2,3,0],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc":[11,0,7,2,3,9],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a8c66cbd71906f5fd3464b7a59eb41da5":[11,0,7,2,3,4],
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a8cda7e9ea1ea5e72b539894b60d48bf5":[11,0,7,2,3,19],
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,2,3,15],
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#aabb9f3c3ffd401c202a9cb5c3707b2b0":[11,0,7,2,3,21],
@@ -249,5 +239,15 @@ var NAVTREEINDEX8 =
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a7eb537e0f4aa1407f231867b27e798bc":[11,0,7,3,4,14],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a8080a7bfc22d55b3823318210bca61ca":[11,0,7,3,4,28],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a899e2fa8779d3c9cda35ab35814658f2":[11,0,7,3,4,2],
-"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a89fabea524f78df95ff708422f546347":[11,0,7,3,4,15]
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a89fabea524f78df95ff708422f546347":[11,0,7,3,4,15],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a8a7039418f59daf3e009a9c0f1897de3":[11,0,7,3,4,37],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a900305532bdf6e3b4b2d8edc306d43bb":[11,0,7,3,4,3],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a90817ceaba6336b0a72da91424441f92":[11,0,7,3,4,5],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a9786db5dfc21e735970fc0fc7d9c69ac":[11,0,7,3,4,38],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a9c2359cca72ed5a69a57cab4b1f644ff":[11,0,7,3,4,24],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a9f0ff90cda205a3bbbf7cd2a14b85236":[11,0,7,3,4,34],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#aac0184c3bb3b8f7e07d793ec5b82c3d6":[11,0,7,3,4,8],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#ac4e42896da5958ced01b7e2c2cbafdd2":[11,0,7,3,4,22],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#ac93a8e595f5571df77ed9a9a98d7827a":[11,0,7,3,4,26],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#ac96c32acdda5b4159686e88105eae377":[11,0,7,3,4,20]
 };

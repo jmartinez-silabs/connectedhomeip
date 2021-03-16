@@ -1,5 +1,0 @@
-<map id="chip::System::PacketBufferHandle::CloneData" name="chip::System::PacketBufferHandle::CloneData">
-<area shape="rect" id="node1" title="Creates a copy of the data in this packet." alt="" coords="256,39,451,80"/>
-<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="6,5,207,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="5,71,208,112"/>
-</map>

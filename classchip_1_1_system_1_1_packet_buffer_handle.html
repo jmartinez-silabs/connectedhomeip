@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">cf7aa2d</span>
+   &#160;<span id="projectnumber">01ac216</span>
    </div>
   </td>
  </tr>
@@ -136,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a63e13c201b8c13dc611111e3ec3612da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a63e13c201b8c13dc611111e3ec3612da">IsNull</a> () const</td></tr>
 <tr class="memdesc:a63e13c201b8c13dc611111e3ec3612da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether this <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html" title="Tracks ownership of a PacketBuffer.">PacketBufferHandle</a> is empty, or conversely owns a <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html" title="The packet buffer class is the core structure used for manipulating packets of octet-serialized data,...">PacketBuffer</a>.  <a href="classchip_1_1_system_1_1_packet_buffer_handle.html#a63e13c201b8c13dc611111e3ec3612da">More...</a><br /></td></tr>
 <tr class="separator:a63e13c201b8c13dc611111e3ec3612da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0917ef83743d123d742c485871c3d8c1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a0917ef83743d123d742c485871c3d8c1">HasSoleOwnership</a> () const</td></tr>
+<tr class="memdesc:a0917ef83743d123d742c485871c3d8c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether the <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html" title="The packet buffer class is the core structure used for manipulating packets of octet-serialized data,...">PacketBuffer</a> owned by this <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html" title="Tracks ownership of a PacketBuffer.">PacketBufferHandle</a> has unique ownership.  <a href="classchip_1_1_system_1_1_packet_buffer_handle.html#a0917ef83743d123d742c485871c3d8c1">More...</a><br /></td></tr>
+<tr class="separator:a0917ef83743d123d742c485871c3d8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76cd3c9ecdc6914acf7da9dad5dd97cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_code_utils_8h.html#a6b7d992d708150592b0c7e912179b677">CHECK_RETURN_VALUE</a> <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">PacketBufferHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a76cd3c9ecdc6914acf7da9dad5dd97cf">PopHead</a> ()</td></tr>
 <tr class="memdesc:a76cd3c9ecdc6914acf7da9dad5dd97cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detach and return the head of a buffer chain while updating this handle to point to the remaining buffers.  <a href="classchip_1_1_system_1_1_packet_buffer_handle.html#a76cd3c9ecdc6914acf7da9dad5dd97cf">More...</a><br /></td></tr>
 <tr class="separator:a76cd3c9ecdc6914acf7da9dad5dd97cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,9 +157,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa019194ba9d03e8c897e045b2d341d0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_code_utils_8h.html#a6b7d992d708150592b0c7e912179b677">CHECK_RETURN_VALUE</a> <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html">PacketBuffer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html#aa019194ba9d03e8c897e045b2d341d0a">UnsafeRelease</a> () &amp;&amp;</td></tr>
 <tr class="memdesc:aa019194ba9d03e8c897e045b2d341d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Export a raw <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html" title="The packet buffer class is the core structure used for manipulating packets of octet-serialized data,...">PacketBuffer</a> pointer.  <a href="classchip_1_1_system_1_1_packet_buffer_handle.html#aa019194ba9d03e8c897e045b2d341d0a">More...</a><br /></td></tr>
 <tr class="separator:aa019194ba9d03e8c897e045b2d341d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff60a9caf140634941aef0451e7c0207"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">PacketBufferHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207">CloneData</a> (uint16_t aAdditionalSize=0, uint16_t aReservedSize=<a class="el" href="classchip_1_1_system_1_1_packet_buffer.html#ae4875bbfd65cdf2f011b0a1d2c21aece">PacketBuffer::kDefaultHeaderReserve</a>)</td></tr>
-<tr class="memdesc:aff60a9caf140634941aef0451e7c0207"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of the data in this packet.  <a href="classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207">More...</a><br /></td></tr>
-<tr class="separator:aff60a9caf140634941aef0451e7c0207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86921e5b97251e43494e25abfda1a99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">PacketBufferHandle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99">CloneData</a> ()</td></tr>
+<tr class="memdesc:ac86921e5b97251e43494e25abfda1a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a copy of a packet buffer (or chain).  <a href="classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99">More...</a><br /></td></tr>
+<tr class="separator:ac86921e5b97251e43494e25abfda1a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12396d2a22f79e43ffc279991cdddb99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a12396d2a22f79e43ffc279991cdddb99">Check</a> () const</td></tr>
 <tr class="memdesc:a12396d2a22f79e43ffc279991cdddb99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform an implementation-defined check on the validity of a <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html" title="Tracks ownership of a PacketBuffer.">PacketBufferHandle</a>.  <a href="classchip_1_1_system_1_1_packet_buffer_handle.html#a12396d2a22f79e43ffc279991cdddb99">More...</a><br /></td></tr>
 <tr class="separator:a12396d2a22f79e43ffc279991cdddb99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -220,21 +223,24 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_a14279153678fbc4c48e95ba4b8e96856_icgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_a14279153678fbc4c48e95ba4b8e96856_icgraph" alt=""/></div>
 <map name="classchip_1_1_system_1_1_packet_buffer_handle_a14279153678fbc4c48e95ba4b8e96856_icgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_a14279153678fbc4c48e95ba4b8e96856_icgraph">
-<area shape="rect" title="Construct an empty PacketBufferHandle." alt="" coords="1041,165,1244,207"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207" title="Creates a copy of the data in this packet." alt="" coords="257,37,451,79"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="799,235,993,276"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="528,96,723,137"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a76cd3c9ecdc6914acf7da9dad5dd97cf" title="Detach and return the head of a buffer chain while updating this handle to point to the remaining buf..." alt="" coords="799,300,993,341"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="6,5,207,47"/>
-<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="5,71,208,112"/>
-<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="526,161,725,203"/>
-<area shape="rect" href="classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="500,227,751,283"/>
-<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="516,308,735,349"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="528,373,723,415"/>
-<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="509,439,742,466"/>
-<area shape="rect" href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="538,491,713,532"/>
-<area shape="rect" href="classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="258,432,450,473"/>
-<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="256,103,452,144"/>
+<area shape="rect" title="Construct an empty PacketBufferHandle." alt="" coords="1020,345,1223,387"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="507,71,701,112"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="777,316,972,357"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="507,531,701,572"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a76cd3c9ecdc6914acf7da9dad5dd97cf" title="Detach and return the head of a buffer chain while updating this handle to point to the remaining buf..." alt="" coords="777,433,972,475"/>
+<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,5,430,47"/>
+<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,71,431,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,136,417,177"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,104,169,145"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,169,180,211"/>
+<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="505,136,703,177"/>
+<area shape="rect" href="classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="479,202,729,258"/>
+<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="495,283,713,324"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="507,348,701,389"/>
+<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="487,414,721,441"/>
+<area shape="rect" href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="517,465,691,507"/>
+<area shape="rect" href="classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="233,407,425,448"/>
+<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="231,531,427,572"/>
 </map>
 </div>
 
@@ -475,8 +481,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aff60a9caf140634941aef0451e7c0207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff60a9caf140634941aef0451e7c0207">&#9670;&nbsp;</a></span>CloneData()</h2>
+<a id="ac86921e5b97251e43494e25abfda1a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac86921e5b97251e43494e25abfda1a99">&#9670;&nbsp;</a></span>CloneData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,58 +490,41 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">PacketBufferHandle</a> chip::System::PacketBufferHandle::CloneData </td>
           <td>(</td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>aAdditionalSize</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>aReservedSize</em> = <code><a class="el" href="classchip_1_1_system_1_1_packet_buffer.html#ae4875bbfd65cdf2f011b0a1d2c21aece">PacketBuffer::kDefaultHeaderReserve</a></code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates a copy of the data in this packet. </p>
-<p>Does NOT support chained buffers.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">aAdditionalSize</td><td>Size of additional application data space after the initial contents. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">aReservedSize</td><td>Number of octets to reserve for protocol headers.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>empty handle on allocation failure. </dd></dl>
+<p>Creates a copy of a packet buffer (or chain). </p>
+<dl class="section return"><dt>Returns</dt><dd>empty handle on allocation failure. Otherwise, the returned buffer has the same sizes and contents as the original. </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_cgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_cgraph" alt=""/></div>
-<map name="classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_cgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_cgraph">
-<area shape="rect" title="Creates a copy of the data in this packet." alt="" coords="5,165,200,207"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="248,5,443,47"/>
+<div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_cgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_cgraph" alt=""/></div>
+<map name="classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_cgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_cgraph">
+<area shape="rect" title="Creates a copy of a packet buffer (or chain)." alt="" coords="5,165,200,207"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer.html#ac11c699a8ec904363af2af0d4cd46014" title="Add the given packet buffer to the end of the buffer chain, adjusting the total length of each buffer..." alt="" coords="248,5,443,47"/>
 <area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a63e13c201b8c13dc611111e3ec3612da" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="248,71,443,112"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="248,136,443,177"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a14279153678fbc4c48e95ba4b8e96856" title="Construct an empty PacketBufferHandle." alt="" coords="735,144,938,185"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer.html#a6c5ef0d9c23c1a9f63d2620f9b4d470d" title="Return the next buffer in a buffer chain." alt="" coords="248,253,443,295"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="248,319,443,360"/>
-<area shape="rect" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="549,34,627,61"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="491,85,685,127"/>
-<area shape="rect" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="733,93,940,119"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="248,136,443,177"/>
+<area shape="rect" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="306,202,385,229"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="248,253,443,295"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a14279153678fbc4c48e95ba4b8e96856" title="Construct an empty PacketBufferHandle." alt="" coords="493,312,695,353"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="497,136,691,177"/>
+<area shape="rect" href="namespacechip_1_1_platform.html#abcb5d3dbb8c986f9d6e84c7dcd3e8db7" title="This function is called by the CHIP layer to allocate a block of memory of &quot;size&quot; bytes." alt="" coords="491,261,697,287"/>
 </map>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_icgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_icgraph" alt=""/></div>
-<map name="classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_icgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_aff60a9caf140634941aef0451e7c0207_icgraph">
-<area shape="rect" title="Creates a copy of the data in this packet." alt="" coords="256,39,451,80"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="6,5,207,47"/>
-<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="5,71,208,112"/>
+<div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_icgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_icgraph" alt=""/></div>
+<map name="classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_icgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_ac86921e5b97251e43494e25abfda1a99_icgraph">
+<area shape="rect" title="Creates a copy of a packet buffer (or chain)." alt="" coords="479,71,673,112"/>
+<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,5,430,47"/>
+<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,71,431,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,136,417,177"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,103,169,144"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,168,180,209"/>
 </map>
 </div>
 
@@ -639,6 +628,45 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a0917ef83743d123d742c485871c3d8c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0917ef83743d123d742c485871c3d8c1">&#9670;&nbsp;</a></span>HasSoleOwnership()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chip::System::PacketBufferHandle::HasSoleOwnership </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test whether the <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html" title="The packet buffer class is the core structure used for manipulating packets of octet-serialized data,...">PacketBuffer</a> owned by this <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html" title="Tracks ownership of a PacketBuffer.">PacketBufferHandle</a> has unique ownership. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the <a class="el" href="classchip_1_1_system_1_1_packet_buffer.html" title="The packet buffer class is the core structure used for manipulating packets of octet-serialized data,...">PacketBuffer</a> owned by this <a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html" title="Tracks ownership of a PacketBuffer.">PacketBufferHandle</a> is solely owned; return <code>false</code> if it has more than one ownership. </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_a0917ef83743d123d742c485871c3d8c1_icgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_a0917ef83743d123d742c485871c3d8c1_icgraph" alt=""/></div>
+<map name="classchip_1_1_system_1_1_packet_buffer_handle_a0917ef83743d123d742c485871c3d8c1_icgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_a0917ef83743d123d742c485871c3d8c1_icgraph">
+<area shape="rect" title="Test whether the PacketBuffer owned by this PacketBufferHandle has unique ownership." alt="" coords="451,39,649,80"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="228,39,403,80"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,5,169,47"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,71,180,112"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a63e13c201b8c13dc611111e3ec3612da"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63e13c201b8c13dc611111e3ec3612da">&#9670;&nbsp;</a></span>IsNull()</h2>
 
@@ -669,27 +697,30 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_a63e13c201b8c13dc611111e3ec3612da_icgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_a63e13c201b8c13dc611111e3ec3612da_icgraph" alt=""/></div>
 <map name="classchip_1_1_system_1_1_packet_buffer_handle_a63e13c201b8c13dc611111e3ec3612da_icgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_a63e13c201b8c13dc611111e3ec3612da_icgraph">
-<area shape="rect" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="572,495,767,536"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207" title="Creates a copy of the data in this packet." alt="" coords="309,37,503,79"/>
-<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="307,103,505,144"/>
-<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="307,168,505,209"/>
-<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="297,233,515,275"/>
-<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#af9bf2b48d8e7c27e5f78a077fb845c81" title="A function that can be used to retrieve additional TLV data to be parsed." alt="" coords="297,299,515,340"/>
-<area shape="rect" href="classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="307,364,505,405"/>
-<area shape="rect" href="classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="306,429,506,471"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="309,495,503,536"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_response_builder.html#a0782a62e34b5f6e8b95b9a9b23886e7d" title=" " alt="" coords="288,560,524,601"/>
-<area shape="rect" href="classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#a841a45805e9e5cb3448bb4b05b5f65c8" title="Test whether this PacketBufferWriter is null, or conversely owns a PacketBuffer." alt="" coords="303,625,509,667"/>
-<area shape="rect" href="classchip_1_1_ble_1_1_btp_engine.html#aa04d8fe64bc816fe0f5d7ea87bfd1941" title=" " alt="" coords="330,691,482,732"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2dcd357c2c6f986f4f8d30fa53b4360c" title="Extract the length of the unacknowledged receive data." alt="" coords="317,756,495,797"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77" title="Extract the length of the data awaiting first transmit." alt="" coords="321,821,491,863"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e" title="Send message text on TCP connection." alt="" coords="321,887,491,928"/>
-<area shape="rect" href="classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="298,953,514,1009"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="22,5,223,47"/>
-<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="21,71,224,112"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="5,560,240,601"/>
-<area shape="rect" href="classchip_1_1_ble_1_1_btp_engine.html#aa07b884deec572542047c062a42885bd" title=" " alt="" coords="47,691,199,732"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="32,887,213,928"/>
+<area shape="rect" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="795,528,989,569"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="531,71,726,112"/>
+<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="529,136,728,177"/>
+<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="529,201,728,243"/>
+<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="519,267,738,308"/>
+<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#af9bf2b48d8e7c27e5f78a077fb845c81" title="A function that can be used to retrieve additional TLV data to be parsed." alt="" coords="519,332,738,373"/>
+<area shape="rect" href="classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="529,397,728,439"/>
+<area shape="rect" href="classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="529,463,729,504"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="531,528,726,569"/>
+<area shape="rect" href="classmdns_1_1_minimal_1_1_response_builder.html#a0782a62e34b5f6e8b95b9a9b23886e7d" title=" " alt="" coords="511,593,747,635"/>
+<area shape="rect" href="classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#a841a45805e9e5cb3448bb4b05b5f65c8" title="Test whether this PacketBufferWriter is null, or conversely owns a PacketBuffer." alt="" coords="526,659,731,700"/>
+<area shape="rect" href="classchip_1_1_ble_1_1_btp_engine.html#aa04d8fe64bc816fe0f5d7ea87bfd1941" title=" " alt="" coords="553,724,705,765"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2dcd357c2c6f986f4f8d30fa53b4360c" title="Extract the length of the unacknowledged receive data." alt="" coords="539,789,718,831"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77" title="Extract the length of the data awaiting first transmit." alt="" coords="543,855,714,896"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e" title="Send message text on TCP connection." alt="" coords="543,920,714,961"/>
+<area shape="rect" href="classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="521,986,737,1042"/>
+<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="245,5,446,47"/>
+<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="244,71,447,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="258,136,433,177"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,103,169,144"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,168,180,209"/>
+<area shape="rect" href="classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="228,593,463,635"/>
+<area shape="rect" href="classchip_1_1_ble_1_1_btp_engine.html#aa07b884deec572542047c062a42885bd" title=" " alt="" coords="269,724,421,765"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="255,920,436,961"/>
 </map>
 </div>
 
@@ -759,19 +790,22 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_ab9d44448b8b4aa3570563026a15926fd_icgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_ab9d44448b8b4aa3570563026a15926fd_icgraph" alt=""/></div>
 <map name="classchip_1_1_system_1_1_packet_buffer_handle_ab9d44448b8b4aa3570563026a15926fd_icgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_ab9d44448b8b4aa3570563026a15926fd_icgraph">
-<area shape="rect" title="Allocates a packet buffer." alt="" coords="799,217,993,259"/>
-<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="526,5,725,47"/>
-<area shape="rect" href="classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="500,71,751,127"/>
-<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="516,152,735,193"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="528,217,723,259"/>
-<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="509,283,742,310"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="528,335,723,376"/>
-<area shape="rect" href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="538,400,713,441"/>
-<area shape="rect" href="classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="258,269,450,311"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207" title="Creates a copy of the data in this packet." alt="" coords="257,335,451,376"/>
-<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="256,400,452,441"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="6,301,207,343"/>
-<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="5,367,208,408"/>
+<area shape="rect" title="Allocates a packet buffer." alt="" coords="777,316,972,357"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="507,71,701,112"/>
+<area shape="rect" href="namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="505,136,703,177"/>
+<area shape="rect" href="classchip_1_1_additional_data_payload_generator.html#a251e4fb292fb802ab490bb13f9a36ae5" title="Generate additional data payload (i.e." alt="" coords="479,202,729,258"/>
+<area shape="rect" href="classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="495,283,713,324"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="507,348,701,389"/>
+<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a9135e9c3738b3f5a02e2ef9b5b673bde" title="Allocates a packet buffer with space for message headers and footers." alt="" coords="487,414,721,441"/>
+<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="507,465,701,507"/>
+<area shape="rect" href="classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="517,531,691,572"/>
+<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,5,430,47"/>
+<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,71,431,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,136,417,177"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,104,169,145"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,169,180,211"/>
+<area shape="rect" href="classchip_1_1_network_provisioning.html#a9a293f2ca5722f077ab4227559a5929e" title=" " alt="" coords="233,403,425,444"/>
+<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="231,468,427,509"/>
 </map>
 </div>
 
@@ -851,11 +885,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_system_1_1_packet_buffer_handle_a4a486c4305df89f772f37f5c29a86967_icgraph.png" border="0" usemap="#classchip_1_1_system_1_1_packet_buffer_handle_a4a486c4305df89f772f37f5c29a86967_icgraph" alt=""/></div>
 <map name="classchip_1_1_system_1_1_packet_buffer_handle_a4a486c4305df89f772f37f5c29a86967_icgraph" id="classchip_1_1_system_1_1_packet_buffer_handle_a4a486c4305df89f772f37f5c29a86967_icgraph">
-<area shape="rect" title="Allocates a packet buffer with initial contents." alt="" coords="500,71,695,112"/>
-<area shape="rect" href="classchip_1_1_system_1_1_packet_buffer_handle.html#aff60a9caf140634941aef0451e7c0207" title="Creates a copy of the data in this packet." alt="" coords="257,37,451,79"/>
-<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="256,103,452,144"/>
-<area shape="rect" href="classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="6,5,207,47"/>
-<area shape="rect" href="classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="5,71,208,112"/>
+<area shape="rect" title="Allocates a packet buffer with initial contents." alt="" coords="249,5,444,47"/>
+<area shape="rect" href="namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="5,5,201,47"/>
 </map>
 </div>
 
@@ -1158,7 +1189,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_system.html">System</a></li><li class="navelem"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">PacketBufferHandle</a></li>
-    <li class="footer">Generated on Mon Mar 15 2021 18:21:57 for Connected Home over IP by
+    <li class="footer">Generated on Tue Mar 16 2021 17:59:25 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

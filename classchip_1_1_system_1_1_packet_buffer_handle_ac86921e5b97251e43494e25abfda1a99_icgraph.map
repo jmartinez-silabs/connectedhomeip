@@ -1,0 +1,8 @@
+<map id="chip::System::PacketBufferHandle::CloneData" name="chip::System::PacketBufferHandle::CloneData">
+<area shape="rect" id="node1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="479,71,673,112"/>
+<area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,5,430,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,71,431,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,136,417,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,103,169,144"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,168,180,209"/>
+</map>
