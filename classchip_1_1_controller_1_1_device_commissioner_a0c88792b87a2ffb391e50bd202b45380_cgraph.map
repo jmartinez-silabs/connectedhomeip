@@ -1,5 +1,0 @@
-<map id="chip::Controller::DeviceCommissioner::RendezvousCleanup" name="chip::Controller::DeviceCommissioner::RendezvousCleanup">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,261,47"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="309,13,473,39"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="521,13,724,39"/>
-</map>

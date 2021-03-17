@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"classchip_1_1_chip_cluster_1_1_chip_cluster.html#ae2e23d2912a100dae50d818720bdf06f":[10,0,1,6,0,6],
+"classchip_1_1_chip_cluster_1_1_chip_cluster.html#ae4378d9685be9667ed4761a1c7a2c85f":[10,0,1,6,0,70],
 "classchip_1_1_chip_cluster_1_1_chip_cluster.html#ae7ea1ffc69890a1690721468767da292":[10,0,1,6,0,74],
 "classchip_1_1_chip_cluster_1_1_chip_cluster.html#aee0a609af3f15990f5fafb589bee88c1":[10,0,1,6,0,24],
 "classchip_1_1_chip_cluster_1_1_chip_cluster.html#af275575ef0a443fa83dd3fa2c415455c":[10,0,1,6,0,59],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "classchip_1_1_controller_1_1_color_control_cluster.html#a166f1536e5c8f31364441fe374f19d80":[10,0,1,11,5,34],
 "classchip_1_1_controller_1_1_color_control_cluster.html#a17830457530d368f01937e98299476df":[10,0,1,11,5,87],
 "classchip_1_1_controller_1_1_color_control_cluster.html#a1aad6686d36c2c71c40c04b5dda09a60":[10,0,1,11,5,78],
-"classchip_1_1_controller_1_1_color_control_cluster.html#a1be35805e8dfd19b34db63f2f49ca32e":[10,0,1,11,5,22],
-"classchip_1_1_controller_1_1_color_control_cluster.html#a1d83d54fa94072c8fe74360099cc9b98":[10,0,1,11,5,54],
-"classchip_1_1_controller_1_1_color_control_cluster.html#a1f0e275c2a39e5af15138cce44b14938":[10,0,1,11,5,25]
+"classchip_1_1_controller_1_1_color_control_cluster.html#a1be35805e8dfd19b34db63f2f49ca32e":[10,0,1,11,5,22]
 };

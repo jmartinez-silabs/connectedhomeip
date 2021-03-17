@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"classchip_1_1devicecontroller_1_1_android_chip_stack.html":[10,0,1,13,0],
+"classchip_1_1devicecontroller_1_1_android_chip_stack.html#a010e608805e33165ac0c0a37abbb7380":[10,0,1,13,0,7],
 "classchip_1_1devicecontroller_1_1_android_chip_stack.html#a18336fc26a1c6c7869d187f9f0efae88":[10,0,1,13,0,8],
 "classchip_1_1devicecontroller_1_1_android_chip_stack.html#a4a87259287679e48fa72841207f16130":[10,0,1,13,0,5],
 "classchip_1_1devicecontroller_1_1_android_chip_stack.html#a51152fd4d17cb7141f5ba2819bd9f5ae":[10,0,1,13,0,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "classmdns_1_1_minimal_1_1_query_builder.html#a2d26a9ac925bf0d6130217d53b0fe275":[10,0,3,0,15,6],
 "classmdns_1_1_minimal_1_1_query_builder.html#a3468696909738676782107711e5f56db":[10,0,3,0,15,1],
 "classmdns_1_1_minimal_1_1_query_builder.html#a47c6a2a2851309062aae7d7768f95b5d":[10,0,3,0,15,3],
-"classmdns_1_1_minimal_1_1_query_builder.html#a629d980804a12a96aaae5f7f5df67fb4":[10,0,3,0,15,4],
-"classmdns_1_1_minimal_1_1_query_builder.html#ab47fea6c4dfffb6b7cb000e2460ae0f1":[10,0,3,0,15,2],
-"classmdns_1_1_minimal_1_1_query_builder.html#ac70c6f99cfebc2f7cdd2dbf11c923454":[10,0,3,0,15,5]
+"classmdns_1_1_minimal_1_1_query_builder.html#a629d980804a12a96aaae5f7f5df67fb4":[10,0,3,0,15,4]
 };
