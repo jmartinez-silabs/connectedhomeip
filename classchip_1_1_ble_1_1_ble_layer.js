@@ -4,6 +4,7 @@ var classchip_1_1_ble_1_1_ble_layer =
     [ "kState_NotInitialized", "classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a5a753d82be70d79ed2c343a6e9abef4e", null ],
     [ "kState_Initialized", "classchip_1_1_ble_1_1_ble_layer.html#abfc47098491ca0105edda89131e6e0f3a908dadf2acf5eb1b4348dda865191d2c", null ],
     [ "BleLayer", "classchip_1_1_ble_1_1_ble_layer.html#a1c7f84854a52eaa659631578e68c3fda", null ],
+    [ "CancelBleIncompleteConnection", "classchip_1_1_ble_1_1_ble_layer.html#af54325017df44c96c8ebf3b93acee0cd", null ],
     [ "HandleConnectionError", "classchip_1_1_ble_1_1_ble_layer.html#a8a7234d27e593ec1f10f27149692ed2c", null ],
     [ "HandleIndicationConfirmation", "classchip_1_1_ble_1_1_ble_layer.html#a7d7dbad55270d78c52c8dc4a22e3e75d", null ],
     [ "HandleIndicationReceived", "classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445", null ],

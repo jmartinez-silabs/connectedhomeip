@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4eb50c2</span>
+   &#160;<span id="projectnumber">5719bdb</span>
    </div>
   </td>
  </tr>
@@ -115,29 +115,33 @@ $(document).ready(function(){initNavTree('_android_ble_connection_delegate_8h_so
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_android_ble_connection_delegate.html#ac4cc37d24a742286195fdcd7c5f81492">NewConnection</a>(<a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">chip::Ble::BleLayer</a> * bleLayer, <span class="keywordtype">void</span> * appState, <span class="keyword">const</span> uint16_t connDiscriminator);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1">   30</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1">SetNewConnectionCallback</a>(<a class="code" href="_android_ble_connection_delegate_8h.html#a5d2254b735ca1bd7f160cd560d7bcc56">NotifyNewConnectionAvailable</a> cb) { newConnectionCb = cb; }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="_android_ble_connection_delegate_8h.html#a5d2254b735ca1bd7f160cd560d7bcc56">NotifyNewConnectionAvailable</a> newConnectionCb = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> <a class="code" href="class_android_ble_connection_delegate.html#a432424ac45658699abcd3209f4c61364">CancelConnection</a>();</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1">   31</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1">SetNewConnectionCallback</a>(<a class="code" href="_android_ble_connection_delegate_8h.html#a5d2254b735ca1bd7f160cd560d7bcc56">NotifyNewConnectionAvailable</a> cb) { newConnectionCb = cb; }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="_android_ble_connection_delegate_8h.html#a5d2254b735ca1bd7f160cd560d7bcc56">NotifyNewConnectionAvailable</a> newConnectionCb = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="a_ble_error_8h_html_a195f0e55b8e5a5029c6fe68c7de2e42a"><div class="ttname"><a href="_ble_error_8h.html#a195f0e55b8e5a5029c6fe68c7de2e42a">BLE_ERROR_NOT_IMPLEMENTED</a></div><div class="ttdeci">#define BLE_ERROR_NOT_IMPLEMENTED</div><div class="ttdoc">A requested function or feature is not implemented.</div><div class="ttdef"><b>Definition:</b> BleError.h:191</div></div>
 <div class="ttc" id="a_ble_layer_8h_html"><div class="ttname"><a href="_ble_layer_8h.html">BleLayer.h</a></div></div>
 <div class="ttc" id="able_2_ble_connection_delegate_8h_html"><div class="ttname"><a href="ble_2_ble_connection_delegate_8h.html">BleConnectionDelegate.h</a></div></div>
 <div class="ttc" id="a_android_ble_connection_delegate_8h_html_a5d2254b735ca1bd7f160cd560d7bcc56"><div class="ttname"><a href="_android_ble_connection_delegate_8h.html#a5d2254b735ca1bd7f160cd560d7bcc56">NotifyNewConnectionAvailable</a></div><div class="ttdeci">void(* NotifyNewConnectionAvailable)(void *appState, const uint16_t discriminator)</div><div class="ttdef"><b>Definition:</b> AndroidBleConnectionDelegate.h:23</div></div>
 <div class="ttc" id="aclass_android_ble_connection_delegate_html_ac4cc37d24a742286195fdcd7c5f81492"><div class="ttname"><a href="class_android_ble_connection_delegate.html#ac4cc37d24a742286195fdcd7c5f81492">AndroidBleConnectionDelegate::NewConnection</a></div><div class="ttdeci">void NewConnection(chip::Ble::BleLayer *bleLayer, void *appState, const uint16_t connDiscriminator)</div><div class="ttdef"><b>Definition:</b> AndroidBleConnectionDelegate.cpp:22</div></div>
+<div class="ttc" id="a_ble_error_8h_html_a1f45d237ce15da480e78d3f16a05b602"><div class="ttname"><a href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a></div><div class="ttdeci">BLE_CONFIG_ERROR_TYPE BLE_ERROR</div><div class="ttdef"><b>Definition:</b> BleError.h:91</div></div>
 <div class="ttc" id="aclass_android_ble_connection_delegate_html"><div class="ttname"><a href="class_android_ble_connection_delegate.html">AndroidBleConnectionDelegate</a></div><div class="ttdef"><b>Definition:</b> AndroidBleConnectionDelegate.h:25</div></div>
 <div class="ttc" id="aclasschip_1_1_ble_1_1_ble_layer_html_ad631a55e9d141fe417793665cfa69cf9"><div class="ttname"><a href="classchip_1_1_ble_1_1_ble_layer.html#ad631a55e9d141fe417793665cfa69cf9">chip::Ble::BleLayer::mAppState</a></div><div class="ttdeci">void * mAppState</div><div class="ttdef"><b>Definition:</b> BleLayer.h:254</div></div>
 <div class="ttc" id="a_android_ble_connection_delegate_8h_html"><div class="ttname"><a href="_android_ble_connection_delegate_8h.html">AndroidBleConnectionDelegate.h</a></div></div>
+<div class="ttc" id="aclass_android_ble_connection_delegate_html_a432424ac45658699abcd3209f4c61364"><div class="ttname"><a href="class_android_ble_connection_delegate.html#a432424ac45658699abcd3209f4c61364">AndroidBleConnectionDelegate::CancelConnection</a></div><div class="ttdeci">BLE_ERROR CancelConnection()</div><div class="ttdef"><b>Definition:</b> AndroidBleConnectionDelegate.cpp:30</div></div>
 <div class="ttc" id="aclasschip_1_1_ble_1_1_ble_layer_html"><div class="ttname"><a href="classchip_1_1_ble_1_1_ble_layer.html">chip::Ble::BleLayer</a></div><div class="ttdoc">This class provides an interface for a single thread to drive data either up the stack via the BleLay...</div><div class="ttdef"><b>Definition:</b> BleLayer.h:239</div></div>
-<div class="ttc" id="aclass_android_ble_connection_delegate_html_a89f5cdb81f7a3300e4c3fd5d3e9361b1"><div class="ttname"><a href="class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1">AndroidBleConnectionDelegate::SetNewConnectionCallback</a></div><div class="ttdeci">void SetNewConnectionCallback(NotifyNewConnectionAvailable cb)</div><div class="ttdef"><b>Definition:</b> AndroidBleConnectionDelegate.h:30</div></div>
+<div class="ttc" id="aclass_android_ble_connection_delegate_html_a89f5cdb81f7a3300e4c3fd5d3e9361b1"><div class="ttname"><a href="class_android_ble_connection_delegate.html#a89f5cdb81f7a3300e4c3fd5d3e9361b1">AndroidBleConnectionDelegate::SetNewConnectionCallback</a></div><div class="ttdeci">void SetNewConnectionCallback(NotifyNewConnectionAvailable cb)</div><div class="ttdef"><b>Definition:</b> AndroidBleConnectionDelegate.h:31</div></div>
 <div class="ttc" id="aclasschip_1_1_ble_1_1_ble_connection_delegate_html"><div class="ttname"><a href="classchip_1_1_ble_1_1_ble_connection_delegate.html">chip::Ble::BleConnectionDelegate</a></div><div class="ttdef"><b>Definition:</b> BleConnectionDelegate.h:41</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_41ef5d8a90b9cc03a02949a5c062e6f0.html">controller</a></li><li class="navelem"><a class="el" href="dir_3ff1561482c489189ee255c04d29efa4.html">java</a></li><li class="navelem"><a class="el" href="_android_ble_connection_delegate_8h.html">AndroidBleConnectionDelegate.h</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 14:34:11 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 20:51:22 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

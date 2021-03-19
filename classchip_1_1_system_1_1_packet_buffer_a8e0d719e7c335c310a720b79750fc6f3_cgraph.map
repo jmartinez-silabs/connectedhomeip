@@ -1,7 +1,8 @@
 <map id="chip::System::PacketBuffer::CompactHead" name="chip::System::PacketBuffer::CompactHead">
-<area shape="rect" id="node1" title="Move data from subsequent buffers in the chain into the current buffer until it is full." alt="" coords="5,68,200,109"/>
-<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="248,39,443,80"/>
-<area shape="rect" id="node6" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="306,105,385,131"/>
+<area shape="rect" id="node1" title="Move data from subsequent buffers in the chain into the current buffer until it is full." alt="" coords="5,103,200,144"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="248,37,443,79"/>
+<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_packet_buffer.html#ae4c0891ecc48a6445f0cb0dcff5dee02" title="Determine whether there are any additional buffers chained to the current buffer." alt="" coords="248,103,443,144"/>
+<area shape="rect" id="node7" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="306,169,385,195"/>
 <area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="491,5,685,47"/>
 <area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="491,71,685,112"/>
 <area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer.html#a46827678a540122d2a6ea6c90c360d61" title="Return the size of the allocation including the reserved and payload data spaces but not including sp..." alt="" coords="733,71,928,112"/>

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4eb50c2</span>
+   &#160;<span id="projectnumber">5719bdb</span>
    </div>
   </td>
  </tr>
@@ -116,24 +116,27 @@ $(document).ready(function(){initNavTree('platform_2_darwin_2_ble_connection_del
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classchip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl.html#af480436c633b51c00f0a8920c7babf05">NewConnection</a>(<a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">Ble::BleLayer</a> * bleLayer, <span class="keywordtype">void</span> * appState, <span class="keyword">const</span> uint16_t connDiscriminator);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;} <span class="comment">// namespace Internal</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> <a class="code" href="classchip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl.html#adc126e918f7b4f86962b0610c9cb709c">CancelConnection</a>();</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;} <span class="comment">// namespace Internal</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="able_2_ble_connection_delegate_8h_html"><div class="ttname"><a href="ble_2_ble_connection_delegate_8h.html">BleConnectionDelegate.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl_html"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl.html">chip::DeviceLayer::Internal::BleConnectionDelegateImpl</a></div><div class="ttdef"><b>Definition:</b> BleConnectionDelegate.h:26</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl_html_adc126e918f7b4f86962b0610c9cb709c"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl.html#adc126e918f7b4f86962b0610c9cb709c">chip::DeviceLayer::Internal::BleConnectionDelegateImpl::CancelConnection</a></div><div class="ttdeci">virtual BLE_ERROR CancelConnection()</div><div class="ttdef"><b>Definition:</b> BleConnectionDelegateImpl.mm:73</div></div>
+<div class="ttc" id="a_ble_error_8h_html_a1f45d237ce15da480e78d3f16a05b602"><div class="ttname"><a href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a></div><div class="ttdeci">BLE_CONFIG_ERROR_TYPE BLE_ERROR</div><div class="ttdef"><b>Definition:</b> BleError.h:91</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="aclasschip_1_1_ble_1_1_ble_layer_html"><div class="ttname"><a href="classchip_1_1_ble_1_1_ble_layer.html">chip::Ble::BleLayer</a></div><div class="ttdoc">This class provides an interface for a single thread to drive data either up the stack via the BleLay...</div><div class="ttdef"><b>Definition:</b> BleLayer.h:239</div></div>
 <div class="ttc" id="aclasschip_1_1_ble_1_1_ble_connection_delegate_html"><div class="ttname"><a href="classchip_1_1_ble_1_1_ble_connection_delegate.html">chip::Ble::BleConnectionDelegate</a></div><div class="ttdef"><b>Definition:</b> BleConnectionDelegate.h:41</div></div>
-<div class="ttc" id="aclasschip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl_html_af480436c633b51c00f0a8920c7babf05"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl.html#af480436c633b51c00f0a8920c7babf05">chip::DeviceLayer::Internal::BleConnectionDelegateImpl::NewConnection</a></div><div class="ttdeci">virtual void NewConnection(Ble::BleLayer *bleLayer, void *appState, const uint16_t connDiscriminator)</div><div class="ttdef"><b>Definition:</b> BleConnectionDelegateImpl.mm:61</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl_html_af480436c633b51c00f0a8920c7babf05"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl.html#af480436c633b51c00f0a8920c7babf05">chip::DeviceLayer::Internal::BleConnectionDelegateImpl::NewConnection</a></div><div class="ttdeci">virtual void NewConnection(Ble::BleLayer *bleLayer, void *appState, const uint16_t connDiscriminator)</div><div class="ttdef"><b>Definition:</b> BleConnectionDelegateImpl.mm:63</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_a915e0d1adb138d0d68fe2a954708cd7.html">Darwin</a></li><li class="navelem"><a class="el" href="platform_2_darwin_2_ble_connection_delegate_8h.html">BleConnectionDelegate.h</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 14:34:11 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 20:51:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

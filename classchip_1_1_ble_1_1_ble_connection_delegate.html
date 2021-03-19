@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4eb50c2</span>
+   &#160;<span id="projectnumber">5719bdb</span>
    </div>
   </td>
  </tr>
@@ -118,6 +118,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6127f5c0da94a9a5b7698e89277c7bab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a930a64d53fed3d0c529a14f11cc38a9d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_connection_delegate.html#a930a64d53fed3d0c529a14f11cc38a9d">NewConnection</a> (<a class="el" href="classchip_1_1_ble_1_1_ble_layer.html">BleLayer</a> *bleLayer, void *appState, uint16_t connDiscriminator)=0</td></tr>
 <tr class="separator:a930a64d53fed3d0c529a14f11cc38a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5648e6cd0c1afe32fcd276c3445c2fb4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_ble_1_1_ble_connection_delegate.html#a5648e6cd0c1afe32fcd276c3445c2fb4">CancelConnection</a> ()=0</td></tr>
+<tr class="separator:a5648e6cd0c1afe32fcd276c3445c2fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -182,6 +184,33 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5648e6cd0c1afe32fcd276c3445c2fb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5648e6cd0c1afe32fcd276c3445c2fb4">&#9670;&nbsp;</a></span>CancelConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> chip::Ble::BleConnectionDelegate::CancelConnection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="classchip_1_1_device_layer_1_1_internal_1_1_ble_connection_delegate_impl.html#adc126e918f7b4f86962b0610c9cb709c">chip::DeviceLayer::Internal::BleConnectionDelegateImpl</a>, and <a class="el" href="class_android_ble_connection_delegate.html#a432424ac45658699abcd3209f4c61364">AndroidBleConnectionDelegate</a>.</p>
+
+</div>
+</div>
 <a id="a930a64d53fed3d0c529a14f11cc38a9d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a930a64d53fed3d0c529a14f11cc38a9d">&#9670;&nbsp;</a></span>NewConnection()</h2>
 
@@ -264,7 +293,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_ble.html">Ble</a></li><li class="navelem"><a class="el" href="classchip_1_1_ble_1_1_ble_connection_delegate.html">BleConnectionDelegate</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 14:34:15 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 20:51:25 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

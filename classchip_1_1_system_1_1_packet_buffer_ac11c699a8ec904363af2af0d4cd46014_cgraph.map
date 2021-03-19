@@ -1,0 +1,4 @@
+<map id="chip::System::PacketBuffer::AddToEnd" name="chip::System::PacketBuffer::AddToEnd">
+<area shape="rect" id="node1" title="Add the given packet buffer to the end of the buffer chain, adjusting the total length of each buffer..." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#ae4c0891ecc48a6445f0cb0dcff5dee02" title="Determine whether there are any additional buffers chained to the current buffer." alt="" coords="248,5,443,47"/>
+</map>

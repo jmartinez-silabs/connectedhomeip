@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4eb50c2</span>
+   &#160;<span id="projectnumber">5719bdb</span>
    </div>
   </td>
  </tr>
@@ -143,15 +143,23 @@ Namespaces</h2></td></tr>
 <p>Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at </p><pre class="fragment">http://www.apache.org/licenses/LICENSE-2.0
 </pre><p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
 <p>This file describes a Manual Entry Code Generator based on the CHIP specification.</p>
-<p>The encoding of the binary data to a decimal string is split into 3 chunks &lt;32 bit&gt;&lt;16 bit&gt;&lt;16 bit&gt;:</p><ul>
-<li>&lt;32 bit&gt; Represents:<ul>
-<li>&lt;1 bit&gt; 1 if vid+pid present, 0 otherwise</li>
-<li>&lt;27 bit&gt; setup pin code</li>
-<li>&lt;4 bit&gt; discriminator</li>
+<p>The encoding of the binary data to a decimal string is split into 5 chunks &lt;1-digit/3-bits&gt;&lt;5 digits/16-bits&gt;&lt;4-digits/13-bits&gt;&lt;5-digits/16-bits&gt;&lt;5-digits/16-bits&gt;:</p><ul>
+<li>&lt;1 digit&gt; Represents:<ul>
+<li>&lt;bits 1..0&gt; Discriminator &lt;bits 11.10&gt;</li>
+<li>&lt;bit 2&gt; VID/PID present flag</li>
 </ul>
 </li>
-<li>&lt;16 bit&gt; Vendor ID</li>
-<li>&lt;16 bit&gt; Product ID </li>
+<li>&lt;5 digits&gt; Represents:<ul>
+<li>&lt;bits 13..0&gt; PIN Code &lt;bits 13..0&gt;</li>
+<li>&lt;bits 15..14&gt; Discriminator &lt;bits 9..8&gt;</li>
+</ul>
+</li>
+<li>&lt;4 digits&gt; Represents:<ul>
+<li>&lt;bits 12..0&gt; PIN Code &lt;bits 26..14&gt;</li>
+</ul>
+</li>
+<li>&lt;5 digits&gt; Vendor ID</li>
+<li>&lt;5 digits&gt; Product ID </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
@@ -159,7 +167,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4d3e2479dff153f0c0d8caae586ce0c0.html">setup_payload</a></li><li class="navelem"><a class="el" href="_manual_setup_payload_generator_8h.html">ManualSetupPayloadGenerator.h</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 14:34:14 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 20:51:24 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

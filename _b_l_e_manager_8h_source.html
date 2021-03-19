@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4eb50c2</span>
+   &#160;<span id="projectnumber">5719bdb</span>
    </div>
   </td>
  </tr>
@@ -126,15 +126,15 @@ $(document).ready(function(){initNavTree('_b_l_e_manager_8h_source.html',''); in
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// ===== Members that define the internal interface of the BLEManager</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keyword">using</span> CHIPoBLEServiceMode = <a class="code" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af">ConnectivityManager::CHIPoBLEServiceMode</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_ble_service_data_8h.html#ab2092db68feac59b46195c0872527bcb">Init</a>();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    CHIPoBLEServiceMode GetCHIPoBLEServiceMode();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetCHIPoBLEServiceMode(CHIPoBLEServiceMode <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">bool</span> IsAdvertisingEnabled();</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetAdvertisingEnabled(<span class="keywordtype">bool</span> <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">bool</span> IsFastAdvertisingEnabled();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetFastAdvertisingEnabled(<span class="keywordtype">bool</span> <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">bool</span> IsAdvertising();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">using</span> BLEAdvertisingMode  = <a class="code" href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a60af5dc0cca9010a4711ab30a5fca31c">ConnectivityManager::BLEAdvertisingMode</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> <a class="code" href="_c_h_i_p_ble_service_data_8h.html#ab2092db68feac59b46195c0872527bcb">Init</a>();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    CHIPoBLEServiceMode GetCHIPoBLEServiceMode();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetCHIPoBLEServiceMode(CHIPoBLEServiceMode <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">bool</span> IsAdvertisingEnabled();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetAdvertisingEnabled(<span class="keywordtype">bool</span> <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">bool</span> IsAdvertising();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetAdvertisingMode(BLEAdvertisingMode mode);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> GetDeviceName(<span class="keywordtype">char</span> * buf, <span class="keywordtype">size_t</span> bufSize);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetDeviceName(<span class="keyword">const</span> <span class="keywordtype">char</span> * deviceName);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    uint16_t NumConnections();</div>
@@ -199,57 +199,53 @@ $(document).ready(function(){initNavTree('_b_l_e_manager_8h_source.html',''); in
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_SetAdvertisingEnabled(<a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;}</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> BLEManager::IsFastAdvertisingEnabled()</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> BLEManager::IsAdvertising()</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;{</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_IsFastAdvertisingEnabled();</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_IsAdvertising();</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;}</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="keyword">inline</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> BLEManager::SetFastAdvertisingEnabled(<span class="keywordtype">bool</span> <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>)</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="keyword">inline</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> BLEManager::SetAdvertisingMode(BLEAdvertisingMode mode)</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;{</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_SetFastAdvertisingEnabled(<a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_SetAdvertisingMode(mode);</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;}</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> BLEManager::IsAdvertising()</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="keyword">inline</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> BLEManager::GetDeviceName(<span class="keywordtype">char</span> * buf, <span class="keywordtype">size_t</span> bufSize)</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;{</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_IsAdvertising();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_GetDeviceName(buf, bufSize);</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;}</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="keyword">inline</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> BLEManager::GetDeviceName(<span class="keywordtype">char</span> * buf, <span class="keywordtype">size_t</span> bufSize)</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="keyword">inline</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> BLEManager::SetDeviceName(<span class="keyword">const</span> <span class="keywordtype">char</span> * deviceName)</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_GetDeviceName(buf, bufSize);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_SetDeviceName(deviceName);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;}</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="keyword">inline</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> BLEManager::SetDeviceName(<span class="keyword">const</span> <span class="keywordtype">char</span> * deviceName)</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="keyword">inline</span> uint16_t BLEManager::NumConnections()</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;{</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_SetDeviceName(deviceName);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_NumConnections();</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;}</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="keyword">inline</span> uint16_t BLEManager::NumConnections()</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> BLEManager::OnPlatformEvent(<span class="keyword">const</span> ChipDeviceEvent * event)</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_NumConnections();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_OnPlatformEvent(event);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> BLEManager::OnPlatformEvent(<span class="keyword">const</span> ChipDeviceEvent * event)</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keyword">inline</span> <a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">chip::Ble::BleLayer</a> * BLEManager::GetBleLayer()</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_OnPlatformEvent(event);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_GetBleLayer();</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="keyword">inline</span> <a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">chip::Ble::BleLayer</a> * BLEManager::GetBleLayer()</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;{</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>ImplClass *<span class="keyword">&gt;</span>(<span class="keyword">this</span>)-&gt;_GetBleLayer();</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;}</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;} <span class="comment">// namespace Internal</span></div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;} <span class="comment">// namespace chip</span></div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;} <span class="comment">// namespace Internal</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespacechip_1_1tlv_html_a97ebd841280a361e8cd185f706a39921"><div class="ttname"><a href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">chip.tlv.val</a></div><div class="ttdeci">val</div><div class="ttdef"><b>Definition:</b> __init__.py:655</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
 <div class="ttc" id="a_code_utils_8h_html"><div class="ttname"><a href="_code_utils_8h.html">CodeUtils.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_connectivity_manager_html_a918876d0395f5c4ff1a7ef802ff268af"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af">chip::DeviceLayer::ConnectivityManager::CHIPoBLEServiceMode</a></div><div class="ttdeci">CHIPoBLEServiceMode</div><div class="ttdef"><b>Definition:</b> ConnectivityManager.h:102</div></div>
+<div class="ttc" id="aclasschip_1_1_device_layer_1_1_connectivity_manager_html_a60af5dc0cca9010a4711ab30a5fca31c"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a60af5dc0cca9010a4711ab30a5fca31c">chip::DeviceLayer::ConnectivityManager::BLEAdvertisingMode</a></div><div class="ttdeci">BLEAdvertisingMode</div><div class="ttdef"><b>Definition:</b> ConnectivityManager.h:118</div></div>
 <div class="ttc" id="a_connectivity_manager_8h_html"><div class="ttname"><a href="_connectivity_manager_8h.html">ConnectivityManager.h</a></div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="aclasschip_1_1_ble_1_1_ble_layer_html"><div class="ttname"><a href="classchip_1_1_ble_1_1_ble_layer.html">chip::Ble::BleLayer</a></div><div class="ttdoc">This class provides an interface for a single thread to drive data either up the stack via the BleLay...</div><div class="ttdef"><b>Definition:</b> BleLayer.h:239</div></div>
@@ -258,7 +254,7 @@ $(document).ready(function(){initNavTree('_b_l_e_manager_8h_source.html',''); in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b0856f6b0d80ccb263b2f415c91f9e17.html">include</a></li><li class="navelem"><a class="el" href="dir_df831df81a9fbd12274847662d04f5a8.html">platform</a></li><li class="navelem"><a class="el" href="dir_89a0d6c449a45a363c89f68812a91559.html">internal</a></li><li class="navelem"><a class="el" href="_b_l_e_manager_8h.html">BLEManager.h</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 14:34:11 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 20:51:22 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

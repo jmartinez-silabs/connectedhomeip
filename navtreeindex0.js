@@ -163,7 +163,8 @@ var NAVTREEINDEX0 =
 "_ble_config_8h.html#afe6f26f7f3ff93fe96ae69e82c25a428":[11,0,0,2,1],
 "_ble_config_8h_source.html":[11,0,0,2],
 "_ble_connection_delegate_impl_8mm.html":[11,0,7,1,3],
-"_ble_connection_delegate_impl_8mm.html#a99122a35955b075e6a0bd5757a736101":[11,0,7,1,3,2],
+"_ble_connection_delegate_impl_8mm.html#a99122a35955b075e6a0bd5757a736101":[11,0,7,1,3,3],
+"_ble_connection_delegate_impl_8mm.html#a9ca6d831bfa5b7208045a503f5bb4158":[11,0,7,1,3,2],
 "_ble_error_8cpp.html":[11,0,0,6],
 "_ble_error_8cpp.html#aaac237988c24ccec8a95911bfe66eb65":[11,0,0,6,1],
 "_ble_error_8cpp.html#af87a417341ad6a564ed87f3f543f7448":[11,0,0,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "_ble_u_u_i_d_8h_source.html":[11,0,0,12],
 "_bluez_object_iterator_8h.html":[11,0,7,6,0,2],
 "_bluez_object_iterator_8h_source.html":[11,0,7,6,0,2],
-"_bluez_object_list_8h.html":[11,0,7,6,0,3],
-"_bluez_object_list_8h_source.html":[11,0,7,6,0,3]
+"_bluez_object_list_8h.html":[11,0,7,6,0,3]
 };

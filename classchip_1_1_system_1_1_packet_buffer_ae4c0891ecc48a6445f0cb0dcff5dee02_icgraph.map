@@ -1,5 +1,16 @@
 <map id="chip::System::PacketBuffer::HasChainedBuffer" name="chip::System::PacketBuffer::HasChainedBuffer">
-<area shape="rect" id="node1" title="Determine whether there are any additional buffers chained to the current buffer." alt="" coords="252,39,447,80"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="5,5,204,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer.html#aec4ca18105abaf840bbeea134d454926" title="Return the last buffer in a buffer chain." alt="" coords="7,71,202,112"/>
+<area shape="rect" id="node1" title="Determine whether there are any additional buffers chained to the current buffer." alt="" coords="992,235,1187,276"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#ac11c699a8ec904363af2af0d4cd46014" title="Add the given packet buffer to the end of the buffer chain, adjusting the total length of each buffer..." alt="" coords="747,136,942,177"/>
+<area shape="rect" id="node12" href="$classchip_1_1_system_1_1_packet_buffer.html#a8e0d719e7c335c310a720b79750fc6f3" title="Move data from subsequent buffers in the chain into the current buffer until it is full." alt="" coords="747,201,942,243"/>
+<area shape="rect" id="node13" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="745,267,944,308"/>
+<area shape="rect" id="node14" href="$classchip_1_1_system_1_1_packet_buffer.html#aec4ca18105abaf840bbeea134d454926" title="Return the last buffer in a buffer chain." alt="" coords="747,332,942,373"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="491,71,685,112"/>
+<area shape="rect" id="node9" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="479,136,697,177"/>
+<area shape="rect" id="node10" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e" title="Send message text on TCP connection." alt="" coords="503,201,673,243"/>
+<area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,5,430,47"/>
+<area shape="rect" id="node5" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="228,71,431,112"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="242,136,417,177"/>
+<area shape="rect" id="node7" href="$classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,104,169,145"/>
+<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,169,180,211"/>
+<area shape="rect" id="node11" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="239,201,420,243"/>
 </map>

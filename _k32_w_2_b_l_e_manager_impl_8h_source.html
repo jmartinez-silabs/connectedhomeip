@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4eb50c2</span>
+   &#160;<span id="projectnumber">5719bdb</span>
    </div>
   </td>
  </tr>
@@ -148,212 +148,211 @@ $(document).ready(function(){initNavTree('_k32_w_2_b_l_e_manager_impl_8h_source.
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _SetCHIPoBLEServiceMode(CHIPoBLEServiceMode <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">bool</span> _IsAdvertisingEnabled(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _SetAdvertisingEnabled(<span class="keywordtype">bool</span> <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">bool</span> _IsFastAdvertisingEnabled(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _SetFastAdvertisingEnabled(<span class="keywordtype">bool</span> <a class="code" href="namespacechip_1_1tlv.html#a97ebd841280a361e8cd185f706a39921">val</a>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">bool</span> _IsAdvertising(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _GetDeviceName(<span class="keywordtype">char</span> * buf, <span class="keywordtype">size_t</span> bufSize);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _SetDeviceName(<span class="keyword">const</span> <span class="keywordtype">char</span> * deviceName);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    uint16_t _NumConnections(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> _OnPlatformEvent(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">BleLayer</a> * _GetBleLayer(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// ===== Members that implement virtual methods on BlePlatformDelegate.</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">bool</span> SubscribeCharacteristic(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>,</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                 <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">bool</span> UnsubscribeCharacteristic(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                   <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">bool</span> CloseConnection(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    uint16_t GetMTU(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordtype">bool</span> SendIndication(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>,</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                        System::PacketBufferHandle pBuf) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">bool</span> SendWriteRequest(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>,</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                          System::PacketBufferHandle pBuf) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">bool</span> SendReadRequest(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>,</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                         System::PacketBufferHandle pBuf) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">bool</span> SendReadResponse(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <a class="code" href="_ble_config_8h.html#a3ab314309cec094e3870be337eb9506f">BLE_READ_REQUEST_CONTEXT</a> requestContext, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>,</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                          <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="comment">// ===== Members that implement virtual methods on BleApplicationDelegate.</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">void</span> NotifyChipConnectionClosed(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keyword">friend</span> BLEManager &amp; BLEMgr(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keyword">friend</span> BLEManagerImpl &amp; BLEMgrImpl(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">static</span> BLEManagerImpl sInstance;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="comment">// ===== Private members reserved for use by this class only.</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keyword">enum class</span> <a class="code" href="namespacechip_1_1_header.html#aebdda57d47e49eaf4cc8aef0d8b0474e">Flags</a> : uint8_t</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        kAdvertisingEnabled      = 0x0001,</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        kFastAdvertisingEnabled  = 0x0002,</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        kAdvertising             = 0x0004,</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        kRestartAdvertising      = 0x0008,</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        kK32WBLEStackInitialized = 0x0010,</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        kDeviceNameSet           = 0x0020,</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    };</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    BitFlags&lt;BLEManagerImpl::Flags&gt; mFlags;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keyword">enum</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        kMaxConnections      = <a class="code" href="_ble_config_8h.html#a5a5067a99b70bbf22c8617576377998b">BLE_LAYER_NUM_BLE_ENDPOINTS</a>,</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        kMaxDeviceNameLength = 16,</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        kUnusedIndex         = 0xFF,</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    };</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">enum</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        BLE_KW_MSG_ERROR = 0x01,</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        BLE_KW_MSG_CONNECTED,</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        BLE_KW_MSG_DISCONNECTED,</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        BLE_KW_MSG_MTU_CHANGED,</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        BLE_KW_MSG_ATT_WRITTEN,</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        BLE_KW_MSG_ATT_LONG_WRITTEN,</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        BLE_KW_MSG_ATT_READ,</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        BLE_KW_MSG_ATT_CCCD_WRITTEN,</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        BLE_KW_MSG_FORCE_DISCONNECT,</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    } blekw_msg_type_t;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span>hk_ble_kw_msg_s</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    {</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        blekw_msg_type_t type;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        uint16_t length;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keyword">union</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        {</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            uint8_t u8;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            uint16_t u16;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            uint32_t u32;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            uint8_t data[1];</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordtype">char</span> * str;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        } data;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    } blekw_msg_t;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">enum</span> ble_err_t</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    {</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        BLE_OK = 0,</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        BLE_INTERNAL_GATT_ERROR,</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        BLE_E_SET_ADV_PARAMS,</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        BLE_E_ADV_PARAMS_FAILED,</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        BLE_E_SET_ADV_DATA,</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        BLE_E_ADV_CHANGED,</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        BLE_E_ADV_FAILED,</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        BLE_E_ADV_SETUP_FAILED,</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        BLE_E_START_ADV,</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        BLE_E_STOP,</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        BLE_E_FAIL,</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        BLE_E_START_ADV_FAILED,</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        BLE_INTERNAL_ERROR,</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    } ble_err_t;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span>ble_att_written_data_s</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    {</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        uint8_t device_id;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        uint16_t length;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        uint8_t data[1];</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    } blekw_att_written_data_t;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span>hk_ble_att_read_data_s</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        uint8_t device_id;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    } blekw_att_read_data_t;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keyword">struct </span>CHIPoBLEConState</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    {</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        uint16_t mtu : 10;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        uint16_t allocated : 1;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        uint16_t subscribed : 1;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        uint16_t unused : 4;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        uint8_t connectionHandle;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        uint8_t bondingHandle;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    };</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    CHIPoBLEConState mBleConnections[kMaxConnections];</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160; </div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    CHIPoBLEServiceMode mServiceMode;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    uint16_t mNumGAPCons;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    uint8_t mAdvHandle;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordtype">char</span> mDeviceName[kMaxDeviceNameLength + 1];</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordtype">void</span> DriveBLEState(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> ConfigureAdvertising(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> StartAdvertising(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> StopAdvertising(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">void</span> HandleSoftDeviceBLEEvent(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordtype">void</span> HandleConnectEvent(blekw_msg_t * msg);</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">void</span> HandleConnectionCloseEvent(blekw_msg_t * msg);</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">void</span> HandleWriteEvent(blekw_msg_t * msg);</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordtype">void</span> HandleRXCharWrite(blekw_msg_t * msg);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordtype">void</span> HandleTXCharCCCDWrite(blekw_msg_t * msg);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleGAPConnect(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleGAPDisconnect(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleRXCharWrite(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleTXCharCCCDWrite(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleTXComplete(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetSubscribed(uint16_t conId);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordtype">bool</span> UnsetSubscribed(uint16_t conId);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordtype">bool</span> IsSubscribed(uint16_t conId);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> ConfigureAdvertisingData(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    BLEManagerImpl::ble_err_t blekw_send_event(int8_t connection_handle, uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>, uint8_t * data, uint32_t len);</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordtype">bool</span> RemoveConnection(uint8_t connectionHandle);</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordtype">void</span> AddConnection(uint8_t connectionHandle);</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    BLEManagerImpl::CHIPoBLEConState * GetConnectionState(uint8_t connectionHandle, <span class="keywordtype">bool</span> allocate);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160; </div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> DriveBLEState(intptr_t arg);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160; </div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> BLE_SignalFromISRCallback(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_connection_timeout_cb(TimerHandle_t timer);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_u8(blekw_msg_type_t type, uint8_t data);</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_new_data_received_notification(uint32_t mask);</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_controller_init(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_host_init(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> Host_Task(osaTaskParam_t argument);</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_generic_cb(gapGenericEvent_t * pGenericEvent);</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_gatt_server_cb(deviceId_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#afc8f2fc78f37c66a85a3542d9136944c">deviceId</a>, gattServerEvent_t * pServerEvent);</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_u16(blekw_msg_type_t type, uint16_t data);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_att_written(blekw_msg_type_t type, uint8_t device_id, uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>, uint8_t * data,</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                                uint16_t length);</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_att_read(blekw_msg_type_t type, uint8_t device_id, uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keyword">static</span> BLEManagerImpl::ble_err_t blekw_start_advertising(gapAdvertisingParameters_t * adv_params, gapAdvertisingData_t * adv,</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                                                             gapScanResponseData_t * scnrsp);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keyword">static</span> BLEManagerImpl::ble_err_t blekw_stop_advertising(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_gap_advertising_cb(gapAdvertisingEvent_t * pAdvertisingEvent);</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_gap_connection_cb(deviceId_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#afc8f2fc78f37c66a85a3542d9136944c">deviceId</a>, gapConnectionEvent_t * pConnectionEvent);</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_start_connection_timeout(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_stop_connection_timeout(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> bleAppTask(<span class="keywordtype">void</span> * p_arg);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;};</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="keyword">inline</span> BLEManager &amp; BLEMgr(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;{</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">return</span> BLEManagerImpl::sInstance;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="keyword">inline</span> BLEManagerImpl &amp; BLEMgrImpl(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;{</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="keywordflow">return</span> BLEManagerImpl::sInstance;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;}</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160; </div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="keyword">inline</span> <a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">BleLayer</a> * BLEManagerImpl::_GetBleLayer()</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;{</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;}</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="keyword">inline</span> BLEManager::CHIPoBLEServiceMode BLEManagerImpl::_GetCHIPoBLEServiceMode(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">return</span> mServiceMode;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;} <span class="comment">// namespace Internal</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;} <span class="comment">// namespace chip</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">bool</span> _IsAdvertising(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _SetAdvertisingMode(BLEAdvertisingMode mode);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _GetDeviceName(<span class="keywordtype">char</span> * buf, <span class="keywordtype">size_t</span> bufSize);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> _SetDeviceName(<span class="keyword">const</span> <span class="keywordtype">char</span> * deviceName);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    uint16_t _NumConnections(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">void</span> _OnPlatformEvent(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">BleLayer</a> * _GetBleLayer(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// ===== Members that implement virtual methods on BlePlatformDelegate.</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">bool</span> SubscribeCharacteristic(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                 <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">bool</span> UnsubscribeCharacteristic(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>,</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                   <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">bool</span> CloseConnection(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    uint16_t GetMTU(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId) <span class="keyword">const override</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">bool</span> SendIndication(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                        System::PacketBufferHandle pBuf) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordtype">bool</span> SendWriteRequest(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>,</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                          System::PacketBufferHandle pBuf) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">bool</span> SendReadRequest(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                         System::PacketBufferHandle pBuf) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">bool</span> SendReadResponse(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId, <a class="code" href="_ble_config_8h.html#a3ab314309cec094e3870be337eb9506f">BLE_READ_REQUEST_CONTEXT</a> requestContext, <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a795f9de877ce3d7d15dcac4cfaad9023">svcId</a>,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                          <span class="keyword">const</span> Ble::ChipBleUUID * <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0d3547c7353c9ab82e42998e4e1c7c5a">charId</a>) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// ===== Members that implement virtual methods on BleApplicationDelegate.</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">void</span> NotifyChipConnectionClosed(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> conId) <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="comment">// ===== Members for internal use by the following friends.</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keyword">friend</span> BLEManager &amp; BLEMgr(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keyword">friend</span> BLEManagerImpl &amp; BLEMgrImpl(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keyword">static</span> BLEManagerImpl sInstance;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="comment">// ===== Private members reserved for use by this class only.</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keyword">enum class</span> <a class="code" href="namespacechip_1_1_header.html#aebdda57d47e49eaf4cc8aef0d8b0474e">Flags</a> : uint8_t</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        kAdvertisingEnabled      = 0x0001,</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        kFastAdvertisingEnabled  = 0x0002,</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        kAdvertising             = 0x0004,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        kRestartAdvertising      = 0x0008,</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        kK32WBLEStackInitialized = 0x0010,</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        kDeviceNameSet           = 0x0020,</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    };</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    BitFlags&lt;BLEManagerImpl::Flags&gt; mFlags;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">enum</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        kMaxConnections      = <a class="code" href="_ble_config_8h.html#a5a5067a99b70bbf22c8617576377998b">BLE_LAYER_NUM_BLE_ENDPOINTS</a>,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        kMaxDeviceNameLength = 16,</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        kUnusedIndex         = 0xFF,</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    };</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">enum</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        BLE_KW_MSG_ERROR = 0x01,</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        BLE_KW_MSG_CONNECTED,</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        BLE_KW_MSG_DISCONNECTED,</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        BLE_KW_MSG_MTU_CHANGED,</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        BLE_KW_MSG_ATT_WRITTEN,</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        BLE_KW_MSG_ATT_LONG_WRITTEN,</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        BLE_KW_MSG_ATT_READ,</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        BLE_KW_MSG_ATT_CCCD_WRITTEN,</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        BLE_KW_MSG_FORCE_DISCONNECT,</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    } blekw_msg_type_t;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span>hk_ble_kw_msg_s</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        blekw_msg_type_t type;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        uint16_t length;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keyword">union</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            uint8_t u8;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            uint16_t u16;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            uint32_t u32;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            uint8_t data[1];</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordtype">char</span> * str;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        } data;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    } blekw_msg_t;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">enum</span> ble_err_t</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        BLE_OK = 0,</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        BLE_INTERNAL_GATT_ERROR,</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        BLE_E_SET_ADV_PARAMS,</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        BLE_E_ADV_PARAMS_FAILED,</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        BLE_E_SET_ADV_DATA,</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        BLE_E_ADV_CHANGED,</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        BLE_E_ADV_FAILED,</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        BLE_E_ADV_SETUP_FAILED,</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        BLE_E_START_ADV,</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        BLE_E_STOP,</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        BLE_E_FAIL,</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        BLE_E_START_ADV_FAILED,</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        BLE_INTERNAL_ERROR,</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    } ble_err_t;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span>ble_att_written_data_s</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        uint8_t device_id;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        uint16_t length;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        uint8_t data[1];</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    } blekw_att_written_data_t;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keyword">typedef</span> <span class="keyword">struct </span>hk_ble_att_read_data_s</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        uint8_t device_id;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    } blekw_att_read_data_t;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keyword">struct </span>CHIPoBLEConState</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        uint16_t mtu : 10;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        uint16_t allocated : 1;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        uint16_t subscribed : 1;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        uint16_t unused : 4;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        uint8_t connectionHandle;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        uint8_t bondingHandle;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    };</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    CHIPoBLEConState mBleConnections[kMaxConnections];</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    CHIPoBLEServiceMode mServiceMode;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    uint16_t mNumGAPCons;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    uint8_t mAdvHandle;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordtype">char</span> mDeviceName[kMaxDeviceNameLength + 1];</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordtype">void</span> DriveBLEState(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> ConfigureAdvertising(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> StartAdvertising(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> StopAdvertising(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">void</span> HandleSoftDeviceBLEEvent(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">void</span> HandleConnectEvent(blekw_msg_t * msg);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordtype">void</span> HandleConnectionCloseEvent(blekw_msg_t * msg);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">void</span> HandleWriteEvent(blekw_msg_t * msg);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">void</span> HandleRXCharWrite(blekw_msg_t * msg);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordtype">void</span> HandleTXCharCCCDWrite(blekw_msg_t * msg);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleGAPConnect(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleGAPDisconnect(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleRXCharWrite(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleTXCharCCCDWrite(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> HandleTXComplete(<span class="keyword">const</span> ChipDeviceEvent * event);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> SetSubscribed(uint16_t conId);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="keywordtype">bool</span> UnsetSubscribed(uint16_t conId);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordtype">bool</span> IsSubscribed(uint16_t conId);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> ConfigureAdvertisingData(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    BLEManagerImpl::ble_err_t blekw_send_event(int8_t connection_handle, uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>, uint8_t * data, uint32_t len);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordtype">bool</span> RemoveConnection(uint8_t connectionHandle);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordtype">void</span> AddConnection(uint8_t connectionHandle);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    BLEManagerImpl::CHIPoBLEConState * GetConnectionState(uint8_t connectionHandle, <span class="keywordtype">bool</span> allocate);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> DriveBLEState(intptr_t arg);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> BLE_SignalFromISRCallback(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_connection_timeout_cb(TimerHandle_t timer);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_u8(blekw_msg_type_t type, uint8_t data);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_new_data_received_notification(uint32_t mask);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_controller_init(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_host_init(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> Host_Task(osaTaskParam_t argument);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_generic_cb(gapGenericEvent_t * pGenericEvent);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_gatt_server_cb(deviceId_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#afc8f2fc78f37c66a85a3542d9136944c">deviceId</a>, gattServerEvent_t * pServerEvent);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_u16(blekw_msg_type_t type, uint16_t data);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_att_written(blekw_msg_type_t type, uint8_t device_id, uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>, uint8_t * data,</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                                                uint16_t length);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keyword">static</span> <a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> blekw_msg_add_att_read(blekw_msg_type_t type, uint8_t device_id, uint16_t <a class="code" href="namespacechip_1_1_device_layer_1_1_internal.html#a460cf807ee2482f1c1431deacb7635e3">handle</a>);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keyword">static</span> BLEManagerImpl::ble_err_t blekw_start_advertising(gapAdvertisingParameters_t * adv_params, gapAdvertisingData_t * adv,</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                                                             gapScanResponseData_t * scnrsp);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keyword">static</span> BLEManagerImpl::ble_err_t blekw_stop_advertising(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_gap_advertising_cb(gapAdvertisingEvent_t * pAdvertisingEvent);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_gap_connection_cb(deviceId_t <a class="code" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#afc8f2fc78f37c66a85a3542d9136944c">deviceId</a>, gapConnectionEvent_t * pConnectionEvent);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_start_connection_timeout(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> blekw_stop_connection_timeout(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> bleAppTask(<span class="keywordtype">void</span> * p_arg);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;};</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="keyword">inline</span> BLEManager &amp; BLEMgr(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;{</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">return</span> BLEManagerImpl::sInstance;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;}</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="keyword">inline</span> BLEManagerImpl &amp; BLEMgrImpl(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;{</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> BLEManagerImpl::sInstance;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="keyword">inline</span> <a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">BleLayer</a> * BLEManagerImpl::_GetBleLayer()</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;{</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;}</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="keyword">inline</span> BLEManager::CHIPoBLEServiceMode BLEManagerImpl::_GetCHIPoBLEServiceMode(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;{</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">return</span> mServiceMode;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;}</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160; </div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;} <span class="comment">// namespace Internal</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160; </div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_ble_config_8h_html_a733cdf268d79c0e6edf76a3c2a809727"><div class="ttname"><a href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a></div><div class="ttdeci">#define BLE_CONNECTION_OBJECT</div><div class="ttdoc">This defines the type of BLE_CONNECTION_OBJECT parameters passed between BLE platform code and the Bl...</div><div class="ttdef"><b>Definition:</b> BleConfig.h:104</div></div>
@@ -375,7 +374,7 @@ $(document).ready(function(){initNavTree('_k32_w_2_b_l_e_manager_impl_8h_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_8ea9fa1ba554352f2068a9636e0a3470.html">K32W</a></li><li class="navelem"><a class="el" href="_k32_w_2_b_l_e_manager_impl_8h.html">BLEManagerImpl.h</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 14:34:12 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 20:51:23 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

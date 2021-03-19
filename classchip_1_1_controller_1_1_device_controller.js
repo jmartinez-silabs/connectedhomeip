@@ -12,6 +12,7 @@ var classchip_1_1_controller_1_1_device_controller =
     [ "GetDevice", "classchip_1_1_controller_1_1_device_controller.html#ade480e855f5cc1b6d324fc252c98d311", null ],
     [ "GetInactiveDeviceIndex", "classchip_1_1_controller_1_1_device_controller.html#a6e729937b895a6e69fc9c52a256eae87", null ],
     [ "Init", "classchip_1_1_controller_1_1_device_controller.html#aa83dfde1535f23878e3a5a294130978c", null ],
+    [ "InitializePairedDeviceList", "classchip_1_1_controller_1_1_device_controller.html#aca652ba029f011b16ff4b7752ce9ec3e", null ],
     [ "ReleaseDevice", "classchip_1_1_controller_1_1_device_controller.html#a7ef943f16778b2466a4637f89fce8767", null ],
     [ "ReleaseDevice", "classchip_1_1_controller_1_1_device_controller.html#a20011e300d00763eb58cbfb7d6de0455", null ],
     [ "ReleaseDeviceById", "classchip_1_1_controller_1_1_device_controller.html#ad00416087ce23a7ccc96f6c2cc4d811f", null ],

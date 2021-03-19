@@ -6,10 +6,9 @@ var classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_imp
     [ "_GetCHIPoBLEServiceMode", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a3f784d9b1c72fa7b074e41fcaea5ceb5", null ],
     [ "_IsBLEAdvertising", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a70d32630b2b0fda26e59ce5492f46d16", null ],
     [ "_IsBLEAdvertisingEnabled", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#aa60cfdd4afd77f4df2f8dcdf6c9dc694", null ],
-    [ "_IsBLEFastAdvertisingEnabled", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a1dcd8d7b8d40f61a5be9aad7349b2b80", null ],
     [ "_NumBLEConnections", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a717d4c78260f9eb50ae3ad195e2a3bb5", null ],
     [ "_SetBLEAdvertisingEnabled", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a44ad956a5ca71fc3b4b8c159965b6521", null ],
+    [ "_SetBLEAdvertisingMode", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#acc081c007d82176f18bc3f3f37e0acfb", null ],
     [ "_SetBLEDeviceName", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#ae6c70d722f369300e623fd11d99355ae", null ],
-    [ "_SetBLEFastAdvertisingEnabled", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a605884423323968e1eac1225ebaf4109", null ],
     [ "_SetCHIPoBLEServiceMode", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___b_l_e.html#a4ba69bab79558efdae2543a741be01c6", null ]
 ];

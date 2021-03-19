@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">4eb50c2</span>
+   &#160;<span id="projectnumber">5719bdb</span>
    </div>
   </td>
  </tr>
@@ -136,10 +136,13 @@ $(document).ready(function(){initNavTree('ble_2_ble_connection_delegate_8h_sourc
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// Call this function to delegate the connection steps required to get a BLE_CONNECTION_OBJECT</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// out of a peripheral discriminator.</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> NewConnection(<a class="code" href="classchip_1_1_ble_1_1_ble_layer.html">BleLayer</a> * bleLayer, <span class="keywordtype">void</span> * appState, uint16_t connDiscriminator) = 0;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;};</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;} <span class="comment">/* namespace Ble */</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;} <span class="comment">/* namespace chip */</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// Call this function to stop the connection</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="_ble_error_8h.html#a1f45d237ce15da480e78d3f16a05b602">BLE_ERROR</a> CancelConnection() = 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;} <span class="comment">/* namespace Ble */</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;} <span class="comment">/* namespace chip */</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_ble_config_8h_html_a733cdf268d79c0e6edf76a3c2a809727"><div class="ttname"><a href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a></div><div class="ttdeci">#define BLE_CONNECTION_OBJECT</div><div class="ttdoc">This defines the type of BLE_CONNECTION_OBJECT parameters passed between BLE platform code and the Bl...</div><div class="ttdef"><b>Definition:</b> BleConfig.h:104</div></div>
@@ -161,7 +164,7 @@ $(document).ready(function(){initNavTree('ble_2_ble_connection_delegate_8h_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_150fa1ba3974d886fca30febf04a04ac.html">ble</a></li><li class="navelem"><a class="el" href="ble_2_ble_connection_delegate_8h.html">BleConnectionDelegate.h</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 14:34:11 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 20:51:21 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

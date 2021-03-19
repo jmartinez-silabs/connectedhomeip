@@ -1,6 +1,10 @@
 var classchip_1_1_device_layer_1_1_connectivity_manager =
 [
     [ "ThreadPollingConfig", "structchip_1_1_device_layer_1_1_connectivity_manager_1_1_thread_polling_config.html", "structchip_1_1_device_layer_1_1_connectivity_manager_1_1_thread_polling_config" ],
+    [ "BLEAdvertisingMode", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a60af5dc0cca9010a4711ab30a5fca31c", [
+      [ "kFastAdvertising", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a60af5dc0cca9010a4711ab30a5fca31ca85185c216bf431544881d319a389f94b", null ],
+      [ "kSlowAdvertising", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a60af5dc0cca9010a4711ab30a5fca31cabd825623924c7867dfcb639a0ff0bd7f", null ]
+    ] ],
     [ "CHIPoBLEServiceMode", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268af", [
       [ "kCHIPoBLEServiceMode_NotSupported", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268afa97351cce261cc9bb9ed68804d32316a8", null ],
       [ "kCHIPoBLEServiceMode_Enabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a918876d0395f5c4ff1a7ef802ff268afabf2e0bb19c1c97914ae7a14bfda8994d", null ],
@@ -73,7 +77,6 @@ var classchip_1_1_device_layer_1_1_connectivity_manager =
     [ "HaveServiceConnectivityViaThread", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a142c61165440da94fdba301134e85317", null ],
     [ "IsBLEAdvertising", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a6dba1fdad0c465d4e24015330c684fd6", null ],
     [ "IsBLEAdvertisingEnabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a9ffa7fa0d968c8c1e6eb950e8368acec", null ],
-    [ "IsBLEFastAdvertisingEnabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a38395c847d4d674758e08e436c012474", null ],
     [ "IsThreadApplicationControlled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#ad5026ae956a58871d2c4864e6de0444d", null ],
     [ "IsThreadAttached", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a0ac95729d727c9c843be57ff88a548c0", null ],
     [ "IsThreadEnabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#aeb211e96d85219445b402df3ca5b9690", null ],
@@ -89,8 +92,8 @@ var classchip_1_1_device_layer_1_1_connectivity_manager =
     [ "NumBLEConnections", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a6b36dc7d6421afc6743020a20f76df2d", null ],
     [ "operator=", "classchip_1_1_device_layer_1_1_connectivity_manager.html#acb3dc6a9c003032b080e63a97efd3487", null ],
     [ "SetBLEAdvertisingEnabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a2f50ad9f26bbf4353f1c62a04cb1377a", null ],
+    [ "SetBLEAdvertisingMode", "classchip_1_1_device_layer_1_1_connectivity_manager.html#ad757e469dd14e11eae45912a456b8160", null ],
     [ "SetBLEDeviceName", "classchip_1_1_device_layer_1_1_connectivity_manager.html#abeb325cda71eda3f4e514fcbb28290f6", null ],
-    [ "SetBLEFastAdvertisingEnabled", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a0b53dcd58909adb59c6f1d441b96b15e", null ],
     [ "SetCHIPoBLEServiceMode", "classchip_1_1_device_layer_1_1_connectivity_manager.html#ac311bff412be0d8c765200d68a133f97", null ],
     [ "SetThreadDeviceType", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a7d3895d4d4ea6f1e133c0297c0ac2139", null ],
     [ "SetThreadMode", "classchip_1_1_device_layer_1_1_connectivity_manager.html#a4c1c0012f7dd2d8a863c288480f06e6e", null ],

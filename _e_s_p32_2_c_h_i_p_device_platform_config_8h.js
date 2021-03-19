@@ -1,8 +1,10 @@
 var _e_s_p32_2_c_h_i_p_device_platform_config_8h =
 [
     [ "CHIP_DEVICE_CONFIG_BLE_DEVICE_NAME_PREFIX", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a06a57965efec9eee144b77c18706002a", null ],
-    [ "CHIP_DEVICE_CONFIG_BLE_FAST_ADVERTISING_INTERVAL", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a4a71b00ae28d76782eac0561e3253395", null ],
-    [ "CHIP_DEVICE_CONFIG_BLE_SLOW_ADVERTISING_INTERVAL", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a899e2fa8779d3c9cda35ab35814658f2", null ],
+    [ "CHIP_DEVICE_CONFIG_BLE_FAST_ADVERTISING_INTERVAL_MAX", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a6d93590f25ff351de91d577287b321be", null ],
+    [ "CHIP_DEVICE_CONFIG_BLE_FAST_ADVERTISING_INTERVAL_MIN", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#af7077975fa78cacdfba2e66b6c23a585", null ],
+    [ "CHIP_DEVICE_CONFIG_BLE_SLOW_ADVERTISING_INTERVAL_MAX", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#af4f17adc59c48ce77ca360e617837170", null ],
+    [ "CHIP_DEVICE_CONFIG_BLE_SLOW_ADVERTISING_INTERVAL_MIN", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a98344879243755d79c3d590ddda25fff", null ],
     [ "CHIP_DEVICE_CONFIG_CHIP_TASK_PRIORITY", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a900305532bdf6e3b4b2d8edc306d43bb", null ],
     [ "CHIP_DEVICE_CONFIG_CHIP_TASK_STACK_SIZE", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8", null ],
     [ "CHIP_DEVICE_CONFIG_CHIP_TIME_SERVICE_ENDPOINT_ID", "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a90817ceaba6336b0a72da91424441f92", null ],

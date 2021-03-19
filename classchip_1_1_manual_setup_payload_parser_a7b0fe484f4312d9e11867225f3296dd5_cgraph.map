@@ -1,10 +1,8 @@
 <map id="chip::ManualSetupPayloadParser::populatePayload" name="chip::ManualSetupPayloadParser::populatePayload">
-<area shape="rect" id="node1" title=" " alt="" coords="5,86,199,127"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,57,199,98"/>
 <area shape="rect" id="node2" href="$namespacechip.html#ab547aab16bfa7e260b53b035ac412e94" title=" " alt="" coords="247,5,468,32"/>
 <area shape="rect" id="node3" href="$namespacechip.html#a3d4781c69bf9808354aee42d51299517" title=" " alt="" coords="264,57,451,98"/>
-<area shape="rect" id="node5" href="$namespacechip.html#a0ae62346983b4def474131266a1e3fca" title=" " alt="" coords="259,123,455,149"/>
-<area shape="rect" id="node7" href="$namespacechip.html#a5cff6ae96a10b9bcc588a80495d91808" title=" " alt="" coords="252,174,463,215"/>
+<area shape="rect" id="node5" href="$namespacechip.html#abf556c2f98e4a602f440b53b4d5fb628" title=" " alt="" coords="252,122,463,163"/>
 <area shape="rect" id="node4" href="$class_verhoeff10.html#a47a5e99435ec4985700283792982fa1a" title=" " alt="" coords="516,64,739,91"/>
-<area shape="rect" id="node6" href="$namespacechip.html#a4749b960ce8098470c4362a0b4f4ae97" title=" " alt="" coords="563,123,691,149"/>
-<area shape="rect" id="node8" href="$namespacechip.html#a25d43d5078b7d29cd4b1c28f80d4c6b6" title=" " alt="" coords="566,181,689,208"/>
+<area shape="rect" id="node6" href="$namespacechip.html#abca2d40df3d3fc9eccdf0182f12755fe" title=" " alt="" coords="566,129,689,156"/>
 </map>
