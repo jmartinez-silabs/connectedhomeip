@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2f064a5</span>
+   &#160;<span id="projectnumber">4eb50c2</span>
    </div>
   </td>
  </tr>
@@ -84,7 +84,9 @@ $(document).ready(function(){initNavTree('classchip_1_1_transport_1_1_t_c_p_base
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classchip_1_1_transport_1_1_t_c_p_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">chip::Transport::TCPBase Class Reference</div>  </div>
@@ -116,10 +118,16 @@ Collaboration diagram for chip::Transport::TCPBase:</div>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html">ActiveConnectionState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">State for each active connection.  <a href="structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a81bfab4b5429466c340c7c47c254b8c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#a81bfab4b5429466c340c7c47c254b8c0">TCPBase</a> (<a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">Inet::TCPEndPoint</a> **activeConnectionsBuffer, size_t <a class="el" href="_zephyr_config_8cpp.html#ab6ceafede9d9afacc7978f2f78ba7610">bufferSize</a>, <a class="el" href="structchip_1_1_transport_1_1_pending_packet.html">PendingPacket</a> *packetBuffers, size_t packetsBuffersSize)</td></tr>
-<tr class="separator:a81bfab4b5429466c340c7c47c254b8c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e77c57ecada7449fabbfd97595c4ce5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#a7e77c57ecada7449fabbfd97595c4ce5">TCPBase</a> (<a class="el" href="structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html">ActiveConnectionState</a> *activeConnectionsBuffer, size_t <a class="el" href="_zephyr_config_8cpp.html#ab6ceafede9d9afacc7978f2f78ba7610">bufferSize</a>, <a class="el" href="structchip_1_1_transport_1_1_pending_packet.html">PendingPacket</a> *packetBuffers, size_t packetsBuffersSize)</td></tr>
+<tr class="separator:a7e77c57ecada7449fabbfd97595c4ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25303300f8b9e03788f52370e5d761a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9">~TCPBase</a> () override</td></tr>
 <tr class="separator:a25303300f8b9e03788f52370e5d761a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aced1befdd6127f171b805c14c3feae82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#aced1befdd6127f171b805c14c3feae82">Init</a> (<a class="el" href="classchip_1_1_transport_1_1_tcp_listen_parameters.html">TcpListenParameters</a> &amp;<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af67087fbae72c92a306fffaa7f3e9a6d">params</a>)</td></tr>
@@ -150,6 +158,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aca20b03afdb6b5d864a10ab3688da780 inherit pub_methods_classchip_1_1_transport_1_1_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the open endpoint without destroying the object.  <a href="classchip_1_1_transport_1_1_base.html#aca20b03afdb6b5d864a10ab3688da780">More...</a><br /></td></tr>
 <tr class="separator:aca20b03afdb6b5d864a10ab3688da780 inherit pub_methods_classchip_1_1_transport_1_1_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a6ba7974f94d71f42d1c2d0ab3088bb9c"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html#a6ba7974f94d71f42d1c2d0ab3088bb9c">TCPTest</a></td></tr>
+<tr class="separator:a6ba7974f94d71f42d1c2d0ab3088bb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classchip_1_1_transport_1_1_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classchip_1_1_transport_1_1_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classchip_1_1_transport_1_1_base.html">chip::Transport::Base</a></td></tr>
@@ -163,8 +176,8 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implements a transport using <a class="el" href="classchip_1_1_transport_1_1_t_c_p.html">TCP</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a81bfab4b5429466c340c7c47c254b8c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81bfab4b5429466c340c7c47c254b8c0">&#9670;&nbsp;</a></span>TCPBase()</h2>
+<a id="a7e77c57ecada7449fabbfd97595c4ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e77c57ecada7449fabbfd97595c4ce5">&#9670;&nbsp;</a></span>TCPBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +188,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">chip::Transport::TCPBase::TCPBase </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">Inet::TCPEndPoint</a> **&#160;</td>
+          <td class="paramtype"><a class="el" href="structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html">ActiveConnectionState</a> *&#160;</td>
           <td class="paramname"><em>activeConnectionsBuffer</em>, </td>
         </tr>
         <tr>
@@ -211,8 +224,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="classchip_1_1_transport_1_1_t_c_p_base_a81bfab4b5429466c340c7c47c254b8c0_cgraph.png" border="0" usemap="#classchip_1_1_transport_1_1_t_c_p_base_a81bfab4b5429466c340c7c47c254b8c0_cgraph" alt=""/></div>
-<map name="classchip_1_1_transport_1_1_t_c_p_base_a81bfab4b5429466c340c7c47c254b8c0_cgraph" id="classchip_1_1_transport_1_1_t_c_p_base_a81bfab4b5429466c340c7c47c254b8c0_cgraph">
+<div class="center"><img src="classchip_1_1_transport_1_1_t_c_p_base_a7e77c57ecada7449fabbfd97595c4ce5_cgraph.png" border="0" usemap="#classchip_1_1_transport_1_1_t_c_p_base_a7e77c57ecada7449fabbfd97595c4ce5_cgraph" alt=""/></div>
+<map name="classchip_1_1_transport_1_1_t_c_p_base_a7e77c57ecada7449fabbfd97595c4ce5_cgraph" id="classchip_1_1_transport_1_1_t_c_p_base_a7e77c57ecada7449fabbfd97595c4ce5_cgraph">
 <area shape="rect" title=" " alt="" coords="5,5,187,47"/>
 <area shape="rect" href="classchip_1_1_transport_1_1_peer_address.html#ac22cdc60cce102f92fcbd1d5b47a62dc" title=" " alt="" coords="235,5,441,47"/>
 <area shape="rect" href="classchip_1_1_transport_1_1_peer_address.html#ac8fcd6c441f24d1594d2a589178dd1d8" title=" " alt="" coords="489,5,696,47"/>
@@ -248,12 +261,13 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_transport_1_1_t_c_p_base_a25303300f8b9e03788f52370e5d761a9_cgraph.png" border="0" usemap="#classchip_1_1_transport_1_1_t_c_p_base_a25303300f8b9e03788f52370e5d761a9_cgraph" alt=""/></div>
 <map name="classchip_1_1_transport_1_1_t_c_p_base_a25303300f8b9e03788f52370e5d761a9_cgraph" id="classchip_1_1_transport_1_1_t_c_p_base_a25303300f8b9e03788f52370e5d761a9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,71,187,112"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a3e7b41beb660172c19191ff6a74b968a" title="Close all active connections." alt="" coords="235,41,421,83"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="469,71,640,112"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a466f759d4ce1e8f138251e601ace2db9" title="Abortively close the endpoint, in other words, send RST packets." alt="" coords="688,5,859,47"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aee8c2f99ac6edd912e5d31692311277a" title="Initiate TCP full close, in other words, finished with both send and receive." alt="" coords="688,71,859,112"/>
-<area shape="rect" href="classchip_1_1_system_1_1_object.html#a5bca5532b82608d71356ffe6dfd7da54" title="Decrements the reference count for the CHIP System Layer object." alt="" coords="695,136,851,177"/>
+<area shape="rect" title=" " alt="" coords="5,72,187,113"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a3e7b41beb660172c19191ff6a74b968a" title="Close all active connections." alt="" coords="235,23,421,64"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="243,104,413,145"/>
+<area shape="rect" href="structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html#a1f6a7f832a9af62ebc1c689a6643c691" title=" " alt="" coords="469,5,684,47"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a466f759d4ce1e8f138251e601ace2db9" title="Abortively close the endpoint, in other words, send RST packets." alt="" coords="491,71,662,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aee8c2f99ac6edd912e5d31692311277a" title="Initiate TCP full close, in other words, finished with both send and receive." alt="" coords="491,136,662,177"/>
+<area shape="rect" href="classchip_1_1_system_1_1_object.html#a5bca5532b82608d71356ffe6dfd7da54" title="Decrements the reference count for the CHIP System Layer object." alt="" coords="499,201,655,243"/>
 </map>
 </div>
 
@@ -312,11 +326,8 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_transport_1_1_t_c_p_base_a3e7b41beb660172c19191ff6a74b968a_cgraph.png" border="0" usemap="#classchip_1_1_transport_1_1_t_c_p_base_a3e7b41beb660172c19191ff6a74b968a_cgraph" alt=""/></div>
 <map name="classchip_1_1_transport_1_1_t_c_p_base_a3e7b41beb660172c19191ff6a74b968a_cgraph" id="classchip_1_1_transport_1_1_t_c_p_base_a3e7b41beb660172c19191ff6a74b968a_cgraph">
-<area shape="rect" title="Close all active connections." alt="" coords="5,71,192,112"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="240,71,411,112"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a466f759d4ce1e8f138251e601ace2db9" title="Abortively close the endpoint, in other words, send RST packets." alt="" coords="459,5,629,47"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aee8c2f99ac6edd912e5d31692311277a" title="Initiate TCP full close, in other words, finished with both send and receive." alt="" coords="459,71,629,112"/>
-<area shape="rect" href="classchip_1_1_system_1_1_object.html#a5bca5532b82608d71356ffe6dfd7da54" title="Decrements the reference count for the CHIP System Layer object." alt="" coords="466,136,622,177"/>
+<area shape="rect" title="Close all active connections." alt="" coords="5,5,192,47"/>
+<area shape="rect" href="structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html#a1f6a7f832a9af62ebc1c689a6643c691" title=" " alt="" coords="240,5,455,47"/>
 </map>
 </div>
 <div class="dynheader">
@@ -363,19 +374,16 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_transport_1_1_t_c_p_base_a4793078b071d2b695af81582376af93b_cgraph.png" border="0" usemap="#classchip_1_1_transport_1_1_t_c_p_base_a4793078b071d2b695af81582376af93b_cgraph" alt=""/></div>
 <map name="classchip_1_1_transport_1_1_t_c_p_base_a4793078b071d2b695af81582376af93b_cgraph" id="classchip_1_1_transport_1_1_t_c_p_base_a4793078b071d2b695af81582376af93b_cgraph">
-<area shape="rect" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="5,300,187,341"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="269,104,439,145"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ad72fbce3a9ca8661546c3dc876511fef" title="Extract IP address and TCP port of remote endpoint." alt="" coords="269,300,439,341"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_peer_address.html#a5adcbf1a0a5194d3f48f7aa545f65781" title=" " alt="" coords="235,395,473,422"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a466f759d4ce1e8f138251e601ace2db9" title="Abortively close the endpoint, in other words, send RST packets." alt="" coords="542,5,713,47"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aee8c2f99ac6edd912e5d31692311277a" title="Initiate TCP full close, in other words, finished with both send and receive." alt="" coords="542,71,713,112"/>
-<area shape="rect" href="classchip_1_1_system_1_1_object.html#a5bca5532b82608d71356ffe6dfd7da54" title="Decrements the reference count for the CHIP System Layer object." alt="" coords="549,136,705,177"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_i_p_address.html#abb6180cf8ced926a6be9189b53f1d932" title=" " alt="" coords="551,201,704,243"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_i_p_address.html#a51a2c95a399e28425713cfc0e38b850d" title=" " alt="" coords="551,267,704,308"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a67ec333e4a9fa6fdd93b6ebaf963eb64" title="Extract whether TCP connection is established." alt="" coords="542,332,713,373"/>
-<area shape="rect" href="namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="521,398,733,425"/>
-<area shape="rect" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="781,274,860,301"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_peer_address.html#ac8fcd6c441f24d1594d2a589178dd1d8" title=" " alt="" coords="524,449,731,491"/>
+<area shape="rect" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="5,136,187,177"/>
+<area shape="rect" href="structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html#a1f6a7f832a9af62ebc1c689a6643c691" title=" " alt="" coords="247,71,461,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ad72fbce3a9ca8661546c3dc876511fef" title="Extract IP address and TCP port of remote endpoint." alt="" coords="269,136,439,177"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_peer_address.html#a5adcbf1a0a5194d3f48f7aa545f65781" title=" " alt="" coords="235,231,473,258"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_i_p_address.html#abb6180cf8ced926a6be9189b53f1d932" title=" " alt="" coords="551,5,704,47"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_i_p_address.html#a51a2c95a399e28425713cfc0e38b850d" title=" " alt="" coords="551,71,704,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a67ec333e4a9fa6fdd93b6ebaf963eb64" title="Extract whether TCP connection is established." alt="" coords="542,136,713,177"/>
+<area shape="rect" href="namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="521,202,733,229"/>
+<area shape="rect" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="781,78,860,105"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_peer_address.html#ac8fcd6c441f24d1594d2a589178dd1d8" title=" " alt="" coords="524,253,731,295"/>
 </map>
 </div>
 
@@ -497,6 +505,29 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a6ba7974f94d71f42d1c2d0ab3088bb9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba7974f94d71f42d1c2d0ab3088bb9c">&#9670;&nbsp;</a></span>TCPTest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class TCPTest</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>transport/raw/<a class="el" href="_t_c_p_8h_source.html">TCP.h</a></li>
 <li>transport/raw/<a class="el" href="_t_c_p_8cpp.html">TCP.cpp</a></li>
@@ -507,7 +538,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_transport.html">Transport</a></li><li class="navelem"><a class="el" href="classchip_1_1_transport_1_1_t_c_p_base.html">TCPBase</a></li>
-    <li class="footer">Generated on Wed Mar 17 2021 14:47:45 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 14:34:16 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

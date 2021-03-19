@@ -1,5 +1,5 @@
 <map id="chip::System::PacketBuffer::DataLength" name="chip::System::PacketBuffer::DataLength">
-<area shape="rect" id="node1" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="891,484,1085,525"/>
+<area shape="rect" id="node1" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="891,517,1085,559"/>
 <area shape="rect" id="node2" href="$classmdns_1_1_minimal_1_1_query_builder.html#ab47fea6c4dfffb6b7cb000e2460ae0f1" title=" " alt="" coords="301,5,513,47"/>
 <area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_response_builder.html#ab8a852699ac1f617737b132262d5b81b" title=" " alt="" coords="289,71,525,112"/>
 <area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_response_builder.html#aa5d64c2a45ecec7183482fabf88e5e1f" title="Attempts to add a record to the currentsystem packet buffer." alt="" coords="289,136,525,177"/>
@@ -12,9 +12,10 @@
 <area shape="rect" id="node21" href="$classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="308,659,507,700"/>
 <area shape="rect" id="node22" href="$classchip_1_1_network_provisioning.html#abdc8985d7e49b851d831e3baa8cd970c" title=" " alt="" coords="573,717,843,759"/>
 <area shape="rect" id="node23" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a950123f5e427f80adb14f730137d9fc7" title="A function to provide a backing store&#39;s initial start position and data length to a reader." alt="" coords="599,783,817,824"/>
-<area shape="rect" id="node24" href="$namespacechip_1_1_ble.html#a087607f2e06749846a309a31f3c3ff4a" title=" " alt="" coords="618,615,798,642"/>
-<area shape="rect" id="node25" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="617,848,799,889"/>
-<area shape="rect" id="node26" href="$classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="600,914,816,970"/>
+<area shape="rect" id="node24" href="$namespacechip_1_1_ble.html#a087607f2e06749846a309a31f3c3ff4a" title=" " alt="" coords="618,666,798,693"/>
+<area shape="rect" id="node25" href="$classchip_1_1_system_1_1_packet_buffer.html#a4ed8f36d27742745d384d17ea535138d" title="Copies data from the payloads of a chain of packet buffers until a given amount of data has been copi..." alt="" coords="611,848,805,889"/>
+<area shape="rect" id="node26" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="617,913,799,955"/>
+<area shape="rect" id="node27" href="$classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="600,979,816,1035"/>
 <area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="6,136,241,177"/>
 <area shape="rect" id="node7" href="$classchip_1_1_system_1_1_packet_buffer.html#a8e0d719e7c335c310a720b79750fc6f3" title="Move data from subsequent buffers in the chain into the current buffer until it is full." alt="" coords="310,528,505,569"/>
 <area shape="rect" id="node8" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="308,593,507,635"/>

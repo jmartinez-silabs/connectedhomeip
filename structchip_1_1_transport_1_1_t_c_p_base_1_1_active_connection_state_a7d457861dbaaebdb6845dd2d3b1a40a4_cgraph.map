@@ -1,0 +1,6 @@
+<map id="chip::Transport::TCPBase::ActiveConnectionState::Discard" name="chip::Transport::TCPBase::ActiveConnectionState::Discard">
+<area shape="rect" id="node1" title=" " alt="" coords="5,63,187,119"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#afa680c7b45ac6478cddaf24f228b4e9d" title="Consume data in a chain of buffers." alt="" coords="235,5,429,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a63e13c201b8c13dc611111e3ec3612da" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="235,71,429,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer.html#ac9c9e4fe5907e0a1c15ac5132f7c1371" title="Get the total length of packet data in the buffer chain." alt="" coords="235,136,429,177"/>
+</map>

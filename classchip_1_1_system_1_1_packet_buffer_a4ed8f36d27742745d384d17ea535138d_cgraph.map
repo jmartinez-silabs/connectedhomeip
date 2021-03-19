@@ -1,0 +1,7 @@
+<map id="chip::System::PacketBuffer::Read" name="chip::System::PacketBuffer::Read">
+<area shape="rect" id="node1" title="Copies data from the payloads of a chain of packet buffers until a given amount of data has been copi..." alt="" coords="5,93,200,135"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a9ac3f03ccf49d369aebc939d0b7b5edb" title="Get the length, in bytes, of data in a packet buffer." alt="" coords="248,5,443,47"/>
+<area shape="rect" id="node3" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="306,71,385,98"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="248,123,443,164"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer.html#ac9c9e4fe5907e0a1c15ac5132f7c1371" title="Get the total length of packet data in the buffer chain." alt="" coords="248,188,443,229"/>
+</map>

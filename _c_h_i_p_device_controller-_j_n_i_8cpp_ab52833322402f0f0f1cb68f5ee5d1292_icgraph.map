@@ -1,5 +1,5 @@
 <map id="memcpy" name="memcpy">
-<area shape="rect" id="node1" title=" " alt="" coords="1508,1106,1587,1133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1508,1162,1587,1189"/>
 <area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#aca9ffba1ba7484d50f5cfd30f31845a8" title=" " alt="" coords="1207,5,1417,76"/>
 <area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html#a997610bf842078d0d8c071b89c9386ee" title=" " alt="" coords="1164,100,1460,171"/>
 <area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#ac85216fbfeffe4c5b9854bbc3429ba4e" title=" " alt="" coords="1195,195,1429,265"/>
@@ -17,20 +17,21 @@
 <area shape="rect" id="node36" href="$namespacechip_1_1_device_layer_1_1_internal.html#ad7a9636d2100061afbd79471fbdf7d89" title="Log information related to a state change in the OpenThread stack." alt="" coords="550,1069,766,1125"/>
 <area shape="rect" id="node39" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="1215,1397,1409,1439"/>
 <area shape="rect" id="node41" href="$_commissioner_impl_8cpp.html#aac1170bc609276f14f910a7d678e2c88" title=" " alt="" coords="1196,1463,1428,1504"/>
-<area shape="rect" id="node43" href="$classchip_1_1_inet_1_1_i_p_address.html#a754433df2941d22c556c7dc19697c6d1" title="Emit the IP address in standard network representation." alt="" coords="1235,1528,1389,1569"/>
-<area shape="rect" id="node45" href="$classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#abf8e6cca379865f5eb4ce40d276e5224" title=" " alt="" coords="1221,1594,1403,1650"/>
-<area shape="rect" id="node46" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a9ff98ce4efe55f8ae4e22a88df6c4be5" title=" " alt="" coords="1234,1675,1390,1716"/>
-<area shape="rect" id="node47" href="$classchip_1_1_message_authentication_code.html#aaaaba6a570fa9ad3e8501f9e223134df" title="Set the message auth tag for this header." alt="" coords="1207,1740,1417,1781"/>
-<area shape="rect" id="node51" href="$classchip_1_1_controller_1_1_script_device_pairing_delegate.html#a50bb1c218a6388e5441181b5f505921e" title=" " alt="" coords="1227,1806,1397,1862"/>
-<area shape="rect" id="node52" href="$_service_provisioning_8h.html#a68625edfbb5f840d6857e40618ce0d60" title=" " alt="" coords="1213,1886,1411,1913"/>
-<area shape="rect" id="node53" href="$classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183" title="This is a synchronous Get API, where the value is returned via the output buffer." alt="" coords="1214,1937,1410,1993"/>
-<area shape="rect" id="node54" href="$namespacechip_1_1_device_layer_1_1_internal.html#a5963dae10ec77839c7345e953b825f97" title=" " alt="" coords="1233,1099,1391,1140"/>
-<area shape="rect" id="node57" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#a4d3fb9ed100bdd543a01e4a239a29662" title=" " alt="" coords="543,1171,773,1257"/>
-<area shape="rect" id="node58" href="$classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d" title="Extract the IPv4 address as a platform data structure." alt="" coords="1235,1267,1389,1308"/>
-<area shape="rect" id="node67" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="1235,1332,1389,1373"/>
-<area shape="rect" id="node69" href="$namespacechip_1_1_device_layer_1_1_internal.html#a6f145c68851665ff1b1f6bc9312b0ba9" title=" " alt="" coords="1189,2017,1435,2059"/>
-<area shape="rect" id="node70" href="$namespacechip_1_1_system_1_1_stats.html#aaa4a2e082c7285a19804885934e67a1b" title=" " alt="" coords="1239,2083,1385,2124"/>
-<area shape="rect" id="node71" href="$classchip_1_1_inet_1_1_i_p_address.html#ab4c886dd85812f5ff0b94dc73636a006" title="Emit the IP address in standard network representation." alt="" coords="1235,2148,1389,2189"/>
+<area shape="rect" id="node43" href="$classchip_1_1_system_1_1_packet_buffer.html#a4ed8f36d27742745d384d17ea535138d" title="Copies data from the payloads of a chain of packet buffers until a given amount of data has been copi..." alt="" coords="1215,1528,1409,1569"/>
+<area shape="rect" id="node44" href="$classchip_1_1_inet_1_1_i_p_address.html#a754433df2941d22c556c7dc19697c6d1" title="Emit the IP address in standard network representation." alt="" coords="1235,1593,1389,1635"/>
+<area shape="rect" id="node46" href="$classchip_1_1_device_layer_1_1_internal_1_1_q_p_g6100_config.html#abf8e6cca379865f5eb4ce40d276e5224" title=" " alt="" coords="1221,1659,1403,1715"/>
+<area shape="rect" id="node47" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a9ff98ce4efe55f8ae4e22a88df6c4be5" title=" " alt="" coords="1234,1740,1390,1781"/>
+<area shape="rect" id="node48" href="$classchip_1_1_message_authentication_code.html#aaaaba6a570fa9ad3e8501f9e223134df" title="Set the message auth tag for this header." alt="" coords="1207,1805,1417,1847"/>
+<area shape="rect" id="node52" href="$classchip_1_1_controller_1_1_script_device_pairing_delegate.html#a50bb1c218a6388e5441181b5f505921e" title=" " alt="" coords="1227,1871,1397,1927"/>
+<area shape="rect" id="node53" href="$_service_provisioning_8h.html#a68625edfbb5f840d6857e40618ce0d60" title=" " alt="" coords="1213,1951,1411,1978"/>
+<area shape="rect" id="node54" href="$classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183" title="This is a synchronous Get API, where the value is returned via the output buffer." alt="" coords="1214,2002,1410,2058"/>
+<area shape="rect" id="node55" href="$namespacechip_1_1_device_layer_1_1_internal.html#a5963dae10ec77839c7345e953b825f97" title=" " alt="" coords="1233,1120,1391,1161"/>
+<area shape="rect" id="node58" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#a4d3fb9ed100bdd543a01e4a239a29662" title=" " alt="" coords="543,1171,773,1257"/>
+<area shape="rect" id="node59" href="$classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d" title="Extract the IPv4 address as a platform data structure." alt="" coords="1235,1267,1389,1308"/>
+<area shape="rect" id="node68" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="1235,1332,1389,1373"/>
+<area shape="rect" id="node70" href="$namespacechip_1_1_device_layer_1_1_internal.html#a6f145c68851665ff1b1f6bc9312b0ba9" title=" " alt="" coords="1189,2083,1435,2124"/>
+<area shape="rect" id="node71" href="$namespacechip_1_1_system_1_1_stats.html#aaa4a2e082c7285a19804885934e67a1b" title=" " alt="" coords="1239,2148,1385,2189"/>
+<area shape="rect" id="node72" href="$classchip_1_1_inet_1_1_i_p_address.html#ab4c886dd85812f5ff0b94dc73636a006" title="Emit the IP address in standard network representation." alt="" coords="1235,2213,1389,2255"/>
 <area shape="rect" id="node9" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="868,160,1069,201"/>
 <area shape="rect" id="node10" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="867,225,1070,267"/>
 <area shape="rect" id="node11" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="881,291,1056,332"/>
@@ -55,19 +56,19 @@
 <area shape="rect" id="node38" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread___lw_i_p.html#af13088d0df3274b4ed128237646e1556" title=" " alt="" coords="5,1054,236,1139"/>
 <area shape="rect" id="node40" href="$namespacechip_1_1_message_packet_buffer.html#a5f6fec1dda2ed93f1705f8880dbb49f5" title="Allocates a packet buffer with initial contents." alt="" coords="871,1763,1067,1804"/>
 <area shape="rect" id="node42" href="$classchip_1_1internal_1_1commissioner_1_1_commissioner.html#ac6df983a88c55ce18c9bd5b5f33099f0" title=" " alt="" coords="821,1828,1116,1869"/>
-<area shape="rect" id="node44" href="$namespacemdns_1_1_minimal.html#a40ded0289bd6bc55f15cc40b9b61721c" title="Parses an IPV6 (AAAA) record data https://tools.ietf.org/html/rfc3596." alt="" coords="847,1894,1090,1921"/>
-<area shape="rect" id="node48" href="$classchip_1_1_secure_session.html#afb207fa7f5e920013d811e91edbf0a91" title="Encrypt the input data using keys established in the secure channel." alt="" coords="893,1945,1044,1987"/>
-<area shape="rect" id="node49" href="$classchip_1_1_transport_1_1_peer_connection_state.html#ad81fe9688c3ffa0c975fbf6fd806069e" title=" " alt="" coords="545,1945,771,1987"/>
-<area shape="rect" id="node50" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="290,1945,489,1987"/>
-<area shape="rect" id="node55" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#a46829a4dafb3ee2d72ff6c214aa3a832" title=" " alt="" coords="863,1004,1074,1075"/>
-<area shape="rect" id="node56" href="$namespacechip_1_1_device_layer_1_1_internal.html#ace86eb76325181ef3275d868cca9275c" title=" " alt="" coords="895,1099,1042,1140"/>
-<area shape="rect" id="node59" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#af8e927e83842b1be121f1e284c7622fd" title="Bind the endpoint to an interface IP address." alt="" coords="881,1384,1056,1425"/>
-<area shape="rect" id="node61" href="$classchip_1_1_inet_1_1_raw_end_point.html#a78f2d3f55307f23bb9de06e470560486" title="Bind the endpoint to an interface IP address." alt="" coords="881,1580,1056,1621"/>
-<area shape="rect" id="node62" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a856f915e764592b461f04ca166ba4911" title="Bind the endpoint to an interface IP address." alt="" coords="883,1449,1054,1491"/>
-<area shape="rect" id="node63" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0020508efa72ed087366ad3620fcf9c1" title="Initiate a TCP connection." alt="" coords="573,1449,743,1491"/>
-<area shape="rect" id="node64" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ade6367f6d3a12bf1e002fa9b69b48ee2" title=" " alt="" coords="871,1515,1066,1556"/>
-<area shape="rect" id="node65" href="$classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760" title="Emit the IP address in conventional text presentation format." alt="" coords="892,1267,1045,1308"/>
-<area shape="rect" id="node60" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="557,1384,759,1425"/>
-<area shape="rect" id="node66" href="$classchip_1_1_transport_1_1_peer_address.html#a915e1f32a1bc1d399c259506cf56c6c3" title=" " alt="" coords="555,1281,761,1323"/>
-<area shape="rect" id="node68" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6e1c6ec9a6359d56a2ee865f4f8c3572" title="Bind the raw endpoint to an IPv6 link&#45;local scope address at the specified interface index." alt="" coords="881,1645,1056,1687"/>
+<area shape="rect" id="node45" href="$namespacemdns_1_1_minimal.html#a40ded0289bd6bc55f15cc40b9b61721c" title="Parses an IPV6 (AAAA) record data https://tools.ietf.org/html/rfc3596." alt="" coords="847,1894,1090,1921"/>
+<area shape="rect" id="node49" href="$classchip_1_1_secure_session.html#afb207fa7f5e920013d811e91edbf0a91" title="Encrypt the input data using keys established in the secure channel." alt="" coords="893,1945,1044,1987"/>
+<area shape="rect" id="node50" href="$classchip_1_1_transport_1_1_peer_connection_state.html#ad81fe9688c3ffa0c975fbf6fd806069e" title=" " alt="" coords="545,1945,771,1987"/>
+<area shape="rect" id="node51" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="290,1945,489,1987"/>
+<area shape="rect" id="node56" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_thread_stack_manager_impl___open_thread.html#a46829a4dafb3ee2d72ff6c214aa3a832" title=" " alt="" coords="863,1004,1074,1075"/>
+<area shape="rect" id="node57" href="$namespacechip_1_1_device_layer_1_1_internal.html#ace86eb76325181ef3275d868cca9275c" title=" " alt="" coords="895,1099,1042,1140"/>
+<area shape="rect" id="node60" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#af8e927e83842b1be121f1e284c7622fd" title="Bind the endpoint to an interface IP address." alt="" coords="881,1384,1056,1425"/>
+<area shape="rect" id="node62" href="$classchip_1_1_inet_1_1_raw_end_point.html#a78f2d3f55307f23bb9de06e470560486" title="Bind the endpoint to an interface IP address." alt="" coords="881,1580,1056,1621"/>
+<area shape="rect" id="node63" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a856f915e764592b461f04ca166ba4911" title="Bind the endpoint to an interface IP address." alt="" coords="883,1449,1054,1491"/>
+<area shape="rect" id="node64" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0020508efa72ed087366ad3620fcf9c1" title="Initiate a TCP connection." alt="" coords="573,1449,743,1491"/>
+<area shape="rect" id="node65" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ade6367f6d3a12bf1e002fa9b69b48ee2" title=" " alt="" coords="871,1515,1066,1556"/>
+<area shape="rect" id="node66" href="$classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760" title="Emit the IP address in conventional text presentation format." alt="" coords="892,1267,1045,1308"/>
+<area shape="rect" id="node61" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="557,1384,759,1425"/>
+<area shape="rect" id="node67" href="$classchip_1_1_transport_1_1_peer_address.html#a915e1f32a1bc1d399c259506cf56c6c3" title=" " alt="" coords="555,1281,761,1323"/>
+<area shape="rect" id="node69" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6e1c6ec9a6359d56a2ee865f4f8c3572" title="Bind the raw endpoint to an IPv6 link&#45;local scope address at the specified interface index." alt="" coords="881,1645,1056,1687"/>
 </map>

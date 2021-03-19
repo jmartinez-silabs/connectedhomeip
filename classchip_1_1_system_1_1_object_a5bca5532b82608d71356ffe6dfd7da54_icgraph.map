@@ -1,17 +1,15 @@
 <map id="chip::System::Object::Release" name="chip::System::Object::Release">
-<area shape="rect" id="node1" title="Decrements the reference count for the CHIP System Layer object." alt="" coords="1187,172,1343,213"/>
-<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_end_point_basis.html#a4871e9c474e27b07298f9dd8d733618f" title=" " alt="" coords="735,143,918,184"/>
-<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#aadd0a9003880abd117787f7fbf54a603" title="Close the endpoint and recycle its memory." alt="" coords="507,103,682,144"/>
-<area shape="rect" id="node10" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6d70b1376048c6cfacc6dde91f5cdfde" title="Close the endpoint and recycle its memory." alt="" coords="507,215,682,256"/>
-<area shape="rect" id="node11" href="$classchip_1_1_system_1_1_object.html#ab4afcebb7bdebec106305759d7a69ca0" title=" " alt="" coords="975,172,1131,213"/>
-<area shape="rect" id="node12" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="968,319,1139,360"/>
+<area shape="rect" id="node1" title="Decrements the reference count for the CHIP System Layer object." alt="" coords="1176,144,1332,185"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_end_point_basis.html#a4871e9c474e27b07298f9dd8d733618f" title=" " alt="" coords="727,105,909,147"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#aadd0a9003880abd117787f7fbf54a603" title="Close the endpoint and recycle its memory." alt="" coords="504,103,679,144"/>
+<area shape="rect" id="node10" href="$classchip_1_1_inet_1_1_raw_end_point.html#a6d70b1376048c6cfacc6dde91f5cdfde" title="Close the endpoint and recycle its memory." alt="" coords="504,180,679,221"/>
+<area shape="rect" id="node11" href="$classchip_1_1_system_1_1_object.html#ab4afcebb7bdebec106305759d7a69ca0" title=" " alt="" coords="965,144,1121,185"/>
+<area shape="rect" id="node12" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="957,261,1128,303"/>
 <area shape="rect" id="node4" href="$classchip_1_1_transport_1_1_u_d_p.html#acbf6fbfa6f61a49b78dac13529725534" title="Close the open endpoint without destroying the object." alt="" coords="279,71,432,112"/>
 <area shape="rect" id="node7" href="$classmdns_1_1_minimal_1_1_server_base.html#abff5c5e4c0d25eca9c8c514ac794225d" title="Closes all currently open endpoints." alt="" coords="255,136,456,177"/>
 <area shape="rect" id="node5" href="$classchip_1_1_transport_1_1_u_d_p.html#a29ef44bfcf73b0a6acb882f2e6b9e438" title="Initialize a UDP transport on a given port." alt="" coords="29,5,183,47"/>
 <area shape="rect" id="node6" href="$classchip_1_1_transport_1_1_u_d_p.html#a0d8f7b89a726c8cc7bbd3819cc811876" title=" " alt="" coords="29,71,183,112"/>
 <area shape="rect" id="node8" href="$classmdns_1_1_minimal_1_1_server_base.html#af920838a902438c0c1f10553b8518933" title="Listen on the given interfaces/address types." alt="" coords="5,136,207,177"/>
 <area shape="rect" id="node9" href="$classmdns_1_1_minimal_1_1_server_base.html#add1fab322a0eedb5bdc881cb80d5b6b7" title=" " alt="" coords="5,201,207,243"/>
-<area shape="rect" id="node13" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a3e7b41beb660172c19191ff6a74b968a" title="Close all active connections." alt="" coords="733,289,920,331"/>
-<area shape="rect" id="node14" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="504,305,685,347"/>
-<area shape="rect" id="node15" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="736,407,917,448"/>
+<area shape="rect" id="node13" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="727,261,909,303"/>
 </map>

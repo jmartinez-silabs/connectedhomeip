@@ -4,6 +4,7 @@ var classchip_1_1_system_1_1_packet_buffer_handle =
     [ "PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html#a77035b73e4b5d0019c836798e7b3318a", null ],
     [ "PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html#a823cf98b167e36e6ffdf19f42442718e", null ],
     [ "~PacketBufferHandle", "classchip_1_1_system_1_1_packet_buffer_handle.html#a262408066567f1428d373d4326c1da78", null ],
+    [ "AddToEnd", "classchip_1_1_system_1_1_packet_buffer_handle.html#aecf17c5539918032fec70f77faebdefe", null ],
     [ "Adopt", "classchip_1_1_system_1_1_packet_buffer_handle.html#a54230fea811c117eeca3bc2b3ed9e5c3", null ],
     [ "Adopt", "classchip_1_1_system_1_1_packet_buffer_handle.html#a942e7671ba06d253f146c6ac2faadb18", null ],
     [ "Advance", "classchip_1_1_system_1_1_packet_buffer_handle.html#a0f6cc43082a435111fbeef7405387074", null ],

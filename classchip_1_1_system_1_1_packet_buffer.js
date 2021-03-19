@@ -13,6 +13,8 @@ var classchip_1_1_system_1_1_packet_buffer =
     [ "Last", "classchip_1_1_system_1_1_packet_buffer.html#aec4ca18105abaf840bbeea134d454926", null ],
     [ "MaxDataLength", "classchip_1_1_system_1_1_packet_buffer.html#a7334f74539888f493225858876763616", null ],
     [ "Next", "classchip_1_1_system_1_1_packet_buffer.html#a6c5ef0d9c23c1a9f63d2620f9b4d470d", null ],
+    [ "Read", "classchip_1_1_system_1_1_packet_buffer.html#a4ed8f36d27742745d384d17ea535138d", null ],
+    [ "Read", "classchip_1_1_system_1_1_packet_buffer.html#af39458842d4f1c17e7d9cbef2310ed9a", null ],
     [ "ReservedSize", "classchip_1_1_system_1_1_packet_buffer.html#abbe23fb3ab616eb2a0d656371a2d18f1", null ],
     [ "SetDataLength", "classchip_1_1_system_1_1_packet_buffer.html#a7e64082c33297ac903d1265faea9f7c2", null ],
     [ "SetDataLength", "classchip_1_1_system_1_1_packet_buffer.html#a66dbb9c3b0110f2304d5e521c4d40570", null ],

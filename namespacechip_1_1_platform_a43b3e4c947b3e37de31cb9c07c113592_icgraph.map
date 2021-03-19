@@ -1,5 +1,7 @@
 <map id="chip::Platform::Delete" name="chip::Platform::Delete">
-<area shape="rect" id="node1" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="240,46,404,73"/>
-<area shape="rect" id="node2" href="$classchip_1_1_delete_deletor.html#aff5fbb01ab89465d6aa2b8b0e4ce0a17" title=" " alt="" coords="25,5,173,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_rendezvous_session.html#a920c095cefa2c91a298ec1d62fb93322" title=" " alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node1" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="240,111,404,138"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed" title=" " alt="" coords="13,5,184,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_delete_deletor.html#aff5fbb01ab89465d6aa2b8b0e4ce0a17" title=" " alt="" coords="25,71,173,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70" title=" " alt="" coords="13,136,184,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_rendezvous_session.html#a920c095cefa2c91a298ec1d62fb93322" title=" " alt="" coords="5,201,192,243"/>
 </map>

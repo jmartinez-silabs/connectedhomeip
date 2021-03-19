@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"_linux_2_ble_platform_config_8h_source.html":[11,0,7,6,3],
 "_linux_2_c_h_i_p_device_platform_config_8h.html":[11,0,7,6,4],
 "_linux_2_c_h_i_p_device_platform_config_8h.html#a034d03cc01b1cb09f3f85767fce8b11b":[11,0,7,6,4,3],
 "_linux_2_c_h_i_p_device_platform_config_8h.html#a0a20364371553a6de171ff402117fbf7":[11,0,7,6,4,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "_message_header_8h.html#a911a83fdf89daee3f71f39da9e743e01":[11,0,11,0,2,5],
 "_message_header_8h.html#aa8c9a1ddef0fee4cd2b90ae547fe08af":[11,0,11,0,2,11],
 "_message_header_8h.html#ad67568c9278152f00a7d18f60464e4f0":[11,0,11,0,2,3],
-"_message_header_8h.html#aebdda57d47e49eaf4cc8aef0d8b0474e":[11,0,11,0,2,4],
-"_message_header_8h_source.html":[11,0,11,0,2]
+"_message_header_8h.html#aebdda57d47e49eaf4cc8aef0d8b0474e":[11,0,11,0,2,4]
 };

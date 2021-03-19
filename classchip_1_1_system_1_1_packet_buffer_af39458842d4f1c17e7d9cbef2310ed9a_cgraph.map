@@ -1,0 +1,5 @@
+<map id="chip::System::PacketBuffer::Read" name="chip::System::PacketBuffer::Read">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_platform_1_1_persisted_storage.html#a562e2fd2665578a6e231a69b8365d521" title="Read integer value of a key from persistent storage." alt="" coords="248,5,429,47"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_device_layer.html#aa339b4bbbc137aab908ac19ebd3460e3" title="Returns a reference to the public interface of the ConfigurationManager singleton object." alt="" coords="477,5,624,47"/>
+</map>

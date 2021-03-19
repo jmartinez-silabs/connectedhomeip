@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">2f064a5</span>
+   &#160;<span id="projectnumber">4eb50c2</span>
    </div>
   </td>
  </tr>
@@ -217,9 +217,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e4315d2ef57a54081618d7b6401ccf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6">AckReceive</a> (uint16_t len)</td></tr>
 <tr class="memdesc:a5e4315d2ef57a54081618d7b6401ccf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acknowledge receipt of message text.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6">More...</a><br /></td></tr>
 <tr class="separator:a5e4315d2ef57a54081618d7b6401ccf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa65833011f737fb64de3b266187bf5fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aa65833011f737fb64de3b266187bf5fc">PutBackReceivedData</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> data)</td></tr>
-<tr class="memdesc:aa65833011f737fb64de3b266187bf5fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push message text back to the head of the receive queue.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aa65833011f737fb64de3b266187bf5fc">More...</a><br /></td></tr>
-<tr class="separator:aa65833011f737fb64de3b266187bf5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfd41450dc94e036c49181b12f99b797"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#adfd41450dc94e036c49181b12f99b797">SetReceivedDataForTesting</a> (<a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a> data)</td></tr>
+<tr class="memdesc:adfd41450dc94e036c49181b12f99b797"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the receive queue, for testing.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#adfd41450dc94e036c49181b12f99b797">More...</a><br /></td></tr>
+<tr class="separator:adfd41450dc94e036c49181b12f99b797"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d3231cba15727598114bf158275d77"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77">PendingSendLength</a> ()</td></tr>
 <tr class="memdesc:ac0d3231cba15727598114bf158275d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extract the length of the data awaiting first transmit.  <a href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77">More...</a><br /></td></tr>
 <tr class="separator:ac0d3231cba15727598114bf158275d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,6 +325,8 @@ Static Public Attributes</h2></td></tr>
 Friends</h2></td></tr>
 <tr class="memitem:a8feea0992ea69a9627ba44b13f4eaf20"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a8feea0992ea69a9627ba44b13f4eaf20">InetLayer</a></td></tr>
 <tr class="separator:a8feea0992ea69a9627ba44b13f4eaf20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf685aedd5a87a3c664612fc522bdb7"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a8bf685aedd5a87a3c664612fc522bdb7">::chip::Transport::TCPTest</a></td></tr>
+<tr class="separator:a8bf685aedd5a87a3c664612fc522bdb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -620,11 +622,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_inet_1_1_t_c_p_end_point_a466f759d4ce1e8f138251e601ace2db9_icgraph.png" border="0" usemap="#classchip_1_1_inet_1_1_t_c_p_end_point_a466f759d4ce1e8f138251e601ace2db9_icgraph" alt=""/></div>
 <map name="classchip_1_1_inet_1_1_t_c_p_end_point_a466f759d4ce1e8f138251e601ace2db9_icgraph" id="classchip_1_1_inet_1_1_t_c_p_end_point_a466f759d4ce1e8f138251e601ace2db9_icgraph">
-<area shape="rect" title="Abortively close the endpoint, in other words, send RST packets." alt="" coords="688,64,859,105"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="469,64,640,105"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a3e7b41beb660172c19191ff6a74b968a" title="Close all active connections." alt="" coords="235,5,421,47"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="5,35,187,76"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="237,123,419,164"/>
+<area shape="rect" title="Abortively close the endpoint, in other words, send RST packets." alt="" coords="453,5,624,47"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="235,5,405,47"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="5,5,187,47"/>
 </map>
 </div>
 
@@ -791,11 +791,9 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_inet_1_1_t_c_p_end_point_aee8c2f99ac6edd912e5d31692311277a_icgraph.png" border="0" usemap="#classchip_1_1_inet_1_1_t_c_p_end_point_aee8c2f99ac6edd912e5d31692311277a_icgraph" alt=""/></div>
 <map name="classchip_1_1_inet_1_1_t_c_p_end_point_aee8c2f99ac6edd912e5d31692311277a_icgraph" id="classchip_1_1_inet_1_1_t_c_p_end_point_aee8c2f99ac6edd912e5d31692311277a_icgraph">
-<area shape="rect" title="Initiate TCP full close, in other words, finished with both send and receive." alt="" coords="688,64,859,105"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="469,64,640,105"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a3e7b41beb660172c19191ff6a74b968a" title="Close all active connections." alt="" coords="235,5,421,47"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="5,35,187,76"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="237,123,419,164"/>
+<area shape="rect" title="Initiate TCP full close, in other words, finished with both send and receive." alt="" coords="453,5,624,47"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a94a8cd310d6378f28684d441eabe2cd1" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="235,5,405,47"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="5,5,187,47"/>
 </map>
 </div>
 
@@ -1104,10 +1102,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_inet_1_1_t_c_p_end_point_a94a8cd310d6378f28684d441eabe2cd1_icgraph.png" border="0" usemap="#classchip_1_1_inet_1_1_t_c_p_end_point_a94a8cd310d6378f28684d441eabe2cd1_icgraph" alt=""/></div>
 <map name="classchip_1_1_inet_1_1_t_c_p_end_point_a94a8cd310d6378f28684d441eabe2cd1_icgraph" id="classchip_1_1_inet_1_1_t_c_p_end_point_a94a8cd310d6378f28684d441eabe2cd1_icgraph">
-<area shape="rect" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="469,64,640,105"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a3e7b41beb660172c19191ff6a74b968a" title="Close all active connections." alt="" coords="235,5,421,47"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="5,35,187,76"/>
-<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="237,123,419,164"/>
+<area shape="rect" title="Initiate (or continue) TCP full close, ignoring errors." alt="" coords="235,5,405,47"/>
+<area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a25303300f8b9e03788f52370e5d761a9" title=" " alt="" coords="5,5,187,47"/>
 </map>
 </div>
 
@@ -1269,16 +1265,16 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classchip_1_1_inet_1_1_t_c_p_end_point_a67ec333e4a9fa6fdd93b6ebaf963eb64_icgraph.png" border="0" usemap="#classchip_1_1_inet_1_1_t_c_p_end_point_a67ec333e4a9fa6fdd93b6ebaf963eb64_icgraph" alt=""/></div>
 <map name="classchip_1_1_inet_1_1_t_c_p_end_point_a67ec333e4a9fa6fdd93b6ebaf963eb64_icgraph" id="classchip_1_1_inet_1_1_t_c_p_end_point_a67ec333e4a9fa6fdd93b6ebaf963eb64_icgraph">
-<area shape="rect" title="Extract whether TCP connection is established." alt="" coords="457,267,628,308"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6" title="Acknowledge receipt of message text." alt="" coords="237,5,407,47"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab829d2d2ed4e9d0afe57736de87b6225" title="Disable the TCP &quot;keep&#45;alive&quot; option." alt="" coords="237,71,407,112"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2d91810135f0b4390dd657617c421133" title="Enable TCP keepalive probes on the associated TCP connection." alt="" coords="237,136,407,177"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a838f07f3378c806d7f5a5136045515e9" title="EnableNoDelay." alt="" coords="237,201,407,243"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abb26c26b7274d379884b9682edb23e21" title="Extract IP address and TCP port of local endpoint." alt="" coords="237,267,407,308"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ad72fbce3a9ca8661546c3dc876511fef" title="Extract IP address and TCP port of remote endpoint." alt="" coords="237,332,407,373"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#aa65833011f737fb64de3b266187bf5fc" title="Push message text back to the head of the receive queue." alt="" coords="235,397,409,439"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a4c7c22eac77f08d091e9c658aa785093" title="Set the TCP TCP_USER_TIMEOUT socket option." alt="" coords="237,463,407,504"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#adc4459949de121d8955e91c5b679d9a3" title="Initiate TCP half close, in other words, finished with sending." alt="" coords="237,528,407,569"/>
+<area shape="rect" title="Extract whether TCP connection is established." alt="" coords="491,267,661,308"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6" title="Acknowledge receipt of message text." alt="" coords="253,5,424,47"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ab829d2d2ed4e9d0afe57736de87b6225" title="Disable the TCP &quot;keep&#45;alive&quot; option." alt="" coords="253,71,424,112"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a2d91810135f0b4390dd657617c421133" title="Enable TCP keepalive probes on the associated TCP connection." alt="" coords="253,136,424,177"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a838f07f3378c806d7f5a5136045515e9" title="EnableNoDelay." alt="" coords="253,201,424,243"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#abb26c26b7274d379884b9682edb23e21" title="Extract IP address and TCP port of local endpoint." alt="" coords="253,267,424,308"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#ad72fbce3a9ca8661546c3dc876511fef" title="Extract IP address and TCP port of remote endpoint." alt="" coords="253,332,424,373"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#adfd41450dc94e036c49181b12f99b797" title="Set the receive queue, for testing." alt="" coords="235,397,443,439"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a4c7c22eac77f08d091e9c658aa785093" title="Set the TCP TCP_USER_TIMEOUT socket option." alt="" coords="253,463,424,504"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#adc4459949de121d8955e91c5b679d9a3" title="Initiate TCP half close, in other words, finished with sending." alt="" coords="253,528,424,569"/>
 <area shape="rect" href="classchip_1_1_transport_1_1_t_c_p_base.html#a4793078b071d2b695af81582376af93b" title="Handle disconnection from the specified peer if currently connected to it." alt="" coords="5,332,187,373"/>
 </map>
 </div>
@@ -1453,49 +1449,6 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="aa65833011f737fb64de3b266187bf5fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa65833011f737fb64de3b266187bf5fc">&#9670;&nbsp;</a></span>PutBackReceivedData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a> chip::Inet::TCPEndPoint::PutBackReceivedData </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a>&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Push message text back to the head of the receive queue. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>Message text to push.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">INET_NO_ERROR</td><td>success: reception acknowledged. </td></tr>
-    <tr><td class="paramname">INET_ERROR_INCORRECT_STATE</td><td>TCP connection not established.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>This method may only be called by data reception event handlers to put an unacknowledged portion of data back on the receive queue. The operational semantics are undefined if the caller is outside the scope of a data reception event handler, <code>data</code> is not the packet buffer provided to the handler, or <code>data</code> does not contain the unacknowledged portion remaining after the bytes acknowledged by a prior call to the <code><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a5e4315d2ef57a54081618d7b6401ccf6" title="Acknowledge receipt of message text.">AckReceive(uint16_t len)</a></code> method. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classchip_1_1_inet_1_1_t_c_p_end_point_aa65833011f737fb64de3b266187bf5fc_cgraph.png" border="0" usemap="#classchip_1_1_inet_1_1_t_c_p_end_point_aa65833011f737fb64de3b266187bf5fc_cgraph" alt=""/></div>
-<map name="classchip_1_1_inet_1_1_t_c_p_end_point_aa65833011f737fb64de3b266187bf5fc_cgraph" id="classchip_1_1_inet_1_1_t_c_p_end_point_aa65833011f737fb64de3b266187bf5fc_cgraph">
-<area shape="rect" title="Push message text back to the head of the receive queue." alt="" coords="5,5,180,47"/>
-<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a67ec333e4a9fa6fdd93b6ebaf963eb64" title="Extract whether TCP connection is established." alt="" coords="228,5,399,47"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a0e9050166dc324018dbb5c564380cb7e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e9050166dc324018dbb5c564380cb7e">&#9670;&nbsp;</a></span>Send()</h2>
 
@@ -1586,6 +1539,49 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="adfd41450dc94e036c49181b12f99b797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd41450dc94e036c49181b12f99b797">&#9670;&nbsp;</a></span>SetReceivedDataForTesting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_inet_error_8h.html#a8d446c7bd81bf82558722beb8e579913">INET_ERROR</a> chip::Inet::TCPEndPoint::SetReceivedDataForTesting </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classchip_1_1_system_1_1_packet_buffer_handle.html">chip::System::PacketBufferHandle</a>&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the receive queue, for testing. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>Message text to push.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">INET_NO_ERROR</td><td>success: reception acknowledged. </td></tr>
+    <tr><td class="paramname">INET_ERROR_INCORRECT_STATE</td><td>TCP connection not established.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This method may only be called by data reception event handlers to put data on the receive queue for unit test purposes. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="classchip_1_1_inet_1_1_t_c_p_end_point_adfd41450dc94e036c49181b12f99b797_cgraph.png" border="0" usemap="#classchip_1_1_inet_1_1_t_c_p_end_point_adfd41450dc94e036c49181b12f99b797_cgraph" alt=""/></div>
+<map name="classchip_1_1_inet_1_1_t_c_p_end_point_adfd41450dc94e036c49181b12f99b797_cgraph" id="classchip_1_1_inet_1_1_t_c_p_end_point_adfd41450dc94e036c49181b12f99b797_cgraph">
+<area shape="rect" title="Set the receive queue, for testing." alt="" coords="5,5,213,47"/>
+<area shape="rect" href="classchip_1_1_inet_1_1_t_c_p_end_point.html#a67ec333e4a9fa6fdd93b6ebaf963eb64" title="Extract whether TCP connection is established." alt="" coords="261,5,432,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a4c7c22eac77f08d091e9c658aa785093"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4c7c22eac77f08d091e9c658aa785093">&#9670;&nbsp;</a></span>SetUserTimeout()</h2>
 
@@ -1673,6 +1669,28 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a8bf685aedd5a87a3c664612fc522bdb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf685aedd5a87a3c664612fc522bdb7">&#9670;&nbsp;</a></span>::chip::Transport::TCPTest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class ::chip::Transport::TCPTest</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8feea0992ea69a9627ba44b13f4eaf20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8feea0992ea69a9627ba44b13f4eaf20">&#9670;&nbsp;</a></span>InetLayer</h2>
 
@@ -1877,7 +1895,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_inet.html">Inet</a></li><li class="navelem"><a class="el" href="classchip_1_1_inet_1_1_t_c_p_end_point.html">TCPEndPoint</a></li>
-    <li class="footer">Generated on Wed Mar 17 2021 14:47:44 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 19 2021 14:34:15 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

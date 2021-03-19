@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"_zephyr_2_thread_stack_manager_impl_8h.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,11,12,2],
 "_zephyr_2_thread_stack_manager_impl_8h.html#ab2eda1307ad1a049e1cf1250e77c32b0":[11,0,7,11,12,1],
 "_zephyr_2_thread_stack_manager_impl_8h_source.html":[11,0,7,11,12],
 "_zephyr_config_8cpp.html":[11,0,7,11,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "cc13x2__26x2_2_inet_platform_config_8h.html#a4bde4bf6b15d173f13487cba33506aa7":[11,0,7,0,18,1],
 "cc13x2__26x2_2_inet_platform_config_8h.html#a8475da5675726182a88452691d4523ac":[11,0,7,0,18,3],
 "cc13x2__26x2_2_inet_platform_config_8h.html#a86580182eeb933811161fbb521bddcea":[11,0,7,0,18,6],
-"cc13x2__26x2_2_inet_platform_config_8h.html#aef5c7feebc33ffdf14a671fda1179ee0":[11,0,7,0,18,0],
-"cc13x2__26x2_2_inet_platform_config_8h_source.html":[11,0,7,0,18]
+"cc13x2__26x2_2_inet_platform_config_8h.html#aef5c7feebc33ffdf14a671fda1179ee0":[11,0,7,0,18,0]
 };

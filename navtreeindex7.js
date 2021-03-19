@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"_code_utils_8h.html#a196f1b0a05fd8473de9e5ef6d7abb21e":[11,0,6,3,25,8],
 "_code_utils_8h.html#a21878993864e49b5954d0777a0e0e824":[11,0,6,3,25,3],
 "_code_utils_8h.html#a2f515258837972910228d2b1d432cc20":[11,0,6,3,25,0],
 "_code_utils_8h.html#a331a19ec0f9535c57fe0cc250a0caafb":[11,0,6,3,25,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2":[11,0,7,2,3,8],
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a585c06db49008fb0b8c0d4707932fdfa":[11,0,7,2,3,22],
 "_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a594dfc267fc3e383e768e05a2ebf9ab8":[11,0,7,2,3,5],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae":[11,0,7,2,3,20],
-"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a763b6eb45987150fac7f061b5c86b440":[11,0,7,2,3,0]
+"_e_f_r32_2_c_h_i_p_device_platform_config_8h.html#a654894f0f1a6e6556bbdb11de911e9ae":[11,0,7,2,3,20]
 };

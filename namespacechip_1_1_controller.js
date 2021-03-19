@@ -17,6 +17,7 @@ var namespacechip_1_1_controller =
     [ "DeviceStatusDelegate", "classchip_1_1_controller_1_1_device_status_delegate.html", "classchip_1_1_controller_1_1_device_status_delegate" ],
     [ "DoorLockCluster", "classchip_1_1_controller_1_1_door_lock_cluster.html", "classchip_1_1_controller_1_1_door_lock_cluster" ],
     [ "GeneralCommissioningCluster", "classchip_1_1_controller_1_1_general_commissioning_cluster.html", "classchip_1_1_controller_1_1_general_commissioning_cluster" ],
+    [ "GroupKeyManagementCluster", "classchip_1_1_controller_1_1_group_key_management_cluster.html", "classchip_1_1_controller_1_1_group_key_management_cluster" ],
     [ "GroupsCluster", "classchip_1_1_controller_1_1_groups_cluster.html", "classchip_1_1_controller_1_1_groups_cluster" ],
     [ "IasZoneCluster", "classchip_1_1_controller_1_1_ias_zone_cluster.html", "classchip_1_1_controller_1_1_ias_zone_cluster" ],
     [ "IdentifyCluster", "classchip_1_1_controller_1_1_identify_cluster.html", "classchip_1_1_controller_1_1_identify_cluster" ],

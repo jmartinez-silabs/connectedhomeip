@@ -12,6 +12,7 @@ var dir_a311810e72fdebe288f4c04505dd73fe =
       [ "TcpListenParameters", "classchip_1_1_transport_1_1_tcp_listen_parameters.html", "classchip_1_1_transport_1_1_tcp_listen_parameters" ],
       [ "PendingPacket", "structchip_1_1_transport_1_1_pending_packet.html", "structchip_1_1_transport_1_1_pending_packet" ],
       [ "TCPBase", "classchip_1_1_transport_1_1_t_c_p_base.html", "classchip_1_1_transport_1_1_t_c_p_base" ],
+      [ "ActiveConnectionState", "structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html", "structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state" ],
       [ "TCP", "classchip_1_1_transport_1_1_t_c_p.html", "classchip_1_1_transport_1_1_t_c_p" ]
     ] ],
     [ "Tuple.h", "_tuple_8h.html", [
