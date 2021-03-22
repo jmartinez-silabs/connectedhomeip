@@ -1,6 +1,5 @@
 <map id="chip::Mdns::ProcessMdns" name="chip::Mdns::ProcessMdns">
-<area shape="rect" id="node1" title=" " alt="" coords="5,78,191,105"/>
-<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a68647bb2a96a93c4b8f9025dae586488" title=" " alt="" coords="239,5,409,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a0804f2c4a879accea023c290bc5ed6d1" title=" " alt="" coords="239,71,409,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_poller.html#a13f1ebeb7918cbe5c6796345b9b8ed16" title=" " alt="" coords="255,136,393,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,191,73"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="239,5,432,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a41b85df2649da101d25201e85671ef64" title=" " alt="" coords="239,71,432,112"/>
 </map>

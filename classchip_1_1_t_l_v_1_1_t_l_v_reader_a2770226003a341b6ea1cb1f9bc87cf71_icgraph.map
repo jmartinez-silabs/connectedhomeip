@@ -1,4 +1,5 @@
 <map id="chip::TLV::TLVReader::GetLengthRead" name="chip::TLV::TLVReader::GetLengthRead">
-<area shape="rect" id="node1" title="Returns the total number of bytes read since the reader was initialized." alt="" coords="216,5,372,47"/>
-<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_updater.html#ac60992db8aa17add1ef7270d2a993c41" title="Initialize a TLVUpdater object using a TLVReader." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node1" title="Returns the total number of bytes read since the reader was initialized." alt="" coords="216,39,372,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_writer.html#a40505f9593abfc9ca6cf325eb8a547be" title="Copies a TLV element from a reader object into the writer." alt="" coords="11,5,162,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_updater.html#ac60992db8aa17add1ef7270d2a993c41" title="Initialize a TLVUpdater object using a TLVReader." alt="" coords="5,71,168,112"/>
 </map>

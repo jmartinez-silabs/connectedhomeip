@@ -1,4 +1,8 @@
 <map id="chip::Mdns::DiscoveryImplPlatform::StopPublishDevice" name="chip::Mdns::DiscoveryImplPlatform::StopPublishDevice">
-<area shape="rect" id="node1" title="This function stops publishing the device on mDNS." alt="" coords="5,5,212,47"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="260,5,453,47"/>
+<area shape="rect" id="node1" title="This function stops publishing the device on mDNS." alt="" coords="5,39,212,80"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="260,39,453,80"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="501,5,695,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a259d75046062dc2482b9e949a781ec80" title=" " alt="" coords="501,71,695,112"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="743,78,907,105"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="955,78,1157,105"/>
 </map>

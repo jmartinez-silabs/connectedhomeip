@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"_c_h_i_p_error_8h.html#a2c6f273ecbe49a1feefbbfac7abbcb43":[11,0,6,0,7,11],
 "_c_h_i_p_error_8h.html#a2d2d0a082cd7e5187fd7829cee9b7b8d":[11,0,6,0,7,13],
 "_c_h_i_p_error_8h.html#a32a2b01641d1e6470873e126c639a54d":[11,0,6,0,7,158],
 "_c_h_i_p_error_8h.html#a334473d6377c877c32a328fd0f1ef13f":[11,0,6,0,7,82],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "_c_h_i_p_mem-_simple_alloc_8cpp.html":[11,0,6,3,19],
 "_c_h_i_p_mem_8cpp.html":[11,0,6,3,20],
 "_c_h_i_p_mem_8cpp.html#a0d666c72a16291f4bb65678cef399707":[11,0,6,3,20,3],
-"_c_h_i_p_mem_8cpp.html#a4cf597957c81be2d3a4a6f944f90fb40":[11,0,6,3,20,1]
+"_c_h_i_p_mem_8cpp.html#a4cf597957c81be2d3a4a6f944f90fb40":[11,0,6,3,20,1],
+"_c_h_i_p_mem_8cpp.html#a93cd137a84802c233858f319af2551a7":[11,0,6,3,20,2]
 };

@@ -1,12 +1,16 @@
 <map id="chip::Mdns::DiscoveryImplPlatform::Start" name="chip::Mdns::DiscoveryImplPlatform::Start">
-<area shape="rect" id="node1" title="Starts the advertiser." alt="" coords="5,64,200,105"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="249,5,442,47"/>
-<area shape="rect" id="node3" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="292,71,399,98"/>
-<area shape="rect" id="node5" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a89a1e367aeb6713ab3c038438853bc36" title=" " alt="" coords="248,123,443,164"/>
-<area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="516,71,651,98"/>
-<area shape="rect" id="node6" href="$namespacechip_1_1_mdns.html#ac0b5927f16f9acfc238f7698f78b7f82" title="This function intializes the mdns module." alt="" coords="491,126,676,153"/>
-<area shape="rect" id="node7" href="$namespacechip.html#a8b92912f1eb7c984dbf4c7d32aca858a" title="This function generates 64&#45;bit unsigned random number." alt="" coords="514,177,653,203"/>
-<area shape="rect" id="node8" href="$namespacechip.html#a7c3359cbbbaa4ce3da16765b3df6d3fa" title="This function generates 32&#45;bit unsigned random number." alt="" coords="724,177,863,203"/>
-<area shape="rect" id="node9" href="$namespacechip.html#a31d378cdfe6daa5f388b226870a7847c" title="This function generates 16&#45;bit unsigned random number." alt="" coords="911,177,1049,203"/>
-<area shape="rect" id="node10" href="$namespacechip.html#a00ac9359c3b2f6660bbbf484c48ba7b1" title="This function generates 8&#45;bit unsigned random number." alt="" coords="1097,177,1228,203"/>
+<area shape="rect" id="node1" title="Starts the advertiser." alt="" coords="5,129,200,171"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="249,71,442,112"/>
+<area shape="rect" id="node7" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="292,137,399,163"/>
+<area shape="rect" id="node9" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a89a1e367aeb6713ab3c038438853bc36" title=" " alt="" coords="248,188,443,229"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="491,5,684,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a259d75046062dc2482b9e949a781ec80" title=" " alt="" coords="491,71,684,112"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="732,78,896,105"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="944,78,1147,105"/>
+<area shape="rect" id="node8" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="520,137,655,163"/>
+<area shape="rect" id="node10" href="$namespacechip_1_1_mdns.html#ac0b5927f16f9acfc238f7698f78b7f82" title="This function intializes the mdns module." alt="" coords="495,191,680,218"/>
+<area shape="rect" id="node11" href="$namespacechip.html#a8b92912f1eb7c984dbf4c7d32aca858a" title="This function generates 64&#45;bit unsigned random number." alt="" coords="518,242,657,269"/>
+<area shape="rect" id="node12" href="$namespacechip.html#a7c3359cbbbaa4ce3da16765b3df6d3fa" title="This function generates 32&#45;bit unsigned random number." alt="" coords="745,242,883,269"/>
+<area shape="rect" id="node13" href="$namespacechip.html#a31d378cdfe6daa5f388b226870a7847c" title="This function generates 16&#45;bit unsigned random number." alt="" coords="976,242,1115,269"/>
+<area shape="rect" id="node14" href="$namespacechip.html#a00ac9359c3b2f6660bbbf484c48ba7b1" title="This function generates 8&#45;bit unsigned random number." alt="" coords="1195,242,1325,269"/>
 </map>

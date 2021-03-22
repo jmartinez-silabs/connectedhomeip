@@ -1,6 +1,14 @@
 <map id="chip::TLV::TLVUpdater::Init" name="chip::TLV::TLVUpdater::Init">
-<area shape="rect" id="node1" title="Initialize a TLVUpdater object using a TLVReader." alt="" coords="5,71,168,112"/>
-<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a2770226003a341b6ea1cb1f9bc87cf71" title="Returns the total number of bytes read since the reader was initialized." alt="" coords="221,5,377,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ac62281b457a10b4385d933b1f372fc02" title="Gets the point in the underlying input buffer that corresponds to the reader&#39;s current position." alt="" coords="221,71,377,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a9b87f3063b7ceb1fc956ca2840cec91d" title="Returns the total number of bytes that can be read until the max read length is reached." alt="" coords="216,136,383,177"/>
+<area shape="rect" id="node1" title="Initialize a TLVUpdater object using a TLVReader." alt="" coords="5,169,168,211"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#abd64a987f801e1271fbf40703777e112" title="This is a private method that returns the TLVElementType from mControlByte." alt="" coords="231,5,387,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a39420eb9c2a49f04d59ad01f6cdd8235" title="This is a private method used to compute the length of a TLV element head." alt="" coords="216,71,401,112"/>
+<area shape="rect" id="node8" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a2770226003a341b6ea1cb1f9bc87cf71" title="Returns the total number of bytes read since the reader was initialized." alt="" coords="231,136,387,177"/>
+<area shape="rect" id="node9" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ac62281b457a10b4385d933b1f372fc02" title="Gets the point in the underlying input buffer that corresponds to the reader&#39;s current position." alt="" coords="231,201,387,243"/>
+<area shape="rect" id="node10" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a9b87f3063b7ceb1fc956ca2840cec91d" title="Returns the total number of bytes that can be read until the max read length is reached." alt="" coords="225,267,392,308"/>
+<area shape="rect" id="node11" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ac4ca38473826050ff407f9c2e3fe223d" title="Initializes a TLVReader object from another TLVReader object." alt="" coords="231,332,387,373"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_t_l_v.html#aefe89efd4af36fe38533d3c4c71f7d78" title=" " alt="" coords="449,27,640,54"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_t_l_v.html#a1fe781c2c5180d81cf95ce899e92818b" title="Returns true if the specified TLV type is valid." alt="" coords="453,78,636,105"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_t_l_v.html#ae3133678e6ac84d2411da847fef05797" title=" " alt="" coords="453,129,636,171"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_t_l_v.html#aa6b5c3bc1c3770266fa3dddbb018ab00" title="Returns true if the specified TLV type implies the presence of an associated value field." alt="" coords="688,27,889,54"/>
+<area shape="rect" id="node12" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a97d834ba01a100bf76fb1ba3c8ab26ab" title=" " alt="" coords="467,332,623,373"/>
 </map>

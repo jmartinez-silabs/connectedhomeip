@@ -1,0 +1,5 @@
+<map id="chip::Optional::ValueOr" name="chip::Optional::ValueOr">
+<area shape="rect" id="node1" title="Gets the current value of the optional if the optional has a value; otherwise returns the provided de..." alt="" coords="411,13,581,39"/>
+<area shape="rect" id="node2" href="$classchip_1_1_payload_header.html#a95b734c75edf75577d9ea5de23c3caf1" title="Check whether the header has a given protocol." alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_payload_header.html#ac3606afe34b616010effac9ca8b082cc" title=" " alt="" coords="5,5,160,47"/>
+</map>

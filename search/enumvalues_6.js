@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hinfo_10891',['HINFO',['../namespacemdns_1_1_minimal.html#a0679d6d4c6fb2a8df60e27562d3158f2a6039bc6fb2965fe1e923383f3c3ac936',1,'mdns::Minimal']]]
+  ['getaddrinfo_10955',['GetAddrInfo',['../namespacechip_1_1_mdns.html#aed12ad4982822268431b690f1755e4bda6b73490666fe3e01a342e1dc4ca0ad8c',1,'chip::Mdns']]]
 ];

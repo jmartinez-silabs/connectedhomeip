@@ -1,0 +1,6 @@
+<map id="chip::PayloadHeader::SetMessageType" name="chip::PayloadHeader::SetMessageType">
+<area shape="rect" id="node1" title="Set the message type for this header." alt="" coords="240,71,395,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_device.html#aa06772a6a55e8f0783290cac5ca0d941" title="Trigger a paired device to re&#45;enter the pairing mode." alt="" coords="11,5,186,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_rendezvous_session.html#af87df5e119ff0fa23e74b04e8946a816" title="Called when network provisioning generates a new message that should be sent to peer." alt="" coords="5,71,192,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_payload_header.html#a23953d3075332ab9d58f7544e733cd28" title="Set the secure message type, with the protocol id derived from the message type." alt="" coords="21,136,176,177"/>
+</map>

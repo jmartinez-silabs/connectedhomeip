@@ -1,0 +1,4 @@
+<map id="chip::ChipKeyId::IncorporatesRootKey" name="chip::ChipKeyId::IncorporatesRootKey">
+<area shape="rect" id="node1" title="Determine whether the specified application group key ID incorporates root key." alt="" coords="227,5,437,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#a2d5169dec2563342eabffde6bbfec588" title="Determine whether key identifier has valid (legal) value." alt="" coords="5,5,179,47"/>
+</map>

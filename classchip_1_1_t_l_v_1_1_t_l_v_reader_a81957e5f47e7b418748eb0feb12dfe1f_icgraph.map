@@ -1,6 +1,7 @@
 <map id="chip::TLV::TLVReader::GetLength" name="chip::TLV::TLVReader::GetLength">
-<area shape="rect" id="node1" title="Returns the length of data associated with current TLV element." alt="" coords="552,23,708,65"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_t_l_v_1_1_debug.html#ac01b5394e6a49312cbab9f8c8ca48a49" title="Dump the TLV element referenced by aReader in human&#45;readable form using aWriter." alt="" coords="277,31,504,57"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1da320233f2ebdb91557578f79475299" title="Dump the TLV data within the specified reader in human&#45;readable form with the specified writer." alt="" coords="29,5,205,32"/>
-<area shape="rect" id="node4" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1c8aeab9832f6283a8f5f22a1946d7a0" title="Log the TLV data within the specified reader in human&#45;readable form to the specified writer." alt="" coords="5,56,229,83"/>
+<area shape="rect" id="node1" title="Returns the length of data associated with current TLV element." alt="" coords="555,49,711,90"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_t_l_v_1_1_debug.html#ac01b5394e6a49312cbab9f8c8ca48a49" title="Dump the TLV element referenced by aReader in human&#45;readable form using aWriter." alt="" coords="280,56,507,83"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1da320233f2ebdb91557578f79475299" title="Dump the TLV data within the specified reader in human&#45;readable form with the specified writer." alt="" coords="31,5,207,32"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a10860664c7fca0bee73e36becd5ed478" title="Log the TLV data within the specified reader in human&#45;readable form." alt="" coords="5,56,232,83"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1c8aeab9832f6283a8f5f22a1946d7a0" title="Log the TLV data within the specified reader in human&#45;readable form to the specified writer." alt="" coords="7,107,231,133"/>
 </map>

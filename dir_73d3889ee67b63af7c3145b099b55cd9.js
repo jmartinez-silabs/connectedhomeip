@@ -28,7 +28,7 @@ var dir_73d3889ee67b63af7c3145b099b55cd9 =
     [ "KeyValueStoreManagerImpl.h", "_linux_2_key_value_store_manager_impl_8h.html", "_linux_2_key_value_store_manager_impl_8h" ],
     [ "Logging.cpp", "_linux_2_logging_8cpp.html", "_linux_2_logging_8cpp" ],
     [ "MdnsImpl.cpp", "_linux_2_mdns_impl_8cpp.html", "_linux_2_mdns_impl_8cpp" ],
-    [ "MdnsImpl.h", "_mdns_impl_8h.html", [
+    [ "MdnsImpl.h", "_linux_2_mdns_impl_8h.html", [
       [ "AvahiWatch", "struct_avahi_watch.html", "struct_avahi_watch" ],
       [ "AvahiTimeout", "struct_avahi_timeout.html", "struct_avahi_timeout" ],
       [ "Poller", "classchip_1_1_mdns_1_1_poller.html", "classchip_1_1_mdns_1_1_poller" ],

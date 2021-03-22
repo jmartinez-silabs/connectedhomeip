@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">5719bdb</span>
+   &#160;<span id="projectnumber">f0b7f2b</span>
    </div>
   </td>
  </tr>
@@ -194,8 +194,8 @@ Public Member Functions</h2></td></tr>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:abbb1b7639c57e791efbb9be216414ee3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#abbb1b7639c57e791efbb9be216414ee3">FromJNIHandle</a> (jlong <a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a32a32b86dffbaaf5cb24fd1760ac1a91">handle</a>)</td></tr>
 <tr class="separator:abbb1b7639c57e791efbb9be216414ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15b87eaa6f3f6679a4d0fd3affe135f6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a15b87eaa6f3f6679a4d0fd3affe135f6">AllocateNew</a> (<a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a> nodeId, <a class="el" href="classchip_1_1_system_1_1_layer.html">chip::System::Layer</a> *systemLayer, <a class="el" href="classchip_1_1_inet_1_1_inet_layer.html">chip::Inet::InetLayer</a> *inetLayer, <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> *errInfoOnFailure)</td></tr>
-<tr class="separator:a15b87eaa6f3f6679a4d0fd3affe135f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb2fff14160e6e6d08fcfeaed00ee58"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_android_device_controller_wrapper.html#a4eb2fff14160e6e6d08fcfeaed00ee58">AllocateNew</a> (JavaVM *vm, jobject deviceControllerObj, <a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a> nodeId, <a class="el" href="classchip_1_1_system_1_1_layer.html">chip::System::Layer</a> *systemLayer, <a class="el" href="classchip_1_1_inet_1_1_inet_layer.html">chip::Inet::InetLayer</a> *inetLayer, <a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> *errInfoOnFailure)</td></tr>
+<tr class="separator:a4eb2fff14160e6e6d08fcfeaed00ee58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class contains all relevant information for the JNI view of CHIPDeviceController to handle all controller-related processing. </p>
@@ -219,8 +219,8 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a15b87eaa6f3f6679a4d0fd3affe135f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15b87eaa6f3f6679a4d0fd3affe135f6">&#9670;&nbsp;</a></span>AllocateNew()</h2>
+<a id="a4eb2fff14160e6e6d08fcfeaed00ee58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb2fff14160e6e6d08fcfeaed00ee58">&#9670;&nbsp;</a></span>AllocateNew()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,6 +231,18 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a> * AndroidDeviceControllerWrapper::AllocateNew </td>
           <td>(</td>
+          <td class="paramtype">JavaVM *&#160;</td>
+          <td class="paramname"><em>vm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">jobject&#160;</td>
+          <td class="paramname"><em>deviceControllerObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype"><a class="el" href="namespacechip.html#a911a83fdf89daee3f71f39da9e743e01">chip::NodeId</a>&#160;</td>
           <td class="paramname"><em>nodeId</em>, </td>
         </tr>
@@ -267,13 +279,14 @@ Static Public Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_android_device_controller_wrapper_a15b87eaa6f3f6679a4d0fd3affe135f6_cgraph.png" border="0" usemap="#class_android_device_controller_wrapper_a15b87eaa6f3f6679a4d0fd3affe135f6_cgraph" alt=""/></div>
-<map name="class_android_device_controller_wrapper_a15b87eaa6f3f6679a4d0fd3affe135f6_cgraph" id="class_android_device_controller_wrapper_a15b87eaa6f3f6679a4d0fd3affe135f6_cgraph">
-<area shape="rect" title=" " alt="" coords="5,104,241,145"/>
+<div class="center"><img src="class_android_device_controller_wrapper_a4eb2fff14160e6e6d08fcfeaed00ee58_cgraph.png" border="0" usemap="#class_android_device_controller_wrapper_a4eb2fff14160e6e6d08fcfeaed00ee58_cgraph" alt=""/></div>
+<map name="class_android_device_controller_wrapper_a4eb2fff14160e6e6d08fcfeaed00ee58_cgraph" id="class_android_device_controller_wrapper_a4eb2fff14160e6e6d08fcfeaed00ee58_cgraph">
+<area shape="rect" title=" " alt="" coords="5,136,241,177"/>
 <area shape="rect" href="class_android_device_controller_wrapper.html#afc711a21db9141899e4e932dc9a28163" title=" " alt="" coords="289,5,525,47"/>
 <area shape="rect" href="classchip_1_1_controller_1_1_device_commissioner.html#a120c124475f95c1df2cd668786c530bb" title="Init function to be used when there exists a device layer that takes care of initializing System::Lay..." alt="" coords="320,71,495,112"/>
 <area shape="rect" href="classchip_1_1_controller_1_1_device_controller.html#a69600fa00b3c51cd6a5cd63aad9a1637" title="Start the event loop task within the CHIP stack." alt="" coords="314,136,501,177"/>
-<area shape="rect" href="classchip_1_1_controller_1_1_device_controller.html#a8c75a114bfbf083f8d06b0857b65dc73" title=" " alt="" coords="304,201,511,243"/>
+<area shape="rect" href="class_android_device_controller_wrapper.html#abf52f5865f24e27ee5bcdaee83cc5cc4" title=" " alt="" coords="289,201,525,243"/>
+<area shape="rect" href="classchip_1_1_controller_1_1_device_controller.html#a8c75a114bfbf083f8d06b0857b65dc73" title=" " alt="" coords="304,267,511,308"/>
 <area shape="rect" href="_c_h_i_p_ble_service_data_8h.html#ab2092db68feac59b46195c0872527bcb" title=" " alt="" coords="573,78,616,105"/>
 </map>
 </div>
@@ -427,7 +440,7 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="class_android_device_controller_wrapper_afc711a21db9141899e4e932dc9a28163_icgraph.png" border="0" usemap="#class_android_device_controller_wrapper_afc711a21db9141899e4e932dc9a28163_icgraph" alt=""/></div>
 <map name="class_android_device_controller_wrapper_afc711a21db9141899e4e932dc9a28163_icgraph" id="class_android_device_controller_wrapper_afc711a21db9141899e4e932dc9a28163_icgraph">
 <area shape="rect" title=" " alt="" coords="320,123,556,164"/>
-<area shape="rect" href="class_android_device_controller_wrapper.html#a15b87eaa6f3f6679a4d0fd3affe135f6" title=" " alt="" coords="21,5,257,47"/>
+<area shape="rect" href="class_android_device_controller_wrapper.html#a4eb2fff14160e6e6d08fcfeaed00ee58" title=" " alt="" coords="21,5,257,47"/>
 <area shape="rect" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a220d1126bb0b49396972c11abaac7d1c" title=" " alt="" coords="78,71,199,98"/>
 <area shape="rect" href="class_android_device_controller_wrapper.html#a3eb7a63d41171f84f616df89e5e03295" title="Called when the operational credentials are needed for the remote device." alt="" coords="5,123,272,164"/>
 <area shape="rect" href="class_android_device_controller_wrapper.html#a3b72f00087cc4094012e597b0276caaa" title=" " alt="" coords="21,188,257,229"/>
@@ -871,6 +884,15 @@ Here is the call graph for this function:</div>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_android_device_controller_wrapper_abf52f5865f24e27ee5bcdaee83cc5cc4_icgraph.png" border="0" usemap="#class_android_device_controller_wrapper_abf52f5865f24e27ee5bcdaee83cc5cc4_icgraph" alt=""/></div>
+<map name="class_android_device_controller_wrapper_abf52f5865f24e27ee5bcdaee83cc5cc4_icgraph" id="class_android_device_controller_wrapper_abf52f5865f24e27ee5bcdaee83cc5cc4_icgraph">
+<area shape="rect" title=" " alt="" coords="289,5,525,47"/>
+<area shape="rect" href="class_android_device_controller_wrapper.html#a4eb2fff14160e6e6d08fcfeaed00ee58" title=" " alt="" coords="5,5,241,47"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1006,7 +1028,7 @@ CHIP_ERROR_NO_MEMORY if the input buffer is not big enough for the value. </dd><
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_android_device_controller_wrapper.html">AndroidDeviceControllerWrapper</a></li>
-    <li class="footer">Generated on Fri Mar 19 2021 20:51:25 for Connected Home over IP by
+    <li class="footer">Generated on Mon Mar 22 2021 16:40:50 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

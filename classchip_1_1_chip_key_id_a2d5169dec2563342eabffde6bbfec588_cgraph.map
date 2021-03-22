@@ -1,4 +1,8 @@
 <map id="chip::ChipKeyId::IsValidKeyId" name="chip::ChipKeyId::IsValidKeyId">
-<area shape="rect" id="node1" title="Determine whether key identifier has valid (legal) value." alt="" coords="5,5,179,47"/>
-<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#abca0f855eb71f6539e7312ac33b586db" title="Get CHIP key type of the specified key ID." alt="" coords="227,13,409,39"/>
+<area shape="rect" id="node1" title="Determine whether key identifier has valid (legal) value." alt="" coords="5,93,179,135"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_key_id.html#ac8f7304c6afbc5f209a58db04c2956a3" title="Get application group root key ID that was used to derive specified application key." alt="" coords="241,5,423,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_key_id.html#abca0f855eb71f6539e7312ac33b586db" title="Get CHIP key type of the specified key ID." alt="" coords="499,101,682,127"/>
+<area shape="rect" id="node4" href="$classchip_1_1_chip_key_id.html#a8a60e3fb9e8b42bdd883491921d8a018" title="Determine whether the specified application group key ID incorporates root key." alt="" coords="227,123,437,164"/>
+<area shape="rect" id="node5" href="$classchip_1_1_chip_key_id.html#a9e8137c1566939a6fe28cc39e6b94282" title="Determine whether the specified application group key ID uses &quot;current&quot; epoch key." alt="" coords="227,188,437,229"/>
+<area shape="rect" id="node6" href="$classchip_1_1_chip_key_id.html#af5cb79ed780e9057ab8b9dacaeeae6b4" title="Determine whether the specified application group key ID incorporates epoch key." alt="" coords="485,188,696,229"/>
 </map>

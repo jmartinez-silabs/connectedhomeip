@@ -1,19 +1,20 @@
 <map id="include/platform/TimeSyncManager.h" name="include/platform/TimeSyncManager.h">
-<area shape="rect" id="node1" title=" " alt="" coords="9942,5,10139,47"/>
-<area shape="rect" id="node2" href="$_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="9936,95,10145,136"/>
-<area shape="rect" id="node3" href="$_linux_impl_8cpp.html" title=" " alt="" coords="333,281,497,322"/>
+<area shape="rect" id="node1" title=" " alt="" coords="10046,5,10243,47"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="10040,95,10249,136"/>
+<area shape="rect" id="node3" href="$_linux_impl_8cpp.html" title=" " alt="" coords="356,281,520,322"/>
 <area shape="rect" id="node4" href="$_chip_thread_work_8cpp.html" title=" " alt="" coords="9061,184,9276,225"/>
 <area shape="rect" id="node5" href="$_commissioner_impl_8cpp.html" title=" " alt="" coords="9300,184,9531,225"/>
 <area shape="rect" id="node6" href="$_stack_init_8cpp.html" title=" " alt="" coords="9555,184,9719,225"/>
 <area shape="rect" id="node7" href="$_c_h_i_p_device_layer_internal_8h.html" title=" " alt="" coords="9743,184,9943,225"/>
 <area shape="rect" id="node133" href="$_discovery___impl_platform_8cpp.html" title=" " alt="" coords="9967,184,10114,225"/>
-<area shape="rect" id="node134" href="$_e_s_p32_2_mdns_impl_8cpp.html" title=" " alt="" coords="10139,191,10356,218"/>
-<area shape="rect" id="node135" href="$_service_provisioning_8cpp.html" title=" " alt="" coords="10380,191,10661,218"/>
-<area shape="rect" id="node136" href="$_helper_8cpp.html" title=" " alt="" coords="10685,184,10841,225"/>
-<area shape="rect" id="node137" href="$_main_loop_8h.html" title=" " alt="" coords="521,184,677,225"/>
-<area shape="rect" id="node139" href="$_open_thread_2_mdns_impl_8cpp.html" title=" " alt="" coords="10865,184,11027,225"/>
-<area shape="rect" id="node140" href="$_test_identity_8cpp.html" title=" " alt="" coords="11051,191,11233,218"/>
-<area shape="rect" id="node141" href="$_secure_session_mgr_8cpp.html" title=" " alt="" coords="11257,191,11488,218"/>
+<area shape="rect" id="node134" href="$_darwin_2_mdns_impl_8cpp.html" title=" " alt="" coords="10139,191,10361,218"/>
+<area shape="rect" id="node135" href="$_e_s_p32_2_mdns_impl_8cpp.html" title=" " alt="" coords="10385,191,10603,218"/>
+<area shape="rect" id="node136" href="$_service_provisioning_8cpp.html" title=" " alt="" coords="10627,191,10908,218"/>
+<area shape="rect" id="node137" href="$_helper_8cpp.html" title=" " alt="" coords="10932,184,11088,225"/>
+<area shape="rect" id="node138" href="$_main_loop_8h.html" title=" " alt="" coords="544,184,700,225"/>
+<area shape="rect" id="node140" href="$_open_thread_2_mdns_impl_8cpp.html" title=" " alt="" coords="11112,184,11273,225"/>
+<area shape="rect" id="node141" href="$_test_identity_8cpp.html" title=" " alt="" coords="11297,191,11480,218"/>
+<area shape="rect" id="node142" href="$_secure_session_mgr_8cpp.html" title=" " alt="" coords="11504,191,11735,218"/>
 <area shape="rect" id="node8" href="$_device_description_server_8h.html" title=" " alt="" coords="20048,281,20247,322"/>
 <area shape="rect" id="node9" href="$_generic_configuration_manager_impl_8cpp.html" title=" " alt="" coords="3119,281,3395,322"/>
 <area shape="rect" id="node10" href="$cc13x2__26x2_2_configuration_manager_impl_8cpp.html" title=" " alt="" coords="2230,385,2457,426"/>
@@ -43,13 +44,13 @@
 <area shape="rect" id="node49" href="$_generic_software_update_manager_impl___b_d_x_8h.html" title=" " alt="" coords="9881,281,10195,322"/>
 <area shape="rect" id="node50" href="$cc13x2__26x2_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="10219,281,10385,322"/>
 <area shape="rect" id="node51" href="$_c_c13_x2__26_x2_config_8cpp.html" title=" " alt="" coords="5,385,191,426"/>
-<area shape="rect" id="node52" href="$_c_c13_x2__26_x2_config_8h.html" title=" " alt="" coords="753,281,923,322"/>
+<area shape="rect" id="node52" href="$_c_c13_x2__26_x2_config_8h.html" title=" " alt="" coords="775,281,946,322"/>
 <area shape="rect" id="node54" href="$cc13x2__26x2_2_connectivity_manager_impl_8cpp.html" title=" " alt="" coords="10410,281,10631,322"/>
 <area shape="rect" id="node55" href="$cc13x2__26x2_2_thread_stack_manager_impl_8cpp.html" title=" " alt="" coords="10876,489,11096,530"/>
 <area shape="rect" id="node56" href="$_darwin_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="11250,281,11463,322"/>
 <area shape="rect" id="node57" href="$_darwin_2_connectivity_manager_impl_8cpp.html" title=" " alt="" coords="11488,281,11703,322"/>
 <area shape="rect" id="node58" href="$_darwin_2_posix_config_8cpp.html" title=" " alt="" coords="450,392,685,419"/>
-<area shape="rect" id="node59" href="$_darwin_2_posix_config_8h.html" title=" " alt="" coords="999,288,1219,315"/>
+<area shape="rect" id="node59" href="$_darwin_2_posix_config_8h.html" title=" " alt="" coords="1021,288,1241,315"/>
 <area shape="rect" id="node61" href="$_e_f_r32_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="11727,281,11935,322"/>
 <area shape="rect" id="node62" href="$_e_f_r32_config_8h.html" title=" " alt="" coords="1679,288,1901,315"/>
 <area shape="rect" id="node64" href="$_e_f_r32_config_8cpp.html" title=" " alt="" coords="1672,392,1908,419"/>
@@ -104,7 +105,7 @@
 <area shape="rect" id="node116" href="$qpg6100_2_b_l_e_manager_impl_8cpp.html" title=" " alt="" coords="18071,281,18293,322"/>
 <area shape="rect" id="node117" href="$qpg6100_2_connectivity_manager_impl_8cpp.html" title=" " alt="" coords="18317,281,18541,322"/>
 <area shape="rect" id="node118" href="$qpg6100_2_entropy_8cpp.html" title=" " alt="" coords="18565,288,18783,315"/>
-<area shape="rect" id="node119" href="$qpg6100_2_group_key_store_impl_8cpp.html" title=" " alt="" coords="5958,489,6163,530"/>
+<area shape="rect" id="node119" href="$qpg6100_2_group_key_store_impl_8cpp.html" title=" " alt="" coords="5957,489,6162,530"/>
 <area shape="rect" id="node120" href="$qpg6100_2_group_key_store_impl_8h.html" title=" " alt="" coords="6027,385,6233,426"/>
 <area shape="rect" id="node121" href="$qpg6100_config_8cpp.html" title=" " alt="" coords="6511,385,6709,426"/>
 <area shape="rect" id="node122" href="$qpg6100_config_8h.html" title=" " alt="" coords="6272,281,6471,322"/>
@@ -139,5 +140,5 @@
 <area shape="rect" id="node123" href="$qpg6100_2_configuration_manager_impl_8h.html" title=" " alt="" coords="6257,385,6486,426"/>
 <area shape="rect" id="node131" href="$_zephyr_2_configuration_manager_impl_8h.html" title=" " alt="" coords="6977,385,7195,426"/>
 <area shape="rect" id="node132" href="$nrfconnect_2_configuration_manager_impl_8h.html" title=" " alt="" coords="6943,489,7154,530"/>
-<area shape="rect" id="node138" href="$_main_loop_8cpp.html" title=" " alt="" coords="521,281,677,322"/>
+<area shape="rect" id="node139" href="$_main_loop_8cpp.html" title=" " alt="" coords="544,281,700,322"/>
 </map>

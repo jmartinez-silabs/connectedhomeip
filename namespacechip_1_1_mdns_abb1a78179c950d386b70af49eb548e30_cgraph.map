@@ -1,0 +1,7 @@
+<map id="chip::Mdns::ChipMdnsStopPublish" name="chip::Mdns::ChipMdnsStopPublish">
+<area shape="rect" id="node1" title="This function stops publishing service via mDNS." alt="" coords="5,39,199,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="247,5,440,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a259d75046062dc2482b9e949a781ec80" title=" " alt="" coords="247,71,440,112"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="488,78,652,105"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="700,78,903,105"/>
+</map>

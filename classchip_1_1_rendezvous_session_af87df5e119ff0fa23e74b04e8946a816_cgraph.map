@@ -1,0 +1,4 @@
+<map id="chip::RendezvousSession::SendSecureMessage" name="chip::RendezvousSession::SendSecureMessage">
+<area shape="rect" id="node1" title="Called when network provisioning generates a new message that should be sent to peer." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_payload_header.html#a8423f9302735447b07e6674b42265cf8" title="Set the message type for this header." alt="" coords="240,5,395,47"/>
+</map>

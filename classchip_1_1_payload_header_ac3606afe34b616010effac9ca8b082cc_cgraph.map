@@ -1,4 +1,6 @@
 <map id="chip::PayloadHeader::HasMessageType" name="chip::PayloadHeader::HasMessageType">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,160,80"/>
 <area shape="rect" id="node2" href="$classchip_1_1_payload_header.html#a7d8b70dc53fc606fcd16abdbaf1f3dea" title="Check whether the header has a given secure message type." alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_payload_header.html#a95b734c75edf75577d9ea5de23c3caf1" title="Check whether the header has a given protocol." alt="" coords="208,71,363,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_optional.html#a6cd93e7656b204a9979ab525ba7503c6" title="Gets the current value of the optional if the optional has a value; otherwise returns the provided de..." alt="" coords="411,78,581,105"/>
 </map>

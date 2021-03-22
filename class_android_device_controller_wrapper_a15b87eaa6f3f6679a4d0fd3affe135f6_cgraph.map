@@ -1,8 +1,0 @@
-<map id="AndroidDeviceControllerWrapper::AllocateNew" name="AndroidDeviceControllerWrapper::AllocateNew">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,241,145"/>
-<area shape="rect" id="node2" href="$class_android_device_controller_wrapper.html#afc711a21db9141899e4e932dc9a28163" title=" " alt="" coords="289,5,525,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_device_commissioner.html#a120c124475f95c1df2cd668786c530bb" title="Init function to be used when there exists a device layer that takes care of initializing System::Lay..." alt="" coords="320,71,495,112"/>
-<area shape="rect" id="node5" href="$classchip_1_1_controller_1_1_device_controller.html#a69600fa00b3c51cd6a5cd63aad9a1637" title="Start the event loop task within the CHIP stack." alt="" coords="314,136,501,177"/>
-<area shape="rect" id="node6" href="$classchip_1_1_controller_1_1_device_controller.html#a8c75a114bfbf083f8d06b0857b65dc73" title=" " alt="" coords="304,201,511,243"/>
-<area shape="rect" id="node4" href="$_c_h_i_p_ble_service_data_8h.html#ab2092db68feac59b46195c0872527bcb" title=" " alt="" coords="573,78,616,105"/>
-</map>

@@ -64,7 +64,6 @@ var _c_h_i_p_device_controller__j_n_i_8cpp =
     [ "ReleaseStringUTFChars", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a3e4dd379d849d732aa3ea84234072dc2", null ],
     [ "ReleaseStringUTFChars", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a29cc601368a40668c4f348d17ab8a859", null ],
     [ "ReportError", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#aa8379252184789b008fd3fc21d80b8b9", null ],
-    [ "SetJavaObjectRef", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a10c059c161635f5e3e89e2d96cad731e", null ],
     [ "switch", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac303354bfa95266f9761161488814860", null ],
     [ "ThrowError", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a69f20c097142820809649ad1c5dc158a", null ],
     [ "ToString", "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a2b6d8fe4f999e92577c826a5c25b6525", null ],

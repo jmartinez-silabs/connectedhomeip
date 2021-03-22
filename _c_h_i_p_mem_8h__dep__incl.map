@@ -1,5 +1,5 @@
 <map id="lib/support/CHIPMem.h" name="lib/support/CHIPMem.h">
-<area shape="rect" id="node1" title=" " alt="" coords="3723,5,3894,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="3822,5,3993,32"/>
 <area shape="rect" id="node2" href="$_c_h_i_p_device_8cpp.html" title=" " alt="" coords="423,95,613,121"/>
 <area shape="rect" id="node3" href="$_c_h_i_p_device_controller_8cpp.html" title=" " alt="" coords="637,95,892,121"/>
 <area shape="rect" id="node4" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html" title=" " alt="" coords="916,87,1112,129"/>
@@ -23,17 +23,18 @@
 <area shape="rect" id="node42" href="$_e_s_p32_config_8cpp.html" title=" " alt="" coords="4219,295,4454,322"/>
 <area shape="rect" id="node44" href="$_c_h_i_p_linux_storage_8cpp.html" title=" " alt="" coords="4375,377,4562,419"/>
 <area shape="rect" id="node50" href="$_c_h_i_p_linux_storage_ini_8cpp.html" title=" " alt="" coords="4790,288,4977,329"/>
-<area shape="rect" id="node52" href="$_e_s_p32_2_mdns_impl_8cpp.html" title=" " alt="" coords="4601,95,4819,121"/>
-<area shape="rect" id="node53" href="$_linux_2_mdns_impl_8cpp.html" title=" " alt="" coords="4843,95,5055,121"/>
-<area shape="rect" id="node54" href="$qpg6100_2_thread_stack_manager_impl_8cpp.html" title=" " alt="" coords="5079,87,5301,129"/>
-<area shape="rect" id="node55" href="$_additional_data_payload_generator_8cpp.html" title=" " alt="" coords="5326,87,5521,129"/>
-<area shape="rect" id="node56" href="$_setup_payload_parser-_j_n_i_8cpp.html" title=" " alt="" coords="5545,80,5699,136"/>
-<area shape="rect" id="node57" href="$_system_layer_8cpp.html" title=" " alt="" coords="5724,95,5909,121"/>
-<area shape="rect" id="node58" href="$_system_packet_buffer_8cpp.html" title=" " alt="" coords="5933,95,6164,121"/>
-<area shape="rect" id="node59" href="$_admin_pairing_table_8cpp.html" title=" " alt="" coords="6189,95,6421,121"/>
-<area shape="rect" id="node60" href="$_c_a_s_e_session_8cpp.html" title=" " alt="" coords="6445,95,6641,121"/>
-<area shape="rect" id="node61" href="$_p_a_s_e_session_8cpp.html" title=" " alt="" coords="6666,95,6861,121"/>
-<area shape="rect" id="node62" href="$_rendezvous_session_8cpp.html" title=" " alt="" coords="6885,95,7127,121"/>
+<area shape="rect" id="node52" href="$_darwin_2_mdns_impl_8cpp.html" title=" " alt="" coords="4600,95,4823,121"/>
+<area shape="rect" id="node53" href="$_e_s_p32_2_mdns_impl_8cpp.html" title=" " alt="" coords="4847,95,5064,121"/>
+<area shape="rect" id="node54" href="$_linux_2_mdns_impl_8cpp.html" title=" " alt="" coords="5088,95,5300,121"/>
+<area shape="rect" id="node55" href="$qpg6100_2_thread_stack_manager_impl_8cpp.html" title=" " alt="" coords="5324,87,5547,129"/>
+<area shape="rect" id="node56" href="$_additional_data_payload_generator_8cpp.html" title=" " alt="" coords="5571,87,5766,129"/>
+<area shape="rect" id="node57" href="$_setup_payload_parser-_j_n_i_8cpp.html" title=" " alt="" coords="5790,80,5945,136"/>
+<area shape="rect" id="node58" href="$_system_layer_8cpp.html" title=" " alt="" coords="5969,95,6155,121"/>
+<area shape="rect" id="node59" href="$_system_packet_buffer_8cpp.html" title=" " alt="" coords="6179,95,6409,121"/>
+<area shape="rect" id="node60" href="$_admin_pairing_table_8cpp.html" title=" " alt="" coords="6434,95,6666,121"/>
+<area shape="rect" id="node61" href="$_c_a_s_e_session_8cpp.html" title=" " alt="" coords="6691,95,6887,121"/>
+<area shape="rect" id="node62" href="$_p_a_s_e_session_8cpp.html" title=" " alt="" coords="6911,95,7106,121"/>
+<area shape="rect" id="node63" href="$_rendezvous_session_8cpp.html" title=" " alt="" coords="7131,95,7372,121"/>
 <area shape="rect" id="node11" href="$cc13x2__26x2_2_configuration_manager_impl_8cpp.html" title=" " alt="" coords="2162,288,2389,329"/>
 <area shape="rect" id="node12" href="$_darwin_2_configuration_manager_impl_8cpp.html" title=" " alt="" coords="2413,288,2631,329"/>
 <area shape="rect" id="node13" href="$_e_f_r32_2_configuration_manager_impl_8cpp.html" title=" " alt="" coords="2656,288,2871,329"/>

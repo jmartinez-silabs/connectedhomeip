@@ -1,9 +1,10 @@
 <map id="chip::TLV::TLVTypeHasLength" name="chip::TLV::TLVTypeHasLength">
-<area shape="rect" id="node1" title="Returns true if the specified TLV type implies the presence of an associated length field." alt="" coords="756,96,965,123"/>
-<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a81957e5f47e7b418748eb0feb12dfe1f" title="Returns the length of data associated with current TLV element." alt="" coords="552,23,708,65"/>
-<area shape="rect" id="node6" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#adb116524e4d2ba1cdb93b3f58a5f4f76" title="Skip any data contained in the current TLV by reading over it without a destination buffer." alt="" coords="552,89,708,130"/>
-<area shape="rect" id="node7" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a6bf279fc5ab83c4d024236f406f6dc35" title=" " alt="" coords="552,154,708,195"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_t_l_v_1_1_debug.html#ac01b5394e6a49312cbab9f8c8ca48a49" title="Dump the TLV element referenced by aReader in human&#45;readable form using aWriter." alt="" coords="277,31,504,57"/>
-<area shape="rect" id="node4" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1da320233f2ebdb91557578f79475299" title="Dump the TLV data within the specified reader in human&#45;readable form with the specified writer." alt="" coords="29,5,205,32"/>
-<area shape="rect" id="node5" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1c8aeab9832f6283a8f5f22a1946d7a0" title="Log the TLV data within the specified reader in human&#45;readable form to the specified writer." alt="" coords="5,56,229,83"/>
+<area shape="rect" id="node1" title="Returns true if the specified TLV type implies the presence of an associated length field." alt="" coords="759,121,968,148"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a81957e5f47e7b418748eb0feb12dfe1f" title="Returns the length of data associated with current TLV element." alt="" coords="555,49,711,90"/>
+<area shape="rect" id="node7" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#adb116524e4d2ba1cdb93b3f58a5f4f76" title="Skip any data contained in the current TLV by reading over it without a destination buffer." alt="" coords="555,114,711,155"/>
+<area shape="rect" id="node8" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a6bf279fc5ab83c4d024236f406f6dc35" title=" " alt="" coords="555,179,711,221"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_t_l_v_1_1_debug.html#ac01b5394e6a49312cbab9f8c8ca48a49" title="Dump the TLV element referenced by aReader in human&#45;readable form using aWriter." alt="" coords="280,56,507,83"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1da320233f2ebdb91557578f79475299" title="Dump the TLV data within the specified reader in human&#45;readable form with the specified writer." alt="" coords="31,5,207,32"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a10860664c7fca0bee73e36becd5ed478" title="Log the TLV data within the specified reader in human&#45;readable form." alt="" coords="5,56,232,83"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_t_l_v_1_1_debug.html#a1c8aeab9832f6283a8f5f22a1946d7a0" title="Log the TLV data within the specified reader in human&#45;readable form to the specified writer." alt="" coords="7,107,231,133"/>
 </map>

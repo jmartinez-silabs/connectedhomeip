@@ -1,16 +1,36 @@
 <map id="chip::Platform::MemoryFree" name="chip::Platform::MemoryFree">
-<area shape="rect" id="node1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="559,232,761,259"/>
-<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#aac38e0bb647862d22f704cc57a93d32a" title=" " alt="" coords="254,5,497,61"/>
-<area shape="rect" id="node3" href="$_c_h_i_p_platform_memory_8h.html#a3e189c0fda39310573ba360343ef850e" title=" " alt="" coords="280,85,471,112"/>
-<area shape="rect" id="node5" href="$classchip_1_1_p_a_s_e_session.html#acd75a29760aad6770e09110e766e69a6" title="This function zeroes out and resets the memory used by the object." alt="" coords="302,137,449,178"/>
-<area shape="rect" id="node6" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="293,203,457,229"/>
-<area shape="rect" id="node11" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a8b9badffc559b45eea707be9ab7604da" title="Allocates and returns a buffer containing the value of the current byte or UTF8 string." alt="" coords="297,254,453,295"/>
-<area shape="rect" id="node12" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad3a24b6ba80a5567206c10a087899820" title="Allocates and returns a buffer containing the null&#45;terminated value of the current byte or UTF8 strin..." alt="" coords="297,319,453,361"/>
-<area shape="rect" id="node13" href="$classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#aa1c42896cfe0a909016134a4b3909b0a" title="Release memory used." alt="" coords="240,385,511,455"/>
-<area shape="rect" id="node14" href="$classchip_1_1_platform_1_1_impl_1_1_platform_memory_management.html#ad82e73770d66e4d00168f80a773be4ae" title=" " alt="" coords="262,480,489,536"/>
-<area shape="rect" id="node4" href="$_e_f_r32_2_thread_stack_manager_impl_8cpp.html#a64920a791a87465bf49fa751c7677825" title=" " alt="" coords="55,79,143,105"/>
-<area shape="rect" id="node7" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed" title=" " alt="" coords="13,130,184,171"/>
-<area shape="rect" id="node8" href="$classchip_1_1_delete_deletor.html#aff5fbb01ab89465d6aa2b8b0e4ce0a17" title=" " alt="" coords="25,195,173,237"/>
-<area shape="rect" id="node9" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70" title=" " alt="" coords="13,261,184,302"/>
-<area shape="rect" id="node10" href="$classchip_1_1_rendezvous_session.html#a920c095cefa2c91a298ec1d62fb93322" title=" " alt="" coords="5,326,192,367"/>
+<area shape="rect" id="node1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="2316,289,2519,316"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html#aac38e0bb647862d22f704cc57a93d32a" title=" " alt="" coords="2011,63,2254,119"/>
+<area shape="rect" id="node3" href="$_c_h_i_p_platform_memory_8h.html#a3e189c0fda39310573ba360343ef850e" title=" " alt="" coords="2037,143,2228,169"/>
+<area shape="rect" id="node5" href="$classchip_1_1_p_a_s_e_session.html#acd75a29760aad6770e09110e766e69a6" title="This function zeroes out and resets the memory used by the object." alt="" coords="2059,194,2206,235"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="2051,260,2215,287"/>
+<area shape="rect" id="node31" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a8b9badffc559b45eea707be9ab7604da" title="Allocates and returns a buffer containing the value of the current byte or UTF8 string." alt="" coords="2055,311,2211,353"/>
+<area shape="rect" id="node32" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ad3a24b6ba80a5567206c10a087899820" title="Allocates and returns a buffer containing the null&#45;terminated value of the current byte or UTF8 strin..." alt="" coords="2055,377,2211,418"/>
+<area shape="rect" id="node33" href="$classchip_1_1_platform_1_1_impl_1_1_scoped_memory_buffer_base.html#aa1c42896cfe0a909016134a4b3909b0a" title="Release memory used." alt="" coords="1997,442,2268,513"/>
+<area shape="rect" id="node34" href="$classchip_1_1_platform_1_1_impl_1_1_platform_memory_management.html#ad82e73770d66e4d00168f80a773be4ae" title=" " alt="" coords="2019,537,2246,593"/>
+<area shape="rect" id="node4" href="$_e_f_r32_2_thread_stack_manager_impl_8cpp.html#a64920a791a87465bf49fa751c7677825" title=" " alt="" coords="1809,5,1897,32"/>
+<area shape="rect" id="node7" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed" title=" " alt="" coords="1767,253,1938,294"/>
+<area shape="rect" id="node8" href="$namespacechip_1_1_mdns.html#a55a7be50a09fc35c35117aca11cd3328" title=" " alt="" coords="1496,439,1708,465"/>
+<area shape="rect" id="node22" href="$classchip_1_1_delete_deletor.html#aff5fbb01ab89465d6aa2b8b0e4ce0a17" title=" " alt="" coords="1779,383,1927,425"/>
+<area shape="rect" id="node23" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aabe2ceaa8f4773f7ac8a0a6a7b6e3a8d" title=" " alt="" coords="1756,318,1949,359"/>
+<area shape="rect" id="node24" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a259d75046062dc2482b9e949a781ec80" title=" " alt="" coords="1756,602,1949,643"/>
+<area shape="rect" id="node28" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70" title=" " alt="" coords="1767,57,1938,98"/>
+<area shape="rect" id="node29" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a82a303d1efdabd407d74770e13a331cb" title=" " alt="" coords="1756,122,1949,163"/>
+<area shape="rect" id="node30" href="$classchip_1_1_rendezvous_session.html#a920c095cefa2c91a298ec1d62fb93322" title=" " alt="" coords="1759,187,1946,229"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_mdns.html#a53ca0512547d868eb1acda784f224d2a" title=" " alt="" coords="1030,484,1178,511"/>
+<area shape="rect" id="node11" href="$namespacechip_1_1_mdns.html#a4d2b71323491d7ea75732475c4e0409c" title=" " alt="" coords="1015,383,1193,409"/>
+<area shape="rect" id="node12" href="$namespacechip_1_1_mdns.html#a0d1d9a640bac8540a3c06d967f830041" title=" " alt="" coords="775,408,946,435"/>
+<area shape="rect" id="node13" href="$namespacechip_1_1_mdns.html#a22234269ea6d8cadab6d067ad597a1b7" title=" " alt="" coords="533,505,685,532"/>
+<area shape="rect" id="node16" href="$namespacechip_1_1_mdns.html#ac7ace6d1b68f568aaf179e03c3fe1b18" title=" " alt="" coords="1261,332,1428,359"/>
+<area shape="rect" id="node17" href="$namespacechip_1_1_mdns.html#ae80d61a0fbe83de8430fc2ec10cf0b8d" title=" " alt="" coords="1247,281,1443,308"/>
+<area shape="rect" id="node18" href="$namespacechip_1_1_mdns.html#a1db2cbb762dd5e1a7fc72903e4a3db32" title=" " alt="" coords="1259,636,1431,663"/>
+<area shape="rect" id="node19" href="$namespacechip_1_1_mdns.html#a696ad1f92bcdea7c50f6fe7fa4ace854" title=" " alt="" coords="1027,615,1181,641"/>
+<area shape="rect" id="node10" href="$namespacechip_1_1_mdns.html#a0754a398f1b32ce97bb2158f0e632975" title="This function browses the services published by mdns." alt="" coords="755,484,967,511"/>
+<area shape="rect" id="node14" href="$namespacechip_1_1_mdns.html#a92918bc47fadde76f386ab039d196c7c" title="This function resolves the services published by mdns." alt="" coords="248,505,464,532"/>
+<area shape="rect" id="node15" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a18ad3466e0cb296fca6cae3802abb8f2" title="Requests resolution of a node ID to its address." alt="" coords="5,498,200,539"/>
+<area shape="rect" id="node20" href="$namespacechip_1_1_mdns.html#afbba98fa3de45e9cd065838017c724e9" title="This function publishes an service via mDNS." alt="" coords="755,607,966,649"/>
+<area shape="rect" id="node21" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded" title="Advertises the CHIP node as a commisioning/commissionable node." alt="" coords="512,607,707,649"/>
+<area shape="rect" id="node25" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="1505,687,1699,729"/>
+<area shape="rect" id="node26" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c" title="Starts the advertiser." alt="" coords="1247,753,1442,794"/>
+<area shape="rect" id="node27" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9519fa8a8d9da6c80c34b893279c4f55" title="This function stops publishing the device on mDNS." alt="" coords="1241,687,1448,729"/>
 </map>

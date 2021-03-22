@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchip_1_1_t_l_v_1_1_t_l_v_updater.html" title="Provides a unified Reader/Writer interface for editing/adding/deleting elements in TLV encoding." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node1" href="$classchip_1_1_t_l_v_1_1_t_l_v_backing_store.html" title="Provides an interface for TLVReader or TLVWriter to use memory other than a simple contiguous buffer." alt="" coords="5,42,201,69"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html" title="An implementation of TLVBackingStore using PacketBuffers." alt="" coords="255,5,474,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_c_h_i_p_circular_t_l_v_buffer.html" title="CHIPCircularTLVBuffer provides circular storage for the chip::TLV::TLVWriter and chip::TLVTLVReader...." alt="" coords="249,71,480,98"/>
 </map>

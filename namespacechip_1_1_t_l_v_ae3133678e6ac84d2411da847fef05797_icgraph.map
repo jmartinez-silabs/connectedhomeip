@@ -1,4 +1,6 @@
 <map id="chip::TLV::TLVFieldSizeToBytes" name="chip::TLV::TLVFieldSizeToBytes">
-<area shape="rect" id="node1" title=" " alt="" coords="209,5,392,47"/>
-<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a72c33055887d84194210be994fd4ec73" title=" " alt="" coords="5,5,161,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="449,39,632,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a39420eb9c2a49f04d59ad01f6cdd8235" title="This is a private method used to compute the length of a TLV element head." alt="" coords="216,5,401,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a72c33055887d84194210be994fd4ec73" title=" " alt="" coords="231,71,387,112"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_updater.html#ac60992db8aa17add1ef7270d2a993c41" title="Initialize a TLVUpdater object using a TLVReader." alt="" coords="5,5,168,47"/>
 </map>

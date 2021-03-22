@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">5719bdb</span>
+   &#160;<span id="projectnumber">f0b7f2b</span>
    </div>
   </td>
  </tr>
@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('classchip_1_1_payload_header.html','')
 
 <p>This is the complete list of members for <a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#ad2b9b11f293531578cde4a11d61f2e3d">ClearVendorId</a>()</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#afc65c12b7a3de6ac9172fb4a7ef4d68a">ClearVendorId</a>()</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#aa5f798ce52327936877ac0c414fea586">Decode</a>(const uint8_t *data, uint16_t size, uint16_t *decode_size)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#aba799f5f3e977ad5cd54ae67aaeaab70">Decode</a>(const uint8_t(&amp;data)[N], uint16_t *decode_size)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a6dc462d37736e145540c2b288ea60c82">DecodeAndConsume</a>(const System::PacketBufferHandle &amp;buf)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"></td></tr>
@@ -106,25 +106,27 @@ $(document).ready(function(){initNavTree('classchip_1_1_payload_header.html','')
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a5a5aae6e1070a2d658a3807701045903">GetVendorId</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a7d8b70dc53fc606fcd16abdbaf1f3dea">HasMessageType</a>(uint8_t type) const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#ac3606afe34b616010effac9ca8b082cc">HasMessageType</a>(MessageType type) const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a8fc818122731b3c3eaa0e73a4aa91c39">IsAckMsg</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#abcca7d48e8053a612b815b4cd2f8bd80">IsInitiator</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#adbe1ce1f5c00454f9a9969550a8e79a2">NeedsAck</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a780ca99291a0d32ea79a75dcab2f4d40">operator=</a>(const PayloadHeader &amp;)=default</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a95b734c75edf75577d9ea5de23c3caf1">HasProtocol</a>(Protocols::Id protocol) const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a8fc818122731b3c3eaa0e73a4aa91c39">IsAckMsg</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#abcca7d48e8053a612b815b4cd2f8bd80">IsInitiator</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#adbe1ce1f5c00454f9a9969550a8e79a2">NeedsAck</a>() const</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a780ca99291a0d32ea79a75dcab2f4d40">operator=</a>(const PayloadHeader &amp;)=default</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a85aa0b2eb42b594e9c887118c4a6f0aa">PayloadHeader</a>()</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a1e3f1141f766be6adad2727dab195ada">SetAckId</a>(uint32_t id)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a3c808137f36a6f02a4e76fd8a245e781">SetAckId</a>(Optional&lt; uint32_t &gt; id)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a7575aac9568946d21730a1da374c3442">SetExchangeID</a>(uint16_t id)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#afe2a49a236a0f4810d45aeb624af50be">SetInitiator</a>(bool inInitiator)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a2f822479e8efe76d5341c6349aff0294">SetMessageType</a>(uint16_t protocol, uint8_t type)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a8423f9302735447b07e6674b42265cf8">SetMessageType</a>(Protocols::Id protocol, uint8_t type)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a23953d3075332ab9d58f7544e733cd28">SetMessageType</a>(MessageType type)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#ab1db08c890c5424508ebcb3dba0b6125">SetNeedsAck</a>(bool inNeedsAck)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a2719ba96478400b35428f6d7acd432a5">SetVendorId</a>(uint16_t id)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#a72c591ef822bcd1583e63c210b1d4dc2">SetVendorId</a>(Optional&lt; uint16_t &gt; id)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classchip_1_1_payload_header.html#af71c02948f5297a931c5443ee0dad3a8">SetVendorId</a>(Optional&lt; uint16_t &gt; id)</td><td class="entry"><a class="el" href="classchip_1_1_payload_header.html">chip::PayloadHeader</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Mar 19 2021 20:51:25 for Connected Home over IP by
+    <li class="footer">Generated on Mon Mar 22 2021 16:40:50 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -26,7 +26,7 @@ var classchip_1_1_rendezvous_session =
     [ "OnSessionEstablishmentError", "classchip_1_1_rendezvous_session.html#a4bcb82a979003aea06a8a34a56b8526f", null ],
     [ "SendNetworkCredentials", "classchip_1_1_rendezvous_session.html#a56a22a7afd8ba1c4e236feba486d0b08", null ],
     [ "SendOperationalCredentials", "classchip_1_1_rendezvous_session.html#a39c749ae50af20ca4c33d685540b73f2", null ],
-    [ "SendSecureMessage", "classchip_1_1_rendezvous_session.html#aa918f476d961994b15967e50573680b2", null ],
+    [ "SendSecureMessage", "classchip_1_1_rendezvous_session.html#af87df5e119ff0fa23e74b04e8946a816", null ],
     [ "SendSessionEstablishmentMessage", "classchip_1_1_rendezvous_session.html#a641291a307943037229a6ba1e90adfcd", null ],
     [ "SendThreadCredentials", "classchip_1_1_rendezvous_session.html#a519dff1e6cb150b401224c59fe13c6d4", null ],
     [ "SetNextKeyId", "classchip_1_1_rendezvous_session.html#a2589ddb4880f416c9325ac81e1b482c2", null ]

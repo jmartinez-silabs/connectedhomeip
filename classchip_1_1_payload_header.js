@@ -1,6 +1,7 @@
 var classchip_1_1_payload_header =
 [
-    [ "ClearVendorId", "classchip_1_1_payload_header.html#ad2b9b11f293531578cde4a11d61f2e3d", null ],
+    [ "PayloadHeader", "classchip_1_1_payload_header.html#a85aa0b2eb42b594e9c887118c4a6f0aa", null ],
+    [ "ClearVendorId", "classchip_1_1_payload_header.html#afc65c12b7a3de6ac9172fb4a7ef4d68a", null ],
     [ "Decode", "classchip_1_1_payload_header.html#aa5f798ce52327936877ac0c414fea586", null ],
     [ "Decode", "classchip_1_1_payload_header.html#aba799f5f3e977ad5cd54ae67aaeaab70", null ],
     [ "DecodeAndConsume", "classchip_1_1_payload_header.html#a6dc462d37736e145540c2b288ea60c82", null ],
@@ -16,6 +17,7 @@ var classchip_1_1_payload_header =
     [ "GetVendorId", "classchip_1_1_payload_header.html#a5a5aae6e1070a2d658a3807701045903", null ],
     [ "HasMessageType", "classchip_1_1_payload_header.html#ac3606afe34b616010effac9ca8b082cc", null ],
     [ "HasMessageType", "classchip_1_1_payload_header.html#a7d8b70dc53fc606fcd16abdbaf1f3dea", null ],
+    [ "HasProtocol", "classchip_1_1_payload_header.html#a95b734c75edf75577d9ea5de23c3caf1", null ],
     [ "IsAckMsg", "classchip_1_1_payload_header.html#a8fc818122731b3c3eaa0e73a4aa91c39", null ],
     [ "IsInitiator", "classchip_1_1_payload_header.html#abcca7d48e8053a612b815b4cd2f8bd80", null ],
     [ "NeedsAck", "classchip_1_1_payload_header.html#adbe1ce1f5c00454f9a9969550a8e79a2", null ],
@@ -25,8 +27,8 @@ var classchip_1_1_payload_header =
     [ "SetExchangeID", "classchip_1_1_payload_header.html#a7575aac9568946d21730a1da374c3442", null ],
     [ "SetInitiator", "classchip_1_1_payload_header.html#afe2a49a236a0f4810d45aeb624af50be", null ],
     [ "SetMessageType", "classchip_1_1_payload_header.html#a23953d3075332ab9d58f7544e733cd28", null ],
-    [ "SetMessageType", "classchip_1_1_payload_header.html#a2f822479e8efe76d5341c6349aff0294", null ],
+    [ "SetMessageType", "classchip_1_1_payload_header.html#a8423f9302735447b07e6674b42265cf8", null ],
     [ "SetNeedsAck", "classchip_1_1_payload_header.html#ab1db08c890c5424508ebcb3dba0b6125", null ],
-    [ "SetVendorId", "classchip_1_1_payload_header.html#a72c591ef822bcd1583e63c210b1d4dc2", null ],
+    [ "SetVendorId", "classchip_1_1_payload_header.html#af71c02948f5297a931c5443ee0dad3a8", null ],
     [ "SetVendorId", "classchip_1_1_payload_header.html#a2719ba96478400b35428f6d7acd432a5", null ]
 ];

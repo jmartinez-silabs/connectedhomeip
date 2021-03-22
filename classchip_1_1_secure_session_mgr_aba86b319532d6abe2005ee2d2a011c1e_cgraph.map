@@ -10,7 +10,7 @@
 <area shape="rect" id="node9" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a9c823a60ddb4b2b4d81b297aaecec6fd" title=" " alt="" coords="235,463,462,504"/>
 <area shape="rect" id="node10" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a7377c56b80df261492455d67c0d5af2b" title=" " alt="" coords="229,528,468,569"/>
 <area shape="rect" id="node11" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a86303267279cf1a946c120d5a2cb8f8d" title=" " alt="" coords="235,593,462,635"/>
-<area shape="rect" id="node12" href="$classchip_1_1_optional.html#ab34dda6cd80632dc994056dd12d08116" title="Checks if the optional contains a value or not." alt="" coords="258,659,439,686"/>
+<area shape="rect" id="node12" href="$classchip_1_1_optional.html#a5cd680378379844625c451dcacf2c87c" title="Checks if the optional contains a value or not." alt="" coords="258,659,439,686"/>
 <area shape="rect" id="node13" href="$classchip_1_1_transport_1_1_peer_connections.html#a42ab561803ff6cc0dfa16f09b0a6c5af" title="Convenience method to expired a peer connection state and fired the related callback." alt="" coords="231,711,466,752"/>
 <area shape="rect" id="node14" href="$classchip_1_1_secure_session_mgr_delegate.html#a442943959a155aa466e8acbee3378474" title="Called when a new pairing is being established." alt="" coords="231,776,466,817"/>
 <area shape="rect" id="node15" href="$classchip_1_1_transport_1_1_peer_connection_state.html#a8940f480d6a8d57483ee4430a51fa0d4" title=" " alt="" coords="235,841,462,883"/>

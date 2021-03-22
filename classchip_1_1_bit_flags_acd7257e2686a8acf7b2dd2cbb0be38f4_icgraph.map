@@ -1,6 +1,7 @@
 <map id="chip::BitFlags::Clear" name="chip::BitFlags::Clear">
-<area shape="rect" id="node1" title="Clear flag(s)." alt="" coords="251,78,403,105"/>
+<area shape="rect" id="node1" title="Clear flag(s)." alt="" coords="251,111,403,138"/>
 <area shape="rect" id="node2" href="$classchip_1_1_packet_header.html#af75ed2fd8424e3c528b3b8eb10d0cd30" title=" " alt="" coords="11,5,197,47"/>
 <area shape="rect" id="node3" href="$classchip_1_1_packet_header.html#acb45655f6439e69470c19a5d319228fd" title=" " alt="" coords="27,71,181,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_bit_flags.html#a44edef3319da951b6a0dda285393eaa8" title="Set or clear flag(s)." alt="" coords="5,136,203,177"/>
+<area shape="rect" id="node4" href="$classchip_1_1_payload_header.html#afc65c12b7a3de6ac9172fb4a7ef4d68a" title="Clear the vendor id for this header." alt="" coords="27,136,181,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_bit_flags.html#a3ac6864a27e5b7ab3c11dda76e743076" title="Set or clear flag(s)." alt="" coords="5,201,203,243"/>
 </map>

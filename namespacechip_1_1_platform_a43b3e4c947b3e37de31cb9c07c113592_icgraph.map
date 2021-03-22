@@ -1,7 +1,27 @@
 <map id="chip::Platform::Delete" name="chip::Platform::Delete">
-<area shape="rect" id="node1" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="240,111,404,138"/>
-<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed" title=" " alt="" coords="13,5,184,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_delete_deletor.html#aff5fbb01ab89465d6aa2b8b0e4ce0a17" title=" " alt="" coords="25,71,173,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70" title=" " alt="" coords="13,136,184,177"/>
-<area shape="rect" id="node5" href="$classchip_1_1_rendezvous_session.html#a920c095cefa2c91a298ec1d62fb93322" title=" " alt="" coords="5,201,192,243"/>
+<area shape="rect" id="node1" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="1997,234,2161,261"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#aa4d3ea50e1cde374ddc4e703a26d6aed" title=" " alt="" coords="1767,8,1938,49"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_mdns.html#a55a7be50a09fc35c35117aca11cd3328" title=" " alt="" coords="1496,194,1708,221"/>
+<area shape="rect" id="node17" href="$classchip_1_1_delete_deletor.html#aff5fbb01ab89465d6aa2b8b0e4ce0a17" title=" " alt="" coords="1779,139,1927,180"/>
+<area shape="rect" id="node18" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aabe2ceaa8f4773f7ac8a0a6a7b6e3a8d" title=" " alt="" coords="1756,73,1949,115"/>
+<area shape="rect" id="node19" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a259d75046062dc2482b9e949a781ec80" title=" " alt="" coords="1756,256,1949,297"/>
+<area shape="rect" id="node23" href="$classchip_1_1_mdns_1_1_mdns_avahi.html#a5d617cf00e47dda034d4adc43bf44d70" title=" " alt="" coords="1767,321,1938,363"/>
+<area shape="rect" id="node24" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a82a303d1efdabd407d74770e13a331cb" title=" " alt="" coords="1756,387,1949,428"/>
+<area shape="rect" id="node25" href="$classchip_1_1_rendezvous_session.html#a920c095cefa2c91a298ec1d62fb93322" title=" " alt="" coords="1759,452,1946,493"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_mdns.html#a53ca0512547d868eb1acda784f224d2a" title=" " alt="" coords="1030,239,1178,266"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_mdns.html#a4d2b71323491d7ea75732475c4e0409c" title=" " alt="" coords="1015,138,1193,165"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_mdns.html#a0d1d9a640bac8540a3c06d967f830041" title=" " alt="" coords="775,163,946,190"/>
+<area shape="rect" id="node8" href="$namespacechip_1_1_mdns.html#a22234269ea6d8cadab6d067ad597a1b7" title=" " alt="" coords="533,261,685,287"/>
+<area shape="rect" id="node11" href="$namespacechip_1_1_mdns.html#ac7ace6d1b68f568aaf179e03c3fe1b18" title=" " alt="" coords="1261,87,1428,114"/>
+<area shape="rect" id="node12" href="$namespacechip_1_1_mdns.html#ae80d61a0fbe83de8430fc2ec10cf0b8d" title=" " alt="" coords="1247,37,1443,63"/>
+<area shape="rect" id="node13" href="$namespacechip_1_1_mdns.html#a1db2cbb762dd5e1a7fc72903e4a3db32" title=" " alt="" coords="1259,391,1431,418"/>
+<area shape="rect" id="node14" href="$namespacechip_1_1_mdns.html#a696ad1f92bcdea7c50f6fe7fa4ace854" title=" " alt="" coords="1027,370,1181,397"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_mdns.html#a0754a398f1b32ce97bb2158f0e632975" title="This function browses the services published by mdns." alt="" coords="755,239,967,266"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_mdns.html#a92918bc47fadde76f386ab039d196c7c" title="This function resolves the services published by mdns." alt="" coords="248,261,464,287"/>
+<area shape="rect" id="node10" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a18ad3466e0cb296fca6cae3802abb8f2" title="Requests resolution of a node ID to its address." alt="" coords="5,253,200,295"/>
+<area shape="rect" id="node15" href="$namespacechip_1_1_mdns.html#afbba98fa3de45e9cd065838017c724e9" title="This function publishes an service via mDNS." alt="" coords="755,363,966,404"/>
+<area shape="rect" id="node16" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded" title="Advertises the CHIP node as a commisioning/commissionable node." alt="" coords="512,363,707,404"/>
+<area shape="rect" id="node20" href="$namespacechip_1_1_mdns.html#abb1a78179c950d386b70af49eb548e30" title="This function stops publishing service via mDNS." alt="" coords="1505,443,1699,484"/>
+<area shape="rect" id="node21" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a973b4bac9eb9a03ea581590dd1d54c0c" title="Starts the advertiser." alt="" coords="1247,508,1442,549"/>
+<area shape="rect" id="node22" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#a9519fa8a8d9da6c80c34b893279c4f55" title="This function stops publishing the device on mDNS." alt="" coords="1241,443,1448,484"/>
 </map>

@@ -1,0 +1,6 @@
+<map id="chip::Mdns::OnRegister" name="chip::Mdns::OnRegister">
+<area shape="rect" id="node1" title=" " alt="" coords="709,13,881,39"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#a696ad1f92bcdea7c50f6fe7fa4ace854" title=" " alt="" coords="507,13,661,39"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_mdns.html#afbba98fa3de45e9cd065838017c724e9" title="This function publishes an service via mDNS." alt="" coords="248,5,459,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_discovery_impl_platform.html#ab7f84db2ce42c779486230aad7357ded" title="Advertises the CHIP node as a commisioning/commissionable node." alt="" coords="5,5,200,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::HasProtocol" name="chip::PayloadHeader::HasProtocol">
+<area shape="rect" id="node1" title="Check whether the header has a given protocol." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_optional.html#a6cd93e7656b204a9979ab525ba7503c6" title="Gets the current value of the optional if the optional has a value; otherwise returns the provided de..." alt="" coords="208,13,379,39"/>
+</map>

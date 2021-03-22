@@ -1,0 +1,5 @@
+<map id="chip::Mdns::ChipMdnsSetHostname" name="chip::Mdns::ChipMdnsSetHostname">
+<area shape="rect" id="node1" title="This function sets the host name for services." alt="" coords="5,46,257,73"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="305,5,499,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e325e5537ca58a95ad90436a643340f" title=" " alt="" coords="305,71,499,112"/>
+</map>

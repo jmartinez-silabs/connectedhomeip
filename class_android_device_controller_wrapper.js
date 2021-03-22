@@ -1,7 +1,7 @@
 var class_android_device_controller_wrapper =
 [
     [ "~AndroidDeviceControllerWrapper", "class_android_device_controller_wrapper.html#a7033fe9f637dabfbf52d3531a6ee408a", null ],
-    [ "AllocateNew", "class_android_device_controller_wrapper.html#a15b87eaa6f3f6679a4d0fd3affe135f6", null ],
+    [ "AllocateNew", "class_android_device_controller_wrapper.html#a4eb2fff14160e6e6d08fcfeaed00ee58", null ],
     [ "AsyncDeleteKeyValue", "class_android_device_controller_wrapper.html#a8c69c4c9151a9a4fc51754992be4d8c6", null ],
     [ "AsyncGetKeyValue", "class_android_device_controller_wrapper.html#a55cd8dc8da41b0126a724dfd815bd848", null ],
     [ "AsyncSetKeyValue", "class_android_device_controller_wrapper.html#adc8b897f48efbfb831bb24bce18eedb9", null ],

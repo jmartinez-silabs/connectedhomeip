@@ -254,6 +254,12 @@ var hierarchy =
     ] ],
     [ "chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_Thread< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___thread.html", null ],
     [ "chip::DeviceLayer::Internal::GenericConnectivityManagerImpl_WiFi< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_connectivity_manager_impl___wi_fi.html", null ],
+    [ "chip::Mdns::GenericContext", "structchip_1_1_mdns_1_1_generic_context.html", [
+      [ "chip::Mdns::BrowseContext", "structchip_1_1_mdns_1_1_browse_context.html", null ],
+      [ "chip::Mdns::GetAddrInfoContext", "structchip_1_1_mdns_1_1_get_addr_info_context.html", null ],
+      [ "chip::Mdns::RegisterContext", "structchip_1_1_mdns_1_1_register_context.html", null ],
+      [ "chip::Mdns::ResolveContext", "structchip_1_1_mdns_1_1_resolve_context.html", null ]
+    ] ],
     [ "chip::DeviceLayer::Internal::GenericPlatformManagerImpl< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl.html", [
       [ "chip::DeviceLayer::Internal::GenericPlatformManagerImpl_Zephyr< ImplClass >", "classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html", null ]
     ] ],
@@ -304,6 +310,7 @@ var hierarchy =
     [ "chip::ManualSetupPayloadGenerator", "classchip_1_1_manual_setup_payload_generator.html", null ],
     [ "chip::ManualSetupPayloadParser", "classchip_1_1_manual_setup_payload_parser.html", null ],
     [ "chip::Mdns::MdnsAvahi", "classchip_1_1_mdns_1_1_mdns_avahi.html", null ],
+    [ "chip::Mdns::MdnsContexts", "classchip_1_1_mdns_1_1_mdns_contexts.html", null ],
     [ "chip::Mdns::MdnsService", "structchip_1_1_mdns_1_1_mdns_service.html", null ],
     [ "chip::MessageAuthenticationCode", "classchip_1_1_message_authentication_code.html", null ],
     [ "metaclass", null, [
@@ -321,6 +328,14 @@ var hierarchy =
       [ "FakeBleAdapterInformation", "interface_fake_ble_adapter_information.html", null ],
       [ "UUIDHelper", "interface_u_u_i_d_helper.html", null ]
     ] ],
+    [ "object", null, [
+      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
+      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
+      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
+      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
+      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
+      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
+    ] ],
     [ "chip::System::Object", "classchip_1_1_system_1_1_object.html", [
       [ "chip::Inet::InetLayerBasis", "classchip_1_1_inet_1_1_inet_layer_basis.html", [
         [ "chip::Inet::DNSResolver", "classchip_1_1_inet_1_1_d_n_s_resolver.html", null ],
@@ -333,14 +348,6 @@ var hierarchy =
         ] ]
       ] ],
       [ "chip::System::Timer", "classchip_1_1_system_1_1_timer.html", null ]
-    ] ],
-    [ "object", null, [
-      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
-      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
-      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
-      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
-      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
-      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
     ] ],
     [ "chip::System::ObjectArena< ALIGN, SIZE >", "unionchip_1_1_system_1_1_object_arena.html", null ],
     [ "chip::System::ObjectArena< void *, N *sizeof(chip::Inet::DNSResolver)>", "unionchip_1_1_system_1_1_object_arena.html", null ],

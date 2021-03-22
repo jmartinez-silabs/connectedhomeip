@@ -130,10 +130,13 @@ var menudata={children:[
 {text:"r",url:"namespacemembers_enum.html#index_r"},
 {text:"s",url:"namespacemembers_enum.html#index_s"},
 {text:"t",url:"namespacemembers_enum.html#index_t"},
+{text:"v",url:"namespacemembers_enum.html#index_v"},
 {text:"w",url:"namespacemembers_enum.html#index_w"}]},
 {text:"Enumerator",url:"namespacemembers_eval.html",children:[
 {text:"a",url:"namespacemembers_eval.html#index_a"},
+{text:"c",url:"namespacemembers_eval_c.html#index_c"},
 {text:"k",url:"namespacemembers_eval_k.html#index_k"},
+{text:"n",url:"namespacemembers_eval_n.html#index_n"},
 {text:"o",url:"namespacemembers_eval_o.html#index_o"},
 {text:"s",url:"namespacemembers_eval_s.html#index_s"},
 {text:"u",url:"namespacemembers_eval_u.html#index_u"}]}]}]},

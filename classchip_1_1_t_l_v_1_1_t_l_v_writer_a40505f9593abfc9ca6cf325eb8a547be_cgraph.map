@@ -1,0 +1,8 @@
+<map id="chip::TLV::TLVWriter::CopyElement" name="chip::TLV::TLVWriter::CopyElement">
+<area shape="rect" id="node1" title="Copies a TLV element from a reader object into the writer." alt="" coords="5,71,156,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a2770226003a341b6ea1cb1f9bc87cf71" title="Returns the total number of bytes read since the reader was initialized." alt="" coords="204,5,360,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#ac4ca38473826050ff407f9c2e3fe223d" title="Initializes a TLVReader object from another TLVReader object." alt="" coords="204,71,360,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a9ff98ce4efe55f8ae4e22a88df6c4be5" title=" " alt="" coords="204,136,360,177"/>
+<area shape="rect" id="node4" href="$classchip_1_1_t_l_v_1_1_t_l_v_reader.html#a97d834ba01a100bf76fb1ba3c8ab26ab" title=" " alt="" coords="408,71,564,112"/>
+<area shape="rect" id="node6" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="447,143,525,170"/>
+</map>

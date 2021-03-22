@@ -1,0 +1,13 @@
+<map id="chip::Mdns::ChipMdnsPublishService" name="chip::Mdns::ChipMdnsPublishService">
+<area shape="rect" id="node1" title="This function publishes an service via mDNS." alt="" coords="5,58,216,100"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#a111008ab60c7f65d1a22a11fcd3c75b9" title=" " alt="" coords="264,29,448,70"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_mdns.html#a696ad1f92bcdea7c50f6fe7fa4ace854" title=" " alt="" coords="279,95,433,122"/>
+<area shape="rect" id="node4" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aaf7d2a339aece5a95a73a385ac95cf29" title=" " alt="" coords="496,19,723,46"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_mdns.html#a55a7be50a09fc35c35117aca11cd3328" title=" " alt="" coords="771,88,983,115"/>
+<area shape="rect" id="node8" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="1031,164,1224,205"/>
+<area shape="rect" id="node11" href="$namespacechip_1_1_mdns.html#a1db2cbb762dd5e1a7fc72903e4a3db32" title=" " alt="" coords="523,120,695,147"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="1272,11,1436,38"/>
+<area shape="rect" id="node9" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aabe2ceaa8f4773f7ac8a0a6a7b6e3a8d" title=" " alt="" coords="1031,33,1224,74"/>
+<area shape="rect" id="node10" href="$namespacechip_1_1_mdns_1_1_error.html#abd9ea74d7a0d255d32c5937215d0a346" title=" " alt="" coords="1058,98,1197,140"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="1484,11,1687,38"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="chip::PacketHeader::ClearDestinationNodeId" name="chip::PacketHeader::ClearDestinationNodeId">
 <area shape="rect" id="node1" title=" " alt="" coords="5,23,191,65"/>
 <area shape="rect" id="node2" href="$classchip_1_1_bit_flags.html#acd7257e2686a8acf7b2dd2cbb0be38f4" title="Clear flag(s)." alt="" coords="258,5,410,32"/>
-<area shape="rect" id="node3" href="$classchip_1_1_optional.html#a26385b6e79d36f84fb7d79a75e84a9b4" title="Invalidate the value inside the optional." alt="" coords="239,56,429,83"/>
+<area shape="rect" id="node3" href="$classchip_1_1_optional.html#ac1f355df5cfcb005b1da512b61e6288a" title="Invalidate the value inside the optional." alt="" coords="239,56,429,83"/>
 </map>

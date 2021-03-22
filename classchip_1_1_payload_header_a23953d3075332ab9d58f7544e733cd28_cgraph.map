@@ -1,0 +1,4 @@
+<map id="chip::PayloadHeader::SetMessageType" name="chip::PayloadHeader::SetMessageType">
+<area shape="rect" id="node1" title="Set the secure message type, with the protocol id derived from the message type." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_payload_header.html#a8423f9302735447b07e6674b42265cf8" title="Set the message type for this header." alt="" coords="208,5,363,47"/>
+</map>

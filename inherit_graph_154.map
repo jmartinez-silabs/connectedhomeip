@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchip_1_1_mdns_1_1_mdns_avahi.html" title=" " alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node1" href="$structchip_1_1_mdns_1_1_generic_context.html" title=" " alt="" coords="5,81,207,108"/>
+<area shape="rect" id="node2" href="$structchip_1_1_mdns_1_1_browse_context.html" title=" " alt="" coords="270,5,469,32"/>
+<area shape="rect" id="node3" href="$structchip_1_1_mdns_1_1_get_addr_info_context.html" title=" " alt="" coords="255,56,484,83"/>
+<area shape="rect" id="node4" href="$structchip_1_1_mdns_1_1_register_context.html" title=" " alt="" coords="267,107,472,133"/>
+<area shape="rect" id="node5" href="$structchip_1_1_mdns_1_1_resolve_context.html" title=" " alt="" coords="268,157,471,184"/>
 </map>
