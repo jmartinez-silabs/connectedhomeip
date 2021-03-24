@@ -11,6 +11,7 @@ var _zephyr_2_c_h_i_p_device_platform_event_8h =
       [ "kPlatformDarwinBleOutOfBuffersEvent", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59afa8e12b1883216e4c8d7a98b5dbb3706", null ],
       [ "kPlatformLinuxEvent", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a102815a89b2b35bcf14d12cfe076a454", null ],
       [ "kPlatformLinuxBLECentralConnected", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a5c5f9de3361db07db7938bb1834f25eb", null ],
+      [ "kPlatformLinuxBLECentralConnectFailed", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a610ab7ce23c3dd9196bc2d8fb79ed8db", null ],
       [ "kPlatformLinuxBLEWriteComplete", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae515e7e56bf33c0e250ba89fe6c26c69", null ],
       [ "kPlatformLinuxBLESubscribeOpComplete", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aef856bfbd7c3beee7c1406ceb0e0da2c", null ],
       [ "kPlatformLinuxBLEIndicationReceived", "_zephyr_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59abe7c99303fe552560650a54ec86dcf2c", null ],

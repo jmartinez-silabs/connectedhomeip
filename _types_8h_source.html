@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">a5f31f5</span>
+   &#160;<span id="projectnumber">35806bc</span>
    </div>
   </td>
  </tr>
@@ -253,36 +253,37 @@ $(document).ready(function(){initNavTree('_types_8h_source.html',''); initResiza
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    uint16_t mDuration; </div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordtype">bool</span> mIsAdvertising;</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordtype">char</span> * mpPeerDevicePath;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;};</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="keyword">struct </span>BluezConnection</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordtype">char</span> * mpPeerAddress;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    BluezDevice1 * mpDevice;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    BluezGattService1 * mpService;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    BluezGattCharacteristic1 * mpC1;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    BluezGattCharacteristic1 * mpC2;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="comment">// additional data characteristics</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    BluezGattCharacteristic1 * mpC3;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordtype">bool</span> mIsNotify;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    uint16_t mMtu;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keyword">struct </span>IOChannel mC1Channel;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keyword">struct </span>IOChannel mC2Channel;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    BluezEndpoint * mpEndpoint;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;};</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="keyword">struct </span>ConnectionDataBundle</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;{</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    BluezConnection * mpConn;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    GVariant * mpVal;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;};</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;} <span class="comment">// namespace Internal</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;} <span class="comment">// namespace chip</span></div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    GCancellable * mpConnectCancellable = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;};</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="keyword">struct </span>BluezConnection</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;{</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordtype">char</span> * mpPeerAddress;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    BluezDevice1 * mpDevice;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    BluezGattService1 * mpService;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    BluezGattCharacteristic1 * mpC1;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    BluezGattCharacteristic1 * mpC2;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="comment">// additional data characteristics</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    BluezGattCharacteristic1 * mpC3;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keywordtype">bool</span> mIsNotify;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    uint16_t mMtu;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keyword">struct </span>IOChannel mC1Channel;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keyword">struct </span>IOChannel mC2Channel;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    BluezEndpoint * mpEndpoint;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;};</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="keyword">struct </span>ConnectionDataBundle</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;{</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    BluezConnection * mpConn;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    GVariant * mpVal;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;};</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;} <span class="comment">// namespace Internal</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160; </div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_c_h_i_p_ble_service_data_8h_html"><div class="ttname"><a href="_c_h_i_p_ble_service_data_8h.html">CHIPBleServiceData.h</a></div></div>
@@ -293,7 +294,7 @@ $(document).ready(function(){initNavTree('_types_8h_source.html',''); initResiza
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_73d3889ee67b63af7c3145b099b55cd9.html">Linux</a></li><li class="navelem"><a class="el" href="dir_e55d4bd46792515e15a6fa831d38d67f.html">bluez</a></li><li class="navelem"><a class="el" href="_types_8h.html">Types.h</a></li>
-    <li class="footer">Generated on Wed Mar 24 2021 15:01:29 for Connected Home over IP by
+    <li class="footer">Generated on Wed Mar 24 2021 15:54:42 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

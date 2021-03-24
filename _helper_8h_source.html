@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">a5f31f5</span>
+   &#160;<span id="projectnumber">35806bc</span>
    </div>
   </td>
  </tr>
@@ -155,13 +155,14 @@ $(document).ready(function(){initNavTree('_helper_8h_source.html',''); initResiz
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">bool</span> BluezSubscribeCharacteristic(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> apConn);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">bool</span> BluezUnsubscribeCharacteristic(<a class="code" href="_ble_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727">BLE_CONNECTION_OBJECT</a> apConn);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> ConnectDevice(BluezDevice1 * apDevice);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;} <span class="comment">// namespace Internal</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;} <span class="comment">// namespace chip</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<a class="code" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a> ConnectDevice(BluezDevice1 * apDevice, BluezEndpoint * apEndpoint);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">void</span> CancelConnect(BluezEndpoint * apEndpoint);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;} <span class="comment">// namespace Internal</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;} <span class="comment">// namespace DeviceLayer</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#endif // CHIP_DEVICE_CONFIG_ENABLE_CHIPOBLE</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="a_main_loop_8h_html"><div class="ttname"><a href="_main_loop_8h.html">MainLoop.h</a></div></div>
@@ -175,8 +176,10 @@ $(document).ready(function(){initNavTree('_helper_8h_source.html',''); initResiz
 <div class="ttc" id="a_c_h_i_p_device_layer_8h_html"><div class="ttname"><a href="_c_h_i_p_device_layer_8h.html">CHIPDeviceLayer.h</a></div></div>
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ae3836345291c9268bfe537fefebf1081"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ae3836345291c9268bfe537fefebf1081">conn</a></div><div class="ttdeci">JNIEnv jobject jint conn</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:601</div></div>
 <div class="ttc" id="a_c_h_i_p_mem_string_8h_html"><div class="ttname"><a href="_c_h_i_p_mem_string_8h.html">CHIPMemString.h</a></div></div>
+<div class="ttc" id="anamespacechip_1_1_platform_html_a43b3e4c947b3e37de31cb9c07c113592"><div class="ttname"><a href="namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592">chip::Platform::Delete</a></div><div class="ttdeci">void Delete(T *p)</div><div class="ttdoc">This function wraps the operator delete with using MemoryFree().</div><div class="ttdef"><b>Definition:</b> CHIPMem.h:184</div></div>
 <div class="ttc" id="anamespacechip_html_acc738c7ad000ff9cbbfce04a5beeb375ab300c5e3fd8a932d41d02b2645d9a15c"><div class="ttname"><a href="namespacechip.html#acc738c7ad000ff9cbbfce04a5beeb375ab300c5e3fd8a932d41d02b2645d9a15c">chip::AdditionalDataFields::RotatingDeviceId</a></div><div class="ttdeci">@ RotatingDeviceId</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
+<div class="ttc" id="a_c_h_i_p_error_8h_html_a68c26998d841bb7b34f0d32093957a78"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a68c26998d841bb7b34f0d32093957a78">CHIP_ERROR_INTERNAL</a></div><div class="ttdeci">#define CHIP_ERROR_INTERNAL</div><div class="ttdoc">Internal error.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:1630</div></div>
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a0c1b800f8e945f2a4544cb4008ffb418"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a0c1b800f8e945f2a4544cb4008ffb418">buffer</a></div><div class="ttdeci">System::PacketBufferHandle buffer</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:487</div></div>
 <div class="ttc" id="a_c_h_i_p_ble_service_data_8h_html"><div class="ttname"><a href="_c_h_i_p_ble_service_data_8h.html">CHIPBleServiceData.h</a></div></div>
 <div class="ttc" id="a_code_utils_8h_html"><div class="ttname"><a href="_code_utils_8h.html">CodeUtils.h</a></div></div>
@@ -202,6 +205,7 @@ $(document).ready(function(){initNavTree('_helper_8h_source.html',''); initResiz
 <div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_ac50abae6d98e9974b60124d04929c51e"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a></div><div class="ttdeci">JNIEnv jobject jint jbyteArray jbyteArray jbyteArray value</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:602</div></div>
 <div class="ttc" id="a_t_l_v_packet_buffer_backing_store_8h_html"><div class="ttname"><a href="_t_l_v_packet_buffer_backing_store_8h.html">TLVPacketBufferBackingStore.h</a></div></div>
 <div class="ttc" id="anamespace_ble_html"><div class="ttname"><a href="namespace_ble.html">Ble</a></div><div class="ttdoc">This namespace includes all interfaces within chip for Bluetooth Low Energy (BLE),...</div></div>
+<div class="ttc" id="a_c_h_i_p_mem_8h_html"><div class="ttname"><a href="_c_h_i_p_mem_8h.html">CHIPMem.h</a></div></div>
 <div class="ttc" id="a_c_h_i_p_logging_8h_html_a9b0000281e6340c0477a884d87f579a1"><div class="ttname"><a href="_c_h_i_p_logging_8h.html#a9b0000281e6340c0477a884d87f579a1">ChipLogError</a></div><div class="ttdeci">#define ChipLogError(MOD, MSG,...)</div><div class="ttdoc">Log a chip message for the specified module in the 'Error' category.</div><div class="ttdef"><b>Definition:</b> CHIPLogging.h:98</div></div>
 <div class="ttc" id="anamespacechip_1_1_chip_bluez_mgr_html_a5fb2a124b5204a32a739dd3af148c755"><div class="ttname"><a href="namespacechip_1_1_chip_bluez_mgr.html#a5fb2a124b5204a32a739dd3af148c755">chip.ChipBluezMgr.DEVICE_INTERFACE</a></div><div class="ttdeci">string DEVICE_INTERFACE</div><div class="ttdef"><b>Definition:</b> ChipBluezMgr.py:78</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_a255ed42b89227e34eef134084739716e"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a></div><div class="ttdeci">#define CHIP_NO_ERROR</div><div class="ttdoc">This defines the CHIP error code for success or no error. This value may be configured via CHIP_CONFI...</div><div class="ttdef"><b>Definition:</b> CHIPError.h:45</div></div>
@@ -212,11 +216,12 @@ $(document).ready(function(){initNavTree('_helper_8h_source.html',''); initResiz
 <div class="ttc" id="a_bluez_object_list_8h_html"><div class="ttname"><a href="_bluez_object_list_8h.html">BluezObjectList.h</a></div></div>
 <div class="ttc" id="anamespacechip_1_1tlv_html_aa5761c5996ca131d6f98897449654eae"><div class="ttname"><a href="namespacechip_1_1tlv.html#aa5761c5996ca131d6f98897449654eae">chip.tlv.UINT16_MAX</a></div><div class="ttdeci">int UINT16_MAX</div><div class="ttdef"><b>Definition:</b> __init__.py:71</div></div>
 <div class="ttc" id="anamespacemdns_1_1_minimal_1_1_flat_allocated_q_name_1_1_internal_html_a6bbf2b57e0bf672af753a5da559b070d"><div class="ttname"><a href="namespacemdns_1_1_minimal_1_1_flat_allocated_q_name_1_1_internal.html#a6bbf2b57e0bf672af753a5da559b070d">mdns::Minimal::FlatAllocatedQName::Internal::Initialize</a></div><div class="ttdeci">void Initialize(QNamePart *ptrLocation, char *nameLocation)</div><div class="ttdef"><b>Definition:</b> FlatAllocatedQName.h:56</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_af67087fbae72c92a306fffaa7f3e9a6d"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#af67087fbae72c92a306fffaa7f3e9a6d">params</a></div><div class="ttdeci">RendezvousParameters params</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:289</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_73d3889ee67b63af7c3145b099b55cd9.html">Linux</a></li><li class="navelem"><a class="el" href="dir_e55d4bd46792515e15a6fa831d38d67f.html">bluez</a></li><li class="navelem"><a class="el" href="_helper_8h.html">Helper.h</a></li>
-    <li class="footer">Generated on Wed Mar 24 2021 15:01:29 for Connected Home over IP by
+    <li class="footer">Generated on Wed Mar 24 2021 15:54:42 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
