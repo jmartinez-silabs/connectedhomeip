@@ -1,7 +1,7 @@
 <map id="chip::System::PacketBuffer::MaxDataLength" name="chip::System::PacketBuffer::MaxDataLength">
 <area shape="rect" id="node1" title="Get the maximum amount, in bytes, of data that will fit in the buffer given the current start positio..." alt="" coords="840,691,1035,732"/>
 <area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="585,332,780,373"/>
-<area shape="rect" id="node16" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="585,691,780,732"/>
+<area shape="rect" id="node16" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="585,691,780,732"/>
 <area shape="rect" id="node22" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="573,756,792,797"/>
 <area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_query_builder.html#ab47fea6c4dfffb6b7cb000e2460ae0f1" title=" " alt="" coords="301,5,513,47"/>
 <area shape="rect" id="node4" href="$classmdns_1_1_minimal_1_1_response_builder.html#ab8a852699ac1f617737b132262d5b81b" title=" " alt="" coords="289,71,525,112"/>

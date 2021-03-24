@@ -1,7 +1,7 @@
 <map id="platform/OpenThread" name="platform/OpenThread">
 <area shape="rect" id="node1" href="dir_ef0a5b4bfa1bf86bc0ea3468709efd62.html" title="OpenThread" alt="" coords="64,52,165,100"/>
 <area shape="rect" id="node2" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html" title="lib" alt="" coords="5,148,77,196"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000060_000032.html" title="11" alt="" coords="68,131,86,146"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000060_000032.html" title="10" alt="" coords="68,131,86,146"/>
 <area shape="rect" id="node3" href="dir_f6b9a4655267a7addfa391e62c58cac5.html" title="inet" alt="" coords="25,340,97,388"/>
 <area shape="rect" id="edge7-headlabel" href="dir_000060_000031.html" title="2" alt="" coords="113,335,122,350"/>
 <area shape="rect" id="node4" href="dir_b0856f6b0d80ccb263b2f415c91f9e17.html" title="include" alt="" coords="68,244,140,292"/>

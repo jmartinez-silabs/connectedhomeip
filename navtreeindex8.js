@@ -1,14 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"_device_network_provisioning_8h.html":[11,0,4,0,0,5],
-"_device_network_provisioning_8h_source.html":[11,0,4,0,0,5],
-"_discovery___impl_platform_8cpp.html":[11,0,6,1,5],
-"_discovery___impl_platform_8h.html":[11,0,6,1,6],
-"_discovery___impl_platform_8h_source.html":[11,0,6,1,6],
-"_dns_header_8h.html":[11,0,6,1,0,0,2],
-"_dns_header_8h_source.html":[11,0,6,1,0,0,2],
-"_e_f_r32_2_b_l_e_manager_impl_8cpp.html":[11,0,7,2,0],
-"_e_f_r32_2_b_l_e_manager_impl_8h.html":[11,0,7,2,1],
 "_e_f_r32_2_b_l_e_manager_impl_8h_source.html":[11,0,7,2,1],
 "_e_f_r32_2_ble_platform_config_8h.html":[11,0,7,2,2],
 "_e_f_r32_2_ble_platform_config_8h.html#a085112a4581a43862f0bf42b3e8b9330":[11,0,7,2,2,2],
@@ -249,5 +240,14 @@ var NAVTREEINDEX8 =
 "_e_s_p32_2_ble_platform_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727":[11,0,7,3,3,5],
 "_e_s_p32_2_ble_platform_config_8h.html#acb6e2ad865d7c11a97ad1410b95ff192":[11,0,7,3,3,6],
 "_e_s_p32_2_ble_platform_config_8h.html#acd975a198271f94237e192da382046a6":[11,0,7,3,3,0],
-"_e_s_p32_2_ble_platform_config_8h.html#adea91d7825467cc3799cfa75175e80fa":[11,0,7,3,3,3]
+"_e_s_p32_2_ble_platform_config_8h.html#adea91d7825467cc3799cfa75175e80fa":[11,0,7,3,3,3],
+"_e_s_p32_2_ble_platform_config_8h_source.html":[11,0,7,3,3],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html":[11,0,7,3,4],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a05064919d42eb56139dec1af3eeec6bf":[11,0,7,3,4,29],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a06a57965efec9eee144b77c18706002a":[11,0,7,3,4,0],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a087e091adae8e9476414deda0a512d56":[11,0,7,3,4,43],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a1909d0b6d29ecca1bc84445c1a9ddb16":[11,0,7,3,4,31],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,3,4,19],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a221e4c185f68e800d0b405ffec7cb56a":[11,0,7,3,4,32],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a2abef9e3d99bcbbbdf79a340ad3465cc":[11,0,7,3,4,14]
 };

@@ -1,6 +1,6 @@
 <map id="mdns::Minimal::ServerBase::BroadcastSend" name="mdns::Minimal::ServerBase::BroadcastSend">
 <area shape="rect" id="node1" title="Send a specific packet broadcast to all interfaces." alt="" coords="5,260,207,301"/>
-<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="263,165,458,207"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="263,165,458,207"/>
 <area shape="rect" id="node12" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a8203c9d747dcb69e4aff3e0af63dd929" title="Get the bound interface on this endpoint." alt="" coords="273,231,448,272"/>
 <area shape="rect" id="node13" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="255,297,467,323"/>
 <area shape="rect" id="node14" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a96ec2e1f0418ccb178e6d05d783a07b3" title="A synonym for SendTo(addr, port, INET_NULL_INTERFACEID, msg, sendFlags)." alt="" coords="273,348,448,389"/>

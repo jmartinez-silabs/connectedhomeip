@@ -1,19 +1,18 @@
 <map id="controller/python/chip/ble/darwin/AdapterListing.mm" name="controller/python/chip/ble/darwin/AdapterListing.mm">
-<area shape="rect" id="node1" title=" " alt="" coords="231,5,453,47"/>
-<area shape="rect" id="node2" href="$_c_h_i_p_mem_8h.html" title=" " alt="" coords="211,95,361,121"/>
-<area shape="rect" id="node12" href="$_return_macros_8h.html" title=" " alt="" coords="5,95,183,121"/>
-<area shape="rect" id="node13" href="$_c_h_i_p_logging_8h.html" title=" " alt="" coords="425,169,646,196"/>
-<area shape="rect" id="node17" title=" " alt="" coords="437,95,661,121"/>
-<area shape="rect" id="node3" href="$_c_h_i_p_error_8h.html" title=" " alt="" coords="21,169,148,196"/>
-<area shape="rect" id="node9" title=" " alt="" coords="172,169,243,196"/>
-<area shape="rect" id="node10" title=" " alt="" coords="267,169,316,196"/>
-<area shape="rect" id="node11" title=" " alt="" coords="340,169,400,196"/>
-<area shape="rect" id="node4" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="130,244,269,271"/>
-<area shape="rect" id="node5" href="$_ble_config_8h.html" title=" " alt="" coords="139,319,259,345"/>
-<area shape="rect" id="node6" href="$_system_config_8h.html" title=" " alt="" coords="33,393,209,420"/>
-<area shape="rect" id="node7" title=" " alt="" coords="261,468,332,495"/>
-<area shape="rect" id="node8" title=" " alt="" coords="77,468,164,495"/>
-<area shape="rect" id="node14" href="$_log_v_8h.html" title=" " alt="" coords="385,244,561,271"/>
-<area shape="rect" id="node15" title=" " alt="" coords="517,319,591,345"/>
-<area shape="rect" id="node16" href="$support_2logging_2_constants_8h.html" title=" " alt="" coords="636,244,840,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="343,5,565,47"/>
+<area shape="rect" id="node2" href="$_c_h_i_p_mem_8h.html" title=" " alt="" coords="200,95,351,121"/>
+<area shape="rect" id="node12" href="$_c_h_i_p_logging_8h.html" title=" " alt="" coords="409,169,630,196"/>
+<area shape="rect" id="node16" title=" " alt="" coords="491,95,715,121"/>
+<area shape="rect" id="node3" href="$_c_h_i_p_error_8h.html" title=" " alt="" coords="5,169,132,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="156,169,227,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="251,169,300,196"/>
+<area shape="rect" id="node11" title=" " alt="" coords="324,169,384,196"/>
+<area shape="rect" id="node4" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="114,244,253,271"/>
+<area shape="rect" id="node5" href="$_ble_config_8h.html" title=" " alt="" coords="123,319,243,345"/>
+<area shape="rect" id="node6" href="$_system_config_8h.html" title=" " alt="" coords="17,393,193,420"/>
+<area shape="rect" id="node7" title=" " alt="" coords="245,468,316,495"/>
+<area shape="rect" id="node8" title=" " alt="" coords="61,468,148,495"/>
+<area shape="rect" id="node13" href="$_log_v_8h.html" title=" " alt="" coords="369,244,545,271"/>
+<area shape="rect" id="node14" title=" " alt="" coords="501,319,575,345"/>
+<area shape="rect" id="node15" href="$support_2logging_2_constants_8h.html" title=" " alt="" coords="620,244,824,271"/>
 </map>

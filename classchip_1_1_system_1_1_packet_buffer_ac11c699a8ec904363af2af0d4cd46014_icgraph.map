@@ -1,6 +1,6 @@
 <map id="chip::System::PacketBuffer::AddToEnd" name="chip::System::PacketBuffer::AddToEnd">
 <area shape="rect" id="node1" title="Add the given packet buffer to the end of the buffer chain, adjusting the total length of each buffer..." alt="" coords="745,136,940,177"/>
-<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="491,71,685,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="491,71,685,112"/>
 <area shape="rect" id="node8" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="479,136,697,177"/>
 <area shape="rect" id="node9" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e" title="Send message text on TCP connection." alt="" coords="503,201,673,243"/>
 <area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="229,5,430,47"/>

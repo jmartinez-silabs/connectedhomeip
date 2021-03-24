@@ -1,4 +1,0 @@
-<map id="chip::System::PacketBufferHandle::Consume" name="chip::System::PacketBufferHandle::Consume">
-<area shape="rect" id="node1" title="Consume data in a chain of buffers." alt="" coords="235,13,429,54"/>
-<area shape="rect" id="node2" href="$structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html#a7d457861dbaaebdb6845dd2d3b1a40a4" title=" " alt="" coords="5,5,187,61"/>
-</map>

@@ -1,8 +1,7 @@
 <map id="chip::System::PacketBuffer::TotalLength" name="chip::System::PacketBuffer::TotalLength">
-<area shape="rect" id="node1" title="Get the total length of packet data in the buffer chain." alt="" coords="252,151,447,193"/>
-<area shape="rect" id="node2" href="$structchip_1_1_transport_1_1_t_c_p_base_1_1_active_connection_state.html#a7d457861dbaaebdb6845dd2d3b1a40a4" title=" " alt="" coords="14,5,195,61"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="5,86,204,127"/>
-<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a2dcd357c2c6f986f4f8d30fa53b4360c" title="Extract the length of the unacknowledged receive data." alt="" coords="15,151,194,193"/>
-<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77" title="Extract the length of the data awaiting first transmit." alt="" coords="19,217,190,258"/>
-<area shape="rect" id="node6" href="$classchip_1_1_system_1_1_packet_buffer.html#a4ed8f36d27742745d384d17ea535138d" title="Copies data from the payloads of a chain of packet buffers until a given amount of data has been copi..." alt="" coords="7,282,202,323"/>
+<area shape="rect" id="node1" title="Get the total length of packet data in the buffer chain." alt="" coords="252,104,447,145"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a2dcd357c2c6f986f4f8d30fa53b4360c" title="Extract the length of the unacknowledged receive data." alt="" coords="15,71,194,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77" title="Extract the length of the data awaiting first transmit." alt="" coords="19,136,190,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_system_1_1_packet_buffer.html#a4ed8f36d27742745d384d17ea535138d" title="Copies data from the payloads of a chain of packet buffers until a given amount of data has been copi..." alt="" coords="7,201,202,243"/>
 </map>

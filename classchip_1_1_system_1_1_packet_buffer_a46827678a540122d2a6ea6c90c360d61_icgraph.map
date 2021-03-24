@@ -9,7 +9,7 @@
 <area shape="rect" id="node7" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="592,201,773,243"/>
 <area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#aa2305259a5bbd7d58a2c5d77eb438d14" title=" " alt="" coords="310,5,505,47"/>
 <area shape="rect" id="node9" href="$classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f" title="Get the number of bytes of data that can be added to the current buffer given the current start posit..." alt="" coords="585,397,780,439"/>
-<area shape="rect" id="node23" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="585,724,780,765"/>
+<area shape="rect" id="node23" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="585,724,780,765"/>
 <area shape="rect" id="node29" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a1ff2e226aab6b6186da286ded1b1a176" title="A function that supplies new output buffer space to a TLVWriter." alt="" coords="573,789,792,831"/>
 <area shape="rect" id="node10" href="$classmdns_1_1_minimal_1_1_query_builder.html#ab47fea6c4dfffb6b7cb000e2460ae0f1" title=" " alt="" coords="301,659,513,700"/>
 <area shape="rect" id="node11" href="$classmdns_1_1_minimal_1_1_response_builder.html#ab8a852699ac1f617737b132262d5b81b" title=" " alt="" coords="289,71,525,112"/>

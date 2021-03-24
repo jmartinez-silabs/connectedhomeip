@@ -136,7 +136,6 @@ var hierarchy =
       [ "chip::Controller::BasicCluster", "classchip_1_1_controller_1_1_basic_cluster.html", null ],
       [ "chip::Controller::BindingCluster", "classchip_1_1_controller_1_1_binding_cluster.html", null ],
       [ "chip::Controller::ColorControlCluster", "classchip_1_1_controller_1_1_color_control_cluster.html", null ],
-      [ "chip::Controller::ContentLaunchCluster", "classchip_1_1_controller_1_1_content_launch_cluster.html", null ],
       [ "chip::Controller::DoorLockCluster", "classchip_1_1_controller_1_1_door_lock_cluster.html", null ],
       [ "chip::Controller::GeneralCommissioningCluster", "classchip_1_1_controller_1_1_general_commissioning_cluster.html", null ],
       [ "chip::Controller::GroupKeyManagementCluster", "classchip_1_1_controller_1_1_group_key_management_cluster.html", null ],
@@ -145,7 +144,6 @@ var hierarchy =
       [ "chip::Controller::IdentifyCluster", "classchip_1_1_controller_1_1_identify_cluster.html", null ],
       [ "chip::Controller::LevelControlCluster", "classchip_1_1_controller_1_1_level_control_cluster.html", null ],
       [ "chip::Controller::LowPowerCluster", "classchip_1_1_controller_1_1_low_power_cluster.html", null ],
-      [ "chip::Controller::MediaPlaybackCluster", "classchip_1_1_controller_1_1_media_playback_cluster.html", null ],
       [ "chip::Controller::NetworkCommissioningCluster", "classchip_1_1_controller_1_1_network_commissioning_cluster.html", null ],
       [ "chip::Controller::OnOffCluster", "classchip_1_1_controller_1_1_on_off_cluster.html", null ],
       [ "chip::Controller::ScenesCluster", "classchip_1_1_controller_1_1_scenes_cluster.html", null ],
@@ -328,14 +326,6 @@ var hierarchy =
       [ "FakeBleAdapterInformation", "interface_fake_ble_adapter_information.html", null ],
       [ "UUIDHelper", "interface_u_u_i_d_helper.html", null ]
     ] ],
-    [ "object", null, [
-      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
-      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
-      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
-      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
-      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
-      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
-    ] ],
     [ "chip::System::Object", "classchip_1_1_system_1_1_object.html", [
       [ "chip::Inet::InetLayerBasis", "classchip_1_1_inet_1_1_inet_layer_basis.html", [
         [ "chip::Inet::DNSResolver", "classchip_1_1_inet_1_1_d_n_s_resolver.html", null ],
@@ -348,6 +338,14 @@ var hierarchy =
         ] ]
       ] ],
       [ "chip::System::Timer", "classchip_1_1_system_1_1_timer.html", null ]
+    ] ],
+    [ "object", null, [
+      [ "chip.ChipDeviceCtrl.ChipDeviceController", "classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html", null ],
+      [ "chip.ChipStack.ChipStack", "classchip_1_1_chip_stack_1_1_chip_stack.html", null ],
+      [ "chip.ChipStack.LogCategory", "classchip_1_1_chip_stack_1_1_log_category.html", null ],
+      [ "chip.ChipUtility.ChipUtility", "classchip_1_1_chip_utility_1_1_chip_utility.html", null ],
+      [ "chip.tlv.TLVReader", "classchip_1_1tlv_1_1_t_l_v_reader.html", null ],
+      [ "chip.tlv.TLVWriter", "classchip_1_1tlv_1_1_t_l_v_writer.html", null ]
     ] ],
     [ "chip::System::ObjectArena< ALIGN, SIZE >", "unionchip_1_1_system_1_1_object_arena.html", null ],
     [ "chip::System::ObjectArena< void *, N *sizeof(chip::Inet::DNSResolver)>", "unionchip_1_1_system_1_1_object_arena.html", null ],

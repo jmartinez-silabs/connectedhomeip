@@ -1,6 +1,6 @@
 <map id="chip::System::PacketBufferHandle::PacketBufferHandle" name="chip::System::PacketBufferHandle::PacketBufferHandle">
 <area shape="rect" id="node1" title="Construct an empty PacketBufferHandle." alt="" coords="1020,345,1223,387"/>
-<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ac86921e5b97251e43494e25abfda1a99" title="Creates a copy of a packet buffer (or chain)." alt="" coords="507,71,701,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="507,71,701,112"/>
 <area shape="rect" id="node8" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#ab9d44448b8b4aa3570563026a15926fd" title="Allocates a packet buffer." alt="" coords="777,316,972,357"/>
 <area shape="rect" id="node15" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a4a486c4305df89f772f37f5c29a86967" title="Allocates a packet buffer with initial contents." alt="" coords="507,531,701,572"/>
 <area shape="rect" id="node18" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a76cd3c9ecdc6914acf7da9dad5dd97cf" title="Detach and return the head of a buffer chain while updating this handle to point to the remaining buf..." alt="" coords="777,433,972,475"/>
