@@ -1,5 +1,9 @@
 var NAVTREEINDEX11 =
 {
+"_inet_error_8h.html#aea3da68f4315124145e92383b8a31f41":[11,0,5,13,23],
+"_inet_error_8h.html#aebcbc978a15167d7264bfb43ce34f919":[11,0,5,13,11],
+"_inet_error_8h.html#af2c3e8781d213f0f096b2308ef1aaf24":[11,0,5,13,18],
+"_inet_error_8h.html#af3ee14f9b0d544b6ec407ee947430b70":[11,0,5,13,19],
 "_inet_error_8h.html#afc73f2a3585b25b1af2f56d8f06d7fa4":[11,0,5,13,2],
 "_inet_error_8h.html#afde041b20ec5f45d516c57933d24f13d":[11,0,5,13,29],
 "_inet_error_8h_source.html":[11,0,5,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX11 =
 "_k32_w_2_thread_stack_manager_impl_8h.html#a7ab1b3e5bc95785294e398fa15b0d0d3":[11,0,7,5,32,4],
 "_k32_w_2_thread_stack_manager_impl_8h.html#a8977b0230da8d7b7b1abfb45081207cb":[11,0,7,5,32,1],
 "_k32_w_2_thread_stack_manager_impl_8h.html#ab2eda1307ad1a049e1cf1250e77c32b0":[11,0,7,5,32,3],
-"_k32_w_2_thread_stack_manager_impl_8h.html#ac49db73d9aaa97e39416ad4a6149aabe":[11,0,7,5,32,2],
-"_k32_w_2_thread_stack_manager_impl_8h_source.html":[11,0,7,5,32],
-"_k32_w_2_warm_platform_config_8h.html":[11,0,7,5,33],
-"_k32_w_2_warm_platform_config_8h.html#a17a2a8051941105b9797c22d6b73a12f":[11,0,7,5,33,1],
-"_k32_w_2_warm_platform_config_8h.html#a1968bd5a2fca4685f167bf947220a542":[11,0,7,5,33,0]
+"_k32_w_2_thread_stack_manager_impl_8h.html#ac49db73d9aaa97e39416ad4a6149aabe":[11,0,7,5,32,2]
 };

@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">792ceb9</span>
+   &#160;<span id="projectnumber">3c64a7b</span>
    </div>
   </td>
  </tr>
@@ -104,118 +104,113 @@ $(document).ready(function(){initNavTree('_generic_thread_stack_manager_impl___o
 <code>#include &lt;<a class="el" href="_thread_stack_manager_8h_source.html">platform/ThreadStackManager.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_device_layer_internal_8h_source.html">platform/internal/CHIPDeviceLayerInternal.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_device_network_info_8h_source.html">platform/internal/DeviceNetworkInfo.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_error_macros_8h_source.html">support/ErrorMacros.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_error_str_8h_source.html">support/ErrorStr.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_return_macros_8h_source.html">support/ReturnMacros.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_code_utils_8h_source.html">support/CodeUtils.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_c_h_i_p_logging_8h_source.html">support/logging/CHIPLogging.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for GenericThreadStackManagerImpl_OpenThread.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="_generic_thread_stack_manager_impl___open_thread_8cpp__incl.png" border="0" usemap="#platform_2_open_thread_2_generic_thread_stack_manager_impl___open_thread_8cpp" alt=""/></div>
 <map name="platform_2_open_thread_2_generic_thread_stack_manager_impl___open_thread_8cpp" id="platform_2_open_thread_2_generic_thread_stack_manager_impl___open_thread_8cpp">
-<area shape="rect" title=" " alt="" coords="1044,5,1259,61"/>
-<area shape="rect" title=" " alt="" coords="5,124,132,151"/>
-<area shape="rect" title=" " alt="" coords="156,124,317,151"/>
-<area shape="rect" title=" " alt="" coords="341,124,489,151"/>
-<area shape="rect" title=" " alt="" coords="514,124,650,151"/>
-<area shape="rect" title=" " alt="" coords="1247,213,1410,240"/>
-<area shape="rect" title=" " alt="" coords="725,124,882,151"/>
-<area shape="rect" title=" " alt="" coords="1138,676,1293,703"/>
-<area shape="rect" href="_c_h_i_p_encoding_8h.html" title=" " alt="" coords="907,124,1063,151"/>
-<area shape="rect" href="_generic_thread_stack_manager_impl___open_thread_8h.html" title=" " alt="" coords="1495,109,1709,165"/>
-<area shape="rect" href="_open_thread_utils_8h.html" title=" " alt="" coords="1573,587,1735,628"/>
-<area shape="rect" href="_thread_stack_manager_8h.html" title=" " alt="" coords="1240,124,1471,151"/>
-<area shape="rect" href="_c_h_i_p_device_layer_internal_8h.html" title=" " alt="" coords="2716,117,2928,158"/>
-<area shape="rect" href="_c_h_i_p_logging_8h.html" title=" " alt="" coords="1887,840,2109,867"/>
-<area shape="rect" href="_error_str_8h.html" title=" " alt="" coords="2389,915,2524,941"/>
-<area shape="rect" href="_error_macros_8h.html" title=" " alt="" coords="2297,758,2462,785"/>
-<area shape="rect" href="_return_macros_8h.html" title=" " alt="" coords="2689,758,2867,785"/>
-<area shape="rect" href="_device_network_info_8h.html" title=" " alt="" coords="5870,751,6051,792"/>
-<area shape="rect" title=" " alt="" coords="675,213,799,240"/>
-<area shape="rect" title=" " alt="" coords="823,213,965,240"/>
-<area shape="rect" title=" " alt="" coords="989,213,1063,240"/>
-<area shape="rect" title=" " alt="" coords="3448,1139,3519,1165"/>
-<area shape="rect" title=" " alt="" coords="1492,213,1659,240"/>
-<area shape="rect" href="_mdns_8h.html" title=" " alt="" coords="2566,594,2755,621"/>
-<area shape="rect" href="_c_h_i_p_error_8h.html" title=" " alt="" coords="2932,840,3059,867"/>
-<area shape="rect" href="_i_p_address_8h.html" title=" " alt="" coords="6840,758,6967,785"/>
-<area shape="rect" href="_inet_interface_8h.html" title=" " alt="" coords="6466,676,6613,703"/>
-<area shape="rect" href="_optional_8h.html" title=" " alt="" coords="1995,676,2137,703"/>
-<area shape="rect" href="_c_h_i_p_config_8h.html" title=" " alt="" coords="3527,915,3666,941"/>
-<area shape="rect" href="_ble_config_8h.html" title=" " alt="" coords="3113,989,3233,1016"/>
-<area shape="rect" href="_system_config_8h.html" title=" " alt="" coords="5099,1064,5275,1091"/>
-<area shape="rect" title=" " alt="" coords="4775,1139,4861,1165"/>
-<area shape="rect" title=" " alt="" coords="5723,840,5798,867"/>
-<area shape="rect" href="_d_l_l_util_8h.html" title=" " alt="" coords="4496,989,4631,1016"/>
-<area shape="rect" href="_inet_config_8h.html" title=" " alt="" coords="7305,915,7435,941"/>
-<area shape="rect" href="_i_a_n_a_constants_8h.html" title=" " alt="" coords="6227,840,6387,867"/>
-<area shape="rect" title=" " alt="" coords="6640,840,6727,867"/>
-<area shape="rect" title=" " alt="" coords="6751,840,6863,867"/>
-<area shape="rect" title=" " alt="" coords="6887,840,7007,867"/>
-<area shape="rect" title=" " alt="" coords="7031,840,7122,867"/>
-<area shape="rect" title=" " alt="" coords="7146,840,7213,867"/>
-<area shape="rect" title=" " alt="" coords="7237,840,7333,867"/>
-<area shape="rect" title=" " alt="" coords="6513,840,6616,867"/>
-<area shape="rect" href="_inet_error_8h.html" title=" " alt="" coords="6645,758,6764,785"/>
-<area shape="rect" title=" " alt="" coords="6527,758,6621,785"/>
-<area shape="rect" href="_system_error_8h.html" title=" " alt="" coords="5067,840,5233,867"/>
-<area shape="rect" title=" " alt="" coords="5067,915,5150,941"/>
-<area shape="rect" title=" " alt="" coords="1891,758,1966,785"/>
-<area shape="rect" title=" " alt="" coords="1695,758,1765,785"/>
-<area shape="rect" title=" " alt="" coords="1473,676,1616,703"/>
-<area shape="rect" title=" " alt="" coords="1317,676,1449,703"/>
-<area shape="rect" href="_i_p_prefix_8h.html" title=" " alt="" coords="6890,676,7002,703"/>
-<area shape="rect" href="_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="3355,213,3561,240"/>
-<area shape="rect" href="_c_h_i_p_device_config_8h.html" title=" " alt="" coords="3699,363,3910,389"/>
-<area shape="rect" href="_ble_layer_8h.html" title=" " alt="" coords="2787,363,2902,389"/>
-<area shape="rect" href="_c_h_i_p_core_8h.html" title=" " alt="" coords="3599,288,3725,315"/>
-<area shape="rect" href="_c_h_i_p_device_error_8h.html" title=" " alt="" coords="3118,288,3318,315"/>
-<area shape="rect" href="_configuration_manager_8h.html" title=" " alt="" coords="3750,594,3987,621"/>
-<area shape="rect" href="_connectivity_manager_8h.html" title=" " alt="" coords="3342,288,3574,315"/>
-<area shape="rect" href="_general_utils_8h.html" title=" " alt="" coords="5709,363,5884,389"/>
-<area shape="rect" href="_platform_manager_8h.html" title=" " alt="" coords="2461,437,2668,464"/>
-<area shape="rect" href="_system_clock_8h.html" title=" " alt="" coords="5345,758,5515,785"/>
-<area shape="rect" href="_time_sync_manager_8h.html" title=" " alt="" coords="2828,288,3043,315"/>
-<area shape="rect" href="_system_layer_8h.html" title=" " alt="" coords="4990,676,5161,703"/>
-<area shape="rect" href="_system_packet_buffer_8h.html" title=" " alt="" coords="3385,594,3600,621"/>
-<area shape="rect" href="ble_2_ble_application_delegate_8h.html" title=" " alt="" coords="3235,915,3446,941"/>
-<area shape="rect" href="ble_2_ble_connection_delegate_8h.html" title=" " alt="" coords="1977,512,2187,539"/>
-<area shape="rect" href="_ble_error_8h.html" title=" " alt="" coords="1835,594,1945,621"/>
-<area shape="rect" href="ble_2_ble_platform_delegate_8h.html" title=" " alt="" coords="2931,512,3126,539"/>
-<area shape="rect" href="_ble_u_u_i_d_8h.html" title=" " alt="" coords="1436,594,1549,621"/>
-<area shape="rect" href="_b_l_e_end_point_8h.html" title=" " alt="" coords="2693,437,2807,464"/>
-<area shape="rect" href="_c_h_i_p_callback_8h.html" title=" " alt="" coords="5591,758,5744,785"/>
-<area shape="rect" href="_system_event_8h.html" title=" " alt="" coords="6228,758,6400,785"/>
-<area shape="rect" href="_system_object_8h.html" title=" " alt="" coords="4660,758,4837,785"/>
-<area shape="rect" href="_system_wake_event_8h.html" title=" " alt="" coords="5113,758,5320,785"/>
-<area shape="rect" title=" " alt="" coords="4486,758,4585,785"/>
-<area shape="rect" title=" " alt="" coords="4726,840,4801,867"/>
-<area shape="rect" href="_system_stats_8h.html" title=" " alt="" coords="4301,840,4469,867"/>
-<area shape="rect" title=" " alt="" coords="4131,915,4230,941"/>
-<area shape="rect" title=" " alt="" coords="4254,915,4347,941"/>
-<area shape="rect" href="_buffer_writer_8h.html" title=" " alt="" coords="2161,676,2326,703"/>
-<area shape="rect" href="_code_utils_8h.html" title=" " alt="" coords="2401,676,2552,703"/>
-<area shape="rect" href="_system_align_size_8h.html" title=" " alt="" coords="3198,676,3393,703"/>
-<area shape="rect" title=" " alt="" coords="3337,758,3397,785"/>
-<area shape="rect" title=" " alt="" coords="3417,676,3523,703"/>
-<area shape="rect" title=" " alt="" coords="2891,758,2958,785"/>
-<area shape="rect" href="_die_macros_8h.html" title=" " alt="" coords="2092,758,2248,785"/>
-<area shape="rect" title=" " alt="" coords="2336,840,2423,867"/>
-<area shape="rect" href="_log_v_8h.html" title=" " alt="" coords="1910,915,2086,941"/>
-<area shape="rect" title=" " alt="" coords="2061,989,2135,1016"/>
-<area shape="rect" href="support_2logging_2_constants_8h.html" title=" " alt="" coords="2161,915,2365,941"/>
-<area shape="rect" href="_system_mutex_8h.html" title=" " alt="" coords="4862,758,5038,785"/>
-<area shape="rect" href="_btp_engine_8h.html" title=" " alt="" coords="2211,512,2335,539"/>
-<area shape="rect" href="_bit_flags_8h.html" title=" " alt="" coords="3033,676,3173,703"/>
-<area shape="rect" title=" " alt="" coords="3473,758,3565,785"/>
-<area shape="rect" href="_inet_layer_8h.html" title=" " alt="" coords="6583,594,6706,621"/>
-<area shape="rect" href="_inet_layer_basis_8h.html" title=" " alt="" coords="4436,676,4595,703"/>
-<area shape="rect" href="_inet_layer_events_8h.html" title=" " alt="" coords="7026,676,7194,703"/>
-<area shape="rect" title=" " alt="" coords="3889,758,3955,785"/>
-<area shape="rect" href="_persisted_storage_8h.html" title="API function declarations for reading from and writing to persistent storage. Platforms will be respo..." alt="" coords="3751,676,3955,703"/>
-<area shape="rect" title=" " alt="" coords="3793,758,3864,785"/>
-<area shape="rect" href="_inet_8h.html" title=" " alt="" coords="6982,512,7070,539"/>
-<area shape="rect" href="_c_h_i_p_device_event_8h.html" title=" " alt="" coords="2461,512,2668,539"/>
+<area shape="rect" title=" " alt="" coords="1454,5,1669,61"/>
+<area shape="rect" title=" " alt="" coords="465,124,591,151"/>
+<area shape="rect" title=" " alt="" coords="615,124,777,151"/>
+<area shape="rect" title=" " alt="" coords="801,124,949,151"/>
+<area shape="rect" title=" " alt="" coords="973,124,1109,151"/>
+<area shape="rect" title=" " alt="" coords="1291,213,1453,240"/>
+<area shape="rect" title=" " alt="" coords="6351,124,6508,151"/>
+<area shape="rect" title=" " alt="" coords="137,601,292,628"/>
+<area shape="rect" href="_c_h_i_p_encoding_8h.html" title=" " alt="" coords="6170,124,6326,151"/>
+<area shape="rect" href="_generic_thread_stack_manager_impl___open_thread_8h.html" title=" " alt="" coords="1454,109,1669,165"/>
+<area shape="rect" href="_open_thread_utils_8h.html" title=" " alt="" coords="602,512,763,553"/>
+<area shape="rect" href="_thread_stack_manager_8h.html" title=" " alt="" coords="6533,124,6763,151"/>
+<area shape="rect" href="_c_h_i_p_device_layer_internal_8h.html" title=" " alt="" coords="2835,117,3047,158"/>
+<area shape="rect" href="_code_utils_8h.html" title=" " alt="" coords="5117,683,5267,710"/>
+<area shape="rect" href="_c_h_i_p_logging_8h.html" title=" " alt="" coords="5853,765,6075,792"/>
+<area shape="rect" href="_device_network_info_8h.html" title=" " alt="" coords="5989,676,6171,717"/>
+<area shape="rect" title=" " alt="" coords="6269,213,6393,240"/>
+<area shape="rect" title=" " alt="" coords="6468,213,6609,240"/>
+<area shape="rect" title=" " alt="" coords="6169,213,6244,240"/>
+<area shape="rect" title=" " alt="" coords="4877,1064,4947,1091"/>
+<area shape="rect" title=" " alt="" coords="1478,213,1645,240"/>
+<area shape="rect" href="_mdns_8h.html" title=" " alt="" coords="1457,519,1647,546"/>
+<area shape="rect" href="_c_h_i_p_error_8h.html" title=" " alt="" coords="3975,765,4102,792"/>
+<area shape="rect" href="_i_p_address_8h.html" title=" " alt="" coords="734,683,861,710"/>
+<area shape="rect" href="_inet_interface_8h.html" title=" " alt="" coords="1488,601,1635,628"/>
+<area shape="rect" href="_optional_8h.html" title=" " alt="" coords="1029,601,1171,628"/>
+<area shape="rect" href="_c_h_i_p_config_8h.html" title=" " alt="" coords="4436,840,4575,867"/>
+<area shape="rect" href="_ble_config_8h.html" title=" " alt="" coords="4852,915,4972,941"/>
+<area shape="rect" href="_system_config_8h.html" title=" " alt="" coords="2196,989,2372,1016"/>
+<area shape="rect" title=" " alt="" coords="2473,1064,2559,1091"/>
+<area shape="rect" title=" " alt="" coords="3295,765,3369,792"/>
+<area shape="rect" href="_d_l_l_util_8h.html" title=" " alt="" coords="3237,840,3371,867"/>
+<area shape="rect" href="_inet_config_8h.html" title=" " alt="" coords="1039,840,1169,867"/>
+<area shape="rect" href="_i_a_n_a_constants_8h.html" title=" " alt="" coords="1207,765,1367,792"/>
+<area shape="rect" title=" " alt="" coords="271,765,358,792"/>
+<area shape="rect" title=" " alt="" coords="383,765,495,792"/>
+<area shape="rect" title=" " alt="" coords="519,765,639,792"/>
+<area shape="rect" title=" " alt="" coords="663,765,753,792"/>
+<area shape="rect" title=" " alt="" coords="777,765,844,792"/>
+<area shape="rect" title=" " alt="" coords="868,765,964,792"/>
+<area shape="rect" title=" " alt="" coords="145,765,247,792"/>
+<area shape="rect" href="_inet_error_8h.html" title=" " alt="" coords="1086,683,1205,710"/>
+<area shape="rect" title=" " alt="" coords="1229,683,1323,710"/>
+<area shape="rect" href="_system_error_8h.html" title=" " alt="" coords="2255,765,2420,792"/>
+<area shape="rect" title=" " alt="" coords="2321,840,2404,867"/>
+<area shape="rect" title=" " alt="" coords="885,683,960,710"/>
+<area shape="rect" title=" " alt="" coords="4341,765,4411,792"/>
+<area shape="rect" title=" " alt="" coords="317,601,459,628"/>
+<area shape="rect" title=" " alt="" coords="483,601,615,628"/>
+<area shape="rect" href="_i_p_prefix_8h.html" title=" " alt="" coords="741,601,853,628"/>
+<area shape="rect" href="_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="3981,213,4187,240"/>
+<area shape="rect" href="_c_h_i_p_device_config_8h.html" title=" " alt="" coords="4789,363,5000,389"/>
+<area shape="rect" href="_ble_layer_8h.html" title=" " alt="" coords="5285,363,5400,389"/>
+<area shape="rect" href="_c_h_i_p_core_8h.html" title=" " alt="" coords="4021,288,4147,315"/>
+<area shape="rect" href="_c_h_i_p_device_error_8h.html" title=" " alt="" coords="4324,288,4524,315"/>
+<area shape="rect" href="_configuration_manager_8h.html" title=" " alt="" coords="3657,601,3895,628"/>
+<area shape="rect" href="_connectivity_manager_8h.html" title=" " alt="" coords="5024,363,5256,389"/>
+<area shape="rect" href="_general_utils_8h.html" title=" " alt="" coords="1777,288,1951,315"/>
+<area shape="rect" href="_platform_manager_8h.html" title=" " alt="" coords="4558,363,4765,389"/>
+<area shape="rect" href="_system_clock_8h.html" title=" " alt="" coords="2132,683,2303,710"/>
+<area shape="rect" href="_time_sync_manager_8h.html" title=" " alt="" coords="2087,288,2302,315"/>
+<area shape="rect" href="_system_layer_8h.html" title=" " alt="" coords="2443,601,2613,628"/>
+<area shape="rect" href="_system_packet_buffer_8h.html" title=" " alt="" coords="4337,601,4551,628"/>
+<area shape="rect" href="ble_2_ble_application_delegate_8h.html" title=" " alt="" coords="4807,765,5017,792"/>
+<area shape="rect" href="ble_2_ble_connection_delegate_8h.html" title=" " alt="" coords="5564,519,5775,546"/>
+<area shape="rect" href="_ble_error_8h.html" title=" " alt="" coords="5711,601,5820,628"/>
+<area shape="rect" href="ble_2_ble_platform_delegate_8h.html" title=" " alt="" coords="5016,519,5211,546"/>
+<area shape="rect" href="_ble_u_u_i_d_8h.html" title=" " alt="" coords="5895,601,6009,628"/>
+<area shape="rect" href="_b_l_e_end_point_8h.html" title=" " alt="" coords="5285,437,5400,464"/>
+<area shape="rect" href="_c_h_i_p_callback_8h.html" title=" " alt="" coords="3258,683,3411,710"/>
+<area shape="rect" href="_system_event_8h.html" title=" " alt="" coords="1501,683,1673,710"/>
+<area shape="rect" href="_system_object_8h.html" title=" " alt="" coords="2954,683,3131,710"/>
+<area shape="rect" href="_system_wake_event_8h.html" title=" " alt="" coords="1799,683,2006,710"/>
+<area shape="rect" title=" " alt="" coords="2479,683,2577,710"/>
+<area shape="rect" title=" " alt="" coords="3095,765,3169,792"/>
+<area shape="rect" href="_system_stats_8h.html" title=" " alt="" coords="2599,765,2767,792"/>
+<area shape="rect" title=" " alt="" coords="2495,840,2593,867"/>
+<area shape="rect" title=" " alt="" coords="2617,840,2711,867"/>
+<area shape="rect" href="_buffer_writer_8h.html" title=" " alt="" coords="4521,683,4687,710"/>
+<area shape="rect" href="_system_align_size_8h.html" title=" " alt="" coords="4172,683,4367,710"/>
+<area shape="rect" title=" " alt="" coords="5414,765,5474,792"/>
+<area shape="rect" title=" " alt="" coords="4391,683,4497,710"/>
+<area shape="rect" title=" " alt="" coords="3884,765,3951,792"/>
+<area shape="rect" href="_error_str_8h.html" title=" " alt="" coords="5203,765,5338,792"/>
+<area shape="rect" title=" " alt="" coords="5093,765,5179,792"/>
+<area shape="rect" href="_log_v_8h.html" title=" " alt="" coords="5959,840,6135,867"/>
+<area shape="rect" title=" " alt="" coords="5896,915,5971,941"/>
+<area shape="rect" href="support_2logging_2_constants_8h.html" title=" " alt="" coords="5679,840,5883,867"/>
+<area shape="rect" href="_system_mutex_8h.html" title=" " alt="" coords="2652,683,2828,710"/>
+<area shape="rect" href="_btp_engine_8h.html" title=" " alt="" coords="5351,519,5475,546"/>
+<area shape="rect" href="_bit_flags_8h.html" title=" " alt="" coords="5343,683,5483,710"/>
+<area shape="rect" title=" " alt="" coords="4487,765,4579,792"/>
+<area shape="rect" href="_inet_layer_8h.html" title=" " alt="" coords="1671,519,1793,546"/>
+<area shape="rect" href="_inet_layer_basis_8h.html" title=" " alt="" coords="2801,601,2959,628"/>
+<area shape="rect" href="_inet_layer_events_8h.html" title=" " alt="" coords="1195,601,1363,628"/>
+<area shape="rect" title=" " alt="" coords="3647,765,3713,792"/>
+<area shape="rect" href="_persisted_storage_8h.html" title="API function declarations for reading from and writing to persistent storage. Platforms will be respo..." alt="" coords="3690,683,3894,710"/>
+<area shape="rect" title=" " alt="" coords="3738,765,3809,792"/>
+<area shape="rect" href="_inet_8h.html" title=" " alt="" coords="1235,437,1323,464"/>
+<area shape="rect" href="_c_h_i_p_device_event_8h.html" title=" " alt="" coords="4558,519,4765,546"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -349,7 +344,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_ef0a5b4bfa1bf86bc0ea3468709efd62.html">OpenThread</a></li><li class="navelem"><a class="el" href="_generic_thread_stack_manager_impl___open_thread_8cpp.html">GenericThreadStackManagerImpl_OpenThread.cpp</a></li>
-    <li class="footer">Generated on Fri Mar 26 2021 20:29:02 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 26 2021 22:25:47 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

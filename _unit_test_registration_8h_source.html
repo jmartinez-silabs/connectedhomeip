@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">792ceb9</span>
+   &#160;<span id="projectnumber">3c64a7b</span>
    </div>
   </td>
  </tr>
@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('_unit_test_registration_8h_source.html
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_c_h_i_p_error_8h.html">core/CHIPError.h</a>&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_die_macros_8h.html">support/DieMacros.h</a>&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_code_utils_8h.html">support/CodeUtils.h</a>&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="_unit_test_registration_8h.html#a2de8b8d6d7ab78a679ab2bf1e526a477">   45</a></span>&#160;<span class="preprocessor">#define CHIP_REGISTER_TEST_SUITE(FUNCTION)                                                                                         \</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">    static void __attribute__((constructor)) Register##FUNCTION(void)                                                              \</span></div>
@@ -131,13 +131,13 @@ $(document).ready(function(){initNavTree('_unit_test_registration_8h_source.html
 <div class="ttc" id="a_c_h_i_p_error_8h_html_ab17a41277f81480d902cc2f8bb6d87d1"><div class="ttname"><a href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a></div><div class="ttdeci">CHIP_CONFIG_ERROR_TYPE CHIP_ERROR</div><div class="ttdoc">The basic type for all CHIP errors.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:90</div></div>
 <div class="ttc" id="astructchip_1_1test__suites__t_html_a2794200fb4d9ba171f697592b975e53b"><div class="ttname"><a href="structchip_1_1test__suites__t.html#a2794200fb4d9ba171f697592b975e53b">chip::test_suites_t::test_suites</a></div><div class="ttdeci">UnitTestTriggerFunction test_suites[kTestSuitesMax]</div><div class="ttdef"><b>Definition:</b> UnitTestRegistration.cpp:28</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html"><div class="ttname"><a href="_c_h_i_p_error_8h.html">CHIPError.h</a></div></div>
+<div class="ttc" id="a_code_utils_8h_html"><div class="ttname"><a href="_code_utils_8h.html">CodeUtils.h</a></div></div>
 <div class="ttc" id="anamespacechip_html_a9f18a101a646d2e3379fda8413dad931"><div class="ttname"><a href="namespacechip.html#a9f18a101a646d2e3379fda8413dad931">chip::gs_test_suites</a></div><div class="ttdeci">static test_suites_t gs_test_suites</div><div class="ttdef"><b>Definition:</b> UnitTestRegistration.cpp:32</div></div>
 <div class="ttc" id="anamespacechip_html_ac476ce84215e6940ed900c8984e3cc7c"><div class="ttname"><a href="namespacechip.html#ac476ce84215e6940ed900c8984e3cc7c">chip::RegisterUnitTests</a></div><div class="ttdeci">CHIP_ERROR RegisterUnitTests(UnitTestTriggerFunction tests)</div><div class="ttdef"><b>Definition:</b> UnitTestRegistration.cpp:44</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_a54dff71a2a2b567789ca4ba4c0fa1495"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a54dff71a2a2b567789ca4ba4c0fa1495">CHIP_ERROR_NO_MEMORY</a></div><div class="ttdeci">#define CHIP_ERROR_NO_MEMORY</div><div class="ttdoc">The attempt to allocate a buffer or object failed due to a lack of memory.</div><div class="ttdef"><b>Definition:</b> CHIPError.h:198</div></div>
 <div class="ttc" id="anamespacechip_html_a80da7743fd6b7cb458302425b7181e46"><div class="ttname"><a href="namespacechip.html#a80da7743fd6b7cb458302425b7181e46">chip::RunRegisteredUnitTests</a></div><div class="ttdeci">int RunRegisteredUnitTests()</div><div class="ttdef"><b>Definition:</b> UnitTestRegistration.cpp:64</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="astructchip_1_1test__suites__t_html"><div class="ttname"><a href="structchip_1_1test__suites__t.html">chip::test_suites_t</a></div><div class="ttdef"><b>Definition:</b> UnitTestRegistration.cpp:26</div></div>
-<div class="ttc" id="a_die_macros_8h_html"><div class="ttname"><a href="_die_macros_8h.html">DieMacros.h</a></div></div>
 <div class="ttc" id="astructchip_1_1test__suites__t_html_a8babac193649be0f2906b349d85414b8"><div class="ttname"><a href="structchip_1_1test__suites__t.html#a8babac193649be0f2906b349d85414b8">chip::test_suites_t::num_test_suites</a></div><div class="ttdeci">uint32_t num_test_suites</div><div class="ttdef"><b>Definition:</b> UnitTestRegistration.cpp:29</div></div>
 <div class="ttc" id="anamespacechip_html_a1cf5a95f92d2b2d87ee6e6635e0aeb43"><div class="ttname"><a href="namespacechip.html#a1cf5a95f92d2b2d87ee6e6635e0aeb43">chip::UnitTestTriggerFunction</a></div><div class="ttdeci">int(* UnitTestTriggerFunction)()</div><div class="ttdef"><b>Definition:</b> UnitTestRegistration.h:53</div></div>
 <div class="ttc" id="a_c_h_i_p_error_8h_html_a255ed42b89227e34eef134084739716e"><div class="ttname"><a href="_c_h_i_p_error_8h.html#a255ed42b89227e34eef134084739716e">CHIP_NO_ERROR</a></div><div class="ttdeci">#define CHIP_NO_ERROR</div><div class="ttdoc">This defines the CHIP error code for success or no error. This value may be configured via CHIP_CONFI...</div><div class="ttdef"><b>Definition:</b> CHIPError.h:45</div></div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('_unit_test_registration_8h_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_07debba6119e8fae289f5c0650c95439.html">support</a></li><li class="navelem"><a class="el" href="_unit_test_registration_8h.html">UnitTestRegistration.h</a></li>
-    <li class="footer">Generated on Fri Mar 26 2021 20:29:00 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 26 2021 22:25:45 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

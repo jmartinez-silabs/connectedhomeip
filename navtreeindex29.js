@@ -1,8 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#ae6ba9b3c9603e95df22884e42c620d99":[10,0,1,17,8,24],
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#aefe05516bef28b346d473c9013694c42":[10,0,1,17,8,1],
-"classchip_1_1_inet_1_1_i_p_end_point_basis.html#afd9a0f19649c40271ea386f48b46715c":[10,0,1,17,8,16],
 "classchip_1_1_inet_1_1_i_p_packet_info.html":[10,0,1,17,9],
 "classchip_1_1_inet_1_1_i_p_packet_info.html#a2893f20a46bee6dbb7c9bcb0f683f2c2":[10,0,1,17,9,1],
 "classchip_1_1_inet_1_1_i_p_packet_info.html#a45f460557e1c0abeaa9b30174c8d619b":[10,0,1,17,9,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX29 =
 "classchip_1_1_mdns_1_1_operational_advertising_parameters.html":[10,0,1,21,9],
 "classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a32ce72046cb9bd7f2728aba5379bdef7":[10,0,1,21,9,1],
 "classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a925bb9b73592485df297519eac31da37":[10,0,1,21,9,2],
-"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a958e75965a182ae837c7748315909eb2":[10,0,1,21,9,3]
+"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#a958e75965a182ae837c7748315909eb2":[10,0,1,21,9,3],
+"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#adb6aff2b4d940b32da0b7de08379ae80":[10,0,1,21,9,0],
+"classchip_1_1_mdns_1_1_poller.html":[10,0,1,21,10],
+"classchip_1_1_mdns_1_1_poller.html#a13f1ebeb7918cbe5c6796345b9b8ed16":[10,0,1,21,10,2]
 };

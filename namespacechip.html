@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">792ceb9</span>
+   &#160;<span id="projectnumber">3c64a7b</span>
    </div>
   </td>
  </tr>
@@ -831,7 +831,8 @@ Variables</h2></td></tr>
 <p>Defines state relevant for an active connection to a peer.</p>
 <p>Defines a table of admins that have provisioned the device.</p>
 <p>defines a generic time source interface that uses a real clock at runtime but can be substituted by a test one for unit tests.</p>
-<p>Before LwIP 2.0.0, the <code>ip_addr_t</code> type alias referred to a structure comprising an IPv4 address. At LwIP 2.0.0 and thereafter, this type alias is renamed <code>ip4_addr_t</code> and <code>ip_addr_t</code> is replaced with an alias to a union of both. Here, the <code>ip4_addr_t</code> type alias is provided even when the LwIP version is earlier than 2.0.0 so as to prepare for the import of the new logic. </p>
+<p>chip-specific nlassert.h Overrides</p>
+<p>Before LwIP 2.0.0, the <code>ip_addr_t</code> type alias referred to a structure comprising an IPv4 address. At LwIP 2.0.0 and thereafter, this type alias is renamed <code>ip4_addr_t</code> and <code>ip_addr_t</code> is replaced with an alias to a union of both. Here, the <code>ip4_addr_t</code> type alias is provided even when the LwIP version is earlier than 2.0.0 so as to prepare for the import of the new logic.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="a716a479aabdba1c1139f1903ff2226a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a716a479aabdba1c1139f1903ff2226a9">&#9670;&nbsp;</a></span>Base64CharToValFunct</h2>
@@ -6296,7 +6297,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li>
-    <li class="footer">Generated on Fri Mar 26 2021 20:29:02 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 26 2021 22:25:47 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

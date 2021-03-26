@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">792ceb9</span>
+   &#160;<span id="projectnumber">3c64a7b</span>
    </div>
   </td>
  </tr>
@@ -131,15 +131,15 @@ $(document).ready(function(){initNavTree('_error_str_8h_source.html',''); initRe
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="a_error_str_8h_html"><div class="ttname"><a href="_error_str_8h.html">ErrorStr.h</a></div></div>
 <div class="ttc" id="a_c_h_i_p_config_8h_html_a9050c32c5e7a13a8c3ed121097b9e3eb"><div class="ttname"><a href="_c_h_i_p_config_8h.html#a9050c32c5e7a13a8c3ed121097b9e3eb">CHIP_CONFIG_SHORT_FORM_ERROR_VALUE_FORMAT</a></div><div class="ttdeci">#define CHIP_CONFIG_SHORT_FORM_ERROR_VALUE_FORMAT</div><div class="ttdoc">The printf-style format string used to format error values.</div><div class="ttdef"><b>Definition:</b> CHIPConfig.h:2016</div></div>
 <div class="ttc" id="anamespacechip_html_a5eeebe8ed6e01ec6f4acfe7d7046c0d2"><div class="ttname"><a href="namespacechip.html#a5eeebe8ed6e01ec6f4acfe7d7046c0d2">chip::sErrorStr</a></div><div class="ttdeci">static char sErrorStr[CHIP_CONFIG_ERROR_STR_SIZE]</div><div class="ttdoc">Static buffer to store the formatted error string.</div><div class="ttdef"><b>Definition:</b> ErrorStr.cpp:41</div></div>
 <div class="ttc" id="a_d_l_l_util_8h_html"><div class="ttname"><a href="_d_l_l_util_8h.html">DLLUtil.h</a></div></div>
 <div class="ttc" id="astructchip_1_1_error_formatter_html_a4f576b60b7064de41c18087d02b075b1"><div class="ttname"><a href="structchip_1_1_error_formatter.html#a4f576b60b7064de41c18087d02b075b1">chip::ErrorFormatter::FormatError</a></div><div class="ttdeci">FormatFunct FormatError</div><div class="ttdef"><b>Definition:</b> ErrorStr.h:38</div></div>
+<div class="ttc" id="a_code_utils_8h_html"><div class="ttname"><a href="_code_utils_8h.html">CodeUtils.h</a></div></div>
 <div class="ttc" id="anamespacechip_html_a94dcfc9993bc165d7620d8bbfa93724e"><div class="ttname"><a href="namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e">chip::FormatError</a></div><div class="ttdeci">DLL_EXPORT void FormatError(char *buf, uint16_t bufSize, const char *subsys, int32_t err, const char *desc)</div><div class="ttdoc">Generates a human-readable NULL-terminated C string describing the provided error.</div><div class="ttdef"><b>Definition:</b> ErrorStr.cpp:140</div></div>
 <div class="ttc" id="anamespacechip_html_a438337ba41dcc515de9fce1d079e515b"><div class="ttname"><a href="namespacechip.html#a438337ba41dcc515de9fce1d079e515b">chip::DeregisterErrorFormatter</a></div><div class="ttdeci">DLL_EXPORT void DeregisterErrorFormatter(ErrorFormatter *errFormatter)</div><div class="ttdoc">Remove an error formatter function from the global list of error formatters.</div><div class="ttdef"><b>Definition:</b> ErrorStr.cpp:112</div></div>
 <div class="ttc" id="anamespacechip_html_a8566d79e3a962d07ef99ba4cb2b69036"><div class="ttname"><a href="namespacechip.html#a8566d79e3a962d07ef99ba4cb2b69036">chip::StatusReportStr</a></div><div class="ttdeci">const char * StatusReportStr(uint32_t profileId, uint16_t statusCode)</div></div>
-<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a812d267488c8f2ce02852c12158fb87f"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a></div><div class="ttdeci">err</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:295</div></div>
+<div class="ttc" id="a_c_h_i_p_device_controller-_j_n_i_8cpp_html_a812d267488c8f2ce02852c12158fb87f"><div class="ttname"><a href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#a812d267488c8f2ce02852c12158fb87f">err</a></div><div class="ttdeci">err</div><div class="ttdef"><b>Definition:</b> CHIPDeviceController-JNI.cpp:294</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <div class="ttc" id="astructchip_1_1_error_formatter_html_ab5da0fae8bce07d0005cafcf169830e5"><div class="ttname"><a href="structchip_1_1_error_formatter.html#ab5da0fae8bce07d0005cafcf169830e5">chip::ErrorFormatter::Next</a></div><div class="ttdeci">ErrorFormatter * Next</div><div class="ttdef"><b>Definition:</b> ErrorStr.h:39</div></div>
 <div class="ttc" id="astructchip_1_1_error_formatter_html_a1bdb0d8bfb7b42b06b104ef9159044ed"><div class="ttname"><a href="structchip_1_1_error_formatter.html#a1bdb0d8bfb7b42b06b104ef9159044ed">chip::ErrorFormatter::FormatFunct</a></div><div class="ttdeci">bool(* FormatFunct)(char *buf, uint16_t bufSize, int32_t err)</div><div class="ttdef"><b>Definition:</b> ErrorStr.h:36</div></div>
@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('_error_str_8h_source.html',''); initRe
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_07debba6119e8fae289f5c0650c95439.html">support</a></li><li class="navelem"><a class="el" href="_error_str_8h.html">ErrorStr.h</a></li>
-    <li class="footer">Generated on Fri Mar 26 2021 20:29:00 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 26 2021 22:25:45 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
