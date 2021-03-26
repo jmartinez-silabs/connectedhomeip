@@ -1,5 +1,5 @@
 <map id="chip::Encoding::BytesToUppercaseHexBuffer" name="chip::Encoding::BytesToUppercaseHexBuffer">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,249,47"/>
 <area shape="rect" id="node2" href="$namespacechip_1_1_encoding.html#affc8076d311801d3bb39e8a93064cc73" title="Encode a buffer of bytes into hexadecimal, with or without null&#45;termination and using either lowercas..." alt="" coords="297,13,499,39"/>
-<area shape="rect" id="node3" href="$classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b" title="Check whether flag(s) are set." alt="" coords="547,13,689,39"/>
+<area shape="rect" id="node3" href="$classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485" title="Check whether flag(s) are set." alt="" coords="547,13,689,39"/>
 </map>

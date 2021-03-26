@@ -14,5 +14,7 @@ var dir_6120b5b067bc81dd9b9ded47874ed490 =
       [ "ResolverDelegate", "classchip_1_1_mdns_1_1_resolver_delegate.html", "classchip_1_1_mdns_1_1_resolver_delegate" ],
       [ "Resolver", "classchip_1_1_mdns_1_1_resolver.html", "classchip_1_1_mdns_1_1_resolver" ]
     ] ],
-    [ "Resolver_ImplNone.cpp", "_resolver___impl_none_8cpp.html", null ]
+    [ "Resolver_ImplNone.cpp", "_resolver___impl_none_8cpp.html", null ],
+    [ "ServiceNaming.cpp", "_service_naming_8cpp.html", "_service_naming_8cpp" ],
+    [ "ServiceNaming.h", "_service_naming_8h.html", "_service_naming_8h" ]
 ];

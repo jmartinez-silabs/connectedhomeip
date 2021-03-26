@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">35806bc</span>
+   &#160;<span id="projectnumber">1a94b9e</span>
    </div>
   </td>
  </tr>
@@ -252,12 +252,12 @@ $(document).ready(function(){initNavTree('_e_s_p32_2_connectivity_manager_impl_8
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> ConnectivityManagerImpl::_HaveIPv4InternetConnectivity(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;{</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">return</span> mFlags.<a class="code" href="classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b">Has</a>(Flags::kHaveIPv4InternetConnectivity);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">return</span> mFlags.<a class="code" href="classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485">Has</a>(Flags::kHaveIPv4InternetConnectivity);</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> ConnectivityManagerImpl::_HaveIPv6InternetConnectivity(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;{</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">return</span> mFlags.<a class="code" href="classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b">Has</a>(Flags::kHaveIPv6InternetConnectivity);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">return</span> mFlags.<a class="code" href="classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485">Has</a>(Flags::kHaveIPv6InternetConnectivity);</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;}</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">bool</span> ConnectivityManagerImpl::_CanStartWiFiScan()</div>
@@ -295,6 +295,7 @@ $(document).ready(function(){initNavTree('_e_s_p32_2_connectivity_manager_impl_8
 <div class="ttc" id="a_generic_connectivity_manager_impl___b_l_e_8h_html"><div class="ttname"><a href="_generic_connectivity_manager_impl___b_l_e_8h.html">GenericConnectivityManagerImpl_BLE.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_connectivity_manager_html_a3c150539805bedd184720c830723318b"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_connectivity_manager.html#a3c150539805bedd184720c830723318b">chip::DeviceLayer::ConnectivityManager::WiFiStationMode</a></div><div class="ttdeci">WiFiStationMode</div><div class="ttdef"><b>Definition:</b> ConnectivityManager.h:58</div></div>
 <div class="ttc" id="anamespace_inet_html"><div class="ttname"><a href="namespace_inet.html">Inet</a></div><div class="ttdef"><b>Definition:</b> ConnectivityManagerImpl.h:35</div></div>
+<div class="ttc" id="aclasschip_1_1_bit_flags_html_ae59e5eb53998c27d1dac181cafc9b485"><div class="ttname"><a href="classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485">chip::BitFlags::Has</a></div><div class="ttdeci">constexpr bool Has(FlagsEnum flag) const</div><div class="ttdoc">Check whether flag(s) are set.</div><div class="ttdef"><b>Definition:</b> BitFlags.h:135</div></div>
 <div class="ttc" id="a_bit_flags_8h_html"><div class="ttname"><a href="_bit_flags_8h.html">BitFlags.h</a></div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_connectivity_manager_impl_html_a2bf0ce25247adba77e7bd64f549eb940"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a2bf0ce25247adba77e7bd64f549eb940">chip::DeviceLayer::ConnectivityManagerImpl::ConnectivityMgr</a></div><div class="ttdeci">friend ConnectivityManager &amp; ConnectivityMgr(void)</div><div class="ttdoc">Returns a reference to the public interface of the ConnectivityManager singleton object.</div><div class="ttdef"><b>Definition:</b> ConnectivityManagerImpl.h:102</div></div>
 <div class="ttc" id="a_connectivity_manager_8h_html"><div class="ttname"><a href="_connectivity_manager_8h.html">ConnectivityManager.h</a></div></div>
@@ -312,12 +313,11 @@ $(document).ready(function(){initNavTree('_e_s_p32_2_connectivity_manager_impl_8
 <div class="ttc" id="anamespacechip_1_1_header_html_aebdda57d47e49eaf4cc8aef0d8b0474e"><div class="ttname"><a href="namespacechip_1_1_header.html#aebdda57d47e49eaf4cc8aef0d8b0474e">chip::Header::Flags</a></div><div class="ttdeci">BitFlags&lt; FlagValues &gt; Flags</div><div class="ttdef"><b>Definition:</b> MessageHeader.h:92</div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_connectivity_manager_html_ac28f3aa1be6e499e3d2a03b83c14f3b1"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_connectivity_manager.html#ac28f3aa1be6e499e3d2a03b83c14f3b1">chip::DeviceLayer::ConnectivityManager::WiFiAPState</a></div><div class="ttdeci">WiFiAPState</div><div class="ttdef"><b>Definition:</b> ConnectivityManager.h:94</div></div>
 <div class="ttc" id="aclasschip_1_1_device_layer_1_1_connectivity_manager_impl_html_ae66d91f0a57fa277fa75805f59fe63d3"><div class="ttname"><a href="classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#ae66d91f0a57fa277fa75805f59fe63d3">chip::DeviceLayer::ConnectivityManagerImpl::ConnectivityManager</a></div><div class="ttdeci">friend class ConnectivityManager</div><div class="ttdef"><b>Definition:</b> ConnectivityManagerImpl.h:62</div></div>
-<div class="ttc" id="aclasschip_1_1_bit_flags_html_afa195f8334ef1727fc11742bfa52882b"><div class="ttname"><a href="classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b">chip::BitFlags::Has</a></div><div class="ttdeci">bool Has(FlagsEnum flag) const</div><div class="ttdoc">Check whether flag(s) are set.</div><div class="ttdef"><b>Definition:</b> BitFlags.h:135</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html">platform</a></li><li class="navelem"><a class="el" href="dir_3e85c5257447a731c2ccaf4f7bff62b6.html">ESP32</a></li><li class="navelem"><a class="el" href="_e_s_p32_2_connectivity_manager_impl_8h.html">ConnectivityManagerImpl.h</a></li>
-    <li class="footer">Generated on Wed Mar 24 2021 15:54:42 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 26 2021 12:55:46 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

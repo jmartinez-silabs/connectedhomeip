@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">35806bc</span>
+   &#160;<span id="projectnumber">1a94b9e</span>
    </div>
   </td>
  </tr>
@@ -118,9 +118,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a478f217b79eb2abadf9ff0bffe8e0f75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a478f217b79eb2abadf9ff0bffe8e0f75">SetStorageDelegate</a> (<a class="el" href="classchip_1_1_persistent_storage_result_delegate.html">PersistentStorageResultDelegate</a> *delegate) override</td></tr>
 <tr class="memdesc:a478f217b79eb2abadf9ff0bffe8e0f75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the callback object with methods that are called on completion of the operation.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#a478f217b79eb2abadf9ff0bffe8e0f75">More...</a><br /></td></tr>
 <tr class="separator:a478f217b79eb2abadf9ff0bffe8e0f75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affe3331d2b90f6cac9cefcac5a6de7bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#affe3331d2b90f6cac9cefcac5a6de7bd">AsyncGetKeyValue</a> (const char *key) override</td></tr>
-<tr class="memdesc:affe3331d2b90f6cac9cefcac5a6de7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup the key and call delegate object with it's stringified value.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#affe3331d2b90f6cac9cefcac5a6de7bd">More...</a><br /></td></tr>
-<tr class="separator:affe3331d2b90f6cac9cefcac5a6de7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8331789c71f8fa2dea4d45d43898183"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_c_h_i_p_error_8h.html#ab17a41277f81480d902cc2f8bb6d87d1">CHIP_ERROR</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183">SyncGetKeyValue</a> (const char *key, char *<a class="el" href="_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac50abae6d98e9974b60124d04929c51e">value</a>, uint16_t &amp;size) override</td></tr>
 <tr class="memdesc:af8331789c71f8fa2dea4d45d43898183"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a synchronous Get API, where the value is returned via the output buffer.  <a href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183">More...</a><br /></td></tr>
 <tr class="separator:af8331789c71f8fa2dea4d45d43898183"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,52 +204,6 @@ Here is the call graph for this function:</div>
 <map name="classchip_1_1_controller_1_1_python_persistent_storage_delegate_ad724f3d64c6f7f651054e1a49125a7c2_cgraph" id="classchip_1_1_controller_1_1_python_persistent_storage_delegate_ad724f3d64c6f7f651054e1a49125a7c2_cgraph">
 <area shape="rect" title="Deletes the value for the key." alt="" coords="5,5,201,61"/>
 <area shape="rect" href="classchip_1_1_persistent_storage_result_delegate.html#ae3797b6f8292354aa57b35707d32a4c2" title="Called on completion of an operation in PersistentStorageDelegate API." alt="" coords="249,13,512,54"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="affe3331d2b90f6cac9cefcac5a6de7bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affe3331d2b90f6cac9cefcac5a6de7bd">&#9670;&nbsp;</a></span>AsyncGetKeyValue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void chip::Controller::PythonPersistentStorageDelegate::AsyncGetKeyValue </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Lookup the key and call delegate object with it's stringified value. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">key</td><td>Key to lookup </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p>Implements <a class="el" href="classchip_1_1_persistent_storage_delegate.html#af4843f13ffd9df7d68a3c9d336f17b3a">chip::PersistentStorageDelegate</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="classchip_1_1_controller_1_1_python_persistent_storage_delegate_affe3331d2b90f6cac9cefcac5a6de7bd_cgraph.png" border="0" usemap="#classchip_1_1_controller_1_1_python_persistent_storage_delegate_affe3331d2b90f6cac9cefcac5a6de7bd_cgraph" alt=""/></div>
-<map name="classchip_1_1_controller_1_1_python_persistent_storage_delegate_affe3331d2b90f6cac9cefcac5a6de7bd_cgraph" id="classchip_1_1_controller_1_1_python_persistent_storage_delegate_affe3331d2b90f6cac9cefcac5a6de7bd_cgraph">
-<area shape="rect" title="Lookup the key and call delegate object with it&#39;s stringified value." alt="" coords="5,31,201,87"/>
-<area shape="rect" href="classchip_1_1_persistent_storage_result_delegate.html#ae3797b6f8292354aa57b35707d32a4c2" title="Called on completion of an operation in PersistentStorageDelegate API." alt="" coords="249,5,512,47"/>
-<area shape="rect" href="classchip_1_1_persistent_storage_result_delegate.html#a0e8978b50eeed9aeb41c2cdf7da50b2e" title="Called when a value is returned from the storage." alt="" coords="251,71,510,112"/>
 </map>
 </div>
 
@@ -430,7 +381,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="namespacechip_1_1_controller.html">Controller</a></li><li class="navelem"><a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html">PythonPersistentStorageDelegate</a></li>
-    <li class="footer">Generated on Wed Mar 24 2021 15:54:45 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 26 2021 12:55:48 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

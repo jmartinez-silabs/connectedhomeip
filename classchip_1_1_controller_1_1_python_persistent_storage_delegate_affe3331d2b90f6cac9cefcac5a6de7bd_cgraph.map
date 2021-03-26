@@ -1,5 +1,0 @@
-<map id="chip::Controller::PythonPersistentStorageDelegate::AsyncGetKeyValue" name="chip::Controller::PythonPersistentStorageDelegate::AsyncGetKeyValue">
-<area shape="rect" id="node1" title="Lookup the key and call delegate object with it&#39;s stringified value." alt="" coords="5,31,201,87"/>
-<area shape="rect" id="node2" href="$classchip_1_1_persistent_storage_result_delegate.html#ae3797b6f8292354aa57b35707d32a4c2" title="Called on completion of an operation in PersistentStorageDelegate API." alt="" coords="249,5,512,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_persistent_storage_result_delegate.html#a0e8978b50eeed9aeb41c2cdf7da50b2e" title="Called when a value is returned from the storage." alt="" coords="251,71,510,112"/>
-</map>

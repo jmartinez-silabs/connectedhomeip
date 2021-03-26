@@ -1,4 +1,0 @@
-<map id="chip::PersistentStorageResultDelegate::OnPersistentStorageValue" name="chip::PersistentStorageResultDelegate::OnPersistentStorageValue">
-<area shape="rect" id="node1" title="Called when a value is returned from the storage." alt="" coords="249,13,508,54"/>
-<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#affe3331d2b90f6cac9cefcac5a6de7bd" title="Lookup the key and call delegate object with it&#39;s stringified value." alt="" coords="5,5,201,61"/>
-</map>

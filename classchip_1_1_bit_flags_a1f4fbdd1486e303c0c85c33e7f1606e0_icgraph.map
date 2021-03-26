@@ -1,13 +1,12 @@
 <map id="chip::BitFlags::Set" name="chip::BitFlags::Set">
-<area shape="rect" id="node1" title="Set flag(s)." alt="" coords="583,255,721,282"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="37,52,236,93"/>
-<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="326,183,525,224"/>
-<area shape="rect" id="node4" href="$classchip_1_1_payload_header.html#a1e3f1141f766be6adad2727dab195ada" title=" " alt="" coords="348,248,503,289"/>
-<area shape="rect" id="node5" href="$classchip_1_1_packet_header.html#af8e16e0b05b6c0a4dcf2faded41b5c70" title=" " alt="" coords="339,117,511,159"/>
-<area shape="rect" id="node7" href="$classchip_1_1_payload_header.html#afe2a49a236a0f4810d45aeb624af50be" title="Set the Initiator flag bit." alt="" coords="348,313,503,355"/>
-<area shape="rect" id="node8" href="$classchip_1_1_payload_header.html#ab1db08c890c5424508ebcb3dba0b6125" title="Set the NeedsAck flag bit." alt="" coords="348,379,503,420"/>
-<area shape="rect" id="node9" href="$classchip_1_1_packet_header.html#afa98e08699a1426e4ad651f9dbbb2aaa" title=" " alt="" coords="316,444,535,485"/>
-<area shape="rect" id="node10" href="$classchip_1_1_packet_header.html#addf981648d1ac90f854939b76b1ad7d4" title=" " alt="" coords="352,52,499,93"/>
-<area shape="rect" id="node11" href="$classchip_1_1_payload_header.html#a2719ba96478400b35428f6d7acd432a5" title="Set the vendor id for this header." alt="" coords="348,509,503,551"/>
-<area shape="rect" id="node6" href="$classchip_1_1_rendezvous_session.html#a641291a307943037229a6ba1e90adfcd" title="Called when the session establishment process generates a new message that should be sent to peer." alt="" coords="5,117,268,159"/>
+<area shape="rect" id="node1" title="Set flag(s)." alt="" coords="583,221,721,248"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="37,50,236,91"/>
+<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="326,181,525,222"/>
+<area shape="rect" id="node4" href="$classchip_1_1_payload_header.html#a1e3f1141f766be6adad2727dab195ada" title=" " alt="" coords="348,246,503,287"/>
+<area shape="rect" id="node5" href="$classchip_1_1_packet_header.html#af8e16e0b05b6c0a4dcf2faded41b5c70" title=" " alt="" coords="339,50,511,91"/>
+<area shape="rect" id="node7" href="$classchip_1_1_payload_header.html#afe2a49a236a0f4810d45aeb624af50be" title="Set the Initiator flag bit." alt="" coords="348,311,503,353"/>
+<area shape="rect" id="node8" href="$classchip_1_1_payload_header.html#ab1db08c890c5424508ebcb3dba0b6125" title="Set the NeedsAck flag bit." alt="" coords="348,377,503,418"/>
+<area shape="rect" id="node9" href="$classchip_1_1_packet_header.html#afa98e08699a1426e4ad651f9dbbb2aaa" title=" " alt="" coords="316,442,535,483"/>
+<area shape="rect" id="node10" href="$classchip_1_1_packet_header.html#addf981648d1ac90f854939b76b1ad7d4" title=" " alt="" coords="352,115,499,157"/>
+<area shape="rect" id="node6" href="$classchip_1_1_rendezvous_session.html#a641291a307943037229a6ba1e90adfcd" title="Called when the session establishment process generates a new message that should be sent to peer." alt="" coords="5,115,268,157"/>
 </map>

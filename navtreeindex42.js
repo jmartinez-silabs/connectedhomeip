@@ -1,6 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"structchip_1_1_retransmit_1_1_lifetime.html":[10,0,1,25,1],
 "structchip_1_1_retransmit_1_1_lifetime.html#a65af6dd8d902ab7d43609337609d83a7":[10,0,1,25,1,0],
 "structchip_1_1_retransmit_1_1_lifetime.html#ab092c70c7ed287081b5706553537bcb0":[10,0,1,25,1,1],
 "structchip_1_1_setup_payload_data_1_1_additional_data_payload.html":[10,0,1,27,0],

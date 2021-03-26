@@ -11,7 +11,7 @@ var classchip_1_1_bit_flags =
     [ "Clear", "classchip_1_1_bit_flags.html#acd7257e2686a8acf7b2dd2cbb0be38f4", null ],
     [ "Clear", "classchip_1_1_bit_flags.html#aaaa5c0ce6e85b36bd63254c3ce378309", null ],
     [ "ClearAll", "classchip_1_1_bit_flags.html#a04875371925b8d689f598eb35f361c1d", null ],
-    [ "Has", "classchip_1_1_bit_flags.html#afa195f8334ef1727fc11742bfa52882b", null ],
+    [ "Has", "classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485", null ],
     [ "HasAll", "classchip_1_1_bit_flags.html#a47ed3ba5434fe5e2fb57c3042f6fc70d", null ],
     [ "HasAny", "classchip_1_1_bit_flags.html#a028be3ba4b42329da91d4bf63507711a", null ],
     [ "HasAny", "classchip_1_1_bit_flags.html#a2341ceb3cf18a0b7e4efa9fdd67ebd9f", null ],
