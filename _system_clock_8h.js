@@ -1,10 +1,10 @@
 var _system_clock_8h =
 [
-    [ "kTimerFactor_nano_per_micro", "_system_clock_8h.html#a9645f396de1d8feb0f614c9845cabe2aad25d96999aae9e3a63ef5b34c50474a8", null ],
-    [ "kTimerFactor_micro_per_milli", "_system_clock_8h.html#a9645f396de1d8feb0f614c9845cabe2aade5d47e97ae2b9c90f65e94d8c2889cb", null ],
-    [ "kTimerFactor_milli_per_unit", "_system_clock_8h.html#a9645f396de1d8feb0f614c9845cabe2aa851ba3d64a2e9339801860f072efa453", null ],
-    [ "kTimerFactor_nano_per_milli", "_system_clock_8h.html#a9645f396de1d8feb0f614c9845cabe2aa5fa14173aa4e1e524452acec0f3c99f6", null ],
-    [ "kTimerFactor_micro_per_unit", "_system_clock_8h.html#a9645f396de1d8feb0f614c9845cabe2aaf9223e0e16a8a60dc2d7c3db29e8bfff", null ],
+    [ "kTimerFactor_nano_per_micro", "_system_clock_8h.html#a766a1dcfa256d4bdf2419dcf5be1168ead25d96999aae9e3a63ef5b34c50474a8", null ],
+    [ "kTimerFactor_micro_per_milli", "_system_clock_8h.html#a766a1dcfa256d4bdf2419dcf5be1168eade5d47e97ae2b9c90f65e94d8c2889cb", null ],
+    [ "kTimerFactor_milli_per_unit", "_system_clock_8h.html#a766a1dcfa256d4bdf2419dcf5be1168ea851ba3d64a2e9339801860f072efa453", null ],
+    [ "kTimerFactor_nano_per_milli", "_system_clock_8h.html#a766a1dcfa256d4bdf2419dcf5be1168ea5fa14173aa4e1e524452acec0f3c99f6", null ],
+    [ "kTimerFactor_micro_per_unit", "_system_clock_8h.html#a766a1dcfa256d4bdf2419dcf5be1168eaf9223e0e16a8a60dc2d7c3db29e8bfff", null ],
     [ "GetClock_Monotonic", "_system_clock_8h.html#a3c48058dcc8a3026f616e3868aa3201e", null ],
     [ "GetClock_MonotonicHiRes", "_system_clock_8h.html#a3951b627d3825489d276ee7aef5a95d6", null ],
     [ "GetClock_MonotonicMS", "_system_clock_8h.html#a2685a1be7eb20ad425c4be2571582ae9", null ],

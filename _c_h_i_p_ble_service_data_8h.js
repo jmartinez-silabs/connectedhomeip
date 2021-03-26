@@ -1,8 +1,6 @@
 var _c_h_i_p_ble_service_data_8h =
 [
     [ "ChipBLEDeviceIdentificationInfo", "structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html", "structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info" ],
-    [ "kPairingStatus_Unpaired", "_c_h_i_p_ble_service_data_8h.html#adc29c2ff13d900c2f185ee95427fb06ca346b80583cc8367c154a0b20078949dd", null ],
-    [ "kPairingStatus_Paired", "_c_h_i_p_ble_service_data_8h.html#adc29c2ff13d900c2f185ee95427fb06ca3b745d4cc5eafa0a07b501711d71fc1d", null ],
     [ "chipBLEServiceDataType", "_c_h_i_p_ble_service_data_8h.html#a01ee790173659d747df0c353013ac9a9", [
       [ "kchipBLEServiceDataType_DeviceIdentificationInfo", "_c_h_i_p_ble_service_data_8h.html#a01ee790173659d747df0c353013ac9a9a2cee6c837cc2ab591589deb471c17427", null ],
       [ "kchipBLEServiceDataType_TokenIdentificationInfo", "_c_h_i_p_ble_service_data_8h.html#a01ee790173659d747df0c353013ac9a9af4b1c3c0605c015ae10ef2ed283b7c4a", null ]
@@ -19,5 +17,5 @@ var _c_h_i_p_ble_service_data_8h =
     [ "DeviceProductId", "_c_h_i_p_ble_service_data_8h.html#a4c0ba762a72b30cd97f12425991f4be6", null ],
     [ "DeviceVendorId", "_c_h_i_p_ble_service_data_8h.html#a55dbe351c532dc8751dcd9a0a7f04827", null ],
     [ "kDiscriminatorMask", "_c_h_i_p_ble_service_data_8h.html#ac96f40854e795e3afddd34c40dd3529a", null ],
-    [ "PairingStatus", "_c_h_i_p_ble_service_data_8h.html#ab5b1d9f35b783621cf8cc7033bdcb184", null ]
+    [ "OpCode", "_c_h_i_p_ble_service_data_8h.html#a4011d0b720d10f4eeacd939998ebe85d", null ]
 ];

@@ -1,10 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"_k32_w_2_thread_stack_manager_impl_8h.html#ac49db73d9aaa97e39416ad4a6149aabe":[11,0,7,5,32,2],
-"_k32_w_2_thread_stack_manager_impl_8h_source.html":[11,0,7,5,32],
-"_k32_w_2_warm_platform_config_8h.html":[11,0,7,5,33],
-"_k32_w_2_warm_platform_config_8h.html#a17a2a8051941105b9797c22d6b73a12f":[11,0,7,5,33,1],
-"_k32_w_2_warm_platform_config_8h.html#a1968bd5a2fca4685f167bf947220a542":[11,0,7,5,33,0],
 "_k32_w_2_warm_platform_config_8h.html#a5d117f2d8cf5d4a579d0e71360a0965d":[11,0,7,5,33,3],
 "_k32_w_2_warm_platform_config_8h.html#a626967868cc9487c9c3fc49c0ecda9fc":[11,0,7,5,33,2],
 "_k32_w_2_warm_platform_config_8h.html#aa1def091fbd6ea14d44d15b5e8f35c42":[11,0,7,5,33,4],
@@ -19,9 +14,9 @@ var NAVTREEINDEX12 =
 "_key_value_store_manager_8h.html#a8ae00aec3a877f1912200f0dc921bdee":[11,0,4,0,8,2],
 "_key_value_store_manager_8h.html#ae1007815349979758e1535e5561dfe79":[11,0,4,0,8,1],
 "_key_value_store_manager_8h_source.html":[11,0,4,0,8],
-"_lifetime_persisted_counter_8cpp.html":[11,0,6,3,31],
-"_lifetime_persisted_counter_8h.html":[11,0,6,3,32],
-"_lifetime_persisted_counter_8h_source.html":[11,0,6,3,32],
+"_lifetime_persisted_counter_8cpp.html":[11,0,6,3,33],
+"_lifetime_persisted_counter_8h.html":[11,0,6,3,34],
+"_lifetime_persisted_counter_8h_source.html":[11,0,6,3,34],
 "_linux_2_b_l_e_manager_impl_8cpp.html":[11,0,7,6,1],
 "_linux_2_b_l_e_manager_impl_8h.html":[11,0,7,6,2],
 "_linux_2_b_l_e_manager_impl_8h_source.html":[11,0,7,6,2],
@@ -249,5 +244,10 @@ var NAVTREEINDEX12 =
 "_mdns_8h.html#a7aabbd6d910d8bba5ba8b82ef7140393":[11,0,6,1,1,0,3],
 "_mdns_8h.html#a92918bc47fadde76f386ab039d196c7c":[11,0,6,1,1,0,9],
 "_mdns_8h.html#abb1a78179c950d386b70af49eb548e30":[11,0,6,1,1,0,11],
-"_mdns_8h.html#ac0b5927f16f9acfc238f7698f78b7f82":[11,0,6,1,1,0,7]
+"_mdns_8h.html#ac0b5927f16f9acfc238f7698f78b7f82":[11,0,6,1,1,0,7],
+"_mdns_8h.html#af067a54e6e14cce4fd6d1cc10c37e4ea":[11,0,6,1,1,0,12],
+"_mdns_8h.html#afbba98fa3de45e9cd065838017c724e9":[11,0,6,1,1,0,8],
+"_mdns_8h.html#afd0acff8d5ae9bbbb24180c02f476577":[11,0,6,1,1,0,13],
+"_mdns_8h.html#afe18388df82e4bf78e2b1763c5b0dfe8":[11,0,6,1,1,0,14],
+"_mdns_8h_source.html":[11,0,6,1,1,0]
 };

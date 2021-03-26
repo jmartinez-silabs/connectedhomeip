@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">1a94b9e</span>
+   &#160;<span id="projectnumber">792ceb9</span>
    </div>
   </td>
  </tr>
@@ -106,35 +106,37 @@ $(document).ready(function(){initNavTree('_safe_string_8h_source.html',''); init
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_code_utils_8h.html">support/CodeUtils.h</a>&gt;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;cstddef&gt;</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;utility&gt;</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_code_utils_8h.html">support/CodeUtils.h</a>&gt;</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">   42</a></span>&#160;constexpr <span class="keywordtype">size_t</span> <a class="code" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">MaxStringLength</a>()</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> FirstLength, <span class="keyword">typename</span>... RestOfTypes&gt;</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="namespacechip.html#affa77dab5612f0e4148e0338b8a67ce8">   48</a></span>&#160;constexpr <span class="keywordtype">size_t</span> <a class="code" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">MaxStringLength</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> (&amp;)[FirstLength], RestOfTypes &amp;&amp;... aArgs)</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// Subtract 1 because we are not counting the null-terminator.</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562">max</a>(FirstLength - 1, <a class="code" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">MaxStringLength</a>(std::forward&lt;RestOfTypes&gt;(aArgs)...));</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;} <span class="comment">// namespace chip</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacechip.html">chip</a> {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">   44</a></span>&#160;constexpr <span class="keywordtype">size_t</span> <a class="code" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">MaxStringLength</a>()</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">size_t</span> FirstLength, <span class="keyword">typename</span>... RestOfTypes&gt;</div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="namespacechip.html#affa77dab5612f0e4148e0338b8a67ce8">   50</a></span>&#160;constexpr <span class="keywordtype">size_t</span> <a class="code" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">MaxStringLength</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> (&amp;)[FirstLength], RestOfTypes &amp;&amp;... aArgs)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// Subtract 1 because we are not counting the null-terminator.</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562">max</a>(FirstLength - 1, <a class="code" href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">MaxStringLength</a>(std::forward&lt;RestOfTypes&gt;(aArgs)...));</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;} <span class="comment">// namespace chip</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespacechip_html_ac373d1277369855d2ce4d5a1f90b2562"><div class="ttname"><a href="namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562">chip::max</a></div><div class="ttdeci">constexpr const _T &amp; max(const _T &amp;a, const _T &amp;b)</div><div class="ttdef"><b>Definition:</b> CodeUtils.h:132</div></div>
+<div class="ttc" id="anamespacechip_html_ac373d1277369855d2ce4d5a1f90b2562"><div class="ttname"><a href="namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562">chip::max</a></div><div class="ttdeci">constexpr const _T &amp; max(const _T &amp;a, const _T &amp;b)</div><div class="ttdef"><b>Definition:</b> CodeUtils.h:51</div></div>
 <div class="ttc" id="a_code_utils_8h_html"><div class="ttname"><a href="_code_utils_8h.html">CodeUtils.h</a></div></div>
-<div class="ttc" id="anamespacechip_html_af36990374232c7616a69bc49311a0c5f"><div class="ttname"><a href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">chip::MaxStringLength</a></div><div class="ttdeci">constexpr size_t MaxStringLength()</div><div class="ttdoc">A function that determines, at compile time, the maximal length (not counting the null terminator) of...</div><div class="ttdef"><b>Definition:</b> SafeString.h:42</div></div>
+<div class="ttc" id="anamespacechip_html_af36990374232c7616a69bc49311a0c5f"><div class="ttname"><a href="namespacechip.html#af36990374232c7616a69bc49311a0c5f">chip::MaxStringLength</a></div><div class="ttdeci">constexpr size_t MaxStringLength()</div><div class="ttdoc">A function that determines, at compile time, the maximal length (not counting the null terminator) of...</div><div class="ttdef"><b>Definition:</b> SafeString.h:44</div></div>
 <div class="ttc" id="anamespacechip_html"><div class="ttname"><a href="namespacechip.html">chip</a></div><div class="ttdoc">Adaptation for LwIP ip4_addr_t type.</div><div class="ttdef"><b>Definition:</b> BleApplicationDelegate.h:31</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html">lib</a></li><li class="navelem"><a class="el" href="dir_07debba6119e8fae289f5c0650c95439.html">support</a></li><li class="navelem"><a class="el" href="_safe_string_8h.html">SafeString.h</a></li>
-    <li class="footer">Generated on Fri Mar 26 2021 12:55:46 for Connected Home over IP by
+    <li class="footer">Generated on Fri Mar 26 2021 20:29:00 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

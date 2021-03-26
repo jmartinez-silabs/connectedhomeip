@@ -75,7 +75,8 @@ var menudata={children:[
 {text:"v",url:"namespacemembers_func_v.html#index_v"},
 {text:"w",url:"namespacemembers_func_w.html#index_w"}]},
 {text:"Variables",url:"namespacemembers_vars.html",children:[
-{text:"a",url:"namespacemembers_vars.html#index_a"},
+{text:"_",url:"namespacemembers_vars.html#index__5F"},
+{text:"a",url:"namespacemembers_vars_a.html#index_a"},
 {text:"b",url:"namespacemembers_vars_b.html#index_b"},
 {text:"c",url:"namespacemembers_vars_c.html#index_c"},
 {text:"d",url:"namespacemembers_vars_d.html#index_d"},
@@ -330,6 +331,7 @@ var menudata={children:[
 {text:"k",url:"globals_vars.html#index_k"},
 {text:"l",url:"globals_vars.html#index_l"},
 {text:"m",url:"globals_vars.html#index_m"},
+{text:"o",url:"globals_vars.html#index_o"},
 {text:"p",url:"globals_vars.html#index_p"},
 {text:"q",url:"globals_vars.html#index_q"},
 {text:"r",url:"globals_vars.html#index_r"},

@@ -1,12 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"_e_f_r32_2_b_l_e_manager_impl_8h.html":[11,0,7,2,1],
-"_e_f_r32_2_b_l_e_manager_impl_8h_source.html":[11,0,7,2,1],
-"_e_f_r32_2_ble_platform_config_8h.html":[11,0,7,2,2],
-"_e_f_r32_2_ble_platform_config_8h.html#a085112a4581a43862f0bf42b3e8b9330":[11,0,7,2,2,2],
-"_e_f_r32_2_ble_platform_config_8h.html#a15fec8f8728e0a6c2b8a57fd5b12052b":[11,0,7,2,2,1],
-"_e_f_r32_2_ble_platform_config_8h.html#a27f32b7f2a47ab70cdab7aba3958fee3":[11,0,7,2,2,4],
-"_e_f_r32_2_ble_platform_config_8h.html#a5bcc61f14d000277dd5bbeef249ec326":[11,0,7,2,2,7],
 "_e_f_r32_2_ble_platform_config_8h.html#a733cdf268d79c0e6edf76a3c2a809727":[11,0,7,2,2,5],
 "_e_f_r32_2_ble_platform_config_8h.html#acb6e2ad865d7c11a97ad1410b95ff192":[11,0,7,2,2,6],
 "_e_f_r32_2_ble_platform_config_8h.html#acd975a198271f94237e192da382046a6":[11,0,7,2,2,0],
@@ -249,5 +242,12 @@ var NAVTREEINDEX8 =
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a06a57965efec9eee144b77c18706002a":[11,0,7,3,4,0],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a087e091adae8e9476414deda0a512d56":[11,0,7,3,4,43],
 "_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a1909d0b6d29ecca1bc84445c1a9ddb16":[11,0,7,3,4,31],
-"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,3,4,19]
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a1a08e34432ba21fab7d9c754f9b3ef85":[11,0,7,3,4,19],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a221e4c185f68e800d0b405ffec7cb56a":[11,0,7,3,4,32],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a2abef9e3d99bcbbbdf79a340ad3465cc":[11,0,7,3,4,14],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a2e0e2d7e88fb0465575b2b6697dbf831":[11,0,7,3,4,18],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a3456816d0bc8c4408b0807d5feaa7fa2":[11,0,7,3,4,15],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a35a05089cb958f2d90a7979fb7175308":[11,0,7,3,4,42],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a3c4b23fd654977804515f5b600eb5a80":[11,0,7,3,4,34],
+"_e_s_p32_2_c_h_i_p_device_platform_config_8h.html#a431d07fd2cee325e841918c25e850b7b":[11,0,7,3,4,8]
 };

@@ -1,8 +1,8 @@
 var classchip_1_1_inet_1_1_socket_events =
 [
-    [ "kRead", "classchip_1_1_inet_1_1_socket_events.html#a7fde6f423594d78b137b3cacc861d6ecadfaa5d035e67bdef09b130d415ce3d96", null ],
-    [ "kWrite", "classchip_1_1_inet_1_1_socket_events.html#a7fde6f423594d78b137b3cacc861d6eca8119f44c8cddbc2a889d9c5f5c131bcd", null ],
-    [ "kError", "classchip_1_1_inet_1_1_socket_events.html#a7fde6f423594d78b137b3cacc861d6ecabcce679e0254c2a00e42e0fd9e484997", null ],
+    [ "kRead", "classchip_1_1_inet_1_1_socket_events.html#adc95468bc7b19bdface7e18242caf0f2adfaa5d035e67bdef09b130d415ce3d96", null ],
+    [ "kWrite", "classchip_1_1_inet_1_1_socket_events.html#adc95468bc7b19bdface7e18242caf0f2a8119f44c8cddbc2a889d9c5f5c131bcd", null ],
+    [ "kError", "classchip_1_1_inet_1_1_socket_events.html#adc95468bc7b19bdface7e18242caf0f2abcce679e0254c2a00e42e0fd9e484997", null ],
     [ "SocketEvents", "classchip_1_1_inet_1_1_socket_events.html#a447e5c28058b35b2368eac9f5ec5b352", null ],
     [ "SocketEvents", "classchip_1_1_inet_1_1_socket_events.html#aa7ebd8e528aa51fe766c4d26ae432d10", null ],
     [ "Clear", "classchip_1_1_inet_1_1_socket_events.html#ad89875d1eccc2fdefdd34c754b4f25e2", null ],

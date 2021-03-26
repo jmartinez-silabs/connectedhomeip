@@ -1,6 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"_c_h_i_p_config_8h.html#aff6413acf64a75eec0e48c885e76bb26":[11,0,6,0,3,26],
 "_c_h_i_p_config_8h_source.html":[11,0,6,0,3],
 "_c_h_i_p_core_8h.html":[11,0,6,0,4],
 "_c_h_i_p_core_8h.html#a40e74399090ab3a5ec81b48a6cf201a3":[11,0,6,0,4,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX2 =
 "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a56e4ecd380cd7f752238806c187ed8bb":[11,0,1,0,9,85],
 "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5a0b9cf8d043df08f8f96ca7e36f2fce":[11,0,1,0,9,109],
 "_c_h_i_p_device_controller-_j_n_i_8cpp.html#a5c368c25173ce5e9b5790023f58ff7fe":[11,0,1,0,9,106],
-"_c_h_i_p_device_controller-_j_n_i_8cpp.html#a6330d4f360db5585f3f5922dfddcc6c8":[11,0,1,0,9,41]
+"_c_h_i_p_device_controller-_j_n_i_8cpp.html#a6330d4f360db5585f3f5922dfddcc6c8":[11,0,1,0,9,41],
+"_c_h_i_p_device_controller-_j_n_i_8cpp.html#a665524d397cb1585a36ac84d5efff9de":[11,0,1,0,9,3]
 };

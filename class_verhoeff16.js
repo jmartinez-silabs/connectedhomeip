@@ -1,7 +1,7 @@
 var class_verhoeff16 =
 [
-    [ "Base", "class_verhoeff16.html#acf8436b85457a84fa05da464598275f5adae26a3058ebbb67a1633c24e2371f10", null ],
-    [ "PolygonSize", "class_verhoeff16.html#acf8436b85457a84fa05da464598275f5a39bd744966a31ddbb81538970575e572", null ],
+    [ "Base", "class_verhoeff16.html#a2374dc450cb51f8bfe5f7ab74041bc24adae26a3058ebbb67a1633c24e2371f10", null ],
+    [ "PolygonSize", "class_verhoeff16.html#a2374dc450cb51f8bfe5f7ab74041bc24a39bd744966a31ddbb81538970575e572", null ],
     [ "CharToVal", "class_verhoeff16.html#ae560c16adc46b055d3015358096b7483", null ],
     [ "ComputeCheckChar", "class_verhoeff16.html#af14262780b0f595422ab6d50e6c43b55", null ],
     [ "ComputeCheckChar", "class_verhoeff16.html#adfb7e2c5f3cd58f2deaa479f79671857", null ],

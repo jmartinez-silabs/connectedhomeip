@@ -1,8 +1,8 @@
 var _device_network_info_8h =
 [
     [ "DeviceNetworkInfo", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_info.html", "classchip_1_1_device_layer_1_1_internal_1_1_device_network_info" ],
-    [ "kThreadNetworkId", "_device_network_info_8h.html#aa152d073991b4d7b250561e8aa76742aa4f2616d52c43834ee555ba130509c01a", null ],
-    [ "kWiFiStationNetworkId", "_device_network_info_8h.html#aa152d073991b4d7b250561e8aa76742aa38d3fc0b1479808d779032cccdc259a1", null ],
+    [ "kThreadNetworkId", "_device_network_info_8h.html#a309fd9d696178e0d3d715f194c35b5c4a4f2616d52c43834ee555ba130509c01a", null ],
+    [ "kWiFiStationNetworkId", "_device_network_info_8h.html#a309fd9d696178e0d3d715f194c35b5c4a38d3fc0b1479808d779032cccdc259a1", null ],
     [ "WiFiAuthSecurityType", "_device_network_info_8h.html#ae92a234aed871b8200bddbc81d16d10c", [
       [ "kWiFiSecurityType_NotSpecified", "_device_network_info_8h.html#ae92a234aed871b8200bddbc81d16d10ca57f9a6d0686387d4902e7a0fae7933d6", null ],
       [ "kWiFiSecurityType_None", "_device_network_info_8h.html#ae92a234aed871b8200bddbc81d16d10ca6c91d6a4328ea163290813ac21877a4c", null ],

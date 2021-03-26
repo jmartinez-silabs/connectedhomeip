@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"classchip_1_1_mdns_1_1_operational_advertising_parameters.html#adb6aff2b4d940b32da0b7de08379ae80":[10,0,1,21,9,0],
+"classchip_1_1_mdns_1_1_poller.html":[10,0,1,21,10],
 "classchip_1_1_mdns_1_1_poller.html#a13f1ebeb7918cbe5c6796345b9b8ed16":[10,0,1,21,10,2],
 "classchip_1_1_mdns_1_1_poller.html#a234e190841cd6bbe7dd3cd2fb2b8ead3":[10,0,1,21,10,0],
 "classchip_1_1_mdns_1_1_poller.html#a51bb3ef06db68556a3c0ed62b956cb46":[10,0,1,21,10,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "classchip_1_1_rendezvous_parameters.html#aaf052c016acefa78ba2d9a8115c5136d":[10,0,1,67,24],
 "classchip_1_1_rendezvous_parameters.html#ab3b7090bc4ba35a8c739cf4bf4b39c0c":[10,0,1,67,7],
 "classchip_1_1_rendezvous_parameters.html#ab495d3c7e534c377fe4b1d60d1bd9daf":[10,0,1,67,21],
-"classchip_1_1_rendezvous_parameters.html#ac0317f72f189e0277fa7b3d8a4fb7080":[10,0,1,67,17],
-"classchip_1_1_rendezvous_parameters.html#ad9a5db18688bf5a1a06058da66c6f582":[10,0,1,67,1],
-"classchip_1_1_rendezvous_parameters.html#ae341f442979ab6853ccadcc23818b42f":[10,0,1,67,22]
+"classchip_1_1_rendezvous_parameters.html#ac0317f72f189e0277fa7b3d8a4fb7080":[10,0,1,67,17]
 };

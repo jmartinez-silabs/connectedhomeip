@@ -1,7 +1,9 @@
 var NAVTREEINDEX18 =
 {
-"class_verhoeff32.html#a5543d1c7fd74ada575ac3f4f4a2bdd5aa4461e747c4d29a348ea927b04ce6e678":[10,0,21,0],
-"class_verhoeff32.html#a5543d1c7fd74ada575ac3f4f4a2bdd5aa770b269754c38587cb359d47d17e2670":[10,0,21,1],
+"class_verhoeff32.html#a35d0447649cb56fa2b3bb7e6ad948064a4461e747c4d29a348ea927b04ce6e678":[10,0,21,0],
+"class_verhoeff32.html#a35d0447649cb56fa2b3bb7e6ad948064a770b269754c38587cb359d47d17e2670":[10,0,21,1],
+"class_verhoeff32.html#a35ee487355ca8b815856464d25dada99":[10,0,21,6],
+"class_verhoeff32.html#a3d07a7ff8fe0d5c4927c041a17b68d87":[10,0,21,3],
 "class_verhoeff32.html#a6790c0372b072a6b756960b9fd4872d6":[10,0,21,10],
 "class_verhoeff32.html#a89d4328fa93b8c7d69b179924f3ede3b":[10,0,21,2],
 "class_verhoeff32.html#aa77a5a670c807aba4ff710acf2b2fe3b":[10,0,21,4],
@@ -11,14 +13,14 @@ var NAVTREEINDEX18 =
 "class_verhoeff36.html":[10,0,22],
 "class_verhoeff36.html#a0ce0cb31871568a1088975c2163f1049":[10,0,22,9],
 "class_verhoeff36.html#a17fc8611268d4de586759386da64e115":[10,0,22,4],
+"class_verhoeff36.html#a1c20ca02d250a18beeb7b7ddaf27fc32a550e47f6024c7620cc28b9d870bb2b30":[10,0,22,1],
+"class_verhoeff36.html#a1c20ca02d250a18beeb7b7ddaf27fc32ada50ea0c904e2bb1eab386bddb07abe0":[10,0,22,0],
 "class_verhoeff36.html#a63383af4c97f432ec6c2421b1c8178fc":[10,0,22,7],
 "class_verhoeff36.html#a6790c0372b072a6b756960b9fd4872d6":[10,0,22,10],
 "class_verhoeff36.html#a93c16b3535dd152d702749c0f8ecce9e":[10,0,22,3],
 "class_verhoeff36.html#a9634c27c81a6201114491ecdf60f2323":[10,0,22,2],
 "class_verhoeff36.html#a9e437d1519b5e49a6fe5a3387557d024":[10,0,22,5],
 "class_verhoeff36.html#aa3d9044cf8c9bab1ee8869445c040d8f":[10,0,22,6],
-"class_verhoeff36.html#abe67cdb9a6da012504523a384d3f22bca550e47f6024c7620cc28b9d870bb2b30":[10,0,22,1],
-"class_verhoeff36.html#abe67cdb9a6da012504523a384d3f22bcada50ea0c904e2bb1eab386bddb07abe0":[10,0,22,0],
 "class_verhoeff36.html#aeb2a97e96a64688e2c8c5dc96908f81d":[10,0,22,8],
 "classbuild-chip-wheel_1_1_installed_script_info.html":[10,0,0,1],
 "classbuild-chip-wheel_1_1_installed_script_info.html#abd8410152aa0e0a5957eb20b8a8e1b51":[10,0,0,1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "classchip_1_1_c_a_s_e_session.html#a63a9be2d074b270724abb158bc492515":[10,0,1,38,7],
 "classchip_1_1_c_a_s_e_session.html#a75a0c55aab60b4957690d5be2625aac8":[10,0,1,38,15],
 "classchip_1_1_c_a_s_e_session.html#a8a7a593e645a2173ac571fe93b2c44bb":[10,0,1,38,12],
-"classchip_1_1_c_a_s_e_session.html#a8ed60bf3b060927b2da8c283b2530cbd":[10,0,1,38,3],
-"classchip_1_1_c_a_s_e_session.html#a965d8192ad7ffbadfb5cf1cea10a9faf":[10,0,1,38,0],
-"classchip_1_1_c_a_s_e_session.html#ab2464a4ce6527199afafb9652641bc1e":[10,0,1,38,4]
+"classchip_1_1_c_a_s_e_session.html#a8ed60bf3b060927b2da8c283b2530cbd":[10,0,1,38,3]
 };

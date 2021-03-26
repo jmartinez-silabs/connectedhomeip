@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a69240afcd05a9793eced11284e1806e1":[11,0,7,10,4,1,25],
+"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a6964fe7d6ad96561a57143f0f8deab24":[11,0,7,10,4,1,21],
+"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a79891243634d6a35221b7f5259830b17":[11,0,7,10,4,1,22],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a8c18b385831d10710c132dfb4ae8380e":[11,0,7,10,4,1,9],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59a93c7873dbd399a1adf4c808829216586":[11,0,7,10,4,1,24],
 "qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59aa586ad1729b3492474b05b38a46adfe8":[11,0,7,10,4,1,19],
@@ -239,15 +242,12 @@ var NAVTREEINDEX40 =
 "structble_bond_device_entry.html#ae4bab70f0e8442d983f810dda68c27b7":[10,0,10,0],
 "structble_bond_device_entry.html#ae8e9dc93843d270ba33f6634521ab727":[10,0,10,2],
 "structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html":[10,0,1,1,10],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a053889c90373b0b4ce5813a08f01d371":[10,0,1,1,10,9],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a0f76db1d186b839eeb3ea6f9af8d70be":[10,0,1,1,10,5],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a17d1586f6aa4bc202d8fb54ff6cf973b":[10,0,1,1,10,11],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a3e7392362ceaf3bb2a9fbef0c60d52e0":[10,0,1,1,10,13],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a4b557287a4bd3892255d9848445c532c":[10,0,1,1,10,6],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a4cd8ec52e7d7098434f5c3d26266a452":[10,0,1,1,10,8],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a5403b14baeeb4c096dd2fea41269f061":[10,0,1,1,10,2],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a56788f8bb546fc8f699e384188e1c459a4a6d38c99d2946806c217c4856c84956":[10,0,1,1,10,0],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a56788f8bb546fc8f699e384188e1c459a4cfc87d6a34b0392f2adc4dd68b0bc4c":[10,0,1,1,10,1],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a7e66d6f5cbc615e9e636676b2f05d2e5":[10,0,1,1,10,12],
-"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a8fafd30eab72a567cb78604e1b261ec3":[10,0,1,1,10,3]
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a0f76db1d186b839eeb3ea6f9af8d70be":[10,0,1,1,10,3],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a17d1586f6aa4bc202d8fb54ff6cf973b":[10,0,1,1,10,8],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a2eb67bbc5aa0009e93cf7ac27f5a814c":[10,0,1,1,10,11],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a3e7392362ceaf3bb2a9fbef0c60d52e0":[10,0,1,1,10,10],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a4b557287a4bd3892255d9848445c532c":[10,0,1,1,10,4],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a4cd8ec52e7d7098434f5c3d26266a452":[10,0,1,1,10,6],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a5403b14baeeb4c096dd2fea41269f061":[10,0,1,1,10,0],
+"structchip_1_1_ble_1_1_chip_b_l_e_device_identification_info.html#a7e66d6f5cbc615e9e636676b2f05d2e5":[10,0,1,1,10,9]
 };

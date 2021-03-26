@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['devicediscriminator_11370',['deviceDiscriminator',['../interface_ble_connection.html#a205f1985f88274ad39d955a65d4315c0',1,'BleConnection']]]
+  ['devicediscriminator_11369',['deviceDiscriminator',['../interface_ble_connection.html#a205f1985f88274ad39d955a65d4315c0',1,'BleConnection']]]
 ];
