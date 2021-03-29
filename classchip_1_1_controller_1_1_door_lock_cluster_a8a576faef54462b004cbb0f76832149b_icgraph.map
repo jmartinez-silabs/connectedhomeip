@@ -1,5 +1,5 @@
 <map id="chip::Controller::DoorLockCluster::ClearAllPins" name="chip::Controller::DoorLockCluster::ClearAllPins">
 <area shape="rect" id="node1" title=" " alt="" coords="587,5,777,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a1c915465a476a6f5f99e5a7588a53527" title=" " alt="" coords="335,5,539,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a26be17968baa224c2a7186f4ac27ba35" title=" " alt="" coords="5,5,287,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a1c915465a476a6f5f99e5a7588a53527" title=" " alt="" coords="335,5,539,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#ac7053b896140a07d9876c74204ccbff4" title=" " alt="" coords="5,5,287,47"/>
 </map>

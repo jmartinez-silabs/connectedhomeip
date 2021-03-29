@@ -1,3 +1,13 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchip_1_1_transport_1_1_udp_listen_parameters.html" title="Defines listening parameters for setting up a UDP transport." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node1" href="$classchip_1_1_network_provisioning_delegate.html" title=" " alt="" coords="319,5,511,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_rendezvous_session.html" title="RendezvousSession establishes and maintains the first connection between a commissioner and a device." alt="" coords="591,143,777,170"/>
+<area shape="rect" id="node3" href="$classchip_1_1_persistent_storage_result_delegate.html" title=" " alt="" coords="16,275,229,316"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_device_controller.html" title="Controller applications can use this class to communicate with already paired CHIP devices." alt="" coords="328,304,503,345"/>
+<area shape="rect" id="node5" href="$classchip_1_1_controller_1_1_device_commissioner.html" title="The commissioner applications can use this class to pair new/unpaired CHIP devices." alt="" coords="597,279,771,320"/>
+<area shape="rect" id="node6" href="$classchip_1_1_rendezvous_device_credentials_delegate.html" title=" " alt="" coords="288,71,543,112"/>
+<area shape="rect" id="node7" href="$classchip_1_1_rendezvous_session_delegate.html" title=" " alt="" coords="293,253,538,279"/>
+<area shape="rect" id="node8" href="$classchip_1_1_secure_session_mgr_delegate.html" title="This class provides a skeleton for the callback functions." alt="" coords="5,341,240,367"/>
+<area shape="rect" id="node9" href="$classchip_1_1_session_establishment_delegate.html" title=" " alt="" coords="315,136,515,177"/>
+<area shape="rect" id="node10" href="$classchip_1_1_transport_mgr_delegate.html" title=" " alt="" coords="315,202,516,229"/>
+<area shape="rect" id="node11" href="$classchip_1_1_secure_session_mgr.html" title=" " alt="" coords="596,202,772,229"/>
 </map>

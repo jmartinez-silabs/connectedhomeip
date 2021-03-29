@@ -1,0 +1,8 @@
+<map id="CHIPClusters.ChipClusters.ClusterBasic_ReadAttributeProductName" name="CHIPClusters.ChipClusters.ClusterBasic_ReadAttributeProductName">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,293,80"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#af6d070223ba2ceec6b4ce89b669cb814" title=" " alt="" coords="341,39,520,80"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_cluster_base.html#a8394ee44c584199389891a9b66a04d1c" title=" " alt="" coords="586,5,761,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_basic_cluster.html#a9ad547238819c674fdda0e8fd094a26d" title=" " alt="" coords="568,71,779,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_controller_1_1_device.html#a5bb0f9c5991f2c0367685c7f15ac6603" title=" " alt="" coords="827,37,1025,79"/>
+<area shape="rect" id="node6" href="$classchip_1_1_controller_1_1_cluster_base.html#a12319adc56ada2f3a0f9b5c877b20cb6" title="Send the command, contained into the associate buffer, to the device." alt="" coords="839,103,1013,144"/>
+</map>

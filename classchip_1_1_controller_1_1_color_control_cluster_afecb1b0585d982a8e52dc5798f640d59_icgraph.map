@@ -1,5 +1,5 @@
 <map id="chip::Controller::ColorControlCluster::StepSaturation" name="chip::Controller::ColorControlCluster::StepSaturation">
-<area shape="rect" id="node1" title=" " alt="" coords="633,5,844,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a3ae9eec8ec9d07c5af6eb284b2ee1c65" title=" " alt="" coords="372,5,585,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a9cc104462ab87376467f9046f417d1ee" title=" " alt="" coords="5,5,324,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="567,13,777,54"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3ae9eec8ec9d07c5af6eb284b2ee1c65" title=" " alt="" coords="305,13,519,54"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#ab87bf6d1074690ce4146390a1b09f08a" title=" " alt="" coords="5,5,257,61"/>
 </map>

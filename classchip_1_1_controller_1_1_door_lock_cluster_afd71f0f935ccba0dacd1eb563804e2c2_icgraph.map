@@ -1,5 +1,5 @@
 <map id="chip::Controller::DoorLockCluster::GetLogRecord" name="chip::Controller::DoorLockCluster::GetLogRecord">
 <area shape="rect" id="node1" title=" " alt="" coords="600,5,791,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a694def293311cc774ab80339998e150b" title=" " alt="" coords="348,5,552,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#ab9f10f0e0ec96439a281670b38eb4d64" title=" " alt="" coords="5,5,300,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a694def293311cc774ab80339998e150b" title=" " alt="" coords="348,5,552,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a1e8b54510e2001e329846259171ad1db" title=" " alt="" coords="5,5,300,47"/>
 </map>

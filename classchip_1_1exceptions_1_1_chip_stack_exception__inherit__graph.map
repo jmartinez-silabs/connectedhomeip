@@ -2,10 +2,11 @@
 <area shape="rect" id="node1" title=" " alt="" coords="140,115,333,156"/>
 <area shape="rect" id="node3" href="$classchip_1_1exceptions_1_1_chip_stack_error.html" title=" " alt="" coords="418,5,611,47"/>
 <area shape="rect" id="node4" href="$classchip_1_1exceptions_1_1_cluster_error.html" title=" " alt="" coords="412,71,617,98"/>
-<area shape="rect" id="node7" href="$classchip_1_1exceptions_1_1_device_error.html" title=" " alt="" coords="413,122,617,149"/>
-<area shape="rect" id="node8" href="$classchip_1_1exceptions_1_1_invalid_argument_count.html" title=" " alt="" coords="397,173,633,215"/>
-<area shape="rect" id="node9" href="$classchip_1_1exceptions_1_1_invalid_argument_type.html" title=" " alt="" coords="381,239,648,266"/>
+<area shape="rect" id="node8" href="$classchip_1_1exceptions_1_1_device_error.html" title=" " alt="" coords="413,122,617,149"/>
+<area shape="rect" id="node9" href="$classchip_1_1exceptions_1_1_invalid_argument_count.html" title=" " alt="" coords="397,173,633,215"/>
+<area shape="rect" id="node10" href="$classchip_1_1exceptions_1_1_invalid_argument_type.html" title=" " alt="" coords="381,239,648,266"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,122,92,149"/>
-<area shape="rect" id="node5" href="$classchip_1_1exceptions_1_1_unknown_cluster.html" title=" " alt="" coords="707,46,941,73"/>
-<area shape="rect" id="node6" href="$classchip_1_1exceptions_1_1_unknown_command.html" title=" " alt="" coords="696,97,952,123"/>
+<area shape="rect" id="node5" href="$classchip_1_1exceptions_1_1_unknown_attribute.html" title=" " alt="" coords="701,21,947,47"/>
+<area shape="rect" id="node6" href="$classchip_1_1exceptions_1_1_unknown_cluster.html" title=" " alt="" coords="707,71,941,98"/>
+<area shape="rect" id="node7" href="$classchip_1_1exceptions_1_1_unknown_command.html" title=" " alt="" coords="696,122,952,149"/>
 </map>

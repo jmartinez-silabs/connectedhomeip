@@ -1,11 +1,11 @@
 <map id="ble/BleError.h" name="ble/BleError.h">
 <area shape="rect" id="node1" title=" " alt="" coords="19236,5,19345,32"/>
-<area shape="rect" id="node2" href="$ble_2_ble_8h.html" title=" " alt="" coords="20582,341,20660,367"/>
+<area shape="rect" id="node2" href="$ble_2_ble_8h.html" title=" " alt="" coords="20607,341,20686,367"/>
 <area shape="rect" id="node4" href="$transport_2_ble_8h.html" title=" " alt="" coords="19062,824,19183,851"/>
-<area shape="rect" id="node19" href="$ble_2_ble_connection_delegate_8h.html" title=" " alt="" coords="19833,80,20044,107"/>
+<area shape="rect" id="node19" href="$ble_2_ble_connection_delegate_8h.html" title=" " alt="" coords="19845,80,20056,107"/>
 <area shape="rect" id="node20" href="$_ble_layer_8h.html" title=" " alt="" coords="18901,162,19016,189"/>
 <area shape="rect" id="node24" href="$_ble_error_8cpp.html" title=" " alt="" coords="18371,251,18495,278"/>
-<area shape="rect" id="node215" href="$_ble_connection_delegate_impl_8mm.html" title=" " alt="" coords="20434,244,20661,285"/>
+<area shape="rect" id="node215" href="$_ble_connection_delegate_impl_8mm.html" title=" " alt="" coords="20460,244,20686,285"/>
 <area shape="rect" id="node216" href="$_ble_platform_delegate_impl_8mm.html" title=" " alt="" coords="19384,244,19594,285"/>
 <area shape="rect" id="node220" href="$_btp_engine_8h.html" title=" " alt="" coords="18578,162,18702,189"/>
 <area shape="rect" id="node3" href="$_rendezvous_parameters_8h.html" title=" " alt="" coords="19720,735,19970,761"/>
@@ -20,15 +20,15 @@
 <area shape="rect" id="node13" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html" title=" " alt="" coords="21780,1063,21976,1104"/>
 <area shape="rect" id="node14" href="$_commissioner_impl_8cpp.html" title=" " alt="" coords="9400,973,9631,1015"/>
 <area shape="rect" id="node15" href="$_chip_device_controller-_script_device_pairing_delegate_8h.html" title=" " alt="" coords="20302,973,20590,1015"/>
-<area shape="rect" id="node16" href="$_chip_device_controller-_script_binding_8cpp.html" title=" " alt="" coords="20656,1063,20866,1104"/>
+<area shape="rect" id="node16" href="$_chip_device_controller-_script_binding_8cpp.html" title=" " alt="" coords="20610,1063,20821,1104"/>
 <area shape="rect" id="node12" href="$_android_device_controller_wrapper_8cpp.html" title=" " alt="" coords="21542,1063,21756,1104"/>
-<area shape="rect" id="node17" href="$_chip_device_controller-_script_device_pairing_delegate_8cpp.html" title=" " alt="" coords="19736,1063,20039,1104"/>
-<area shape="rect" id="node218" href="$_android_ble_connection_delegate_8h.html" title=" " alt="" coords="19843,155,20034,196"/>
-<area shape="rect" id="node219" href="$platform_2_darwin_2_ble_connection_delegate_8h.html" title=" " alt="" coords="20485,155,20712,196"/>
+<area shape="rect" id="node17" href="$_chip_device_controller-_script_device_pairing_delegate_8cpp.html" title=" " alt="" coords="19691,1063,19994,1104"/>
+<area shape="rect" id="node218" href="$_android_ble_connection_delegate_8h.html" title=" " alt="" coords="19855,155,20046,196"/>
+<area shape="rect" id="node219" href="$platform_2_darwin_2_ble_connection_delegate_8h.html" title=" " alt="" coords="20510,155,20737,196"/>
 <area shape="rect" id="node21" href="$_b_l_e_end_point_8cpp.html" title=" " alt="" coords="15780,341,15934,367"/>
 <area shape="rect" id="node22" href="$_b_l_e_end_point_8h.html" title=" " alt="" coords="18570,251,18709,278"/>
 <area shape="rect" id="node23" href="$_ble_layer_8cpp.html" title=" " alt="" coords="15959,341,16088,367"/>
-<area shape="rect" id="node25" href="$_android_ble_connection_delegate_8cpp.html" title=" " alt="" coords="19738,244,19928,285"/>
+<area shape="rect" id="node25" href="$_android_ble_connection_delegate_8cpp.html" title=" " alt="" coords="19750,244,19940,285"/>
 <area shape="rect" id="node26" href="$_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="16164,333,16374,375"/>
 <area shape="rect" id="node165" href="$_c_h_i_p_core_8h.html" title=" " alt="" coords="18885,251,19032,278"/>
 <area shape="rect" id="node217" href="$_linux_2_b_l_e_manager_impl_8h.html" title=" " alt="" coords="19106,244,19309,285"/>
@@ -170,9 +170,9 @@
 <area shape="rect" id="node154" href="$_zephyr_2_configuration_manager_impl_8h.html" title=" " alt="" coords="14696,623,14914,665"/>
 <area shape="rect" id="node155" href="$nrfconnect_2_configuration_manager_impl_8h.html" title=" " alt="" coords="14700,727,14910,769"/>
 <area shape="rect" id="node162" href="$_main_loop_8cpp.html" title=" " alt="" coords="17151,519,17307,561"/>
-<area shape="rect" id="node166" href="$_c_h_i_p_device_8cpp.html" title=" " alt="" coords="21594,899,21784,925"/>
+<area shape="rect" id="node166" href="$_c_h_i_p_device_8cpp.html" title=" " alt="" coords="21590,899,21780,925"/>
 <area shape="rect" id="node167" href="$_c_h_i_p_device_8h.html" title=" " alt="" coords="20840,824,21016,851"/>
-<area shape="rect" id="node172" href="$_chip_device_controller-_cluster_commands_8cpp.html" title=" " alt="" coords="21155,1063,21394,1104"/>
+<area shape="rect" id="node172" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html" title=" " alt="" coords="21152,1063,21344,1104"/>
 <area shape="rect" id="node173" href="$_device_network_provisioning_8h.html" title=" " alt="" coords="17765,423,17984,464"/>
 <area shape="rect" id="node174" href="$_config_unit_test_8h.html" title=" " alt="" coords="12752,519,12935,561"/>
 <area shape="rect" id="node175" href="$_c_h_i_p_circular_t_l_v_buffer_8cpp.html" title=" " alt="" coords="16500,341,16742,367"/>
@@ -195,14 +195,14 @@
 <area shape="rect" id="node208" href="$_t_c_p_8h.html" title=" " alt="" coords="19397,341,19544,367"/>
 <area shape="rect" id="node210" href="$_u_d_p_8h.html" title=" " alt="" coords="21099,735,21250,761"/>
 <area shape="rect" id="node212" href="$_rendezvous_session_delegate_8h.html" title=" " alt="" coords="19312,623,19527,665"/>
-<area shape="rect" id="node213" href="$_secure_session_8h.html" title=" " alt="" coords="20134,430,20324,457"/>
+<area shape="rect" id="node213" href="$_secure_session_8h.html" title=" " alt="" coords="20146,430,20336,457"/>
 <area shape="rect" id="node168" href="$_c_h_i_p_cluster_8h.html" title=" " alt="" coords="20840,899,21016,925"/>
 <area shape="rect" id="node169" href="$_c_h_i_p_cluster_8cpp.html" title=" " alt="" coords="20715,981,20906,1007"/>
 <area shape="rect" id="node170" href="$_c_h_i_p_clusters_8h.html" title=" " alt="" coords="20981,981,21165,1007"/>
-<area shape="rect" id="node171" href="$_c_h_i_p_clusters_8cpp.html" title=" " alt="" coords="20932,1070,21131,1097"/>
+<area shape="rect" id="node171" href="$_c_h_i_p_clusters_8cpp.html" title=" " alt="" coords="20928,1070,21127,1097"/>
 <area shape="rect" id="node179" href="$_chip_device_controller-_storage_delegate_8h.html" title=" " alt="" coords="21466,423,21678,464"/>
-<area shape="rect" id="node180" href="$_chip_device_controller-_storage_delegate_8cpp.html" title=" " alt="" coords="21437,519,21664,561"/>
-<area shape="rect" id="node181" href="$_admin_pairing_table_8h.html" title=" " alt="" coords="20736,430,20954,457"/>
+<area shape="rect" id="node180" href="$_chip_device_controller-_storage_delegate_8cpp.html" title=" " alt="" coords="21448,519,21674,561"/>
+<area shape="rect" id="node181" href="$_admin_pairing_table_8h.html" title=" " alt="" coords="20762,430,20979,457"/>
 <area shape="rect" id="node191" href="$_storable_peer_connection_8h.html" title=" " alt="" coords="21325,735,21578,761"/>
 <area shape="rect" id="node182" href="$_admin_pairing_table_8cpp.html" title=" " alt="" coords="20856,527,21088,553"/>
 <area shape="rect" id="node183" href="$_peer_connections_8h.html" title=" " alt="" coords="20186,631,20392,657"/>

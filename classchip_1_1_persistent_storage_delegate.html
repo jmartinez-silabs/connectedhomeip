@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.svg"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Connected Home over IP
-   &#160;<span id="projectnumber">3c64a7b</span>
+   &#160;<span id="projectnumber">05b6d6d</span>
    </div>
   </td>
  </tr>
@@ -336,7 +336,9 @@ Here is the caller graph for this function:</div>
 <p>If value is null, the input size is treated as 0.</p>
 <dl class="section return"><dt>Returns</dt><dd>CHIP_ERROR_KEY_NOT_FOUND there is no value for the given key. </dd>
 <dd>
-CHIP_ERROR_NO_MEMORY if the input buffer is not big enough for the value. </dd></dl>
+CHIP_ERROR_NO_MEMORY if the input buffer is not big enough for the value. </dd>
+<dd>
+CHIP_ERROR_BUFFER_TOO_SMALL if the value's size is too large to be expressed as a uint16_t. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="class_android_device_controller_wrapper.html#afdbffe4afc71f4b49570909fdbc3ead8">AndroidDeviceControllerWrapper</a>, and <a class="el" href="classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#af8331789c71f8fa2dea4d45d43898183">chip::Controller::PythonPersistentStorageDelegate</a>.</p>
 <div class="dynheader">
@@ -477,7 +479,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacechip.html">chip</a></li><li class="navelem"><a class="el" href="classchip_1_1_persistent_storage_delegate.html">PersistentStorageDelegate</a></li>
-    <li class="footer">Generated on Fri Mar 26 2021 22:25:47 for Connected Home over IP by
+    <li class="footer">Generated on Mon Mar 29 2021 02:10:09 for Connected Home over IP by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

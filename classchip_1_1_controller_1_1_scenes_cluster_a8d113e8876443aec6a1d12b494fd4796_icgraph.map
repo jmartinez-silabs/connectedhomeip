@@ -1,5 +1,5 @@
 <map id="chip::Controller::ScenesCluster::RemoveAllScenes" name="chip::Controller::ScenesCluster::RemoveAllScenes">
-<area shape="rect" id="node1" title=" " alt="" coords="611,5,804,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a137764c5d980cebbbd3352ed156d3d35" title=" " alt="" coords="359,5,563,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a39d87c887b5aae3b99c3627e6d64d06a" title=" " alt="" coords="5,5,311,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="564,13,757,54"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a137764c5d980cebbbd3352ed156d3d35" title=" " alt="" coords="312,13,516,54"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a1d9edf9caf850cc3e1eae47ae5bd6b02" title=" " alt="" coords="5,5,264,61"/>
 </map>

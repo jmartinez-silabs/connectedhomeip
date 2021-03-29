@@ -1,5 +1,5 @@
 <map id="chip::Controller::NetworkCommissioningCluster::AddWiFiNetwork" name="chip::Controller::NetworkCommissioningCluster::AddWiFiNetwork">
 <area shape="rect" id="node1" title=" " alt="" coords="529,13,815,54"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a5f929bf278a378619623b09f7d326082" title=" " alt="" coords="277,5,481,61"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#ab7ecde34d9c6ba7b1522ba8edac10a24" title=" " alt="" coords="5,5,229,61"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a5f929bf278a378619623b09f7d326082" title=" " alt="" coords="277,5,481,61"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a482990ae285b08984edf97a923fdc3bf" title=" " alt="" coords="5,5,229,61"/>
 </map>

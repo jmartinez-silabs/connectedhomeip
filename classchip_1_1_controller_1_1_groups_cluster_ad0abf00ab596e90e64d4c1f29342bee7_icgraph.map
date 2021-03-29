@@ -1,5 +1,5 @@
 <map id="chip::Controller::GroupsCluster::RemoveAllGroups" name="chip::Controller::GroupsCluster::RemoveAllGroups">
-<area shape="rect" id="node1" title=" " alt="" coords="611,5,804,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a147c263c1e70ec75a00cbdfb24d6e55f" title=" " alt="" coords="359,5,563,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#ad1bb60409a98cb652ff9c62a890583aa" title=" " alt="" coords="5,5,311,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="564,13,757,54"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a147c263c1e70ec75a00cbdfb24d6e55f" title=" " alt="" coords="312,13,516,54"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a82f4d10ff667640738387c6181fcdb44" title=" " alt="" coords="5,5,264,61"/>
 </map>

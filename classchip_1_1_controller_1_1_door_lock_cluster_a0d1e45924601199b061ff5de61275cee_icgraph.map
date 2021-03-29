@@ -1,5 +1,5 @@
 <map id="chip::Controller::DoorLockCluster::ClearRfid" name="chip::Controller::DoorLockCluster::ClearRfid">
 <area shape="rect" id="node1" title=" " alt="" coords="568,5,759,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#adfd290ed882f9637f60203536c21354d" title=" " alt="" coords="316,5,520,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a1f3a77802f3e6914f1b4319c87500cf0" title=" " alt="" coords="5,5,268,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#adfd290ed882f9637f60203536c21354d" title=" " alt="" coords="316,5,520,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a60db37b5d43c3deafa56372c68156084" title=" " alt="" coords="5,5,268,47"/>
 </map>

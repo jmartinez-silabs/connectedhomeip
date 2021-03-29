@@ -1,5 +1,5 @@
 <map id="chip::Controller::LevelControlCluster::Stop" name="chip::Controller::LevelControlCluster::Stop">
 <area shape="rect" id="node1" title=" " alt="" coords="559,5,769,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a837a959398cc54a7dcf2515a1f8bd877" title=" " alt="" coords="307,5,511,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a5ecc1c3a180bcc716e386922b72524bf" title=" " alt="" coords="5,5,259,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a837a959398cc54a7dcf2515a1f8bd877" title=" " alt="" coords="307,5,511,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a80b8b727fbf80cd997b30614ab946610" title=" " alt="" coords="5,5,259,47"/>
 </map>

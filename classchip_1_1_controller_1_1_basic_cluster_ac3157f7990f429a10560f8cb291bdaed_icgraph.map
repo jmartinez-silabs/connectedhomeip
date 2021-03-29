@@ -1,5 +1,5 @@
 <map id="chip::Controller::BasicCluster::MfgSpecificPing" name="chip::Controller::BasicCluster::MfgSpecificPing">
 <area shape="rect" id="node1" title=" " alt="" coords="585,5,796,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a78aede6d427f793b318192549da51e19" title=" " alt="" coords="333,5,537,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a7a26823e5e62284992d0da29f82ecf67" title=" " alt="" coords="5,5,285,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a78aede6d427f793b318192549da51e19" title=" " alt="" coords="333,5,537,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a4251f7804551de5bc1b8b62e283d60e7" title=" " alt="" coords="5,5,285,47"/>
 </map>

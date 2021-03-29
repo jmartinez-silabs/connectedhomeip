@@ -1,5 +1,5 @@
 <map id="chip::Controller::ScenesCluster::RecallScene" name="chip::Controller::ScenesCluster::RecallScene">
 <area shape="rect" id="node1" title=" " alt="" coords="572,5,747,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a25e9650d1ad26038d652b305f37da7b7" title=" " alt="" coords="320,5,524,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#abbdc67502f0c135e59ae1ff4e99bffc1" title=" " alt="" coords="5,5,272,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a25e9650d1ad26038d652b305f37da7b7" title=" " alt="" coords="320,5,524,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#af2c948927b951b1294ba157bae4fd1d7" title=" " alt="" coords="5,5,272,47"/>
 </map>

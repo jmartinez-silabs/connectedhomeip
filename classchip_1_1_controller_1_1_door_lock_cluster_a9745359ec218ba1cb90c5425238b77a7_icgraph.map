@@ -1,5 +1,5 @@
 <map id="chip::Controller::DoorLockCluster::LockDoor" name="chip::Controller::DoorLockCluster::LockDoor">
 <area shape="rect" id="node1" title=" " alt="" coords="569,5,760,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#acc6a8b43d2c769fa0ac9916e92265281" title=" " alt="" coords="317,5,521,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#af750fbf8035a44f0281687343d83b336" title=" " alt="" coords="5,5,269,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#acc6a8b43d2c769fa0ac9916e92265281" title=" " alt="" coords="317,5,521,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a3e6b32a758163616c4663ef120e8f1a9" title=" " alt="" coords="5,5,269,47"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="chip::Controller::DoorLockCluster::ClearWeekdaySchedule" name="chip::Controller::DoorLockCluster::ClearWeekdaySchedule">
 <area shape="rect" id="node1" title=" " alt="" coords="649,13,879,54"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#aeeb19e53d87b16a02c5fdd5b63aa85d9" title=" " alt="" coords="351,13,601,54"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a094818830efdb66fc9ee8f46578bfa33" title=" " alt="" coords="5,5,303,61"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#aeeb19e53d87b16a02c5fdd5b63aa85d9" title=" " alt="" coords="351,13,601,54"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a6259d111f0e74f00f5b37c06439f5f40" title=" " alt="" coords="5,5,303,61"/>
 </map>

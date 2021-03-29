@@ -1,6 +1,7 @@
 var dir_ba457397843b1104e00563bf45838bd5 =
 [
     [ "ble", "dir_8cb6398bdff2b5d105d057714248aa40.html", "dir_8cb6398bdff2b5d105d057714248aa40" ],
+    [ "clusters", "dir_658c3164a1f65d69256225bdd44799af.html", "dir_658c3164a1f65d69256225bdd44799af" ],
     [ "configuration", "dir_016992fba428319f74cd20970ad17dc3.html", "dir_016992fba428319f74cd20970ad17dc3" ],
     [ "exceptions", "dir_b63bf9ad360e1dd7394eece46ece012f.html", "dir_b63bf9ad360e1dd7394eece46ece012f" ],
     [ "internal", "dir_d46ed212b81eed6394a39da606f8021e.html", "dir_d46ed212b81eed6394a39da606f8021e" ],
@@ -13,7 +14,6 @@ var dir_ba457397843b1104e00563bf45838bd5 =
     ] ],
     [ "ChipBleUtility.py", "_chip_ble_utility_8py.html", "_chip_ble_utility_8py" ],
     [ "ChipBluezMgr.py", "_chip_bluez_mgr_8py.html", "_chip_bluez_mgr_8py" ],
-    [ "ChipCluster.py", "_chip_cluster_8py.html", "_chip_cluster_8py" ],
     [ "ChipCoreBluetoothMgr.py", "_chip_core_bluetooth_mgr_8py.html", "_chip_core_bluetooth_mgr_8py" ],
     [ "ChipDeviceCtrl.py", "_chip_device_ctrl_8py.html", "_chip_device_ctrl_8py" ],
     [ "ChipStack.py", "_chip_stack_8py.html", "_chip_stack_8py" ],

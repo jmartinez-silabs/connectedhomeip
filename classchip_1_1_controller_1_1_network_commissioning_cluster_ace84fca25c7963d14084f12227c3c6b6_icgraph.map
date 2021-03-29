@@ -1,5 +1,5 @@
 <map id="chip::Controller::NetworkCommissioningCluster::UpdateThreadNetwork" name="chip::Controller::NetworkCommissioningCluster::UpdateThreadNetwork">
 <area shape="rect" id="node1" title=" " alt="" coords="548,5,817,61"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a486e2dfead61833816a17e39da6405c6" title=" " alt="" coords="296,5,500,61"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#abb6cc1159cf553f32dd9d56fac5497f3" title=" " alt="" coords="5,5,248,61"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a486e2dfead61833816a17e39da6405c6" title=" " alt="" coords="296,5,500,61"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a8d3f73cd0c61056783829e65d6e9f282" title=" " alt="" coords="5,5,248,61"/>
 </map>

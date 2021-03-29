@@ -1,5 +1,5 @@
 <map id="chip::Controller::ColorControlCluster::MoveToHue" name="chip::Controller::ColorControlCluster::MoveToHue">
 <area shape="rect" id="node1" title=" " alt="" coords="604,5,815,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a3ac1238727b4d3117b999c63c4c03eb7" title=" " alt="" coords="352,5,556,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a91d581914a0bb6c6d0d8d6bc9a4343e4" title=" " alt="" coords="5,5,304,47"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a3ac1238727b4d3117b999c63c4c03eb7" title=" " alt="" coords="352,5,556,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a051e4122d7fde6eae1c814edebd7f7ae" title=" " alt="" coords="5,5,304,47"/>
 </map>

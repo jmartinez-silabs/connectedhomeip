@@ -1,0 +1,8 @@
+<map id="CHIPClusters.ChipClusters.ClusterColorControl_ReadAttributeColorControlOptions" name="CHIPClusters.ChipClusters.ClusterColorControl_ReadAttributeColorControlOptions">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,252,91"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a669fc0e3dfc57ed2caccb4133cdfb428" title=" " alt="" coords="300,43,548,84"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_cluster_base.html#a8394ee44c584199389891a9b66a04d1c" title=" " alt="" coords="632,5,807,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_color_control_cluster.html#a787a12c1c85459276118d7c29515b2bb" title=" " alt="" coords="596,71,843,127"/>
+<area shape="rect" id="node5" href="$classchip_1_1_controller_1_1_device.html#a5bb0f9c5991f2c0367685c7f15ac6603" title=" " alt="" coords="891,45,1089,87"/>
+<area shape="rect" id="node6" href="$classchip_1_1_controller_1_1_cluster_base.html#a12319adc56ada2f3a0f9b5c877b20cb6" title="Send the command, contained into the associate buffer, to the device." alt="" coords="903,111,1077,152"/>
+</map>

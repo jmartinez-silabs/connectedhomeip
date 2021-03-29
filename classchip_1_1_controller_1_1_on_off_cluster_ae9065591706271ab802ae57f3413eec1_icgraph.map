@@ -1,5 +1,5 @@
 <map id="chip::Controller::OnOffCluster::Off" name="chip::Controller::OnOffCluster::Off">
-<area shape="rect" id="node1" title=" " alt="" coords="515,13,753,39"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a7d256c90406a9583f3fe959d7ef30827" title=" " alt="" coords="263,5,467,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#afbc766b1b4b14d55ed71c4f0296a95b5" title=" " alt="" coords="5,5,215,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="504,13,743,39"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a7d256c90406a9583f3fe959d7ef30827" title=" " alt="" coords="252,5,456,47"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a572d05ef449fc4b659b046959b0307f6" title=" " alt="" coords="5,5,204,47"/>
 </map>

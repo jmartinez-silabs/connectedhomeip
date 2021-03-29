@@ -1,0 +1,7 @@
+<map id="chip_ime_ReadAttribute_ColorControl_CoupleColorTempToLevelMinMireds" name="chip_ime_ReadAttribute_ColorControl_CoupleColorTempToLevelMinMireds">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,236,91"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_cluster_base.html#a8394ee44c584199389891a9b66a04d1c" title=" " alt="" coords="319,5,494,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_color_control_cluster.html#a6d9a413ec901a61ff3a5b907736276aa" title=" " alt="" coords="284,71,529,127"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_device.html#a5bb0f9c5991f2c0367685c7f15ac6603" title=" " alt="" coords="577,45,776,87"/>
+<area shape="rect" id="node5" href="$classchip_1_1_controller_1_1_cluster_base.html#a12319adc56ada2f3a0f9b5c877b20cb6" title="Send the command, contained into the associate buffer, to the device." alt="" coords="589,111,764,152"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchip_1_1_mdns_1_1_base_advertising_params.html" title=" " alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node1" href="$classchip_1_1_mdns_1_1_base_advertising_params.html" title=" " alt="" coords="5,5,329,47"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_operational_advertising_parameters.html" title="Defines parameters required for advertising a CHIP node over mDNS as an &#39;operationally ready&#39; node." alt="" coords="377,5,628,47"/>
 </map>

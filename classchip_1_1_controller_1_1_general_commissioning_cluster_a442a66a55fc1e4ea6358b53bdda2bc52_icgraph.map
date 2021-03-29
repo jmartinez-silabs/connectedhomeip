@@ -1,5 +1,5 @@
 <map id="chip::Controller::GeneralCommissioningCluster::SetFabric" name="chip::Controller::GeneralCommissioningCluster::SetFabric">
 <area shape="rect" id="node1" title=" " alt="" coords="525,13,761,54"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a2bc1101bc85186d2ba349696d9f6551b" title=" " alt="" coords="273,5,477,61"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a72d77e9ee68b9169c0c5220f61c6c0a2" title=" " alt="" coords="5,5,225,61"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a2bc1101bc85186d2ba349696d9f6551b" title=" " alt="" coords="273,5,477,61"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a5e23725401e521f2b78378c5a54ae236" title=" " alt="" coords="5,5,225,61"/>
 </map>

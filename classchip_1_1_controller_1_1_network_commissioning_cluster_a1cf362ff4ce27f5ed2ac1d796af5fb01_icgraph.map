@@ -1,5 +1,5 @@
 <map id="chip::Controller::NetworkCommissioningCluster::ScanNetworks" name="chip::Controller::NetworkCommissioningCluster::ScanNetworks">
 <area shape="rect" id="node1" title=" " alt="" coords="529,13,800,54"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a8f4329b34e15f4cc90614422968460c3" title=" " alt="" coords="277,5,481,61"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a47cdabbdf85abd267998d344b88fb5c4" title=" " alt="" coords="5,5,229,61"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a8f4329b34e15f4cc90614422968460c3" title=" " alt="" coords="277,5,481,61"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a3c6ca0a1ff54c42b1ebc461a7d78cb63" title=" " alt="" coords="5,5,229,61"/>
 </map>

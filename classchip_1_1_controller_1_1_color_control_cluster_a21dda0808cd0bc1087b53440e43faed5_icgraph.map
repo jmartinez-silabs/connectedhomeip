@@ -1,5 +1,5 @@
 <map id="chip::Controller::ColorControlCluster::StepColorTemperature" name="chip::Controller::ColorControlCluster::StepColorTemperature">
-<area shape="rect" id="node1" title=" " alt="" coords="651,13,872,54"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#a452cd46850ddad6d467a2b03e4053c90" title=" " alt="" coords="340,13,603,54"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#a06bf0f46d225701f87edd79b07bdb38a" title=" " alt="" coords="5,5,292,61"/>
+<area shape="rect" id="node1" title=" " alt="" coords="616,13,837,54"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a452cd46850ddad6d467a2b03e4053c90" title=" " alt="" coords="305,13,568,54"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a46eaf25f7a10f5b1595a8c9ca598a6eb" title=" " alt="" coords="5,5,257,61"/>
 </map>

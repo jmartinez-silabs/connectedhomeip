@@ -1,6 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchip_1_1_device_layer_1_1_internal_1_1_c_c13_x2__26_x2_config.html" title=" " alt="" coords="55,5,267,47"/>
-<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_configuration_manager_impl.html" title="Concrete implementation of the ConfigurationManager singleton object for the CC13X2_26X2 platform." alt="" coords="364,71,559,112"/>
-<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_configuration_manager.html" title="Provides access to runtime and build&#45;time configuration information for a chip device." alt="" coords="77,71,244,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html" title=" " alt="" coords="5,137,316,193"/>
+<area shape="rect" id="node1" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_configuration_manager_impl.html" title="Provides a generic implementation of ConfigurationManager features that works on multiple platforms." alt="" coords="5,5,223,61"/>
 </map>

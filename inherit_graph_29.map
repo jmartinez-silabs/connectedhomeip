@@ -1,3 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classchip_1_1_chip_core_bluetooth_mgr_1_1_loop_condition.html" title=" " alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,147,68,174"/>
+<area shape="rect" id="node2" href="$classchip_1_1_chip_device_ctrl_1_1_chip_device_controller.html" title=" " alt="" coords="127,5,309,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_chip_stack_1_1_chip_stack.html" title=" " alt="" coords="125,71,311,98"/>
+<area shape="rect" id="node4" href="$classchip_1_1_chip_stack_1_1_log_category.html" title=" " alt="" coords="116,122,320,149"/>
+<area shape="rect" id="node5" href="$classchip_1_1_chip_utility_1_1_chip_utility.html" title=" " alt="" coords="121,173,315,199"/>
+<area shape="rect" id="node6" href="$classchip_1_1tlv_1_1_t_l_v_reader.html" title=" " alt="" coords="147,223,289,250"/>
+<area shape="rect" id="node7" href="$classchip_1_1tlv_1_1_t_l_v_writer.html" title=" " alt="" coords="150,274,286,301"/>
 </map>

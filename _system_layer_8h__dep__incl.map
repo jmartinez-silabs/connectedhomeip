@@ -33,7 +33,7 @@
 <area shape="rect" id="node15" href="$_commissioner_impl_8cpp.html" title=" " alt="" coords="1023,899,1253,940"/>
 <area shape="rect" id="node16" href="$_chip_device_controller-_script_device_pairing_delegate_8h.html" title=" " alt="" coords="1329,899,1617,940"/>
 <area shape="rect" id="node13" href="$_android_device_controller_wrapper_8cpp.html" title=" " alt="" coords="225,988,440,1029"/>
-<area shape="rect" id="node18" href="$_chip_device_controller-_script_device_pairing_delegate_8cpp.html" title=" " alt="" coords="1391,988,1693,1029"/>
+<area shape="rect" id="node18" href="$_chip_device_controller-_script_device_pairing_delegate_8cpp.html" title=" " alt="" coords="1401,988,1704,1029"/>
 <area shape="rect" id="node26" href="$_linux_impl_8cpp.html" title=" " alt="" coords="19956,519,20120,561"/>
 <area shape="rect" id="node27" href="$_chip_thread_work_8cpp.html" title=" " alt="" coords="6908,423,7123,464"/>
 <area shape="rect" id="node28" href="$_stack_init_8cpp.html" title=" " alt="" coords="5355,423,5519,464"/>
@@ -172,7 +172,7 @@
 <area shape="rect" id="node161" href="$_main_loop_8cpp.html" title=" " alt="" coords="20144,519,20300,561"/>
 <area shape="rect" id="node165" href="$_c_h_i_p_device_8cpp.html" title=" " alt="" coords="1251,824,1441,851"/>
 <area shape="rect" id="node166" href="$_c_h_i_p_device_8h.html" title=" " alt="" coords="1479,735,1655,761"/>
-<area shape="rect" id="node171" href="$_chip_device_controller-_cluster_commands_8cpp.html" title=" " alt="" coords="2065,988,2304,1029"/>
+<area shape="rect" id="node171" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html" title=" " alt="" coords="2078,988,2270,1029"/>
 <area shape="rect" id="node172" href="$_device_network_provisioning_8h.html" title=" " alt="" coords="6557,333,6775,375"/>
 <area shape="rect" id="node173" href="$_config_unit_test_8h.html" title=" " alt="" coords="13380,519,13563,561"/>
 <area shape="rect" id="node174" href="$_c_h_i_p_circular_t_l_v_buffer_8cpp.html" title=" " alt="" coords="2557,251,2799,278"/>
@@ -199,7 +199,7 @@
 <area shape="rect" id="node167" href="$_c_h_i_p_cluster_8h.html" title=" " alt="" coords="1657,824,1833,851"/>
 <area shape="rect" id="node168" href="$_c_h_i_p_cluster_8cpp.html" title=" " alt="" coords="1641,906,1832,933"/>
 <area shape="rect" id="node169" href="$_c_h_i_p_clusters_8h.html" title=" " alt="" coords="1907,906,2091,933"/>
-<area shape="rect" id="node170" href="$_c_h_i_p_clusters_8cpp.html" title=" " alt="" coords="1843,995,2041,1022"/>
+<area shape="rect" id="node170" href="$_c_h_i_p_clusters_8cpp.html" title=" " alt="" coords="1855,995,2053,1022"/>
 <area shape="rect" id="node178" href="$_chip_device_controller-_storage_delegate_8h.html" title=" " alt="" coords="497,333,709,375"/>
 <area shape="rect" id="node179" href="$_chip_device_controller-_storage_delegate_8cpp.html" title=" " alt="" coords="533,423,759,464"/>
 <area shape="rect" id="node180" href="$_admin_pairing_table_8h.html" title=" " alt="" coords="1533,341,1751,367"/>

@@ -1,7 +1,8 @@
 <map id="chip.exceptions.ClusterError" name="chip.exceptions.ClusterError">
-<area shape="rect" id="node1" title=" " alt="" coords="155,169,360,196"/>
-<area shape="rect" id="node4" href="$classchip_1_1exceptions_1_1_unknown_cluster.html" title=" " alt="" coords="5,244,240,271"/>
-<area shape="rect" id="node5" href="$classchip_1_1exceptions_1_1_unknown_command.html" title=" " alt="" coords="264,244,520,271"/>
-<area shape="rect" id="node2" href="$classchip_1_1exceptions_1_1_chip_stack_exception.html" title=" " alt="" coords="161,80,354,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="214,5,301,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="381,56,587,83"/>
+<area shape="rect" id="node4" href="$classchip_1_1exceptions_1_1_unknown_attribute.html" title=" " alt="" coords="639,5,886,32"/>
+<area shape="rect" id="node5" href="$classchip_1_1exceptions_1_1_unknown_cluster.html" title=" " alt="" coords="645,56,880,83"/>
+<area shape="rect" id="node6" href="$classchip_1_1exceptions_1_1_unknown_command.html" title=" " alt="" coords="635,107,891,133"/>
+<area shape="rect" id="node2" href="$classchip_1_1exceptions_1_1_chip_stack_exception.html" title=" " alt="" coords="140,49,333,90"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,56,92,83"/>
 </map>

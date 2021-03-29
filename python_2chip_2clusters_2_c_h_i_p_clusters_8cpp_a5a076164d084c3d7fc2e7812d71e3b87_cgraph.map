@@ -1,0 +1,7 @@
+<map id="chip_ime_ReadAttribute_Scenes_SceneCount" name="chip_ime_ReadAttribute_Scenes_SceneCount">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,184,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_cluster_base.html#a8394ee44c584199389891a9b66a04d1c" title=" " alt="" coords="266,5,441,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_scenes_cluster.html#a4702e8e5a61ba7ed5218faf29c75eba1" title=" " alt="" coords="232,71,475,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_device.html#a5bb0f9c5991f2c0367685c7f15ac6603" title=" " alt="" coords="523,37,721,79"/>
+<area shape="rect" id="node5" href="$classchip_1_1_controller_1_1_cluster_base.html#a12319adc56ada2f3a0f9b5c877b20cb6" title="Send the command, contained into the associate buffer, to the device." alt="" coords="535,103,709,144"/>
+</map>

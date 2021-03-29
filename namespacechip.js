@@ -6,7 +6,6 @@ var namespacechip =
     [ "ChipBleBase", "namespacechip_1_1_chip_ble_base.html", "namespacechip_1_1_chip_ble_base" ],
     [ "ChipBleUtility", "namespacechip_1_1_chip_ble_utility.html", "namespacechip_1_1_chip_ble_utility" ],
     [ "ChipBluezMgr", "namespacechip_1_1_chip_bluez_mgr.html", "namespacechip_1_1_chip_bluez_mgr" ],
-    [ "ChipCluster", "namespacechip_1_1_chip_cluster.html", "namespacechip_1_1_chip_cluster" ],
     [ "ChipCoreBluetoothMgr", "namespacechip_1_1_chip_core_bluetooth_mgr.html", "namespacechip_1_1_chip_core_bluetooth_mgr" ],
     [ "ChipDeviceCtrl", "namespacechip_1_1_chip_device_ctrl.html", "namespacechip_1_1_chip_device_ctrl" ],
     [ "ChipStack", "namespacechip_1_1_chip_stack.html", "namespacechip_1_1_chip_stack" ],

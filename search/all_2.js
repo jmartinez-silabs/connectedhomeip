@@ -149,9 +149,10 @@ var searchData=
   ['asyncsetkeyvalue_356',['AsyncSetKeyValue',['../class_android_device_controller_wrapper.html#adc8b897f48efbfb831bb24bce18eedb9',1,'AndroidDeviceControllerWrapper::AsyncSetKeyValue()'],['../classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#adc49fbbf3d94008e446073334067795f',1,'chip::Controller::PythonPersistentStorageDelegate::AsyncSetKeyValue()'],['../classchip_1_1_persistent_storage_delegate.html#aa0223577b75a9d858a7d74adb5da98d4',1,'chip::PersistentStorageDelegate::AsyncSetKeyValue()']]],
   ['asyncworkfunct_357',['AsyncWorkFunct',['../namespacechip_1_1_device_layer.html#a4536f0203bb21f8661c3fa8aacbf20e4',1,'chip::DeviceLayer']]],
   ['at_358',['At',['../classchip_1_1_static_allocator_bitmap.html#af17202bc88707143a2ad30946002b776',1,'chip::StaticAllocatorBitmap']]],
-  ['avahitimeout_359',['AvahiTimeout',['../struct_avahi_timeout.html',1,'']]],
-  ['avahiwatch_360',['AvahiWatch',['../struct_avahi_watch.html',1,'']]],
-  ['available_361',['Available',['../classchip_1_1_encoding_1_1_buffer_writer.html#abdcd740ea62220b66d57d655bc89d3c2',1,'chip::Encoding::BufferWriter']]],
-  ['availabledatalength_362',['AvailableDataLength',['../classchip_1_1_t_l_v_1_1_c_h_i_p_circular_t_l_v_buffer.html#a7ade792f558863899759cc7418b57955',1,'chip::TLV::CHIPCircularTLVBuffer::AvailableDataLength()'],['../classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f',1,'chip::System::PacketBuffer::AvailableDataLength()']]],
-  ['avalue_363',['aValue',['../_c_h_i_p_device_controller-_j_n_i_8cpp.html#ad31e092b80cd0cc6db34088be2016593',1,'CHIPDeviceController-JNI.cpp']]]
+  ['attribute_359',['attribute',['../classchip_1_1exceptions_1_1_unknown_attribute.html#a7035a51b9c125a84df038c5adebcca9d',1,'chip::exceptions::UnknownAttribute']]],
+  ['avahitimeout_360',['AvahiTimeout',['../struct_avahi_timeout.html',1,'']]],
+  ['avahiwatch_361',['AvahiWatch',['../struct_avahi_watch.html',1,'']]],
+  ['available_362',['Available',['../classchip_1_1_encoding_1_1_buffer_writer.html#abdcd740ea62220b66d57d655bc89d3c2',1,'chip::Encoding::BufferWriter']]],
+  ['availabledatalength_363',['AvailableDataLength',['../classchip_1_1_t_l_v_1_1_c_h_i_p_circular_t_l_v_buffer.html#a7ade792f558863899759cc7418b57955',1,'chip::TLV::CHIPCircularTLVBuffer::AvailableDataLength()'],['../classchip_1_1_system_1_1_packet_buffer.html#a87fcec49262eac0bdcd3fe4ae12fb14f',1,'chip::System::PacketBuffer::AvailableDataLength()']]],
+  ['avalue_364',['aValue',['../_c_h_i_p_device_controller-_j_n_i_8cpp.html#ad31e092b80cd0cc6db34088be2016593',1,'CHIPDeviceController-JNI.cpp']]]
 ];

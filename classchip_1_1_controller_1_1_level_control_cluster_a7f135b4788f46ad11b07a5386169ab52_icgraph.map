@@ -1,5 +1,5 @@
 <map id="chip::Controller::LevelControlCluster::MoveWithOnOff" name="chip::Controller::LevelControlCluster::MoveWithOnOff">
-<area shape="rect" id="node1" title=" " alt="" coords="649,5,860,47"/>
-<area shape="rect" id="node2" href="$_chip_device_controller-_cluster_commands_8cpp.html#ae7f9bd2620ee4b6edbf5792a0a5cff09" title=" " alt="" coords="380,5,601,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_chip_cluster_1_1_chip_cluster.html#af275575ef0a443fa83dd3fa2c415455c" title=" " alt="" coords="5,5,332,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="583,13,793,54"/>
+<area shape="rect" id="node2" href="$python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#ae7f9bd2620ee4b6edbf5792a0a5cff09" title=" " alt="" coords="313,13,535,54"/>
+<area shape="rect" id="node3" href="$class_c_h_i_p_clusters_1_1_chip_clusters.html#a4db0325c85f76deeaf6bdabac0f91f43" title=" " alt="" coords="5,5,265,61"/>
 </map>
