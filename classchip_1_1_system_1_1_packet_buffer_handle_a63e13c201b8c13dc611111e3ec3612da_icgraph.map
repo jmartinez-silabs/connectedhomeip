@@ -1,5 +1,5 @@
 <map id="chip::System::PacketBufferHandle::IsNull" name="chip::System::PacketBufferHandle::IsNull">
-<area shape="rect" id="node1" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="795,528,989,569"/>
+<area shape="rect" id="node1" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="795,561,989,603"/>
 <area shape="rect" id="node2" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#afc5bd9c4127df0de63128717d304e9f1" title="Creates a copy of a packet buffer (or chain)." alt="" coords="531,71,726,112"/>
 <area shape="rect" id="node8" href="$namespacechip_1_1_secure_message_codec.html#a8c74f179b64643d01e43d3ea231ef3b7" title="Decrypt the message, perform message integrity check, and decode the payload header." alt="" coords="529,136,728,177"/>
 <area shape="rect" id="node9" href="$namespacechip_1_1_secure_message_codec.html#ab4b26d118b04e9a3aeecd8ea55c82b72" title="Attach payload header to the message and encrypt the message buffer using key from the connection sta..." alt="" coords="529,201,728,243"/>
@@ -8,19 +8,20 @@
 <area shape="rect" id="node12" href="$classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="529,397,728,439"/>
 <area shape="rect" id="node13" href="$classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="529,463,729,504"/>
 <area shape="rect" id="node14" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="531,528,726,569"/>
-<area shape="rect" id="node15" href="$classmdns_1_1_minimal_1_1_response_builder.html#a0782a62e34b5f6e8b95b9a9b23886e7d" title=" " alt="" coords="511,593,747,635"/>
-<area shape="rect" id="node17" href="$classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#a841a45805e9e5cb3448bb4b05b5f65c8" title="Test whether this PacketBufferWriter is null, or conversely owns a PacketBuffer." alt="" coords="526,659,731,700"/>
-<area shape="rect" id="node18" href="$classchip_1_1_ble_1_1_btp_engine.html#aa04d8fe64bc816fe0f5d7ea87bfd1941" title=" " alt="" coords="553,724,705,765"/>
-<area shape="rect" id="node20" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a2dcd357c2c6f986f4f8d30fa53b4360c" title="Extract the length of the unacknowledged receive data." alt="" coords="539,789,718,831"/>
-<area shape="rect" id="node21" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77" title="Extract the length of the data awaiting first transmit." alt="" coords="543,855,714,896"/>
-<area shape="rect" id="node22" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e" title="Send message text on TCP connection." alt="" coords="543,920,714,961"/>
-<area shape="rect" id="node24" href="$classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="521,986,737,1042"/>
+<area shape="rect" id="node15" href="$classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091" title="Call when a GATT write request is received." alt="" coords="543,593,714,635"/>
+<area shape="rect" id="node16" href="$classmdns_1_1_minimal_1_1_response_builder.html#a0782a62e34b5f6e8b95b9a9b23886e7d" title=" " alt="" coords="511,659,747,700"/>
+<area shape="rect" id="node18" href="$classchip_1_1_encoding_1_1_packet_buffer_writer_base.html#a841a45805e9e5cb3448bb4b05b5f65c8" title="Test whether this PacketBufferWriter is null, or conversely owns a PacketBuffer." alt="" coords="526,724,731,765"/>
+<area shape="rect" id="node19" href="$classchip_1_1_ble_1_1_btp_engine.html#aa04d8fe64bc816fe0f5d7ea87bfd1941" title=" " alt="" coords="553,789,705,831"/>
+<area shape="rect" id="node21" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a2dcd357c2c6f986f4f8d30fa53b4360c" title="Extract the length of the unacknowledged receive data." alt="" coords="539,855,718,896"/>
+<area shape="rect" id="node22" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#ac0d3231cba15727598114bf158275d77" title="Extract the length of the data awaiting first transmit." alt="" coords="543,920,714,961"/>
+<area shape="rect" id="node23" href="$classchip_1_1_inet_1_1_t_c_p_end_point.html#a0e9050166dc324018dbb5c564380cb7e" title="Send message text on TCP connection." alt="" coords="543,985,714,1027"/>
+<area shape="rect" id="node25" href="$classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="521,1051,737,1107"/>
 <area shape="rect" id="node3" href="$classmdns_1_1_minimal_1_1_server_base.html#a715c3c0f8f84677c4b550c0ecbbd04ac" title="Send a specific packet broadcast to a specific interface." alt="" coords="245,5,446,47"/>
 <area shape="rect" id="node4" href="$classchip_1_1_encrypted_packet_buffer_handle.html#aa1402dfd37ae9d2460a14ed2b7981405" title="Creates a copy of the data in this packet." alt="" coords="244,71,447,112"/>
 <area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#abb42a38f5e0cb7d26f013a63032eca18" title="Send a UDP message to a specified destination." alt="" coords="258,136,433,177"/>
 <area shape="rect" id="node6" href="$classchip_1_1_transport_1_1_u_d_p.html#ac103028dea48b3b17323e5b6cd5a27ac" title="Send a message to the specified target." alt="" coords="16,103,169,144"/>
 <area shape="rect" id="node7" href="$classchip_1_1_inet_1_1_u_d_p_end_point.html#a2339161f021bc5c4f11d334fc8d89256" title="Send a UDP message to the specified destination address." alt="" coords="5,168,180,209"/>
-<area shape="rect" id="node16" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="228,593,463,635"/>
-<area shape="rect" id="node19" href="$classchip_1_1_ble_1_1_btp_engine.html#aa07b884deec572542047c062a42885bd" title=" " alt="" coords="269,724,421,765"/>
-<area shape="rect" id="node23" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="255,920,436,961"/>
+<area shape="rect" id="node17" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="228,659,463,700"/>
+<area shape="rect" id="node20" href="$classchip_1_1_ble_1_1_btp_engine.html#aa07b884deec572542047c062a42885bd" title=" " alt="" coords="269,789,421,831"/>
+<area shape="rect" id="node24" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="255,985,436,1027"/>
 </map>

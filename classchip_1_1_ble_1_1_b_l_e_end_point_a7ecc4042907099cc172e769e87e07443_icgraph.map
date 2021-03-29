@@ -1,0 +1,5 @@
+<map id="chip::Ble::BLEEndPoint::Receive" name="chip::Ble::BLEEndPoint::Receive">
+<area shape="rect" id="node1" title=" " alt="" coords="253,39,420,80"/>
+<area shape="rect" id="node2" href="$classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091" title="Call when a GATT write request is received." alt="" coords="20,71,191,112"/>
+</map>

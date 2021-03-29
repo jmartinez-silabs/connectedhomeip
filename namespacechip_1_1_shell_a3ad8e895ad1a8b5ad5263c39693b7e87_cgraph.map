@@ -1,9 +1,8 @@
 <map id="chip::Shell::shell_line_read" name="chip::Shell::shell_line_read">
-<area shape="rect" id="node1" title=" " alt="" coords="5,78,133,119"/>
-<area shape="rect" id="node2" href="$namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562" title=" " alt="" coords="234,5,321,32"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_shell.html#ac0d640c8d3a5a83294803c8ac78d3d17" title=" " alt="" coords="185,56,369,83"/>
-<area shape="rect" id="node4" href="$namespacechip_1_1_shell.html#adcf50b495c23f82e9076b047a8984909" title=" " alt="" coords="199,107,355,149"/>
-<area shape="rect" id="node7" href="$namespacechip_1_1_shell.html#a263a8c192614e7c19b678fa057295c91" title=" " alt="" coords="181,173,373,200"/>
-<area shape="rect" id="node5" href="$namespacechip_1_1_shell.html#ae733b1154802be58fa3d9d715e0a098c" title=" " alt="" coords="421,107,577,149"/>
-<area shape="rect" id="node6" href="$namespacechip_1_1_shell.html#af021369dde292b24491f7895a39c53e7" title=" " alt="" coords="625,107,781,149"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,57,133,98"/>
+<area shape="rect" id="node2" href="$namespacechip_1_1_shell.html#ac0d640c8d3a5a83294803c8ac78d3d17" title=" " alt="" coords="185,5,369,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_shell.html#adcf50b495c23f82e9076b047a8984909" title=" " alt="" coords="199,57,355,98"/>
+<area shape="rect" id="node6" href="$namespacechip_1_1_shell.html#a263a8c192614e7c19b678fa057295c91" title=" " alt="" coords="181,123,373,149"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_shell.html#ae733b1154802be58fa3d9d715e0a098c" title=" " alt="" coords="421,57,577,98"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_shell.html#af021369dde292b24491f7895a39c53e7" title=" " alt="" coords="625,57,781,98"/>
 </map>

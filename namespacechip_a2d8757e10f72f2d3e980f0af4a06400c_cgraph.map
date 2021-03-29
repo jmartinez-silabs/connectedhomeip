@@ -1,8 +1,7 @@
 <map id="chip::AdjustCalendarDate" name="chip::AdjustCalendarDate">
-<area shape="rect" id="node1" title=" " alt="" coords="5,46,192,73"/>
-<area shape="rect" id="node2" href="$namespacechip.html#ac50f721a5decfa5e45fd488cc1e146f5" title=" " alt="" coords="277,8,470,49"/>
-<area shape="rect" id="node4" href="$namespacechip.html#a15a4cf36fc87a7c69af5f0e3ac76b622" title=" " alt="" coords="240,75,507,102"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,42,192,69"/>
+<area shape="rect" id="node2" href="$namespacechip.html#ac50f721a5decfa5e45fd488cc1e146f5" title=" " alt="" coords="277,5,470,47"/>
+<area shape="rect" id="node4" href="$namespacechip.html#a15a4cf36fc87a7c69af5f0e3ac76b622" title=" " alt="" coords="240,71,507,98"/>
 <area shape="rect" id="node3" href="$namespacechip.html#ad7141c66fd1e2b3f562588d02a865085" title=" " alt="" coords="555,5,773,47"/>
 <area shape="rect" id="node5" href="$namespacechip.html#ac64dc76d077901bc2ea4b9fb0adf7229" title=" " alt="" coords="561,71,767,112"/>
-<area shape="rect" id="node6" href="$namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562" title=" " alt="" coords="621,137,707,163"/>
 </map>

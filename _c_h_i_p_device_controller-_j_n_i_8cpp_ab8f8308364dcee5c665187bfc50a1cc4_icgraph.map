@@ -1,5 +1,5 @@
 <map id="Controller" name="Controller">
-<area shape="rect" id="node1" title=" " alt="" coords="663,456,749,483"/>
+<area shape="rect" id="node1" title=" " alt="" coords="663,481,749,508"/>
 <area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_python_persistent_storage_delegate.html#adc49fbbf3d94008e446073334067795f" title="Set the value for the key to a null terminated string." alt="" coords="383,5,579,61"/>
 <area shape="rect" id="node3" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a220d1126bb0b49396972c11abaac7d1c" title=" " alt="" coords="421,85,542,112"/>
 <area shape="rect" id="node4" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8ef26795c5eaef55bcb9734d82b3332f" title=" " alt="" coords="393,136,570,163"/>
@@ -13,9 +13,10 @@
 <area shape="rect" id="node12" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#aac186441c8ba05258b9e1ee3e8e669f8" title=" " alt="" coords="433,557,529,584"/>
 <area shape="rect" id="node13" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a8370c1f335b25ac9cdfc9a9225d2d131" title=" " alt="" coords="426,608,537,635"/>
 <area shape="rect" id="node14" href="$classchip_1_1_controller_1_1_script_device_pairing_delegate.html#ac9edd44e9ad7db38d9628cc83bdc3f1e" title="Called when the operational credentials are needed for the remote device." alt="" coords="348,659,615,715"/>
-<area shape="rect" id="node15" href="$_commissioner_impl_8cpp.html#ae6d2577f8fac9540210ead1a1567d41f" title=" " alt="" coords="352,739,611,765"/>
-<area shape="rect" id="node16" href="$_commissioner_impl_8cpp.html#aac1170bc609276f14f910a7d678e2c88" title=" " alt="" coords="365,790,597,831"/>
-<area shape="rect" id="node18" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#aa8379252184789b008fd3fc21d80b8b9" title=" " alt="" coords="433,856,529,883"/>
-<area shape="rect" id="node19" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac303354bfa95266f9761161488814860" title=" " alt="" coords="449,907,513,933"/>
-<area shape="rect" id="node17" href="$classchip_1_1internal_1_1commissioner_1_1_commissioner.html#ac6df983a88c55ce18c9bd5b5f33099f0" title=" " alt="" coords="5,790,300,831"/>
+<area shape="rect" id="node15" href="$classchip_1_1_controller_1_1_device_commissioner.html#a86dae0f1207231535653ed9c42394045" title=" " alt="" coords="350,739,613,795"/>
+<area shape="rect" id="node16" href="$_commissioner_impl_8cpp.html#ae6d2577f8fac9540210ead1a1567d41f" title=" " alt="" coords="352,819,611,845"/>
+<area shape="rect" id="node17" href="$_commissioner_impl_8cpp.html#aac1170bc609276f14f910a7d678e2c88" title=" " alt="" coords="365,870,597,911"/>
+<area shape="rect" id="node19" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#aa8379252184789b008fd3fc21d80b8b9" title=" " alt="" coords="433,936,529,963"/>
+<area shape="rect" id="node20" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ac303354bfa95266f9761161488814860" title=" " alt="" coords="449,987,513,1013"/>
+<area shape="rect" id="node18" href="$classchip_1_1internal_1_1commissioner_1_1_commissioner.html#ac6df983a88c55ce18c9bd5b5f33099f0" title=" " alt="" coords="5,870,300,911"/>
 </map>

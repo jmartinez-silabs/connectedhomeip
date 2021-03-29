@@ -1,85 +1,79 @@
 <map id="platform/nrfconnect/DeviceNetworkProvisioningDelegateImpl.cpp" name="platform/nrfconnect/DeviceNetworkProvisioningDelegateImpl.cpp">
-<area shape="rect" id="node1" title=" " alt="" coords="1843,5,2050,61"/>
-<area shape="rect" id="node2" href="$nrfconnect_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="1845,109,2048,151"/>
-<area shape="rect" id="node3" href="$_generic_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="1816,199,2077,255"/>
-<area shape="rect" id="node4" href="$_c_h_i_p_device_layer_internal_8h.html" title=" " alt="" coords="1770,303,1982,344"/>
-<area shape="rect" id="node82" href="$_device_network_provisioning_8h.html" title=" " alt="" coords="2054,392,2269,419"/>
-<area shape="rect" id="node5" href="$_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="1632,392,1837,419"/>
-<area shape="rect" id="node6" href="$_c_h_i_p_device_config_8h.html" title=" " alt="" coords="1000,541,1211,568"/>
-<area shape="rect" id="node12" href="$_ble_layer_8h.html" title=" " alt="" coords="1607,541,1721,568"/>
-<area shape="rect" id="node53" href="$_c_h_i_p_core_8h.html" title=" " alt="" coords="2098,467,2225,493"/>
-<area shape="rect" id="node70" href="$_c_h_i_p_device_error_8h.html" title=" " alt="" coords="1635,467,1835,493"/>
-<area shape="rect" id="node71" href="$_configuration_manager_8h.html" title=" " alt="" coords="537,765,775,792"/>
-<area shape="rect" id="node75" href="$_connectivity_manager_8h.html" title=" " alt="" coords="693,541,925,568"/>
-<area shape="rect" id="node76" href="$_general_utils_8h.html" title=" " alt="" coords="3239,467,3414,493"/>
-<area shape="rect" id="node78" href="$_platform_manager_8h.html" title=" " alt="" coords="1235,541,1442,568"/>
-<area shape="rect" id="node80" href="$_system_clock_8h.html" title=" " alt="" coords="4472,847,4643,874"/>
-<area shape="rect" id="node81" href="$_time_sync_manager_8h.html" title=" " alt="" coords="1859,467,2074,493"/>
-<area shape="rect" id="node7" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="1323,1004,1461,1031"/>
-<area shape="rect" id="node8" href="$_ble_config_8h.html" title=" " alt="" coords="1747,1079,1867,1105"/>
-<area shape="rect" id="node9" href="$_system_config_8h.html" title=" " alt="" coords="4756,1153,4932,1180"/>
-<area shape="rect" id="node10" title=" " alt="" coords="1771,1228,1842,1255"/>
-<area shape="rect" id="node11" title=" " alt="" coords="4718,1228,4805,1255"/>
-<area shape="rect" id="node13" href="$_system_layer_8h.html" title=" " alt="" coords="4656,765,4827,792"/>
-<area shape="rect" id="node28" href="$_system_packet_buffer_8h.html" title=" " alt="" coords="2161,765,2375,792"/>
-<area shape="rect" id="node43" href="$ble_2_ble_application_delegate_8h.html" title=" " alt="" coords="1996,929,2207,956"/>
-<area shape="rect" id="node44" href="$ble_2_ble_connection_delegate_8h.html" title=" " alt="" coords="1607,691,1817,717"/>
-<area shape="rect" id="node45" href="$_ble_error_8h.html" title=" " alt="" coords="1609,765,1719,792"/>
-<area shape="rect" id="node46" href="$ble_2_ble_platform_delegate_8h.html" title=" " alt="" coords="2124,691,2319,717"/>
-<area shape="rect" id="node47" href="$_ble_u_u_i_d_8h.html" title=" " alt="" coords="1218,765,1331,792"/>
-<area shape="rect" id="node48" href="$_b_l_e_end_point_8h.html" title=" " alt="" coords="1607,616,1721,643"/>
-<area shape="rect" id="node14" href="$_c_h_i_p_callback_8h.html" title=" " alt="" coords="4718,847,4871,874"/>
-<area shape="rect" id="node16" href="$_d_l_l_util_8h.html" title=" " alt="" coords="3073,1004,3207,1031"/>
-<area shape="rect" id="node17" href="$_system_error_8h.html" title=" " alt="" coords="4712,929,4877,956"/>
-<area shape="rect" id="node19" href="$_system_event_8h.html" title=" " alt="" coords="5854,847,6026,874"/>
-<area shape="rect" id="node20" href="$_system_object_8h.html" title=" " alt="" coords="4270,847,4447,874"/>
-<area shape="rect" id="node26" href="$_system_wake_event_8h.html" title=" " alt="" coords="5521,847,5727,874"/>
-<area shape="rect" id="node27" title=" " alt="" coords="5397,847,5496,874"/>
-<area shape="rect" id="node15" title=" " alt="" coords="4363,929,4437,956"/>
-<area shape="rect" id="node18" title=" " alt="" coords="4724,1004,4807,1031"/>
-<area shape="rect" id="node21" title=" " alt="" coords="4563,929,4637,956"/>
-<area shape="rect" id="node22" href="$_system_stats_8h.html" title=" " alt="" coords="4019,929,4187,956"/>
-<area shape="rect" id="node23" href="$_inet_config_8h.html" title=" " alt="" coords="5198,1004,5327,1031"/>
-<area shape="rect" id="node24" title=" " alt="" coords="3451,1004,3549,1031"/>
-<area shape="rect" id="node25" title=" " alt="" coords="3801,1004,3895,1031"/>
-<area shape="rect" id="node29" href="$_buffer_writer_8h.html" title=" " alt="" coords="1135,847,1300,874"/>
-<area shape="rect" id="node32" href="$_code_utils_8h.html" title=" " alt="" coords="899,847,1050,874"/>
-<area shape="rect" id="node40" href="$_system_align_size_8h.html" title=" " alt="" coords="1996,847,2191,874"/>
-<area shape="rect" id="node41" title=" " alt="" coords="1658,929,1718,956"/>
-<area shape="rect" id="node42" title=" " alt="" coords="2215,847,2321,874"/>
-<area shape="rect" id="node30" title=" " alt="" coords="779,929,845,956"/>
-<area shape="rect" id="node31" title=" " alt="" coords="1410,929,1481,956"/>
-<area shape="rect" id="node33" href="$_c_h_i_p_error_8h.html" title=" " alt="" coords="627,929,754,956"/>
-<area shape="rect" id="node34" href="$_error_str_8h.html" title=" " alt="" coords="1149,929,1283,956"/>
-<area shape="rect" id="node35" href="$_c_h_i_p_logging_8h.html" title=" " alt="" coords="280,929,501,956"/>
-<area shape="rect" id="node39" title=" " alt="" coords="870,929,957,956"/>
-<area shape="rect" id="node36" href="$_log_v_8h.html" title=" " alt="" coords="177,1004,353,1031"/>
-<area shape="rect" id="node37" title=" " alt="" coords="165,1079,240,1105"/>
-<area shape="rect" id="node38" href="$support_2logging_2_constants_8h.html" title=" " alt="" coords="429,1004,633,1031"/>
-<area shape="rect" id="node49" href="$_system_mutex_8h.html" title=" " alt="" coords="3867,847,4043,874"/>
-<area shape="rect" id="node50" href="$_btp_engine_8h.html" title=" " alt="" coords="1407,691,1531,717"/>
-<area shape="rect" id="node51" href="$_bit_flags_8h.html" title=" " alt="" coords="1477,847,1617,874"/>
-<area shape="rect" id="node52" title=" " alt="" coords="1033,929,1125,956"/>
-<area shape="rect" id="node54" href="$_inet_layer_8h.html" title=" " alt="" coords="4060,691,4183,717"/>
-<area shape="rect" id="node55" href="$_i_a_n_a_constants_8h.html" title=" " alt="" coords="3480,929,3640,956"/>
-<area shape="rect" id="node56" href="$_i_p_address_8h.html" title=" " alt="" coords="3173,847,3299,874"/>
-<area shape="rect" id="node64" href="$_i_p_prefix_8h.html" title=" " alt="" coords="3319,765,3431,792"/>
-<area shape="rect" id="node65" href="$_inet_error_8h.html" title=" " alt="" coords="5203,847,5322,874"/>
-<area shape="rect" id="node66" href="$_inet_interface_8h.html" title=" " alt="" coords="3505,765,3652,792"/>
-<area shape="rect" id="node68" href="$_inet_layer_basis_8h.html" title=" " alt="" coords="4250,765,4409,792"/>
-<area shape="rect" id="node69" href="$_inet_layer_events_8h.html" title=" " alt="" coords="5651,765,5819,792"/>
-<area shape="rect" id="node57" title=" " alt="" coords="3318,929,3405,956"/>
-<area shape="rect" id="node58" title=" " alt="" coords="2585,929,2697,956"/>
-<area shape="rect" id="node59" title=" " alt="" coords="2721,929,2841,956"/>
-<area shape="rect" id="node60" title=" " alt="" coords="2865,929,2956,956"/>
-<area shape="rect" id="node61" title=" " alt="" coords="2980,929,3047,956"/>
-<area shape="rect" id="node62" title=" " alt="" coords="3071,929,3167,956"/>
-<area shape="rect" id="node63" title=" " alt="" coords="3191,929,3294,956"/>
-<area shape="rect" id="node67" title=" " alt="" coords="3545,847,3639,874"/>
-<area shape="rect" id="node72" title=" " alt="" coords="93,929,160,956"/>
-<area shape="rect" id="node73" href="$_persisted_storage_8h.html" title="API function declarations for reading from and writing to persistent storage. Platforms will be respo..." alt="" coords="577,847,781,874"/>
-<area shape="rect" id="node74" title=" " alt="" coords="185,929,255,956"/>
-<area shape="rect" id="node77" href="$_inet_8h.html" title=" " alt="" coords="4200,616,4288,643"/>
-<area shape="rect" id="node79" href="$_c_h_i_p_device_event_8h.html" title=" " alt="" coords="1842,691,2049,717"/>
-<area shape="rect" id="node83" href="$_device_network_info_8h.html" title=" " alt="" coords="4947,840,5128,881"/>
+<area shape="rect" id="node1" title=" " alt="" coords="2578,5,2785,61"/>
+<area shape="rect" id="node2" href="$nrfconnect_2_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="2580,109,2783,151"/>
+<area shape="rect" id="node3" href="$_generic_device_network_provisioning_delegate_impl_8h.html" title=" " alt="" coords="2551,199,2812,255"/>
+<area shape="rect" id="node4" href="$_c_h_i_p_device_layer_internal_8h.html" title=" " alt="" coords="2505,303,2717,344"/>
+<area shape="rect" id="node76" href="$_device_network_provisioning_8h.html" title=" " alt="" coords="3345,467,3559,493"/>
+<area shape="rect" id="node5" href="$_c_h_i_p_device_layer_8h.html" title=" " alt="" coords="1765,392,1971,419"/>
+<area shape="rect" id="node6" href="$_c_h_i_p_device_config_8h.html" title=" " alt="" coords="1147,541,1357,568"/>
+<area shape="rect" id="node12" href="$_ble_layer_8h.html" title=" " alt="" coords="1395,616,1509,643"/>
+<area shape="rect" id="node46" href="$_c_h_i_p_core_8h.html" title=" " alt="" coords="2079,541,2206,568"/>
+<area shape="rect" id="node64" href="$_c_h_i_p_device_error_8h.html" title=" " alt="" coords="1484,467,1684,493"/>
+<area shape="rect" id="node65" href="$_configuration_manager_8h.html" title=" " alt="" coords="77,691,315,717"/>
+<area shape="rect" id="node69" href="$_connectivity_manager_8h.html" title=" " alt="" coords="544,616,776,643"/>
+<area shape="rect" id="node70" href="$_general_utils_8h.html" title=" " alt="" coords="3955,467,4130,493"/>
+<area shape="rect" id="node72" href="$_platform_manager_8h.html" title=" " alt="" coords="1810,541,2017,568"/>
+<area shape="rect" id="node74" href="$_system_clock_8h.html" title=" " alt="" coords="3293,847,3464,874"/>
+<area shape="rect" id="node75" href="$_time_sync_manager_8h.html" title=" " alt="" coords="1957,467,2171,493"/>
+<area shape="rect" id="node7" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="1075,929,1213,956"/>
+<area shape="rect" id="node8" href="$_ble_config_8h.html" title=" " alt="" coords="1329,1004,1449,1031"/>
+<area shape="rect" id="node9" href="$_system_config_8h.html" title=" " alt="" coords="3293,1079,3469,1105"/>
+<area shape="rect" id="node10" title=" " alt="" coords="1161,1153,1231,1180"/>
+<area shape="rect" id="node11" title=" " alt="" coords="3842,1153,3929,1180"/>
+<area shape="rect" id="node13" href="$_system_layer_8h.html" title=" " alt="" coords="2969,691,3140,717"/>
+<area shape="rect" id="node28" href="$_system_packet_buffer_8h.html" title=" " alt="" coords="1542,847,1757,874"/>
+<area shape="rect" id="node36" href="$ble_2_ble_application_delegate_8h.html" title=" " alt="" coords="1933,847,2144,874"/>
+<area shape="rect" id="node37" href="$ble_2_ble_connection_delegate_8h.html" title=" " alt="" coords="1204,765,1415,792"/>
+<area shape="rect" id="node38" href="$_ble_error_8h.html" title=" " alt="" coords="1155,847,1264,874"/>
+<area shape="rect" id="node39" href="$ble_2_ble_platform_delegate_8h.html" title=" " alt="" coords="1540,765,1735,792"/>
+<area shape="rect" id="node40" href="$_ble_u_u_i_d_8h.html" title=" " alt="" coords="395,847,509,874"/>
+<area shape="rect" id="node41" href="$_b_l_e_end_point_8h.html" title=" " alt="" coords="1300,691,1415,717"/>
+<area shape="rect" id="node14" href="$_c_h_i_p_callback_8h.html" title=" " alt="" coords="2219,847,2373,874"/>
+<area shape="rect" id="node16" href="$_d_l_l_util_8h.html" title=" " alt="" coords="2689,929,2823,956"/>
+<area shape="rect" id="node17" href="$_system_error_8h.html" title=" " alt="" coords="3173,929,3339,956"/>
+<area shape="rect" id="node19" href="$_system_event_8h.html" title=" " alt="" coords="4398,765,4570,792"/>
+<area shape="rect" id="node20" href="$_system_object_8h.html" title=" " alt="" coords="2966,765,3143,792"/>
+<area shape="rect" id="node26" href="$_system_wake_event_8h.html" title=" " alt="" coords="3489,847,3695,874"/>
+<area shape="rect" id="node27" title=" " alt="" coords="2741,765,2840,792"/>
+<area shape="rect" id="node15" title=" " alt="" coords="3829,929,3904,956"/>
+<area shape="rect" id="node18" title=" " alt="" coords="3211,1004,3293,1031"/>
+<area shape="rect" id="node21" title=" " alt="" coords="2843,847,2917,874"/>
+<area shape="rect" id="node22" href="$_system_stats_8h.html" title=" " alt="" coords="2397,847,2565,874"/>
+<area shape="rect" id="node23" href="$_inet_config_8h.html" title=" " alt="" coords="4374,929,4503,956"/>
+<area shape="rect" id="node24" title=" " alt="" coords="2059,929,2157,956"/>
+<area shape="rect" id="node25" title=" " alt="" coords="1941,929,2035,956"/>
+<area shape="rect" id="node29" href="$_buffer_writer_8h.html" title=" " alt="" coords="547,929,712,956"/>
+<area shape="rect" id="node32" href="$_code_utils_8h.html" title=" " alt="" coords="371,929,522,956"/>
+<area shape="rect" id="node33" href="$_system_align_size_8h.html" title=" " alt="" coords="1541,929,1736,956"/>
+<area shape="rect" id="node34" title=" " alt="" coords="838,929,898,956"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1760,929,1867,956"/>
+<area shape="rect" id="node30" title=" " alt="" coords="243,1004,309,1031"/>
+<area shape="rect" id="node31" title=" " alt="" coords="679,1004,750,1031"/>
+<area shape="rect" id="node42" href="$_system_mutex_8h.html" title=" " alt="" coords="2992,847,3168,874"/>
+<area shape="rect" id="node43" href="$_btp_engine_8h.html" title=" " alt="" coords="1005,765,1129,792"/>
+<area shape="rect" id="node44" href="$_bit_flags_8h.html" title=" " alt="" coords="585,847,725,874"/>
+<area shape="rect" id="node45" title=" " alt="" coords="70,929,162,956"/>
+<area shape="rect" id="node47" href="$_inet_layer_8h.html" title=" " alt="" coords="3977,616,4100,643"/>
+<area shape="rect" id="node63" href="$_c_h_i_p_error_8h.html" title=" " alt="" coords="801,847,927,874"/>
+<area shape="rect" id="node48" href="$_i_a_n_a_constants_8h.html" title=" " alt="" coords="4528,929,4688,956"/>
+<area shape="rect" id="node49" href="$_i_p_address_8h.html" title=" " alt="" coords="4798,847,4925,874"/>
+<area shape="rect" id="node57" href="$_i_p_prefix_8h.html" title=" " alt="" coords="4797,691,4909,717"/>
+<area shape="rect" id="node58" href="$_inet_error_8h.html" title=" " alt="" coords="4078,847,4197,874"/>
+<area shape="rect" id="node59" href="$_inet_interface_8h.html" title=" " alt="" coords="4176,765,4323,792"/>
+<area shape="rect" id="node61" href="$_inet_layer_basis_8h.html" title=" " alt="" coords="2749,691,2907,717"/>
+<area shape="rect" id="node62" href="$_inet_layer_events_8h.html" title=" " alt="" coords="4453,691,4621,717"/>
+<area shape="rect" id="node50" title=" " alt="" coords="4763,929,4850,956"/>
+<area shape="rect" id="node51" title=" " alt="" coords="4875,929,4987,956"/>
+<area shape="rect" id="node52" title=" " alt="" coords="5011,929,5131,956"/>
+<area shape="rect" id="node53" title=" " alt="" coords="5155,929,5245,956"/>
+<area shape="rect" id="node54" title=" " alt="" coords="5269,929,5336,956"/>
+<area shape="rect" id="node55" title=" " alt="" coords="5360,929,5456,956"/>
+<area shape="rect" id="node56" title=" " alt="" coords="5481,929,5583,956"/>
+<area shape="rect" id="node60" title=" " alt="" coords="4323,847,4418,874"/>
+<area shape="rect" id="node66" title=" " alt="" coords="5,847,72,874"/>
+<area shape="rect" id="node67" href="$_persisted_storage_8h.html" title="API function declarations for reading from and writing to persistent storage. Platforms will be respo..." alt="" coords="94,765,298,792"/>
+<area shape="rect" id="node68" title=" " alt="" coords="147,847,218,874"/>
+<area shape="rect" id="node71" href="$_inet_8h.html" title=" " alt="" coords="4415,541,4503,568"/>
+<area shape="rect" id="node73" href="$_c_h_i_p_device_event_8h.html" title=" " alt="" coords="1810,765,2017,792"/>
+<area shape="rect" id="node77" href="$_device_network_info_8h.html" title=" " alt="" coords="3872,840,4053,881"/>
 </map>

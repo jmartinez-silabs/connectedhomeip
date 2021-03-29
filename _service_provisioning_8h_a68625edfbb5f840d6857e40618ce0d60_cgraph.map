@@ -1,9 +1,8 @@
 <map id="SetWiFiStationProvisioning" name="SetWiFiStationProvisioning">
-<area shape="rect" id="node1" title=" " alt="" coords="5,122,203,149"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,203,123"/>
 <area shape="rect" id="node2" href="$namespacechip_1_1_device_layer.html#ae3364f4ad1379eb7fb38490e701307e6" title="Returns a reference to the public interface of the ConnectivityManager singleton object." alt="" coords="258,5,405,47"/>
 <area shape="rect" id="node3" href="$namespacechip.html#ae43b53bef8897cb48d4b8173e5c01b09" title="This routine returns a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="278,71,385,98"/>
 <area shape="rect" id="node5" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="292,122,371,149"/>
-<area shape="rect" id="node6" href="$namespacechip.html#a5b9c196fdd524001f536e328b47e04fa" title=" " alt="" coords="290,173,373,199"/>
-<area shape="rect" id="node7" href="$classchip_1_1_device_layer_1_1_connectivity_manager.html#a5331b990a2cf17ffeccd22aa6f55dea5" title=" " alt="" coords="251,223,412,279"/>
+<area shape="rect" id="node6" href="$classchip_1_1_device_layer_1_1_connectivity_manager.html#a5331b990a2cf17ffeccd22aa6f55dea5" title=" " alt="" coords="251,173,412,229"/>
 <area shape="rect" id="node4" href="$namespacechip.html#a94dcfc9993bc165d7620d8bbfa93724e" title="Generates a human&#45;readable NULL&#45;terminated C string describing the provided error." alt="" coords="460,71,595,98"/>
 </map>

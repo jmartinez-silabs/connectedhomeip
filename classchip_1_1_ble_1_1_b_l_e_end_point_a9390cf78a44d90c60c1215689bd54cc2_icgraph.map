@@ -1,6 +1,8 @@
 <map id="chip::Ble::BLEEndPoint::IsUnsubscribePending" name="chip::Ble::BLEEndPoint::IsUnsubscribePending">
-<area shape="rect" id="node1" title=" " alt="" coords="233,71,407,112"/>
-<area shape="rect" id="node2" href="$classchip_1_1_ble_1_1_ble_layer.html#a8a7234d27e593ec1f10f27149692ed2c" title=" " alt="" coords="5,5,185,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_b_l_e_end_point.html#a7ecc4042907099cc172e769e87e07443" title=" " alt="" coords="12,71,179,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_ble_1_1_ble_layer.html#ae69a3f0cbf03a3605e254900607b1b17" title=" " alt="" coords="24,136,167,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="481,71,655,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_ble_1_1_ble_layer.html#a8a7234d27e593ec1f10f27149692ed2c" title=" " alt="" coords="253,5,433,47"/>
+<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_b_l_e_end_point.html#a7ecc4042907099cc172e769e87e07443" title=" " alt="" coords="260,71,427,112"/>
+<area shape="rect" id="node6" href="$classchip_1_1_ble_1_1_ble_layer.html#ae69a3f0cbf03a3605e254900607b1b17" title=" " alt="" coords="272,136,415,177"/>
+<area shape="rect" id="node4" href="$classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="5,39,205,80"/>
+<area shape="rect" id="node5" href="$classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091" title="Call when a GATT write request is received." alt="" coords="20,104,191,145"/>
 </map>

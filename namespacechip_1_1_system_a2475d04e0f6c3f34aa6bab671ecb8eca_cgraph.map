@@ -1,4 +1,0 @@
-<map id="chip::System::MapErrorLwIP" name="chip::System::MapErrorLwIP">
-<area shape="rect" id="node1" title="This implements a mapping function for CHIP System Layer errors that allows mapping underlying LwIP n..." alt="" coords="5,5,208,32"/>
-<area shape="rect" id="node2" href="$namespacechip.html#a5b9c196fdd524001f536e328b47e04fa" title=" " alt="" coords="256,5,339,32"/>
-</map>

@@ -1,6 +1,7 @@
 <map id="chip::Mdns::OnRegister" name="chip::Mdns::OnRegister">
-<area shape="rect" id="node1" title=" " alt="" coords="5,70,177,97"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,95,177,122"/>
 <area shape="rect" id="node2" href="$namespacechip_1_1_mdns.html#a55a7be50a09fc35c35117aca11cd3328" title=" " alt="" coords="225,70,437,97"/>
+<area shape="rect" id="node8" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a98de22b97646ac76043111b78b7ef1ae" title=" " alt="" coords="273,121,390,147"/>
 <area shape="rect" id="node3" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="727,41,891,67"/>
 <area shape="rect" id="node5" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="485,29,679,71"/>
 <area shape="rect" id="node6" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aabe2ceaa8f4773f7ac8a0a6a7b6e3a8d" title=" " alt="" coords="485,95,679,136"/>

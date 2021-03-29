@@ -1,11 +1,12 @@
 <map id="chip::Mdns::Register" name="chip::Mdns::Register">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,160,122"/>
-<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aaf7d2a339aece5a95a73a385ac95cf29" title=" " alt="" coords="208,19,435,46"/>
-<area shape="rect" id="node3" href="$namespacechip_1_1_mdns.html#a55a7be50a09fc35c35117aca11cd3328" title=" " alt="" coords="483,88,695,115"/>
-<area shape="rect" id="node6" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="743,164,936,205"/>
-<area shape="rect" id="node9" href="$namespacechip_1_1_mdns.html#a1db2cbb762dd5e1a7fc72903e4a3db32" title=" " alt="" coords="235,120,407,147"/>
-<area shape="rect" id="node4" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="984,11,1148,38"/>
-<area shape="rect" id="node7" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aabe2ceaa8f4773f7ac8a0a6a7b6e3a8d" title=" " alt="" coords="743,33,936,74"/>
-<area shape="rect" id="node8" href="$namespacechip_1_1_mdns_1_1_error.html#abd9ea74d7a0d255d32c5937215d0a346" title=" " alt="" coords="770,98,909,140"/>
-<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="1196,11,1399,38"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,160,108"/>
+<area shape="rect" id="node2" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aaf7d2a339aece5a95a73a385ac95cf29" title=" " alt="" coords="208,5,435,32"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_mdns.html#a55a7be50a09fc35c35117aca11cd3328" title=" " alt="" coords="483,111,695,137"/>
+<area shape="rect" id="node6" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#a2e8a95c025efe9dcb06b44bfc5fa4bbf" title=" " alt="" coords="743,45,936,86"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_mdns.html#a1db2cbb762dd5e1a7fc72903e4a3db32" title=" " alt="" coords="235,157,407,184"/>
+<area shape="rect" id="node4" href="$namespacechip_1_1_platform.html#a43b3e4c947b3e37de31cb9c07c113592" title="This function wraps the operator delete with using MemoryFree()." alt="" coords="984,140,1148,167"/>
+<area shape="rect" id="node7" href="$classchip_1_1_mdns_1_1_mdns_contexts.html#aabe2ceaa8f4773f7ac8a0a6a7b6e3a8d" title=" " alt="" coords="743,162,936,203"/>
+<area shape="rect" id="node8" href="$namespacechip_1_1_mdns_1_1_error.html#abd9ea74d7a0d255d32c5937215d0a346" title=" " alt="" coords="770,227,909,269"/>
+<area shape="rect" id="node5" href="$namespacechip_1_1_platform.html#a9a65a9cd65454203059a7878eb74ccc1" title="This function is called by the Chip layer to release a memory block allocated by the MemoryAlloc(),..." alt="" coords="1196,140,1399,167"/>
+<area shape="rect" id="node10" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a98de22b97646ac76043111b78b7ef1ae" title=" " alt="" coords="530,161,647,188"/>
 </map>

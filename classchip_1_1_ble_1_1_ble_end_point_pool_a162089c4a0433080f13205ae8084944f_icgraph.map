@@ -1,8 +1,10 @@
 <map id="chip::Ble::BleEndPointPool::Find" name="chip::Ble::BleEndPointPool::Find">
-<area shape="rect" id="node1" title=" " alt="" coords="272,136,464,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="272,201,464,243"/>
 <area shape="rect" id="node2" href="$classchip_1_1_ble_1_1_ble_layer.html#a8a7234d27e593ec1f10f27149692ed2c" title=" " alt="" coords="25,5,205,47"/>
-<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_ble_layer.html#ad9d81e4d015fcbd56d8308397b047eba" title="Call when a GATT subscribe request succeeds." alt="" coords="13,71,216,112"/>
-<area shape="rect" id="node4" href="$classchip_1_1_ble_1_1_ble_layer.html#abe8b0a98cf1b3e053a621e88e1a44ff0" title=" " alt="" coords="15,136,214,177"/>
-<area shape="rect" id="node5" href="$classchip_1_1_ble_1_1_ble_layer.html#acf4f4cf7770f7ef152a2e887d6a74e9b" title="Call when a GATT unsubscribe request succeeds." alt="" coords="5,201,224,243"/>
-<area shape="rect" id="node6" href="$classchip_1_1_ble_1_1_ble_layer.html#a94b78acc6bc39256567ff0548360f8ac" title=" " alt="" coords="7,267,223,308"/>
+<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="15,71,215,112"/>
+<area shape="rect" id="node4" href="$classchip_1_1_ble_1_1_ble_layer.html#ad9d81e4d015fcbd56d8308397b047eba" title="Call when a GATT subscribe request succeeds." alt="" coords="13,136,216,177"/>
+<area shape="rect" id="node5" href="$classchip_1_1_ble_1_1_ble_layer.html#abe8b0a98cf1b3e053a621e88e1a44ff0" title=" " alt="" coords="15,201,214,243"/>
+<area shape="rect" id="node6" href="$classchip_1_1_ble_1_1_ble_layer.html#acf4f4cf7770f7ef152a2e887d6a74e9b" title="Call when a GATT unsubscribe request succeeds." alt="" coords="5,267,224,308"/>
+<area shape="rect" id="node7" href="$classchip_1_1_ble_1_1_ble_layer.html#a94b78acc6bc39256567ff0548360f8ac" title=" " alt="" coords="7,332,223,373"/>
+<area shape="rect" id="node8" href="$classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091" title="Call when a GATT write request is received." alt="" coords="29,397,200,439"/>
 </map>

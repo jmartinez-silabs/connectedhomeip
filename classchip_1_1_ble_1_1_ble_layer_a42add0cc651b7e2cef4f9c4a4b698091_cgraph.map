@@ -1,4 +1,11 @@
 <map id="chip::Ble::BleLayer::HandleWriteReceived" name="chip::Ble::BleLayer::HandleWriteReceived">
-<area shape="rect" id="node1" title="Call when a GATT write request is received." alt="" coords="5,5,176,47"/>
-<area shape="rect" id="node2" href="$namespacechip_1_1_ble.html#a92d0c5b1b534923b35b73e0c6756f4ac" title=" " alt="" coords="224,13,391,39"/>
+<area shape="rect" id="node1" title="Call when a GATT write request is received." alt="" coords="5,104,176,145"/>
+<area shape="rect" id="node2" href="$classchip_1_1_ble_1_1_ble_end_point_pool.html#a162089c4a0433080f13205ae8084944f" title=" " alt="" coords="225,5,417,47"/>
+<area shape="rect" id="node4" href="$classchip_1_1_system_1_1_packet_buffer_handle.html#a63e13c201b8c13dc611111e3ec3612da" title="Test whether this PacketBufferHandle is empty, or conversely owns a PacketBuffer." alt="" coords="224,71,419,112"/>
+<area shape="rect" id="node5" href="$classchip_1_1_ble_1_1_b_l_e_end_point.html#a7ecc4042907099cc172e769e87e07443" title=" " alt="" coords="238,136,405,177"/>
+<area shape="rect" id="node9" href="$namespacechip_1_1_ble.html#a92d0c5b1b534923b35b73e0c6756f4ac" title=" " alt="" coords="238,202,405,229"/>
+<area shape="rect" id="node3" href="$classchip_1_1_ble_1_1_ble_end_point_pool.html#a6514186cf5c7e37bc87b1b97df5d2557" title=" " alt="" coords="467,13,689,39"/>
+<area shape="rect" id="node6" href="$classchip_1_1_bit_flags.html#ae59e5eb53998c27d1dac181cafc9b485" title="Check whether flag(s) are set." alt="" coords="737,114,880,141"/>
+<area shape="rect" id="node7" href="$classchip_1_1_ble_1_1_b_l_e_end_point.html#a9390cf78a44d90c60c1215689bd54cc2" title=" " alt="" coords="491,136,665,177"/>
+<area shape="rect" id="node8" href="$classchip_1_1_system_1_1_packet_buffer.html#a1ccfaa7a1054db388a2f1ceba4501e17" title="Get a pointer to the start of data in a buffer." alt="" coords="481,201,675,243"/>
 </map>

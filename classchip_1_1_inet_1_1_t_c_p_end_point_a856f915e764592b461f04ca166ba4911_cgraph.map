@@ -1,10 +1,9 @@
 <map id="chip::Inet::TCPEndPoint::Bind" name="chip::Inet::TCPEndPoint::Bind">
 <area shape="rect" id="node1" title="Bind the endpoint to an interface IP address." alt="" coords="5,107,176,149"/>
 <area shape="rect" id="node2" href="$namespacechip_1_1_system.html#a2475d04e0f6c3f34aa6bab671ecb8eca" title="This implements a mapping function for CHIP System Layer errors that allows mapping underlying LwIP n..." alt="" coords="229,5,431,32"/>
-<area shape="rect" id="node4" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="224,56,436,83"/>
-<area shape="rect" id="node5" href="$classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d" title="Extract the IPv4 address as a platform data structure." alt="" coords="253,107,407,149"/>
-<area shape="rect" id="node7" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="253,173,407,214"/>
-<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a" title="Extract the type of the IP address." alt="" coords="253,238,407,279"/>
-<area shape="rect" id="node3" href="$namespacechip.html#a5b9c196fdd524001f536e328b47e04fa" title=" " alt="" coords="484,5,567,32"/>
-<area shape="rect" id="node6" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="486,147,565,173"/>
+<area shape="rect" id="node3" href="$namespacechip_1_1_system.html#a42791ce92c6c51662930b41fefd912e7" title="This implements a mapping function for CHIP System Layer errors that allows mapping integers in the n..." alt="" coords="224,56,436,83"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d" title="Extract the IPv4 address as a platform data structure." alt="" coords="253,107,407,149"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="253,173,407,214"/>
+<area shape="rect" id="node7" href="$classchip_1_1_inet_1_1_i_p_address.html#afa108447daa9f0061d68efd2f0a8d28a" title="Extract the type of the IP address." alt="" coords="253,238,407,279"/>
+<area shape="rect" id="node5" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="484,148,563,175"/>
 </map>

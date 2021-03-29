@@ -1,5 +1,6 @@
 <map id="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_InitChipStack" name="chip::DeviceLayer::Internal::GenericPlatformManagerImpl::_InitChipStack">
-<area shape="rect" id="node1" title=" " alt="" coords="296,45,539,101"/>
-<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html#a880aace793df4a1bd6d980cb42cc6163" title=" " alt="" coords="5,5,248,61"/>
-<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html#a39e89886ccdf0f71cd961397eb90cfce" title=" " alt="" coords="5,85,248,141"/>
+<area shape="rect" id="node1" title=" " alt="" coords="331,101,573,157"/>
+<area shape="rect" id="node2" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___free_r_t_o_s.html#a561e360e54a9b0e7b07e845bc96d39ea" title=" " alt="" coords="5,5,283,76"/>
+<area shape="rect" id="node3" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___zephyr.html#a880aace793df4a1bd6d980cb42cc6163" title=" " alt="" coords="23,101,265,157"/>
+<area shape="rect" id="node4" href="$classchip_1_1_device_layer_1_1_internal_1_1_generic_platform_manager_impl___p_o_s_i_x.html#a39e89886ccdf0f71cd961397eb90cfce" title=" " alt="" coords="23,181,265,237"/>
 </map>

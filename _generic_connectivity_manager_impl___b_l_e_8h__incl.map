@@ -1,19 +1,6 @@
 <map id="include/platform/internal/GenericConnectivityManagerImpl_BLE.h" name="include/platform/internal/GenericConnectivityManagerImpl_BLE.h">
-<area shape="rect" id="node1" title=" " alt="" coords="241,5,527,47"/>
-<area shape="rect" id="node2" href="$_b_l_e_manager_8h.html" title=" " alt="" coords="270,95,498,121"/>
-<area shape="rect" id="node3" href="$_connectivity_manager_8h.html" title=" " alt="" coords="345,169,577,196"/>
-<area shape="rect" id="node4" href="$_code_utils_8h.html" title=" " alt="" coords="309,244,459,271"/>
-<area shape="rect" id="node5" href="$_c_h_i_p_error_8h.html" title=" " alt="" coords="62,319,189,345"/>
-<area shape="rect" id="node11" href="$_error_str_8h.html" title=" " alt="" coords="215,319,350,345"/>
-<area shape="rect" id="node13" href="$_c_h_i_p_logging_8h.html" title=" " alt="" coords="375,319,596,345"/>
-<area shape="rect" id="node17" title=" " alt="" coords="621,319,707,345"/>
-<area shape="rect" id="node6" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="5,393,144,420"/>
-<area shape="rect" id="node7" href="$_ble_config_8h.html" title=" " alt="" coords="84,468,204,495"/>
-<area shape="rect" id="node8" href="$_system_config_8h.html" title=" " alt="" coords="27,543,203,569"/>
-<area shape="rect" id="node9" title=" " alt="" coords="281,617,351,644"/>
-<area shape="rect" id="node10" title=" " alt="" coords="71,617,158,644"/>
-<area shape="rect" id="node12" href="$_d_l_l_util_8h.html" title=" " alt="" coords="169,393,303,420"/>
-<area shape="rect" id="node14" href="$_log_v_8h.html" title=" " alt="" coords="659,393,835,420"/>
-<area shape="rect" id="node15" title=" " alt="" coords="772,468,847,495"/>
-<area shape="rect" id="node16" href="$support_2logging_2_constants_8h.html" title=" " alt="" coords="430,393,634,420"/>
+<area shape="rect" id="node1" title=" " alt="" coords="54,5,341,47"/>
+<area shape="rect" id="node2" href="$_b_l_e_manager_8h.html" title=" " alt="" coords="83,95,311,121"/>
+<area shape="rect" id="node3" href="$_connectivity_manager_8h.html" title=" " alt="" coords="5,169,237,196"/>
+<area shape="rect" id="node4" href="$_code_utils_8h.html" title=" " alt="" coords="122,244,273,271"/>
 </map>

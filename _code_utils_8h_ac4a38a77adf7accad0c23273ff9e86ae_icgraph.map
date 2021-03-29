@@ -1,4 +1,0 @@
-<map id="chipDie" name="chipDie">
-<area shape="rect" id="node1" title="This is invoked when a VerifyOrDie or VerifyOrDieWithMsg assertion expression evaluates to false." alt="" coords="176,5,247,32"/>
-<area shape="rect" id="node2" href="$_private_heap_8h.html#aa0c6e7dc6099ad844c2f90776f3aa367" title=" " alt="" coords="5,5,128,32"/>
-</map>

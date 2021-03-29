@@ -1,18 +1,5 @@
 <map id="include/platform/internal/BLEManager.h" name="include/platform/internal/BLEManager.h">
-<area shape="rect" id="node1" title=" " alt="" coords="293,5,475,47"/>
-<area shape="rect" id="node2" href="$_connectivity_manager_8h.html" title=" " alt="" coords="345,95,577,121"/>
-<area shape="rect" id="node3" href="$_code_utils_8h.html" title=" " alt="" coords="309,169,459,196"/>
-<area shape="rect" id="node4" href="$_c_h_i_p_error_8h.html" title=" " alt="" coords="62,244,189,271"/>
-<area shape="rect" id="node10" href="$_error_str_8h.html" title=" " alt="" coords="215,244,350,271"/>
-<area shape="rect" id="node12" href="$_c_h_i_p_logging_8h.html" title=" " alt="" coords="375,244,596,271"/>
-<area shape="rect" id="node16" title=" " alt="" coords="621,244,707,271"/>
-<area shape="rect" id="node5" href="$_c_h_i_p_config_8h.html" title=" " alt="" coords="5,319,144,345"/>
-<area shape="rect" id="node6" href="$_ble_config_8h.html" title=" " alt="" coords="84,393,204,420"/>
-<area shape="rect" id="node7" href="$_system_config_8h.html" title=" " alt="" coords="27,468,203,495"/>
-<area shape="rect" id="node8" title=" " alt="" coords="281,543,351,569"/>
-<area shape="rect" id="node9" title=" " alt="" coords="71,543,158,569"/>
-<area shape="rect" id="node11" href="$_d_l_l_util_8h.html" title=" " alt="" coords="169,319,303,345"/>
-<area shape="rect" id="node13" href="$_log_v_8h.html" title=" " alt="" coords="659,319,835,345"/>
-<area shape="rect" id="node14" title=" " alt="" coords="772,393,847,420"/>
-<area shape="rect" id="node15" href="$support_2logging_2_constants_8h.html" title=" " alt="" coords="430,319,634,345"/>
+<area shape="rect" id="node1" title=" " alt="" coords="106,5,289,47"/>
+<area shape="rect" id="node2" href="$_connectivity_manager_8h.html" title=" " alt="" coords="5,95,237,121"/>
+<area shape="rect" id="node3" href="$_code_utils_8h.html" title=" " alt="" coords="122,169,273,196"/>
 </map>

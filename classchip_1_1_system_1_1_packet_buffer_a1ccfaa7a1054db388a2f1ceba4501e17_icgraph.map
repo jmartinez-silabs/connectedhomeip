@@ -16,19 +16,21 @@
 <area shape="rect" id="node16" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#af9bf2b48d8e7c27e5f78a077fb845c81" title="A function that can be used to retrieve additional TLV data to be parsed." alt="" coords="315,855,533,896"/>
 <area shape="rect" id="node17" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#aa78d7d6a5b4cf87ad58569df772a7a8b" title="Get LwIP IP layer source and destination addressing information." alt="" coords="327,920,521,961"/>
 <area shape="rect" id="node19" href="$classchip_1_1_ble_1_1_btp_engine.html#aef3714678640bd8f004b8b5cad512f9a" title=" " alt="" coords="311,985,537,1027"/>
-<area shape="rect" id="node20" href="$classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="24,1168,223,1209"/>
+<area shape="rect" id="node20" href="$classchip_1_1_ble_1_1_btp_engine.html#ab258c6594642545c5a6da37065eea9c3" title=" " alt="" coords="24,1164,223,1205"/>
 <area shape="rect" id="node21" href="$classchip_1_1_network_provisioning.html#abdc8985d7e49b851d831e3baa8cd970c" title=" " alt="" coords="289,1103,559,1144"/>
 <area shape="rect" id="node22" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#ac42711051fa484e3cffe6c3260057948" title=" " alt="" coords="327,1168,521,1209"/>
 <area shape="rect" id="node23" href="$classchip_1_1_system_1_1_t_l_v_packet_buffer_backing_store.html#a950123f5e427f80adb14f730137d9fc7" title="A function to provide a backing store&#39;s initial start position and data length to a reader." alt="" coords="315,1233,533,1275"/>
 <area shape="rect" id="node24" href="$namespacechip_1_1_ble.html#a087607f2e06749846a309a31f3c3ff4a" title=" " alt="" coords="334,1299,514,1326"/>
 <area shape="rect" id="node25" href="$classchip_1_1_system_1_1_packet_buffer.html#a4ed8f36d27742745d384d17ea535138d" title="Copies data from the payloads of a chain of packet buffers until a given amount of data has been copi..." alt="" coords="327,1351,521,1392"/>
 <area shape="rect" id="node26" href="$classchip_1_1_ble_1_1_b_l_e_end_point.html#a7ecc4042907099cc172e769e87e07443" title=" " alt="" coords="341,1416,507,1457"/>
-<area shape="rect" id="node27" href="$classmdns_1_1_minimal_1_1_query_builder.html#a2d26a9ac925bf0d6130217d53b0fe275" title=" " alt="" coords="318,1481,530,1523"/>
-<area shape="rect" id="node29" href="$classmdns_1_1_minimal_1_1_response_builder.html#acbdd1349115c49d41796f46aa3cfd291" title=" " alt="" coords="306,1547,542,1588"/>
-<area shape="rect" id="node31" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="333,1612,515,1653"/>
-<area shape="rect" id="node32" href="$classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="316,1678,532,1734"/>
+<area shape="rect" id="node29" href="$classmdns_1_1_minimal_1_1_query_builder.html#a2d26a9ac925bf0d6130217d53b0fe275" title=" " alt="" coords="318,1481,530,1523"/>
+<area shape="rect" id="node31" href="$classmdns_1_1_minimal_1_1_response_builder.html#acbdd1349115c49d41796f46aa3cfd291" title=" " alt="" coords="306,1547,542,1588"/>
+<area shape="rect" id="node33" href="$classchip_1_1_transport_1_1_t_c_p_base.html#a42df9559e541cdfa3789e68ae32e3417" title="Send a message to the specified target." alt="" coords="333,1612,515,1653"/>
+<area shape="rect" id="node34" href="$classchip_1_1_device_layer_1_1_internal_1_1_ble_platform_delegate_impl.html#a26d4ae6b181a2518179a704e4fec3c4a" title=" " alt="" coords="316,1678,532,1734"/>
 <area shape="rect" id="node5" href="$classmdns_1_1_minimal_1_1_response_sender.html#ababaa9862c7877722b1b45b17365ee7c" title="Add the specified resource record to the response." alt="" coords="6,136,241,177"/>
 <area shape="rect" id="node18" href="$classchip_1_1_inet_1_1_i_p_end_point_basis.html#aa2305259a5bbd7d58a2c5d77eb438d14" title=" " alt="" coords="26,920,221,961"/>
-<area shape="rect" id="node28" href="$classmdns_1_1_minimal_1_1_query_builder.html#a3468696909738676782107711e5f56db" title=" " alt="" coords="17,1481,229,1523"/>
-<area shape="rect" id="node30" href="$classmdns_1_1_minimal_1_1_response_builder.html#a489ba85fc7cb69c05be75a807df29f63" title=" " alt="" coords="5,1547,241,1588"/>
+<area shape="rect" id="node27" href="$classchip_1_1_ble_1_1_ble_layer.html#a6e7cedd9ef92b3cc6cd816f217572445" title="Call when a GATT indication is received." alt="" coords="23,1351,223,1392"/>
+<area shape="rect" id="node28" href="$classchip_1_1_ble_1_1_ble_layer.html#a42add0cc651b7e2cef4f9c4a4b698091" title="Call when a GATT write request is received." alt="" coords="38,1416,209,1457"/>
+<area shape="rect" id="node30" href="$classmdns_1_1_minimal_1_1_query_builder.html#a3468696909738676782107711e5f56db" title=" " alt="" coords="17,1481,229,1523"/>
+<area shape="rect" id="node32" href="$classmdns_1_1_minimal_1_1_response_builder.html#a489ba85fc7cb69c05be75a807df29f63" title=" " alt="" coords="5,1547,241,1588"/>
 </map>

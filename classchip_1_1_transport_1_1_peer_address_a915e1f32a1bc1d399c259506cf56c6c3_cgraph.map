@@ -1,10 +1,8 @@
 <map id="chip::Transport::PeerAddress::ToString" name="chip::Transport::PeerAddress::ToString">
-<area shape="rect" id="node1" title=" " alt="" coords="5,115,212,156"/>
-<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760" title="Emit the IP address in conventional text presentation format." alt="" coords="260,115,413,156"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,212,112"/>
+<area shape="rect" id="node2" href="$classchip_1_1_inet_1_1_i_p_address.html#a3d6eb785c416b7982b34d5f776ded760" title="Emit the IP address in conventional text presentation format." alt="" coords="260,71,413,112"/>
 <area shape="rect" id="node3" href="$classchip_1_1_inet_1_1_i_p_address.html#aeac484acfe3fc021f4571a9fef378ff1" title="Test whether address is IPv4 compatible." alt="" coords="461,5,615,47"/>
-<area shape="rect" id="node4" href="$namespacechip.html#ac373d1277369855d2ce4d5a1f90b2562" title=" " alt="" coords="495,71,581,98"/>
-<area shape="rect" id="node5" href="$namespacechip.html#a5b9c196fdd524001f536e328b47e04fa" title=" " alt="" coords="497,122,579,149"/>
-<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d" title="Extract the IPv4 address as a platform data structure." alt="" coords="461,173,615,215"/>
-<area shape="rect" id="node8" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="461,239,615,280"/>
-<area shape="rect" id="node7" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="663,214,741,241"/>
+<area shape="rect" id="node4" href="$classchip_1_1_inet_1_1_i_p_address.html#a0c4bca75cfcc8c89ceae160bc395ae2d" title="Extract the IPv4 address as a platform data structure." alt="" coords="461,71,615,112"/>
+<area shape="rect" id="node6" href="$classchip_1_1_inet_1_1_i_p_address.html#ac4ef678239032c27915f5896ffeae86a" title="Extract the IPv6 address as a platform data structure." alt="" coords="461,136,615,177"/>
+<area shape="rect" id="node5" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#ab52833322402f0f0f1cb68f5ee5d1292" title=" " alt="" coords="663,111,741,138"/>
 </map>

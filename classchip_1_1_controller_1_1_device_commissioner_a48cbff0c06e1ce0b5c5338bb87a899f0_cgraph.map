@@ -1,9 +1,10 @@
 <map id="chip::Controller::DeviceCommissioner::OnRendezvousComplete" name="chip::Controller::DeviceCommissioner::OnRendezvousComplete">
-<area shape="rect" id="node1" title=" " alt="" coords="5,104,289,145"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,289,177"/>
 <area shape="rect" id="node2" href="$classchip_1_1_controller_1_1_device.html#a69c2bfc37bd7e676dd2eba2fbef37c9b" title=" " alt="" coords="345,5,520,47"/>
 <area shape="rect" id="node3" href="$classchip_1_1_controller_1_1_device.html#a4e09a49356b95076905ae5f2a48fe1ef" title="Initialize internal command sender, required for sending commands over interaction model." alt="" coords="345,71,520,112"/>
 <area shape="rect" id="node4" href="$classchip_1_1_controller_1_1_device.html#a11c0693a986d590333fda82abe6973a1" title="Serialize the Pairing Session to a string." alt="" coords="345,136,520,177"/>
-<area shape="rect" id="node7" href="$namespacechip_1_1_uint8.html#a0e64ddea2c68a00048588fb1082a032a" title="Safely typecast a pointer to const uint8_t to char." alt="" coords="337,205,528,231"/>
+<area shape="rect" id="node7" href="$namespacechip_1_1_uint8.html#a0e64ddea2c68a00048588fb1082a032a" title="Safely typecast a pointer to const uint8_t to char." alt="" coords="337,202,528,229"/>
+<area shape="rect" id="node9" href="$_c_h_i_p_device_controller-_j_n_i_8cpp.html#a98de22b97646ac76043111b78b7ef1ae" title=" " alt="" coords="374,253,491,279"/>
 <area shape="rect" id="node5" href="$namespacechip_1_1_encoding_1_1_little_endian.html#a2d72145b506ff674ee188d2ce048126f" title="This conditionally performs, as necessary for the target system, a byte order swap by value of the sp..." alt="" coords="576,71,777,112"/>
 <area shape="rect" id="node6" href="$namespacechip_1_1_encoding_1_1_little_endian.html#aefc7ea2318459a8c6385fafea9c63fb3" title="This conditionally performs, as necessary for the target system, a byte order swap by value of the sp..." alt="" coords="576,136,777,177"/>
 <area shape="rect" id="node8" href="$namespacechip_1_1_crypto.html#a7839660c978cd3df1db89b8f720daf35" title=" " alt="" coords="595,201,759,243"/>
