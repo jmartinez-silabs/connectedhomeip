@@ -1,23 +1,23 @@
 <map id="platform/Zephyr" name="platform/Zephyr">
 <area shape="rect" id="node1" href="dir_5622a41dbea6cfc87110f572fb48985f.html" title="Zephyr" alt="" coords="136,52,208,100"/>
 <area shape="rect" id="node2" href="dir_5ff69b5fac42d5c96aeb466206681f79.html" title="logging" alt="" coords="25,148,97,196"/>
-<area shape="rect" id="edge10-headlabel" href="dir_000055_000057.html" title="1" alt="" coords="103,135,112,150"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000056_000058.html" title="1" alt="" coords="103,135,112,150"/>
 <area shape="rect" id="node3" href="dir_c85d3e3c5052e9ad9ce18c6863244a25.html" title="lib" alt="" coords="50,244,122,292"/>
-<area shape="rect" id="edge11-headlabel" href="dir_000055_000033.html" title="12" alt="" coords="36,218,53,233"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000056_000034.html" title="12" alt="" coords="36,218,53,233"/>
 <area shape="rect" id="node4" href="dir_d501334aeb1b78ad67cd3c72c37b1e87.html" title="system" alt="" coords="93,436,165,484"/>
-<area shape="rect" id="edge12-headlabel" href="dir_000055_000069.html" title="1" alt="" coords="180,428,190,443"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000056_000070.html" title="1" alt="" coords="180,428,190,443"/>
 <area shape="rect" id="node5" href="dir_b0856f6b0d80ccb263b2f415c91f9e17.html" title="include" alt="" coords="136,340,208,388"/>
-<area shape="rect" id="edge13-headlabel" href="dir_000055_000025.html" title="18" alt="" coords="196,322,214,336"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000056_000026.html" title="18" alt="" coords="196,322,214,336"/>
 <area shape="rect" id="node6" href="dir_ef0a5b4bfa1bf86bc0ea3468709efd62.html" title="OpenThread" alt="" coords="121,148,222,196"/>
-<area shape="rect" id="edge14-headlabel" href="dir_000055_000061.html" title="3" alt="" coords="175,122,185,137"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000057_000033.html" title="1" alt="" coords="70,217,79,231"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000033_000057.html" title="1" alt="" coords="68,209,78,224"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000033_000069.html" title="7" alt="" coords="116,409,125,423"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000033_000025.html" title="7" alt="" coords="132,314,141,328"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000069_000033.html" title="29" alt="" coords="86,305,104,319"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000025_000033.html" title="23" alt="" coords="113,304,131,319"/>
-<area shape="rect" id="edge7-headlabel" href="dir_000025_000069.html" title="5" alt="" coords="150,416,159,430"/>
-<area shape="rect" id="edge8-headlabel" href="dir_000061_000033.html" title="10" alt="" coords="117,229,134,244"/>
-<area shape="rect" id="edge9-headlabel" href="dir_000061_000025.html" title="6" alt="" coords="175,314,185,329"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000056_000062.html" title="3" alt="" coords="175,122,185,137"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000058_000034.html" title="1" alt="" coords="70,217,79,231"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000034_000058.html" title="1" alt="" coords="68,209,78,224"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000034_000070.html" title="7" alt="" coords="116,409,125,423"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000034_000026.html" title="7" alt="" coords="132,314,141,328"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000070_000034.html" title="29" alt="" coords="86,305,104,319"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000026_000034.html" title="23" alt="" coords="113,304,131,319"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000026_000070.html" title="5" alt="" coords="150,416,159,430"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000062_000034.html" title="10" alt="" coords="117,229,134,244"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000062_000026.html" title="6" alt="" coords="175,314,185,329"/>
 <area shape="rect" id="clust1" href="dir_4b68c2fef3e151b6b93d5e93b14f1857.html" title="platform" alt="" coords="125,16,218,111"/>
 </map>

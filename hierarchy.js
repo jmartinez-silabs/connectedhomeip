@@ -315,6 +315,7 @@ var hierarchy =
     [ "metaclass", null, [
       [ "chip.ChipBleBase.ChipBleBase", "classchip_1_1_chip_ble_base_1_1_chip_ble_base.html", null ]
     ] ],
+    [ "mobile-device-test.MobileDeviceTests", "classmobile-device-test_1_1_mobile_device_tests.html", null ],
     [ "chip::System::Mutex", "classchip_1_1_system_1_1_mutex.html", null ],
     [ "chip.native.NativeLibraryHandleMethodArguments", "classchip_1_1native_1_1_native_library_handle_method_arguments.html", null ],
     [ "chip::NetworkProvisioning", "classchip_1_1_network_provisioning.html", null ],
@@ -505,8 +506,8 @@ var hierarchy =
     [ "chip::SessionEstablishmentDelegate", "classchip_1_1_session_establishment_delegate.html", [
       [ "chip::RendezvousSession", "classchip_1_1_rendezvous_session.html", null ]
     ] ],
-    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip.setuppayload.SetupPayload", "classchip_1_1setuppayload_1_1_setup_payload.html", null ],
+    [ "chip::SetupPayload", "classchip_1_1_setup_payload.html", null ],
     [ "chip::SetupPayloadParameter", "structchip_1_1_setup_payload_parameter.html", null ],
     [ "chip.setuppayload.SetupPayloadParser", "classchip_1_1setuppayload_1_1_setup_payload_parser.html", null ],
     [ "chip::Shell::Shell", "classchip_1_1_shell_1_1_shell.html", null ],
@@ -542,6 +543,9 @@ var hierarchy =
     [ "chip::Transport::TcpListenParameters", "classchip_1_1_transport_1_1_tcp_listen_parameters.html", null ],
     [ "chip::test_suites_t", "structchip_1_1test__suites__t.html", null ],
     [ "chip::Mdns::TextEntry", "structchip_1_1_mdns_1_1_text_entry.html", null ],
+    [ "Thread", null, [
+      [ "mobile-device-test.TestTimeout", "classmobile-device-test_1_1_test_timeout.html", null ]
+    ] ],
     [ "chip::DeviceLayer::ConnectivityManager::ThreadPollingConfig", "structchip_1_1_device_layer_1_1_connectivity_manager_1_1_thread_polling_config.html", null ],
     [ "chip::DeviceLayer::ThreadStackManager", "classchip_1_1_device_layer_1_1_thread_stack_manager.html", [
       [ "chip::DeviceLayer::ThreadStackManagerImpl", "classchip_1_1_device_layer_1_1_thread_stack_manager_impl.html", null ]
