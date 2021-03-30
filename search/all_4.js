@@ -895,7 +895,7 @@ var searchData=
   ['chip_5ftlv_5futf8_5fstring_5f4bytelength_1537',['CHIP_TLV_UTF8_STRING_4ByteLength',['../_c_h_i_p_t_l_v_data_8hpp.html#a8788c9d6ca1269171b527be15750adae',1,'CHIPTLVData.hpp']]],
   ['chip_5ftlv_5futf8_5fstring_5f8bytelength_1538',['CHIP_TLV_UTF8_STRING_8ByteLength',['../_c_h_i_p_t_l_v_data_8hpp.html#abc30431bdaf0827d816424dcad88f3e6',1,'CHIPTLVData.hpp']]],
   ['chip_5ftrailer_5freserve_5fsize_1539',['CHIP_TRAILER_RESERVE_SIZE',['../_c_h_i_p_config_8h.html#a84933061cc6b9c7ecace8b63667a049d',1,'CHIPConfig.h']]],
-  ['chip_5ftx_1540',['chip_tx',['../namespacechip_1_1_chip_bluez_mgr.html#aff387df01402d973a30cd317ba1fd86f',1,'chip.ChipBluezMgr.chip_tx()'],['../namespacechip_1_1_chip_core_bluetooth_mgr.html#acee37761d85ea68418732defbed1de1a',1,'chip.ChipCoreBluetoothMgr.CHIP_TX()']]],
+  ['chip_5ftx_1540',['CHIP_TX',['../namespacechip_1_1_chip_core_bluetooth_mgr.html#acee37761d85ea68418732defbed1de1a',1,'chip.ChipCoreBluetoothMgr.CHIP_TX()'],['../namespacechip_1_1_chip_bluez_mgr.html#aff387df01402d973a30cd317ba1fd86f',1,'chip.ChipBluezMgr.chip_tx()']]],
   ['chip_5funsecured_5fport_1541',['CHIP_UNSECURED_PORT',['../_c_h_i_p_config_8h.html#a99281df8a493027a1cd478f1e66c5bd2',1,'CHIPConfig.h']]],
   ['chip_5fzero_5fat_1542',['CHIP_ZERO_AT',['../_c_h_i_p_mem_8h.html#a5aa7f753cd47ceb79267fa9faada8410',1,'CHIPMem.h']]],
   ['chipargparser_2ecpp_1543',['CHIPArgParser.cpp',['../_c_h_i_p_arg_parser_8cpp.html',1,'']]],

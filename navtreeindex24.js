@@ -1,8 +1,8 @@
 var NAVTREEINDEX24 =
 {
-"classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a2bf0ce25247adba77e7bd64f549eb940":[10,0,1,13,11,9],
-"classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a2bf0ce25247adba77e7bd64f549eb940":[10,0,1,13,11,4],
 "classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a2bf0ce25247adba77e7bd64f549eb940":[10,0,1,13,11,3],
+"classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a2bf0ce25247adba77e7bd64f549eb940":[10,0,1,13,11,5],
+"classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a2bf0ce25247adba77e7bd64f549eb940":[10,0,1,13,11,4],
 "classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a81a24d7e0ec5bd6ed369d467e644e3f1":[10,0,1,13,11,10],
 "classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#a9e856969b8faf470fb0684abb446adce":[10,0,1,13,11,0],
 "classchip_1_1_device_layer_1_1_connectivity_manager_impl.html#ab16f5c6cbf9537d49ab66b08a65ee261":[10,0,1,13,11,2],

@@ -208,14 +208,14 @@ var NAVTREEINDEX =
 "classchip_1_1_t_l_v_1_1_t_l_v_updater.html#a962ae7e357cad8388abf9c9b3278a1a6",
 "classchip_1_1_transport_1_1_tcp_listen_parameters.html",
 "classmdns_1_1_minimal_1_1_const_header_ref.html#ac8a45749404ed1c9a2da443ec096415b",
-"classmobile-device-test_1_1_mobile_device_tests.html",
-"freertos__bluetooth_8h.html#ae84bf03a2acc9d3c7e7cbcd32f22bd79",
-"k32w-chip-mbedtls-config_8h.html#aa26fe7f0ff88b6531a7bd48825ad9356",
-"namespacechip_1_1ble_1_1commissioning.html",
-"platform_2_k32_w_2_software_update_manager_impl_8h_source.html",
-"qpg6100_2_c_h_i_p_device_platform_event_8h.html#ae8584e0138538b418ca0f730e054ed59ae515e7e56bf33c0e250ba89fe6c26c69",
-"structchip_1_1_controller_1_1_serialized_device.html",
-"structchip_1_1_shell_1_1streamer.html#a07201e84f03a3774f8b5a6daf0fe612a"
+"commands_8cpp.html",
+"functions_e.html",
+"logging_2____init_____8py.html#a7eecf9e998a49f878318dc6ea0a1da21",
+"namespacechip_1_1logging.html",
+"python_2chip_2clusters_2_c_h_i_p_clusters_8cpp.html#a20060684256ce75b751a34f8c3c27242",
+"qpg6100_2_c_h_i_p_platform_config_8h.html#a5da64c40172199f3d4c5dfd376f23c37",
+"structchip_1_1_crypto_1_1_spake2p___context.html#aa5cfd29dba7ce3d3bc0c537a95d2feb0",
+"structchip_1_1_transport_1_1_pending_packet.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
