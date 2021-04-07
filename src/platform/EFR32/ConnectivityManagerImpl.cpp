@@ -68,7 +68,7 @@ CHIP_ERROR ConnectivityManagerImpl::_Init()
     mWiFiStationMode                = kWiFiStationMode_Disabled;
     mWiFiStationState               = kWiFiStationState_NotConnected;
     mWiFiStationReconnectIntervalMS = CHIP_DEVICE_CONFIG_WIFI_STATION_RECONNECT_INTERVAL;
-    mFlags                          = 0;
+    mFlags.ClearAll();
 
     // TODO Initialize the Chip Addressing and Routing Module.
 
@@ -408,8 +408,8 @@ void ConnectivityManagerImpl::UpdateInternetConnectivityState(void)
 {
     bool haveIPv4Conn = false;
     bool haveIPv6Conn = false;
-    bool hadIPv4Conn  = GetFlag(mFlags, kFlag_HaveIPv4InternetConnectivity);
-    bool hadIPv6Conn  = GetFlag(mFlags, kFlag_HaveIPv6InternetConnectivity);
+    bool hadIPv4Conn  = mFlags.Has(ConnectivityFlags::kHaveIPv4InternetConnectivity);
+    bool hadIPv6Conn  = mFlags.Has(ConnectivityFlags::kHaveIPv6InternetConnectivity);
     IPAddress addr;
 
     // If the WiFi station is currently in the connected state...
@@ -467,8 +467,8 @@ void ConnectivityManagerImpl::UpdateInternetConnectivityState(void)
     if (haveIPv4Conn != hadIPv4Conn || haveIPv6Conn != hadIPv6Conn)
     {
         // Update the current state.
-        SetFlag(mFlags, kFlag_HaveIPv4InternetConnectivity, haveIPv4Conn);
-        SetFlag(mFlags, kFlag_HaveIPv6InternetConnectivity, haveIPv6Conn);
+        mFlags.Set(ConnectivityFlags::kHaveIPv4InternetConnectivity, haveIPv4Conn)
+            .Set(ConnectivityFlags::kHaveIPv6InternetConnectivity, haveIPv6Conn);
 
         // Alert other components of the state change.
         ChipDeviceEvent event;

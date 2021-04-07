@@ -49,7 +49,6 @@
 #include "lwip/netifapi.h"
 #include "lwip/tcpip.h"
 
-
 /* Wi-Fi events*/
 #define SL_WFX_CONNECT (1 << 1)
 #define SL_WFX_DISCONNECT (1 << 2)
@@ -81,12 +80,11 @@ typedef struct
 extern "C" {
 #endif
 
-
 void sl_wfx_host_gpio_init(void);
 
 sl_status_t lwip_set_sta_link_up(void);
 sl_status_t lwip_set_sta_link_down(void);
-sl_status_t sl_wfx_host_process_event(sl_wfx_generic_message_t *event_payload);
+sl_status_t sl_wfx_host_process_event(sl_wfx_generic_message_t * event_payload);
 sl_status_t wfx_wifi_start(void);
 sl_wfx_state_t wfx_get_wifi_state(void);
 void wfx_SetStationNetif(struct netif * newNetif);

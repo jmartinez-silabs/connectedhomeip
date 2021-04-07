@@ -34,17 +34,16 @@
  *****************************************************************************/
 #pragma once
 
-#include "sl_wfx.h"
 #include "FreeRTOS.h"
 #include "queue.h"
 #include "semphr.h"
+#include "sl_wfx.h"
 #include "task.h"
-
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-uint8_t     sl_wfx_host_get_waited_event(void);
+uint8_t sl_wfx_host_get_waited_event(void);
 
 #ifdef SLEEP_ENABLED
 sl_status_t sl_wfx_host_switch_to_wirq(void);
@@ -53,7 +52,7 @@ sl_status_t sl_wfx_host_switch_to_wirq(void);
 }
 #endif
 
-#define SL_WFX_MAX_STATIONS    8
+#define SL_WFX_MAX_STATIONS 8
 #define SL_WFX_MAX_SCAN_RESULTS 50
 
 typedef struct __attribute__((__packed__)) scan_result_list_s

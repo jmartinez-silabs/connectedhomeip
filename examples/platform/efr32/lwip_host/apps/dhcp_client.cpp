@@ -29,6 +29,7 @@
 #include "AppConfig.h"
 #include "sl_wfx_task.h"
 
+#include <lib/support/CodeUtils.h>
 #include <platform/CHIPDeviceLayer.h>
 
 using namespace ::chip;
@@ -60,7 +61,11 @@ uint8_t sta_gw_addr3      = STA_GW_ADDR3_DEFAULT;
 
 /// Current DHCP state machine state.
 static volatile uint8_t dhcp_state = DHCP_OFF;
-TaskHandle_t DHCPTaskHandle;
+
+#define DHCP_CLIENT_TASK_STACK_SIZE 384
+StackType_t dhcpClientStack[DHCP_CLIENT_TASK_STACK_SIZE];
+StaticTask_t dhcpClientTaskStruct;
+TaskHandle_t dhcpTaskHandle;
 
 /*****************************************************************************
  * Notify DHCP client task about the wifi status
@@ -80,6 +85,10 @@ void dhcpclient_set_link_state(int link_up)
     }
 }
 
+/*
+ * Don't need a task here. We should really poll this
+ * every 250ms TODO
+ */
 /*****************************************************************************
  * DHCP client task.
  *
@@ -92,21 +101,21 @@ static void dhcpclient_task(void * argument)
     ip_addr_t netmask;
     ip_addr_t gw;
     struct dhcp * dhcp;
+    sl_wfx_generic_message_t eventData;
 
     for (;;)
     {
         switch (dhcp_state)
         {
-        case DHCP_START: {
+        case DHCP_START:
             ip_addr_set_zero_ip4(&netif->ip_addr);
             ip_addr_set_zero_ip4(&netif->netmask);
             ip_addr_set_zero_ip4(&netif->gw);
             dhcp_start(netif);
             dhcp_state = DHCP_WAIT_ADDRESS;
-        }
-        break;
+            break;
 
-        case DHCP_WAIT_ADDRESS: {
+        case DHCP_WAIT_ADDRESS:
             if (dhcp_supplied_address(netif))
             {
                 dhcp_state = DHCP_ADDRESS_ASSIGNED;
@@ -115,7 +124,6 @@ static void dhcpclient_task(void * argument)
                           ((netif->ip_addr.u_addr.ip4.addr >> 8) & 0xff), ((netif->ip_addr.u_addr.ip4.addr >> 16) & 0xff),
                           ((netif->ip_addr.u_addr.ip4.addr >> 24) & 0xff));
 
-                sl_wfx_generic_message_t eventData;
                 memset(&eventData, 0, sizeof(eventData));
                 eventData.header.id     = IP_EVENT_STA_GOT_IP;
                 eventData.header.length = sizeof(eventData.header);
@@ -140,19 +148,18 @@ static void dhcpclient_task(void * argument)
                     netif_set_addr(netif, ip_2_ip4(&ipaddr), ip_2_ip4(&netmask), ip_2_ip4(&gw));
                 }
             }
-        }
-        break;
-        case DHCP_LINK_DOWN: {
+            break;
+
+        case DHCP_LINK_DOWN:
             /* Stop DHCP */
             dhcp_stop(netif);
             dhcp_state = DHCP_OFF;
-            sl_wfx_generic_message_t eventData;
             memset(&eventData, 0, sizeof(eventData));
             eventData.header.id     = IP_EVENT_STA_LOST_IP;
             eventData.header.length = sizeof(eventData.header);
             PlatformMgrImpl().HandleWFXSystemEvent(IP_EVENT, &eventData);
-        }
-        break;
+
+            break;
         default:
             break;
         }
@@ -167,8 +174,10 @@ static void dhcpclient_task(void * argument)
  ******************************************************************************/
 void dhcpclient_start(void)
 {
-    if (xTaskCreate(dhcpclient_task, "DHCPTask", 256, wfx_GetNetif(SL_WFX_STA_INTERFACE), 1, &DHCPTaskHandle) != pdPASS)
+    dhcpTaskHandle = xTaskCreateStatic(dhcpclient_task, "DHCPTask", ArraySize(dhcpClientStack), wfx_GetNetif(SL_WFX_STA_INTERFACE),
+                                       1, dhcpClientStack, &dhcpClientTaskStruct);
+    if (dhcpTaskHandle == NULL)
     {
-        EFR32_LOG("Failed to create WFX secureLinkTask");
+        EFR32_LOG("Failed to create DHCP Client task");
     }
 }

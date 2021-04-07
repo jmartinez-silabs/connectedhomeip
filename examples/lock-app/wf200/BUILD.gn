@@ -12,14 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import("//build_overrides/build.gni")
 import("//build_overrides/chip.gni")
 import("//build_overrides/efr32_sdk.gni")
+
+import("${build_root}/config/defaults.gni")
 import("${efr32_sdk_build_root}/efr32_executable.gni")
 import("${efr32_sdk_build_root}/efr32_sdk.gni")
 
 assert(current_os == "freertos")
 
-if (efr32_board == "BRD4166A"){
+if (efr32_board == "BRD4166A") {
   print("Board BRD4166A do not support WF200 expansion board")
   assert(false, "The board ${efr32_board} does not support WF200")
 }
@@ -30,6 +33,8 @@ examples_plat_dir = "${chip_root}/examples/platform/efr32"
 declare_args() {
   # Dump memory usage at link time.
   chip_print_memory_usage = false
+  setupPinCode = 73141520
+  enable_heap_monitoring = false
   sl_wfx_config_softap = false
   sl_wfx_config_scan = false
 }
@@ -58,28 +63,25 @@ efr32_sdk("sdk") {
     "${efr32_project_dir}/include/FreeRTOSConfig.h",
   ]
 
-  defines = []
-  if (is_debug) {
-    defines += [ "BUILD_RELEASE=0" ]
-  } else {
-    defines += [ "BUILD_RELEASE=1" ]
-  }
-
-  defines += [ 
+  defines = [
     "BOARD_ID=${efr32_board}",
+    "CHIP_DEVICE_CONFIG_USE_TEST_SETUP_PIN_CODE=${setupPinCode}",
+    "SL_HEAP_SIZE=(15 * 1024)",
     "SL_WFX_USE_SPI",
-    "SL_WFX_DEBUG_MASK = 0x0003",
-    "LWIP_ARP = 1",
-    "LWIP_IPV6_ND = 1",
-    "LWIP_DHCP = 1",
-    "LWIP_NETIF_API = 1",
-    ]
-    if (sl_wfx_config_softap) {
-       defines += "SL_WFX_CONFIG_SOFTAP"
-    }
-    if (sl_wfx_config_scan) {
-       defines += "SL_WFX_CONFIG_SCAN"
-    }
+    "SL_WFX_DEBUG_MASK=0x0003",
+    "LWIP_IPV4=1",
+    "LWIP_ARP=1",
+    "LWIP_IPV6_ND=1",
+    "LWIP_DHCP=1",
+    "LWIP_NETIF_API=1",
+  ]
+
+  if (sl_wfx_config_softap) {
+    defines += "SL_WFX_CONFIG_SOFTAP"
+  }
+  if (sl_wfx_config_scan) {
+    defines += "SL_WFX_CONFIG_SCAN"
+  }
 }
 
 efr32_executable("wf200_lock_app") {
@@ -107,21 +109,21 @@ efr32_executable("wf200_lock_app") {
   ]
 
   sources = [
-    "${examples_plat_dir}/init_efrPlatform.cpp",
     "${examples_plat_dir}/LEDWidget.cpp",
-    "${examples_plat_dir}/lwip_host/ethernetif.cpp",
+    "${examples_plat_dir}/init_efrPlatform.cpp",
     "${examples_plat_dir}/lwip_host/apps/dhcp_client.cpp",
+    "${examples_plat_dir}/lwip_host/ethernetif.cpp",
+    "${examples_plat_dir}/wfx-host/sl_wfx_host.c",
     "${examples_plat_dir}/wfx-host/sl_wfx_host_crypto.c",
     "${examples_plat_dir}/wfx-host/sl_wfx_host_events.cpp",
     "${examples_plat_dir}/wfx-host/sl_wfx_host_spi.c",
-    "${examples_plat_dir}/wfx-host/sl_wfx_host.c",
-    "${examples_plat_dir}/wfx-host/sl_wfx_task.c",
     "${examples_plat_dir}/wfx-host/sl_wfx_securelink_task.c",
+    "${examples_plat_dir}/wfx-host/sl_wfx_task.c",
     "src/AppTask.cpp",
     "src/BoltLockManager.cpp",
     "src/ButtonHandler.cpp",
     "src/ZclCallbacks.cpp",
-    "src/main.cpp"
+    "src/main.cpp",
   ]
 
   if (show_qr_code) {
@@ -131,10 +133,15 @@ efr32_executable("wf200_lock_app") {
   }
   output_dir = root_out_dir
 
+  if (enable_heap_monitoring) {
+    defines += [ "HEAP_MONITORING" ]
+    sources += [ "${examples_plat_dir}/MemMonitoring.cpp" ]
+  }
+
   if (efr32_family == "efr32mg12") {
-    ldscript = "${efr32_project_dir}/ldscripts/efr32-lock-example-MG12P.ld"
+    ldscript = "${examples_plat_dir}/ldscripts/efr32-MG12P.ld"
   } else if (efr32_family == "efr32mg21") {
-    ldscript = "${efr32_project_dir}/ldscripts/efr32-lock-example-MG21.ld"
+    ldscript = "${examples_plat_dir}/ldscripts/efr32-MG21.ld"
   }
 
   ldflags = [ "-T" + rebase_path(ldscript, root_build_dir) ]

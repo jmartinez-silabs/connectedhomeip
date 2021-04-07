@@ -48,9 +48,9 @@
 #include "sl_wfx_host_api.h"
 #include "sl_wfx_host_pinout.h"
 
-#include "em_usart.h"
-#include "em_cmu.h"
 #include "dmadrv.h"
+#include "em_cmu.h"
+#include "em_usart.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -65,81 +65,98 @@
 #define USART SL_WFX_HOST_PINOUT_SPI_PERIPHERAL
 
 static SemaphoreHandle_t spi_sem;
-static unsigned int        tx_dma_channel;
-static unsigned int        rx_dma_channel;
-static uint32_t            dummy_rx_data;
-static uint32_t            dummy_tx_data;
-static uint32_t            usart_clock;
-static uint32_t            usart_rx_signal;
-static uint32_t            usart_tx_signal;
+static unsigned int tx_dma_channel;
+static unsigned int rx_dma_channel;
+static uint32_t dummy_rx_data;
+static uint32_t dummy_tx_data;
+static uint32_t usart_clock;
+static uint32_t usart_rx_signal;
+static uint32_t usart_tx_signal;
 static bool spi_enabled = false;
 
 uint8_t wirq_irq_nb = SL_WFX_HOST_PINOUT_SPI_WIRQ_PIN;
 
-static int sl_wfx_host_spi_set_config (void *usart)
+static int sl_wfx_host_spi_set_config(void * usart)
 {
-  int ret = -1;
+    int ret = -1;
 
-  if ( 0 ) {
+    if (0)
+    {
 #if defined(USART0)
-  } else if (usart == USART0) {
-    usart_clock     = cmuClock_USART0;
-    usart_tx_signal = dmadrvPeripheralSignal_USART0_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USART0_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USART0)
+    {
+        usart_clock     = cmuClock_USART0;
+        usart_tx_signal = dmadrvPeripheralSignal_USART0_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USART0_RXDATAV;
+        ret             = 0;
 #endif
 #if defined(USART1)
-  } else if (usart == USART1 ) {
-    usart_clock     = cmuClock_USART1;
-    usart_tx_signal = dmadrvPeripheralSignal_USART1_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USART1_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USART1)
+    {
+        usart_clock     = cmuClock_USART1;
+        usart_tx_signal = dmadrvPeripheralSignal_USART1_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USART1_RXDATAV;
+        ret             = 0;
 #endif
 #if defined(USART2)
-  } else if (usart == USART2 ) {
-    usart_clock     = cmuClock_USART2;
-    usart_tx_signal = dmadrvPeripheralSignal_USART2_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USART2_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USART2)
+    {
+        usart_clock     = cmuClock_USART2;
+        usart_tx_signal = dmadrvPeripheralSignal_USART2_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USART2_RXDATAV;
+        ret             = 0;
 #endif
 #if defined(USART3)
-  } else if (usart == USART3 ) {
-    usart_clock     = cmuClock_USART3;
-    usart_tx_signal = dmadrvPeripheralSignal_USART3_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USART3_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USART3)
+    {
+        usart_clock     = cmuClock_USART3;
+        usart_tx_signal = dmadrvPeripheralSignal_USART3_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USART3_RXDATAV;
+        ret             = 0;
 #endif
 #if defined(USART4)
-  } else if (usart == USART4 ) {
-    usart_clock     = cmuClock_USART4;
-    usart_tx_signal = dmadrvPeripheralSignal_USART4_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USART4_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USART4)
+    {
+        usart_clock     = cmuClock_USART4;
+        usart_tx_signal = dmadrvPeripheralSignal_USART4_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USART4_RXDATAV;
+        ret             = 0;
 #endif
 #if defined(USART5)
-  } else if (usart == USART5 ) {
-    usart_clock     = cmuClock_USART5;
-    usart_tx_signal = dmadrvPeripheralSignal_USART5_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USART5_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USART5)
+    {
+        usart_clock     = cmuClock_USART5;
+        usart_tx_signal = dmadrvPeripheralSignal_USART5_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USART5_RXDATAV;
+        ret             = 0;
 #endif
 #if defined(USARTRF0)
-  } else if (usart == USARTRF0 ) {
-    usart_clock     = cmuClock_USARTRF0;
-    usart_tx_signal = dmadrvPeripheralSignal_USARTRF0_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USARTRF0_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USARTRF0)
+    {
+        usart_clock     = cmuClock_USARTRF0;
+        usart_tx_signal = dmadrvPeripheralSignal_USARTRF0_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USARTRF0_RXDATAV;
+        ret             = 0;
 #endif
 #if defined(USARTRF1)
-  } else if (usart == USARTRF1 ) {
-    usart_clock     = cmuClock_USARTRF1;
-    usart_tx_signal = dmadrvPeripheralSignal_USARTRF1_TXBL;
-    usart_rx_signal = dmadrvPeripheralSignal_USARTRF1_RXDATAV;
-    ret = 0;
+    }
+    else if (usart == USARTRF1)
+    {
+        usart_clock     = cmuClock_USARTRF1;
+        usart_tx_signal = dmadrvPeripheralSignal_USARTRF1_TXBL;
+        usart_rx_signal = dmadrvPeripheralSignal_USARTRF1_RXDATAV;
+        ret             = 0;
 #endif
-  }
+    }
 
-  return ret;
+    return ret;
 }
 
 /****************************************************************************
@@ -152,8 +169,9 @@ sl_status_t sl_wfx_host_init_bus(void)
     // Initialize and enable the USART
     USART_InitSync_TypeDef usartInit = USART_INITSYNC_DEFAULT;
 
-    res = sl_wfx_host_spi_set_config (USART);
-    if (res != 0) {
+    res = sl_wfx_host_spi_set_config(USART);
+    if (res != 0)
+    {
         return SL_STATUS_FAIL;
     }
 
@@ -166,22 +184,18 @@ sl_status_t sl_wfx_host_init_bus(void)
     CMU_ClockEnable(usart_clock, true);
     USART_InitSync(USART, &usartInit);
     USART->CTRL |= (1u << _USART_CTRL_SMSDELAY_SHIFT);
-    USART->ROUTELOC0 = (USART->ROUTELOC0
-                        & ~(_USART_ROUTELOC0_TXLOC_MASK
-                            | _USART_ROUTELOC0_RXLOC_MASK
-                            | _USART_ROUTELOC0_CLKLOC_MASK))
-                        | (SL_WFX_HOST_PINOUT_SPI_TX_LOC  << _USART_ROUTELOC0_TXLOC_SHIFT)
-                        | (SL_WFX_HOST_PINOUT_SPI_RX_LOC  << _USART_ROUTELOC0_RXLOC_SHIFT)
-                        | (SL_WFX_HOST_PINOUT_SPI_CLK_LOC << _USART_ROUTELOC0_CLKLOC_SHIFT);
+    USART->ROUTELOC0 =
+        (USART->ROUTELOC0 & ~(_USART_ROUTELOC0_TXLOC_MASK | _USART_ROUTELOC0_RXLOC_MASK | _USART_ROUTELOC0_CLKLOC_MASK)) |
+        (SL_WFX_HOST_PINOUT_SPI_TX_LOC << _USART_ROUTELOC0_TXLOC_SHIFT) |
+        (SL_WFX_HOST_PINOUT_SPI_RX_LOC << _USART_ROUTELOC0_RXLOC_SHIFT) |
+        (SL_WFX_HOST_PINOUT_SPI_CLK_LOC << _USART_ROUTELOC0_CLKLOC_SHIFT);
 
-    USART->ROUTEPEN = USART_ROUTEPEN_TXPEN
-                        | USART_ROUTEPEN_RXPEN
-                        | USART_ROUTEPEN_CLKPEN;
+    USART->ROUTEPEN = USART_ROUTEPEN_TXPEN | USART_ROUTEPEN_RXPEN | USART_ROUTEPEN_CLKPEN;
     GPIO_DriveStrengthSet(SL_WFX_HOST_PINOUT_SPI_CLK_PORT, gpioDriveStrengthStrongAlternateStrong);
     GPIO_PinModeSet(SL_WFX_HOST_PINOUT_SPI_TX_PORT, SL_WFX_HOST_PINOUT_SPI_TX_PIN, gpioModePushPull, 0);
     GPIO_PinModeSet(SL_WFX_HOST_PINOUT_SPI_RX_PORT, SL_WFX_HOST_PINOUT_SPI_RX_PIN, gpioModeInput, 0);
     GPIO_PinModeSet(SL_WFX_HOST_PINOUT_SPI_CLK_PORT, SL_WFX_HOST_PINOUT_SPI_CLK_PIN, gpioModePushPull, 0);
-    
+
     spi_sem = xSemaphoreCreateBinary();
     xSemaphoreGive(spi_sem);
 
@@ -243,23 +257,23 @@ static bool rx_dma_complete(unsigned int channel, unsigned int sequenceNo, void 
 void receiveDMA(uint8_t * buffer, uint16_t buffer_length)
 {
     // Start receive DMA.
-    DMADRV_PeripheralMemory(rx_dma_channel, usart_rx_signal, (void *) buffer, (void *) &(USART->RXDATA),
-                            true, buffer_length, dmadrvDataSize1, rx_dma_complete, NULL);
+    DMADRV_PeripheralMemory(rx_dma_channel, usart_rx_signal, (void *) buffer, (void *) &(USART->RXDATA), true, buffer_length,
+                            dmadrvDataSize1, rx_dma_complete, NULL);
 
     // Start transmit DMA.
-    DMADRV_MemoryPeripheral(tx_dma_channel, usart_tx_signal, (void *) &(USART->TXDATA),
-                            (void *) &(dummy_tx_data), false, buffer_length, dmadrvDataSize1, NULL, NULL);
+    DMADRV_MemoryPeripheral(tx_dma_channel, usart_tx_signal, (void *) &(USART->TXDATA), (void *) &(dummy_tx_data), false,
+                            buffer_length, dmadrvDataSize1, NULL, NULL);
 }
 
 void transmitDMA(uint8_t * buffer, uint16_t buffer_length)
 {
     // Receive DMA runs only to initiate callback
     // Start receive DMA.
-    DMADRV_PeripheralMemory(rx_dma_channel, usart_rx_signal, &dummy_rx_data, (void *) &(USART->RXDATA),
-                            false, buffer_length, dmadrvDataSize1, rx_dma_complete, NULL);
+    DMADRV_PeripheralMemory(rx_dma_channel, usart_rx_signal, &dummy_rx_data, (void *) &(USART->RXDATA), false, buffer_length,
+                            dmadrvDataSize1, rx_dma_complete, NULL);
     // Start transmit DMA.
-    DMADRV_MemoryPeripheral(tx_dma_channel, usart_tx_signal, (void *) &(USART->TXDATA), (void *) buffer,
-                            true, buffer_length, dmadrvDataSize1, NULL, NULL);
+    DMADRV_MemoryPeripheral(tx_dma_channel, usart_tx_signal, (void *) &(USART->TXDATA), (void *) buffer, true, buffer_length,
+                            dmadrvDataSize1, NULL, NULL);
 }
 
 /****************************************************************************
@@ -307,7 +321,7 @@ sl_status_t sl_wfx_host_spi_transfer_no_cs_assert(sl_wfx_host_bus_transfer_type_
             }
 
             if (xSemaphoreTake(spi_sem, portMAX_DELAY) == pdTRUE)
-            {   
+            {
                 xSemaphoreGive(spi_sem);
             }
         }
@@ -340,7 +354,7 @@ sl_status_t sl_wfx_host_disable_platform_interrupt(void)
 
 sl_status_t sl_wfx_host_enable_platform_interrupt(void)
 {
-    GPIO_IntEnable (1 << wirq_irq_nb);
+    GPIO_IntEnable(1 << wirq_irq_nb);
     return SL_STATUS_OK;
 }
 

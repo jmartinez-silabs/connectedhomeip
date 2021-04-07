@@ -29,6 +29,7 @@
 #include <mbedtls/threading.h>
 
 #include <platform/CHIPDeviceLayer.h>
+#include <platform/KeyValueStoreManager.h>
 #include <support/CHIPMem.h>
 #include <support/CHIPPlatformMemory.h>
 
@@ -85,7 +86,6 @@ int main(void)
     int ret = CHIP_ERROR_MAX;
 
     init_efrPlatform();
-
     mbedtls_platform_set_calloc_free(CHIPPlatformMemoryCalloc, CHIPPlatformMemoryFree);
 
     // Initialize mbedtls threading support on EFR32
@@ -100,6 +100,7 @@ int main(void)
 
     // Init Chip memory management before the stack
     chip::Platform::MemoryInit();
+    chip::DeviceLayer::PersistedStorage::KeyValueStoreMgrImpl().Init();
 
     ret = PlatformMgr().InitChipStack();
     if (ret != CHIP_NO_ERROR)

@@ -17,22 +17,24 @@
 
 #include "secure_link/sl_wfx_secure_link.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "FreeRTOS.h"
 #include "queue.h"
 #include "semphr.h"
 #include "task.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #ifdef SL_WFX_USE_SECURE_LINK
 
 // Securelink Task Configurations
-#define WFX_SECURELINK_TASK_PRIO        1u
-#define WFX_SECURELINK_TASK_STK_SIZE   512u
+#define WFX_SECURELINK_TASK_PRIO 1u
+#define WFX_SECURELINK_TASK_STK_SIZE 512u
 
 TaskHandle_t secureLinkTaskHandle;
 SemaphoreHandle_t s_xSLSemaphore;
+StackType_t secureLinkStack[WFX_SECURELINK_TASK_STK_SIZE];
+StaticTask_t secureLinkTaskStruct;
 
 /*
  * The task that implements the Secure Link renegotiation with WFX.
@@ -40,7 +42,7 @@ SemaphoreHandle_t s_xSLSemaphore;
 static void prvSecureLinkTask(void * p_arg)
 {
     sl_status_t result;
-    (void)p_arg;
+    (void) p_arg;
 
     /* Create a mutex used for making Secure Link renegotiations atomic */
     s_xSLSemaphore = xSemaphoreCreateMutex();
@@ -64,7 +66,9 @@ static void prvSecureLinkTask(void * p_arg)
  ******************************************************************************/
 void wfx_securelink_task_start(void)
 {
-    if (xTaskCreate(prvSecureLinkTask, "secureLinkTask", WFX_SECURELINK_TASK_STK_SIZE, NULL, WFX_SECURELINK_TASK_PRIO, &secureLinkTaskHandle) != pdPASS)
+    secureLinkTaskHandle = xTaskCreateStatic(prvSecureLinkTask, "secureLinkTask", WFX_SECURELINK_TASK_STK_SIZE, NULL,
+                                             WFX_SECURELINK_TASK_PRIO, secureLinkStack, &secureLinkTaskStruct);
+    if (secureLinkTaskHandle == NULL)
     {
         printf("Failed to create WFX secureLinkTask");
     }

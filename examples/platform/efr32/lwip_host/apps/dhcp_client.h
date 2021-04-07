@@ -32,4 +32,3 @@ void dhcpclient_start(void);
 #ifdef __cplusplus
 }
 #endif
-

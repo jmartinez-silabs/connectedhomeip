@@ -109,34 +109,37 @@ static err_t low_level_output(struct netif * netif, struct pbuf * p)
     }
 
     result = sl_wfx_host_allocate_buffer(
-                                         (void **) (&tx_buffer), SL_WFX_TX_FRAME_BUFFER,
-                                         SL_WFX_ROUND_UP(framelength + padding, 64) +
-                                         sizeof(sl_wfx_send_frame_req_t)); // 12 is size of other data in buffer struct, user shouldn't have to care about this?
-    if (result != SL_STATUS_OK) {
+        (void **) (&tx_buffer), SL_WFX_TX_FRAME_BUFFER,
+        SL_WFX_ROUND_UP(framelength + padding, 64) +
+            sizeof(sl_wfx_send_frame_req_t)); // 12 is size of other data in buffer struct, user shouldn't have to care about this?
+    if (result != SL_STATUS_OK)
+    {
         return ERR_MEM;
     }
     buffer = tx_buffer->body.packet_data;
     /* copy frame from pbufs to driver buffers */
-    for (q = p, bufferoffset = 0; q != NULL; q = q->next) {
+    for (q = p, bufferoffset = 0; q != NULL; q = q->next)
+    {
         /* Get bytes in current lwIP buffer */
         memcpy((uint8_t *) ((uint8_t *) buffer + bufferoffset), (uint8_t *) ((uint8_t *) q->payload), q->len);
         bufferoffset += q->len;
     }
     /* No requirement to do this - but we should for security */
-    if (padding) {
-        memset (buffer + bufferoffset, 0, padding);
+    if (padding)
+    {
+        memset(buffer + bufferoffset, 0, padding);
     }
     /* transmit */
-    int i = 0;
+    int i  = 0;
     result = SL_STATUS_FAIL;
-    while ((result != SL_STATUS_OK) && (i++ < 10)) 
+    while ((result != SL_STATUS_OK) && (i++ < 10))
     {
-        result = sl_wfx_send_ethernet_frame(tx_buffer, framelength + padding,
-                                            SL_WFX_STA_INTERFACE, 0);
+        result = sl_wfx_send_ethernet_frame(tx_buffer, framelength + padding, SL_WFX_STA_INTERFACE, 0);
     }
-    sl_wfx_host_free_buffer (tx_buffer, SL_WFX_TX_FRAME_BUFFER);
+    sl_wfx_host_free_buffer(tx_buffer, SL_WFX_TX_FRAME_BUFFER);
 
-    if (result != SL_STATUS_OK) {
+    if (result != SL_STATUS_OK)
+    {
         printf("Failed to send ethernet frame\r\n");
         return ERR_IF;
     }
@@ -158,21 +161,23 @@ static struct pbuf * low_level_input(struct netif * netif, sl_wfx_received_ind_t
 {
     struct pbuf *p, *q;
     uint16_t len;
-    uint8_t *buffer;
+    uint8_t * buffer;
     uint32_t bufferoffset;
 
-    len  = rx_buffer->body.frame_length;
+    len = rx_buffer->body.frame_length;
     if (len <= 0)
-        return (struct pbuf *)0;
+        return (struct pbuf *) 0;
     buffer = (uint8_t *) &(rx_buffer->body.frame[rx_buffer->body.frame_padding]);
     /* We allocate a pbuf chain of pbufs from the Lwip buffer pool
      * and copy the data to the pbuf chain
      */
-    if ((p = pbuf_alloc(PBUF_RAW, len, PBUF_POOL)) != (struct pbuf *)0) {
-        for (q = p, bufferoffset = 0; q != NULL; q = q->next) {
-            memcpy((uint8_t *) q->payload, (uint8_t *)buffer + bufferoffset, q->len);
+    if ((p = pbuf_alloc(PBUF_RAW, len, PBUF_POOL)) != (struct pbuf *) 0)
+    {
+        for (q = p, bufferoffset = 0; q != NULL; q = q->next)
+        {
+            memcpy((uint8_t *) q->payload, (uint8_t *) buffer + bufferoffset, q->len);
             bufferoffset += q->len;
-            //ASSERT(bufferoffset <= len);
+            // ASSERT(bufferoffset <= len);
         }
     }
 

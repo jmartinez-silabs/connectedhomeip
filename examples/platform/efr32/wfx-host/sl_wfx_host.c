@@ -47,19 +47,19 @@
 // File specific to each platform, it must be created for custom boards
 #include "sl_wfx_pds.h"
 
+#include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdarg.h>
 
 /* Firmware include */
 #include "sl_wfx_wf200_C0.h"
 
-#include "sl_wfx_task.h"
+#include "AppConfig.h"
+#include "sl_malloc.h"
 #include "sl_wfx_host.h"
 #include "sl_wfx_host_events.h"
-
-#include "AppConfig.h"
+#include "sl_wfx_task.h"
 
 #define SL_WFX_EVENT_MAX_SIZE 512
 #define SL_WFX_EVENT_LIST_SIZE 1
@@ -96,14 +96,14 @@ sl_status_t sl_wfx_host_disable_spi(void);
 sl_status_t sl_wfx_host_init(void)
 {
     host_context.wf200_firmware_download_progress = 0;
-    host_context.wf200_initialized = 0;
+    host_context.wf200_initialized                = 0;
 
     wfx_event_Q = xQueueCreate(SL_WFX_EVENT_LIST_SIZE, sizeof(uint8_t));
     if (wfx_event_Q == NULL)
     {
-        return SL_STATUS_FAIL;   
-    } 
-    
+        return SL_STATUS_FAIL;
+    }
+
     wfx_wakeup_sem = xSemaphoreCreateBinary();
     if (wfx_wakeup_sem == NULL)
     {
@@ -111,14 +111,13 @@ sl_status_t sl_wfx_host_init(void)
     }
 
     wfx_mutex = xSemaphoreCreateMutex();
-    if(wfx_mutex == NULL)
+    if (wfx_mutex == NULL)
     {
         return SL_STATUS_FAIL;
     }
 
     return SL_STATUS_OK;
 }
-
 
 /****************************************************************************
  * Get firmware data
@@ -166,22 +165,23 @@ sl_status_t sl_wfx_host_deinit(void)
 }
 
 /****************************************************************************
- * Allocate buffer
+ * Allocate buffer (Should allocate either Ethernet - from LWIP or Control) - TODO
  *****************************************************************************/
 sl_status_t sl_wfx_host_allocate_buffer(void ** buffer, sl_wfx_buffer_type_t type, uint32_t buffer_size)
 {
-    if ((*buffer = pvPortMalloc(buffer_size)) == (void *)0) {
+    if ((*buffer = sl_malloc(buffer_size)) == (void *) 0)
+    {
         return SL_STATUS_FAIL;
     }
     return SL_STATUS_OK;
 }
 
 /****************************************************************************
- * Free host buffer
+ * Free host buffer (CHECK LWIP buffer)
  *****************************************************************************/
 sl_status_t sl_wfx_host_free_buffer(void * buffer, sl_wfx_buffer_type_t type)
 {
-    vPortFree(buffer);
+    sl_free(buffer);
     return SL_STATUS_OK;
 }
 
@@ -273,7 +273,7 @@ sl_status_t sl_wfx_host_setup_waited_event(uint8_t event_id)
 
 uint8_t sl_wfx_host_get_waited_event(void)
 {
-  return host_context.waited_event_id;
+    return host_context.waited_event_id;
 }
 
 sl_status_t sl_wfx_host_wait_for_confirmation(uint8_t confirmation_id, uint32_t timeout, void ** event_payload_out)
@@ -337,12 +337,13 @@ sl_status_t sl_wfx_host_unlock(void)
     return SL_STATUS_OK;
 }
 
-/**************************************************************************//**
- * Called when the driver needs to post an event
- *
- * @returns Returns SL_STATUS_OK if successful, SL_STATUS_FAIL otherwise
- *****************************************************************************/
-sl_status_t sl_wfx_host_post_event(sl_wfx_generic_message_t *event_payload)
+/**************************************************************************/ /**
+                                                                              * Called when the driver needs to post an event
+                                                                              *
+                                                                              * @returns Returns SL_STATUS_OK if successful,
+                                                                              *SL_STATUS_FAIL otherwise
+                                                                              *****************************************************************************/
+sl_status_t sl_wfx_host_post_event(sl_wfx_generic_message_t * event_payload)
 {
     sl_status_t status;
 
@@ -360,7 +361,7 @@ sl_status_t sl_wfx_host_post_event(sl_wfx_generic_message_t *event_payload)
         }
     }
 
-  return status;
+    return status;
 }
 
 /****************************************************************************

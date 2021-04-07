@@ -1,6 +1,6 @@
 # CHIP EFR32 Lock Example
 
-An example showing the use of CHIP over WIFI on the Silicon Labs EFR32 MG12 
+An example showing the use of CHIP over WIFI on the Silicon Labs EFR32 MG12
 using the wifi explansion board WF-200.
 
 <hr>
@@ -21,8 +21,8 @@ using the wifi explansion board WF-200.
 ## Introduction
 
 The EFR32 lock example provides a baseline demonstration of a door lock device
-built using CHIP and the Silicon Labs gecko SDK. The example use WIFI communications
-using the WF-200 expansion board. 
+built using CHIP and the Silicon Labs gecko SDK. The example use WIFI
+communications using the WF-200 expansion board.
 
 The lock example is intended to serve both as a means to explore the workings of
 CHIP as well as a template for creating real products based on the Silicon Labs
@@ -59,8 +59,10 @@ platform.
     MG12 boards:
 
     -   BRD4161A / SLWSTK6000B / Wireless Starter Kit / 2.4GHz@19dBm
-    -   BRD4163A / SLWSTK6000B / Dual band Wireless Starter Kit / 2.4GHz@19dBm, 868MHz@19dBm
-    -   BRD4164A / SLWSTK6000B / Dual band Wireless Starter Kit / 2.4GHz@19dBm, 915MHz@19dBm
+    -   BRD4163A / SLWSTK6000B / Dual band Wireless Starter Kit / 2.4GHz@19dBm,
+        868MHz@19dBm
+    -   BRD4164A / SLWSTK6000B / Dual band Wireless Starter Kit / 2.4GHz@19dBm,
+        915MHz@19dBm
 
 *   Build the example application:
 
@@ -139,20 +141,20 @@ combination with JLinkRTTClient as follows:
 
 ## Running the Complete Example
 
--   Once the example is flashed on the board, the WiFi informations needed to connected 
-    to the access point has to be provisioned to the device 
-    This is done through a Bluetooth Low Energy connection using the Secure Rendez-vous procedure
+-   Once the example is flashed on the board, the WiFi informations needed to
+    connected to the access point has to be provisioned to the device This is
+    done through a Bluetooth Low Energy connection using the Secure Rendez-vous
+    procedure
 
-- You can do so with the Chip-tool
-    To build the Chip-tool run this script
-        cd ~/connectedhomeip/
-        ./scripts/examples/gn_build_example.sh examples/chip-tool out/debug/standalone
-    
-    Start the BLE paring sequence
-        ./out/debug/standalone/chip-tool pairing ble <SSID> <PASSWORD> <SETUP_PINCODE> <DISCRIMINATOR>
+-   You can do so with the Chip-tool To build the Chip-tool run this script cd
+    ~/connectedhomeip/ ./scripts/examples/gn_build_example.sh examples/chip-tool
+    out/debug/standalone
 
-        For our example the Pin code and Discriminator are preset to "12345678" "3840"
-        ./out/debug/standalone/chip-tool pairing ble <SSID> <PASSWORD> 12345678 3840
+    Start the BLE paring sequence ./out/debug/standalone/chip-tool pairing ble
+    <SSID> <PASSWORD> <SETUP_PINCODE> <DISCRIMINATOR>
+
+          For our example the Pin code and Discriminator are preset to "12345678" "3840"
+          ./out/debug/standalone/chip-tool pairing ble <SSID> <PASSWORD> 12345678 3840
 
 -   Using chip-tool you can now control the lock status with on/off command such
     as `chip-tool onoff on 1`

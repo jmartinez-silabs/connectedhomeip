@@ -54,12 +54,12 @@
 #include "demo_config.h"
 
 #include "AppConfig.h"
+#include "dhcp_client.h"
+#include "ethernetif.h"
 #include "sl_wfx_host.h"
 #include "sl_wfx_host_events.h"
 #include "sl_wfx_host_pinout.h"
 #include "sl_wfx_task.h"
-#include "dhcp_client.h"
-#include "ethernetif.h"
 
 #include "FreeRTOS.h"
 #include "event_groups.h"
@@ -95,8 +95,8 @@ wfx_wifi_provision_t wifi_provision;
 
 #ifdef SL_WFX_CONFIG_SCAN
 scan_result_list_t scan_list[SL_WFX_MAX_SCAN_RESULTS];
-uint8_t scan_count     = 0;
-uint8_t scan_count_t   = 0;
+uint8_t scan_count   = 0;
+uint8_t scan_count_t = 0;
 #endif
 
 static void wfx_events_task(void * p_arg);
@@ -137,7 +137,8 @@ void sl_wfx_host_gpio_init(void)
 
     // Set up interrupt based callback function - trigger on both edges.
     GPIOINT_Init();
-    GPIO_ExtIntConfig(SL_WFX_HOST_PINOUT_SPI_WIRQ_PORT, SL_WFX_HOST_PINOUT_SPI_WIRQ_PIN, SL_WFX_HOST_PINOUT_SPI_IRQ, true, false, true);
+    GPIO_ExtIntConfig(SL_WFX_HOST_PINOUT_SPI_WIRQ_PORT, SL_WFX_HOST_PINOUT_SPI_WIRQ_PIN, SL_WFX_HOST_PINOUT_SPI_IRQ, true, false,
+                      true);
     GPIOINT_CallbackRegister(SL_WFX_HOST_PINOUT_SPI_IRQ, sl_wfx_spi_wakeup_irq_callback);
 
     // Change GPIO interrupt priority (FreeRTOS asserts unless this is done here!)
@@ -157,13 +158,13 @@ void sl_wfx_spi_wakeup_irq_callback(uint8_t irqNumber)
 
     if (irqNumber != SL_WFX_HOST_PINOUT_SPI_IRQ)
         return;
-        // Get and clear all pending GPIO interrupts
+    // Get and clear all pending GPIO interrupts
     interrupt_mask = GPIO_IntGet();
     GPIO_IntClear(interrupt_mask);
     bus_task_woken = pdFALSE;
     xSemaphoreGiveFromISR(wfx_wakeup_sem, &bus_task_woken);
-    vTaskNotifyGiveFromISR (wfx_bus_task_handle, &bus_task_woken);
-    portYIELD_FROM_ISR (bus_task_woken);
+    vTaskNotifyGiveFromISR(wfx_bus_task_handle, &bus_task_woken);
+    portYIELD_FROM_ISR(bus_task_woken);
 }
 /***************************************************************************
  * Creates WFX events processing task.
@@ -286,14 +287,16 @@ sl_status_t sl_wfx_host_process_event(sl_wfx_generic_message_t * event_payload)
         break;
     }
     case SL_WFX_ERROR_IND_ID: {
-        sl_wfx_error_ind_t *firmware_error = (sl_wfx_error_ind_t*) event_payload;
-        uint8_t *error_tmp = (uint8_t *) firmware_error;
+        sl_wfx_error_ind_t * firmware_error = (sl_wfx_error_ind_t *) event_payload;
+        uint8_t * error_tmp                 = (uint8_t *) firmware_error;
         EFR32_LOG("firmware error %lu\r\n", firmware_error->body.type);
-        for (uint16_t i = 0; i < firmware_error->header.length; i += 16) {
+        for (uint16_t i = 0; i < firmware_error->header.length; i += 16)
+        {
             EFR32_LOG("hif: %.8x:", i);
-            for (uint8_t j = 0; (j < 16) && ((i + j) < firmware_error->header.length); j++) {
-            EFR32_LOG(" %.2x", *error_tmp);
-            error_tmp++;
+            for (uint8_t j = 0; (j < 16) && ((i + j) < firmware_error->header.length); j++)
+            {
+                EFR32_LOG(" %.2x", *error_tmp);
+                error_tmp++;
             }
             EFR32_LOG("\r\n");
         }
@@ -334,7 +337,7 @@ static void sl_wfx_scan_complete_callback(uint32_t status)
     (void) (status);
     /* Use scan_count value and reset it */
     scan_count_web = scan_count;
-    scan_count = 0;
+    scan_count     = 0;
     xEventGroupSetBits(sl_wfx_event_group, SL_WFX_SCAN_COMPLETE);
 }
 #endif /* SL_WFX_CONFIG_SCAN */
@@ -425,7 +428,6 @@ static void sl_wfx_stop_ap_callback(void)
     xEventGroupSetBits(sl_wfx_event_group, SL_WFX_STOP_AP);
 }
 
-
 /****************************************************************************
  * Callback for client connect to AP
  *****************************************************************************/
@@ -478,19 +480,19 @@ static void sl_wfx_generic_status_callback(sl_wfx_generic_ind_t * frame)
 static void wfx_events_task(void * p_arg)
 {
     EventBits_t flags;
-    (void)p_arg;
+    (void) p_arg;
 
     while (1)
     {
         flags = xEventGroupWaitBits(sl_wfx_event_group,
-                                    SL_WFX_CONNECT  | SL_WFX_DISCONNECT
+                                    SL_WFX_CONNECT | SL_WFX_DISCONNECT
 #ifdef SL_WFX_CONFIG_SOFTAP
-                                    | SL_WFX_START_AP| SL_WFX_STOP_AP
+                                        | SL_WFX_START_AP | SL_WFX_STOP_AP
 #endif /* SL_WFX_CONFIG_SOFTAP */
 #ifdef SL_WFX_CONFIG_SCAN
-                                    | SL_WFX_SCAN_COMPLETE
+                                        | SL_WFX_SCAN_COMPLETE
 #endif /* SL_WFX_CONFIG_SCAN */
-                                    |0,
+                                        | 0,
                                     pdTRUE, pdFALSE, portMAX_DELAY);
 
         if (flags & SL_WFX_CONNECT)
@@ -524,16 +526,15 @@ static sl_status_t wfx_init(void)
 {
     /* Initialize the WF200 used by the two interfaces */
     wfx_events_task_start();
-    sl_status_t status            = sl_wfx_init(&wifiContext);
+    sl_status_t status = sl_wfx_init(&wifiContext);
     EFR32_LOG("FMAC Driver version    %s\r\n", FMAC_DRIVER_VERSION_STRING);
     switch (status)
     {
     case SL_STATUS_OK:
         wifiContext.state = SL_WFX_STARTED;
         EFR32_LOG("WF200 Firmware version %d.%d.%d\r\n", wifiContext.firmware_major, wifiContext.firmware_minor,
-                wifiContext.firmware_build);
+                  wifiContext.firmware_build);
         EFR32_LOG("WF200 initialization successful\r\n");
-
 
         if (wifiContext.state == SL_WFX_STA_INTERFACE_CONNECTED)
         {
@@ -648,7 +649,7 @@ sl_status_t wfx_wifi_start(void)
     if (status == SL_STATUS_OK)
     {
         /* Initialize the LwIP stack */
-         Netif_Config(&sta_netif, NULL);
+        Netif_Config(&sta_netif, NULL);
         /* Start DHCP Client */
         dhcpclient_start();
     }

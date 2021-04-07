@@ -38,9 +38,8 @@
 #include <stdbool.h>
 
 #include "FreeRTOS.h"
-#include "task.h"
 #include "sl_wfx_constants.h"
-
+#include "task.h"
 
 typedef struct
 {

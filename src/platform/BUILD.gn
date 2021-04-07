@@ -425,14 +425,12 @@ if (chip_device_platform != "none" && chip_device_platform != "external") {
           "EFR32/ThreadStackManagerImpl.h",
           "OpenThread/OpenThreadUtils.cpp",
         ]
-      }
-      else {
+      } else {
         sources += [
-          "EFR32/WFXUtils.cpp",
-          "EFR32/WFXUtils.h",
-          "EFR32/NetworkProvisioningServerImpl.h",
           "EFR32/ServiceProvisioning.cpp",
           "EFR32/ServiceProvisioning.h",
+          "EFR32/WFXUtils.cpp",
+          "EFR32/WFXUtils.h",
         ]
       }
     } else if (chip_device_platform == "esp32") {

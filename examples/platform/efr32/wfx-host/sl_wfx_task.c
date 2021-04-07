@@ -46,9 +46,9 @@
 #include "em_gpio.h"
 
 #include "sl_wfx.h"
+#include "sl_wfx_host.h"
 #include "sl_wfx_host_pinout.h"
 #include "sl_wfx_task.h"
-#include "sl_wfx_host.h"
 
 #include "FreeRTOS.h"
 #include "event_groups.h"
@@ -56,12 +56,14 @@
 
 #include "AppConfig.h"
 
+#define BUS_TASK_STACK_SIZE 1024
+StackType_t busStack[BUS_TASK_STACK_SIZE];
+StaticTask_t busTaskStruct;
 TaskHandle_t wfx_bus_task_handle;
 
 wfx_frame_q_item wfx_bus_tx_frame;
 SemaphoreHandle_t wfxtask_tx_complete;
 SemaphoreHandle_t wfxtask_mutex;
-
 
 // Flag to indicate receive frames is currently running.
 static bool wfx_bus_rx_in_process = false;
@@ -81,7 +83,7 @@ static sl_status_t receive_frames()
 {
     sl_status_t result;
     uint16_t control_register = 0;
-    wfx_bus_rx_in_process = true;
+    wfx_bus_rx_in_process     = true;
     do
     {
         result = sl_wfx_receive_frame(&control_register);
@@ -103,7 +105,7 @@ static void wfx_bus_task(void * p_arg)
     for (;;)
     {
         /*Wait for an interrupt from WFX*/
-        ulTaskNotifyTake (pdTRUE, portMAX_DELAY);
+        ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
 
         /*Disable the interrupt while treating frames received to avoid
          *the case where the interrupt is set but there is no frame left to treat.*/
@@ -117,13 +119,13 @@ static void wfx_bus_task(void * p_arg)
     }
 }
 
-
 /***************************************************************************
  * Creates WFX bus communication task.
  ******************************************************************************/
 void wfx_bus_start()
 {
-    if (xTaskCreate(wfx_bus_task, "BusTask", 512, NULL, 2, &wfx_bus_task_handle) != pdPASS)
+    wfx_bus_task_handle = xTaskCreateStatic(wfx_bus_task, "BusTask", BUS_TASK_STACK_SIZE, NULL, 2, busStack, &busTaskStruct);
+    if (wfx_bus_task_handle != NULL)
     {
         EFR32_LOG("Failed to create WFX BusTask");
     }

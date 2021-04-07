@@ -35,6 +35,7 @@
 #else
 #include <platform/internal/GenericConnectivityManagerImpl_NoWiFi.h>
 #endif
+#include <support/BitFlags.h>
 
 namespace Inet {
 class IPAddress;
@@ -45,13 +46,6 @@ namespace DeviceLayer {
 
 class PlatformManagerImpl;
 
-namespace Internal {
-
-class NetworkProvisioningServerImpl;
-template <class ImplClass>
-class GenericNetworkProvisioningServerImpl;
-
-} // namespace Internal
 /**
  * Concrete implementation of the ConnectivityManager singleton object for Silicon Labs EFR32 platforms.
  */
@@ -87,6 +81,7 @@ private:
     void _OnPlatformEvent(const ChipDeviceEvent * event);
 
 #if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
+    using Flags = GenericConnectivityManagerImpl_WiFi::ConnectivityFlags;
     WiFiStationMode _GetWiFiStationMode(void);
     CHIP_ERROR _SetWiFiStationMode(WiFiStationMode val);
     bool _IsWiFiStationEnabled(void);
@@ -114,7 +109,7 @@ private:
     WiFiStationMode mWiFiStationMode;
     WiFiStationState mWiFiStationState;
     uint32_t mWiFiStationReconnectIntervalMS;
-    uint16_t mFlags;
+    BitFlags<Flags> mFlags;
 
     void DriveStationState(void);
     void OnStationConnected(void);
@@ -129,7 +124,7 @@ private:
 inline bool ConnectivityManagerImpl::_HaveIPv4InternetConnectivity(void)
 {
 #if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
-    return ::chip::GetFlag(mFlags, kFlag_HaveIPv4InternetConnectivity);
+    return mFlags.Has(Flags::kHaveIPv4InternetConnectivity);
 #else
     return false;
 #endif
@@ -138,7 +133,7 @@ inline bool ConnectivityManagerImpl::_HaveIPv4InternetConnectivity(void)
 inline bool ConnectivityManagerImpl::_HaveIPv6InternetConnectivity(void)
 {
 #if CHIP_DEVICE_CONFIG_ENABLE_WIFI_STATION
-    return ::chip::GetFlag(mFlags, kFlag_HaveIPv6InternetConnectivity);
+    return mFlags.Has(Flags::kHaveIPv6InternetConnectivity);
 #else
     return false;
 #endif

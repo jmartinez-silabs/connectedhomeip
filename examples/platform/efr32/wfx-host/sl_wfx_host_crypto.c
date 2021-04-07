@@ -32,11 +32,11 @@
 
 #ifdef SL_WFX_USE_SECURE_LINK
 // Secure link MAC key location for WGM160P (in DI page in flash)
-#ifdef EFM32GG11B820F2048GM64 //WGM160PX22KGA2
-#define SL_WFX_FCCC_BASE_ADDR                  ((void *) 0x0fe08000ul)
-#define SL_WFX_FCCC_DI_OFFSET                  0x1B0ul
-#define SL_WFX_FCCC_DI_ADDR                    ((void *) (SL_WFX_FCCC_BASE_ADDR + SL_WFX_FCCC_DI_OFFSET))
-#define SL_WFX_SECURE_LINK_MAC_KEY_LOCATION    ((void *) (SL_WFX_FCCC_BASE_ADDR + 0x3D0))
+#ifdef EFM32GG11B820F2048GM64 // WGM160PX22KGA2
+#define SL_WFX_FCCC_BASE_ADDR ((void *) 0x0fe08000ul)
+#define SL_WFX_FCCC_DI_OFFSET 0x1B0ul
+#define SL_WFX_FCCC_DI_ADDR ((void *) (SL_WFX_FCCC_BASE_ADDR + SL_WFX_FCCC_DI_OFFSET))
+#define SL_WFX_SECURE_LINK_MAC_KEY_LOCATION ((void *) (SL_WFX_FCCC_BASE_ADDR + 0x3D0))
 #endif
 /******************************************************
  *                      Macros
@@ -78,8 +78,8 @@ static mbedtls_ctr_drbg_context host_drbg_context;
 #endif
 static mbedtls_entropy_context entropy;
 uint8_t temp_key_location[SL_WFX_HOST_PUB_KEY_MAC_SIZE];
-#ifdef EFM32GG11B820F2048GM64 //WGM160PX22KGA2
-static const uint8_t* const secure_link_mac_key = (uint8_t*) SL_WFX_SECURE_LINK_MAC_KEY_LOCATION;
+#ifdef EFM32GG11B820F2048GM64 // WGM160PX22KGA2
+static const uint8_t * const secure_link_mac_key = (uint8_t *) SL_WFX_SECURE_LINK_MAC_KEY_LOCATION;
 #else
 static const uint8_t secure_link_mac_key[SL_WFX_SECURE_LINK_MAC_KEY_LENGTH] = { 0x2B, 0x49, 0xFD, 0x66, 0xCB, 0x74, 0x6D, 0x6B,
                                                                                 0x4F, 0xDC, 0xC3, 0x79, 0x4E, 0xC5, 0x9A, 0x86,
