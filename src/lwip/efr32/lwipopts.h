@@ -36,7 +36,11 @@
 #define MEM_ALIGNMENT (4)
 #define MEMP_NUM_TCP_SEG (TCP_SND_QUEUELEN + 1)
 #define LWIP_TIMEVAL_PRIVATE (0)
-#define MEM_LIBC_MALLOC (0)
+//#define MEM_LIBC_MALLOC (0)
+#define MEM_LIBC_MALLOC (1)
+#define mem_clib_free vPortFree
+#define mem_clib_malloc pvPortMalloc
+
 #define LWIP_COMPAT_MUTEX (0)
 #define SYS_LIGHTWEIGHT_PROT (1)
 #define LWIP_AUTOIP (0)
@@ -75,12 +79,16 @@
 #ifndef LWIP_IPV4
 #define LWIP_IPV4 0
 #endif
+#ifndef LWIP_IPV6
 #define LWIP_IPV6 1
+#endif
 #ifndef LWIP_ARP
 #define LWIP_ARP (0)
 #endif
 #define LWIP_DNS (0)
-#define LWIP_ICMP (0)
+#ifndef LWIP_ICMP
+#define LWIP_ICMP (1)
+#endif
 #define LWIP_IGMP (0)
 #ifndef LWIP_DHCP
 #define LWIP_DHCP (0)
@@ -124,7 +132,7 @@
 
 #define ETH_PAD_SIZE (0)
 #define SUB_ETHERNET_HEADER_SPACE (0)
-#define PBUF_LINK_HLEN (0)
+#define PBUF_LINK_HLEN (14)
 
 #if defined(EFR32MG21)
 #define TCPIP_THREAD_STACKSIZE (1300)

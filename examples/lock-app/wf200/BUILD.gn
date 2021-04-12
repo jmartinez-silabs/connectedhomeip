@@ -71,6 +71,7 @@ efr32_sdk("sdk") {
     "SL_WFX_DEBUG_MASK=0x0003",
     "LWIP_IPV4=1",
     "LWIP_ARP=1",
+    "LWIP_ICMP=1",
     "LWIP_IPV6_ND=1",
     "LWIP_DHCP=1",
     "LWIP_NETIF_API=1",
