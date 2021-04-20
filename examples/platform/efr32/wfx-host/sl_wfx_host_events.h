@@ -90,7 +90,7 @@ sl_wfx_state_t wfx_get_wifi_state(void);
 void wfx_SetStationNetif(struct netif * newNetif);
 struct netif * wfx_GetNetif(sl_wfx_interface_t interface);
 sl_wfx_mac_address_t wfx_get_wifi_mac_addr(sl_wfx_interface_t interface);
-void wfx_set_wifi_provision(wfx_wifi_provision_t wifiConfig);
+void wfx_set_wifi_provision(wfx_wifi_provision_t *wifiConfig);
 bool wfx_get_wifi_provision(wfx_wifi_provision_t * wifiConfig);
 void wfx_clear_wifi_provision(void);
 sl_status_t wfx_connect_to_provisionned_ap(void);

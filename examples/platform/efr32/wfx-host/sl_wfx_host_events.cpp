@@ -689,11 +689,11 @@ sl_wfx_mac_address_t wfx_get_wifi_mac_addr(sl_wfx_interface_t interface)
     return (interface == SL_WFX_STA_INTERFACE) ? wifiContext.mac_addr_0 : wifiContext.mac_addr_1;
 }
 
-void wfx_set_wifi_provision(wfx_wifi_provision_t wifiConfig)
+void wfx_set_wifi_provision(wfx_wifi_provision_t *wifiConfig)
 {
-    memcpy(wifi_provision.ssid, wifiConfig.ssid, sizeof(wifiConfig.ssid));
-    memcpy(wifi_provision.passkey, wifiConfig.passkey, sizeof(wifiConfig.passkey));
-    wifi_provision.security = wifiConfig.security;
+    memcpy(wifi_provision.ssid, wifiConfig->ssid, sizeof(wifiConfig->ssid));
+    memcpy(wifi_provision.passkey, wifiConfig->passkey, sizeof(wifiConfig->passkey));
+    wifi_provision.security = wifiConfig->security;
 }
 
 bool wfx_get_wifi_provision(wfx_wifi_provision_t * wifiConfig)

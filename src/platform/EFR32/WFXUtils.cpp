@@ -24,6 +24,7 @@
 /* this file behaves like a config.h, comes first */
 #include <platform/internal/CHIPDeviceLayerInternal.h>
 
+#include <platform/EFR32/EFR32Config.h>
 #include <platform/EFR32/WFXUtils.h>
 #include <support/CodeUtils.h>
 #include <support/ErrorStr.h>
@@ -46,21 +47,53 @@ CHIP_ERROR WFXUtils::IsStationConnected(bool & connected)
     connected = ((wfx_get_wifi_state() & SL_WFX_STA_INTERFACE_CONNECTED) == SL_WFX_STA_INTERFACE_CONNECTED);
     return CHIP_NO_ERROR;
 }
+static void
+do_set_wifi_sta_vars(const char *ssid, const char *psk)
+{
+    wfx_wifi_provision_t wifiConfig;
+
+    memset(&wifiConfig, 0, sizeof(wifiConfig));
+    strncpy (wifiConfig.ssid, ssid, sizeof (wifiConfig.ssid) -1);
+    strncpy (wifiConfig.passkey, psk, sizeof (wifiConfig.passkey) -1);
+    wifiConfig.security = WFM_SECURITY_MODE_WPA2_PSK;
+
+    // Configure the WFX WiFi interface.
+    wfx_set_wifi_provision (&wifiConfig);
+    ChipLogProgress(DeviceLayer, "DO WFXUTILS WiFi STA set (SSID: %s)", ssid);
+}
 
 CHIP_ERROR WFXUtils::StartWiFiLayer(void)
 {
-    CHIP_ERROR err = SL_STATUS_OK;
+    CHIP_ERROR err = CHIP_NO_ERROR;
+    char ssid [kMaxWiFiSSIDLength], psk [kMaxWiFiKeyLength + 1];
+    size_t slen, plen;
 
+    ChipLogProgress(DeviceLayer, "WFXUtils:Start WiFi");
     if (!((wfx_get_wifi_state() & SL_WFX_STARTED) == SL_WFX_STARTED))
     {
         err = wfx_wifi_start();
         if (err != SL_STATUS_OK)
         {
-            ChipLogError(DeviceLayer, "wfx_wifi_start() failed: %s", chip::ErrorStr(err));
+            ChipLogError(DeviceLayer, "WFX_wifi_start: FAIL: %s", chip::ErrorStr(err));
         }
+#if 1
+        /*
+         * Get our Provision Keys and set it.
+         */
+        if (((err = EFR32Config::ReadConfigValueStr (EFR32Config::kConfigKey_OperationalWiFiSSID, &ssid [0], sizeof (ssid)-1, slen)) != CHIP_NO_ERROR) ||
+            ((err = EFR32Config::ReadConfigValueStr (EFR32Config::kConfigKey_OperationalWiFiPSK, &psk [0], sizeof (psk) -1, plen)) != CHIP_NO_ERROR))
+            {
+                ChipLogError(DeviceLayer, "WIFI: NO SSID found in NVM3 %s", chip::ErrorStr(err));
+            } else {
+            /*
+             * Got the SSID/PSK from before - Set it.
+             */
+            ChipLogProgress(DeviceLayer, "WFX: Found SSID=%s", ssid);
+            do_set_wifi_sta_vars (ssid, psk);
+        }
+#endif
     }
-
-    return err;
+    return CHIP_NO_ERROR;
 }
 
 CHIP_ERROR WFXUtils::EnableStationMode(void)
@@ -168,38 +201,26 @@ exit:
 CHIP_ERROR WFXUtils::SetWiFiStationProvision(const Internal::DeviceNetworkInfo & netInfo)
 {
     CHIP_ERROR err = CHIP_NO_ERROR;
-    wfx_wifi_provision_t wifiConfig;
-
-    char wifiSSID[kMaxWiFiSSIDLength + 1];
-    size_t netInfoSSIDLen = strlen(netInfo.WiFiSSID);
+    char psk [kMaxWiFiKeyLength + 1];
 
     // Ensure that WFX station mode is enabled.
     err = WFXUtils::EnableStationMode();
     SuccessOrExit(err);
 
-    // Enforce that wifiSSID is null terminated before copying it
-    memcpy(wifiSSID, netInfo.WiFiSSID, min(netInfoSSIDLen + 1, sizeof(wifiSSID)));
-    if (netInfoSSIDLen + 1 < sizeof(wifiSSID))
-    {
-        wifiSSID[netInfoSSIDLen] = '\0';
+    if (netInfo.WiFiKeyLen >= (sizeof (psk) -1)) {
+        return CHIP_ERROR_NO_MEMORY;
     }
-    else
-    {
-        wifiSSID[kMaxWiFiSSIDLength] = '\0';
-    }
-
-    // Initialize an WFX wfx_wifi_provision_t structure based on the new provision information.
-    memset(&wifiConfig, 0, sizeof(wifiConfig));
-    memcpy(wifiConfig.ssid, wifiSSID, min(strlen(wifiSSID) + 1, sizeof(wifiConfig.ssid)));
-    memcpy(wifiConfig.passkey, netInfo.WiFiKey, min((size_t) netInfo.WiFiKeyLen, sizeof(wifiConfig.passkey)));
-    wifiConfig.security = WFM_SECURITY_MODE_WPA2_PSK;
-    // wifiConfig.sta.scan_method = WIFI_ALL_CHANNEL_SCAN;
-    // wifiConfig.sta.sort_method = WIFI_CONNECT_AP_BY_SIGNAL;
-
-    // Configure the WFX WiFi interface.
-    wfx_set_wifi_provision(wifiConfig);
-    ChipLogProgress(DeviceLayer, "WFXUTILS WiFi station provision set (SSID: %s)", netInfo.WiFiSSID);
-
+    memcpy (&psk [0], netInfo.WiFiKey, netInfo.WiFiKeyLen);
+    psk [netInfo.WiFiKeyLen] = 0;
+    do_set_wifi_sta_vars (&netInfo.WiFiSSID [0], psk);
+#if 0
+    /*
+     * We are required to remember this
+     */
+    (void)EFR32Config::WriteConfigValueStr (EFR32Config::kConfigKey_OperationalWiFiSSID, (char *)&netInfo.WiFiSSID[0]);
+    (void)EFR32Config::WriteConfigValueStr (EFR32Config::kConfigKey_OperationalWiFiPSK, psk);
+#endif
+    ChipLogProgress(DeviceLayer, "$$$WFXUtils:WiFi STA provision (SSID: %s)", netInfo.WiFiSSID);
 exit:
     return err;
 }
@@ -208,6 +229,8 @@ CHIP_ERROR WFXUtils::ClearWiFiStationProvision(void)
 {
     CHIP_ERROR err = CHIP_NO_ERROR;
     wfx_clear_wifi_provision();
+    (void)EFR32Config::ClearConfigValue (EFR32Config::kConfigKey_OperationalWiFiSSID);
+    (void)EFR32Config::ClearConfigValue (EFR32Config::kConfigKey_OperationalWiFiPSK);
     return err;
 }
 

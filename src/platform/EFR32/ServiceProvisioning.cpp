@@ -19,6 +19,7 @@
 #include <support/CodeUtils.h>
 #include <support/logging/CHIPLogging.h>
 
+#include <platform/EFR32/EFR32Config.h>
 #include "sl_wfx.h"
 #include "sl_wfx_host_events.h"
 
@@ -40,8 +41,10 @@ CHIP_ERROR SetWiFiStationProvisioning(const char * ssid, const char * key)
     wifiConfig.security = WFM_SECURITY_MODE_WPA2_PSK;
 
     // Configure the WFX WiFi interface.
-    wfx_set_wifi_provision(wifiConfig);
-    ChipLogProgress(DeviceLayer, "SP WiFi station provision set (SSID: %s)", wifiConfig.ssid);
+    wfx_set_wifi_provision(&wifiConfig);
+    (void)Internal::EFR32Config::WriteConfigValueStr (Internal::EFR32Config::kConfigKey_OperationalWiFiSSID, (char *)ssid);
+    (void)Internal::EFR32Config::WriteConfigValueStr (Internal::EFR32Config::kConfigKey_OperationalWiFiPSK, key);
+    ChipLogProgress(DeviceLayer, "SP WiFi STA provision set (SSID: %s)", wifiConfig.ssid);
 
     ConnectivityMgr().SetWiFiStationMode(ConnectivityManager::kWiFiStationMode_Disabled);
     ConnectivityMgr().SetWiFiStationMode(ConnectivityManager::kWiFiStationMode_Enabled);
