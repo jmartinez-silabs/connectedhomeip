@@ -154,7 +154,7 @@ void GenericThreadStackManagerImpl_FreeRTOS<ImplClass>::ThreadTaskMain(void * ar
     ChipLogDetail(DeviceLayer, "Thread task running");
 
     // Try starting joiner within 15m.
-    self->mJoinerExpire = xTaskGetTickCount() + pdMS_TO_TICKS(15 * 60 * 1000);
+    self->mJoinerExpire = xTaskGetTickCount() + pdMS_TO_TICKS(20 * 1000);
 
     TimerHandle_t joinerTimer = xTimerCreate("JoinerTimer", pdMS_TO_TICKS(10000), pdTRUE, self, &OnJoinerTimer);
     VerifyOrDie(joinerTimer != NULL);
