@@ -32,10 +32,6 @@ platform.
 
 ## Building
 
--   Download the [sdk_support](https://github.com/SiliconLabs/sdk_support) from
-    GitHub and export the path with :
-
-            $ export EFR32_SDK_ROOT=<Path to cloned git repo>
 
 -   Download the
     [Simplicity Commander](https://www.silabs.com/mcu/programming-options)
@@ -68,7 +64,6 @@ platform.
 
         cd ~/connectedhomeip/
         git submodule update --init
-        export EFR32_SDK_ROOT=<path-to-silabs-sdk-v2.7>
         export EFR32_BOARD=BRD4161A
         ./scripts/examples/gn_efr32_example.sh examples/lock-app/wf200/ out/efr32_wfx_lock_app
 
@@ -151,12 +146,14 @@ combination with JLinkRTTClient as follows:
     out/debug/standalone
 
     Start the BLE paring sequence ./out/debug/standalone/chip-tool pairing ble
-    <SSID> <PASSWORD> <SETUP_PINCODE> <DISCRIMINATOR>
+    <SSID> <PASSWORD> <FABRIC-ID> <SETUP_PINCODE> <DISCRIMINATOR>
 
-          For our example the Pin code and Discriminator are preset to "12345678" "3840"
-          ./out/debug/standalone/chip-tool pairing ble <SSID> <PASSWORD> 12345678 3840
+          For our example the Pin code and Discriminator are preset to "73141520" "3840"
+          For our example the Fabric ID below is 5544332211
+          ./out/debug/standalone/chip-tool pairing ble <SSID> <PASSWORD> 5544332211 73141520 3840
 
 -   Using chip-tool you can now control the lock status with on/off command such
     as `chip-tool onoff on 1`
 
         ./out/debug/standalone/chip-tool onoff on 1
+        ./out/debug/standalone/chip-tool onoff off 1

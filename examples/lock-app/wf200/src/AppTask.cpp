@@ -143,7 +143,7 @@ int AppTask::Init()
 #ifdef DISPLAY_ENABLED
     std::string QRCode;
 
-    if (GetQRCode(QRCode, chip::RendezvousInformationFlags::kBLE) == CHIP_NO_ERROR)
+     if (GetQRCode(QRCode, chip::RendezvousInformationFlags(chip::RendezvousInformationFlag::kBLE)) == CHIP_NO_ERROR)
     {
         LCDWriteQRCode((uint8_t *) QRCode.c_str());
     }
@@ -241,7 +241,7 @@ void AppTask::AppTaskMain(void * pvParameter)
 
         if (nowUS > nextChangeTimeUS)
         {
-            // PublishService();
+            //PublishService();
             mLastChangeTimeUS = nowUS;
         }
     }

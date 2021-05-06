@@ -125,7 +125,7 @@ static void wfx_bus_task(void * p_arg)
 void wfx_bus_start()
 {
     wfx_bus_task_handle = xTaskCreateStatic(wfx_bus_task, "BusTask", BUS_TASK_STACK_SIZE, NULL, 2, busStack, &busTaskStruct);
-    if (wfx_bus_task_handle != NULL)
+    if (wfx_bus_task_handle == NULL)
     {
         EFR32_LOG("Failed to create WFX BusTask");
     }
