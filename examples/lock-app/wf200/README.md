@@ -145,12 +145,12 @@ combination with JLinkRTTClient as follows:
     ~/connectedhomeip/ ./scripts/examples/gn_build_example.sh examples/chip-tool
     out/debug/standalone
 
-    Start the BLE paring sequence ./out/debug/standalone/chip-tool pairing ble
+    Start the BLE paring sequence ./out/debug/standalone/chip-tool pairing ble-wifi
     <SSID> <PASSWORD> <FABRIC-ID> <SETUP_PINCODE> <DISCRIMINATOR>
 
           For our example the Pin code and Discriminator are preset to "73141520" "3840"
           For our example the Fabric ID below is 5544332211
-          ./out/debug/standalone/chip-tool pairing ble <SSID> <PASSWORD> 5544332211 73141520 3840
+          ./out/debug/standalone/chip-tool pairing ble-wifi <SSID> <PASSWORD> 5544332211 73141520 3840
 
 -   Using chip-tool you can now control the lock status with on/off command such
     as `chip-tool onoff on 1`
