@@ -65,8 +65,10 @@ do_set_wifi_sta_vars(const char *ssid, const char *psk)
 CHIP_ERROR WFXUtils::StartWiFiLayer(void)
 {
     CHIP_ERROR err = CHIP_NO_ERROR;
+#if 0
     char ssid [kMaxWiFiSSIDLength], psk [kMaxWiFiKeyLength + 1];
     size_t slen, plen;
+#endif
 
     ChipLogProgress(DeviceLayer, "WFXUtils:Start WiFi");
     if (!((wfx_get_wifi_state() & SL_WFX_STARTED) == SL_WFX_STARTED))
@@ -76,7 +78,7 @@ CHIP_ERROR WFXUtils::StartWiFiLayer(void)
         {
             ChipLogError(DeviceLayer, "WFX_wifi_start: FAIL: %s", chip::ErrorStr(err));
         }
-#if 1
+#if 0
         /*
          * Get our Provision Keys and set it.
          */

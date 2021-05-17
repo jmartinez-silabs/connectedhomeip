@@ -527,14 +527,21 @@ static sl_status_t wfx_init(void)
     /* Initialize the WF200 used by the two interfaces */
     wfx_events_task_start();
     sl_status_t status = sl_wfx_init(&wifiContext);
-    EFR32_LOG("FMAC Driver version    %s\r\n", FMAC_DRIVER_VERSION_STRING);
+    EFR32_LOG("FMAC Driver version    %s", FMAC_DRIVER_VERSION_STRING);
     switch (status)
     {
     case SL_STATUS_OK:
         wifiContext.state = SL_WFX_STARTED;
-        EFR32_LOG("WF200 Firmware version %d.%d.%d\r\n", wifiContext.firmware_major, wifiContext.firmware_minor,
-                  wifiContext.firmware_build);
-        EFR32_LOG("WF200 initialization successful\r\n");
+        EFR32_LOG("WF200 FW ver:%d.%d.%d [MAC %02x:%02x:%02x-%02x:%02x:%02x]",
+                  wifiContext.firmware_major, wifiContext.firmware_minor,
+                  wifiContext.firmware_build,
+                  wifiContext.mac_addr_0.octet [0],
+                  wifiContext.mac_addr_0.octet [1],
+                  wifiContext.mac_addr_0.octet [2],
+                  wifiContext.mac_addr_0.octet [3],
+                  wifiContext.mac_addr_0.octet [4],
+                  wifiContext.mac_addr_0.octet [5]);
+        EFR32_LOG("WF200 Init OK");
 
         if (wifiContext.state == SL_WFX_STA_INTERFACE_CONNECTED)
         {
@@ -615,6 +622,10 @@ sl_status_t lwip_set_sta_link_up(void)
     netifapi_netif_set_up(&sta_netif);
     netifapi_netif_set_link_up(&sta_netif);
     dhcpclient_set_link_state(1);
+    /*
+     * Enable IPV6
+     */
+    netif_create_ip6_linklocal_address (&sta_netif, 1);
 
     return SL_STATUS_OK;
 }
@@ -627,6 +638,7 @@ sl_status_t lwip_set_sta_link_down(void)
     dhcpclient_set_link_state(0);
     netifapi_netif_set_link_down(&sta_netif);
     netifapi_netif_set_down(&sta_netif);
+
     return SL_STATUS_OK;
 }
 

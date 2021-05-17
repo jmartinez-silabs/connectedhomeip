@@ -31,9 +31,11 @@
 
 #include <lib/support/CodeUtils.h>
 #include <platform/CHIPDeviceLayer.h>
+#include <app/server/Mdns.h>
 
 using namespace ::chip;
 using namespace ::chip::DeviceLayer;
+
 
 // DHCP client states
 #define DHCP_OFF (uint8_t) 0
@@ -128,6 +130,7 @@ static void dhcpclient_task(void * argument)
                 eventData.header.id     = IP_EVENT_STA_GOT_IP;
                 eventData.header.length = sizeof(eventData.header);
                 PlatformMgrImpl().HandleWFXSystemEvent(IP_EVENT, &eventData);
+                chip::app::Mdns::StartServer();
             }
             else
             {

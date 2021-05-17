@@ -25,6 +25,7 @@
 #include "ethernetif.h"
 #include "lwip/timeouts.h"
 #include "netif/etharp.h"
+#include "lwip/ethip6.h"
 
 #include "sl_wfx_host_events.h"
 
@@ -66,10 +67,10 @@ static void low_level_init(struct netif * netif)
     netif->mtu = 1500;
 
     /* Accept broadcast address and ARP traffic */
-    netif->flags |= NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP;
+    netif->flags |= NETIF_FLAG_BROADCAST | NETIF_FLAG_ETHARP| NETIF_FLAG_IGMP;
 
     /* Set netif link flag */
-    netif->flags |= NETIF_FLAG_LINK_UP;
+    netif->flags |= NETIF_FLAG_LINK_UP|NETIF_FLAG_UP;
 }
 
 /*****************************************************************************
@@ -237,6 +238,7 @@ err_t sta_ethernetif_init(struct netif * netif)
     netif->name[1] = STATION_NETIF1;
 
     netif->output     = etharp_output;
+    netif->output_ip6 = ethip6_output;
     netif->linkoutput = low_level_output;
 
     /* initialize the hardware */

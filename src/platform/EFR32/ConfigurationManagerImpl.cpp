@@ -147,8 +147,11 @@ CHIP_ERROR ConfigurationManagerImpl::_GetPrimaryWiFiMACAddress(uint8_t * buf)
     sl_wfx_mac_address_t wfxMADAddr;
     wfxMADAddr = wfx_get_wifi_mac_addr(SL_WFX_STA_INTERFACE);
     memcpy(buf, &wfxMADAddr.octet[0], sizeof(wfxMADAddr.octet));
-#endif
+
+    return CHIP_NO_ERROR;
+#else
     return CHIP_ERROR_NOT_IMPLEMENTED;
+#endif
 }
 
 } // namespace DeviceLayer
