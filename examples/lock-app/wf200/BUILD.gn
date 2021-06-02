@@ -103,6 +103,7 @@ efr32_executable("wf200_lock_app") {
     "include",
     "${chip_root}/src/app/util",
     "${chip_root}/src/app/server",
+    "${chip_root}/src/app/common",
     "${examples_plat_dir}",
     "${examples_plat_dir}/lwip_host",
     "${examples_plat_dir}/lwip_host/apps",
