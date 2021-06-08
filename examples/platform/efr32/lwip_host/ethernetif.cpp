@@ -17,7 +17,7 @@
 /* Includes */
 #include <string.h>
 
-#include "demo_config.h"
+#include "sl_wifi_config.h"
 #include "sl_wfx.h"
 #include "sl_wfx_host.h"
 

@@ -51,7 +51,7 @@
 #include "em_usart.h"
 #include "gpiointerrupt.h"
 
-#include "demo_config.h"
+#include "sl_wifi_config.h"
 
 #include "AppConfig.h"
 #include "dhcp_client.h"
@@ -736,4 +736,11 @@ sl_status_t wfx_connect_to_provisionned_ap(void)
     }
 
     return result;
+}
+
+bool
+wfx_hw_ready (void)
+{
+    return (wifiContext.state == SL_WFX_STARTED) ? true : false;
+
 }

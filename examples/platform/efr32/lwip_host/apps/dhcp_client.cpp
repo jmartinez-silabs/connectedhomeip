@@ -19,7 +19,7 @@
  * limitations under the License.
  *****************************************************************************/
 #include "dhcp_client.h"
-#include "demo_config.h"
+#include "sl_wifi_config.h"
 #include "lwip/dhcp.h"
 
 #include "FreeRTOS.h"
@@ -103,7 +103,7 @@ static void dhcpclient_task(void * argument)
     ip_addr_t netmask;
     ip_addr_t gw;
     struct dhcp * dhcp;
-    sl_wfx_generic_message_t eventData;
+    extern void app_dhcp_ip_changed (int got_ip);
 
     for (;;)
     {
@@ -122,15 +122,11 @@ static void dhcpclient_task(void * argument)
             {
                 dhcp_state = DHCP_ADDRESS_ASSIGNED;
 
-                EFR32_LOG("WFX Station IP: %d.%d.%d.%d", (netif->ip_addr.u_addr.ip4.addr & 0xff),
+                EFR32_LOG("DHCP IP: %d.%d.%d.%d", (netif->ip_addr.u_addr.ip4.addr & 0xff),
                           ((netif->ip_addr.u_addr.ip4.addr >> 8) & 0xff), ((netif->ip_addr.u_addr.ip4.addr >> 16) & 0xff),
                           ((netif->ip_addr.u_addr.ip4.addr >> 24) & 0xff));
 
-                memset(&eventData, 0, sizeof(eventData));
-                eventData.header.id     = IP_EVENT_STA_GOT_IP;
-                eventData.header.length = sizeof(eventData.header);
-                PlatformMgrImpl().HandleWFXSystemEvent(IP_EVENT, &eventData);
-                chip::app::Mdns::StartServer();
+                app_dhcp_ip_changed (1);
             }
             else
             {
@@ -157,18 +153,14 @@ static void dhcpclient_task(void * argument)
             /* Stop DHCP */
             dhcp_stop(netif);
             dhcp_state = DHCP_OFF;
-            memset(&eventData, 0, sizeof(eventData));
-            eventData.header.id     = IP_EVENT_STA_LOST_IP;
-            eventData.header.length = sizeof(eventData.header);
-            PlatformMgrImpl().HandleWFXSystemEvent(IP_EVENT, &eventData);
-
+            app_dhcp_ip_changed (0);
             break;
         default:
             break;
         }
 
         /* wait 250 ms */
-        vTaskDelay(portMS_TO_TICKS(250));
+        vTaskDelay(pdMS_TO_TICKS(250));
     }
 }
 

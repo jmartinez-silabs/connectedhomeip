@@ -237,13 +237,13 @@ sl_status_t sl_wfx_host_reset_chip(void)
     GPIO_PinOutClear(SL_WFX_HOST_PINOUT_RESET_PORT, SL_WFX_HOST_PINOUT_RESET_PIN);
 
     // Delay for 10ms
-    vTaskDelay(portMS_TO_TICKS(10));
+    vTaskDelay(pdMS_TO_TICKS(10));
 
     // Hold pin high to get chip out of reset
     GPIO_PinOutSet(SL_WFX_HOST_PINOUT_RESET_PORT, SL_WFX_HOST_PINOUT_RESET_PIN);
 
     // Delay for 3ms
-    vTaskDelay(portMS_TO_TICKS(3));
+    vTaskDelay(pdMS_TO_TICKS(3));
 
     host_context.wf200_initialized = 0;
     return SL_STATUS_OK;
@@ -258,7 +258,7 @@ sl_status_t sl_wfx_host_wait_for_wake_up(void)
 }
 sl_status_t sl_wfx_host_wait(uint32_t wait_time)
 {
-    uint32_t ticks = portMS_TO_TICKS(wait_time);
+    uint32_t ticks = pdMS_TO_TICKS(wait_time);
     vTaskDelay(ticks ? ticks : 10);
     return SL_STATUS_OK;
 }
@@ -402,3 +402,18 @@ void sl_wfx_host_log(const char * str, ...)
     va_end(args);
 }
 #endif
+#ifndef PW_RPC_ENABLED
+/* Place holder - This is just to handle UART interrupts
+ * The "otThread tasks handles it. WiFi does not need it yet
+ * I don't care for it. I should really have the thread
+ * shut it off
+ */
+#if !CHIP_ENABLE_OPENTHREAD
+void otSysEventSignalPending(void)
+{
+    // BaseType_t yieldRequired = ThreadStackMgrImpl().SignalThreadActivityPendingFromISR();
+    EFR32_LOG("*ERR*UART intr - NOT Handled");
+    portYIELD_FROM_ISR (pdFALSE);
+}
+#endif /* !CHIP_ENABLE_OPENTHREAD */
+#endif /* PW_RPC_ENABLED */
