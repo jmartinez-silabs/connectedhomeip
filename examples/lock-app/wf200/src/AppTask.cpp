@@ -20,35 +20,45 @@
 #include "AppConfig.h"
 #include "AppEvent.h"
 #include "ButtonHandler.h"
-#include "DataModelHandler.h"
 #include "LEDWidget.h"
-#include "OnboardingCodesUtil.h"
-#include "Server.h"
 #include "Service.h"
-#include "attribute-storage.h"
-#include "demo_config.h"
-#include "gen/attribute-id.h"
-#include "gen/attribute-type.h"
-#include "gen/cluster-id.h"
 #include "lcd.h"
 #include "qrcodegen.h"
-
-#include "sl_wfx_host_events.h"
+#include "sl_wfx_task.h"
+#include <app/common/gen/attribute-id.h>
+#include <app/common/gen/attribute-type.h>
+#include <app/common/gen/cluster-id.h>
+#include <app/server/OnboardingCodesUtil.h>
+#include <app/server/Server.h>
+#include <app/util/attribute-storage.h>
 
 #include <assert.h>
-
-#include <lib/support/CodeUtils.h>
 
 #include <setup_payload/QRCodeSetupPayloadGenerator.h>
 #include <setup_payload/SetupPayload.h>
 
+#include <platform/EFR32/freertos_bluetooth.h>
+
+#include <lib/support/CodeUtils.h>
+
 #include <platform/CHIPDeviceLayer.h>
+#include <app/server/Mdns.h>
+#if CHIP_ENABLE_OPENTHREAD
+#include <platform/EFR32/ThreadStackManagerImpl.h>
+#include <platform/OpenThread/OpenThreadUtils.h>
+#include <platform/ThreadStackManager.h>
+#endif
 
 #define FACTORY_RESET_TRIGGER_TIMEOUT 3000
 #define FACTORY_RESET_CANCEL_WINDOW_TIMEOUT 3000
+#ifdef SL_WIFI
+#define APP_TASK_STACK_SIZE (2048+1024)
+#else
 #define APP_TASK_STACK_SIZE (1536)
+#endif /* SL_WIFI */
 #define APP_TASK_PRIORITY 2
 #define APP_EVENT_QUEUE_SIZE 10
+#define EXAMPLE_VENDOR_ID 0xcafe
 
 namespace {
 TimerHandle_t sFunctionTimer; // FreeRTOS app sw timer.
@@ -59,9 +69,16 @@ QueueHandle_t sAppEventQueue;
 LEDWidget sStatusLED;
 LEDWidget sLockLED;
 
+#ifdef SL_WIFI
 bool sIsWiFiProvisioned       = false;
 bool sIsWiFiEnabled           = false;
 bool sIsWiFiAttached          = false;
+#endif
+
+#if CHIP_ENABLE_OPENTHREAD
+bool sIsThreadProvisioned     = false;
+bool sIsThreadEnabled         = false;
+#endif
 bool sIsPairedToAccount       = false;
 bool sHaveBLEConnections      = false;
 bool sHaveServiceConnectivity = false;
@@ -99,7 +116,19 @@ int AppTask::StartAppTask()
 int AppTask::Init()
 {
     CHIP_ERROR err = CHIP_NO_ERROR;
+    extern bool wfx_hw_ready (void);
 
+#ifdef SL_WIFI
+    /*
+     * Wait for the WiFi to be initialized
+     */
+    EFR32_LOG ("APP: Wait WiFi Init");
+    while (!wfx_hw_ready ()) {
+        vTaskDelay (10);
+    }
+    EFR32_LOG ("APP: Done waiting WiFi Init");
+    /* We will init server when we get IP */
+#endif
     // Init ZCL Data Model
     InitServer();
 
@@ -172,8 +201,9 @@ void AppTask::AppTaskMain(void * pvParameter)
     }
 
     EFR32_LOG("App Task started");
-    // TODO
-    // SetDeviceName("WF200LockDemo._chip._udp.local.");
+#if CHIP_ENABLE_OPENTHREAD
+    SetDeviceName("WF200LockDemo._chip._udp.local.");
+#endif
 
     while (true)
     {
@@ -191,9 +221,15 @@ void AppTask::AppTaskMain(void * pvParameter)
         // when the CHIP task is busy (e.g. with a long crypto operation).
         if (PlatformMgr().TryLockChipStack())
         {
+#ifdef SL_WIFI
             sIsWiFiProvisioned       = ConnectivityMgr().IsWiFiStationProvisioned();
             sIsWiFiEnabled           = ConnectivityMgr().IsWiFiStationEnabled();
             sIsWiFiAttached          = ConnectivityMgr().IsWiFiStationConnected();
+#endif
+#if CHIP_ENABLE_OPENTHREAD
+            sIsThreadProvisioned     = ConnectivityMgr().IsThreadProvisioned();
+            sIsThreadEnabled         = ConnectivityMgr().IsThreadEnabled();
+#endif
             sHaveBLEConnections      = (ConnectivityMgr().NumBLEConnections() != 0);
             sHaveServiceConnectivity = ConnectivityMgr().HaveServiceConnectivity();
             PlatformMgr().UnlockChipStack();
@@ -219,7 +255,11 @@ void AppTask::AppTaskMain(void * pvParameter)
             {
                 sStatusLED.Set(true);
             }
+#if CHIP_ENABLE_OPENTHREAD
+            else if (sIsThreadProvisioned && sIsThreadEnabled)
+#else
             else if (sIsWiFiProvisioned && sIsWiFiEnabled && sIsPairedToAccount && (!sIsWiFiAttached || !sHaveServiceConnectivity))
+#endif
             {
                 sStatusLED.Blink(950, 50);
             }
@@ -241,7 +281,9 @@ void AppTask::AppTaskMain(void * pvParameter)
 
         if (nowUS > nextChangeTimeUS)
         {
-            //PublishService();
+#if CHIP_ENABLE_OPENTHREAD
+            PublishService();
+#endif
             mLastChangeTimeUS = nowUS;
         }
     }
@@ -532,5 +574,38 @@ void AppTask::UpdateClusterState(void)
     if (status != EMBER_ZCL_STATUS_SUCCESS)
     {
         EFR32_LOG("ERR: updating on/off %x", status);
+    }
+}
+void AppTask::IP_Changed (AppEvent * aEvent)
+{
+    sl_wfx_generic_message_t eventData;
+
+    EFR32_LOG ("APP: IP Changed");
+    memset(&eventData, 0, sizeof(eventData));
+    eventData.header.id = aEvent->Type ? IP_EVENT_STA_GOT_IP: IP_EVENT_STA_LOST_IP;
+    eventData.header.length = sizeof(eventData.header);
+    PlatformMgrImpl().HandleWFXSystemEvent(IP_EVENT, &eventData);
+    /* So the other threads can run and have the connectivity OK */
+    if (aEvent->Type) {
+        /* Should remember this */
+        vTaskDelay (1);
+        chip::app::Mdns::StartServer();
+    }
+
+
+}
+/* Called from DHCP - So that we can have the APP thread do
+ * all the posting etc.
+ */
+void app_dhcp_ip_changed (int got_ip)
+{
+    AppEvent event;
+
+    event.Handler = AppTask::IP_Changed;
+    event.Type = (uint16_t)got_ip;
+    if (sAppEventQueue != NULL)
+    {
+        if (!xQueueSend(sAppEventQueue, &event, 1)) {
+        }
     }
 }

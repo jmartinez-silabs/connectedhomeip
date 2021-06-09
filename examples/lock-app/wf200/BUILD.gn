@@ -66,6 +66,8 @@ efr32_sdk("sdk") {
   defines = [
     "BOARD_ID=${efr32_board}",
     "CHIP_DEVICE_CONFIG_USE_TEST_SETUP_PIN_CODE=${setupPinCode}",
+    "WF200_WIFI=1",
+    "SL_WIFI=1",
     "SL_HEAP_SIZE=(15 * 1024)",
     "SL_WFX_USE_SPI",
     "SL_WFX_DEBUG_MASK=0x0003",

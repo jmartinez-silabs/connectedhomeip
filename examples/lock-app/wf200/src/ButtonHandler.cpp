@@ -38,7 +38,6 @@ TimerHandle_t buttonTimers[BSP_BUTTON_COUNT];                                // 
 
 void ButtonHandler::Init(void)
 {
-    GpioInit();
 
     // Create FreeRTOS sw timers for debouncing buttons.
     for (uint8_t i = 0; i < BSP_BUTTON_COUNT; i++)
@@ -51,6 +50,7 @@ void ButtonHandler::Init(void)
                                                                       // the same timer cn function)
         );
     }
+    GpioInit();
 }
 
 void ButtonHandler::GpioInit(void)

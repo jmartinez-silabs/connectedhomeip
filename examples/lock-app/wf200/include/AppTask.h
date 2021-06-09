@@ -35,6 +35,7 @@ class AppTask
 public:
     int StartAppTask();
     static void AppTaskMain(void * pvParameter);
+    static void IP_Changed (AppEvent *aEvent);
 
     void PostLockActionRequest(int32_t aActor, BoltLockManager::Action_t aAction);
     void PostEvent(const AppEvent * event);
