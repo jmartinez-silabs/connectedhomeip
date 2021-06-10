@@ -36,7 +36,14 @@
 #define MEM_ALIGNMENT (4)
 #define MEMP_NUM_TCP_SEG (TCP_SND_QUEUELEN + 1)
 #define LWIP_TIMEVAL_PRIVATE (0)
+#if 1
+#define MEM_LIBC_MALLOC (1)
+#define mem_clib_free vPortFree
+#define mem_clib_malloc pvPortMalloc
+#else
 #define MEM_LIBC_MALLOC (0)
+#endif
+
 #define LWIP_COMPAT_MUTEX (0)
 #define SYS_LIGHTWEIGHT_PROT (1)
 #define LWIP_AUTOIP (0)
@@ -70,27 +77,40 @@
 
 #define MEMP_NUM_NETCONN (0)
 
+#ifndef LWIP_IPV4
 #define LWIP_IPV4 0
+#endif
+#ifndef LWIP_IPV6
 #define LWIP_IPV6 1
+#endif
+#ifndef LWIP_ARP
 #define LWIP_ARP (0)
+#endif
 #define LWIP_DNS (0)
-#define LWIP_ICMP (0)
+#ifndef LWIP_ICMP
+#define LWIP_ICMP (1)
+#endif
+#ifndef LWIP_IGMP
 #define LWIP_IGMP (0)
+#endif
+#ifndef LWIP_DHCP
 #define LWIP_DHCP (0)
+#endif
 #define LWIP_IPV6_REASS (0)
 #define LWIP_IPV6_DHCP6 0
-#define LWIP_IPV6_AUTOCONFIG (0)
-#define LWIP_IPV6_ROUTER_SUPPORT 0
-#define LWIP_ND6_LISTEN_RA 0
+#define LWIP_IPV6_AUTOCONFIG (1)
+#define LWIP_IPV6_ROUTER_SUPPORT 1
+#define LWIP_ND6_LISTEN_RA 1
 
-#define LWIP_ND6_NUM_NEIGHBORS (0)
-#define LWIP_ND6_NUM_DESTINATIONS (0)
-#define LWIP_ND6_NUM_PREFIXES (0)
-#define LWIP_ND6_NUM_ROUTERS (0)
-#define LWIP_ND6_MAX_MULTICAST_SOLICIT (0)
-#define LWIP_ND6_MAX_UNICAST_SOLICIT (0)
-#define LWIP_ND6_MAX_NEIGHBOR_ADVERTISEMENT (0)
+#define LWIP_ND6_NUM_NEIGHBORS (2)
+#define LWIP_ND6_NUM_DESTINATIONS (3)
+#define LWIP_ND6_NUM_PREFIXES (2)
+#define LWIP_ND6_NUM_ROUTERS (2)
+#define LWIP_ND6_MAX_MULTICAST_SOLICIT (2)
+#define LWIP_ND6_MAX_UNICAST_SOLICIT (2)
+#define LWIP_ND6_MAX_NEIGHBOR_ADVERTISEMENT (3)
 #define LWIP_ND6_TCP_REACHABILITY_HINTS (0)
+#define LWIP_ND6_ALLOW_RA_UPDATES 1
 
 #if defined(EFR32MG21)
 #define MEMP_SEPARATE_POOLS (1)
@@ -116,7 +136,7 @@
 
 #define ETH_PAD_SIZE (0)
 #define SUB_ETHERNET_HEADER_SPACE (0)
-#define PBUF_LINK_HLEN (0)
+#define PBUF_LINK_HLEN (14)
 
 #if defined(EFR32MG21)
 #define TCPIP_THREAD_STACKSIZE (1536)
@@ -130,8 +150,11 @@
 
 #define LWIP_IPV6_NUM_ADDRESSES 5
 
+#ifndef LWIP_IPV6_ND
 #define LWIP_IPV6_ND 0
-#define LWIP_ND6_QUEUEING 0
+#endif
+#define LWIP_ND6_QUEUEING 1
+#define LWIP_NUM_ND6_QUEUE 3
 
 #define LWIP_MULTICAST_PING 0
 
