@@ -41,7 +41,7 @@ declare_args() {
   setupPinCode = 73141520
 
   # Monitor & log memory usage at runtime.
-  enable_heap_monitoring = false
+  enable_heap_monitoring = true
 }
 
 show_qr_code = true

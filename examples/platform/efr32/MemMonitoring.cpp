@@ -30,6 +30,18 @@ size_t nbAllocSuccess        = 0;
 size_t nbFreeSuccess         = 0;
 size_t largestBlockAllocated = 0;
 
+typedef struct{
+    void * ptr;
+    size_t size;
+} mallocMonitoring_t;
+
+#define MAX_TRACKING 512
+
+static mallocMonitoring_t mallocList[MAX_TRACKING] = {0,0};
+
+static uint32_t HeapUsedByMallocs = 0;
+static uint32_t HighestHeapUsageByMallocs = 0;
+
 void MemMonitoring::startHeapMonitoring()
 {
     xTaskCreateStatic(HeapMonitoring, "Monitoring", MONITORING_STACK_SIZE_byte / sizeof(StackType_t), NULL, 1, monitoringStack,
@@ -67,17 +79,19 @@ void MemMonitoring::HeapMonitoring(void * pvParameter)
 
         EFR32_LOG("=============================");
         EFR32_LOG("     ");
-        EFR32_LOG("Largest Block allocated              0x%x", largestBlockAllocated);
-        EFR32_LOG("Number Of Successful Alloc           0x%x", nbAllocSuccess);
-        EFR32_LOG("Number Of Successful Frees           0x%x", nbFreeSuccess);
+        EFR32_LOG("Current heap Used by allocations     %u", HeapUsedByMallocs);
+        EFR32_LOG("Highest heap usage by allocations    %u", HighestHeapUsageByMallocs);
+        EFR32_LOG("Largest Block allocated              %u", largestBlockAllocated);
+        EFR32_LOG("Number Of Successful Alloc           %u", nbAllocSuccess);
+        EFR32_LOG("Number Of Successful Frees           %u", nbFreeSuccess);
         EFR32_LOG("     ");
-        EFR32_LOG("App Task most bytes ever Free         0x%x", (appTaskValue * 4));
-        EFR32_LOG("BLE Event most bytes ever Free        0x%x", (bleEventTaskValue * 4));
-        EFR32_LOG("BLE Stack most bytes ever Free        0x%x", (bleTaskValue * 4));
-        EFR32_LOG("Link Layer Task most bytes ever Free  0x%x", (linkLayerTaskValue * 4));
-        EFR32_LOG("OpenThread Task most bytes ever Free  0x%x", (openThreadTaskValue * 4));
-        EFR32_LOG("Event Loop Task most bytes ever Free  0x%x", (eventLoopTaskValue * 4));
-        EFR32_LOG("LWIP Task most bytes ever Free        0x%x", (lwipTaskValue * 4));
+        EFR32_LOG("App Task most bytes ever Free         %u", (appTaskValue * 4));
+        EFR32_LOG("BLE Event most bytes ever Free        %u", (bleEventTaskValue * 4));
+        EFR32_LOG("BLE Stack most bytes ever Free        %u", (bleTaskValue * 4));
+        EFR32_LOG("Link Layer Task most bytes ever Free  %u", (linkLayerTaskValue * 4));
+        EFR32_LOG("OpenThread Task most bytes ever Free  %u", (openThreadTaskValue * 4));
+        EFR32_LOG("Event Loop Task most bytes ever Free  %u", (eventLoopTaskValue * 4));
+        EFR32_LOG("LWIP Task most bytes ever Free        %u", (lwipTaskValue * 4));
         EFR32_LOG("     ");
         EFR32_LOG("=============================");
         vTaskDelay(pdMS_TO_TICKS(5000));
@@ -93,10 +107,45 @@ extern "C" void memMonitoringTrackAlloc(void * ptr, size_t size)
         {
             largestBlockAllocated = size;
         }
+
+        for(int i = 0; i < MAX_TRACKING; i++)
+        {
+            if (mallocList[i].ptr == 0)
+            {
+                mallocList[i].ptr = ptr;
+                mallocList[i].size = size;
+                HeapUsedByMallocs += size;
+                break;
+            }
+            else if (i == (MAX_TRACKING-1))
+            {
+                EFR32_LOG("ERROR COULD NOT TRACK  Alloc size contribution");
+            }
+        }
+
+        if (HighestHeapUsageByMallocs < HeapUsedByMallocs)
+        {
+            HighestHeapUsageByMallocs = HeapUsedByMallocs;
+        }
     }
 }
 
 extern "C" void memMonitoringTrackFree(void * ptr, size_t size)
 {
+    for(int i = 0; i < MAX_TRACKING; i++)
+    {
+        if (mallocList[i].ptr == ptr)
+        {
+            HeapUsedByMallocs -= mallocList[i].size;
+            mallocList[i].ptr = 0;
+            mallocList[i].size = 0;
+            
+            break;
+        }
+        else if (i == (MAX_TRACKING-1))
+        {
+            EFR32_LOG("ERROR COULD FIND THE MALLOC PTR");
+        }
+    }
     nbFreeSuccess++;
 }
