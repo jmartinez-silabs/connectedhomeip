@@ -128,6 +128,52 @@ extern "C" void memMonitoringTrackAlloc(void * ptr, size_t size)
             HighestHeapUsageByMallocs = HeapUsedByMallocs;
         }
     }
+    else
+    {
+        EFR32_LOG("ERROR MALLOC FAILED Requested size %d", size);
+
+        UBaseType_t appTaskValue;
+        UBaseType_t bleEventTaskValue;
+        UBaseType_t bleTaskValue;
+        UBaseType_t linkLayerTaskValue;
+        UBaseType_t openThreadTaskValue;
+        UBaseType_t eventLoopTaskValue;
+        UBaseType_t lwipTaskValue;
+
+        TaskHandle_t eventLoopHandleStruct = xTaskGetHandle(CHIP_DEVICE_CONFIG_CHIP_TASK_NAME);
+        TaskHandle_t lwipHandle            = xTaskGetHandle(TCPIP_THREAD_NAME);
+        TaskHandle_t otTaskHandle          = xTaskGetHandle(CHIP_DEVICE_CONFIG_THREAD_TASK_NAME);
+        TaskHandle_t appTaskHandle         = xTaskGetHandle(APP_TASK_NAME);
+        TaskHandle_t bleStackTaskHandle    = xTaskGetHandle(BLE_STACK_TASK_NAME);
+        TaskHandle_t bleLinkTaskHandle     = xTaskGetHandle(BLE_LINK_TASK_NAME);
+        TaskHandle_t bleEventTaskHandle    = xTaskGetHandle(CHIP_DEVICE_CONFIG_BLE_APP_TASK_NAME);
+
+        appTaskValue        = uxTaskGetStackHighWaterMark(appTaskHandle);
+        bleEventTaskValue   = uxTaskGetStackHighWaterMark(bleEventTaskHandle);
+        bleTaskValue        = uxTaskGetStackHighWaterMark(bleStackTaskHandle);
+        linkLayerTaskValue  = uxTaskGetStackHighWaterMark(bleLinkTaskHandle);
+        openThreadTaskValue = uxTaskGetStackHighWaterMark(otTaskHandle);
+        eventLoopTaskValue  = uxTaskGetStackHighWaterMark(eventLoopHandleStruct);
+        lwipTaskValue       = uxTaskGetStackHighWaterMark(lwipHandle);
+
+        EFR32_LOG("=============================");
+        EFR32_LOG("     ");
+        EFR32_LOG("Current heap Used by allocations     %u", HeapUsedByMallocs);
+        EFR32_LOG("Highest heap usage by allocations    %u", HighestHeapUsageByMallocs);
+        EFR32_LOG("Largest Block allocated              %u", largestBlockAllocated);
+        EFR32_LOG("Number Of Successful Alloc           %u", nbAllocSuccess);
+        EFR32_LOG("Number Of Successful Frees           %u", nbFreeSuccess);
+        EFR32_LOG("     ");
+        EFR32_LOG("App Task most bytes ever Free         %u", (appTaskValue * 4));
+        EFR32_LOG("BLE Event most bytes ever Free        %u", (bleEventTaskValue * 4));
+        EFR32_LOG("BLE Stack most bytes ever Free        %u", (bleTaskValue * 4));
+        EFR32_LOG("Link Layer Task most bytes ever Free  %u", (linkLayerTaskValue * 4));
+        EFR32_LOG("OpenThread Task most bytes ever Free  %u", (openThreadTaskValue * 4));
+        EFR32_LOG("Event Loop Task most bytes ever Free  %u", (eventLoopTaskValue * 4));
+        EFR32_LOG("LWIP Task most bytes ever Free        %u", (lwipTaskValue * 4));
+        EFR32_LOG("     ");
+        EFR32_LOG("=============================");
+    }
 }
 
 extern "C" void memMonitoringTrackFree(void * ptr, size_t size)
@@ -137,6 +183,7 @@ extern "C" void memMonitoringTrackFree(void * ptr, size_t size)
         if (mallocList[i].ptr == ptr)
         {
             HeapUsedByMallocs -= mallocList[i].size;
+            memset(mallocList[i].ptr, 0, mallocList[i].size);
             mallocList[i].ptr = 0;
             mallocList[i].size = 0;
             
