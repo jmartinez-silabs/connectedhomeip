@@ -23,6 +23,5 @@ chip_data_model("silabs-lock") {
     zap_file = "lock-thread-app.zap"
   }
 
-  zap_pregenerated_dir = "${chip_root}/zzz_generated/lock-app/zap-generated"
   is_server = true
 }
