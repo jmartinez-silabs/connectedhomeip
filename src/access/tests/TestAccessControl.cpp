@@ -2195,5 +2195,24 @@ TEST_F(TestAccessControl, TestUpdateEntry)
     }
 }
 
+TEST_F(TestAccessControl, TestGetCatStringForLogging)
+{
+    chip::Access::SubjectDescriptor d;
+    d.fabricIndex = 1;
+    d.authMode    = (chip::Access::AuthMode) 1;
+    d.subject     = 1;
+
+    chip::Access::RequestPath p;
+    chip::Access::Privilege s = Privilege::kView;
+
+    for (size_t i = 0; i < d.cats.size(); i++)
+    {
+        d.cats.values[i] = static_cast<chip::CASEAuthTag>(0x0001'0001 + i); // Assigning example values
+    }
+
+    EXPECT_EQ(d.cats.GetNumTagsPresent(), d.cats.size());
+    EXPECT_EQ(accessControl.Check(d, p, s), CHIP_ERROR_ACCESS_DENIED);
+}
+
 } // namespace Access
 } // namespace chip
