@@ -42,10 +42,45 @@ pw_proto_library("nl_test_service") {
   prefix = "nl_test_service"
 }
 
+config("freertos_include") {
+  include_dirs = [
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include",
+    "${silabs_common_plat_dir}",
+    "${matter_support_root}/board-support/efr32/${silabs_family}/${silabs_board}/autogen",
+  ]
+}
+
+pw_source_set("freertos_config") {
+  public_configs = [ ":freertos_include" ]
+  public = [
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/FreeRTOS.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/atomic.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/croutine.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/deprecated_definitions.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/event_groups.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/list.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/message_buffer.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/mpu_prototypes.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/mpu_wrappers.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/portable.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/projdefs.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/queue.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/semphr.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/stack_macros.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/stream_buffer.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/task.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/include/timers.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portmacro.h",
+    "${examples_common_plat_dir}/FreeRTOSConfig.h",
+  ]
+}
+
 efr32_sdk("sdk") {
   sources = [
     "${efr32_project_dir}/include/CHIPProjectConfig.h",
-    "${examples_common_plat_dir}/FreeRTOSConfig.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portasm.h",
+    "${efr32_sdk_root}/util/third_party/freertos/kernel/portable/GCC/ARM_CM33_NTZ/non_secure/portmacro.h",
   ]
 
   include_dirs = [
@@ -91,6 +126,8 @@ source_set("efr32_test_main") {
   deps = [
     ":nl_test_service.nanopb_rpc",
     ":sdk",
+    "$dir_pw_thread:thread",
+    "$dir_pw_thread_freertos:thread",
     "$dir_pw_unit_test:rpc_service",
     "${chip_root}/config/efr32/lib/pw_rpc:pw_rpc",
     "${chip_root}/examples/common/pigweed:system_rpc_server",
