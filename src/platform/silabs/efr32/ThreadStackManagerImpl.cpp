@@ -52,25 +52,9 @@ namespace DeviceLayer {
 namespace {
 otInstance * sOTInstance = NULL;
 
-// Network commissioning
-#ifndef _NO_GENERIC_THREAD_NETWORK_COMMISSIONING_DRIVER_
-NetworkCommissioning::GenericThreadDriver sGenericThreadDriver;
-app::Clusters::NetworkCommissioning::Instance sThreadNetworkCommissioningInstance(0 /* Endpoint Id */, &sGenericThreadDriver);
-#endif
+void initStaticNetworkCommissioningThreadDriver(void) {}
 
-void initStaticNetworkCommissioningThreadDriver(void)
-{
-#ifndef _NO_GENERIC_THREAD_NETWORK_COMMISSIONING_DRIVER_
-    sThreadNetworkCommissioningInstance.Init();
-#endif
-}
-
-void shutdownStaticNetworkCommissioningThreadDriver(void)
-{
-#ifndef _NO_GENERIC_THREAD_NETWORK_COMMISSIONING_DRIVER_
-    sThreadNetworkCommissioningInstance.Shutdown();
-#endif
-}
+void shutdownStaticNetworkCommissioningThreadDriver(void) {}
 }; // namespace
 
 using namespace ::chip::DeviceLayer::Internal;

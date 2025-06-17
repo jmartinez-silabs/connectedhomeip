@@ -36,6 +36,8 @@ NetworkCommissioning::WiFiScanResponse * sScanResult;
 SlScanResponseIterator<NetworkCommissioning::WiFiScanResponse> mScanResponseIter(sScanResult);
 } // namespace
 
+SlWiFiDriver * SlWiFiDriver::mDriver = nullptr;
+
 CHIP_ERROR SlWiFiDriver::Init(NetworkStatusChangeCallback * networkStatusChangeCallback)
 {
     CHIP_ERROR err;
@@ -283,20 +285,20 @@ void SlWiFiDriver::OnScanWiFiNetworkDone(wfx_wifi_scan_result_t * aScanResult)
     {
         ChipLogProgress(DeviceLayer, "OnScanWiFiNetworkDone: Receive all scanned networks information.");
 
-        if (GetInstance().mpScanCallback != nullptr)
+        if (GetInstance()->mpScanCallback != nullptr)
         {
             if (mScanResponseIter.Count() == 0)
             {
                 // if there is no network found, return kNetworkNotFound
                 DeviceLayer::SystemLayer().ScheduleLambda([]() {
-                    GetInstance().mpScanCallback->OnFinished(NetworkCommissioning::Status::kNetworkNotFound, CharSpan(), nullptr);
-                    GetInstance().mpScanCallback = nullptr;
+                    GetInstance()->mpScanCallback->OnFinished(NetworkCommissioning::Status::kNetworkNotFound, CharSpan(), nullptr);
+                    GetInstance()->mpScanCallback = nullptr;
                 });
                 return;
             }
             DeviceLayer::SystemLayer().ScheduleLambda([]() {
-                GetInstance().mpScanCallback->OnFinished(NetworkCommissioning::Status::kSuccess, CharSpan(), &mScanResponseIter);
-                GetInstance().mpScanCallback = nullptr;
+                GetInstance()->mpScanCallback->OnFinished(NetworkCommissioning::Status::kSuccess, CharSpan(), &mScanResponseIter);
+                GetInstance()->mpScanCallback = nullptr;
             });
         }
     }
@@ -304,7 +306,7 @@ void SlWiFiDriver::OnScanWiFiNetworkDone(wfx_wifi_scan_result_t * aScanResult)
     {
         NetworkCommissioning::WiFiScanResponse scanResponse = {};
 
-        scanResponse.security.Set(GetInstance().ConvertSecuritytype(aScanResult->security));
+        scanResponse.security.Set(GetInstance()->ConvertSecuritytype(aScanResult->security));
         scanResponse.channel = aScanResult->chan;
         scanResponse.rssi    = aScanResult->rssi;
         scanResponse.ssidLen = aScanResult->ssid_length;
