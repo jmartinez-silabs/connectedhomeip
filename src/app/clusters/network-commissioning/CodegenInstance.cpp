@@ -21,21 +21,7 @@
 namespace chip {
 namespace app {
 namespace Clusters {
-namespace NetworkCommissioning {
-
-CHIP_ERROR Instance::Init()
-{
-    ReturnErrorOnFailure(mCluster.Cluster().Init());
-    return CodegenDataModelProvider::Instance().Registry().Register(mCluster.Registration());
-}
-
-void Instance::Shutdown()
-{
-    CodegenDataModelProvider::Instance().Registry().Unregister(&mCluster.Cluster());
-    mCluster.Cluster().Shutdown();
-}
-
-} // namespace NetworkCommissioning
+namespace NetworkCommissioning {} // namespace NetworkCommissioning
 } // namespace Clusters
 } // namespace app
 } // namespace chip

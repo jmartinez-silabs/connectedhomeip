@@ -18,6 +18,7 @@
 
 #include "NetworkCommissioningCluster.h"
 
+#include <data-model-providers/codegen/CodegenDataModelProvider.h>
 #include <data-model-providers/codegen/ServerClusterInterfaceRegistry.h>
 
 namespace chip {
@@ -31,6 +32,7 @@ namespace NetworkCommissioning {
 /// This class exists as a compatibility layer with the original
 /// network-commissioning class, however it only exposes Init/Shutdown and
 /// relevant constructors
+template <typename TransportDriver>
 class Instance
 {
 public:
@@ -38,14 +40,29 @@ public:
     using ThreadDriver   = DeviceLayer::NetworkCommissioning::ThreadDriver;
     using EthernetDriver = DeviceLayer::NetworkCommissioning::EthernetDriver;
 
-    CHIP_ERROR Init();
-    void Shutdown();
+    // Init and Shutdown are implemented here to avoid needing explicit template declaration for all possible TransportDriver
+    CHIP_ERROR Init()
+    {
+        ReturnErrorOnFailure(mCluster.Cluster().Init());
+        return CodegenDataModelProvider::Instance().Registry().Register(mCluster.Registration());
+    }
+
+    void Shutdown()
+    {
+        CodegenDataModelProvider::Instance().Registry().Unregister(&mCluster.Cluster());
+        mCluster.Cluster().Shutdown();
+    }
 
     Instance(EndpointId aEndpointId, WiFiDriver * apDelegate) : mCluster(aEndpointId, apDelegate) {}
     Instance(EndpointId aEndpointId, ThreadDriver * apDelegate) : mCluster(aEndpointId, apDelegate) {}
     Instance(EndpointId aEndpointId, EthernetDriver * apDelegate) : mCluster(aEndpointId, apDelegate) {}
 
+    Instance(EndpointId aEndpointId) : Instance(aEndpointId, &mDriver) {}
+
+    TransportDriver & GetDriver() { return mDriver; }
+
 private:
+    TransportDriver mDriver;
     RegisteredServerCluster<NetworkCommissioningCluster> mCluster;
 };
 
