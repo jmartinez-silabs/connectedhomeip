@@ -72,27 +72,10 @@ namespace Internal {
 
 static_assert(OPENTHREAD_API_VERSION >= 219, "OpenThread version too old");
 
-// Network commissioning
 namespace {
-#ifndef _NO_GENERIC_THREAD_NETWORK_COMMISSIONING_DRIVER_
-NetworkCommissioning::GenericThreadDriver sGenericThreadDriver;
-app::Clusters::NetworkCommissioning::Instance
-    sThreadNetworkCommissioningInstance(CHIP_DEVICE_CONFIG_THREAD_NETWORK_ENDPOINT_ID /* Endpoint Id */, &sGenericThreadDriver);
-#endif
+void initNetworkCommissioningThreadDriver() {}
 
-void initNetworkCommissioningThreadDriver()
-{
-#ifndef _NO_GENERIC_THREAD_NETWORK_COMMISSIONING_DRIVER_
-    sThreadNetworkCommissioningInstance.Init();
-#endif
-}
-
-void resetGenericThreadDriver()
-{
-#ifndef _NO_GENERIC_THREAD_NETWORK_COMMISSIONING_DRIVER_
-    sGenericThreadDriver.ClearNetwork();
-#endif
-}
+void resetGenericThreadDriver() {}
 
 #if CHIP_DEVICE_CONFIG_ENABLE_THREAD_DNS_CLIENT
 CHIP_ERROR ReadDomainNameComponent(const char *& in, char * out, size_t outSize)
