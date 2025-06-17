@@ -99,7 +99,7 @@ public:
         uint8_t credentialsLen = 0;
     };
 
-    // BaseDriver
+    SlWiFiDriver() { mDriver = this; }
     NetworkIterator * GetNetworks() override { return new WiFiNetworkIterator(this); }
     CHIP_ERROR Init(NetworkStatusChangeCallback * networkStatusChangeCallback) override;
 
@@ -127,10 +127,10 @@ public:
 
     void OnConnectWiFiNetwork();
     void UpdateNetworkingStatus();
-    static SlWiFiDriver & GetInstance()
+    static SlWiFiDriver * GetInstance()
     {
-        static SlWiFiDriver instance;
-        return instance;
+        VerifyOrDie(mDriver != nullptr);
+        return mDriver;
     }
 
 private:
@@ -138,6 +138,7 @@ private:
     bool StartScanWiFiNetworks(ByteSpan ssid);
     static void OnScanWiFiNetworkDone(wfx_wifi_scan_result_t * aScanResult);
 
+    static SlWiFiDriver * mDriver;
     WiFiNetwork mSavedNetwork   = {};
     WiFiNetwork mStagingNetwork = {};
     ScanCallback * mpScanCallback;
