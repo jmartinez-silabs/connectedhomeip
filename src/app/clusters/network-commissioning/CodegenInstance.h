@@ -32,7 +32,6 @@ namespace NetworkCommissioning {
 /// This class exists as a compatibility layer with the original
 /// network-commissioning class, however it only exposes Init/Shutdown and
 /// relevant constructors
-template <typename TransportDriver>
 class Instance
 {
 public:
@@ -57,15 +56,26 @@ public:
     Instance(EndpointId aEndpointId, ThreadDriver * apDelegate) : mCluster(aEndpointId, apDelegate) {}
     Instance(EndpointId aEndpointId, EthernetDriver * apDelegate) : mCluster(aEndpointId, apDelegate) {}
 
-    Instance(EndpointId aEndpointId) : Instance(aEndpointId, &mDriver) {}
+private:
+    RegisteredServerCluster<NetworkCommissioningCluster> mCluster;
+};
+
+// The FullInstance class encapsulates the creation and management of a transport driver instance (Wifi,Thread or Ethernet)
+// together with a NetworkCommissioningCluster instance.
+// It provides a unified interface to initialize, configure, and operate both components,
+// ensuring they are properly linked for network commissioning operations. This class simplifies the integration process by handling
+// the instantiation and lifecycle of both the transport driver and the cluster as a single unit.
+template <typename TransportDriver>
+class FullInstance : public Instance
+{
+public:
+    FullInstance(EndpointId aEndpointId) : Instance(aEndpointId, &mDriver) {}
 
     TransportDriver & GetDriver() { return mDriver; }
 
 private:
     TransportDriver mDriver;
-    RegisteredServerCluster<NetworkCommissioningCluster> mCluster;
 };
-
 } // namespace NetworkCommissioning
 } // namespace Clusters
 } // namespace app

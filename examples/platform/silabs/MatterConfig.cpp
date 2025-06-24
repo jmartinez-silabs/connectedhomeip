@@ -98,7 +98,7 @@ using namespace ::chip::Credentials;
 using namespace chip::DeviceLayer::Silabs;
 
 #ifdef SL_WIFI
-app::Clusters::NetworkCommissioning::Instance<NetworkCommissioning::SlWiFiDriver>
+app::Clusters::NetworkCommissioning::FullInstance<NetworkCommissioning::SlWiFiDriver>
     wifiNetworkCommissioningInstance(chip::kRootEndpointId);
 #endif /* SL_WIFI */
 
@@ -116,7 +116,7 @@ app::Clusters::NetworkCommissioning::Instance<NetworkCommissioning::SlWiFiDriver
 #include <openthread/thread.h>
 #include <platform/OpenThread/GenericNetworkCommissioningThreadDriver.h>
 
-app::Clusters::NetworkCommissioning::Instance<NetworkCommissioning::GenericThreadDriver>
+app::Clusters::NetworkCommissioning::FullInstance<NetworkCommissioning::GenericThreadDriver>
     threadNetworkCommissioningInstance(chip::kRootEndpointId);
 // ================================================================================
 // Matter Networking Callbacks
