@@ -276,6 +276,9 @@ CHIP_ERROR BaseApplication::Init()
         return err;
     }
 
+    // We Output the QrCode with an lcd refresh after App has been initialized
+    OutputQrCode(true /*refreshLCD at init*/);
+
     return err;
 }
 
@@ -328,7 +331,6 @@ CHIP_ERROR BaseApplication::BaseInit()
 
     ConfigurationMgr().LogDeviceConfig();
 
-    OutputQrCode(true /*refreshLCD at init*/);
 #if (defined(ENABLE_WSTK_LEDS) && (defined(SL_CATALOG_SIMPLE_LED_LED1_PRESENT)))
     LEDWidget::InitGpio();
     sStatusLED.Init(SYSTEM_STATE_LED);
