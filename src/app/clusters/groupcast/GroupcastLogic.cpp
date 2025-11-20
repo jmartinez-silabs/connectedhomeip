@@ -16,7 +16,24 @@ CHIP_ERROR GroupcastLogic::ReadMaxMembershipCount(EndpointId endpoint, Attribute
 
 CHIP_ERROR GroupcastLogic::JoinGroup(FabricIndex fabric_index, const Groupcast::Commands::JoinGroup::DecodableType & data)
 {
-    return CHIP_ERROR_NOT_IMPLEMENTED;
+    size_t endpointCount = 0;
+    for (auto it = data.endpoints.begin(); it.Next();)
+    {
+        EndpointId ep = it.GetValue();
+        VerifyOrReturnError(ep != kRootEndpointId, CHIP_IM_GLOBAL_STATUS(UnsupportedEndpoint));
+        endpointCount++;
+    }
+
+    VerifyOrReturnError(endpointCount <= 20, CHIP_IM_GLOBAL_STATUS(ConstraintError));
+    VerifyOrReturnError(mFeatures.Has(Groupcast::Feature::kSender) || endpointCount > 0, CHIP_IM_GLOBAL_STATUS(ConstraintError));
+    VerifyOrReturnError(mFeatures.Has(Groupcast::Feature::kListener) || endpointCount == 0, CHIP_IM_GLOBAL_STATUS(ConstraintError));
+
+    VerifyOrReturnError(!data.key.HasValue() || data.key.Value().size() == 16, CHIP_IM_GLOBAL_STATUS(ConstraintError));
+    VerifyOrReturnError(!data.gracePeriod.HasValue() || data.gracePeriod.Value() <= kMaxGracePeriod,
+                        CHIP_IM_GLOBAL_STATUS(ConstraintError));
+
+    // Further processing (key derivation, membership update, etc.) not yet implemented.
+    return CHIP_NO_ERROR;
 }
 
 CHIP_ERROR GroupcastLogic::LeaveGroup(FabricIndex fabric_index, const Groupcast::Commands::LeaveGroup::DecodableType & data,

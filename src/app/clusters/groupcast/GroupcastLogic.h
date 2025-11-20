@@ -52,6 +52,7 @@ public:
                                      const Groupcast::Commands::ConfigureAuxiliaryACL::DecodableType & data);
 
 private:
+    static constexpr uint32_t kMaxGracePeriod = 86400;
     CHIP_ERROR RegisterAccessControl(FabricIndex fabric_index, GroupId group_id);
 
     const BitFlags<Groupcast::Feature> mFeatures;
