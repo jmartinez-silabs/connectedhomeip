@@ -38,6 +38,10 @@
 
 #include "DnssdBrowseDelegate.h"
 
+#ifndef CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT 0
+#endif
+
 namespace chip {
 namespace Dnssd {
 
@@ -309,6 +313,42 @@ void ChipDnssdResolveNoLongerNeeded(const char * instanceName);
  *
  */
 CHIP_ERROR ChipDnssdReconfirmRecord(const char * hostname, chip::Inet::IPAddress address, chip::Inet::InterfaceId interface);
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+/**
+ * Browse for services via a unicast DNS query to a Discovery Proxy.
+ *
+ * @param[in] type          The service type (e.g., "_matterc._udp").
+ * @param[in] protocol      The service protocol.
+ * @param[in] addressType   The protocol version of the IP address.
+ * @param[in] interface     The interface to send the query.
+ * @param[in] serverAddress The IPv6 address of the Discovery Proxy.
+ * @param[in] serverPort    The port of the Discovery Proxy.
+ * @param[in] callback      The callback for discovered services.
+ * @param[in] context       The user context.
+ *
+ * @retval CHIP_NO_ERROR on success.
+ */
+CHIP_ERROR ChipDnssdUnicastBrowse(const char * type, DnssdServiceProtocol protocol, chip::Inet::IPAddressType addressType,
+                                  chip::Inet::InterfaceId interface, chip::Inet::IPAddress serverAddress, uint16_t serverPort,
+                                  DnssdBrowseCallback callback, void * context);
+
+/**
+ * Resolve a service via a unicast DNS query to a Discovery Proxy.
+ *
+ * @param[in] browseResult  The service entry to resolve.
+ * @param[in] interface     The interface to send the query.
+ * @param[in] serverAddress The IPv6 address of the Discovery Proxy.
+ * @param[in] serverPort    The port of the Discovery Proxy.
+ * @param[in] callback      The callback for resolved service.
+ * @param[in] context       The user context.
+ *
+ * @retval CHIP_NO_ERROR on success.
+ */
+CHIP_ERROR ChipDnssdUnicastResolve(DnssdService * browseResult, chip::Inet::InterfaceId interface,
+                                   chip::Inet::IPAddress serverAddress, uint16_t serverPort, DnssdResolveCallback callback,
+                                   void * context);
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
 
 } // namespace Dnssd
 } // namespace chip

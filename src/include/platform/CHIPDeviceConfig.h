@@ -1220,6 +1220,32 @@ static_assert(CHIP_DEVICE_CONFIG_BLE_EXT_ADVERTISING_INTERVAL_MIN <= CHIP_DEVICE
 #endif
 
 /**
+ * CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+ *
+ * Enable SRP client functionality for Wi-Fi/Ethernet devices to register DNS-SD
+ * services with an infrastructure DNS-SD service provider instead of relying
+ * solely on Multicast DNS.
+ */
+#ifndef CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT 0
+#endif
+
+/**
+ * CHIP_DEVICE_CONFIG_WIFI_SRP_MAX_SERVICES
+ *
+ * Maximum number of services that can be registered via the Wi-Fi SRP client.
+ */
+#ifndef CHIP_DEVICE_CONFIG_WIFI_SRP_MAX_SERVICES
+#if CHIP_DEVICE_CONFIG_ENABLE_EXTENDED_DISCOVERY && CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONER_DISCOVERY
+#define CHIP_DEVICE_CONFIG_WIFI_SRP_MAX_SERVICES (CHIP_CONFIG_MAX_FABRICS + 3)
+#elif CHIP_DEVICE_CONFIG_ENABLE_EXTENDED_DISCOVERY || CHIP_DEVICE_CONFIG_ENABLE_COMMISSIONER_DISCOVERY
+#define CHIP_DEVICE_CONFIG_WIFI_SRP_MAX_SERVICES (CHIP_CONFIG_MAX_FABRICS + 2)
+#else
+#define CHIP_DEVICE_CONFIG_WIFI_SRP_MAX_SERVICES (CHIP_CONFIG_MAX_FABRICS + 1)
+#endif
+#endif
+
+/**
  * CHIP_DEVICE_CONFIG_ENABLE_THREAD_AUTOSTART
  *
  * Enable starting provisioned Thread network automatically after device power-up.
