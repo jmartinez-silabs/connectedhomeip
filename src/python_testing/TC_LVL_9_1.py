@@ -69,7 +69,8 @@ class TC_LVL_9_1(MatterBaseTest):
             TestStep("2b", "TH sends a MoveToLevel command to DUT, with Level=0 and TransitionTime=0 (immediate)."),
             TestStep("2c", "TH reads the CurrentLevel attribute from DUT."),
             TestStep("3", "TH sends a StoreScene command to DUT with the GroupID field set to 1 and the SceneID field set to 0x01."),
-            TestStep("4", "TH sends a AddScene command to DUT with the GroupID field set to 1, the SceneID field set to 0x02, the TransitionTime field set to 0 and the ExtensionFieldSetStructs set to: '[{ ClusterID: 0x0008, AttributeValueList: [{ AttributeID: 0x0000, ValueUnsigned8: 0x64 }]}]'"),
+            TestStep(
+                "4", "TH sends a AddScene command to DUT with the GroupID field set to 1, the SceneID field set to 0x02, the TransitionTime field set to 0 and the ExtensionFieldSetStructs set to: '[{ ClusterID: 0x0008, AttributeValueList: [{ AttributeID: 0x0000, ValueUnsigned8: 0x64 }]}]'"),
             TestStep("5a", "TH sends a RecallScene command to DUT with the GroupID field set to 1, the SceneID field set to 0x02 and the TransitionTime omitted."),
             TestStep("5b", "TH reads the CurrentLevel attribute from DUT."),
             TestStep("6a", "TH sends a RecallScene command to DUT with the GroupID field set to 1, the SceneID field set to 0x01 and the TransitionTime set to 0."),
@@ -92,11 +93,7 @@ class TC_LVL_9_1(MatterBaseTest):
             groupKeySetID=self.kGroupKeyset1,
             groupKeySecurityPolicy=Clusters.GroupKeyManagement.Enums.GroupKeySecurityPolicyEnum.kTrustFirst,
             epochKey0=bytes.fromhex("a0a1a2a3a4a5a6a7a8a9aaabacadaeaf"),
-            epochStartTime0=1110000,
-            epochKey1=None,
-            epochStartTime1=None,
-            epochKey2=None,
-            epochStartTime2=None)
+            epochStartTime0=1110000)
 
         await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.GroupKeyManagement.Commands.KeySetWrite(self.groupKey))
 
@@ -111,7 +108,11 @@ class TC_LVL_9_1(MatterBaseTest):
 
         self.step("0c")
         if self.groupcast_enabled:
-            await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
+            # Check if there are any groups on the DUT.
+            membership = await self.read_single_attribute_check_success(endpoint=0, cluster=Clusters.Groupcast, attribute=Clusters.Groupcast.Attributes.Membership)
+            if membership:
+                # LeaveGroup with groupID 0 will leave all groups on the fabric.
+                await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
         else:
             await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
 

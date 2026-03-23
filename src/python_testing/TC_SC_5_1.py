@@ -44,6 +44,7 @@ from matter.interaction_model import Status
 from matter.testing.decorators import async_test_body
 from matter.testing.matter_testing import MatterBaseTest
 from matter.testing.runner import TestStep, default_matter_test_main
+from matter.clusters.Types import NullValue
 
 
 class TC_SC_5_1(MatterBaseTest):
@@ -85,6 +86,14 @@ class TC_SC_5_1(MatterBaseTest):
         groups_endpoint = self.matter_test_config.endpoint
         groupcast_enabled = await is_groupcast_on_root_node(self)
 
+        group_names_supported = False
+        if not groupcast_enabled:
+            group_feature_map = await self.read_single_attribute_check_success(
+                cluster=Clusters.Groups,
+                attribute=Clusters.Groups.Attributes.FeatureMap,
+                endpoint=0)
+            group_names_supported = bool(group_feature_map & Clusters.Groups.Bitmaps.Feature.kGroupNames)
+
         self.step("0")
 
         # Step 1: Write ACL
@@ -95,12 +104,12 @@ class TC_SC_5_1(MatterBaseTest):
                 privilege=Clusters.AccessControl.Enums.AccessControlEntryPrivilegeEnum.kAdminister,
                 authMode=Clusters.AccessControl.Enums.AccessControlEntryAuthModeEnum.kCase,
                 subjects=[dev_ctrl.nodeId],
-                targets=None),
+                targets=NullValue),
             Clusters.AccessControl.Structs.AccessControlEntryStruct(
                 privilege=Clusters.AccessControl.Enums.AccessControlEntryPrivilegeEnum.kOperate,
                 authMode=Clusters.AccessControl.Enums.AccessControlEntryAuthModeEnum.kGroup,
                 subjects=[0x0103],
-                targets=None),
+                targets=NullValue),
         ]
         await dev_ctrl.WriteAttribute(commissioner_node_id, [(0, Clusters.AccessControl.Attributes.Acl(acl))])
 
@@ -131,60 +140,63 @@ class TC_SC_5_1(MatterBaseTest):
         await dev_ctrl.SendCommand(commissioner_node_id, 0, Clusters.GroupKeyManagement.Commands.KeySetWrite(real_key_set))
 
         # Step 3: GroupKeyMap binding (skip if Groupcast)
-        self.step("3")
-        if not groupcast_enabled:
+        if groupcast_enabled:
+            self.mark_step_range_skipped("3", "6b")
+        else:
+            self.step("3")
             mapping = [Clusters.GroupKeyManagement.Structs.GroupKeyMapStruct(
                 groupId=0x0103, groupKeySetID=0x01a3, fabricIndex=1)]
             result = await dev_ctrl.WriteAttribute(commissioner_node_id, [(0, Clusters.GroupKeyManagement.Attributes.GroupKeyMap(mapping))])
             asserts.assert_equal(result[0].Status, Status.Success, "GroupKeyMap write failed")
 
-        # Step 4: RemoveAllGroups (skip if Groupcast)
-        self.step("4")
-        if not groupcast_enabled:
+            # Step 4: RemoveAllGroups (skip if Groupcast)
+            self.step("4")
             await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.RemoveAllGroups())
 
-        # Step 5: AddGroup (skip if Groupcast)
-        self.step("5")
-        if not groupcast_enabled:
+            # Step 5: AddGroup (skip if Groupcast)
+            self.step("5")
             result = await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.AddGroup(0x0103, "Test Group"))
 
-        # Step 6a: ViewGroup with GroupNames
-        self.step("6a")
-        if not groupcast_enabled and self.check_pics("G.S.F00"):
-            result = await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.ViewGroup(0x0103))
-            asserts.assert_equal(result.status, Status.Success, "ViewGroup failed")
-            asserts.assert_equal(result.groupID, 0x0103, "ViewGroup groupID mismatch")
-            asserts.assert_equal(result.groupName, "Test Group", "ViewGroup groupName mismatch")
-
-        # Step 6b: ViewGroup without GroupNames
-        self.step("6b")
-        if not groupcast_enabled and not self.check_pics("G.S.F00"):
-            result = await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.ViewGroup(0x0103))
-            asserts.assert_equal(result.status, Status.Success, "ViewGroup failed")
-            asserts.assert_equal(result.groupID, 0x0103, "ViewGroup groupID mismatch")
-            asserts.assert_equal(result.groupName, "", "ViewGroup groupName mismatch")
+            # Step 6a: ViewGroup with GroupNames
+            if group_names_supported:
+                self.step("6a")
+                result = await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.ViewGroup(0x0103))
+                asserts.assert_equal(result.status, Status.Success, "ViewGroup failed")
+                asserts.assert_equal(result.groupID, 0x0103, "ViewGroup groupID mismatch")
+                asserts.assert_equal(result.groupName, "Test Group", "ViewGroup groupName mismatch")
+                self.skip_step("6b")
+            # Step 6b: ViewGroup without GroupNames
+            else:
+                self.skip_step("6a")
+                self.step("6b")
+                result = await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.ViewGroup(0x0103))
+                asserts.assert_equal(result.status, Status.Success, "ViewGroup failed")
+                asserts.assert_equal(result.groupID, 0x0103, "ViewGroup groupID mismatch")
+                asserts.assert_equal(result.groupName, "", "ViewGroup groupName mismatch")
 
         # Step 7: LeaveGroup (Groupcast path only)
-        self.step("7")
-        if groupcast_enabled:
-            await dev_ctrl.SendCommand(commissioner_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
+        if not groupcast_enabled:
+            self.mark_step_range_skipped("7", "9")
+        else:
+            self.step("7")
+            membership = await self.read_single_attribute_check_success(endpoint=0, cluster=Clusters.Groupcast, attribute=Clusters.Groupcast.Attributes.Membership)
+            if membership:
+                # LeaveGroup with groupID 0 will leave all groups on the fabric.
+                await dev_ctrl.SendCommand(commissioner_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
 
-        # Step 8: JoinGroup (Groupcast path only)
-        self.step("8")
-        if groupcast_enabled:
-            parts_list = await self.read_single_attribute_check_success(
-                cluster=Clusters.Descriptor, attribute=Clusters.Descriptor.Attributes.PartsList, endpoint=0)
+            # Step 8: JoinGroup
+            self.step("8")
             from TC_GC_common import get_feature_map
             ln_enabled, _, _ = await get_feature_map(self)
-            join_endpoints = list(parts_list)[:20] if ln_enabled else []
+            join_endpoints = [groups_endpoint] if ln_enabled else []
             await dev_ctrl.SendCommand(commissioner_node_id, 0, Clusters.Groupcast.Commands.JoinGroup(
                 groupID=0x0103, endpoints=join_endpoints, keySetID=0x01a3))
 
-        # Step 9: Read Membership (Groupcast path only)
-        self.step("9")
-        if groupcast_enabled:
+            # Step 9: Read Membership
+            self.step("9")
             membership = await self.read_single_attribute_check_success(
                 cluster=Clusters.Groupcast, attribute=Clusters.Groupcast.Attributes.Membership, endpoint=0)
+            asserts.assert_equal(len(membership), 1, "Membership should have 1 entry")
             group_ids = [entry.groupID for entry in membership]
             asserts.assert_in(0x0103, group_ids, "GroupID 0x0103 not found in Membership")
 
@@ -195,7 +207,7 @@ class TC_SC_5_1(MatterBaseTest):
             Clusters.GroupKeyManagement.Commands.KeySetRead(0x01a3))
         asserts.assert_equal(result.groupKeySet.groupKeySetID, 0x01a3, "KeySetRead groupKeySetID mismatch")
         asserts.assert_equal(result.groupKeySet.groupKeySecurityPolicy, 0, "KeySetRead securityPolicy mismatch")
-        asserts.assert_is_none(result.groupKeySet.epochKey0, "EpochKey0 should be null in read response")
+        asserts.assert_equal(result.groupKeySet.epochKey0, NullValue, "EpochKey0 should be null in read response")
         asserts.assert_equal(result.groupKeySet.epochStartTime0, 1, "EpochStartTime0 mismatch")
 
         # Step 11: Read GroupKeyMap
@@ -208,18 +220,20 @@ class TC_SC_5_1(MatterBaseTest):
             asserts.assert_equal(group_key_map[0].groupKeySetID, 0x01a3, "GroupKeyMap groupKeySetID mismatch")
 
         # Step 12a: GroupTable (GroupNames supported)
-        self.step("12a")
-        if not groupcast_enabled and self.check_pics("G.S.F00"):
+        if not groupcast_enabled and group_names_supported:
+            self.step("12a")
             group_table = await self.read_single_attribute_check_success(
                 cluster=Clusters.GroupKeyManagement, attribute=Clusters.GroupKeyManagement.Attributes.GroupTable, endpoint=0)
             asserts.assert_equal(len(group_table), 1, "GroupTable should have 1 entry")
             asserts.assert_equal(group_table[0].groupId, 0x0103, "GroupTable groupId mismatch")
             asserts.assert_equal(group_table[0].endpoints, [groups_endpoint], "GroupTable endpoints mismatch")
             asserts.assert_equal(group_table[0].groupName, "Test Group", "GroupTable groupName mismatch")
+            self.skip_step("12b")
 
         # Step 12b: GroupTable (GroupNames not supported)
-        self.step("12b")
-        if not groupcast_enabled and not self.check_pics("G.S.F00"):
+        if groupcast_enabled or not group_names_supported:
+            self.skip_step("12a")
+            self.step("12b")
             group_table = await self.read_single_attribute_check_success(
                 cluster=Clusters.GroupKeyManagement, attribute=Clusters.GroupKeyManagement.Attributes.GroupTable, endpoint=0)
             asserts.assert_equal(len(group_table), 1, "GroupTable should have 1 entry")
@@ -254,7 +268,7 @@ class TC_SC_5_1(MatterBaseTest):
                 privilege=Clusters.AccessControl.Enums.AccessControlEntryPrivilegeEnum.kAdminister,
                 authMode=Clusters.AccessControl.Enums.AccessControlEntryAuthModeEnum.kCase,
                 subjects=[dev_ctrl.nodeId],
-                targets=None),
+                targets=NullValue),
         ]
         await dev_ctrl.WriteAttribute(commissioner_node_id, [(0, Clusters.AccessControl.Attributes.Acl(acl))])
 
