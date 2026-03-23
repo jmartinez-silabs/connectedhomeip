@@ -37,7 +37,7 @@
 # === END CI TEST ARGUMENTS ===
 
 from mobly import asserts
-from TC_GC_common import is_groupcast_on_root_node
+from TC_GC_common import is_groupcast_on_root_node, get_feature_map
 
 import matter.clusters as Clusters
 from matter.clusters.Types import NullValue
@@ -91,7 +91,7 @@ class TC_SC_5_1(MatterBaseTest):
             group_feature_map = await self.read_single_attribute_check_success(
                 cluster=Clusters.Groups,
                 attribute=Clusters.Groups.Attributes.FeatureMap,
-                endpoint=0)
+                endpoint=groups_endpoint)
             group_names_supported = bool(group_feature_map & Clusters.Groups.Bitmaps.Feature.kGroupNames)
 
         self.step("0")
@@ -186,7 +186,6 @@ class TC_SC_5_1(MatterBaseTest):
 
             # Step 8: JoinGroup
             self.step("8")
-            from TC_GC_common import get_feature_map
             ln_enabled, _, _ = await get_feature_map(self)
             join_endpoints = [groups_endpoint] if ln_enabled else []
             await dev_ctrl.SendCommand(commissioner_node_id, 0, Clusters.Groupcast.Commands.JoinGroup(

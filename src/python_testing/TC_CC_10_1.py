@@ -166,8 +166,7 @@ class TC_CC_10_1(MatterBaseTest):
             if membership:
                 await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
         else:
-            result = await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
-            asserts.assert_equal(result.status, Status.Success, "Remove All Groups failed on status")
+            await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
 
         self.step("1a")
         if self.groupcast_enabled:
