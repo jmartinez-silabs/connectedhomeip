@@ -76,14 +76,16 @@ tests:
       disabled: true
 
     - label:
-          "Step 5: If the Groupcast cluster is enabled on the RootNode endpoint, skip to step 9a. Otherwise, DUT generates random key, EpochKey0."
+          "Step 5: If the Groupcast cluster is enabled on the RootNode endpoint,
+          skip to step 9a. Otherwise, DUT generates random key, EpochKey0."
       verification: |
           As Admin generates it is not necessary to verify
       disabled: true
 
     - label:
           "Step 6: DUT sends KeySetWrite command to GroupKeyManagement cluster
-          to TH2 on Endpoint 0 with GroupKeySetID 1 and the randomly generated key and EpochKey0."
+          to TH2 on Endpoint 0 with GroupKeySetID 1 and the randomly generated
+          key and EpochKey0."
       PICS: GRPKEY.C.C00.Tx
       verification: |
           Run this command for [ nRF52840-DK ]Thread device in chip-tool:
@@ -249,13 +251,17 @@ tests:
       disabled: true
 
     - label:
-          "Step 9a: If the Groupcast cluster is NOT enabled on the RootNode endpoint, skip to step 10. Otherwise, TH1 reads the DUT Groupcast featuremap attribute."
+          "Step 9a: If the Groupcast cluster is NOT enabled on the RootNode
+          endpoint, skip to step 10. Otherwise, TH1 reads the DUT Groupcast
+          featuremap attribute."
       verification: |
           TH1 receives the featuremap attribute and verify that Sender feature (bit 1) is set.
       disabled: true
 
     - label:
-          "Step 9b: DUT sends Groupcast JoinGroup command with GroupID=1, Endpoints=[EP1], KeySetID=1, Key=randomly generated key to TH2 endpoint 0."
+          "Step 9b: DUT sends Groupcast JoinGroup command with GroupID=1,
+          Endpoints=[EP1], KeySetID=1, Key=randomly generated key to TH2
+          endpoint 0."
       verification: |
           TH2 responds with SUCCESS
       disabled: true

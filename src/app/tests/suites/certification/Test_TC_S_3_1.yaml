@@ -40,8 +40,8 @@ tests:
           GroupKeyManagement cluster to DUT using a key that is pre-installed on
           the TH. GroupKeySet fields are as follows: * GroupKeySetID: 0x01a1 *
           GroupKeySecurityPolicy: TrustFirst (0) * EpochKey0:
-          a0a1a2a3a4a5a6a7a8a9aaabacadaeaf * EpochStartTime0: 1110000
-           * GroupKeyMulticastPolicy: 0"
+          a0a1a2a3a4a5a6a7a8a9aaabacadaeaf * EpochStartTime0: 1110000 *
+          GroupKeyMulticastPolicy: 0"
       verification: |
           Please execute the below commands before starting the test case :
 
@@ -93,11 +93,12 @@ tests:
       disabled: true
 
     - label:
-          "Step 0c: Precondition 3: If the Groupcast cluster is enabled on the RootNode endpoint, skip this step. Otherwise, TH binds GroupIds 0x0001 and 0x0002 with
-          GroupKeySetID 0x01a1 in the GroupKeyMap attribute list on
-          GroupKeyManagement cluster by writing the GroupKeyMap attribute with
-          two entries as follows: * List item 1: - FabricIndex: 1 - GroupId:
-          0x0001 - GroupKeySetId: 0x01a1"
+          "Step 0c: Precondition 3: If the Groupcast cluster is enabled on the
+          RootNode endpoint, skip this step. Otherwise, TH binds GroupIds 0x0001
+          and 0x0002 with GroupKeySetID 0x01a1 in the GroupKeyMap attribute list
+          on GroupKeyManagement cluster by writing the GroupKeyMap attribute
+          with two entries as follows: * List item 1: - FabricIndex: 1 -
+          GroupId: 0x0001 - GroupKeySetId: 0x01a1"
       verification: |
           If the Groupcast cluster is enabled on the RootNode endpoint, skip this step. Otherwise:
 
@@ -152,7 +153,9 @@ tests:
       disabled: true
 
     - label:
-          "Step 0d: Precondition 4: If the Groupcast cluster is enabled on the RootNode endpoint, TH sends Groupcast LeaveGroup command with GroupID 0. Otherwise, TH sends RemoveAllGroups to DUT."
+          "Step 0d: Precondition 4: If the Groupcast cluster is enabled on the
+          RootNode endpoint, TH sends Groupcast LeaveGroup command with GroupID
+          0. Otherwise, TH sends RemoveAllGroups to DUT."
       verification: |
           If the Groupcast cluster is enabled on the RootNode endpoint, TH sends Groupcast LeaveGroup command with GroupID 0. Otherwise, TH sends RemoveAllGroups:
 
@@ -189,7 +192,9 @@ tests:
       disabled: true
 
     - label:
-          "Step 0e: Precondition 5: If the Groupcast cluster is enabled on the RootNode endpoint, TH sends Groupcast JoinGroup command with GroupID, Endpoints, and KeySetID. Otherwise, TH sends AddGroup to DUT with the
+          "Step 0e: Precondition 5: If the Groupcast cluster is enabled on the
+          RootNode endpoint, TH sends Groupcast JoinGroup command with GroupID,
+          Endpoints, and KeySetID. Otherwise, TH sends AddGroup to DUT with the
           GroupID field set to G1."
       verification: |
           If the Groupcast cluster is enabled on the RootNode endpoint, TH sends Groupcast JoinGroup command with GroupID, Endpoints, and KeySetID. Otherwise, TH sends AddGroup:

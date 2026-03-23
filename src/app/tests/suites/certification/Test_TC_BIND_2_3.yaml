@@ -76,7 +76,9 @@ tests:
       disabled: true
 
     - label:
-          "Step 5: If the Groupcast cluster is enabled on the RootNode endpoint, skip to step 9a. Otherwise, TH1 generates a random key (Key1) and EpochKey0 and uses GroupID 1, GroupName \"\", and GroupKeySetID 0x01a1."
+          'Step 5: If the Groupcast cluster is enabled on the RootNode endpoint,
+          skip to step 9a. Otherwise, TH1 generates a random key (Key1) and
+          EpochKey0 and uses GroupID 1, GroupName "", and GroupKeySetID 0x01a1.'
       verification: |
           As Admin generates it is not required to verify
       disabled: true
@@ -134,8 +136,9 @@ tests:
       disabled: true
 
     - label:
-          "Step 7: TH1 binds GroupId 1 with GroupKeySetID 0x01a1 in the GroupKeyMap
-          attribute list on GroupKeyManagement cluster to TH2 on Endpoint 0"
+          "Step 7: TH1 binds GroupId 1 with GroupKeySetID 0x01a1 in the
+          GroupKeyMap attribute list on GroupKeyManagement cluster to TH2 on
+          Endpoint 0"
       verification: |
           Run this command for [ nRF52840-DK ]Thread device in chip-tool:
 
@@ -162,8 +165,8 @@ tests:
       disabled: true
 
     - label:
-          "Step 8: TH1 sends AddGroup with GroupID 1 (Group Name and Group-ID) Command to TH2
-          on Endpoint 1."
+          "Step 8: TH1 sends AddGroup with GroupID 1 (Group Name and Group-ID)
+          Command to TH2 on Endpoint 1."
       verification: |
           Run this command for [ nRF52840-DK ]Thread device in chip-tool:
 
@@ -210,13 +213,16 @@ tests:
       disabled: true
 
     - label:
-          "Step 9a: If the Groupcast cluster is NOT enabled on the RootNode endpoint, skip to step 10. Otherwise, TH1 reads the DUT Groupcast featuremap attribute."
+          "Step 9a: If the Groupcast cluster is NOT enabled on the RootNode
+          endpoint, skip to step 10. Otherwise, TH1 reads the DUT Groupcast
+          featuremap attribute."
       verification: |
 
       disabled: true
 
     - label:
-          "Step 9b: TH1 sends Groupcast JoinGroup command with GroupID=1, Endpoints=[EP1], KeySetID=0x01a1, Key=Key1 to TH2 endpoint 0."
+          "Step 9b: TH1 sends Groupcast JoinGroup command with GroupID=1,
+          Endpoints=[EP1], KeySetID=0x01a1, Key=Key1 to TH2 endpoint 0."
       verification: |
 
       disabled: true
@@ -261,13 +267,17 @@ tests:
       disabled: true
 
     - label:
-          "Step 11: If the Groupcast cluster is enabled on the RootNode endpoint, skip this step. Otherwise, TH1 sets up group settings on DUT"
+          "Step 11: If the Groupcast cluster is enabled on the RootNode
+          endpoint, skip this step. Otherwise, TH1 sets up group settings on DUT"
       verification: |
 
       disabled: true
 
     - label:
-          "Step 12: If the Groupcast cluster is NOT enabled on the RootNode endpoint, skip this step. Otherwise, TH1 sends Groupcast JoinGroup command with GroupID=1, Endpoints=[], KeySetID=0x01a1, Key=Key1 to DUT endpoint 0."
+          "Step 12: If the Groupcast cluster is NOT enabled on the RootNode
+          endpoint, skip this step. Otherwise, TH1 sends Groupcast JoinGroup
+          command with GroupID=1, Endpoints=[], KeySetID=0x01a1, Key=Key1 to DUT
+          endpoint 0."
       verification: |
 
       disabled: true

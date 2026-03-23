@@ -415,8 +415,8 @@ tests:
 
     - label:
           "Step 7: DUT sends a command from a cluster enabled on the Endpoint
-          provided in step 6 to TH. The command is sent as a group command
-          using GroupID 1."
+          provided in step 6 to TH. The command is sent as a group command using
+          GroupID 1."
       verification: |
           Validate the group message received from DUT via message layer
           inspection at the receiver: Verify that the IPv6 Destination
