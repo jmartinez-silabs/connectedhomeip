@@ -250,9 +250,12 @@ class TC_SC_5_1(MatterBaseTest):
             cluster=Clusters.GroupKeyManagement, attribute=Clusters.GroupKeyManagement.Attributes.GroupKeyMap, endpoint=0)
         asserts.assert_equal(group_key_map, [], "GroupKeyMap should be empty after KeySetRemove")
 
-        # Step 15: RemoveAllGroups cleanup
+        # Step 15: Group cleanup
         self.step("15")
-        await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.RemoveAllGroups())
+        if groupcast_enabled:
+            await dev_ctrl.SendCommand(commissioner_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
+        else:
+            await dev_ctrl.SendCommand(commissioner_node_id, groups_endpoint, Clusters.Groups.Commands.RemoveAllGroups())
 
         # Step 16: Verify GroupTable is empty
         self.step("16")
