@@ -37,7 +37,7 @@
 # === END CI TEST ARGUMENTS ===
 
 from mobly import asserts
-from TC_GC_common import is_groupcast_on_root_node, get_feature_map
+from TC_GC_common import get_feature_map, is_groupcast_on_root_node
 
 import matter.clusters as Clusters
 from matter.clusters.Types import NullValue
