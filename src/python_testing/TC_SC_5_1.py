@@ -208,6 +208,10 @@ class TC_SC_5_1(MatterBaseTest):
         asserts.assert_equal(result.groupKeySet.groupKeySecurityPolicy, 0, "KeySetRead securityPolicy mismatch")
         asserts.assert_equal(result.groupKeySet.epochKey0, NullValue, "EpochKey0 should be null in read response")
         asserts.assert_equal(result.groupKeySet.epochStartTime0, 1, "EpochStartTime0 mismatch")
+        asserts.assert_equal(result.groupKeySet.epochKey1, NullValue, "EpochKey1 should be null in read response")
+        asserts.assert_equal(result.groupKeySet.epochStartTime1, 18446744073709551613, "EpochStartTime1 mismatch")
+        asserts.assert_equal(result.groupKeySet.epochKey2, NullValue, "EpochKey2 should be null in read response")
+        asserts.assert_equal(result.groupKeySet.epochStartTime2, 18446744073709551614, "EpochStartTime2 mismatch")
 
         # Step 11: Read GroupKeyMap
         self.step("11")
