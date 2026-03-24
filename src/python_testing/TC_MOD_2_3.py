@@ -66,7 +66,7 @@ class TC_MOD_2_3(MatterBaseTest):
         return [
             TestStep("0", "Commissioning, already done", is_commissioning=True),
             TestStep("0a", "TH sends KeySetWrite command in the GroupKeyManagement cluster to DUT using a key that is pre-installed on the TH. EpochKey0 only."),
-            TestStep("0b", "If the Groupcast cluster is enabled on the root node, skip this step. Otherwise, TH binds GroupIds 0x0001 with GroupKeySetID 0x01a1 in the GroupKeyMap attribute list on GroupKeyManagement cluster."),
+            TestStep("0b", "If the Groupcast cluster is enabled on the root node, skip this step. Otherwise, TH binds GroupIds 0x0001, with GroupKeySetID 0x01a1 in the GroupKeyMap attribute of GroupKeyManagement cluster."),
             TestStep("0c", "If the Groupcast cluster is enabled on the RootNode endpoint, the TH sends Groupcast LeaveGroup command with GroupID field as 0 to DUT. Otherwise, TH sends a RemoveAllGroups command to DUT."),
             TestStep("1a", "If the Groupcast cluster is enabled on the RootNode endpoint, the TH sends Groupcast JoinGroup command with GroupID 1, Endpoints set with the EndpointId where ModeSelect cluster is enabled and KeySetID 0x01a1 to DUT. Otherwise, TH sends AddGroup command to DUT with the GroupID field set to 1."),
             TestStep("1b", "TH sends a _RemoveAllScenes_ command to DUT with the _GroupID_ field set to _G~1~_. DUT sends a _RemoveAllScenes_ command to TH with the _Status_ field set to 0x00 (SUCCESS) and _GroupID_ field set to _G~1~_."),
