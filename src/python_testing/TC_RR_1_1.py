@@ -50,7 +50,8 @@ from TC_GC_common import get_feature_map, is_groupcast_on_root_node
 from TC_SC_3_6 import AttributeChangeAccumulator, ResubscriptionCatcher
 
 import matter.clusters as Clusters
-from matter.interaction_model import InteractionModelError, Status as StatusEnum
+from matter.interaction_model import InteractionModelError
+from matter.interaction_model import Status as StatusEnum
 from matter.testing.decorators import async_test_body
 from matter.testing.matter_testing import MatterBaseTest
 from matter.testing.runner import default_matter_test_main
