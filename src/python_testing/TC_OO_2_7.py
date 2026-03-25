@@ -81,6 +81,23 @@ class TC_OO_2_7(MatterBaseTest):
     @async_test_body
     async def setup_test(self):
         super().setup_test()
+
+    @async_test_body
+    async def teardown_test(self):
+        result = await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.ScenesManagement.Commands.RemoveAllScenes(self.kGroup1))
+        asserts.assert_equal(result.status, Status.Success, "Remove All Scenes failed on status")
+        asserts.assert_equal(result.groupID, self.kGroup1, "Remove All Scenes failed on groupID")
+        if self.groupcast_enabled:
+            await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
+        else:
+            await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
+        super().teardown_test()
+
+    @async_test_body
+    async def test_TC_OO_2_7(self):
+        cluster = Clusters.OnOff
+        attributes = cluster.Attributes
+
         self.step("0")
 
         self.step("0a")
@@ -139,22 +156,6 @@ class TC_OO_2_7(MatterBaseTest):
         asserts.assert_equal(result.groupID, self.kGroup1, "Get Scene Membership failed on groupID")
         asserts.assert_equal(result.sceneList, [], "Get Scene Membership failed on sceneList")
 
-    @async_test_body
-    async def teardown_test(self):
-        result = await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.ScenesManagement.Commands.RemoveAllScenes(self.kGroup1))
-        asserts.assert_equal(result.status, Status.Success, "Remove All Scenes failed on status")
-        asserts.assert_equal(result.groupID, self.kGroup1, "Remove All Scenes failed on groupID")
-        if self.groupcast_enabled:
-            await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
-        else:
-            await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
-        super().teardown_test()
-
-    @async_test_body
-    async def test_TC_OO_2_7(self):
-        cluster = Clusters.OnOff
-        attributes = cluster.Attributes
-
         self.step("2a")
         await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, cluster.Commands.Off())
 
@@ -201,7 +202,7 @@ class TC_OO_2_7(MatterBaseTest):
         asserts.assert_true(on_off, "OnOff should be TRUE after RecallScene 0x02")
 
         self.step("6a")
-        await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.ScenesManagement.Commands.RecallScene(self.kGroup1, 0x01))
+        await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.ScenesManagement.Commands.RecallScene(self.kGroup1, 0x01, 1000))
 
         self.step("6b")
         await asyncio.sleep(1)

@@ -217,10 +217,9 @@ class TC_SC_5_1(MatterBaseTest):
         self.step("11")
         group_key_map = await self.read_single_attribute_check_success(
             cluster=Clusters.GroupKeyManagement, attribute=Clusters.GroupKeyManagement.Attributes.GroupKeyMap, endpoint=0)
-        if not groupcast_enabled:
-            asserts.assert_equal(len(group_key_map), 1, "GroupKeyMap should have 1 entry")
-            asserts.assert_equal(group_key_map[0].groupId, 0x0103, "GroupKeyMap groupId mismatch")
-            asserts.assert_equal(group_key_map[0].groupKeySetID, 0x01a3, "GroupKeyMap groupKeySetID mismatch")
+        asserts.assert_equal(len(group_key_map), 1, "GroupKeyMap should have 1 entry")
+        asserts.assert_equal(group_key_map[0].groupId, 0x0103, "GroupKeyMap groupId mismatch")
+        asserts.assert_equal(group_key_map[0].groupKeySetID, 0x01a3, "GroupKeyMap groupKeySetID mismatch")
 
         # Step 12a: GroupTable (GroupNames supported)
         if not groupcast_enabled and group_names_supported:
@@ -234,7 +233,7 @@ class TC_SC_5_1(MatterBaseTest):
             self.skip_step("12b")
 
         # Step 12b: GroupTable (GroupNames not supported)
-        if groupcast_enabled or not group_names_supported:
+        else:
             self.skip_step("12a")
             self.step("12b")
             group_table = await self.read_single_attribute_check_success(

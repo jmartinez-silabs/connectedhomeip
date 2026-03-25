@@ -132,6 +132,23 @@ class TC_CC_10_1(MatterBaseTest):
     @async_test_body
     async def setup_test(self):
         super().setup_test()
+
+    @async_test_body
+    async def teardown_test(self):
+        result = await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.ScenesManagement.Commands.RemoveAllScenes(self.kGroup1))
+        asserts.assert_equal(result.status, Status.Success, "Remove All Scenes failed on status")
+        asserts.assert_equal(result.groupID, self.kGroup1, "Remove All Scenes failed on groupID")
+        if self.groupcast_enabled:
+            await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
+        else:
+            await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
+        super().teardown_test()
+
+    @async_test_body
+    async def test_TC_CC_10_1(self):
+        cluster = Clusters.Objects.ColorControl
+        attributes = cluster.Attributes
+
         self.step("0")
 
         self.step("0a")
@@ -188,22 +205,6 @@ class TC_CC_10_1(MatterBaseTest):
         asserts.assert_equal(result.status, Status.Success, "Get Scene Membership failed on status")
         asserts.assert_equal(result.groupID, self.kGroup1, "Get Scene Membership failed on groupID")
         asserts.assert_equal(result.sceneList, [], "Get Scene Membership failed on sceneList")
-
-    @async_test_body
-    async def teardown_test(self):
-        result = await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.ScenesManagement.Commands.RemoveAllScenes(self.kGroup1))
-        asserts.assert_equal(result.status, Status.Success, "Remove All Scenes failed on status")
-        asserts.assert_equal(result.groupID, self.kGroup1, "Remove All Scenes failed on groupID")
-        if self.groupcast_enabled:
-            await self.TH1.SendCommand(self.dut_node_id, 0, Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
-        else:
-            await self.TH1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
-        super().teardown_test()
-
-    @async_test_body
-    async def test_TC_CC_10_1(self):
-        cluster = Clusters.Objects.ColorControl
-        attributes = cluster.Attributes
 
         self.step("1d")
         if self.pics_guard(self.check_pics("CC.S.F04")):
