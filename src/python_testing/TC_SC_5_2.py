@@ -223,8 +223,8 @@ class TC_SC_5_2(MatterBaseTest):
             on_off = await self.read_single_attribute_check_success(endpoint=groups_endpoint,
                                                                     cluster=Clusters.OnOff, attribute=Clusters.OnOff.Attributes.OnOff)
 
-            asserts.assert_false(on_off, "OnOff should be TRUE after group On command")
-            await dev_ctrl.SendCommand(0x0103, groups_endpoint, Clusters.OnOff.Commands.Off())
+            asserts.assert_true(on_off, "OnOff should be TRUE after group On command")
+            await dev_ctrl.SendCommand(node_id, groups_endpoint, Clusters.OnOff.Commands.Off())
 
         # Step 17: KeySetRemove
         self.step("17")
