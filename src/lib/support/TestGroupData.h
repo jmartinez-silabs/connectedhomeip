@@ -59,7 +59,8 @@ inline CHIP_ERROR InitData(chip::Credentials::GroupDataProvider * provider, chip
     ReturnErrorOnFailure(provider->SetGroupInfo(fabric_index, group2));
     ReturnErrorOnFailure(provider->AddEndpoint(fabric_index, group2.group_id, 0));
 
-    const chip::Credentials::GroupDataProvider::GroupInfo group3(kGroup3, "Group #3");
+    // Group #3 uses IANA address policy by setting the flag to 0
+    const chip::Credentials::GroupDataProvider::GroupInfo group3(kGroup3, "Group #3", 0 /*Flag 0 to use IANA address policy*/);
     ReturnErrorOnFailure(provider->SetGroupInfo(fabric_index, group3));
     ReturnErrorOnFailure(provider->AddEndpoint(fabric_index, group3.group_id, 0));
 
