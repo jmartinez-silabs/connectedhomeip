@@ -165,7 +165,7 @@ tests:
       disabled: true
 
     - label:
-          "Step 8: TH1 sends AddGroup with GroupID 1 (Group Name and Group-ID)
+          "Step 8: TH1 sends AddGroup with GroupID 1 (Group Name, Group-ID)
           Command to TH2 on Endpoint 1."
       verification: |
           Run this command for [ nRF52840-DK ]Thread device in chip-tool:

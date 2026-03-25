@@ -53,8 +53,8 @@ tests:
     - label:
           "Step 0b: If the Groupcast cluster is enabled on the RootNode
           endpoint, skip this step. Otherwise, TH binds GroupId 0x0001 with
-          GroupKeySetID 0x01a1 in the GroupKeyMap attribute list on
-          GroupKeyManagement cluster by writing the GroupKeyMap attribute with
+          GroupKeySetID 0x01a1 in the GroupKeyMap attribute of
+          GroupKeyManagement cluster, by writing the GroupKeyMap attribute with
           one entry as follows: List item 1: FabricIndex: 1 GroupId: 0x0001
           GroupKeySetId: 0x01a1"
       verification: |
@@ -132,7 +132,7 @@ tests:
           "Step 2: If the Groupcast cluster is enabled on the RootNode endpoint,
           the TH sends Groupcast JoinGroup command with GroupID, Endpoints, and
           KeySetID. Otherwise, TH sends AddGroup with the GroupID field set to
-          G1."
+          Group 1."
       PICS: G.S.C00.Rsp
       verification: |
           If the Groupcast cluster is enabled on the RootNode endpoint, the TH sends Groupcast JoinGroup command with GroupID, Endpoints, and KeySetID. Otherwise, TH sends AddGroup:

@@ -290,7 +290,7 @@ tests:
       disabled: true
 
     - label:
-          "Step 5: DUT sends ViewGroup command with GroupID 1 and GroupName to
+          "Step 5: DUT sends ViewGroup command with GroupID 1, and GroupName to
           the Group cluster on the TH on EP0"
       PICS: G.C.C01.Tx
       verification: |
