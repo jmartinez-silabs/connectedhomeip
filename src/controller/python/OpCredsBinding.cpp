@@ -669,9 +669,8 @@ PyChipError pychip_OpCreds_InitGroupTestingData(chip::Controller::DeviceCommissi
 }
 
 PyChipError pychip_OpCreds_SetKeySet(chip::Controller::DeviceCommissioner * devCtrl, uint16_t keysetId, uint8_t securityPolicy,
-                                     uint8_t numKeysUsed, const uint8_t * epochKey0, uint64_t startTime0,
-                                     const uint8_t * epochKey1, uint64_t startTime1, const uint8_t * epochKey2,
-                                     uint64_t startTime2)
+                                     uint8_t numKeysUsed, const uint8_t * epochKey0, uint64_t startTime0, const uint8_t * epochKey1,
+                                     uint64_t startTime1, const uint8_t * epochKey2, uint64_t startTime2)
 {
     VerifyOrReturnError(devCtrl != nullptr, ToPyChipError(CHIP_ERROR_INVALID_ARGUMENT));
     VerifyOrReturnError(numKeysUsed >= 1 && numKeysUsed <= 3, ToPyChipError(CHIP_ERROR_INVALID_ARGUMENT));
