@@ -194,6 +194,8 @@ class TC_SC_5_2(MatterBaseTest):
         if not is_groupcast_listener:
             self.mark_step_range_skipped("12", "16")
         else:
+            # update the controller GroupInfo for groupID 0x0103 to use IANA address policy
+            dev_ctrl.SetGroupInfo(0x0103, "Group #3", 0)
             # Step 12: LeaveGroup
             self.step("12")
             # Check if there are any groups on the DUT.
@@ -225,6 +227,9 @@ class TC_SC_5_2(MatterBaseTest):
 
             asserts.assert_true(on_off, "OnOff should be TRUE after group On command")
             await dev_ctrl.SendCommand(node_id, groups_endpoint, Clusters.OnOff.Commands.Off())
+
+            # restore the GroupInfo for groupID 0x0103 to use Per-Group address policy
+            dev_ctrl.SetGroupInfo(0x0103, "Group #3")
 
         # Step 17: KeySetRemove
         self.step("17")
