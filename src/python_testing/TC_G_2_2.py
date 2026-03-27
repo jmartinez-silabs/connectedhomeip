@@ -57,6 +57,7 @@ import secrets
 
 import matter.clusters as Clusters
 from matter.interaction_model import Status
+from matter.interaction_model import InteractionModelError
 from matter.testing.decorators import async_test_body
 from matter.testing.matter_testing import MatterBaseTest
 from matter.testing.runner import TestStep, default_matter_test_main
@@ -98,14 +99,17 @@ class TC_G_2_2(MatterBaseTest):
                 TestStep("22", "TH reads GroupTable attribute from the GroupKeyManagement cluster from DUT on EP0"),
                 TestStep("23", "TH sends AddGroup command to DUT as unicast with the following fields: GroupID as 0x0001, GroupName as Gp123456789123456 Note: GroupName length > 16"),
                 TestStep("24", "TH reads GroupTable attribute from the GroupKeyManagement cluster from DUT on EP0"),
-                TestStep("25", "TH sends AddGroup command to DUT on PIXIT.G.ENDPOINT as unicast with the following fields: GroupID as 0x0001, GroupName as "" (empty string)"),
-                TestStep("26", "TH sends ViewGroup command to DUT on PIXIT.G.ENDPOINT as unicast with the following fields: GroupID as 0x0001"),
+                TestStep("25", "If the cluster revision obtained at step 0 is less than 5, skip the remaining steps. Otherwise, TH removes any existing Group and KeySetID on the DUT."),
+                TestStep("26", "TH sends AddGroup command to DUT on PIXIT.G.ENDPOINT as unicast with the following fields: GroupID as 0x0001, GroupName as "" (empty string)"),
+                TestStep("27", "TH sends ViewGroup command to DUT on PIXIT.G.ENDPOINT as unicast with the following fields: GroupID as 0x0001"),
                 TestStep(
-                    "27", "TH sends Groupcast JoinGroup command to DUT on endpoint 0 with the following fields: GroupID as 0x0001, endpoints as [PIXIT.G.ENDPOINT], KeySetID as 0x01, Key as a random 16-byte value"),
+                    "28", "TH sends Groupcast JoinGroup command to DUT on endpoint 0 with the following fields: GroupID as 0x0001, endpoints as [PIXIT.G.ENDPOINT], KeySetID as 0x01, Key as a random 16-byte value"),
                 TestStep(
-                    "28", "TH sends a second Groupcast JoinGroup command to DUT on endpoint 0 with the following fields: GroupID as 0x0002, endpoints as [PIXIT.G.ENDPOINT], KeySetID as 0x01, omit Key field"),
-                TestStep("29", "TH sends RemoveGroup command to DUT on PIXIT.G.ENDPOINT as unicast with the following field: GroupID as 0x0001"),
-                TestStep("30", "TH sends RemoveAllGroups command to DUT on PIXIT.G.ENDPOINT as unicast method")]
+                    "29", "TH sends a second Groupcast JoinGroup command to DUT on endpoint 0 with the following fields: GroupID as 0x0002, endpoints as [PIXIT.G.ENDPOINT], KeySetID as 0x01, omit Key field"),
+                TestStep("30", "TH sends RemoveGroup command to DUT on PIXIT.G.ENDPOINT as unicast with the following field: GroupID as 0x0001"),
+                TestStep("31", "TH read the Groupcast membership attribute, there should be 1 entry with the GroupID 0x0002"),
+                TestStep("32", "TH sends RemoveAllGroups command to DUT on PIXIT.G.ENDPOINT as unicast method"),
+                TestStep("33", "TH read the Groupcast membership attribute, there should be no entries")]
 
     @async_test_body
     async def test_TC_G_2_2(self):
@@ -116,10 +120,8 @@ class TC_G_2_2(MatterBaseTest):
         self.step(0)
         th1 = self.default_controller
 
-        cluster_revision: int = await self.read_single_attribute(
-            dev_ctrl=th1, node_id=self.dut_node_id,
-            endpoint=0,
-            attribute=Clusters.Groups.Attributes.Revision)
+        cluster_revision = await self.read_single_attribute_check_success(
+            cluster=Clusters.Objects.Groups, attribute=Clusters.Groups.Attributes.ClusterRevision)
         if cluster_revision < 5:
             maxgroups: int = await self.read_single_attribute(
                 dev_ctrl=th1, node_id=self.dut_node_id,
@@ -340,37 +342,70 @@ class TC_G_2_2(MatterBaseTest):
             asserts.assert_true(all(entry.endpoint != self.matter_test_config.endpoint for entry in groupTableList),
                                 f"Unexpected group entries found for endpoint {self.matter_test_config.endpoint}: {groupTableList}")
             self.mark_all_remaining_steps_skipped()
+        # Cluster revision >= 5
         else:
-            self.mark_step_range_skipped("1", "24")
+            self.mark_step_range_skipped("1a", "24")
             kGroupId1 = 1
             kGroupId2 = 2
             kKeySetID = 1
             self.step("25")
-            result = await th1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.AddGroup(kGroupId, ""))
-            asserts.assert_equal(result.status, Status.InvalidState, "Unexpected error from AddGroupResponse")
+            # Cleanup any existing groups and KeySetID on the DUT.
+            membership = await self.read_single_attribute_check_success(endpoint=0, cluster=Clusters.Objects.Groupcast, attribute=Clusters.Groupcast.Attributes.Membership)
+            if membership:
+                # LeaveGroup with groupID 0 will leave all groups on the fabric.
+                await self.send_single_cmd(endpoint=0, cmd=Clusters.Groupcast.Commands.LeaveGroup(groupID=0))
+
+            # remove any existing KeySetID on the DUT, except KeySetId 0 (IPK).
+            resp: Clusters.GroupKeyManagement.Commands.KeySetReadAllIndicesResponse = await self.send_single_cmd(endpoint=0, cmd=Clusters.GroupKeyManagement.Commands.KeySetReadAllIndices())
+
+            read_group_key_ids: list[int] = resp.groupKeySetIDs
+            for key_set_id in read_group_key_ids:
+                if key_set_id != 0:
+                    await self.send_single_cmd(endpoint=0, cmd=Clusters.GroupKeyManagement.Commands.KeySetRemove(key_set_id))
+
             self.step("26")
-            result = await th1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.ViewGroup(kGroupId))
-            asserts.assert_equal(result.status, Status.InvalidState, "Unexpected error from ViewGroupResponse")
+            try:
+                await self.send_single_cmd(Clusters.Groups.Commands.AddGroup(kGroupId1, ""))
+                asserts.fail("AddGroup command should have failed with cluster revision 5+")
+            except InteractionModelError as e:
+                asserts.assert_equal(e.status, Status.InvalidInState, "AddGroup should fail with InvalidState error")
 
             self.step("27")
-            await self.send_single_cmd(Clusters.Groupcast.Commands.JoinGroup(
+            try:
+                await self.send_single_cmd(Clusters.Groups.Commands.ViewGroup(kGroupId1))
+                asserts.fail("ViewGroup command should have failed with cluster revision 5+")
+            except InteractionModelError as e:
+                asserts.assert_equal(e.status, Status.InvalidInState, "ViewGroup should fail with InvalidState error")
+
+            self.step("28")
+            await self.send_single_cmd(endpoint=0, node_id=self.dut_node_id, cmd=Clusters.Groupcast.Commands.JoinGroup(
                 groupID=kGroupId1,
                 endpoints=[self.matter_test_config.endpoint],
                 keySetID=kKeySetID,
                 key=secrets.token_bytes(16))
             )
-            self.step("28")
-            await self.send_single_cmd(Clusters.Groupcast.Commands.JoinGroup(
+
+            self.step("29")
+            await self.send_single_cmd(endpoint=0, node_id=self.dut_node_id, cmd=Clusters.Groupcast.Commands.JoinGroup(
                 groupID=kGroupId2,
                 endpoints=[self.matter_test_config.endpoint],
                 keySetID=kKeySetID)
             )
-            self.step("29")
-            result = await th1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveGroup(kGroupId))
-            asserts.assert_equal(result.status, Status.Success, "RemoveGroup failed")
+
             self.step("30")
-            result = await th1.SendCommand(self.dut_node_id, self.matter_test_config.endpoint, Clusters.Groups.Commands.RemoveAllGroups())
-            asserts.assert_equal(result.status, Status.Success, "RemoveAllGroups failed")
+            await self.send_single_cmd(Clusters.Groups.Commands.RemoveGroup(kGroupId1))
+            self.step("31")
+            membership = await self.read_single_attribute_check_success(endpoint=0, cluster=Clusters.Objects.Groupcast, attribute=Clusters.Groupcast.Attributes.Membership)
+            asserts.assert_true(len(membership) == 1, "Groupcast membership should contain only 1 entry")
+            asserts.assert_equal(membership[0].groupID, kGroupId2,
+                                 "Groupcast membership should contain only 1 entry with the GroupID 0x0002")
+            asserts.assert_equal(membership[0].endpoints, [self.matter_test_config.endpoint],
+                                 "Groupcast membership should contain only 1 entry with the endpoint PIXIT.G.ENDPOINT")
+            self.step("32")
+            await self.send_single_cmd(Clusters.Groups.Commands.RemoveAllGroups())
+            self.step("33")
+            membership = await self.read_single_attribute_check_success(endpoint=0, cluster=Clusters.Objects.Groupcast, attribute=Clusters.Groupcast.Attributes.Membership)
+            asserts.assert_true(len(membership) == 0, "Groupcast membership should be empty")
 
 
 if __name__ == "__main__":

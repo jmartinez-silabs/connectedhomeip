@@ -67,3 +67,7 @@
 
 // Max Binding entries per fabric for CI tests
 #define CHIP_CONFIG_MAX_BINDING_ENTRIES_PER_FABRIC 1
+
+// Temporary workaround to run StubbedGroupsCluster with CodegenClusterIntegration
+// While groupcast is codedriven. This is due to shared zap file for all cluster app.
+#define MATTER_DM_PLUGIN_GROUPCAST_SERVER 1
