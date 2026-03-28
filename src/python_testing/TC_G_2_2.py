@@ -50,14 +50,13 @@
 #     quiet: true
 # === END CI TEST ARGUMENTS ===
 
+import secrets
 from typing import List
 
 from mobly import asserts
-import secrets
 
 import matter.clusters as Clusters
-from matter.interaction_model import Status
-from matter.interaction_model import InteractionModelError
+from matter.interaction_model import InteractionModelError, Status
 from matter.testing.decorators import async_test_body
 from matter.testing.matter_testing import MatterBaseTest
 from matter.testing.runner import TestStep, default_matter_test_main
