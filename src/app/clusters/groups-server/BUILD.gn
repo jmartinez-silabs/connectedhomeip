@@ -18,7 +18,7 @@ source_set("groups-server") {
     "GroupsCluster.cpp",
     "GroupsCluster.h",
     "StubbedGroupsCluster.cpp",
-    "StubbedGroupsCluster.h"
+    "StubbedGroupsCluster.h",
   ]
 
   public_deps = [
