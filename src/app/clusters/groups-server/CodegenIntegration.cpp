@@ -19,7 +19,7 @@
 #include <data-model-providers/codegen/ClusterIntegration.h>
 #include <data-model-providers/codegen/CodegenDataModelProvider.h>
 
-#ifdef MATTER_DM_PLUGIN_GROUPCAST_SERVER
+#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
 #include <app/clusters/groups-server/StubbedGroupsCluster.h>
 #else
 #include <app/clusters/groups-server/GroupsCluster.h>
@@ -29,7 +29,7 @@
 #ifdef ZCL_USING_IDENTIFY_CLUSTER_SERVER
 #include <app/clusters/identify-server/CodegenIntegration.h> // nogncheck
 #endif
-#endif // MATTER_DM_PLUGIN_GROUPCAST_SERVER
+#endif // CHIP_CONFIG_ENABLE_GROUPCAST
 
 using namespace chip;
 using namespace chip::app;
@@ -41,7 +41,7 @@ namespace {
 constexpr size_t kGroupsFixedClusterCount = Groups::StaticApplicationConfig::kFixedClusterConfig.size();
 constexpr size_t kGroupsMaxClusterCount   = kGroupsFixedClusterCount + CHIP_DEVICE_CONFIG_DYNAMIC_ENDPOINT_COUNT;
 
-#ifdef MATTER_DM_PLUGIN_GROUPCAST_SERVER
+#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
 LazyRegisteredServerCluster<StubbedGroupsCluster> gServers[kGroupsMaxClusterCount];
 #else
 LazyRegisteredServerCluster<GroupsCluster> gServers[kGroupsMaxClusterCount];
@@ -56,7 +56,7 @@ public:
         Credentials::GroupDataProvider * groupDataProvider = Credentials::GetGroupDataProvider();
         VerifyOrDie(groupDataProvider != nullptr);
 
-#ifdef MATTER_DM_PLUGIN_GROUPCAST_SERVER
+#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
         gServers[clusterInstanceIndex].Create(endpointId,
                                               StubbedGroupsCluster::Context{
                                                   .groupDataProvider = *groupDataProvider,
@@ -65,7 +65,7 @@ public:
         gServers[clusterInstanceIndex].Create(endpointId,
                                               GroupsCluster::Context{
                                                   .groupDataProvider   = *groupDataProvider,
-#ifdef MATTER_DM_PLUGIN_SCENES_MANAGEMENT
+#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
                                                   .scenesIntegration   = ScenesManagement::FindClusterOnEndpoint(endpointId),
 #else
                                                   .scenesIntegration   = nullptr,
@@ -76,7 +76,7 @@ public:
                                                   .identifyIntegration = nullptr,
 #endif
                                               });
-#endif // MATTER_DM_PLUGIN_GROUPCAST_SERVER
+#endif // CHIP_CONFIG_ENABLE_GROUPCAST
         return gServers[clusterInstanceIndex].Registration();
     }
 
