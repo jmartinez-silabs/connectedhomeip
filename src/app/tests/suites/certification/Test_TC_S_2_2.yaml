@@ -160,8 +160,7 @@ tests:
                 value: G1
 
     - label:
-          "Step 1a: TH sends a JoinGroup command to DUT for G1 (Groupcast
-          path)."
+          "Step 1a: TH sends a JoinGroup command to DUT for G1 (Groupcast path)."
       runIf: hasGroupcast
       endpoint: 0
       cluster: "Groupcast"
