@@ -270,7 +270,7 @@ tests:
                 value: [endpoint]
               - name: "KeySetID"
                 value: 0x01a1
-              
+
 
     - label: "TH1 sends a AddGroup command to DUT for G2."
       runIf: noGroupcast
