@@ -31,7 +31,7 @@ config:
     GI:
         type: group_id
         defaultValue: 0x0099
-    HasGroupcast:
+    hasGroupcast:
         type: boolean
         defaultValue: false
 tests:
@@ -52,43 +52,19 @@ tests:
               - name: "SceneTableSize"
                 saveAs: maxScenes
 
-    - label:
-          "Read Groupcast ClusterRevision on RootNode endpoint to detect
-          presence"
-      cluster: "Groupcast"
-      endpoint: 0
-      command: "readAttribute"
-      attribute: "ClusterRevision"
-      response:
-          saveAs: GroupcastRevision
-
-    - label: "Set HasGroupcast flag (Groupcast cluster is present)"
-      cluster: "EqualityCommands"
-      command: "UnsignedNumberEquals"
-      arguments:
-          values:
-              - name: "GroupcastRevision"
-                value: GroupcastRevision
-              - name: "Value2"
-                value: 1
-      response:
-          - values:
-                - name: "Equals"
-                  saveAs: HasGroupcast
-
-    - label: "Set NoGroupcast flag (legacy Groups path not needed)"
+    - label: "Set noGroupcast flag"
       cluster: "EqualityCommands"
       command: "BooleanEquals"
       arguments:
           values:
               - name: "Value1"
-                value: HasGroupcast
+                value: hasGroupcast
               - name: "Value2"
                 value: false
       response:
           - values:
                 - name: "Equals"
-                  saveAs: NoGroupcast
+                  saveAs: noGroupcast
 
     - label:
           "Step 0a: TH sends KeySetWrite command in the GroupKeyManagement
@@ -148,7 +124,7 @@ tests:
           GroupKeyMap attribute list on GroupKeyManagement cluster by writing
           the GroupKeyMap attribute with one entry as follows: List item 1:
           1)FabricIndex: 1 2)GroupId :_G1_ 3)GroupKeySetId: 0x01a1"
-      runIf: NoGroupcast
+      runIf: noGroupcast
       cluster: "Group Key Management"
       endpoint: 0
       command: "writeAttribute"
@@ -163,7 +139,7 @@ tests:
     - label:
           "Step 1a: TH sends a AddGroup command to DUT with the GroupID field
           set to G1 (legacy path)."
-      runIf: NoGroupcast
+      runIf: noGroupcast
       PICS: G.S.C00.Rsp
       cluster: "Groups"
       command: "AddGroup"
@@ -183,7 +159,7 @@ tests:
     - label:
           "Step 1a: TH sends Groupcast JoinGroup with GroupID G1 (Groupcast
           path)."
-      runIf: HasGroupcast
+      runIf: hasGroupcast
       cluster: "Groupcast"
       endpoint: 0
       command: "JoinGroup"
@@ -199,7 +175,7 @@ tests:
     - label:
           "Step 1b: TH sends a AddGroup command to DUT with the GroupID field
           set to G2 (legacy path)."
-      runIf: NoGroupcast
+      runIf: noGroupcast
       PICS: G.S.C00.Rsp
       cluster: "Groups"
       command: "AddGroup"
@@ -219,7 +195,7 @@ tests:
     - label:
           "Step 1b: TH sends Groupcast JoinGroup with GroupID G2 (Groupcast
           path)."
-      runIf: HasGroupcast
+      runIf: hasGroupcast
       cluster: "Groupcast"
       endpoint: 0
       command: "JoinGroup"
