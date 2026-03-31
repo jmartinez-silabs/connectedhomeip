@@ -224,6 +224,7 @@ tests:
                     }
 
     - label: "Preparation step TH1 Map KeySets to GroupId."
+      runIf: noGroupcast
       cluster: "Group Key Management"
       endpoint: 0
       command: "writeAttribute"
@@ -325,6 +326,7 @@ tests:
 
     - label: "Preparation step TH1 Map KeySets to GroupId."
       identity: "beta"
+      runIf: noGroupcast
       cluster: "Group Key Management"
       endpoint: 0
       command: "writeAttribute"

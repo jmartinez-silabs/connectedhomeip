@@ -146,6 +146,7 @@ tests:
                     }
 
     - label: "Preparation step for using the Write Group Keys command."
+      runIf: hasGroupcast
       cluster: "Group Key Management"
       endpoint: 0
       command: "writeAttribute"

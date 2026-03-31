@@ -154,6 +154,7 @@ tests:
                     }
 
     - label: "TH1 Map KeySets to GroupId."
+      runIf: noGroupcast
       cluster: "Group Key Management"
       endpoint: 0
       command: "writeAttribute"

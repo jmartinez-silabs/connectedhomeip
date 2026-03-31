@@ -33,7 +33,7 @@ config:
         defaultValue: 0x0099
     hasGroupcast:
         type: boolean
-        defaultValue: false
+        defaultValue: true
 tests:
     - label: "Wait for the commissioned device to be retrieved"
       cluster: "DelayCommands"
@@ -116,6 +116,8 @@ tests:
                         EpochStartTime0: 2220000,
                         EpochKey1: "\xe0\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xeb\xec\xed\xee\xef",
                         EpochStartTime1: 2220001,
+                        EpochKey2: null,
+                        EpochStartTime2: null,
                         GroupKeyMulticastPolicy: 0,
                     }
 
@@ -171,6 +173,8 @@ tests:
                 value: [1]
               - name: "KeySetID"
                 value: 0x01a1
+              - name: "McastAddrPolicy"
+                value: 1
 
     - label:
           "Step 1b: TH sends a AddGroup command to DUT with the GroupID field
@@ -207,6 +211,8 @@ tests:
                 value: [1]
               - name: "KeySetID"
                 value: 0x01a2
+              - name: "McastAddrPolicy"
+                value: 1
 
     - label: "Step 1c: Install ACLs"
       cluster: "Access Control"

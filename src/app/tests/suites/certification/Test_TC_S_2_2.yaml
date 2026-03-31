@@ -122,6 +122,7 @@ tests:
           0x01a1 in the GroupKeyMap attribute list on GroupKeyManagement cluster
           by writing the GroupKeyMap attribute with two entries as follows:"
       cluster: "Group Key Management"
+      runIf: noGroupcast
       endpoint: 0
       command: "writeAttribute"
       attribute: "GroupKeyMap"

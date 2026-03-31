@@ -19,7 +19,7 @@
 #include <data-model-providers/codegen/ClusterIntegration.h>
 #include <data-model-providers/codegen/CodegenDataModelProvider.h>
 
-#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
+#if CHIP_CONFIG_ENABLE_GROUPCAST
 #include <app/clusters/groups-server/StubbedGroupsCluster.h>
 #else
 #include <app/clusters/groups-server/GroupsCluster.h>
@@ -41,7 +41,7 @@ namespace {
 constexpr size_t kGroupsFixedClusterCount = Groups::StaticApplicationConfig::kFixedClusterConfig.size();
 constexpr size_t kGroupsMaxClusterCount   = kGroupsFixedClusterCount + CHIP_DEVICE_CONFIG_DYNAMIC_ENDPOINT_COUNT;
 
-#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
+#if CHIP_CONFIG_ENABLE_GROUPCAST
 LazyRegisteredServerCluster<StubbedGroupsCluster> gServers[kGroupsMaxClusterCount];
 #else
 LazyRegisteredServerCluster<GroupsCluster> gServers[kGroupsMaxClusterCount];
@@ -56,7 +56,7 @@ public:
         Credentials::GroupDataProvider * groupDataProvider = Credentials::GetGroupDataProvider();
         VerifyOrDie(groupDataProvider != nullptr);
 
-#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
+#if CHIP_CONFIG_ENABLE_GROUPCAST
         gServers[clusterInstanceIndex].Create(endpointId,
                                               StubbedGroupsCluster::Context{
                                                   .groupDataProvider = *groupDataProvider,
@@ -65,7 +65,7 @@ public:
         gServers[clusterInstanceIndex].Create(endpointId,
                                               GroupsCluster::Context{
                                                   .groupDataProvider   = *groupDataProvider,
-#ifdef CHIP_CONFIG_ENABLE_GROUPCAST
+#ifdef MATTER_DM_PLUGIN_SCENES_MANAGEMENT
                                                   .scenesIntegration   = ScenesManagement::FindClusterOnEndpoint(endpointId),
 #else
                                                   .scenesIntegration   = nullptr,
