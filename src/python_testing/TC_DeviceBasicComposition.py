@@ -342,7 +342,7 @@ class TC_DeviceBasicComposition(BasicCompositionTests):
                 self.fail_current_test()
 
         self.print_step(6, "Verify that the specification version is 1.6 or above for the next steps")
-        specification_version = self.endpoints[0][Clusters.BasicInformation][Clusters.BasicInformation.Attributes.SpecificationVersion]
+        specification_version = root[Clusters.BasicInformation].get(Clusters.BasicInformation.Attributes.SpecificationVersion, 0)
         if specification_version >= 0x01060000:
             groupcast_feature_map = 0
             if Clusters.Groupcast in root:
