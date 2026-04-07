@@ -346,7 +346,7 @@ if (CONFIG_ICD_MAX_NOTIFICATION_SUBSCRIBERS)
 endif()
 
 if (CONFIG_CHIP_ENABLE_GROUPCAST)
-chip_gn_arg_bool("chip_enable_groupcast" CONFIG_CHIP_ENABLE_GROUPCAST)
+chip_gn_arg_bool("chip_config_enable_groupcast" CONFIG_CHIP_ENABLE_GROUPCAST)
 endif()
 
 set(args_gn_input "${CMAKE_CURRENT_BINARY_DIR}/args.gn.in")
