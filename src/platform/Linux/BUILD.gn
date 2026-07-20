@@ -19,6 +19,7 @@ import("${build_root}/config/linux/pkg_config.gni")
 
 import("${chip_root}/src/inet/inet.gni")
 import("${chip_root}/src/lib/core/core.gni")
+import("${chip_root}/src/lib/dnssd/wifi_srp.gni")
 import("${chip_root}/src/platform/device.gni")
 
 import("${chip_root}/src/crypto/crypto.gni")
@@ -246,6 +247,10 @@ static_library("Linux") {
         "DnssdImpl.cpp",
         "DnssdImpl.h",
       ]
+
+      if (chip_enable_wifi_srp_client) {
+        sources += [ "InfraDiscovery.cpp" ]
+      }
 
       deps += [ "${chip_root}/src/lib/dnssd:platform_header" ]
 

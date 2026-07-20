@@ -30,6 +30,7 @@ executable("matter-network-manager-app") {
     "${chip_root}/examples/network-manager-app/network-manager-common",
     "${chip_root}/examples/platform/linux:app-main",
     "${chip_root}/src/lib",
+    "${chip_root}/src/lib/dnssd",
   ]
 
   libs = []

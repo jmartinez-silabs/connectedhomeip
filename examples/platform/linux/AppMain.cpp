@@ -25,6 +25,14 @@
 #include <app/clusters/network-commissioning/network-commissioning.h>
 #include <app/server/Dnssd.h>
 #include <app/server/Server.h>
+
+#ifndef CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT 0
+#endif
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+#include <lib/dnssd/InfraDnssd.h>
+#include <lib/dnssd/platform/InfraDiscovery.h>
+#endif
 #include <app/util/endpoint-config-api.h>
 #include <crypto/CHIPCryptoPAL.h>
 #include <data-model-providers/codegen/Instance.h>
@@ -352,6 +360,42 @@ void EventHandler(const DeviceLayer::ChipDeviceEvent * event, intptr_t arg)
         app::DnssdServer::Instance().StartServer();
     }
 }
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+class LoggingInfraProviderDelegate : public Dnssd::InfraProviderDelegate
+{
+public:
+    void OnInfraProviderAvailable(const Dnssd::InfraProvider & provider) override
+    {
+        char addr[Inet::IPAddress::kMaxStringLength] = {};
+        provider.address.ToString(addr);
+        ChipLogProgress(Discovery, "Infra SRP provider available: %s:%u (type %u)", addr, provider.port,
+                        static_cast<unsigned>(provider.type));
+    }
+
+    void OnInfraProviderLost() override { ChipLogProgress(Discovery, "Infra SRP provider lost"); }
+};
+
+LoggingInfraProviderDelegate gInfraProviderDelegate;
+
+void StartInfraSrpClient()
+{
+    auto & manager = Dnssd::InfraDnssdManager::Instance();
+    manager.SetEndPointManager(DeviceLayer::UDPEndPointManager());
+    manager.SetStorage(&Server::GetInstance().GetPersistentStorage());
+    // A stable single-label host name for the SRP registration.
+    LogErrorOnFailure(manager.SetHostLabel("matter-srp-client"));
+    CHIP_ERROR err = manager.Init(&gInfraProviderDelegate);
+    if (err != CHIP_NO_ERROR)
+    {
+        ChipLogError(Discovery, "Infra SRP client init failed: %" CHIP_ERROR_FORMAT, err.Format());
+        return;
+    }
+    LogErrorOnFailure(Dnssd::ChipInfraDiscoveryStartRaListener());
+    LogErrorOnFailure(Dnssd::ChipInfraDiscoveryStartAdHocBrowse());
+    ChipLogProgress(Discovery, "Infra SRP client started (provider discovery active)");
+}
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
 
 void StopMainEventLoop()
 {
@@ -1044,6 +1088,10 @@ void ChipLinuxAppMainLoop(chip::ServerInitParams & initParams, AppMainLoopImplem
 #endif // CHIP_DEVICE_CONFIG_ENABLE_BOTH_COMMISSIONER_AND_COMMISSIONEE
 
     InitNetworkCommissioning();
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+    StartInfraSrpClient();
+#endif
 
     ApplicationInit();
 

@@ -32,6 +32,11 @@
 #include <platform/internal/CHIPDeviceLayerInternal.h>
 #include <system/SystemLayer.h>
 
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+#include <lib/dnssd/InfraDnssd.h>
+#include <lib/dnssd/SrpUnicastResolver.h>
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+
 using chip::Dnssd::DnssdServiceProtocol;
 using chip::Dnssd::kDnssdTypeMaxSize;
 using chip::Dnssd::TextEntry;
@@ -1081,6 +1086,25 @@ CHIP_ERROR ChipDnssdPublishService(const DnssdService * service, DnssdPublishCal
 {
     VerifyOrReturnError(service != nullptr, CHIP_ERROR_INVALID_ARGUMENT);
     VerifyOrReturnError(callback != nullptr, CHIP_ERROR_INVALID_ARGUMENT);
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+    // Route through SRP when an infrastructure provider is available; fall back
+    // to the Avahi mDNS path on failure or when no provider is known.
+    if (InfraDnssdManager::Instance().HasProvider())
+    {
+        CHIP_ERROR srpErr = InfraDnssdManager::Instance().RegisterService(*service);
+        if (srpErr == CHIP_NO_ERROR)
+        {
+            callback(context, service->mType, service->mName, CHIP_NO_ERROR);
+            return CHIP_NO_ERROR;
+        }
+        if (srpErr != CHIP_ERROR_NOT_CONNECTED)
+        {
+            ChipLogError(Discovery, "SRP publish failed (%" CHIP_ERROR_FORMAT "), falling back to mDNS", srpErr.Format());
+        }
+    }
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+
     if (strcmp(service->mHostName, "") != 0)
     {
         ReturnErrorOnFailure(MdnsAvahi::GetInstance().SetHostname(service->mHostName));
@@ -1091,11 +1115,26 @@ CHIP_ERROR ChipDnssdPublishService(const DnssdService * service, DnssdPublishCal
 
 CHIP_ERROR ChipDnssdRemoveServices()
 {
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+    if (InfraDnssdManager::Instance().HasProvider())
+    {
+        // Best-effort: queue SRP removal, then also clear the mDNS advertiser.
+        (void) InfraDnssdManager::Instance().RemoveAllServices();
+    }
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+
     return MdnsAvahi::GetInstance().StopPublish();
 }
 
 CHIP_ERROR ChipDnssdFinalizeServiceUpdate()
 {
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+    if (InfraDnssdManager::Instance().HasProvider())
+    {
+        return InfraDnssdManager::Instance().FinalizeServiceUpdate();
+    }
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+
     return CHIP_NO_ERROR;
 }
 
@@ -1130,6 +1169,24 @@ CHIP_ERROR ChipDnssdReconfirmRecord(const char * hostname, chip::Inet::IPAddress
 {
     return CHIP_ERROR_NOT_IMPLEMENTED;
 }
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
+CHIP_ERROR ChipDnssdUnicastBrowse(const char * type, DnssdServiceProtocol protocol, chip::Inet::IPAddressType addressType,
+                                  chip::Inet::InterfaceId interface, chip::Inet::IPAddress serverAddress, uint16_t serverPort,
+                                  DnssdBrowseCallback callback, void * context)
+{
+    return Srp::UnicastBrowse(DeviceLayer::UDPEndPointManager(), type, protocol, addressType, interface, serverAddress,
+                              serverPort, callback, context);
+}
+
+CHIP_ERROR ChipDnssdUnicastResolve(DnssdService * browseResult, chip::Inet::InterfaceId interface,
+                                   chip::Inet::IPAddress serverAddress, uint16_t serverPort, DnssdResolveCallback callback,
+                                   void * context)
+{
+    return Srp::UnicastResolve(DeviceLayer::UDPEndPointManager(), browseResult, interface, serverAddress, serverPort, callback,
+                               context);
+}
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT
 
 } // namespace Dnssd
 } // namespace chip

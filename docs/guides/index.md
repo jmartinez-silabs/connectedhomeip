@@ -22,3 +22,4 @@ and features.
 -   [Matter IDL tooling and validation](./matter_idl_tooling.md)
 -   [Writing clusters](./writing_clusters.md)
 -   [Migrating to code-driven clusters](./migrating_ember_cluster_to_code_driven.md)
+-   [Wi-Fi/Ethernet SRP infrastructure DNS-SD](./wifi_srp_infrastructure_dnssd.md)

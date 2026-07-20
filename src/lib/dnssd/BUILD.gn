@@ -13,7 +13,20 @@
 # limitations under the License.
 
 import("//build_overrides/chip.gni")
+import("${chip_root}/src/lib/dnssd/wifi_srp.gni")
 import("${chip_root}/src/platform/device.gni")
+
+# Public config so dependents (platform DnssdImpl, tests, examples) see the same
+# feature defines as the dnssd library itself.
+config("wifi_srp_config") {
+  defines = []
+  if (chip_enable_wifi_srp_client) {
+    defines += [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_CLIENT=1" ]
+  }
+  if (chip_enable_wifi_srp_server) {
+    defines += [ "CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER=1" ]
+  }
+}
 
 source_set("constants") {
   sources = [ "Constants.h" ]
@@ -45,6 +58,7 @@ source_set("platform_header") {
     "platform/Dnssd.h",
     "platform/DnssdBrowseDelegate.h",
   ]
+  public_configs = [ ":wifi_srp_config" ]
   public_deps = [
     ":constants",
     ":naming",
@@ -55,6 +69,8 @@ source_set("platform_header") {
 }
 
 static_library("dnssd") {
+  public_configs = [ ":wifi_srp_config" ]
+
   public_deps = [
     ":constants",
     ":platform_header",
@@ -71,10 +87,6 @@ static_library("dnssd") {
     "Advertiser.h",
     "IPAddressSorter.cpp",
     "IPAddressSorter.h",
-    "InfraDnssd.cpp",
-    "InfraDnssd.h",
-    "InfraDnssdServer.cpp",
-    "InfraDnssdServer.h",
     "Resolver.cpp",
     "Resolver.h",
     "ResolverProxy.cpp",
@@ -82,6 +94,40 @@ static_library("dnssd") {
     "TxtFields.cpp",
     "TxtFields.h",
   ]
+
+  # Infrastructure DNS-SD / SRP support. The DNS message codec and SRP key
+  # management are shared; the client manager and the server implementation are
+  # gated on their respective flags.
+  if (wifi_srp_enabled) {
+    sources += [
+      "SrpDnsMessage.cpp",
+      "SrpDnsMessage.h",
+      "SrpKeyPair.cpp",
+      "SrpKeyPair.h",
+      "SrpUpdate.cpp",
+      "SrpUpdate.h",
+    ]
+    public_deps += [ "${chip_root}/src/inet" ]
+  }
+
+  if (chip_enable_wifi_srp_client) {
+    sources += [
+      "InfraDnssd.cpp",
+      "InfraDnssd.h",
+      "SrpUnicastResolver.cpp",
+      "SrpUnicastResolver.h",
+      "platform/InfraDiscovery.h",
+    ]
+  }
+
+  if (chip_enable_wifi_srp_server) {
+    sources += [
+      "InfraDnssdServer.cpp",
+      "InfraDnssdServer.h",
+      "InfraDnssdServerImpl.cpp",
+      "InfraDnssdServerImpl.h",
+    ]
+  }
 
   assert(
       chip_mdns == "none" || chip_mdns == "minimal" || chip_mdns == "platform",

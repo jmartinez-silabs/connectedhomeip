@@ -36,11 +36,53 @@
 #include "ThreadBRFake.h"
 #endif
 
+#ifndef CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER
+#define CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER 0
+#endif
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER
+#include <lib/dnssd/InfraDnssdServer.h>
+#include <lib/dnssd/InfraDnssdServerImpl.h>
+#include <lib/support/logging/CHIPLogging.h>
+#include <platform/CHIPDeviceLayer.h>
+#endif
+
 #include <optional>
 
 using namespace chip;
 using namespace chip::app;
 using namespace chip::app::Clusters;
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER
+namespace {
+
+// High port so the NIM app does not need root privileges to bind (DNS port 53
+// would). Clients learn the port from the infrastructure provider record.
+constexpr uint16_t kSrpServerListenPort = 53538;
+
+class LoggingSrpServerDelegate : public Dnssd::InfraDnssdServerDelegate
+{
+public:
+    void OnServiceRegistered(const Inet::IPAddress & clientAddress, const char * hostName, const char * instanceName,
+                             const char * serviceType, uint16_t port) override
+    {
+        char addr[Inet::IPAddress::kMaxStringLength] = {};
+        clientAddress.ToString(addr);
+        ChipLogProgress(AppServer, "SRP server: registered %s (%s) host %s port %u from %s", instanceName, serviceType,
+                        hostName, port, addr);
+    }
+
+    void OnServiceRemoved(const char * instanceName, const char * serviceType) override
+    {
+        ChipLogProgress(AppServer, "SRP server: removed %s (%s)", instanceName, serviceType);
+    }
+};
+
+LoggingSrpServerDelegate gSrpServerDelegate;
+Dnssd::InfraDnssdServerImpl gInfraDnssdServer;
+
+} // namespace
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER
 
 ByteSpan ByteSpanFromCharSpan(CharSpan span)
 {
@@ -111,10 +153,36 @@ void ApplicationInit()
 {
     TEMPORARY_RETURN_IGNORED gWiFiNetworkManagementServer->SetNetworkCredentials(ByteSpanFromCharSpan("MatterAP"_span),
                                                                                  ByteSpanFromCharSpan("Setec Astronomy"_span));
+
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER
+    gInfraDnssdServer.SetEndPointManager(DeviceLayer::UDPEndPointManager());
+    gInfraDnssdServer.EnableAdvertisingProxy(true);
+    Dnssd::InfraDnssdServer::SetInstance(gInfraDnssdServer);
+    if (gInfraDnssdServer.Init(&gSrpServerDelegate) != CHIP_NO_ERROR)
+    {
+        ChipLogError(AppServer, "Failed to initialize Infra SRP server");
+    }
+    else
+    {
+        CHIP_ERROR srpErr = gInfraDnssdServer.Start(kSrpServerListenPort);
+        if (srpErr == CHIP_NO_ERROR)
+        {
+            (void) gInfraDnssdServer.SetAdvertiseInfraFlag(true);
+            ChipLogProgress(AppServer, "Infra SRP server (NIM) listening on UDP port %u", kSrpServerListenPort);
+        }
+        else
+        {
+            ChipLogError(AppServer, "Failed to start Infra SRP server: %" CHIP_ERROR_FORMAT, srpErr.Format());
+        }
+    }
+#endif // CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER
 }
 
 void ApplicationShutdown()
 {
+#if CHIP_DEVICE_CONFIG_ENABLE_WIFI_SRP_SERVER
+    gInfraDnssdServer.Shutdown();
+#endif
 #if MATTER_ENABLE_UBUS
     gUbusManager.Shutdown();
 #endif
